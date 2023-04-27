@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Euler0525 的 RSS 文章阅读器">
+    <title>RSS 阅读器 · Euler0525</title>
+    <link rel="shortcut icon" href="./assets/img/logo.ico">
+    <link rel="stylesheet" href="./assets/css/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/rss.css">
+</head>
+
+<body>
+    <header class="reader-header">
+        <a class="brand" href="./index.html" aria-label="返回导航首页">
+            <img src="./assets/img/Euler0525.png" alt="" width="38" height="38">
+            <span>RSS Reader</span>
+        </a>
+
+        <label class="search-box" for="article-search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input id="article-search" type="search" placeholder="搜索文章、作者或订阅源" autocomplete="off">
+        </label>
+
+        <nav class="header-actions" aria-label="页面导航">
+            <a href="./index.html" aria-label="返回导航首页" title="返回导航首页">
+                <i class="fa fa-compass" aria-hidden="true"></i>
+            </a>
+            <button id="sidebar-toggle" type="button" aria-label="折叠订阅源侧栏"
+                aria-controls="source-list" aria-expanded="true" title="折叠订阅源侧栏">
+                <i class="fa fa-outdent" aria-hidden="true"></i>
+            </button>
+            <button id="theme-toggle" type="button" aria-label="切换深浅色主题" title="切换主题">
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main class="reader-layout">
+        <aside class="sources-panel">
+            <div class="panel-heading">
+                <span>订阅源</span>
+                <strong id="feed-count">—</strong>
+            </div>
+            <nav id="source-list" class="source-list" aria-label="RSS 订阅源">
+                <div class="panel-loading">正在读取订阅源…</div>
+            </nav>
+            <div class="sources-footer">
+                <div class="sources-actions">
+                    <a href="./Fluent_Reader_Export.opml" download>
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        下载 OPML
+                    </a>
+                    <a href="https://github.com/Euler0525/euler0525.github.io/actions/workflows/update-rss.yml"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                        手动更新
+                    </a>
+                </div>
+                <span id="updated-at">等待更新</span>
+            </div>
+        </aside>
+
+        <section class="articles-panel" aria-labelledby="article-list-title">
+            <div class="panel-heading article-heading">
+                <div>
+                    <h1 id="article-list-title">全部文章</h1>
+                    <span id="article-count">—</span>
+                </div>
+            </div>
+
+            <div id="article-list" class="article-list" aria-live="polite" aria-busy="true">
+                <div class="article-loading">
+                    <span></span>
+                    <p>正在载入文章…</p>
+                </div>
+            </div>
+
+            <div id="empty-state" class="state-message" hidden>
+                <i class="fa fa-inbox" aria-hidden="true"></i>
+                <h2>暂无文章</h2>
+                <p>换一个订阅源或搜索词试试。</p>
+            </div>
+
+            <div id="error-state" class="state-message" hidden>
+                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                <h2>文章数据尚未就绪</h2>
+                <p>推送代码后运行“Update RSS articles”流程即可生成文章。</p>
+            </div>
+        </section>
+
+        <article id="reading-panel" class="reading-panel" aria-live="polite">
+            <div id="reader-placeholder" class="reader-placeholder">
+                <div class="placeholder-mark">
+                    <i class="fa fa-rss" aria-hidden="true"></i>
+                </div>
+                <h2>选择一篇文章开始阅读</h2>
+                <p>文章内容会显示在这里，你也可以前往原网站阅读完整版本。</p>
+            </div>
+
+            <div id="reader-content" class="reader-content" hidden>
+                <button id="reader-close" class="reader-close" type="button" aria-label="返回文章列表">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                </button>
+                <header class="article-header">
+                    <p id="reader-source" class="reader-source"></p>
+                    <h2 id="reader-title"></h2>
+                    <div id="reader-meta" class="reader-meta"></div>
+                    <a id="reader-original" class="original-link" target="_blank" rel="noopener noreferrer">
+                        阅读原文
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </a>
+                </header>
+                <div id="reader-body" class="reader-body"></div>
+            </div>
+        </article>
+    </main>
+
+    <div id="source-backdrop" class="source-backdrop"></div>
+    <script src="./assets/js/rss.js"></script>
+</body>
+
+</html>
