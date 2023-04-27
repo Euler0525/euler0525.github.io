@@ -1,0 +1,1804 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <script>
+        document.oncontextmenu = new Function("event.returnValue=false;");
+        document.onselectstart = new Function("event.returnValue=false;");
+
+        windows.onkeydown = function (e) {
+            var ctrlKey = e.ctrlKey || e.metaKey;
+            if (ctrlKey) {
+                e.preventDefault();
+            }
+        }
+
+        document.onkeydown = function () {
+            if (windows.event) {
+                event.returnValue = false;
+                return false;
+            }
+        }
+
+        if (window.location.href.indexOf("view-source:") > -1) {
+            window.location.href = "https://euler0525.github.io";
+        }
+    </script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+    </script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-8550836177608334",
+            enable_page_level_ads: true
+        });
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?c05bb16ea908292af9f6c513087a1cc3";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="viggo" />
+    <title>Navigation</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="./assets/img/logo.ico">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css">
+    <link rel="stylesheet" href="../assets/css/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/xenon-core.css">
+    <link rel="stylesheet" href="../assets/css/xenon-components.css">
+    <link rel="stylesheet" href="../assets/css/xenon-skins.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <script src="../assets/js/jquery-1.11.1.min.js"></script>
+
+    <!-- Search Engine -->
+    <style>
+        .search-form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+        }
+
+        .search-input {
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .search-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body class="page-body">
+    <!-- skin-white -->
+    <div class="page-container">
+        <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="index.html" class="logo-expanded">
+                            <img src="../assets/img/Euler0525.png" class="lozad img-circle" width="60%" alt="" />
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="#" data-toggle="user-info-menu">
+                            <i class="linecons-cog"></i>
+                        </a>
+                        <a href="#" data-toggle="mobile-menu">
+                            <i class="fa-bars"></i>
+                        </a>
+                    </div>
+                </header>
+                <ul id="main-menu" class="main-menu">
+                    <li>
+                        <a href="https://newsnow.busiyi.world/">
+                            <i class="linecons-eye"></i>
+                            <span class="tooltip-blue">NewsNow</span>
+                            <!-- <span class="label label-Primary pull-right hidden-collapsed">♥︎</span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Euler0525" class="smooth">
+                            <i class="linecons-user"></i>
+                            <span class="title">Euler0525</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#BIT" class="smooth">
+                            <i class="linecons-graduation-cap"></i>
+                            <span class="title">BIT</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="linecons-diamond"></i>
+                            <span class="title">工具</span>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#在线工具" class="smooth">
+                                    <span class="title">在线工具</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#论文工具" class="smooth">
+                                    <span class="title">论文工具</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="linecons-thumbs-up"></i>
+                            <span class="title">素材资源</span>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#学习资料" class="smooth">
+                                    <span class="title">学习资料</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#设计素材" class="smooth">
+                                    <span class="title">设计素材</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>
+                            <i class="linecons-heart"></i>
+                            <span class="title">传统文化</span>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#CCTV" class="smooth">
+                                    <span class="title">CCTV</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#戏曲" class="smooth">
+                                    <span class="title">戏曲</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <nav class="navbar user-info-navbar" role="navigation">
+                <!-- User Info, Notifications and Menu Bar -->
+                <!-- Left links for user info navbar -->
+                <ul class="user-info-menu left-links list-inline list-unstyled">
+                    <li class="hidden-sm hidden-xs">
+                        <a href="#" data-toggle="sidebar">
+                            <i class="fa-bars"></i>
+                        </a>
+                    </li>
+                    <li class="dropdown hover-line language-switcher">
+                        <form id="searchForm" action="https://metaso.cn/" method="get">
+                            <input class="search-input" type="text" name="q" placeholder="秘塔搜索...">
+                            <input class="search-button" type="submit" value="搜索">
+                        </form>
+                    </li>
+                    <li class="dropdown hover-line language-switcher">
+                        <form id="searchForm" action="https://lumina.sh/c5bbe32b-4fb7-476a-81aa-fe269f67f283/search"
+                            method="get">
+                            <input class="search-input" type="text" name="query" placeholder="Lumina...">
+                            <input class="search-button" type="submit" value="Search">
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <!-- BEGIN Euler0525 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="Euler0525"></i>Euler0525</h4>
+            <div class="row">
+                <!-- Blogs -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://euler0525.github.io/blogs/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="euler0525.github.io/blogs">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://euler0525.github.io/blogs/img/favicon.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>博客</strong>
+                                </a>
+                                <p class="overflowClip_2">基于Hexo搭建的博客.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Wiki -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://euler0525.github.io/wiki/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="euler0525.github.io/wiki">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.mkdocs.org/img/favicon.ico" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title=""
+                                data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Wiki</strong>
+                                </a>
+                                <p class="overflowClip_2">基于MkDocs搭建的Wiki.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- GitHub -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://github.com/Euler0525', '_blank' )" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="github.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>GitHub</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 订阅号 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token=1474309433', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title="" data-original-title="mp.weixin.qq.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://res.wx.qq.com/a/fed_upload/9300e7ac-cec5-4454-b75c-f92260dd5b47/logo-mp.ico"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title=""
+                                data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>订阅号</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Bilibili -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://space.bilibili.com/1119602532?spm_id_from=333.1007.0.0', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title="" data-original-title="www.bilibili.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Bilibili</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- LeetCode -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://leetcode.cn/problemset/all/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="leetcode.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title=""
+                                data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>LeetCode</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 极客时间 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://time.geekbang.org/dashboard/usercenter', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title="" data-original-title="time.geekbang.org">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://static001.geekbang.org/static/time/icon/apple-touch-icon.jpg"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title=""
+                                data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>极客时间</strong>
+                                </a>
+                                <p class="overflowClip_2">面向IT领域的知识服务产品.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Zhihu -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.zhihu.com/people/euler0525', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.zhihu.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.81060cab.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>知乎</strong>
+                                </a>
+                                <p class="overflowClip_2">有问题，就会有答案.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 小红书 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.xiaohongshu.com/user/profile/6491b2ce000000000f004a28?tab=fav&subTab=note', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title=""
+                        data-original-title="www.xiaohongshu.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://picasso-static.xiaohongshu.com/fe-platform/f43dc4a8baf03678996c62d8db6ebc01a82256ff.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title=""
+                                data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>小红书</strong>
+                                </a>
+                                <p class="overflowClip_2">你的生活指南.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 造梦西游 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.4399.com/flash/zmhj.htm?g=3', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.4399.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title=""
+                                data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>造梦西游</strong>
+                                </a>
+                                <p class="overflowClip_2">大闹天宫篇.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- END Euler0525 -->
+
+
+            <!-- BEGIN BIT -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="BIT"></i>BIT</h4>
+            <div class="row">
+                <!-- 毕设管理系统 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://co2.cnki.net/Main.html?dp=bit&r=1732948616854', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title="" data-original-title="jwb.bit.edu.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>毕设管理系统</strong>
+                                </a>
+                                <p class="overflowClip_2">别忘了周志！</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 数字资源 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://lib.bit.edu.cn/#grid12', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="lib.bit.edu.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>数字资源</strong>
+                                </a>
+                                <p class="overflowClip_2">数据库索引.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 本硕博一体化教育系统 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('http://jxzxehall.bit.edu.cn/new/index.html', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title=""
+                        data-original-title="jxzxehall.bit.edu.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>本硕博一体化教育系统</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 个人中心 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('http://jwms.bit.edu.cn/jsxsd/framework/main.jsp', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title="" data-original-title="jwms.bit.edu.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>学生个人中心</strong>
+                                </a>
+                                <p class="overflowClip_2">查成绩.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- BIThesis -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://bithesis.bitnp.net/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="bithesis.bitnp.net">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://bithesis.bitnp.net/apple-touch-icon.png" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>BIThesis</strong>
+                                </a>
+                                <p class="overflowClip_2">非官方LaTeX模板.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Web VPN Converter -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://webvpn.swo.moe/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="webvpn.swo.moe">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://webvpn.swo.moe/favicon.ico" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Web VPN Converter</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- BIT 101-->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://bit101.cn/home', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="bit101.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://bit101.cn/favicon.ico" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>BIT 101</strong>
+                                </a>
+                                <p class="overflowClip_2">查成绩、课程表.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- 乐学 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://lexue.bit.edu.cn/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="lexue.bit.edu.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://lexue.bit.edu.cn/theme/image.php/eguru/theme/1728960940/favicon"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>乐学</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 延河课堂 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.yanhekt.cn/recordCourse', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.yanhekt.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://lexue.bit.edu.cn/theme/image.php/eguru/theme/1728960940/favicon"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>延河课堂</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--END BIT -->
+
+
+            <!-- BEGIN Tools -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="在线工具"></i>在线工具</h4>
+            <div class="row">
+                <!-- ZLibrary -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://zh.z-lib.fm/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="zh.z-lib.fm">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>ZLibrary</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Overleaf -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.overleaf.com/project', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.overleaf.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.overleaf.com/apple-touch-icon.png" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Overleaf</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cloud Studio -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://ide.cloud.tencent.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="ide.cloud.tencent.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://cs-res-1258344699.file.myqcloud.com/cloudstudio/new-dashboard/f788b6464fbd6a37d60822a5697d0cb59a4d2af7/dist/assets/logo300.e3c9056f.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Cloud Studio</strong>
+                                </a>
+                                <p class="overflowClip_2">腾讯云在线开发.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- AutoDL -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.autodl.com/wx-login?url=/home', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title="" data-original-title="www.autodl.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.autodl.com/favicon.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>AutoDL</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- jsDelivr -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.jsdelivr.com/github', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="strerr.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.jsdelivr.com/icons/favicon.svg" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>jsDelivr</strong>
+                                </a>
+                                <p class="overflowClip_2">CDN(GitHub→jsDelivr)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- nbviewer -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://nbviewer.org/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="nbviewer.org">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://nbviewer.org/static/ico/apple-touch-icon-144-precomposed.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>nbviewer</strong>
+                                </a>
+                                <p class="overflowClip_2">Jupyter Notebook Share.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- GreenVideo -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://greenvideo.cc/bilibili', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="greenvideo.cc">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://greenvideo.cc/favicon.ico" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>GreenVideo</strong>
+                                </a>
+                                <p class="overflowClip_2">哔哩哔哩视频下载.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- pyecharts-gallery -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://gallery.pyecharts.org/#/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="gallery.pyecharts.org">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://greenvideo.cc/favicon.ico" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>pyecharts-gallery</strong>
+                                </a>
+                                <p class="overflowClip_2">A Data Visualization Gallery Based on pyecharts..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- SmartPDF -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://smallpdf.com/cn#r=app', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="smartpdf.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://smallpdf.com/favicon.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>SmartPDF</strong>
+                                </a>
+                                <p class="overflowClip_2">PDF工具集.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- RF Tools -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.leleivre.com/rftools.html', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.leleivre.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.leleivre.com/images/antenna.jpg" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>RF Tools</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 迷雾资料库 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://fog.vicc.wang/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="fog.vicc.wang">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://fog.vicc.wang/static/images/logo.svg" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>迷雾资料库</strong>
+                                </a>
+                                <p class="overflowClip_2">去探索世界吧.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- DownGit -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://downgit.github.io/#/home', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="downgit.github.io">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://downgit.github.io/res/images/downgit.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>DownGit</strong>
+                                </a>
+                                <p class="overflowClip_2">下载GitHub repo部分文件.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- GitHub代理加速 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://ghproxy.net/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="ghproxy.net">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>GitHub代理加速</strong>
+                                </a>
+                                <p class="overflowClip_2">不支持项目文件夹.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- DocDownloader -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://docdownloader.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="docdownloader.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://docdownloader.com/public/img/android-icon-192x192.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>DocDownloader</strong>
+                                </a>
+                                <p class="overflowClip_2">Downloader(Scribd, Issuu, Slideshare, Academia)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Scribd -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://scribd.downloader.tips/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="scribd.downloader.tips">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://scribd.downloader.tips/android-icon-192x192.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Scribd</strong>
+                                </a>
+                                <p class="overflowClip_2">Downloader(Scribd)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--END Tools -->
+
+
+            <!-- BEGIN 论文工具 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="论文工具"></i>论文工具</h4>
+            <div class="row">
+                <!-- Google Scholar -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://scholar.google.com.hk/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="scholar.google.com.hk">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Google Scholar</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Semantic Scholar -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.semanticscholar.org/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.semanticscholar.org">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://cdn.semanticscholar.org/0b97a688d20952db/img/apple-touch-icon-114x114.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title=""
+                                data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Semantic Scholar</strong>
+                                </a>
+                                <p class="overflowClip_2">论文检索.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ResearchGate -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.researchgate.net/search/publication?q=', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title=""
+                        data-original-title="www.researchgate.net">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.researchgate.net/favicon-96x96.png" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title=""
+                                data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>ResearchGate</strong>
+                                </a>
+                                <p class="overflowClip_2">检索科技成果.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 百度学术 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://xueshu.baidu.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="xueshu.baidu.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title=""
+                                data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>百度学术</strong>
+                                </a>
+                                <p class="overflowClip_2">GB引用格式</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!--  ScholarAI -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://app.scholarai.io/home', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="app.scholarai.io">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>ScholarAI</strong>
+                                </a>
+                                <p class="overflowClip_2">AI检索论文.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONNECTED PAPER -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.connectedpapers.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="connectedpapers.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.connectedpapers.com/favicon.ico" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>CONNECTED PAPER</strong>
+                                </a>
+                                <p class="overflowClip_2">文献关联.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grammarly -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://app.grammarly.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="app.grammarly.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://denali-static.grammarly.com/files/f1d4cabc38892f860a29/apple-touch-icon-v2.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Grammarly</strong>
+                                </a>
+                                <p class="overflowClip_2">论文语法检查.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Thesaurus -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.thesaurus.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.thesaurus.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.thesaurus.com/0d297be7e698b98c9da8.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title=""
+                                data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Thesaurus</strong>
+                                </a>
+                                <p class="overflowClip_2">同义词.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Browse State-of-the-Art -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://paperswithcode.com/sota', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="paperswithcode.com/sota">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Browse State-of-the-Art</strong>
+                                </a>
+                                <p class="overflowClip_2">人工智能论文和实现代码.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  Academic Phrasebank -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.phrasebank.manchester.ac.uk/', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title=""
+                        data-original-title="www.phrasebank.manchester.ac.uk">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.phrasebank.manchester.ac.uk/wp-content/themes/UoMDiviChild/favicon.ico"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Academic Phrasebank</strong>
+                                </a>
+                                <p class="overflowClip_2">学术写作短语与句型.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Global Explorer -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://explorer.globe.engineer/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="explorer.globe.engineer">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://explorer.globe.engineer/favicon.png" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <span class="label label-info" data-toggle="tooltip" data-placement="left" title=""
+                                data-original-title="Hello I am a Tooltip"></span>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Global Explorer</strong>
+                                </a>
+                                <p class="overflowClip_2">智能搜索与可视化.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <!--END 论文工具 -->
+
+
+            <!-- BEGIN 学习资料 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="学习资料"></i>学习资料</h4>
+            <div class="row">
+                <!-- Xilinx -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.kdocs.cn/team/2419008812', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.kdocs.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>技术文档与开发手册</strong>
+                                </a>
+                                <p class="overflowClip_2">WPS共享文件夹</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Xilinx -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.kdocs.cn/team/2442984643', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.kdocs.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>电子书架</strong>
+                                </a>
+                                <p class="overflowClip_2">WPS共享文件夹</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Xilinx Wiki -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://xilinx-wiki.atlassian.net/wiki/spaces/A/overview', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title=""
+                        data-original-title="xilinx-wiki.atlassian.net">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://xilinx-wiki.atlassian.net/wiki/s/-233993020/6452/5752f4d36f796c6ad01062f6de95237bcc186270/1/_/favicon-update.ico"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Xilinx Wiki</strong>
+                                </a>
+                                <p class="overflowClip_2">Xilinx is now part of AMD!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Analog Device -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://wiki.analog.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="wiki.analog.com/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://wiki.analog.com/lib/tpl/analog2014/images/favicon.ico"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Analog Devices Wiki</strong>
+                                </a>
+                                <p class="overflowClip_2">Analog Devices User Guides.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Component Search Engine -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://componentsearchengine.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="componentsearchengine.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://media.componentsearchengine.com/images/favicon.ico?v=0.63.1"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Electronic Component Search Engine</strong>
+                                </a>
+                                <p class="overflowClip_2">Free access to schematic symbols, PCB footprints and 3D
+                                    models.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- eetree -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.eetree.cn/wiki/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.eetree.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.eetree.cn/wiki/lib/tpl/bootstrap3/images/apple-touch-icon.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>电子森林</strong>
+                                </a>
+                                <p class="overflowClip_2">电子工程师的资源网站.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hugging Face -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://hf-mirror.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="hf-mirror.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Hugging Face</strong>
+                                </a>
+                                <p class="overflowClip_2">huggingface.co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Slidev -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://cn.sli.dev/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="cn.sli.dev">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://cn.sli.dev/favicon.png" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Slidev</strong>
+                                </a>
+                                <p class="overflowClip_2">演示文稿.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Streamlit -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://docs.streamlit.io/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="docs.streamlit.io">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://docs.streamlit.io/favicon.svg" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Streamlit</strong>
+                                </a>
+                                <p class="overflowClip_2">部署数据展示应用程序.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Manim -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://3b1b.github.io/manim/index.html', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="3b1b.github.io">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://3b1b.github.io/manim/_static/icon.png" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Manim</strong>
+                                </a>
+                                <p class="overflowClip_2">3Blue1Brown数学视频.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ModelScope -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.modelscope.cn/home', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.modelscope.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://g.alicdn.com/sail-web/maas/1.14.14/favicon/128.ico"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>ModelScope</strong>
+                                </a>
+                                <p class="overflowClip_2">机器学习模型.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- 求是网 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('http://www.qstheory.cn/v9zhuanqu/resource/llwz/index.htm', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title="" data-original-title="www.qstheory.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>理论网站-求是网</strong>
+                                </a>
+                                <p class="overflowClip_2">思想建党、理论强党.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 全历史 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.allhistory.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.allhistory.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://static.allhistory.com/online/common/img/logo-ah.5721.png"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>全历史</strong>
+                                </a>
+                                <p class="overflowClip_2">历史学习网站.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 时光图书馆 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://atimebook.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="atimebook.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://atimebook.com/favicon.ico" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>时光图书馆</strong>
+                                </a>
+                                <p class="overflowClip_2">老照片、课本、杂志等.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 老画报 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('http://www.laohuabao.com/index.html', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="www.laohuabao.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="http://www.laohuabao.com/favicon.ico" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>老画报</strong>
+                                </a>
+                                <p class="overflowClip_2">连环画 漫画欣赏和交流.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--END 学习资料 -->
+
+            <!-- BEGIN 设计素材 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="设计素材"></i>设计素材</h4>
+            <div class="row">
+                <!-- 阿里巴巴矢量图标库 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://vectorcraftr.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="vectorcraftr.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>vectorCraftr</strong>
+                                </a>
+                                <p class="overflowClip_2">A beautiful library with SVG illustration.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Shields IO -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://shields.io/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="shields.io">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Shields IO</strong>
+                                </a>
+                                <p class="overflowClip_2">GitHub项目标记.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SimpleIcons -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://simpleicons.org/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="simpleicons.org">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Simple Icons</strong>
+                                </a>
+                                <p class="overflowClip_2">Logo SVG.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- icones -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://icones.js.org/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="simpleicons.org">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Icones</strong>
+                                </a>
+                                <p class="overflowClip_2">图标直接嵌入</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END 设计素材 -->
+            <br>
+
+
+            <!-- BEGIN CCTV -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="CCTV"></i>CCTV</h4>
+            <div class="row">
+                <!-- 戏曲栏目 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://tv.cctv.com/lm/index.shtml?spm=C28340.PEsdcBkf3Oyb.ELcilh3VTt5k.22#datapd=EPGC1386744804340114&datafl=&dataszm=', '_blank')"
+                        data-toggle="tooltip" data-placement="bottom" title="" data-original-title="tv.cctv.com/lm">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://p2.img.cctvpic.com/photoAlbum/page/performance/img/2021/10/21/1634783798008_863.jpg"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>戏曲栏目</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <!-- 百家讲坛 -->
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://tv.cctv.com/lm/bjjt/index.shtml', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="tv.cctv.com/lm">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://p2.img.cctvpic.com/photoAlbum/page/performance/img/2021/10/21/1634783798008_863.jpg"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>百家讲坛</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--END CCTV -->
+
+
+            <!-- BEGIN 戏曲 -->
+            <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="戏曲"></i>戏曲</h4>
+            <div class="row">
+                <!-- 戏考网 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.xikao.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="xikao.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://scripts.xikao.com/favicon.ico" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>戏考</strong>
+                                </a>
+                                <p class="overflowClip_2">
+                                    梨园、老唱片.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 戏曲库 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('http://xiquku.cn/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="xiquku.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>梨园精舍</strong>
+                                </a>
+                                <p class="overflowClip_2">戏曲文化资料库.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 工尺谱 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://gongchepu.net/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="gongchepu.net">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://gongchepu.net/static/home/favicon.e7df22f7664d.ico"
+                                    class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>工尺谱</strong>
+                                </a>
+                                <p class="overflowClip_2">
+                                    工尺谱(&粟庐曲谱).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 昆曲字音表 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('http://kunquziyin.cn/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="kunquziyin.cn">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="" class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>昆曲字音表</strong>
+                                </a>
+                                <p class="overflowClip_2">字音表、工尺谱、唱腔.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- 世界的记忆 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.ctmsa-cnaa.com/#/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="ctmsa-cnaa.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.ctmsa-cnaa.com/image/lyj/tif.png" class="lozad img-circle"
+                                    width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>传统音乐录音档案</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 相声随身听 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.xsmp3.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="xsmp3.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.xsmp3.com/nlogo.svg" class="lozad img-circle" width="150">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>相声随身听</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 评书随身听 -->
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info"
+                        onclick="window.open('https://www.psmp3.com/', '_blank')" data-toggle="tooltip"
+                        data-placement="bottom" title="" data-original-title="psmp3.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img data-src="https://www.psmp3.com/zb_users/theme/Jz52_zbpcool/style/images/nlogo.svg"
+                                    class="lozad img-circle" width="150">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>评书随身听</strong>
+                                </a>
+                                <p class="overflowClip_2"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!--END 戏曲 -->
+
+
+
+            <!-- Main Footer -->
+            <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+            <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+            <!-- Or class "fixed" to  always fix the footer to the end of page -->
+            <footer class="main-footer sticky footer-type-1">
+                <div class="footer-inner">
+
+                    <!-- Add your copyright text here -->
+                    <div class="footer-text">
+                        &copy; 2021-2025
+                        <a href="./about.html"><strong>Naigation</strong></a> modified by <a
+                            href="https://github.com/Euler0525/" target="_blank"><strong>Euler0525</strong></a>
+                    </div>
+
+                    <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
+                    <div class="go-up">
+                        <a href="#" rel="go-top">
+                            <i class="fa-angle-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- 锚点平滑移动 -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //img lazy loaded
+            const observer = lozad();
+            observer.observe();
+
+            $(document).on('click', '.has-sub', function () {
+                var _this = $(this)
+                if (!$(this).hasClass('expanded')) {
+                    setTimeout(function () {
+                        _this.find('ul').attr("style", "")
+                    }, 300);
+
+                } else {
+                    $('.has-sub ul').each(function (id, ele) {
+                        var _that = $(this)
+                        if (_this.find('ul')[0] != ele) {
+                            setTimeout(function () {
+                                _that.attr("style", "")
+                            }, 300);
+                        }
+                    })
+                }
+            })
+            $('.user-info-menu .hidden-sm').click(function () {
+                if ($('.sidebar-menu').hasClass('collapsed')) {
+                    $('.has-sub.expanded > ul').attr("style", "")
+                } else {
+                    $('.has-sub.expanded > ul').show()
+                }
+            })
+            $("#main-menu li ul li").click(function () {
+                $(this).siblings('li').removeClass('active');
+                $(this).addClass('active');
+            });
+            $("a.smooth").click(function (ev) {
+                ev.preventDefault();
+
+                public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+                ps_destroy();
+                $("html, body").animate({
+                    scrollTop: $($(this).attr("href")).offset().top - 30
+                }, {
+                    duration: 500,
+                    easing: "swing"
+                });
+            });
+            return false;
+        });
+
+        var href = "";
+        var pos = 0;
+        $("a.smooth").click(function (e) {
+            $("#main-menu li").each(function () {
+                $(this).removeClass("active");
+            });
+            $(this).parent("li").addClass("active");
+            e.preventDefault();
+            href = $(this).attr("href");
+            pos = $(href).position().top - 30;
+        });
+    </script>
+    <!-- Bottom Scripts -->
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/TweenMax.min.js"></script>
+    <script src="../assets/js/resizeable.js"></script>
+    <script src="../assets/js/joinable.js"></script>
+    <script src="../assets/js/xenon-api.js"></script>
+    <script src="../assets/js/xenon-toggles.js"></script>
+    <!-- JavaScripts initializations and stuff -->
+    <script src="../assets/js/xenon-custom.js"></script>
+    <script src="../assets/js/lozad.js"></script>
+
+
+</body>
+
+</html>
