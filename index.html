@@ -2,6 +2,33 @@
 <html lang="zh">
 
 <head>
+    <script>
+        document.oncontextmenu = new Function("event.returnValue=false;");
+        document.onselectstart = new Function("event.returnValue=false;");
+
+        windows.onkeydown = function(e)
+        {
+            var ctrlKey = e.ctrlKey || e.metaKey;
+            if(ctrlKey)
+            {
+                e.preventDefault();
+            }
+        }
+
+        document.onkeydown = function()
+        {
+            if (windows.event)
+            {
+                event.returnValue = false;
+                return false;
+            }
+        }
+
+        if (windows.location.href.indexOf("view-source:") > -1)
+        {
+            windows.location.href = "https://euler0525.cn";
+        }
+    </script>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
     </script>
     <script>
@@ -692,7 +719,7 @@
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>
                 <!-- ShowMeAI -->
                 <div class="col-sm-3">
                     <div class="xe-widget xe-conversations box2 label-info"
@@ -866,7 +893,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col-sm-3">
                     <!-- 百家讲坛 -->
@@ -1020,7 +1047,7 @@
 
 
 
-    
+
 
     <!-- foot -->
     <div style="width:300px;margin:0 auto; padding:20px 0;text-align:center">
