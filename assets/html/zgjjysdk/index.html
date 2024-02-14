@@ -1,0 +1,509 @@
+<!DOCTYPE html><html><head>
+      <title>index</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <style>
+      /*!
+* reveal.js 4.5.0
+* https://revealjs.com
+* MIT licensed
+*
+* Copyright (C) 2011-2023 Hakim El Hattab, https://hakim.se
+*/
+.reveal .r-stretch,.reveal .stretch{max-width:none;max-height:none}.reveal pre.r-stretch code,.reveal pre.stretch code{height:100%;max-height:100%;box-sizing:border-box}.reveal .r-fit-text{display:inline-block;white-space:nowrap}.reveal .r-stack{display:grid}.reveal .r-stack>*{grid-area:1/1;margin:auto}.reveal .r-hstack,.reveal .r-vstack{display:flex}.reveal .r-hstack img,.reveal .r-hstack video,.reveal .r-vstack img,.reveal .r-vstack video{min-width:0;min-height:0;object-fit:contain}.reveal .r-vstack{flex-direction:column;align-items:center;justify-content:center}.reveal .r-hstack{flex-direction:row;align-items:center;justify-content:center}.reveal .items-stretch{align-items:stretch}.reveal .items-start{align-items:flex-start}.reveal .items-center{align-items:center}.reveal .items-end{align-items:flex-end}.reveal .justify-between{justify-content:space-between}.reveal .justify-around{justify-content:space-around}.reveal .justify-start{justify-content:flex-start}.reveal .justify-center{justify-content:center}.reveal .justify-end{justify-content:flex-end}html.reveal-full-page{width:100%;height:100%;height:100vh;height:calc(var(--vh,1vh) * 100);overflow:hidden}.reveal-viewport{height:100%;overflow:hidden;position:relative;line-height:1;margin:0;background-color:#fff;color:#000}.reveal-viewport:fullscreen{top:0!important;left:0!important;width:100%!important;height:100%!important;transform:none!important}.reveal .fragment{transition:all .2s ease}.reveal .fragment:not(.custom){opacity:0;visibility:hidden;will-change:opacity}.reveal .fragment.visible{opacity:1;visibility:inherit}.reveal .fragment.disabled{transition:none}.reveal .fragment.grow{opacity:1;visibility:inherit}.reveal .fragment.grow.visible{transform:scale(1.3)}.reveal .fragment.shrink{opacity:1;visibility:inherit}.reveal .fragment.shrink.visible{transform:scale(.7)}.reveal .fragment.zoom-in{transform:scale(.1)}.reveal .fragment.zoom-in.visible{transform:none}.reveal .fragment.fade-out{opacity:1;visibility:inherit}.reveal .fragment.fade-out.visible{opacity:0;visibility:hidden}.reveal .fragment.semi-fade-out{opacity:1;visibility:inherit}.reveal .fragment.semi-fade-out.visible{opacity:.5;visibility:inherit}.reveal .fragment.strike{opacity:1;visibility:inherit}.reveal .fragment.strike.visible{text-decoration:line-through}.reveal .fragment.fade-up{transform:translate(0,40px)}.reveal .fragment.fade-up.visible{transform:translate(0,0)}.reveal .fragment.fade-down{transform:translate(0,-40px)}.reveal .fragment.fade-down.visible{transform:translate(0,0)}.reveal .fragment.fade-right{transform:translate(-40px,0)}.reveal .fragment.fade-right.visible{transform:translate(0,0)}.reveal .fragment.fade-left{transform:translate(40px,0)}.reveal .fragment.fade-left.visible{transform:translate(0,0)}.reveal .fragment.current-visible,.reveal .fragment.fade-in-then-out{opacity:0;visibility:hidden}.reveal .fragment.current-visible.current-fragment,.reveal .fragment.fade-in-then-out.current-fragment{opacity:1;visibility:inherit}.reveal .fragment.fade-in-then-semi-out{opacity:0;visibility:hidden}.reveal .fragment.fade-in-then-semi-out.visible{opacity:.5;visibility:inherit}.reveal .fragment.fade-in-then-semi-out.current-fragment{opacity:1;visibility:inherit}.reveal .fragment.highlight-blue,.reveal .fragment.highlight-current-blue,.reveal .fragment.highlight-current-green,.reveal .fragment.highlight-current-red,.reveal .fragment.highlight-green,.reveal .fragment.highlight-red{opacity:1;visibility:inherit}.reveal .fragment.highlight-red.visible{color:#ff2c2d}.reveal .fragment.highlight-green.visible{color:#17ff2e}.reveal .fragment.highlight-blue.visible{color:#1b91ff}.reveal .fragment.highlight-current-red.current-fragment{color:#ff2c2d}.reveal .fragment.highlight-current-green.current-fragment{color:#17ff2e}.reveal .fragment.highlight-current-blue.current-fragment{color:#1b91ff}.reveal:after{content:"";font-style:italic}.reveal iframe{z-index:1}.reveal a{position:relative}@keyframes bounce-right{0%,10%,25%,40%,50%{transform:translateX(0)}20%{transform:translateX(10px)}30%{transform:translateX(-5px)}}@keyframes bounce-left{0%,10%,25%,40%,50%{transform:translateX(0)}20%{transform:translateX(-10px)}30%{transform:translateX(5px)}}@keyframes bounce-down{0%,10%,25%,40%,50%{transform:translateY(0)}20%{transform:translateY(10px)}30%{transform:translateY(-5px)}}.reveal .controls{display:none;position:absolute;top:auto;bottom:12px;right:12px;left:auto;z-index:11;color:#000;pointer-events:none;font-size:10px}.reveal .controls button{position:absolute;padding:0;background-color:transparent;border:0;outline:0;cursor:pointer;color:currentColor;transform:scale(.9999);transition:color .2s ease,opacity .2s ease,transform .2s ease;z-index:2;pointer-events:auto;font-size:inherit;visibility:hidden;opacity:0;-webkit-appearance:none;-webkit-tap-highlight-color:transparent}.reveal .controls .controls-arrow:after,.reveal .controls .controls-arrow:before{content:"";position:absolute;top:0;left:0;width:2.6em;height:.5em;border-radius:.25em;background-color:currentColor;transition:all .15s ease,background-color .8s ease;transform-origin:.2em 50%;will-change:transform}.reveal .controls .controls-arrow{position:relative;width:3.6em;height:3.6em}.reveal .controls .controls-arrow:before{transform:translateX(.5em) translateY(1.55em) rotate(45deg)}.reveal .controls .controls-arrow:after{transform:translateX(.5em) translateY(1.55em) rotate(-45deg)}.reveal .controls .controls-arrow:hover:before{transform:translateX(.5em) translateY(1.55em) rotate(40deg)}.reveal .controls .controls-arrow:hover:after{transform:translateX(.5em) translateY(1.55em) rotate(-40deg)}.reveal .controls .controls-arrow:active:before{transform:translateX(.5em) translateY(1.55em) rotate(36deg)}.reveal .controls .controls-arrow:active:after{transform:translateX(.5em) translateY(1.55em) rotate(-36deg)}.reveal .controls .navigate-left{right:6.4em;bottom:3.2em;transform:translateX(-10px)}.reveal .controls .navigate-left.highlight{animation:bounce-left 2s 50 both ease-out}.reveal .controls .navigate-right{right:0;bottom:3.2em;transform:translateX(10px)}.reveal .controls .navigate-right .controls-arrow{transform:rotate(180deg)}.reveal .controls .navigate-right.highlight{animation:bounce-right 2s 50 both ease-out}.reveal .controls .navigate-up{right:3.2em;bottom:6.4em;transform:translateY(-10px)}.reveal .controls .navigate-up .controls-arrow{transform:rotate(90deg)}.reveal .controls .navigate-down{right:3.2em;bottom:-1.4em;padding-bottom:1.4em;transform:translateY(10px)}.reveal .controls .navigate-down .controls-arrow{transform:rotate(-90deg)}.reveal .controls .navigate-down.highlight{animation:bounce-down 2s 50 both ease-out}.reveal .controls[data-controls-back-arrows=faded] .navigate-up.enabled{opacity:.3}.reveal .controls[data-controls-back-arrows=faded] .navigate-up.enabled:hover{opacity:1}.reveal .controls[data-controls-back-arrows=hidden] .navigate-up.enabled{opacity:0;visibility:hidden}.reveal .controls .enabled{visibility:visible;opacity:.9;cursor:pointer;transform:none}.reveal .controls .enabled.fragmented{opacity:.5}.reveal .controls .enabled.fragmented:hover,.reveal .controls .enabled:hover{opacity:1}.reveal:not(.rtl) .controls[data-controls-back-arrows=faded] .navigate-left.enabled{opacity:.3}.reveal:not(.rtl) .controls[data-controls-back-arrows=faded] .navigate-left.enabled:hover{opacity:1}.reveal:not(.rtl) .controls[data-controls-back-arrows=hidden] .navigate-left.enabled{opacity:0;visibility:hidden}.reveal.rtl .controls[data-controls-back-arrows=faded] .navigate-right.enabled{opacity:.3}.reveal.rtl .controls[data-controls-back-arrows=faded] .navigate-right.enabled:hover{opacity:1}.reveal.rtl .controls[data-controls-back-arrows=hidden] .navigate-right.enabled{opacity:0;visibility:hidden}.reveal[data-navigation-mode=linear].has-horizontal-slides .navigate-down,.reveal[data-navigation-mode=linear].has-horizontal-slides .navigate-up{display:none}.reveal:not(.has-vertical-slides) .controls .navigate-left,.reveal[data-navigation-mode=linear].has-horizontal-slides .navigate-left{bottom:1.4em;right:5.5em}.reveal:not(.has-vertical-slides) .controls .navigate-right,.reveal[data-navigation-mode=linear].has-horizontal-slides .navigate-right{bottom:1.4em;right:.5em}.reveal:not(.has-horizontal-slides) .controls .navigate-up{right:1.4em;bottom:5em}.reveal:not(.has-horizontal-slides) .controls .navigate-down{right:1.4em;bottom:.5em}.reveal.has-dark-background .controls{color:#fff}.reveal.has-light-background .controls{color:#000}.reveal.no-hover .controls .controls-arrow:active:before,.reveal.no-hover .controls .controls-arrow:hover:before{transform:translateX(.5em) translateY(1.55em) rotate(45deg)}.reveal.no-hover .controls .controls-arrow:active:after,.reveal.no-hover .controls .controls-arrow:hover:after{transform:translateX(.5em) translateY(1.55em) rotate(-45deg)}@media screen and (min-width:500px){.reveal .controls[data-controls-layout=edges]{top:0;right:0;bottom:0;left:0}.reveal .controls[data-controls-layout=edges] .navigate-down,.reveal .controls[data-controls-layout=edges] .navigate-left,.reveal .controls[data-controls-layout=edges] .navigate-right,.reveal .controls[data-controls-layout=edges] .navigate-up{bottom:auto;right:auto}.reveal .controls[data-controls-layout=edges] .navigate-left{top:50%;left:.8em;margin-top:-1.8em}.reveal .controls[data-controls-layout=edges] .navigate-right{top:50%;right:.8em;margin-top:-1.8em}.reveal .controls[data-controls-layout=edges] .navigate-up{top:.8em;left:50%;margin-left:-1.8em}.reveal .controls[data-controls-layout=edges] .navigate-down{bottom:-.3em;left:50%;margin-left:-1.8em}}.reveal .progress{position:absolute;display:none;height:3px;width:100%;bottom:0;left:0;z-index:10;background-color:rgba(0,0,0,.2);color:#fff}.reveal .progress:after{content:"";display:block;position:absolute;height:10px;width:100%;top:-10px}.reveal .progress span{display:block;height:100%;width:100%;background-color:currentColor;transition:transform .8s cubic-bezier(.26,.86,.44,.985);transform-origin:0 0;transform:scaleX(0)}.reveal .slide-number{position:absolute;display:block;right:8px;bottom:8px;z-index:31;font-family:Helvetica,sans-serif;font-size:12px;line-height:1;color:#fff;background-color:rgba(0,0,0,.4);padding:5px}.reveal .slide-number a{color:currentColor}.reveal .slide-number-delimiter{margin:0 3px}.reveal{position:relative;width:100%;height:100%;overflow:hidden;touch-action:pinch-zoom}.reveal.embedded{touch-action:pan-y}.reveal .slides{position:absolute;width:100%;height:100%;top:0;right:0;bottom:0;left:0;margin:auto;pointer-events:none;overflow:visible;z-index:1;text-align:center;perspective:600px;perspective-origin:50% 40%}.reveal .slides>section{perspective:600px}.reveal .slides>section,.reveal .slides>section>section{display:none;position:absolute;width:100%;pointer-events:auto;z-index:10;transform-style:flat;transition:transform-origin .8s cubic-bezier(.26,.86,.44,.985),transform .8s cubic-bezier(.26,.86,.44,.985),visibility .8s cubic-bezier(.26,.86,.44,.985),opacity .8s cubic-bezier(.26,.86,.44,.985)}.reveal[data-transition-speed=fast] .slides section{transition-duration:.4s}.reveal[data-transition-speed=slow] .slides section{transition-duration:1.2s}.reveal .slides section[data-transition-speed=fast]{transition-duration:.4s}.reveal .slides section[data-transition-speed=slow]{transition-duration:1.2s}.reveal .slides>section.stack{padding-top:0;padding-bottom:0;pointer-events:none;height:100%}.reveal .slides>section.present,.reveal .slides>section>section.present{display:block;z-index:11;opacity:1}.reveal .slides>section:empty,.reveal .slides>section>section:empty,.reveal .slides>section>section[data-background-interactive],.reveal .slides>section[data-background-interactive]{pointer-events:none}.reveal.center,.reveal.center .slides,.reveal.center .slides section{min-height:0!important}.reveal .slides>section:not(.present),.reveal .slides>section>section:not(.present){pointer-events:none}.reveal.overview .slides>section,.reveal.overview .slides>section>section{pointer-events:auto}.reveal .slides>section.future,.reveal .slides>section.future>section,.reveal .slides>section.past,.reveal .slides>section.past>section,.reveal .slides>section>section.future,.reveal .slides>section>section.past{opacity:0}.reveal .slides>section[data-transition=slide].past,.reveal .slides>section[data-transition~=slide-out].past,.reveal.slide .slides>section:not([data-transition]).past{transform:translate(-150%,0)}.reveal .slides>section[data-transition=slide].future,.reveal .slides>section[data-transition~=slide-in].future,.reveal.slide .slides>section:not([data-transition]).future{transform:translate(150%,0)}.reveal .slides>section>section[data-transition=slide].past,.reveal .slides>section>section[data-transition~=slide-out].past,.reveal.slide .slides>section>section:not([data-transition]).past{transform:translate(0,-150%)}.reveal .slides>section>section[data-transition=slide].future,.reveal .slides>section>section[data-transition~=slide-in].future,.reveal.slide .slides>section>section:not([data-transition]).future{transform:translate(0,150%)}.reveal .slides>section[data-transition=linear].past,.reveal .slides>section[data-transition~=linear-out].past,.reveal.linear .slides>section:not([data-transition]).past{transform:translate(-150%,0)}.reveal .slides>section[data-transition=linear].future,.reveal .slides>section[data-transition~=linear-in].future,.reveal.linear .slides>section:not([data-transition]).future{transform:translate(150%,0)}.reveal .slides>section>section[data-transition=linear].past,.reveal .slides>section>section[data-transition~=linear-out].past,.reveal.linear .slides>section>section:not([data-transition]).past{transform:translate(0,-150%)}.reveal .slides>section>section[data-transition=linear].future,.reveal .slides>section>section[data-transition~=linear-in].future,.reveal.linear .slides>section>section:not([data-transition]).future{transform:translate(0,150%)}.reveal .slides section[data-transition=default].stack,.reveal.default .slides section.stack{transform-style:preserve-3d}.reveal .slides>section[data-transition=default].past,.reveal .slides>section[data-transition~=default-out].past,.reveal.default .slides>section:not([data-transition]).past{transform:translate3d(-100%,0,0) rotateY(-90deg) translate3d(-100%,0,0)}.reveal .slides>section[data-transition=default].future,.reveal .slides>section[data-transition~=default-in].future,.reveal.default .slides>section:not([data-transition]).future{transform:translate3d(100%,0,0) rotateY(90deg) translate3d(100%,0,0)}.reveal .slides>section>section[data-transition=default].past,.reveal .slides>section>section[data-transition~=default-out].past,.reveal.default .slides>section>section:not([data-transition]).past{transform:translate3d(0,-300px,0) rotateX(70deg) translate3d(0,-300px,0)}.reveal .slides>section>section[data-transition=default].future,.reveal .slides>section>section[data-transition~=default-in].future,.reveal.default .slides>section>section:not([data-transition]).future{transform:translate3d(0,300px,0) rotateX(-70deg) translate3d(0,300px,0)}.reveal .slides section[data-transition=convex].stack,.reveal.convex .slides section.stack{transform-style:preserve-3d}.reveal .slides>section[data-transition=convex].past,.reveal .slides>section[data-transition~=convex-out].past,.reveal.convex .slides>section:not([data-transition]).past{transform:translate3d(-100%,0,0) rotateY(-90deg) translate3d(-100%,0,0)}.reveal .slides>section[data-transition=convex].future,.reveal .slides>section[data-transition~=convex-in].future,.reveal.convex .slides>section:not([data-transition]).future{transform:translate3d(100%,0,0) rotateY(90deg) translate3d(100%,0,0)}.reveal .slides>section>section[data-transition=convex].past,.reveal .slides>section>section[data-transition~=convex-out].past,.reveal.convex .slides>section>section:not([data-transition]).past{transform:translate3d(0,-300px,0) rotateX(70deg) translate3d(0,-300px,0)}.reveal .slides>section>section[data-transition=convex].future,.reveal .slides>section>section[data-transition~=convex-in].future,.reveal.convex .slides>section>section:not([data-transition]).future{transform:translate3d(0,300px,0) rotateX(-70deg) translate3d(0,300px,0)}.reveal .slides section[data-transition=concave].stack,.reveal.concave .slides section.stack{transform-style:preserve-3d}.reveal .slides>section[data-transition=concave].past,.reveal .slides>section[data-transition~=concave-out].past,.reveal.concave .slides>section:not([data-transition]).past{transform:translate3d(-100%,0,0) rotateY(90deg) translate3d(-100%,0,0)}.reveal .slides>section[data-transition=concave].future,.reveal .slides>section[data-transition~=concave-in].future,.reveal.concave .slides>section:not([data-transition]).future{transform:translate3d(100%,0,0) rotateY(-90deg) translate3d(100%,0,0)}.reveal .slides>section>section[data-transition=concave].past,.reveal .slides>section>section[data-transition~=concave-out].past,.reveal.concave .slides>section>section:not([data-transition]).past{transform:translate3d(0,-80%,0) rotateX(-70deg) translate3d(0,-80%,0)}.reveal .slides>section>section[data-transition=concave].future,.reveal .slides>section>section[data-transition~=concave-in].future,.reveal.concave .slides>section>section:not([data-transition]).future{transform:translate3d(0,80%,0) rotateX(70deg) translate3d(0,80%,0)}.reveal .slides section[data-transition=zoom],.reveal.zoom .slides section:not([data-transition]){transition-timing-function:ease}.reveal .slides>section[data-transition=zoom].past,.reveal .slides>section[data-transition~=zoom-out].past,.reveal.zoom .slides>section:not([data-transition]).past{visibility:hidden;transform:scale(16)}.reveal .slides>section[data-transition=zoom].future,.reveal .slides>section[data-transition~=zoom-in].future,.reveal.zoom .slides>section:not([data-transition]).future{visibility:hidden;transform:scale(.2)}.reveal .slides>section>section[data-transition=zoom].past,.reveal .slides>section>section[data-transition~=zoom-out].past,.reveal.zoom .slides>section>section:not([data-transition]).past{transform:scale(16)}.reveal .slides>section>section[data-transition=zoom].future,.reveal .slides>section>section[data-transition~=zoom-in].future,.reveal.zoom .slides>section>section:not([data-transition]).future{transform:scale(.2)}.reveal.cube .slides{perspective:1300px}.reveal.cube .slides section{padding:30px;min-height:700px;backface-visibility:hidden;box-sizing:border-box;transform-style:preserve-3d}.reveal.center.cube .slides section{min-height:0}.reveal.cube .slides section:not(.stack):before{content:"";position:absolute;display:block;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,.1);border-radius:4px;transform:translateZ(-20px)}.reveal.cube .slides section:not(.stack):after{content:"";position:absolute;display:block;width:90%;height:30px;left:5%;bottom:0;background:0 0;z-index:1;border-radius:4px;box-shadow:0 95px 25px rgba(0,0,0,.2);transform:translateZ(-90px) rotateX(65deg)}.reveal.cube .slides>section.stack{padding:0;background:0 0}.reveal.cube .slides>section.past{transform-origin:100% 0;transform:translate3d(-100%,0,0) rotateY(-90deg)}.reveal.cube .slides>section.future{transform-origin:0 0;transform:translate3d(100%,0,0) rotateY(90deg)}.reveal.cube .slides>section>section.past{transform-origin:0 100%;transform:translate3d(0,-100%,0) rotateX(90deg)}.reveal.cube .slides>section>section.future{transform-origin:0 0;transform:translate3d(0,100%,0) rotateX(-90deg)}.reveal.page .slides{perspective-origin:0 50%;perspective:3000px}.reveal.page .slides section{padding:30px;min-height:700px;box-sizing:border-box;transform-style:preserve-3d}.reveal.page .slides section.past{z-index:12}.reveal.page .slides section:not(.stack):before{content:"";position:absolute;display:block;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,.1);transform:translateZ(-20px)}.reveal.page .slides section:not(.stack):after{content:"";position:absolute;display:block;width:90%;height:30px;left:5%;bottom:0;background:0 0;z-index:1;border-radius:4px;box-shadow:0 95px 25px rgba(0,0,0,.2);-webkit-transform:translateZ(-90px) rotateX(65deg)}.reveal.page .slides>section.stack{padding:0;background:0 0}.reveal.page .slides>section.past{transform-origin:0 0;transform:translate3d(-40%,0,0) rotateY(-80deg)}.reveal.page .slides>section.future{transform-origin:100% 0;transform:translate3d(0,0,0)}.reveal.page .slides>section>section.past{transform-origin:0 0;transform:translate3d(0,-40%,0) rotateX(80deg)}.reveal.page .slides>section>section.future{transform-origin:0 100%;transform:translate3d(0,0,0)}.reveal .slides section[data-transition=fade],.reveal.fade .slides section:not([data-transition]),.reveal.fade .slides>section>section:not([data-transition]){transform:none;transition:opacity .5s}.reveal.fade.overview .slides section,.reveal.fade.overview .slides>section>section{transition:none}.reveal .slides section[data-transition=none],.reveal.none .slides section:not([data-transition]){transform:none;transition:none}.reveal .pause-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background:#000;visibility:hidden;opacity:0;z-index:100;transition:all 1s ease}.reveal .pause-overlay .resume-button{position:absolute;bottom:20px;right:20px;color:#ccc;border-radius:2px;padding:6px 14px;border:2px solid #ccc;font-size:16px;background:0 0;cursor:pointer}.reveal .pause-overlay .resume-button:hover{color:#fff;border-color:#fff}.reveal.paused .pause-overlay{visibility:visible;opacity:1}.reveal .no-transition,.reveal .no-transition *,.reveal .slides.disable-slide-transitions section{transition:none!important}.reveal .slides.disable-slide-transitions section{transform:none!important}.reveal .backgrounds{position:absolute;width:100%;height:100%;top:0;left:0;perspective:600px}.reveal .slide-background{display:none;position:absolute;width:100%;height:100%;opacity:0;visibility:hidden;overflow:hidden;background-color:rgba(0,0,0,0);transition:all .8s cubic-bezier(.26,.86,.44,.985)}.reveal .slide-background-content{position:absolute;width:100%;height:100%;background-position:50% 50%;background-repeat:no-repeat;background-size:cover}.reveal .slide-background.stack{display:block}.reveal .slide-background.present{opacity:1;visibility:visible;z-index:2}.print-pdf .reveal .slide-background{opacity:1!important;visibility:visible!important}.reveal .slide-background video{position:absolute;width:100%;height:100%;max-width:none;max-height:none;top:0;left:0;object-fit:cover}.reveal .slide-background[data-background-size=contain] video{object-fit:contain}.reveal>.backgrounds .slide-background[data-background-transition=none],.reveal[data-background-transition=none]>.backgrounds .slide-background:not([data-background-transition]){transition:none}.reveal>.backgrounds .slide-background[data-background-transition=slide],.reveal[data-background-transition=slide]>.backgrounds .slide-background:not([data-background-transition]){opacity:1}.reveal>.backgrounds .slide-background.past[data-background-transition=slide],.reveal[data-background-transition=slide]>.backgrounds .slide-background.past:not([data-background-transition]){transform:translate(-100%,0)}.reveal>.backgrounds .slide-background.future[data-background-transition=slide],.reveal[data-background-transition=slide]>.backgrounds .slide-background.future:not([data-background-transition]){transform:translate(100%,0)}.reveal>.backgrounds .slide-background>.slide-background.past[data-background-transition=slide],.reveal[data-background-transition=slide]>.backgrounds .slide-background>.slide-background.past:not([data-background-transition]){transform:translate(0,-100%)}.reveal>.backgrounds .slide-background>.slide-background.future[data-background-transition=slide],.reveal[data-background-transition=slide]>.backgrounds .slide-background>.slide-background.future:not([data-background-transition]){transform:translate(0,100%)}.reveal>.backgrounds .slide-background.past[data-background-transition=convex],.reveal[data-background-transition=convex]>.backgrounds .slide-background.past:not([data-background-transition]){opacity:0;transform:translate3d(-100%,0,0) rotateY(-90deg) translate3d(-100%,0,0)}.reveal>.backgrounds .slide-background.future[data-background-transition=convex],.reveal[data-background-transition=convex]>.backgrounds .slide-background.future:not([data-background-transition]){opacity:0;transform:translate3d(100%,0,0) rotateY(90deg) translate3d(100%,0,0)}.reveal>.backgrounds .slide-background>.slide-background.past[data-background-transition=convex],.reveal[data-background-transition=convex]>.backgrounds .slide-background>.slide-background.past:not([data-background-transition]){opacity:0;transform:translate3d(0,-100%,0) rotateX(90deg) translate3d(0,-100%,0)}.reveal>.backgrounds .slide-background>.slide-background.future[data-background-transition=convex],.reveal[data-background-transition=convex]>.backgrounds .slide-background>.slide-background.future:not([data-background-transition]){opacity:0;transform:translate3d(0,100%,0) rotateX(-90deg) translate3d(0,100%,0)}.reveal>.backgrounds .slide-background.past[data-background-transition=concave],.reveal[data-background-transition=concave]>.backgrounds .slide-background.past:not([data-background-transition]){opacity:0;transform:translate3d(-100%,0,0) rotateY(90deg) translate3d(-100%,0,0)}.reveal>.backgrounds .slide-background.future[data-background-transition=concave],.reveal[data-background-transition=concave]>.backgrounds .slide-background.future:not([data-background-transition]){opacity:0;transform:translate3d(100%,0,0) rotateY(-90deg) translate3d(100%,0,0)}.reveal>.backgrounds .slide-background>.slide-background.past[data-background-transition=concave],.reveal[data-background-transition=concave]>.backgrounds .slide-background>.slide-background.past:not([data-background-transition]){opacity:0;transform:translate3d(0,-100%,0) rotateX(-90deg) translate3d(0,-100%,0)}.reveal>.backgrounds .slide-background>.slide-background.future[data-background-transition=concave],.reveal[data-background-transition=concave]>.backgrounds .slide-background>.slide-background.future:not([data-background-transition]){opacity:0;transform:translate3d(0,100%,0) rotateX(90deg) translate3d(0,100%,0)}.reveal>.backgrounds .slide-background[data-background-transition=zoom],.reveal[data-background-transition=zoom]>.backgrounds .slide-background:not([data-background-transition]){transition-timing-function:ease}.reveal>.backgrounds .slide-background.past[data-background-transition=zoom],.reveal[data-background-transition=zoom]>.backgrounds .slide-background.past:not([data-background-transition]){opacity:0;visibility:hidden;transform:scale(16)}.reveal>.backgrounds .slide-background.future[data-background-transition=zoom],.reveal[data-background-transition=zoom]>.backgrounds .slide-background.future:not([data-background-transition]){opacity:0;visibility:hidden;transform:scale(.2)}.reveal>.backgrounds .slide-background>.slide-background.past[data-background-transition=zoom],.reveal[data-background-transition=zoom]>.backgrounds .slide-background>.slide-background.past:not([data-background-transition]){opacity:0;visibility:hidden;transform:scale(16)}.reveal>.backgrounds .slide-background>.slide-background.future[data-background-transition=zoom],.reveal[data-background-transition=zoom]>.backgrounds .slide-background>.slide-background.future:not([data-background-transition]){opacity:0;visibility:hidden;transform:scale(.2)}.reveal[data-transition-speed=fast]>.backgrounds .slide-background{transition-duration:.4s}.reveal[data-transition-speed=slow]>.backgrounds .slide-background{transition-duration:1.2s}.reveal [data-auto-animate-target^=unmatched]{will-change:opacity}.reveal section[data-auto-animate]:not(.stack):not([data-auto-animate=running]) [data-auto-animate-target^=unmatched]{opacity:0}.reveal.overview{perspective-origin:50% 50%;perspective:700px}.reveal.overview .slides{-moz-transform-style:preserve-3d}.reveal.overview .slides section{height:100%;top:0!important;opacity:1!important;overflow:hidden;visibility:visible!important;cursor:pointer;box-sizing:border-box}.reveal.overview .slides section.present,.reveal.overview .slides section:hover{outline:10px solid rgba(150,150,150,.4);outline-offset:10px}.reveal.overview .slides section .fragment{opacity:1;transition:none}.reveal.overview .slides section:after,.reveal.overview .slides section:before{display:none!important}.reveal.overview .slides>section.stack{padding:0;top:0!important;background:0 0;outline:0;overflow:visible}.reveal.overview .backgrounds{perspective:inherit;-moz-transform-style:preserve-3d}.reveal.overview .backgrounds .slide-background{opacity:1;visibility:visible;outline:10px solid rgba(150,150,150,.1);outline-offset:10px}.reveal.overview .backgrounds .slide-background.stack{overflow:visible}.reveal.overview .slides section,.reveal.overview-deactivating .slides section{transition:none}.reveal.overview .backgrounds .slide-background,.reveal.overview-deactivating .backgrounds .slide-background{transition:none}.reveal.rtl .slides,.reveal.rtl .slides h1,.reveal.rtl .slides h2,.reveal.rtl .slides h3,.reveal.rtl .slides h4,.reveal.rtl .slides h5,.reveal.rtl .slides h6{direction:rtl;font-family:sans-serif}.reveal.rtl code,.reveal.rtl pre{direction:ltr}.reveal.rtl ol,.reveal.rtl ul{text-align:right}.reveal.rtl .progress span{transform-origin:100% 0}.reveal.has-parallax-background .backgrounds{transition:all .8s ease}.reveal.has-parallax-background[data-transition-speed=fast] .backgrounds{transition-duration:.4s}.reveal.has-parallax-background[data-transition-speed=slow] .backgrounds{transition-duration:1.2s}.reveal>.overlay{position:absolute;top:0;left:0;width:100%;height:100%;z-index:1000;background:rgba(0,0,0,.9);transition:all .3s ease}.reveal>.overlay .spinner{position:absolute;display:block;top:50%;left:50%;width:32px;height:32px;margin:-16px 0 0 -16px;z-index:10;background-image:url(data:image/gif;base64,R0lGODlhIAAgAPMAAJmZmf%2F%2F%2F6%2Bvr8nJybW1tcDAwOjo6Nvb26ioqKOjo7Ozs%2FLy8vz8%2FAAAAAAAAAAAACH%2FC05FVFNDQVBFMi4wAwEAAAAh%2FhpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh%2BQQJCgAAACwAAAAAIAAgAAAE5xDISWlhperN52JLhSSdRgwVo1ICQZRUsiwHpTJT4iowNS8vyW2icCF6k8HMMBkCEDskxTBDAZwuAkkqIfxIQyhBQBFvAQSDITM5VDW6XNE4KagNh6Bgwe60smQUB3d4Rz1ZBApnFASDd0hihh12BkE9kjAJVlycXIg7CQIFA6SlnJ87paqbSKiKoqusnbMdmDC2tXQlkUhziYtyWTxIfy6BE8WJt5YJvpJivxNaGmLHT0VnOgSYf0dZXS7APdpB309RnHOG5gDqXGLDaC457D1zZ%2FV%2FnmOM82XiHRLYKhKP1oZmADdEAAAh%2BQQJCgAAACwAAAAAIAAgAAAE6hDISWlZpOrNp1lGNRSdRpDUolIGw5RUYhhHukqFu8DsrEyqnWThGvAmhVlteBvojpTDDBUEIFwMFBRAmBkSgOrBFZogCASwBDEY%2FCZSg7GSE0gSCjQBMVG023xWBhklAnoEdhQEfyNqMIcKjhRsjEdnezB%2BA4k8gTwJhFuiW4dokXiloUepBAp5qaKpp6%2BHo7aWW54wl7obvEe0kRuoplCGepwSx2jJvqHEmGt6whJpGpfJCHmOoNHKaHx61WiSR92E4lbFoq%2BB6QDtuetcaBPnW6%2BO7wDHpIiK9SaVK5GgV543tzjgGcghAgAh%2BQQJCgAAACwAAAAAIAAgAAAE7hDISSkxpOrN5zFHNWRdhSiVoVLHspRUMoyUakyEe8PTPCATW9A14E0UvuAKMNAZKYUZCiBMuBakSQKG8G2FzUWox2AUtAQFcBKlVQoLgQReZhQlCIJesQXI5B0CBnUMOxMCenoCfTCEWBsJColTMANldx15BGs8B5wlCZ9Po6OJkwmRpnqkqnuSrayqfKmqpLajoiW5HJq7FL1Gr2mMMcKUMIiJgIemy7xZtJsTmsM4xHiKv5KMCXqfyUCJEonXPN2rAOIAmsfB3uPoAK%2B%2BG%2Bw48edZPK%2BM6hLJpQg484enXIdQFSS1u6UhksENEQAAIfkECQoAAAAsAAAAACAAIAAABOcQyEmpGKLqzWcZRVUQnZYg1aBSh2GUVEIQ2aQOE%2BG%2BcD4ntpWkZQj1JIiZIogDFFyHI0UxQwFugMSOFIPJftfVAEoZLBbcLEFhlQiqGp1Vd140AUklUN3eCA51C1EWMzMCezCBBmkxVIVHBWd3HHl9JQOIJSdSnJ0TDKChCwUJjoWMPaGqDKannasMo6WnM562R5YluZRwur0wpgqZE7NKUm%2BFNRPIhjBJxKZteWuIBMN4zRMIVIhffcgojwCF117i4nlLnY5ztRLsnOk%2BaV%2BoJY7V7m76PdkS4trKcdg0Zc0tTcKkRAAAIfkECQoAAAAsAAAAACAAIAAABO4QyEkpKqjqzScpRaVkXZWQEximw1BSCUEIlDohrft6cpKCk5xid5MNJTaAIkekKGQkWyKHkvhKsR7ARmitkAYDYRIbUQRQjWBwJRzChi9CRlBcY1UN4g0%2FVNB0AlcvcAYHRyZPdEQFYV8ccwR5HWxEJ02YmRMLnJ1xCYp0Y5idpQuhopmmC2KgojKasUQDk5BNAwwMOh2RtRq5uQuPZKGIJQIGwAwGf6I0JXMpC8C7kXWDBINFMxS4DKMAWVWAGYsAdNqW5uaRxkSKJOZKaU3tPOBZ4DuK2LATgJhkPJMgTwKCdFjyPHEnKxFCDhEAACH5BAkKAAAALAAAAAAgACAAAATzEMhJaVKp6s2nIkolIJ2WkBShpkVRWqqQrhLSEu9MZJKK9y1ZrqYK9WiClmvoUaF8gIQSNeF1Er4MNFn4SRSDARWroAIETg1iVwuHjYB1kYc1mwruwXKC9gmsJXliGxc%2BXiUCby9ydh1sOSdMkpMTBpaXBzsfhoc5l58Gm5yToAaZhaOUqjkDgCWNHAULCwOLaTmzswadEqggQwgHuQsHIoZCHQMMQgQGubVEcxOPFAcMDAYUA85eWARmfSRQCdcMe0zeP1AAygwLlJtPNAAL19DARdPzBOWSm1brJBi45soRAWQAAkrQIykShQ9wVhHCwCQCACH5BAkKAAAALAAAAAAgACAAAATrEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq%2BE71SRQeyqUToLA7VxF0JDyIQh%2FMVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiRMDjI0Fd30%2FiI2UA5GSS5UDj2l6NoqgOgN4gksEBgYFf0FDqKgHnyZ9OX8HrgYHdHpcHQULXAS2qKpENRg7eAMLC7kTBaixUYFkKAzWAAnLC7FLVxLWDBLKCwaKTULgEwbLA4hJtOkSBNqITT3xEgfLpBtzE%2FjiuL04RGEBgwWhShRgQExHBAAh%2BQQJCgAAACwAAAAAIAAgAAAE7xDISWlSqerNpyJKhWRdlSAVoVLCWk6JKlAqAavhO9UkUHsqlE6CwO1cRdCQ8iEIfzFVTzLdRAmZX3I2SfZiCqGk5dTESJeaOAlClzsJsqwiJwiqnFrb2nS9kmIcgEsjQydLiIlHehhpejaIjzh9eomSjZR%2BipslWIRLAgMDOR2DOqKogTB9pCUJBagDBXR6XB0EBkIIsaRsGGMMAxoDBgYHTKJiUYEGDAzHC9EACcUGkIgFzgwZ0QsSBcXHiQvOwgDdEwfFs0sDzt4S6BK4xYjkDOzn0unFeBzOBijIm1Dgmg5YFQwsCMjp1oJ8LyIAACH5BAkKAAAALAAAAAAgACAAAATwEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq%2BE71SRQeyqUToLA7VxF0JDyIQh%2FMVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiUd6GGl6NoiPOH16iZKNlH6KmyWFOggHhEEvAwwMA0N9GBsEC6amhnVcEwavDAazGwIDaH1ipaYLBUTCGgQDA8NdHz0FpqgTBwsLqAbWAAnIA4FWKdMLGdYGEgraigbT0OITBcg5QwPT4xLrROZL6AuQAPUS7bxLpoWidY0JtxLHKhwwMJBTHgPKdEQAACH5BAkKAAAALAAAAAAgACAAAATrEMhJaVKp6s2nIkqFZF2VIBWhUsJaTokqUCoBq%2BE71SRQeyqUToLA7VxF0JDyIQh%2FMVVPMt1ECZlfcjZJ9mIKoaTl1MRIl5o4CUKXOwmyrCInCKqcWtvadL2SYhyASyNDJ0uIiUd6GAULDJCRiXo1CpGXDJOUjY%2BYip9DhToJA4RBLwMLCwVDfRgbBAaqqoZ1XBMHswsHtxtFaH1iqaoGNgAIxRpbFAgfPQSqpbgGBqUD1wBXeCYp1AYZ19JJOYgH1KwA4UBvQwXUBxPqVD9L3sbp2BNk2xvvFPJd%2BMFCN6HAAIKgNggY0KtEBAAh%2BQQJCgAAACwAAAAAIAAgAAAE6BDISWlSqerNpyJKhWRdlSAVoVLCWk6JKlAqAavhO9UkUHsqlE6CwO1cRdCQ8iEIfzFVTzLdRAmZX3I2SfYIDMaAFdTESJeaEDAIMxYFqrOUaNW4E4ObYcCXaiBVEgULe0NJaxxtYksjh2NLkZISgDgJhHthkpU4mW6blRiYmZOlh4JWkDqILwUGBnE6TYEbCgevr0N1gH4At7gHiRpFaLNrrq8HNgAJA70AWxQIH1%2BvsYMDAzZQPC9VCNkDWUhGkuE5PxJNwiUK4UfLzOlD4WvzAHaoG9nxPi5d%2BjYUqfAhhykOFwJWiAAAIfkECQoAAAAsAAAAACAAIAAABPAQyElpUqnqzaciSoVkXVUMFaFSwlpOCcMYlErAavhOMnNLNo8KsZsMZItJEIDIFSkLGQoQTNhIsFehRww2CQLKF0tYGKYSg%2BygsZIuNqJksKgbfgIGepNo2cIUB3V1B3IvNiBYNQaDSTtfhhx0CwVPI0UJe0%2Bbm4g5VgcGoqOcnjmjqDSdnhgEoamcsZuXO1aWQy8KAwOAuTYYGwi7w5h%2BKr0SJ8MFihpNbx%2B4Erq7BYBuzsdiH1jCAzoSfl0rVirNbRXlBBlLX%2BBP0XJLAPGzTkAuAOqb0WT5AH7OcdCm5B8TgRwSRKIHQtaLCwg1RAAAOwAAAAAAAAAAAA%3D%3D);visibility:visible;opacity:.6;transition:all .3s ease}.reveal>.overlay header{position:absolute;left:0;top:0;width:100%;padding:5px;z-index:2;box-sizing:border-box}.reveal>.overlay header a{display:inline-block;width:40px;height:40px;line-height:36px;padding:0 10px;float:right;opacity:.6;box-sizing:border-box}.reveal>.overlay header a:hover{opacity:1}.reveal>.overlay header a .icon{display:inline-block;width:20px;height:20px;background-position:50% 50%;background-size:100%;background-repeat:no-repeat}.reveal>.overlay header a.close .icon{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABkklEQVRYR8WX4VHDMAxG6wnoJrABZQPYBCaBTWAD2g1gE5gg6OOsXuxIlr40d81dfrSJ9V4c2VLK7spHuTJ/5wpM07QXuXc5X0opX2tEJcadjHuV80li/FgxTIEK/5QBCICBD6xEhSMGHgQPgBgLiYVAB1dpSqKDawxTohFw4JSEA3clzgIBPCURwE2JucBR7rhPJJv5OpJwDX+SfDjgx1wACQeJG1aChP9K/IMmdZ8DtESV1WyP3Bt4MwM6sj4NMxMYiqUWHQu4KYA/SYkIjOsm3BXYWMKFDwU2khjCQ4ELJUJ4SmClRArOCmSXGuKma0fYD5CbzHxFpCSGAhfAVSSUGDUk2BWZaff2g6GE15BsBQ9nwmpIGDiyHQddwNTMKkbZaf9fajXQca1EX44puJZUsnY0ObGmITE3GVLCbEhQUjGVt146j6oasWN+49Vph2w1pZ5EansNZqKBm1txbU57iRRcZ86RWMDdWtBJUHBHwoQPi1GV+JCbntmvok7iTX4/Up9mgyTc/FJYDTcndgH/AA5A/CHsyEkVAAAAAElFTkSuQmCC)}.reveal>.overlay header a.external .icon{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAcElEQVRYR+2WSQoAIQwEzf8f7XiOMkUQxUPlGkM3hVmiQfQR9GYnH1SsAQlI4DiBqkCMoNb9y2e90IAEJPAcgdznU9+engMaeJ7Azh5Y1U67gAho4DqBqmB1buAf0MB1AlVBek83ZPkmJMGc1wAR+AAqod/B97TRpQAAAABJRU5ErkJggg==)}.reveal>.overlay .viewport{position:absolute;display:flex;top:50px;right:0;bottom:0;left:0}.reveal>.overlay.overlay-preview .viewport iframe{width:100%;height:100%;max-width:100%;max-height:100%;border:0;opacity:0;visibility:hidden;transition:all .3s ease}.reveal>.overlay.overlay-preview.loaded .viewport iframe{opacity:1;visibility:visible}.reveal>.overlay.overlay-preview.loaded .viewport-inner{position:absolute;z-index:-1;left:0;top:45%;width:100%;text-align:center;letter-spacing:normal}.reveal>.overlay.overlay-preview .x-frame-error{opacity:0;transition:opacity .3s ease .3s}.reveal>.overlay.overlay-preview.loaded .x-frame-error{opacity:1}.reveal>.overlay.overlay-preview.loaded .spinner{opacity:0;visibility:hidden;transform:scale(.2)}.reveal>.overlay.overlay-help .viewport{overflow:auto;color:#fff}.reveal>.overlay.overlay-help .viewport .viewport-inner{width:600px;margin:auto;padding:20px 20px 80px 20px;text-align:center;letter-spacing:normal}.reveal>.overlay.overlay-help .viewport .viewport-inner .title{font-size:20px}.reveal>.overlay.overlay-help .viewport .viewport-inner table{border:1px solid #fff;border-collapse:collapse;font-size:16px}.reveal>.overlay.overlay-help .viewport .viewport-inner table td,.reveal>.overlay.overlay-help .viewport .viewport-inner table th{width:200px;padding:14px;border:1px solid #fff;vertical-align:middle}.reveal>.overlay.overlay-help .viewport .viewport-inner table th{padding-top:20px;padding-bottom:20px}.reveal .playback{position:absolute;left:15px;bottom:20px;z-index:30;cursor:pointer;transition:all .4s ease;-webkit-tap-highlight-color:transparent}.reveal.overview .playback{opacity:0;visibility:hidden}.reveal .hljs{min-height:100%}.reveal .hljs table{margin:initial}.reveal .hljs-ln-code,.reveal .hljs-ln-numbers{padding:0;border:0}.reveal .hljs-ln-numbers{opacity:.6;padding-right:.75em;text-align:right;vertical-align:top}.reveal .hljs.has-highlights tr:not(.highlight-line){opacity:.4}.reveal .hljs.has-highlights.fragment{transition:all .2s ease}.reveal .hljs:not(:first-child).fragment{position:absolute;top:0;left:0;width:100%;box-sizing:border-box}.reveal pre[data-auto-animate-target]{overflow:hidden}.reveal pre[data-auto-animate-target] code{height:100%}.reveal .roll{display:inline-block;line-height:1.2;overflow:hidden;vertical-align:top;perspective:400px;perspective-origin:50% 50%}.reveal .roll:hover{background:0 0;text-shadow:none}.reveal .roll span{display:block;position:relative;padding:0 2px;pointer-events:none;transition:all .4s ease;transform-origin:50% 0;transform-style:preserve-3d;backface-visibility:hidden}.reveal .roll:hover span{background:rgba(0,0,0,.5);transform:translate3d(0,0,-45px) rotateX(90deg)}.reveal .roll span:after{content:attr(data-title);display:block;position:absolute;left:0;top:0;padding:0 2px;backface-visibility:hidden;transform-origin:50% 0;transform:translate3d(0,110%,0) rotateX(-90deg)}.reveal aside.notes{display:none}.reveal .speaker-notes{display:none;position:absolute;width:33.3333333333%;height:100%;top:0;left:100%;padding:14px 18px 14px 18px;z-index:1;font-size:18px;line-height:1.4;border:1px solid rgba(0,0,0,.05);color:#222;background-color:#f5f5f5;overflow:auto;box-sizing:border-box;text-align:left;font-family:Helvetica,sans-serif;-webkit-overflow-scrolling:touch}.reveal .speaker-notes .notes-placeholder{color:#ccc;font-style:italic}.reveal .speaker-notes:focus{outline:0}.reveal .speaker-notes:before{content:"Speaker notes";display:block;margin-bottom:10px;opacity:.5}.reveal.show-notes{max-width:75%;overflow:visible}.reveal.show-notes .speaker-notes{display:block}@media screen and (min-width:1600px){.reveal .speaker-notes{font-size:20px}}@media screen and (max-width:1024px){.reveal.show-notes{border-left:0;max-width:none;max-height:70%;max-height:70vh;overflow:visible}.reveal.show-notes .speaker-notes{top:100%;left:0;width:100%;height:30vh;border:0}}@media screen and (max-width:600px){.reveal.show-notes{max-height:60%;max-height:60vh}.reveal.show-notes .speaker-notes{top:100%;height:40vh}.reveal .speaker-notes{font-size:14px}}.reveal .jump-to-slide{position:absolute;top:15px;left:15px;z-index:30;font-size:32px;-webkit-tap-highlight-color:transparent}.reveal .jump-to-slide-input{background:0 0;padding:8px;font-size:inherit;color:currentColor;border:0}.reveal .jump-to-slide-input::placeholder{color:currentColor;opacity:.5}.reveal.has-dark-background .jump-to-slide-input{color:#fff}.reveal.has-light-background .jump-to-slide-input{color:#222}.reveal .jump-to-slide-input:focus{outline:0}.zoomed .reveal *,.zoomed .reveal :after,.zoomed .reveal :before{backface-visibility:visible!important}.zoomed .reveal .controls,.zoomed .reveal .progress{opacity:0}.zoomed .reveal .roll span{background:0 0}.zoomed .reveal .roll span:after{visibility:hidden}html.print-pdf *{-webkit-print-color-adjust:exact}html.print-pdf{width:100%;height:100%;overflow:visible}html.print-pdf body{margin:0 auto!important;border:0;padding:0;float:none!important;overflow:visible}html.print-pdf .nestedarrow,html.print-pdf .reveal .controls,html.print-pdf .reveal .playback,html.print-pdf .reveal .progress,html.print-pdf .reveal.overview,html.print-pdf .state-background{display:none!important}html.print-pdf .reveal pre code{overflow:hidden!important}html.print-pdf .reveal{width:auto!important;height:auto!important;overflow:hidden!important}html.print-pdf .reveal .slides{position:static;width:100%!important;height:auto!important;zoom:1!important;pointer-events:initial;left:auto;top:auto;margin:0!important;padding:0!important;overflow:visible;display:block;perspective:none;perspective-origin:50% 50%}html.print-pdf .reveal .slides .pdf-page{position:relative;overflow:hidden;z-index:1;page-break-after:always}html.print-pdf .reveal .slides section{visibility:visible!important;display:block!important;position:absolute!important;margin:0!important;padding:0!important;box-sizing:border-box!important;min-height:1px;opacity:1!important;transform-style:flat!important;transform:none!important}html.print-pdf .reveal section.stack{position:relative!important;margin:0!important;padding:0!important;page-break-after:avoid!important;height:auto!important;min-height:auto!important}html.print-pdf .reveal img{box-shadow:none}html.print-pdf .reveal .backgrounds{display:none}html.print-pdf .reveal .slide-background{display:block!important;position:absolute;top:0;left:0;width:100%;height:100%;z-index:auto!important}html.print-pdf .reveal.show-notes{max-width:none;max-height:none}html.print-pdf .reveal .speaker-notes-pdf{display:block;width:100%;height:auto;max-height:none;top:auto;right:auto;bottom:auto;left:auto;z-index:100}html.print-pdf .reveal .speaker-notes-pdf[data-layout=separate-page]{position:relative;color:inherit;background-color:transparent;padding:20px;page-break-after:always;border:0}html.print-pdf .reveal .slide-number-pdf{display:block;position:absolute;font-size:14px}html.print-pdf .aria-status{display:none}@media print{html:not(.print-pdf){overflow:visible;width:auto;height:auto}html:not(.print-pdf) body{margin:0;padding:0;overflow:visible}html:not(.print-pdf) .reveal{background:#fff;font-size:20pt}html:not(.print-pdf) .reveal .backgrounds,html:not(.print-pdf) .reveal .controls,html:not(.print-pdf) .reveal .progress,html:not(.print-pdf) .reveal .slide-number,html:not(.print-pdf) .reveal .state-background{display:none!important}html:not(.print-pdf) .reveal li,html:not(.print-pdf) .reveal p,html:not(.print-pdf) .reveal td{font-size:20pt!important;color:#000}html:not(.print-pdf) .reveal h1,html:not(.print-pdf) .reveal h2,html:not(.print-pdf) .reveal h3,html:not(.print-pdf) .reveal h4,html:not(.print-pdf) .reveal h5,html:not(.print-pdf) .reveal h6{color:#000!important;height:auto;line-height:normal;text-align:left;letter-spacing:normal}html:not(.print-pdf) .reveal h1{font-size:28pt!important}html:not(.print-pdf) .reveal h2{font-size:24pt!important}html:not(.print-pdf) .reveal h3{font-size:22pt!important}html:not(.print-pdf) .reveal h4{font-size:22pt!important;font-variant:small-caps}html:not(.print-pdf) .reveal h5{font-size:21pt!important}html:not(.print-pdf) .reveal h6{font-size:20pt!important;font-style:italic}html:not(.print-pdf) .reveal a:link,html:not(.print-pdf) .reveal a:visited{color:#000!important;font-weight:700;text-decoration:underline}html:not(.print-pdf) .reveal div,html:not(.print-pdf) .reveal ol,html:not(.print-pdf) .reveal p,html:not(.print-pdf) .reveal ul{visibility:visible;position:static;width:auto;height:auto;display:block;overflow:visible;margin:0;text-align:left!important}html:not(.print-pdf) .reveal pre,html:not(.print-pdf) .reveal table{margin-left:0;margin-right:0}html:not(.print-pdf) .reveal pre code{padding:20px}html:not(.print-pdf) .reveal blockquote{margin:20px 0}html:not(.print-pdf) .reveal .slides{position:static!important;width:auto!important;height:auto!important;left:0!important;top:0!important;margin-left:0!important;margin-top:0!important;padding:0!important;zoom:1!important;transform:none!important;overflow:visible!important;display:block!important;text-align:left!important;perspective:none;perspective-origin:50% 50%}html:not(.print-pdf) .reveal .slides section{visibility:visible!important;position:static!important;width:auto!important;height:auto!important;display:block!important;overflow:visible!important;left:0!important;top:0!important;margin-left:0!important;margin-top:0!important;padding:60px 20px!important;z-index:auto!important;opacity:1!important;page-break-after:always!important;transform-style:flat!important;transform:none!important;transition:none!important}html:not(.print-pdf) .reveal .slides section.stack{padding:0!important}html:not(.print-pdf) .reveal .slides section:last-of-type{page-break-after:avoid!important}html:not(.print-pdf) .reveal .slides section .fragment{opacity:1!important;visibility:visible!important;transform:none!important}html:not(.print-pdf) .reveal .r-fit-text{white-space:normal!important}html:not(.print-pdf) .reveal section img{display:block;margin:15px 0;background:#fff;border:1px solid #666;box-shadow:none}html:not(.print-pdf) .reveal section small{font-size:.8em}html:not(.print-pdf) .reveal .hljs{max-height:100%;white-space:pre-wrap;word-wrap:break-word;word-break:break-word;font-size:15pt}html:not(.print-pdf) .reveal .hljs .hljs-ln-numbers{white-space:nowrap}html:not(.print-pdf) .reveal .hljs td{font-size:inherit!important;color:inherit!important}}
+      
+      </style>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.0/dist/theme/blood.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+      
+      
+        <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.0/dist/reveal.js"></script>
+      
+      
+      
+      <style>
+      pre{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;padding:1em;margin:.5em 0;overflow:auto;line-height:1.5;tab-size:4;hyphens:none;color:#f8f8f2;background-color:#323232!important;border:#515151;border-radius:3px}pre[class*=language-]{padding:1em}code[class*=language-] .token.cdata,code[class*=language-] .token.comment,code[class*=language-] .token.doctype,code[class*=language-] .token.prolog,pre[class*=language-] .token.cdata,pre[class*=language-] .token.comment,pre[class*=language-] .token.doctype,pre[class*=language-] .token.prolog{color:#75715e}code[class*=language-] .token.punctuation,pre[class*=language-] .token.punctuation{color:inherit}code[class*=language-] .namespace,pre[class*=language-] .namespace{opacity:.7}code[class*=language-] .token.boolean,code[class*=language-] .token.constant,code[class*=language-] .token.deleted,code[class*=language-] .token.function-name,code[class*=language-] .token.number,code[class*=language-] .token.property,code[class*=language-] .token.symbol,code[class*=language-] .token.tag,pre[class*=language-] .token.boolean,pre[class*=language-] .token.constant,pre[class*=language-] .token.deleted,pre[class*=language-] .token.function-name,pre[class*=language-] .token.number,pre[class*=language-] .token.property,pre[class*=language-] .token.symbol,pre[class*=language-] .token.tag{color:#ae81ff}code[class*=language-] .token.attr-name,code[class*=language-] .token.builtin,code[class*=language-] .token.char,code[class*=language-] .token.inserted,code[class*=language-] .token.selector,code[class*=language-] .token.string,pre[class*=language-] .token.attr-name,pre[class*=language-] .token.builtin,pre[class*=language-] .token.char,pre[class*=language-] .token.inserted,pre[class*=language-] .token.selector,pre[class*=language-] .token.string{color:#e6db74}code[class*=language-] .token.entity,pre[class*=language-] .token.entity{color:#ae81ff}code[class*=language-] .token.url,pre[class*=language-] .token.url{color:#ccc}code[class*=language-] .token.operator,pre[class*=language-] .token.operator{color:#f92672}code[class*=language-] .token.atrule,code[class*=language-] .token.attr-value,code[class*=language-] .token.keyword,pre[class*=language-] .token.atrule,pre[class*=language-] .token.attr-value,pre[class*=language-] .token.keyword{color:#66d9ef}code[class*=language-] .token.function,pre[class*=language-] .token.function{color:#a6e22e}code[class*=language-] .token.class-name,pre[class*=language-] .token.class-name{color:#a6e22e}code[class*=language-] .token.regex,pre[class*=language-] .token.regex{color:#ae81ff}code[class*=language-] .token.important,code[class*=language-] .token.variable,pre[class*=language-] .token.important,pre[class*=language-] .token.variable{color:#a6e22e}code[class*=language-] .token.bold,code[class*=language-] .token.important,pre[class*=language-] .token.bold,pre[class*=language-] .token.important{font-weight:700}code[class*=language-] .token.italic,pre[class*=language-] .token.italic{font-style:italic}code[class*=language-] .token.entity,pre[class*=language-] .token.entity{cursor:help}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export" data-presentation-mode="">
+    
+    
+      <div class="crossnote markdown-preview  " data-presentation-mode="">
+      
+    <div style="display:none;"></div>
+    <div class="reveal">
+      <div class="slides">
+        <section lineno="9" class="slide " data-source-line="9" data-h="0" data-v="0"><h2 id="1917-1937">1917-1937 </h2>
+<h3 id="cd03-cd11">(CD03-CD11) </h3>
+</section><section lineno="13" class="slide " data-source-line="13" data-h="1" data-v="0"><h3 id="余叔岩">余叔岩 </h3>
+<ul>
+<li><a href="#%E6%88%98%E6%A8%8A%E5%9F%8E">战樊城</a></li>
+<li><a href="#%E9%B1%BC%E8%82%A0%E5%89%91">鱼肠剑</a></li>
+<li><a href="#%E6%9D%8E%E9%99%B5%E7%A2%91">李陵碑</a></li>
+<li><a href="#%E7%A9%BA%E5%9F%8E%E8%AE%A1">空城计</a></li>
+<li><a href="#%E6%B4%AA%E6%B4%8B%E6%B4%9E">洪洋洞</a></li>
+<li><a href="#%E4%B8%80%E6%8D%A7%E9%9B%AA">一捧雪</a><br>
+</li></ul></section><section lineno="21" class="slide " data-source-line="21" data-h="2" data-v="0">
+
+<h3 id="余叔岩-1">余叔岩 </h3>
+<ul>
+<li><a href="#%E6%90%9C%E5%AD%A4%E6%95%91%E5%AD%A4">搜孤救孤</a></li>
+<li><a href="#%E6%88%98%E5%A4%AA%E5%B9%B3">战太平</a></li>
+<li><a href="#%E5%85%AB%E5%A4%A7%E9%94%A4">八大锤</a></li>
+<li><a href="#%E6%B2%99%E6%A1%A5%E9%A5%AF%E5%88%AB">沙桥饯别</a></li>
+<li><a href="#%E7%8F%A0%E5%B8%98%E5%AF%A8">珠帘寨</a></li>
+<li><a href="#%E4%BC%90%E4%B8%9C%E5%90%B4">伐东吴</a></li>
+<li><a href="#%E4%B9%8C%E9%BE%99%E9%99%A2">乌龙院</a><br>
+</li></ul></section><section lineno="30" class="slide " data-source-line="30" data-h="3" data-v="0">
+
+<h4 id="战樊城">战樊城 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【西皮原板】
+兄长说话欠思论 休把今人比古人
+文王被囚天注定 伯邑考焚身命里生成
+【西皮二六】
+既是平王加官赠 就该有圣旨到樊城
+若是爹娘修书信 为什么有逃走二字在书后存
+怕的是失足履陷阱 那时节插翅也难胜
+我一心坐定樊城镇 愿作个不忠不孝人
+【西皮原板】
+一封书信到樊城 拆散我弟兄两离分
+叫家院看过酒一樽 弟与兄长来饯行
+【西皮二六】
+登山涉水多安稳 披星戴月奔都城
+若是合家同欢庆 在爹娘台前问安宁
+倘若是家门遭不幸 报仇之事有弟伍员
+非是小弟不从命 为的是逃走二字解不明
+兄长饮干杯中酒 一路平安早到京
+</code></pre><hr>
+</section><section lineno="52" class="slide " data-source-line="52" data-h="4" data-v="0"><h4 id="鱼肠剑">鱼肠剑 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【西皮原板】
+一事无成两鬓斑 叹光阴一去不回还
+日月轮流催晓箭 青山绿水常在面前
+恨平王无道纲常乱 信用无极狗奸谗
+他害我满门真悲惨 我与奸贼不共戴天
+实指望到吴国借兵转
+【西皮快板】行至在昭关有阻拦
+单人避难常遮掩 在黎阳山下遇高贤 设计救出了昭关险
+马到长江无渡船 多蒙渔夫行方便 他为我投江实可怜
+浣纱女 心好善 一饭之恩前世缘 眼望吴城路不远
+【西皮散板】报仇心急马加鞭
+</code></pre><hr>
+</section><section lineno="68" class="slide " data-source-line="68" data-h="5" data-v="0"><h4 id="李陵碑">李陵碑 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【二黄导板】金乌坠玉兔升黄昏时候
+【二黄碰板】盼娇儿不由人珠泪双流 我的儿啊
+【二黄原板】
+七郎儿回雁门搬兵求救 为什么此一去不见回头
+唯恐那潘仁美记起前扣 怕的是我的儿一命罢休
+含悲泪进大营双眉愁皱 腹内饥身寒冷遍体飕飕
+</code></pre><hr>
+</section><section lineno="79" class="slide " data-source-line="79" data-h="6" data-v="0"><h4 id="空城计">空城计 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【西皮慢板】
+我本是卧龙岗散淡的人 评阴阳如反掌保定乾坤
+先帝爷下南阳御驾三请 算就了汉家的业鼎足三分
+官封到武乡侯执掌帅印 东西战南北剿博古通今
+周文王访姜尚周室大振 俺诸葛怎比得前辈的先生
+闲无事在敌楼我亮一亮琴音
+【西皮原板】我面前缺少个知音的人
+</code></pre><hr>
+</section><section lineno="91" class="slide " data-source-line="91" data-h="7" data-v="0"><h4 id="洪洋洞">洪洋洞 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【二黄慢板】
+叹杨家投宋主心血用尽
+真可叹焦孟将命丧番营
+宗保儿搀为父软榻靠枕
+【二黄原板】
+怕只怕熬不过尺寸光阴
+</code></pre><hr>
+</section><section lineno="102" class="slide " data-source-line="102" data-h="8" data-v="0"><h4 id="一捧雪">一捧雪 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【二黄导板】一家人只哭得如酒醉
+【叫头】老爷 大人 唉 夫人呐
+【二黄碰板】那一边哭坏了雪氏夫人
+【二黄原板】
+戚大人八台的官救不了家主爷的命
+家主爷的命 老爷呀 实实地难坏了小莫成
+</code></pre><hr>
+</section><section lineno="113" class="slide " data-source-line="113" data-h="9" data-v="0"><h4 id="搜孤救孤">搜孤救孤 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【二黄导板】白虎大堂奉了命
+【二黄碰板】都只为 救孤儿 舍亲生
+连累了年迈苍苍受苦刑 眼见得两离分
+【二黄原板】
+我与他人定巧计 到如今连累他受苦刑
+开言便把公孙兄问 小弟言来你是听
+你若是再三地不肯招认 大人的王法不徇情
+手持皮鞭将你打
+【二黄散板】你切莫要胡言攀扯我好人
+</code></pre><hr>
+</section><section lineno="127" class="slide " data-source-line="127" data-h="10" data-v="0"><h4 id="战太平">战太平 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【二黄导板】头戴着紫金盔齐眉盖顶
+【二黄散板】为大将临阵死哪顾得贪生
+撩铠甲且把二堂进 有劳夫人点雄兵
+接过夫人得胜饮 背转身来谢神灵
+辞别夫人足踏镫 但愿此去扫荡烟尘
+</code></pre><hr>
+</section><section lineno="137" class="slide " data-source-line="137" data-h="11" data-v="0"><h4 id="八大锤">八大锤 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【二黄导板】听谯楼打初更玉兔东上
+【二黄碰板】为国家 秉忠心 食君禄 报王恩 昼夜奔忙
+【二黄原板】
+想当年在洞庭逍遥放荡 到如今食君禄未报宋王
+岳大哥他待我手足一样 我王佐无功劳怎受荣光
+今夜晚思一计番营去闯 留一个美名儿万载传扬
+</code></pre><hr>
+</section><section lineno="148" class="slide " data-source-line="148" data-h="12" data-v="0"><h4 id="沙桥饯别">沙桥饯别 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【二黄慢板】
+提龙笔写牒文大唐国号 孤御弟唐三藏替孤代劳
+各国内众蛮王休要阻道 到西天取了经即便还朝
+孤赐你锦袈裟霞光万道 孤赐你紫金钵禅杖一条
+孤赐你藏经箱僧衣僧帽 孤赐你四童儿鞍前马后 涉水登山好把箱挑
+内侍臣与孤王将宝抬到 金銮殿王与你改换法袍
+</code></pre><hr>
+</section><section lineno="159" class="slide " data-source-line="159" data-h="13" data-v="0"><h4 id="珠帘寨">珠帘寨 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【西皮导板】昔日有个三大贤
+【西皮原板】刘关张结义在桃园
+弟兄们徐州曾失散 古城相逢又团圆
+关二爷马上呼三弟 张翼德在城楼怒发冲冠
+耳边厢又听人呐喊
+【西皮快板】老蔡阳的人马来到了古城边
+城楼上助你三通鼓 十面旌旗壮壮威严
+哗喇喇打罢了头通鼓 关二爷提刀跨雕鞍
+哗喇喇喇打罢了二通鼓 人有精神马又欢
+哗喇喇打罢了三通鼓 蔡阳的人头落在马前
+一来是老儿命该丧 二来弟兄得团圆
+贤弟休回长安转 就在这沙陀过几年 落得个清闲
+</code></pre><hr>
+</section><section lineno="176" class="slide " data-source-line="176" data-h="14" data-v="0"><h4 id="伐东吴">伐东吴 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【西皮原板】
+忆昔当年长沙镇 算来不觉有数春
+荆襄阆中遭不幸 一心要把东吴平
+黄汉升撩袍御营进
+【西皮原板】
+老将军免礼且平身 暂陪朕坐消愁闷
+【西皮原板】引兵不必泪伤心
+</code></pre><hr>
+</section><section lineno="188" class="slide " data-source-line="188" data-h="15" data-v="0"><h4 id="乌龙院">乌龙院 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【四平调】
+宋公明打坐乌龙院 猜一猜大姐腹内情
+莫不是茶饭不随你的口 莫不是衣衫不合你的身
+莫不是邻居们得罪了你 莫不是妈儿娘打骂不仁
+这不是来那不是 莫不是思想我宋公明
+</code></pre><hr>
+</section><section lineno="198" class="slide " data-source-line="198" data-h="16" data-v="0"><h3 id="言菊朋">言菊朋 </h3>
+<ul>
+<li><a href="#%E5%8D%A7%E9%BE%99%E5%90%8A%E5%AD%9D">卧龙吊孝</a></li>
+<li><a href="#%E8%AE%A9%E5%BE%90%E5%B7%9E">让徐州</a></li>
+<li><a href="#%E5%A4%A9%E6%B0%B4%E5%85%B3">天水关</a></li>
+<li><a href="#%E9%AA%82%E7%8E%8B%E6%9C%97">骂王朗</a></li>
+<li><a href="#%E9%BB%84%E9%B9%A4%E6%A5%BC">黄鹤楼</a><br>
+</li></ul></section><section lineno="205" class="slide " data-source-line="205" data-h="17" data-v="0">
+
+<h4 id="卧龙吊孝">卧龙吊孝 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：魏希云 操琴：王瑞芝
+【二黄导板】见灵堂不由人珠泪满面
+【二黄碰板】叫一声公瑾弟细听根源
+【反二黄慢板】
+曹孟德领人马八十三万 擅敢夺东吴郡吞并江南
+周都督虽年少颇具肝胆 命山人借东风在暗地成全
+料不想大英雄不幸命断 空余那美名儿在万古留传
+只哭得诸葛亮把肝肠痛断 肝肠痛断 都督哇
+</code></pre><hr>
+</section><section lineno="218" class="slide " data-source-line="218" data-h="18" data-v="0"><h4 id="让徐州">让徐州 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>操琴：章梓宸
+【二黄原板】
+未开言不由人珠泪滚滚 千斤重任我就要你担承
+二犬子皆年幼难当重任 老朽年迈我也不能够担承
+望使君放开怀慨然应允 救生民积阴功也免得我坐卧不宁
+【四平调】叹人生如花草春夏茂盛
+待等那秋风起日见凋零 为国家终日里忧成疾病
+【西皮导板】汉高祖开基业江山独创
+【反西皮二六】
+传流了四百年锦绣家邦 到如今气运衰四方扰攘
+恨曹操专国政君弱臣强 还有那黄巾贼他把那各处掠抢
+众诸侯分疆土他们各霸一方 怎奈我徐州城兵微地广
+怕的是那曹操 他嫉恨前仇 兴人马 那时节免受灾殃
+</code></pre><hr>
+</section><section lineno="236" class="slide " data-source-line="236" data-h="19" data-v="0"><h4 id="天水关">天水关 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：魏希云 操琴：赵济羹
+【二黄慢板】
+先帝爷在白帝城龙归海境 传口诏叫老臣常挂在心
+命老臣保陛下社稷重整 教老臣把孙曹定要扫平
+出师表并不是别端议论 望陛下准臣本臣要发兵
+</code></pre><hr>
+</section><section lineno="246" class="slide " data-source-line="246" data-h="20" data-v="0"><h4 id="骂王朗">骂王朗 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>操琴：章梓宸
+【二黄慢板】
+叹先皇白帝城龙归天上 托孤与诸葛亮扶保朝纲
+领圣命与魏国连打数仗 夏侯楙黄口儿逃奔西羌
+取天水多亏了子龙老将 搬姜母那伯约他才肯来降
+孝子的门方能求那忠臣良将 传道法收桃李列在门墙
+将身儿坐至在中军宝帐
+【二黄摇板】等候那众将回共作商量
+</code></pre><hr>
+</section><section lineno="259" class="slide " data-source-line="259" data-h="21" data-v="0"><h4 id="黄鹤楼">黄鹤楼 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>操琴：章梓宸 吴彦衡饰赵云 王又荃饰周瑜
+刘　备：【西皮原板】
+他那里忽然提前情 倒叫我有口也难云
+待等西川多安稳 依然还你荆州的城
+周瑜：【西皮原板】
+出言来全不口问心 三番两次蒙哄人
+赤壁交兵俺临阵 岂肯双手奉他人
+赵云：【西皮散板】
+常言忠义要秉正 不该欺侮我君臣
+席前再问荆州事 怒恼常山赵将军
+</code></pre><hr>
+</section><section lineno="274" class="slide " data-source-line="274" data-h="22" data-v="0"><h3 id="高庆奎">高庆奎 </h3>
+<ul>
+<li><a href="#%E8%84%82%E7%B2%89%E8%AE%A1">脂粉计</a></li>
+<li><a href="#%E8%BE%95%E9%97%A8%E6%96%A9%E5%AD%90">辕门斩子</a></li>
+<li><a href="#%E9%80%8D%E9%81%A5%E6%B4%A5">逍遥津</a></li>
+<li><a href="#%E4%BF%A1%E9%99%B5%E5%90%9B%E7%AA%83%E7%AC%A6%E6%95%91%E8%B5%B5">信陵君窃符救赵</a></li>
+<li><a href="#%E8%8B%8F%E7%A7%A6%E5%BC%A0%E4%BB%AA">苏秦张仪</a><br>
+</li></ul></section><section lineno="281" class="slide " data-source-line="281" data-h="23" data-v="0">
+
+<h4 id="脂粉计">脂粉计 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>【西皮二六】
+闻言怒发冲牛斗 强打精神说从头
+某自出师把兵斗 要把国贼一笔勾。
+老王朗与我凭口斗 被我骂死在阵头。
+小周郎与我把智斗 兵败花荡命丧在巴丘。
+惟有你这老贼不知羞来又不知丑
+你看你头戴着凤冠 身穿着霞帔
+捏捏扭扭 你真真的不害羞
+你若是斗兵 斗将 斗阵我与你来斗
+哪个与你来斗羞 我只得传令回营走
+【西皮散板】方晓得司马懿他是一个女流
+【二黄原板】
+仰面朝天暗思叹 司马懿可算得将中魁元
+我与他送去了女衣一件 反予我旗牌官酒饭餐
+有刚有柔是好汉 诸葛亮比司马难上加难
+思想起司马心中大患
+【二黄散板】不由我鲜血往上翻
+</code></pre><hr>
+</section><section lineno="303" class="slide " data-source-line="303" data-h="24" data-v="0"><h4 id="辕门斩子">辕门斩子 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：律凤山 操琴：高连奎
+【西皮导板】听说是老娘亲来到帐外
+【西皮三眼】
+杨延昭下位去迎接娘来 见老娘施一礼躬身下拜
+【西皮原板】老娘亲驾到此所为何来
+老娘亲怒冲冲愁眉难解 莫不是为宗保他不肖的奴才
+提起来把儿的肝肠气坏 恨不得把奴才斧劈刀开
+儿命他领人马巡查四外 谁叫他穆柯寨私配裙钗
+因此上儿将他捆绑帐外 问老娘儿斩他该是不该
+娘道他年岁小孩童气概
+【西皮快板】说几个年幼人娘且听来
+秦甘罗十二岁身为太宰 石敬塘十三岁拜将登台
+三国中小周郎名扬四海 七岁上学道法人称将才
+在赤壁用火攻神鬼难解 烧曹兵八十万死无葬埋
+这也是父母生非神下界 难道说小奴才禽兽投胎
+</code></pre><hr>
+</section><section lineno="323" class="slide " data-source-line="323" data-h="25" data-v="0"><h4 id="逍遥津">逍遥津 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：律凤山 操琴：高连奎
+【叫头】伏后 御妻 妻呀
+【二黄导板】父子们在宫院伤心落泪
+【二黄碰板】想起了朝中事好不伤悲
+【二黄原板】
+曹孟德与伏后冤家作对 害得她魂灵儿不能够相随
+二皇儿年岁小孩童之辈 他不能在灵前敬酒三杯
+我恨奸贼把孤的牙根咬碎
+【二黄慢板】上欺君下压臣作事全非
+欺寡人在金殿不敢回对 欺寡人好一似猫鼠相随
+</code></pre><hr>
+</section><section lineno="338" class="slide " data-source-line="338" data-h="26" data-v="0"><h4 id="信陵君窃符救赵">信陵君窃符救赵 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：律凤山 操琴：高连奎
+【西皮导板】周文王梦飞熊夜扑帐外
+【西皮原板】
+渭水河访贤臣王业宏开 国域内无善人邦家必败
+草莽中没英雄所为何来 叫人来抬仪仗夷门以外
+【西皮散板】迎请那老侯生方称心怀
+</code></pre><hr>
+</section><section lineno="349" class="slide " data-source-line="349" data-h="27" data-v="0"><h4 id="苏秦张仪">苏秦张仪 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>张仪：【西皮散板】原来是你用的权术奸诈 恨张仪我忒忠厚有目如瞎 方记得万言书被火焚化
+苏秦：【念白】又是你的万言书 乃是我作的好 那商鞅他才不要我呀
+张仪：【念白】你可晓得我张仪么【西皮原板】献三策封客卿非我自夸
+苏秦：【念白】你的三策虽好 那商鞅他不用你呀
+张仪：【念白】你听了哇【西皮原板】我听说不用你大怒之下
+苏秦：【念白】他不用我 我都不生气 与你什么相干啊
+张仪：【西皮原板】我为你抛弃了紫袍乌纱 楚大夫约请我并非是假
+【西皮流水】我怕你一路上你不能回家 分金银我待你恩高义大 作高官你也该仔细的详察
+</code></pre><hr>
+</section><section lineno="362" class="slide " data-source-line="362" data-h="28" data-v="0"><h3 id="马连良">马连良 </h3>
+<ul>
+<li><a href="#%E7%94%98%E9%9C%B2%E5%AF%BA">甘露寺</a></li>
+<li><a href="#%E5%9B%9B%E9%83%8E%E6%8E%A2%E6%AF%8D">四郎探母</a></li>
+<li><a href="#%E4%B9%8C%E9%BE%99%E9%99%A2">乌龙院</a></li>
+<li><a href="#%E8%83%AD%E8%84%82%E5%AE%9D%E8%A4%B6">胭脂宝褶</a></li>
+<li><a href="#%E5%A5%87%E5%86%A4%E6%8A%A5">奇冤报</a></li>
+<li><a href="#%E7%9B%97%E5%AE%97%E5%8D%B7">盗宗卷</a><br>
+</li></ul></section><section lineno="370" class="slide " data-source-line="370" data-h="29" data-v="0">
+
+<h4 id="甘露寺">甘露寺 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：乔玉泉 操琴：赵桂元
+【西皮原板】
+劝千岁杀字休出口 老臣与主说从头
+刘备本是靖王的后 汉帝玄孙一脉流
+他有个二弟寿亭侯
+【西皮流水】青龙偃月神鬼皆愁
+白马坡前诛文丑 在古城曾斩过老蔡阳的头
+他三弟翼德性情有 丈八蛇矛贯取咽喉
+曾破黄巾兵百万 虎牢关前战温侯
+当阳桥前一声吼 断了桥梁水倒流
+他四弟子龙英雄将 盖世英雄贯九州
+长坂坡 救阿斗 杀得曹兵个个愁
+这一班武将哪国有 还有诸葛有计谋
+你杀刘备不要紧 他弟兄闻知怎肯罢休
+若是兴兵来争斗 东吴哪个敢出头
+我扭转回身奏太后 将计就计结鸾俦
+</code></pre><hr>
+</section><section lineno="391" class="slide " data-source-line="391" data-h="30" data-v="0"><h4 id="四郎探母">四郎探母 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：乔玉泉 操琴：赵桂元
+【西皮慢板】
+杨延辉坐宫院自思自叹 想起了当年事好不惨然
+我好比笼中鸟有翅难展 我好比虎离山受了孤单
+我好比南来雁失群离散 我好比浅水龙被困在沙滩。
+想当年沙滩会一场血战
+【西皮二六】只杀得众儿郎滚下马鞍
+我被擒改名姓身脱此难 将杨字改木易匹配良缘
+肖天佐摆天门两下会战 我的娘押粮草来到北番
+我有心回宋营见母一面 怎奈我身在番远隔天边
+思老母思得我把肝肠痛断 想老娘泪珠儿洒落在胸前
+【西皮摇板】眼睁睁母子们难得见
+儿的老娘啊 要相逢除非是梦里团圆
+</code></pre><hr>
+</section><section lineno="409" class="slide " data-source-line="409" data-h="31" data-v="0"><h4 id="乌龙院-1">乌龙院 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：乔玉泉 操琴：赵桂元
+【四平调】
+大老爷打罢了退堂鼓 衙前来了我宋江
+那一日闲游在大街上 偶遇着好汉小刘唐
+他把那实言对我讲 请我到梁山去为王
+这富贵岂是人妄想 自有天爷作主张
+行一步来到了长街上 又听得众宾朋说短道长
+自古道世事常滔滔， 大丈夫不听小人言
+移步儿来在了乌龙院
+</code></pre><hr>
+</section><section lineno="423" class="slide " data-source-line="423" data-h="32" data-v="0"><h4 id="胭脂宝褶">胭脂宝褶 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：乔玉泉 操琴：李慕良
+【四平调】
+适才间离却了皇宫内院 众梓童送孤到粉宫楼前
+沿毡帽遮不住龙眉凤眼 学一个赵太祖夤夜访贤
+【念白】孤 大明天子 国号永乐 自登基以来风调雨顺 国泰民安 前夜龙床打睡 偶得一梦 见金龙盘绕玉柱 是孤醒来宣先生详解 先生言道金龙盘绕玉柱 不出良将 定出贤臣 趁正月十五大放花灯 与民同乐 为此改装前去私访 侍儿 少时行在御街之上 要主仆相称 记下了 摆驾
+【二黄摇板】叫侍儿掌红灯御街来进 哪一个相认我永乐君
+</code></pre><hr>
+</section><section lineno="434" class="slide " data-source-line="434" data-h="33" data-v="0"><h4 id="奇冤报">奇冤报 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：乔玉泉 操琴：赵桂元
+【反二黄慢板】
+未曾开言泪满腮 尊一声老丈细听开怀
+家住在南阳城关外 离城十里有太平街
+刘世昌祖居有数代 务农为本颇有家财
+奉命上京做买卖 算清帐目转回家来
+行至在定远县交界 忽然间老天爷降下雨来
+来至在赵大的窑门之外 借宿谁知又惹祸灾
+他夫妻见财将我谋害 可怜我尸骨也未曾葬埋
+烧作了乌盆在窑中卖 偶遇老丈讨债来
+可怜我冤仇有三载 有三载 老丈啊
+</code></pre><hr>
+</section><section lineno="450" class="slide " data-source-line="450" data-h="34" data-v="0"><h4 id="盗宗卷">盗宗卷 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：乔玉泉 操琴：赵桂元
+【西皮导板】听一言吓得我魂飞不定
+【西皮散板】黑洞洞摸出了这相府的门
+【念白】且住 陈平老儿请我过府饮宴 哪里是过府饮宴 他要与我要那皇家的宗卷 我想那宗卷被国太在金殿之上用火焚化 陈平老儿限我三天 有了便罢 若是无有 要将我全家诛戮 唉 不免拜罢老王爵禄之恩 唉 寻个自尽了
+【西皮散板】
+张苍撩袍跪埃尘 拜谢我主的爵禄恩
+一把钢刀项上刎 这明亮亮的钢刀就吓煞人
+我站立在前厅高声叫
+</code></pre><hr>
+</section><section lineno="463" class="slide " data-source-line="463" data-h="35" data-v="0"><h3 id="周信芳">周信芳 </h3>
+<ul>
+<li><a href="#%E6%89%AB%E6%9D%BE%E4%B8%8B%E4%B9%A6">扫送下书</a></li>
+<li><a href="#%E5%8D%8E%E5%AE%B9%E9%81%93">华容道</a></li>
+<li><a href="#%E6%8A%95%E5%86%9B%E5%88%AB%E7%AA%91">投军别窑</a></li>
+<li><a href="#%E5%9B%9B%E8%BF%9B%E5%A3%AB">四进士</a><br>
+</li></ul></section><section lineno="469" class="slide " data-source-line="469" data-h="36" data-v="0">
+
+<h4 id="扫松下书">扫松下书 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：黄成美 操琴：孙葵林
+【念白】我不是拜你呀 我拜的是忘恩负义的
+【清江引】蔡伯喈
+小哥哥你在荒郊外 听老汉把那蔡家的事儿 从头说开怀
+蔡伯喈到京城把那功名求拜 在家中撇下了二老双台
+他的父为他把那双眼哭坏 他的母终朝每日泪满在胸怀
+家中贫穷无计可奈 最可叹他二老双双冻饿而死就丧了阳台
+五娘子剪下了青丝到那长街去卖 卖了些银钱把她公婆来葬埋
+似这等贤德的媳妇令人真可爱 是老汉送米我又送柴
+她那里身背着琵琶到那京城地界 但愿她夫妻相会配和谐
+他把那父母的恩情抛至在那三江以外 他把养育的恩情一旦都丢开
+小哥哥你与我把信来带 你教那蔡伯喈早早的回家来
+倘若是蔡伯喈把那良心来坏 小哥 你问他身从哪里得来
+倘若是蔡伯喈佯瞅再不睬 你就说在这陈留郡荒郊外
+有个老者叫张广才 托过小哥把信带 说我一个拜 一个拜
+</code></pre><hr>
+</section><section lineno="489" class="slide " data-source-line="489" data-h="37" data-v="0"><h4 id="华容道">华容道 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>金少山饰曹操
+司鼓：张世恩 操琴：孙葵林
+【念白】慢说一十八骑残兵败将 就是一十八只猛虎 关某何惧
+【西皮二六】
+你好比鳌鱼吞钩钓 惊弓鸟怎能脱逃
+...
+【西皮快板】
+虽然是你待我恩德义好 我也曾还过了你的功劳
+斩颜良诛文丑立功报效 将印信挂中梁封金辞曹
+...
+不提起送文凭还则罢了 提起了送文凭怒满眉梢
+在黄河斩秦琪文凭来到 蒙丞相空人情某到心焦
+...
+非是俺忘却了永远相报 都只为挟天子罪恶难逃
+今日来在华容道 你来来来 试一试某的青龙刀
+【西皮散板】
+往日杀人不眨眼 今日心肠软似绵
+汉关某岂是无义汉 忍叫人头挂高杆
+叫三军摆下长蛇阵 你认得此阵放你还
+</code></pre><hr>
+</section><section lineno="513" class="slide " data-source-line="513" data-h="38" data-v="0"><h4 id="投军别窑">投军别窑 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>潘雪艳饰王宝钏
+司鼓：黄成美 操琴：孙葵林
+【西皮导板】可恨王允太不仁
+【西皮原板】
+害得我夫妻们两下离分 催马加鞭往前进
+【西皮摇板】叫声三姐快开窑门
+...
+【西皮原板】
+贼好比秦赵高指鹿为马 贼好比汉萧何私造律法
+为丈夫与你父冤仇结下 害得我夫妻们就各奔天涯
+</code></pre><hr>
+</section><section lineno="528" class="slide " data-source-line="528" data-h="39" data-v="0"><h4 id="四进士">四进士 </h4>
+<pre data-role="codeBlock" data-info="" class="language-text text"><code>司鼓：张世恩 操琴：孙葵林
+【西皮导板】上写田伦顿首拜
+【西皮原板】
+拜上了信阳州顾大人 双塔寺前分别后 倒有几载未相逢 姚家庄有个杨氏女
+【西皮流水】
+她本是姚家不贤的人 药酒害死亲夫主 反赖姐丈姚庭椿
+三百两纹银压书信 还望年兄念弟情 上风官司归故里 登门叩谢顾年兄
+【西皮散板】
+公堂之上上了刑 好似鳌鱼把钩吞 悲切切出了都察院 只见杨春就与素贞
+你本河南上蔡县 你是南京水西门 我三人从来不相认 宋士杰与你们是哪门子亲
+我为你挨了四十板 我为你披枷戴锁边外去充军 可叹我年迈人离乡郡 杨春杨素贞谁是披麻戴孝人
+</code></pre><hr>
+</section>
+      </div>
+    </div>
+    
+      </div>
+      
+      
+    
+    
+      <script>
+        Reveal.initialize({"margin":0.1,"theme":"blood.css","progress":true,"dependencies":[]})
+      </script>
+      
+    
+    
+    
+    
+  
+    </body></html>
