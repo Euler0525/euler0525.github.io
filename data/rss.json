@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T08:05:16.016858Z",
+  "generatedAt": "2026-07-19T08:33:11.689018Z",
   "feeds": [
     {
       "title": "Electronics etc…",
@@ -46,9 +46,9 @@
     {
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
-      "siteUrl": "https://www.pixelstech.net",
+      "siteUrl": "",
       "articleCount": 20,
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     }
   ],
   "articles": [
