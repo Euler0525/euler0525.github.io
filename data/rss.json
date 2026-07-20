@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T08:33:11.689018Z",
+  "generatedAt": "2026-07-20T02:07:33.041877Z",
   "feeds": [
     {
       "title": "Electronics etc…",
@@ -46,12 +46,24 @@
     {
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
-      "siteUrl": "",
+      "siteUrl": "https://www.pixelstech.net",
       "articleCount": 20,
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     }
   ],
   "articles": [
+    {
+      "id": "6fb38d4157315539",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "title": "派早报：锂电池消费税分阶段恢复征收",
+      "url": "https://sspai.com/post/112498",
+      "published": "2026-07-19T23:11:33Z",
+      "author": "",
+      "summary": "锂电池消费税分阶段恢复征收 白宫提词器操作员利用内幕信息下注被查 LG 显示器连接电脑后自动安装广告程序 新一代豆包手机不再模拟点击操作 亚马逊错发数亿美元云服务账单 京沪线试点 12306 预约购票，最早提前 60 天 看看就行的小道消息 少数派的近期动态 你可能错过的好文章 查看全文",
+      "content": "锂电池消费税分阶段恢复征收\n\n白宫提词器操作员利用内幕信息下注被查\n\nLG 显示器连接电脑后自动安装广告程序\n\n新一代豆包手机不再模拟点击操作\n\n亚马逊错发数亿美元云服务账单\n\n京沪线试点 12306 预约购票，最早提前 60 天\n\n看看就行的小道消息\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "aa0f548c30d26d82",
       "feedTitle": "少数派",
@@ -158,18 +170,6 @@
       "author": "",
       "summary": "全面 ARM 化后的第一个 macOS 版本，Golden Gate 27 还有这些变化。查看全文",
       "content": "全面 ARM 化后的第一个 macOS 版本，Golden Gate 27 还有这些变化。查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "3e1d71b2b72dcae5",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "title": "翻译「世界杯」的赛事名称，为什么中文比日文更简洁？",
-      "url": "https://sspai.com/post/111086",
-      "published": "2026-07-16T02:58:08Z",
-      "author": "",
-      "summary": "国名也好、赛事名称也好，日语走上了片假名这条路——那为什么日本人不能像中文一样，直接造出「美加墨W杯」这样的简称？查看全文",
-      "content": "国名也好、赛事名称也好，日语走上了片假名这条路——那为什么日本人不能像中文一样，直接造出「美加墨W杯」这样的简称？查看全文",
       "readingMinutes": 1
     },
     {
