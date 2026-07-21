@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T17:57:16.933038Z",
+  "generatedAt": "2026-07-21T06:22:21.428595Z",
   "feeds": [
     {
       "title": "Electronics etc…",
@@ -53,6 +53,30 @@
   ],
   "articles": [
     {
+      "id": "da827af6ecf03c8d",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "title": "App+1 | 把「从长视频截取片段」做到极致：Trimly",
+      "url": "https://sspai.com/post/111569",
+      "published": "2026-07-21T03:00:02Z",
+      "author": "",
+      "summary": "作为有多年专业音视频开发经验的技术工作者，我给自己，以及可能也有类似需求的你，做了一个把「从长视频里截取片段」这件事做到极致的产品。查看全文",
+      "content": "作为有多年专业音视频开发经验的技术工作者，我给自己，以及可能也有类似需求的你，做了一个把「从长视频里截取片段」这件事做到极致的产品。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "4267cb1040f6fcd1",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "title": "派早报：京沪高铁与京沪铁路试点提前 60 天预约购票等",
+      "url": "https://sspai.com/post/112565",
+      "published": "2026-07-21T00:02:09Z",
+      "author": "",
+      "summary": "少数派的近期动态那个让你放松娱乐、拥抱心流、逃离纷扰或找回真我的角落，是如何构建起来的？「角落新声」征文活动火热征稿中少数派×AKKO灵犀Linx68键盘预售开启。看看新键盘你可能错过的文章2026年 ...查看全文",
+      "content": "少数派的近期动态那个让你放松娱乐、拥抱心流、逃离纷扰或找回真我的角落，是如何构建起来的？「角落新声」征文活动火热征稿中少数派×AKKO灵犀Linx68键盘预售开启。看看新键盘你可能错过的文章2026年 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
       "id": "642d44477cde3dc1",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -77,6 +101,18 @@
       "readingMinutes": 1
     },
     {
+      "id": "bdaa22229fcb5ef7",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "title": "NVIDIA 在 SIGGRAPH 上展示代理式 AI 与物理 AI 成果，推动图形与仿真技术进步",
+      "url": "https://blogs.nvidia.cn/blog/siggraph-news-2026/",
+      "published": "2026-07-20T04:49:10Z",
+      "author": "英伟达中国",
+      "summary": "今年的 SIGGRAPH 大会将持续到 7 月 23 日 (星期四) 在洛杉矶举行，参会者可以了解领先的图形研究、神经渲染、仿真和 AI 如何改变人们和机器创造和理解世界的方式。 NVIDIA 主题演讲于太平洋时间 7 月 20 日 15:45 举行，NVIDIA AI 研究和工程团队负责人 Neil Ashton、Edward Liu 和 Ming-Yu Liu 讨论了由 AI 构建的神经渲染技术、世界模型和 AI 仿真方法。 请继续阅读，了解 SIGGRAPH 大会的最新动态，NVIDIA",
+      "content": "今年的 SIGGRAPH 大会将持续到 7 月 23 日 (星期四) 在洛杉矶举行，参会者可以了解领先的图形研究、神经渲染、仿真和 AI 如何改变人们和机器创造和理解世界的方式。\n\nNVIDIA 主题演讲于太平洋时间 7 月 20 日 15:45 举行，NVIDIA AI 研究和工程团队负责人 Neil Ashton、Edward Liu 和 Ming-Yu Liu 讨论了由 AI 构建的神经渲染技术、世界模型和 AI 仿真方法。\n\n请继续阅读，了解 SIGGRAPH 大会的最新动态，NVIDIA 和合作伙伴将展示：\n\nNVIDIA 主题演讲回顾\n\n适用于本地物理 AI 的 Cosmos 3 Edge 开放世界模型\n\nSIGGRAPH 主题演讲：NVIDIA 勾勒图形与物理 AI 的新时代蓝图\n\nNVIDIA Cosmos 实验室副总裁 Ming -Yu Liu 在 SIGGRAPH 2026 发表演讲。\n\nNVIDIA AI 研究与工程团队负责人今天在 SIGGRAPH 大会上登台，分享了神经渲染、世界模型和仿真方面的最新进展。这些技术正在改变各个领域创建和使用数字世界的方式，并可应用于创意工具、工业设计、机器人和自主系统。\n\nNVIDIA 创始人兼首席执行官黄仁勋在开场视频中表示：“创作者和设计师需要足够强大的工具来拓展他们的想象力，需要足够灵活的工具来自由地塑造想法，也需要足够精确以实现他们的愿景。无论是用于游戏、电影、机器人还是工厂数字孪生，目标始终一致：打造具备与现实物理世界同等保真度和真实感的虚拟世界。”\n\nNVIDIA 应用深度学习研究主管 Edward Liu 首先展示了 3D 引导神经网络渲染。\n\n他分享了 NVIDIA 在神经渲染方面的最新进展，以及这些技术如何解决三大关键研究挑战：保留艺术创作的意图、确保输出在帧与帧之间的时间稳定性，以及实现 4K 内容实时渲染。\n\nEdward Liu 表示：“控制艺术创作方向对我们来说是一个非常令人兴奋的研究方向。仿真定义了世界，生成丰富了它的外观，而艺术家则主导最终的结果。AI 正在扩展图形学，就像可编程着色器和光线追踪曾经扩展图形学的方式。”\n\nNVIDIA 杰出工程师 Neil Ashton 介绍了 AI 物理领域的创新，包括天气预报、汽车空气动力学、散热设计等方面的应用。\n\n在气候和天气研究中 NVIDIA Earth-2 开放模型系列使科学家能够利用基于模拟数据训练的 AI 模型，将模拟分辨率提升到新的水平，同时实现与传统方法相同或更高的准确性。\n\nNVIDIA 杰出工程师 Neil Ashton 在 SIGGRAPH 2026 上介绍 NVIDIA Earth-2。\n\nAshton 说：“我们面临的挑战是如何将这些 AI 模型在天气和气候领域取得的成功应用到我们生活的世界中，从而能够设计出未来的飞机、汽车和数据中心。NVIDIA 关注的事情之一就是帮助实现这一愿景。”\n\nAshton 分享了 NVIDIA 研究中心及其合作伙伴开发的最新模型架构如何将模型 Checkpoint 压缩至数百 MB，这种百万倍量级的压缩能够在一秒内完成符合物理规律的精准可视化。\n\nNVIDIA Cosmos 实验室副总裁 Ming-Yu Liu 分享了 NVIDIA Cosmos，这是一个用于加速物理 AI 系统开发的世界基础模型平台。\n\n他说：“基础模型之所以被称为基础模型，关键在于它能够处理大量不同的数据。我们使用数据训练 Cosmos 执行各种物理任务，包括理解世界、预测、模拟和行动。我们使用一个主干网络解决所有不同的任务。”\n\nMing-Yu Liu 还介绍了用于帮助 NVIDIA Cosmos 3 实现全局理解的 Mixture-of-Transformers 模型架构。这种能力可实现符合物理规律的结果，适用于人形机器人、抓手或智能汽车等不同具身形态。\n\n他说：“每个具身都有不同的语言，而我们的解决方案是建立一种通用的体系。”\n\nNVIDIA Cosmos 包含一系列不同规模的开放模型，可支持开发者在各种部署用例下使用。今天发布的最新版本是 Cosmos 3 Edge，这是一个拥有 40 亿参数的模型，可在设备上实时运行。\n\nMing-Yu Liu 还宣布推出了 Cosmos-Dreams，这是一个闭环模拟器的集合，现场他和同事演示了一个专为智能汽车构建的模拟器，该模拟器可在单帧上生成整个世界，并在单张 NVIDIA RTX PRO GPU 上运行。\n\n开发者可以使用 Cosmos-Dreams 验证其模型的准确性，然后再将其部署到实际车队中，或者使用它在现实世界中难以创建的 AI 生成场景中训练模型，从而在节省运营成本的同时加速开发。\n\n观看完整主题演讲并详细了解 Cosmos 3 Edge。\n\nNVIDIA Cosmos 3 Edge 现已推出，将前沿世界模型引入边缘 GPU 以实现本地物理 AI\n\n物理 AI 系统依赖世界模型来感知、推理和预测物理环境。但现实世界十分广阔、无法预测且瞬息万变。\n\n无论是导航仓库的机器人，还是观测工厂车间的摄像头网络，物理 AI 系统都需要理解当前状况，推断接下来可能发生的事情，并迅速采取行动以产生影响。到目前为止，在边缘端交付此类前沿 AI 通常意味着需要牺牲模型能力来换取部署效率。\n\n现已推出的 NVIDIA Cosmos 3 Edge 有助于消除这种权衡。这款拥有 40 亿参数的全模态模型已进行优化，可在 NVIDIA Jetson、NVIDIA RTX PRO 和 NVIDIA DGX 系统，以及 GeForce RTX GPU 上实现内存高效部署和高吞吐量。\n\n作为 NVIDIA Cosmos 3 的扩展，这款紧凑型世界基础模型能够理解并生成文本、图像、视频、环境声音和动作。其 Mixture-of-Transformers (MoT) 架构支持在设备上使得基于物理基础的实时视觉分析和机器人动作成为可能。\n\nCosmos 3 Edge 在边缘端提供前沿物理 AI —— 在同级别参数模型中，其视觉分析成功率在 VANTAGE-Bench 中排名第一，并通过后训练实现了先进的机器人学习。\n\n跨机器人、智能汽车和智能基础设施的设备端物理 AI\n\n开发者可以使用 NVIDIA DGX Station 台式 AI 超级计算机，利用专有机器人和传感器数据对 Cosmos 3 Edge 进行后训练，从而构建专用世界动作模型，然后将其部署在 NVIDIA Jetson Thor 上，以实现包括操作或移动在内的实时机器人管理策略。Agile Robots、斗山机器人、西门子和 Skild AI 等合作伙伴正在评估 Cosmos 3 Edge 在机器人工作流中的应用。\n\n对于智能汽车，Cosmos 3 Edge 可在资源受限的硬件上实现道路场景理解、交通推理、物体意图预测和策略模型蒸馏。该模型可用作学生主干网络，适用于汽车策略模型蒸馏，可与 NVIDIA Alpamayo 视觉语言动作模型结合使用。\n\n在智能基础设施领域，Cosmos 3 Edge 凭借在 Jetson Thor 上进行的实时推理，为视觉智能体提供了业界领先的吞吐量和准确性。这些智能体能够跨实时视频流进行推理，用于交通监测、公共安全、物流和工业检测。开发者还可以在 NVIDIA Jetson Orin 8GB 上独立运行由 NVIDIA Nemotron 驱动的 20 亿参数推理模块。Centific、Vaidio 和 YUAN 正在评估 Cosmos 3 Edge，以加速在边缘运行的视觉智能体。\n\nCosmos 平台现已开放获取\n\nCosmos 3 Edge 是用于开发物理 AI 世界模型的更广泛的 NVIDIA Cosmos 平台的一部分。随着 Cosmos 3 推出 Edge (4B)、Nano (16B) 和 Super (64B) 三种规模，开发者可以为从边缘部署到高保真生成的开发的各个阶段选择合适的模型。\n\nCosmos 3 Edge、Cosmos 3 Nano 和 Cosmos 3 Super 现已在 Hugging Face 上发布，其推理和后训练框架及方法已在 GitHub 上提供。",
+      "readingMinutes": 6
+    },
+    {
       "id": "7b1c60f5b67e505d",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -87,6 +123,18 @@
       "summary": "高考结束后，又有一大批同学开始考虑换新手机啦。在预算差不多的情况下，很多人会纠结是买一台较新的中端机，还是买一台年份更老、但曾经是旗舰级的机型。于是我把 2020 年购入的 iPhone 8 Plus 拿出来当了一星期主力机，看看这台 2017 年发布的手机，放到今天还能不能胜任日常使用。查看全文",
       "content": "高考结束后，又有一大批同学开始考虑换新手机啦。在预算差不多的情况下，很多人会纠结是买一台较新的中端机，还是买一台年份更老、但曾经是旗舰级的机型。于是我把 2020 年购入的 iPhone 8 Plus 拿出来当了一星期主力机，看看这台 2017 年发布的手机，放到今天还能不能胜任日常使用。查看全文",
       "readingMinutes": 1
+    },
+    {
+      "id": "bfed89f2bcb02506",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "title": "NVIDIA Agent Toolkit 扩展全新 Omniverse 库，赋能 AI 智能体构建“仿真就绪”世界",
+      "url": "https://blogs.nvidia.cn/blog/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds/",
+      "published": "2026-07-20T02:44:39Z",
+      "author": "英伟达中国",
+      "summary": "新闻摘要： NVIDIA 今日宣布，NVIDIA Agent Toolkit 现已包含 NVIDIA Omniverse™ 库 —— 这是一套软件组件集合，为 AI 智能体提供各种工具和技能，从而为现有应用添加物理 AI 功能并为仿真准备 3D 内容。 机器人、工厂和自主系统在进入现实世界运行之前，需要先在仿真环境中进行设计、测试和训练。为仿真准备 3D 内容不仅需要逼真的视觉效果 —— 资产还需要具备正确的结构、材质、规模、标签、传感器和物理属性。借助 NVIDIA Agent Toolkit",
+      "content": "新闻摘要：\n\nNVIDIA Agent Toolkit 现已包含 NVIDIA Omniverse 库，为 AI 智能体提供多种工具和技能，以帮助软件开发者将物理 AI 功能集成到现有应用中。\n\n适用于 NVIDIA RTX 传感器仿真、GPU 加速物理仿真和支持仿真资产验证的全新 Omniverse 库现已在 GitHub 上公开发布。\n\nSideFX 和 PTC 正在将 Omniverse 库集成到用于物理 AI 的 3D 应用中，支持从 NVIDIA RTX Spark 到 NVIDIA DGX Station 的云端和本地 AI 系统。\n\nNVIDIA 推出用于在 Blender 中集成 Omniverse 库的全新蓝图。\n\nNVIDIA 今日宣布，NVIDIA Agent Toolkit 现已包含 NVIDIA Omniverse 库 —— 这是一套软件组件集合，为 AI 智能体提供各种工具和技能，从而为现有应用添加物理 AI 功能并为仿真准备 3D 内容。\n\n机器人、工厂和自主系统在进入现实世界运行之前，需要先在仿真环境中进行设计、测试和训练。为仿真准备 3D 内容不仅需要逼真的视觉效果 —— 资产还需要具备正确的结构、材质、规模、标签、传感器和物理属性。借助 NVIDIA Agent Toolkit 中的 NVIDIA Omniverse 库，AI 智能体具备了构建工作流、检查场景、标记问题和准备资产的工具和技能，帮助开发者更快地将 3D 内容转换为可直接用于仿真的环境。\n\nNVIDIA 创始人兼首席执行官黄仁勋表示：“物理 AI 时代将始于在仿真中构建。结合 Omniverse 库的 NVIDIA Agent Toolkit 将 AI 智能体引入开发者已在使用的 3D 工具中，帮助构建可直接用于仿真的世界，让机器人、工厂和自主系统在进入现实世界之前，早在其中进行训练和测试。”\n\n包括 SideFX 和 PTC 在内的软件制造商正在集成 Omniverse 库，以实现面向智能体的传感器仿真、物理仿真和资产验证，从而帮助将代理式 AI 引入开发者和技术美术已经用于准备 3D 内容的应用和工作流中。\n\nOmniverse 库将物理 AI 技能引入 NVIDIA Agent Toolkit\n\nNVIDIA Agent Toolkit 帮助软件制造商构建连接工具、技能和数据源的 AI 智能体。Omniverse 库通过在现有应用中提供用于传感器仿真、GPU 加速物理仿真以及可直接用于仿真资产验证的可调用工具，将这些智能体扩展到 3D 和物理 AI 工作流中。\n\n全新 Omniverse 库 —— 包括 ovrtx、ovphysx 和 CAD-to-SimReady 技能 —— 已在 GitHub 上公开发布，为 AI 智能体提供了构建工作流的工具，以检查场景、测试更改并为仿真准备 3D 资产。用于在 Blender 中集成 Omniverse 库的全新蓝图现也可在 GitHub 上获取。\n\n这些库的主要功能包括：\n\nNVIDIA RTX 传感器仿真：ovrtx 帮助应用从 3D 场景生成摄像头、激光雷达、雷达和其他传感器输出，以便开发者和 AI 智能体可以测试物理 AI 系统如何感知虚拟环境。\n\n物理行为：ovphysx 使用 GPU 加速物理仿真，通过碰撞、质量、摩擦和运动等属性为 3D 场景带来逼真的行为，因此团队可以先在仿真中测试物体和系统之间的交互。\n\n面向仿真的 3D 对象：CAD-to-SimReady 技能有助于将计算机辅助设计 (CAD) 数据转换为基于 OpenUSD 构建的 SimReady 资产，赋予 3D 内容物理 AI 仿真和虚拟测试所需的属性。\n\n软件制造商使用 Omniverse 库进行构建\n\n包括 SideFX 和 PTC 在内的软件制造商，以及 ForgeCAD、光轮智能、Moonlake AI 和 Palatial 等初创公司均率先采用 Omniverse 库 (现已成为 NVIDIA Agent Toolkit 的一部分) 进行构建。\n\nSideFX 正在使用 OpenUSD 工作流以及 ovrtx 和 ovphysx 库，探索智能体如何帮助将 Omniverse 库集成到其 Houdini 程序化 3D 内容创作工作流中，为技术美术提供生成、测试物理仿真效果和准备仿真内容的途径。\n\nSideFX 总裁兼首席执行官 Kim Davidson 表示：“程序化 3D 创作对于构建仿真、机器人和工业 AI 所需的复杂、可控世界至关重要。借助 NVIDIA Omniverse 库和 OpenUSD，SideFX 正在探索面向智能体的工具如何支持 Houdini 工作流，帮助技术美术在保持对创作过程的把控的同时，审核、测试并为仿真准备程序化内容。”\n\nPTC Onshape CAD 和产品数据管理 (PDM) 平台正在使用 OpenUSD 和 ovrtx 将云原生设计工作流与物理仿真相连接，帮助产品设计内容与 CAD、PDM、协作和仿真工作流保持连接。\n\nPTC 总裁兼首席执行官 Neil Barua 表示：“工程团队正在寻求在整个开发过程中以更具连接性的方式进行设计、协作和仿真。PTC 与 NVIDIA 的协作支持了这一更广泛的愿景，而 NVIDIA Omniverse 库有助于实现可直接用于仿真的工作流，使验证和测试更接近产品设计的环节。”\n\n在 SIGGRAPH 上展示的 “SimReady” Blender 是一个在 Blender 中借助 NVIDIA Omniverse 库和 NVIDIA NemoClaw 构建的示例工作流。它展示了软件制造商如何将面向智能体的仿真功能 —— 包括 NVIDIA RTX 传感器仿真、物理仿真和验证 —— 添加到现有 3D 应用中，同时保持创作者的把控权。该蓝图现已作为在 Blender 中集成 Omniverse 库的蓝图公开发布。\n\n该演示还预览了这些基于 Omniverse 库、作为 NVIDIA Agent Toolkit 一部分的工作流如何在本地运行，支持的设备从搭载 NVIDIA RTX Spark 超级芯片的笔记本电脑和紧凑型桌面主机，到搭载 NVIDIA Grace Blackwell Ultra 的 NVIDIA DGX Station 系统。RTX Spark 笔记本电脑将于今年秋季由华硕、戴尔、惠普、联想、微软 Surface 和微星推出，宏碁和技嘉的相关产品也将随后推出。DGX Station 系统可通过华硕、戴尔、技嘉、惠普、微星、Supermicro 和 Exxact 进行订购。\n\n包括 NVIDIA 初创加速计划成员在内初创公司，也正在使用 Omniverse 库和技能来添加智能体辅助资产和场景准备工作流。Palatial 正在使用 Omniverse CAD-to-SimReady 技能，从 CAD 输入大规模自动创建和验证 SimReady 资产。光轮智能在其 SimReadyGen 技术中使用由 OpenUSD 提供支持的 Omniverse Content Agent，根据文本提示生成物理精确的 SimReady 资产。\n\nForgeCAD 和 Moonlake AI 正在探索由智能体驱动的 3D 内容工作流，这些工作流使用 Omniverse 功能来帮助生成、增强并为物理 AI 仿真准备资产。\n\n观看 SIGGRAPH 大会上的 NVIDIA 主题演讲。详细了解 NVIDIA Omniverse 库并探索可用的示例和文档。",
+      "readingMinutes": 5
     },
     {
       "id": "6fb38d4157315539",
@@ -146,30 +194,6 @@
       "author": "",
       "summary": "AI 之外，watchOS 27 中还有这些新功能。查看全文",
       "content": "AI 之外，watchOS 27 中还有这些新功能。查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "742e27cd87889284",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "title": "UniGetUI：可能是 Windows 下最好用的应用商店",
-      "url": "https://sspai.com/post/111128",
-      "published": "2026-07-17T02:37:12Z",
-      "author": "",
-      "summary": "UniGetUI 是一个不错的包管理器，它提供的统一的更新 UI，让你的软件最大程度集中在一起管理，还可以用于需要批量配置的场景。查看全文",
-      "content": "UniGetUI 是一个不错的包管理器，它提供的统一的更新 UI，让你的软件最大程度集中在一起管理，还可以用于需要批量配置的场景。查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "2d9d52ca8cae91c5",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "title": "派早报：OPPO 宣布调整旗下子品牌的全球产品策略等",
-      "url": "https://sspai.com/post/112414",
-      "published": "2026-07-17T00:45:30Z",
-      "author": "",
-      "summary": "月之暗面发布 Kimi K3 模型，支付宝升级 Apple 教育优惠认证等。查看全文",
-      "content": "月之暗面发布 Kimi K3 模型，支付宝升级 Apple 教育优惠认证等。查看全文",
       "readingMinutes": 1
     },
     {
@@ -747,30 +771,6 @@
       "summary": "过去两年来，美国国家科学基金会 (NSF) 的 NAIRR 试点项目已推动 700 多个项目的创新研究，涵盖蛋白质预测和传染病管理等领域。 NVIDIA 通过基于云端的资源为 NAIRR 试点项目提供支持，该云端资源为研究人员提供至少一个月、最低配置为四个 NVIDIA DGX 节点的专属访问权限。此外，NVIDIA 还提供技术支持，协助研究人员顺利接入并在整个项目期间提供指导。 在 NVIDIA AI 基础设施和 DGX 参考架构提供的专属资源支持下，研究人员大幅缩短了工作流周期，并发现了有望",
       "content": "过去两年来，美国国家科学基金会 (NSF) 的 NAIRR 试点项目已推动 700 多个项目的创新研究，涵盖蛋白质预测和传染病管理等领域。\n\nNVIDIA 通过基于云端的资源为 NAIRR 试点项目提供支持，该云端资源为研究人员提供至少一个月、最低配置为四个 NVIDIA DGX 节点的专属访问权限。此外，NVIDIA 还提供技术支持，协助研究人员顺利接入并在整个项目期间提供指导。\n\n在 NVIDIA AI 基础设施和 DGX 参考架构提供的专属资源支持下，研究人员大幅缩短了工作流周期，并发现了有望重塑和推动医疗、农业以及能源等行业发展的突破性技术。\n\nNAIRR 为科学探索与发现带来了无限潜力。以下将详细介绍 NAIRR 的几个代表性项目。\n\n利用 Polymathic AI 的 Well 数据集进行物理仿真\n\n作为一种更安全、更具成本效益的部署方式，仿真到现实 (sim-to-real) 的流水线在各个行业中正变得日益普遍。\n\nPolymathic AI 是由来自熨斗研究所 (Flatiron)、剑桥大学和劳伦斯伯克利国家实验室的国际科学家组成的联盟。借助 NVIDIA GPU 和 NVIDIA NVLink 互连技术，该联盟正利用其名为“Well”的大规模数据集，来增强类流体的物理仿真。该数据集将用于训练迄今为止规模最大、适用性最广的类流体行为基础模型。\n\n这款名为 Walrus 的基础模型及其数据、代码和预训练权重已公开发布。\n\nPolymathic AI 的方法建立在此前物理预训练环境的研究基础之上，解决了当前在规模和预训练多样性方面的局限性。该研究团队还计划探索扩展定律 (scaling laws)，以加速开发用于科学应用的更强大的基础模型。\n\n密歇根大学面向储能领域的融合模型\n\n能源是社会的基石，而实现高效的储能与能量转换，需要设计出新颖且高效的材料。\n\n密歇根大学航空航天工程系 Venkat Viswanathan 教授带领的研究团队，正在开发一种模型融合框架，将特定领域的分子 AI 与通用大语言模型 (LLM) 结合在一起。其目标是帮助计算科学家更轻松地探索化学空间，用自然语言提出化学专业问题，并为下一代能源技术筛选出有潜力的材料。\n\n分子基础模型系列 MIST (Molecular Insight SMILES Transformers) 专为化学空间的发现与探索而设计。\n\nMIST 模型在大型无标签分子数据集上进行了预训练，并采用了一种新颖的 Tokenize —— Smirk，以更精准地从分子表征中提取原子核、电子、几何、同位素和立体化学信息。MIST 模型已在 400 多种结构-性质关系上进行了微调，在涵盖电化学、量子化学、生理学等多个领域的基准测试中，其性能能够媲美甚至超越当前的最先进水平。\n\nMIST 是基于研究人员通过 NAIRR 获得的 40 GPU NVIDIA DGX 集群，以及 ALCF Polaris 集群上额外分配的 20 万 NVIDIA GPU 小时算力开发完成的。该团队使用了 NVIDIA 的 NGC PyTorch 容器，以支持在不同集群之间进行可复现的 GPU 加速开发。\n\n将 MIST 与通用大语言模型融合，使得精确的量子化学计算变得更加普及，同时也加速了储能与转换系统的设计，对于在重型运输等领域实现交通运输的全面电气化至关重要。\n\n波士顿大学用于传染病检测的 BEACON AI 管线\n\n传染病可以在社区中迅速传播，引发疫情激增。\n\n波士顿大学 Hariri 计算研究所和新兴传染病中心正致力于利用 NVIDIA 加速计算来训练和评估大语言模型。该模型通过一个 AI 管线运行，以支持名为 BEACON 的疫情监测计划。\n\n该大语言模型正在使用大量关于传染病和易引发流行病的重点病原体的文献语料库进行训练，为 BEACON 计划中现场专家和疫情分析师的工作提供支持。\n\n该模型能够在全球范围内分析关于新兴疾病暴发的网络帖子，提取关键特征，用于后续的分类和优先级排序。BEACON 将处理来自多种渠道的信号，包括全球疾病追踪平台 HealthMap、新闻和社交媒体动态、领域专家，以及个人在社区论坛或社交媒体上发布的信息 —— 以生成简明扼要的疫情报告。\n\n这些全面的疫情分析可以为新发传染病的临床实践指南提供依据，并找出需要进一步收集数据的空白领域。\n\n目前，国际一线的医生、政府机构和学术研究人员已经在使用 BEACON 模型来快速识别和治疗传染病。\n\n波士顿大学 Hariri 研究所所长 Ioannis Paschalidis 表示：“过去在我们还没开发这套流程之前，传染病专家通常需要花费数个小时才能撰写一份报告。而现在，生成一份报告大约只需两分钟。”\n\nNAIRR 与 NVIDIA 在全美的合作\n\n最新的科学研究远不止于此。包括哈佛大学、斯坦福大学、科罗拉多州立大学等在内的众多高校，也在 NAIRR 和 NVIDIA 的帮助下，不断取得突破性的科研成果。\n\n随着科研人员能够更广泛地使用 AI 和加速计算资源，构建更安全、更健康社会的创新愿景，正变得比以往任何时候都更加切实可行。\n\n了解更多关于 NAIRR 试点项目的信息，并探索 NVIDIA 如何推动学术研究。",
       "readingMinutes": 4
-    },
-    {
-      "id": "2ba917b01988057f",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "title": "ISC 大会：JUPITER 超算展现 Exascale 级科学计算实力",
-      "url": "https://blogs.nvidia.cn/blog/jupiter-exascale-supercomputing-science/",
-      "published": "2026-06-22T02:01:20Z",
-      "author": "Chris Porter",
-      "summary": "JUPITER 是部署在德国于利希研究中心 (Forschungszentrum Jülich) 的欧洲首台 Exascale 级超级计算机，采用 NVIDIA Grace Hopper 超级芯片和 NVIDIA Quantum-X800 InfiniBand 网络。在过去的一年里，它获得了丰硕的成果。 国际超算领域的行业专家齐聚德国汉堡的 ISC 大会。在 JUPITER 上运行的四个项目，清晰地展示了 Exascale 级计算的真实实力：在细胞尺度上绘制人脑图谱；以 1 公里分辨率模拟全球气",
-      "content": "JUPITER 是部署在德国于利希研究中心 (Forschungszentrum Jülich) 的欧洲首台 Exascale 级超级计算机，采用 NVIDIA Grace Hopper 超级芯片和 NVIDIA Quantum-X800 InfiniBand 网络。在过去的一年里，它获得了丰硕的成果。\n\n国际超算领域的行业专家齐聚德国汉堡的 ISC 大会。在 JUPITER 上运行的四个项目，清晰地展示了 Exascale 级计算的真实实力：在细胞尺度上绘制人脑图谱；以 1 公里分辨率模拟全球气候；为下一代无线网络构建 AI 系统，以及模拟一台通用 50 量子比特量子计算机。\n\n于利希超级计算中心主任兼法兰克福大学教授 Thomas Lippert 表示：“借助 JUPITER，欧洲不仅迈入了 Exascale 级计算时代，更在全球范围内引领了这一时代。它在科学与 AI 领域的覆盖广度，是其他任何系统都无法比拟的。”\n\n以下详述的四个项目有一个共同主线：那些在旧有硬件条件下无法攻克的科学难题，如今在 Exascale 级算力下已变得切实可行。\n\n用于绘制人脑图谱的基础模型\n\n于利希人脑图谱 (Jülich Brain Atlas) 项目 —— 由于利希研究中心神经科学与医学研究所 (INM) 牵头，联合 Helmholtz AI、合作医院及其他 Helmholtz 机构共同开展 —— 推出了 CytoNet，这是一款用于大脑微观结构分析的基础模型。\n\n人脑的复杂性超乎想象。它拥有 860 亿个神经元，以及约 100 万亿个神经连接。长期以来，以单神经元分辨率理解大脑功能一直难以实现，如今这已经成为可能。\n\n该研究由于利希研究中心神经科学与医学研究所 (INM-1) 的神经科学家 Katrin Amunts 和计算机科学家 Christian Schiffer 共同领导。该模型通过细胞尺度的大脑成像数据进行学习，构建出一张将单个细胞结构与更广泛的大脑组织和功能模式联系起来的图谱。\n\n这项训练在 JUPITER 上仅用不到五天时间便已完成。研究团队使用了来自 21 例遗体脑组织的 6.5 PB 数据，并调用了 4096 个 NVIDIA Grace Hopper 超级芯片。相关研究论文已在 arXiv 上发表。\n\n于利希研究中心 INM-1 主任兼杜塞尔多夫海因里希·海涅大学大脑研究教授 Katrin Amunts 表示：“这是我们首次不再仅仅利用 AI 来分析大脑，而是构建了一个能够自主‘思考’实验本身的智能体。这将重新定义神经科学的未来，而 JUPITER 正是让这一愿景在今天成为现实的关键。”\n\n该智能体也是团队的下一步计划：为脑科学研究人员打造一款 AI 智能体 —— 整合多模态推理、语言交互和问答能力。该智能体将采用包括 NVIDIA Nemotron 3 120B 在内的开放模型，致力于开发能够协助科研人员直接探索和分析大脑数据的 AI 助手。\n\n公里级分辨率的气候模拟\n\n一种全新的 ICON 模型配置 —— 由苏黎世联邦理工学院、德国气候计算中心 (DKRZ)、于利希超级计算中心 (JSC)、马克斯·普朗克气象研究所、NVIDIA、瑞士国家超级计算中心 (CSCS) 和汉堡大学的研究人员共同开发 —— 于去年 11 月在 SC25 大会上荣获了戈登·贝尔气候建模奖。\n\n这项突破不仅在于分辨率的提升。ICON 是首个以 1 公里分辨率模拟耦合地球系统的模型，涵盖了海洋、大气、陆地、生物地球化学以及完整的碳循环，实现了各组成部分之间的碳交换。该模型能够模拟并可视化完整的生态系统，例如浮游植物的繁殖和浮游动物的摄食。以前的系统只能对其中的部分环节进行仿真，而 ICON 则实现了全局统一。这使得我们能够以前所未有的精度和完整性来模拟地球，并首次在这一细节层级上进行观测。\n\n该模型在 JUPITER 上依托 20,480 个 NVIDIA Grace Hopper 超级芯片运行，仅在 24 小时内就完成了对约 146 天的真实气候的模拟，创下了全球气候模拟的世界纪录。NVIDIA 参与 ICON 社区已超过十年。\n\n马克斯·普朗克气象研究所计算基础设施与模型开发组负责人 Daniel Klocke 表示：“我们的模拟能够解析塑造海洋生态系统并调节海洋碳吸收的精细尺度风场、海洋涡旋和上层海洋混合过程。在仅 1 公里的全球分辨率下，这些相互作用中的许多现象能够直接从物理定律中推导得出，而不再依赖近似估算。这让我们得以以前所未有的视角，了解大气、海洋和生物圈是如何协同运作的，从而帮助我们理解驱动气候变化的过程。”\n\n6G 迎来 Exascale 级算力伙伴\n\n今年 3 月，爱立信和于利希研究中心宣布开展合作，共同开发面向 5G 持续演进及 6G 网络的 AI 技术，并将 JUPITER 作为大规模 AI 模型训练和测试的计算引擎。\n\n该合作旨在开发类脑架构，以极低的能耗处理复杂的网络操作。\n\n研究重点包括：针对爱立信无线和核心网络的 AI 模型、利用神经形态方法在无线接入边缘实现高能效的 AI 推理，以及借鉴 JSC Exascale 级工作成果提出的模块化超级计算架构概念。\n\n打破量子计算纪录\n\n于利希超级计算中心 (JSC) 的研究人员与联合运营的 NVIDIA 应用实验室合作，首次实现了对一台通用 50 量子比特量子计算机的完整模拟，打破了此前 48 量子比特的世界纪录。\n\n这一模拟的成功，得益于 JUPITER 上 NVIDIA Grace Hopper 超级芯片所具备的一致性以及紧密耦合的 CPU-GPU 内存架构。这种架构允许超出 GPU 内存限制的数据无缝溢出到 CPU 内存中，且性能损失极小。这使得 JUPITER 能够容纳远超纯 GPU 内存的量子态，从而推动模拟突破了此前 48 量子比特的纪录。\n\n目前，这种规模的模拟是量子研究所能拥有的最强大工具：由于当今的量子硬件在解决实际问题时还无法超越经典计算机，因此尽可能大规模地对量子计算机进行模拟，成为了研究人员设计和压力测试未来硬件所需算法的重要途径。\n\n这款强大的量子模拟器 JUQCS-50 将通过于利希超级计算中心的量子计算机用户设施 (JUNIQ) 向科研人员开放，用于探索量子算法设计的性能。该设施由 JSC 主任兼科隆大学教授 Kristel Michielsen 领导。JUQCS-50 将欧洲首台 Exascale 级系统打造成了未来量子-GPU 超级计算机的强大测试平台。\n\nExascale 级计算的深远影响\n\nJUPITER 上运行的科学研究范围极广 —— 从神经元到大气层，从无线基础设施到量子计算。这充分证明，Exascale 级计算已经从一种研究概念正式迈入了生产应用阶段。\n\n这些成果也证明了 Grace Hopper 平台在前沿科学领域的卓越实力。\n\n了解更多关于 NVIDIA 科学 AI 的信息。",
-      "readingMinutes": 6
-    },
-    {
-      "id": "7b4742a138bd839f",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "title": "从材料模拟到实验天文学，全新 NVIDIA AI 软件解锁科学发现",
-      "url": "https://blogs.nvidia.cn/blog/ai-for-science-software-cuda/",
-      "published": "2026-06-22T01:32:17Z",
-      "author": "Chris Porter",
-      "summary": "在汉堡举行的 ISC 大会上，NVIDIA 推出了旨在加速科学 AI 的全新软件，应用领域涵盖化学与材料发现，乃至暗物质探索。 NVIDIA DAQIRI 库、全新的 NVIDIA ALCHEMI NIM 以及即将推出的 NVIDIA cuPhoton 参考代码，能够将原本需要在 CPU 上耗费数小时甚至数天才能完成的工作，转变为可实时运行的 GPU 加速流水线。 这些软件是 NVIDIA CUDA-X 的组成部分。CUDA-X 是一系列工具和库的集合，能够在包括 AI 和高性能计算在内的多个应",
-      "content": "在汉堡举行的 ISC 大会上，NVIDIA 推出了旨在加速科学 AI 的全新软件，应用领域涵盖化学与材料发现，乃至暗物质探索。\n\nNVIDIA DAQIRI 库、全新的 NVIDIA ALCHEMI NIM 以及即将推出的 NVIDIA cuPhoton 参考代码，能够将原本需要在 CPU 上耗费数小时甚至数天才能完成的工作，转变为可实时运行的 GPU 加速流水线。\n\n这些软件是 NVIDIA CUDA-X 的组成部分。CUDA-X 是一系列工具和库的集合，能够在包括 AI 和高性能计算在内的多个应用领域，带来显著的性能提升。\n\n这些性能提升幅度巨大，并产生了切实影响。在各学科领域，科研人员正利用 AI 和加速计算，通过仪器和观测项目，以前所未有的速度生成数据与洞见。\n\n例如，在 NVIDIA Grace Blackwell 机架级扩展系统上运行时，cuPhoton 能够加速天文台和望远镜收集的标准天文文件格式的 FITS 数据的加载、读取、处理和分析。在早期测试中，借助 cuPhoton，在加载和读取鲁宾天文台时空遗珍巡天项目 (LSST) 所采集的 FITS 图像时，速度提升了 14,900 倍。此外，借助 32 个 NVIDIA Grace Blackwell 超级芯片，其信号处理和分析速度提升了高达 8,400 倍。\n\n归根结底，这意味着从史上最大的数码相机 —— LSST 相机中获取洞见的速度大幅提升。该相机能够拍摄数十亿个遥远星系，以及反射光线微弱的近处暗弱天体的图像。\n\n全新软件赋能：从实验室到望远镜\n\n这款全新软件正在加速暗物质、材料模拟等领域的研究。\n\nNVIDIA cuPhoton 是一款专为科学家打造的参考代码，旨在帮助他们从望远镜、X 射线和激光实验中采集的多维数据中提取洞见。它专为加载、处理、分析和可视化 PB 级数据而构建，并可与其他 NVIDIA CUDA-X 技术结合使用，为天体物理学和天文学等领域构建端到端的加速流水线。\n\n普林斯顿大学的研究人员与 NVIDIA 合作开发了 cuPhoton，未来还将联合哈佛大学，共同使用该工具，对天文台和暗能量巡天项目收集的海量数据进行处理与分析。\n\nNVIDIA DAQIRI (Data Acquisition for Integrated Real-time Instruments 的缩写，即集成实时仪器数据采集) 是一款高性能网络库，能够将高速探测器和传感器产生的数据实时流式传输到 NVIDIA 软件中。传统系统受限于固定硬件，当仪器生成数据的速度超过存储速度时，往往会导致数据丢失。而 DAQIRI 能够在数据到达时实时处理数据流，有效解决这一难题。\n\n在 CERN openlab 框架下，芝加哥大学和伦敦大学学院的科研人员共同开发了一项名为 A-GHOST 的研究项目。该项目利用 DAQIRI 在 CERN ATLAS 实验记录的碰撞数据进行实时 AI 分析。由于存储限制，ATLAS 实验通常会丢弃超过 99% 的数据，而 A-GHOST 能够对这些被丢弃的数据进行分析，从而捕捉到原本会丢失的潜在重要信号。\n\nNVIDIA ALCHEMI 包含一系列专业领域的微服务和工具包，旨在加速化学与材料发现，应用范围涵盖电池材料、催化剂、OLED 显示器、美妆产品等。\n\nNVIDIA 于 3 月份发布了两个 ALCHEMI NIM，分别用于批量几何结构弛豫 (BGR) 和批量分子动力学 (BMD)。这些由 AI 加速的工具使研究人员能够同时对数百万个分子和材料进行模拟：BGR 用于寻找最稳定的结构，BMD 用于模拟它们随时间变化的运动行为。\n\n此外，ALCHEMI 预计将于近期加入针对广泛使用的 Vienna Ab initio Simulation Package (VASP) 的微服务，使研究人员能够以更高的 GPU 吞吐量运行材料模拟。通过利用 NVIDIA 多进程服务 (Multi-Process Service) 在单个 GPU 上运行多个 VASP 计算，该微服务将几何结构优化 (即寻找材料中原子最稳定排列的过程) 的速度提升了 3 倍。\n\n同时，开发人员和研究人员还可以使用 ALCHEMI Toolkit 来加速名为“机器学习原子间势”的 AI 代理模型的训练，并轻松构建定制化的高性能原子级模拟工作流。\n\nLila Sciences 如何借助 NVIDIA ALCHEMI 不间断地运行科学方法\n\nLila Sciences 正在为生命科学、化学和材料科学打造科学超级智能平台和自主实验室。该公司与 NVIDIA 合作，利用 ALCHEMI 进行了高保真磁性模拟，并于今年 3 月在圣何塞举行的 NVIDIA GTC 上进行了展示。\n\n借助用于 BGR 的 ALCHEMI NIM，Lila Sciences 将高通量材料筛选速度提升了 50 倍，成功识别出更具合成潜力的稳定候选材料。随后，利用早期测试版的 ALCHEMI VASP，将入围候选材料的磁性能计算速度提升了 30%。\n\nLila Sciences 使用 NVIDIA ALCHEMI 进行材料模拟。上图由 Lila Sciences 提供，展示了从溅射仪中合成的样品上切割下来的薄膜试样。溅射仪是一种用于在表面生成超薄、高度均匀的金属或陶瓷涂层的系统。\n\n这种加速效果还会叠加放大。ALCHEMI 为 TensorNet 提供的专用内核，使 Lila Sciences 的训练和推理速度提升了 6 倍，内存占用降低为原来的 1/3，将过去需要数周才能完成的模拟缩短至数天。\n\n这种方法不再局限于一次只运行一个实验，而能够在 GPU 内存中同时评估多种材料。它还可以推广应用于以下场景：\n\n材料发现：大规模筛选新型稳定的材料组合。\n\n能源：发现用于生产化学品和燃料的高活性、地球储量丰富的催化剂。\n\n电磁学：理解和预测复杂的磁性行为。\n\nALCHEMI 位于模拟层，负责生成物理科学数据，为整个闭环的后续环节提供支撑。\n\n此外，Lila Sciences 利用完整的 NVIDIA 软件栈加速科学发现，使用 NVIDIA Megatron-LM 和 NVIDIA Nemotron (包括 Nemotron 3 Nano 和 Nemotron 3 Super 开放模型，以及 NeMo RL 和 NeMo Gym 库) 进行模型训练。该公司还利用 NVIDIA BioNeMo 进行分子生成，使用 NVIDIA Triton 和 NIM 提供推理服务，并借助 NVIDIA Omniverse 库构建数字孪生。\n\nLila Sciences 联合创始人兼首席技术官 Andy Beam 表示：“这项工作展示了如何利用强大的计算技术栈加速科学发现，其规模是任何科研人员凭一己之力都无法实现的。”\n\n上市时间\n\nNVIDIA ALCHEMI Toolkit 和 Toolkit-Ops 现已可通过 GitHub 和 PyPI 下载。ALCHEMI NIM 现已可通过 NVIDIA NGC 目录下载。针对 VASP 的 ALCHEMI NIM 预计将于今年夏末推出。\n\nDAQIRI 现已可以通过 GitHub 获取。CuPhoton 预计将于今年夏季推出。\n\n了解更多关于 NVIDIA 科学 AI 的信息。\n\n请参阅关于软件产品信息的说明。",
-      "readingMinutes": 6
     },
     {
       "id": "e1e2d98ee256effa",
