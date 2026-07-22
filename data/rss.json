@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T06:21:05.471400Z",
+  "generatedAt": "2026-07-22T17:13:04.016941Z",
   "feeds": [
     {
       "title": "Electronics etc…",
@@ -52,6 +52,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "82ab189668512c75",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "title": "Parti：一个零门槛联机游戏平台，凭什么不需要服务器？",
+      "url": "https://sspai.com/post/112545",
+      "published": "2026-07-22T09:43:06Z",
+      "author": "",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "content": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "41d3385454854615",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "title": "滤镜背后的色彩科学：LUT 是什么？",
+      "url": "https://sspai.com/post/111550",
+      "published": "2026-07-22T07:00:00Z",
+      "author": "",
+      "summary": "从风格滤镜，到电影中的专业调色，聊聊 LUT 所代表的色彩规则。查看全文",
+      "content": "从风格滤镜，到电影中的专业调色，聊聊 LUT 所代表的色彩规则。查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "54b25fa77316598e",
       "feedTitle": "少数派",
@@ -173,18 +197,6 @@
       "readingMinutes": 14
     },
     {
-      "id": "7b1c60f5b67e505d",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "title": "2026 年再看 iPhone 8 Plus，它还够用吗？",
-      "url": "https://sspai.com/post/112425",
-      "published": "2026-07-20T03:00:00Z",
-      "author": "",
-      "summary": "高考结束后，又有一大批同学开始考虑换新手机啦。在预算差不多的情况下，很多人会纠结是买一台较新的中端机，还是买一台年份更老、但曾经是旗舰级的机型。于是我把 2020 年购入的 iPhone 8 Plus 拿出来当了一星期主力机，看看这台 2017 年发布的手机，放到今天还能不能胜任日常使用。查看全文",
-      "content": "高考结束后，又有一大批同学开始考虑换新手机啦。在预算差不多的情况下，很多人会纠结是买一台较新的中端机，还是买一台年份更老、但曾经是旗舰级的机型。于是我把 2020 年购入的 iPhone 8 Plus 拿出来当了一星期主力机，看看这台 2017 年发布的手机，放到今天还能不能胜任日常使用。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "bfed89f2bcb02506",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -195,18 +207,6 @@
       "summary": "新闻摘要： NVIDIA 今日宣布，NVIDIA Agent Toolkit 现已包含 NVIDIA Omniverse™ 库 —— 这是一套软件组件集合，为 AI 智能体提供各种工具和技能，从而为现有应用添加物理 AI 功能并为仿真准备 3D 内容。 机器人、工厂和自主系统在进入现实世界运行之前，需要先在仿真环境中进行设计、测试和训练。为仿真准备 3D 内容不仅需要逼真的视觉效果 —— 资产还需要具备正确的结构、材质、规模、标签、传感器和物理属性。借助 NVIDIA Agent Toolkit",
       "content": "新闻摘要：\n\nNVIDIA Agent Toolkit 现已包含 NVIDIA Omniverse 库，为 AI 智能体提供多种工具和技能，以帮助软件开发者将物理 AI 功能集成到现有应用中。\n\n适用于 NVIDIA RTX 传感器仿真、GPU 加速物理仿真和支持仿真资产验证的全新 Omniverse 库现已在 GitHub 上公开发布。\n\nSideFX 和 PTC 正在将 Omniverse 库集成到用于物理 AI 的 3D 应用中，支持从 NVIDIA RTX Spark 到 NVIDIA DGX Station 的云端和本地 AI 系统。\n\nNVIDIA 推出用于在 Blender 中集成 Omniverse 库的全新蓝图。\n\nNVIDIA 今日宣布，NVIDIA Agent Toolkit 现已包含 NVIDIA Omniverse 库 —— 这是一套软件组件集合，为 AI 智能体提供各种工具和技能，从而为现有应用添加物理 AI 功能并为仿真准备 3D 内容。\n\n机器人、工厂和自主系统在进入现实世界运行之前，需要先在仿真环境中进行设计、测试和训练。为仿真准备 3D 内容不仅需要逼真的视觉效果 —— 资产还需要具备正确的结构、材质、规模、标签、传感器和物理属性。借助 NVIDIA Agent Toolkit 中的 NVIDIA Omniverse 库，AI 智能体具备了构建工作流、检查场景、标记问题和准备资产的工具和技能，帮助开发者更快地将 3D 内容转换为可直接用于仿真的环境。\n\nNVIDIA 创始人兼首席执行官黄仁勋表示：“物理 AI 时代将始于在仿真中构建。结合 Omniverse 库的 NVIDIA Agent Toolkit 将 AI 智能体引入开发者已在使用的 3D 工具中，帮助构建可直接用于仿真的世界，让机器人、工厂和自主系统在进入现实世界之前，早在其中进行训练和测试。”\n\n包括 SideFX 和 PTC 在内的软件制造商正在集成 Omniverse 库，以实现面向智能体的传感器仿真、物理仿真和资产验证，从而帮助将代理式 AI 引入开发者和技术美术已经用于准备 3D 内容的应用和工作流中。\n\nOmniverse 库将物理 AI 技能引入 NVIDIA Agent Toolkit\n\nNVIDIA Agent Toolkit 帮助软件制造商构建连接工具、技能和数据源的 AI 智能体。Omniverse 库通过在现有应用中提供用于传感器仿真、GPU 加速物理仿真以及可直接用于仿真资产验证的可调用工具，将这些智能体扩展到 3D 和物理 AI 工作流中。\n\n全新 Omniverse 库 —— 包括 ovrtx、ovphysx 和 CAD-to-SimReady 技能 —— 已在 GitHub 上公开发布，为 AI 智能体提供了构建工作流的工具，以检查场景、测试更改并为仿真准备 3D 资产。用于在 Blender 中集成 Omniverse 库的全新蓝图现也可在 GitHub 上获取。\n\n这些库的主要功能包括：\n\nNVIDIA RTX 传感器仿真：ovrtx 帮助应用从 3D 场景生成摄像头、激光雷达、雷达和其他传感器输出，以便开发者和 AI 智能体可以测试物理 AI 系统如何感知虚拟环境。\n\n物理行为：ovphysx 使用 GPU 加速物理仿真，通过碰撞、质量、摩擦和运动等属性为 3D 场景带来逼真的行为，因此团队可以先在仿真中测试物体和系统之间的交互。\n\n面向仿真的 3D 对象：CAD-to-SimReady 技能有助于将计算机辅助设计 (CAD) 数据转换为基于 OpenUSD 构建的 SimReady 资产，赋予 3D 内容物理 AI 仿真和虚拟测试所需的属性。\n\n软件制造商使用 Omniverse 库进行构建\n\n包括 SideFX 和 PTC 在内的软件制造商，以及 ForgeCAD、光轮智能、Moonlake AI 和 Palatial 等初创公司均率先采用 Omniverse 库 (现已成为 NVIDIA Agent Toolkit 的一部分) 进行构建。\n\nSideFX 正在使用 OpenUSD 工作流以及 ovrtx 和 ovphysx 库，探索智能体如何帮助将 Omniverse 库集成到其 Houdini 程序化 3D 内容创作工作流中，为技术美术提供生成、测试物理仿真效果和准备仿真内容的途径。\n\nSideFX 总裁兼首席执行官 Kim Davidson 表示：“程序化 3D 创作对于构建仿真、机器人和工业 AI 所需的复杂、可控世界至关重要。借助 NVIDIA Omniverse 库和 OpenUSD，SideFX 正在探索面向智能体的工具如何支持 Houdini 工作流，帮助技术美术在保持对创作过程的把控的同时，审核、测试并为仿真准备程序化内容。”\n\nPTC Onshape CAD 和产品数据管理 (PDM) 平台正在使用 OpenUSD 和 ovrtx 将云原生设计工作流与物理仿真相连接，帮助产品设计内容与 CAD、PDM、协作和仿真工作流保持连接。\n\nPTC 总裁兼首席执行官 Neil Barua 表示：“工程团队正在寻求在整个开发过程中以更具连接性的方式进行设计、协作和仿真。PTC 与 NVIDIA 的协作支持了这一更广泛的愿景，而 NVIDIA Omniverse 库有助于实现可直接用于仿真的工作流，使验证和测试更接近产品设计的环节。”\n\n在 SIGGRAPH 上展示的 “SimReady” Blender 是一个在 Blender 中借助 NVIDIA Omniverse 库和 NVIDIA NemoClaw 构建的示例工作流。它展示了软件制造商如何将面向智能体的仿真功能 —— 包括 NVIDIA RTX 传感器仿真、物理仿真和验证 —— 添加到现有 3D 应用中，同时保持创作者的把控权。该蓝图现已作为在 Blender 中集成 Omniverse 库的蓝图公开发布。\n\n该演示还预览了这些基于 Omniverse 库、作为 NVIDIA Agent Toolkit 一部分的工作流如何在本地运行，支持的设备从搭载 NVIDIA RTX Spark 超级芯片的笔记本电脑和紧凑型桌面主机，到搭载 NVIDIA Grace Blackwell Ultra 的 NVIDIA DGX Station 系统。RTX Spark 笔记本电脑将于今年秋季由华硕、戴尔、惠普、联想、微软 Surface 和微星推出，宏碁和技嘉的相关产品也将随后推出。DGX Station 系统可通过华硕、戴尔、技嘉、惠普、微星、Supermicro 和 Exxact 进行订购。\n\n包括 NVIDIA 初创加速计划成员在内初创公司，也正在使用 Omniverse 库和技能来添加智能体辅助资产和场景准备工作流。Palatial 正在使用 Omniverse CAD-to-SimReady 技能，从 CAD 输入大规模自动创建和验证 SimReady 资产。光轮智能在其 SimReadyGen 技术中使用由 OpenUSD 提供支持的 Omniverse Content Agent，根据文本提示生成物理精确的 SimReady 资产。\n\nForgeCAD 和 Moonlake AI 正在探索由智能体驱动的 3D 内容工作流，这些工作流使用 Omniverse 功能来帮助生成、增强并为物理 AI 仿真准备资产。\n\n观看 SIGGRAPH 大会上的 NVIDIA 主题演讲。详细了解 NVIDIA Omniverse 库并探索可用的示例和文档。",
       "readingMinutes": 5
-    },
-    {
-      "id": "6fb38d4157315539",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "title": "派早报：锂电池消费税分阶段恢复征收",
-      "url": "https://sspai.com/post/112498",
-      "published": "2026-07-19T23:11:33Z",
-      "author": "",
-      "summary": "锂电池消费税分阶段恢复征收 白宫提词器操作员利用内幕信息下注被查 LG 显示器连接电脑后自动安装广告程序 新一代豆包手机不再模拟点击操作 亚马逊错发数亿美元云服务账单 京沪线试点 12306 预约购票，最早提前 60 天 看看就行的小道消息 少数派的近期动态 你可能错过的好文章 查看全文",
-      "content": "锂电池消费税分阶段恢复征收\n\n白宫提词器操作员利用内幕信息下注被查\n\nLG 显示器连接电脑后自动安装广告程序\n\n新一代豆包手机不再模拟点击操作\n\n亚马逊错发数亿美元云服务账单\n\n京沪线试点 12306 预约购票，最早提前 60 天\n\n看看就行的小道消息\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
-      "readingMinutes": 1
     },
     {
       "id": "869861e8def0021f",
