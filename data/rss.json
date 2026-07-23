@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T06:23:30.576120Z",
+  "generatedAt": "2026-07-23T17:17:07.116795Z",
   "feeds": [
     {
       "title": "Electronics etc…",
@@ -52,6 +52,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "115e56742f0c11a6",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "title": "新玩意 247｜少数派的编辑们最近买了啥？",
+      "url": "https://sspai.com/post/112668",
+      "published": "2026-07-23T09:38:21Z",
+      "author": "",
+      "summary": "关于栏目很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。@Lotta：海备思文件夹读 ...查看全文",
+      "content": "关于栏目很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。@Lotta：海备思文件夹读 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "802c9194638667dc",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "title": "小小云台，稳住「口袋电影机」：DJI Pocket 4P 漫谈",
+      "url": "https://sspai.com/post/112428",
+      "published": "2026-07-23T07:00:00Z",
+      "author": "",
+      "summary": "Pocket 一体式云台相机满是让人不容小觑的护城河与想象空间。查看全文",
+      "content": "Pocket 一体式云台相机满是让人不容小觑的护城河与想象空间。查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "64988311cba00b40",
       "feedTitle": "少数派",
@@ -146,30 +170,6 @@
       "author": "",
       "summary": "给 Surface Pro 5 安装上仍在积极更新的 Linux 发行版，它会成为一台更可用的设备吗？查看全文",
       "content": "给 Surface Pro 5 安装上仍在积极更新的 Linux 发行版，它会成为一台更可用的设备吗？查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "da827af6ecf03c8d",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "title": "App+1 | 把「从长视频截取片段」做到极致：Trimly",
-      "url": "https://sspai.com/post/111569",
-      "published": "2026-07-21T03:00:02Z",
-      "author": "",
-      "summary": "作为有多年专业音视频开发经验的技术工作者，我给自己，以及可能也有类似需求的你，做了一个把「从长视频里截取片段」这件事做到极致的产品。查看全文",
-      "content": "作为有多年专业音视频开发经验的技术工作者，我给自己，以及可能也有类似需求的你，做了一个把「从长视频里截取片段」这件事做到极致的产品。查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "642d44477cde3dc1",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "title": "派评 | 近期值得关注的 App",
-      "url": "https://sspai.com/post/112543",
-      "published": "2026-07-20T10:00:02Z",
-      "author": "",
-      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
-      "content": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
       "readingMinutes": 1
     },
     {
