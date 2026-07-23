@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="面向高性能计算从业者的 HPC 资讯、软硬件架构、标准、开源项目、论文、基准与会议导航">
+    <meta name="theme-color" content="#111318">
+    <title>HPC Intelligence Hub · Euler0525</title>
+    <link rel="shortcut icon" href="./assets/img/logo.ico">
+    <link rel="stylesheet" href="./assets/css/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/hpc.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="./index.html" aria-label="返回导航首页">
+            <img src="./assets/img/Euler0525.png" alt="" width="38" height="38">
+            <span>
+                <strong>HPC Intelligence</strong>
+                <small>by Euler0525</small>
+            </span>
+        </a>
+
+        <nav class="header-nav" aria-label="页面导航">
+            <a href="#resources">资源库</a>
+            <a href="#workflow">关注节奏</a>
+            <a href="./rss.html">RSS 阅读器</a>
+        </nav>
+
+        <div class="header-actions">
+            <a class="icon-button" href="./index.html" aria-label="返回导航首页" title="返回导航首页">
+                <i class="fa fa-compass" aria-hidden="true"></i>
+            </a>
+            <button class="icon-button" id="theme-toggle" type="button" aria-label="切换深浅色主题" title="切换主题">
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow"><span></span> HIGH PERFORMANCE COMPUTING</p>
+                <h1>高性能计算<br><em>情报与订阅中心</em></h1>
+                <p class="hero-description">
+                    一站式追踪 HPC 行业新闻、软硬件架构、编程模型、开源项目、论文、基准榜单与旗舰会议。
+                    信息源按用途分层，既能快速知道发生了什么，也能深入理解技术为什么变化。
+                </p>
+                <div class="hero-actions">
+                    <a class="primary-button" href="./hpc-feeds.opml" download>
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        下载全部 RSS（OPML）
+                    </a>
+                    <a class="secondary-button" href="#resources">
+                        浏览资源库
+                        <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+            <aside class="hero-dashboard" aria-label="资源概览">
+                <div class="signal">
+                    <span class="signal-dot"></span>
+                    <span>持续更新的 HPC 信号源</span>
+                    <time datetime="2026-07-23">2026.07</time>
+                </div>
+                <div class="metric-grid">
+                    <div class="metric metric-primary">
+                        <strong id="resource-total">—</strong>
+                        <span>精选资源</span>
+                    </div>
+                    <div class="metric">
+                        <strong id="feed-total">—</strong>
+                        <span>可订阅 Feed</span>
+                    </div>
+                    <div class="metric">
+                        <strong id="category-total">—</strong>
+                        <span>主题分类</span>
+                    </div>
+                </div>
+                <div class="radar" aria-hidden="true">
+                    <span class="radar-ring radar-ring-one"></span>
+                    <span class="radar-ring radar-ring-two"></span>
+                    <span class="radar-ring radar-ring-three"></span>
+                    <span class="radar-sweep"></span>
+                    <span class="radar-core">HPC</span>
+                    <i style="--x: 26%; --y: 31%"></i>
+                    <i style="--x: 72%; --y: 24%"></i>
+                    <i style="--x: 81%; --y: 69%"></i>
+                    <i style="--x: 34%; --y: 76%"></i>
+                </div>
+                <p class="dashboard-note">
+                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                    新闻看趋势，Release 看变化，基准与超算中心报告负责交叉验证。
+                </p>
+            </aside>
+        </section>
+
+        <section class="resource-shell" id="resources">
+            <div class="resource-intro">
+                <div>
+                    <p class="section-kicker">CURATED DIRECTORY</p>
+                    <h2>HPC 资源库</h2>
+                    <p>优先展示专业媒体与一手技术源；厂商数据建议结合独立基准和超算中心报告判断。</p>
+                </div>
+                <label class="resource-search" for="resource-search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input id="resource-search" type="search" placeholder="搜索 CUDA、MPI、互连、会议…" autocomplete="off">
+                    <kbd>/</kbd>
+                </label>
+            </div>
+
+            <div class="filter-row" id="category-filters" aria-label="资源分类筛选"></div>
+
+            <div class="result-meta">
+                <span id="result-count">正在载入资源…</span>
+                <button id="clear-search" type="button" hidden>清除筛选</button>
+            </div>
+
+            <div id="resource-sections" class="resource-sections" aria-live="polite"></div>
+
+            <div id="empty-state" class="empty-state" hidden>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <h3>没有匹配的资源</h3>
+                <p>换一个关键词，或清除分类筛选后再试。</p>
+                <button type="button">查看全部资源</button>
+            </div>
+        </section>
+
+        <section class="workflow" id="workflow">
+            <div class="workflow-heading">
+                <p class="section-kicker">MONITORING RHYTHM</p>
+                <h2>建立低噪声关注节奏</h2>
+                <p>让不同类型的信息在合适的时间出现，避免每天被数十个来源淹没。</p>
+            </div>
+            <div class="cadence-grid">
+                <article>
+                    <span>01</span>
+                    <p class="cadence-label">DAILY</p>
+                    <h3>每日扫视</h3>
+                    <p>HPCwire、insideHPC、The Next Platform，用于快速发现行业事件和架构趋势。</p>
+                </article>
+                <article>
+                    <span>02</span>
+                    <p class="cadence-label">WEEKLY</p>
+                    <h3>每周深读</h3>
+                    <p>厂商技术博客、arXiv 与超算中心实践，筛选真正影响研发工作的内容。</p>
+                </article>
+                <article>
+                    <span>03</span>
+                    <p class="cadence-label">REAL-TIME</p>
+                    <h3>发布即跟进</h3>
+                    <p>Slurm、MPI、UCX、Spack、ROCm 等 Release，及时掌握兼容性与部署变化。</p>
+                </article>
+                <article>
+                    <span>04</span>
+                    <p class="cadence-label">SEASONAL</p>
+                    <h3>关键时间窗</h3>
+                    <p>每半年检查榜单；重点关注 ISC、Hot Chips、SC 前后的集中发布。</p>
+                </article>
+            </div>
+            <div class="keyword-strip">
+                <span>建议关键词</span>
+                <div>
+                    <b>Exascale</b><b>HPC-AI</b><b>HBM</b><b>CXL</b><b>InfiniBand</b>
+                    <b>Ultra Ethernet</b><b>Liquid Cooling</b><b>MPI</b><b>OpenMP</b>
+                    <b>CUDA</b><b>ROCm</b><b>SYCL</b><b>Slurm</b><b>Lustre</b><b>DAOS</b>
+                </div>
+            </div>
+            <div class="field-notes" aria-label="资讯判读原则">
+                <article>
+                    <i class="fa fa-balance-scale" aria-hidden="true"></i>
+                    <div>
+                        <h3>多基准判断</h3>
+                        <p>不要只看 TOP500；结合 HPCG、IO500、Green500 和实际应用扩展效率。</p>
+                    </div>
+                </article>
+                <article>
+                    <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                    <div>
+                        <h3>交叉验证</h3>
+                        <p>厂商资料适合了解路线图，性能结论应与独立基准及中心报告互证。</p>
+                    </div>
+                </article>
+                <article>
+                    <i class="fa fa-bell-o" aria-hidden="true"></i>
+                    <div>
+                        <h3>国内源监控</h3>
+                        <p>国内 RSS 覆盖较弱，建议对 CCF、HPC China 和各超算中心设置网页更新提醒。</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <strong>HPC Intelligence Hub</strong>
+            <span>面向 HPC 从业者的长期资源目录</span>
+        </div>
+        <p>最后整理：2026 年 7 月 · <a href="./index.html">返回 Euler0525 导航</a></p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="返回顶部" title="返回顶部">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <noscript>
+        <p class="noscript">此页面需要 JavaScript 来显示资源分类。你仍可直接下载页面顶部的 OPML 订阅文件。</p>
+    </noscript>
+    <script src="./assets/js/hpc.js"></script>
+</body>
+
+</html>
