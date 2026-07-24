@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T17:17:07.116795Z",
+  "generatedAt": "2026-07-24T06:18:03.014153Z",
   "feeds": [
     {
       "title": "Electronics etc…",
@@ -52,6 +52,30 @@
     }
   ],
   "articles": [
+    {
+      "id": "cc017f12ad641da5",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "title": "赛博对话｜对话潘玮哲x老麦煮机：电子产品在悄悄变贵！",
+      "url": "https://sspai.com/post/112679",
+      "published": "2026-07-24T03:00:00Z",
+      "author": "",
+      "summary": "不是说好AI来临人类就解放了吗，怎么我连手机都买不起了？查看全文",
+      "content": "不是说好AI来临人类就解放了吗，怎么我连手机都买不起了？查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "3490f6f7850190f3",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "title": "派早报：Acrab 发布边缘 AI 芯片 GELIX 1 和个人 AI 系统 Agent Box 等",
+      "url": "https://sspai.com/post/112677",
+      "published": "2026-07-24T00:33:05Z",
+      "author": "",
+      "summary": "欧盟委员会对 Google 处以总计 8.9 亿欧元罚款，Anthropic 扩大 Claude 语音模式支持范围。查看全文",
+      "content": "欧盟委员会对 Google 处以总计 8.9 亿欧元罚款，Anthropic 扩大 Claude 语音模式支持范围。查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "115e56742f0c11a6",
       "feedTitle": "少数派",
@@ -137,18 +161,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "8812714b666e17ab",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "title": "派早报：Google 推出 Gemini 3.6 Flash、Unity 7 引擎发布等",
-      "url": "https://sspai.com/post/112597",
-      "published": "2026-07-22T00:30:00Z",
-      "author": "",
-      "summary": "英伟达推出合成视频检测器 NIM、WordPress 曝出高危漏洞等。查看全文",
-      "content": "英伟达推出合成视频检测器 NIM、WordPress 曝出高危漏洞等。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "ebdd0c35034d59af",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -161,16 +173,28 @@
       "readingMinutes": 1
     },
     {
-      "id": "4474c4e020746029",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "title": "装上 Fedora 的 Surface Pro：一台老设备的新可能",
-      "url": "https://sspai.com/post/112200",
-      "published": "2026-07-21T07:00:00Z",
-      "author": "",
-      "summary": "给 Surface Pro 5 安装上仍在积极更新的 Linux 发行版，它会成为一台更可用的设备吗？查看全文",
-      "content": "给 Surface Pro 5 安装上仍在积极更新的 Linux 发行版，它会成为一台更可用的设备吗？查看全文",
-      "readingMinutes": 1
+      "id": "444580407c455e68",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "title": "NVIDIA Spectrum-6 专为 Vera Rubin 打造，登陆十亿瓦级 AI 工厂",
+      "url": "https://blogs.nvidia.cn/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+      "published": "2026-07-21T02:00:00Z",
+      "author": "Scot Schultz",
+      "summary": "AI 已进入十亿瓦级时代。 全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。 作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。 Spectrum-6 驱动新一代 NVIDIA Spec",
+      "content": "AI 已进入十亿瓦级时代。\n\n全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。\n\n作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。\n\nSpectrum-6 驱动新一代 NVIDIA Spectrum-X 以太网平台，为运营 AI 工厂端到端计算系统提供所需的高带宽、规模扩展和智能。\n\n领先的 AI 构建者率先行动\n\n包括 CoreWeave、微软、Nebius、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础架构构建商，率先采用 Spectrum-6，以加速其 AI 工厂建设。\n\n对于云服务提供商而言，Spectrum-6 意味着更高的计算能力，可以作为统一的高性能资源运行，帮助客户更快地训练模型和部署推理服务。\n\nCoreWeave 网络产品总监 Min Jun 表示：“CoreWeave 专为要求严苛的 AI 工作负载而构建，而网络是提供大规模高性能系统的核心。将 NVIDIA Spectrum-6 和液冷 Spectrum-X 以太网基础设施引入我们的 AI 工厂，能够提供更高的带宽、可靠性和效率，从而帮助我们更好地为客户提供模型训练服务，并更快地部署推理服务。”\n\nNebius 全球合作伙伴关系副总裁 Laurelle Roseman 表示：“在十亿瓦级系统上，协同决定总体性能：让每个 GPU 时刻保持同步，避免因为一个慢环节拖累整个工作。这正是 NVIDIA Spectrum-6 追求的目标，也是我们抢先采用它的原因——它能确保网络在随着客户应对要求严苛的工作负载规模扩展时，时刻保持高速和可靠性。”\n\n对于自建基础设施的 AI 先驱来说，Spectrum-6 意味着更多的 GPU 能够保持同步运行，为要求严苛、大量使用集合操作的作业实现更高的系统利用率，并提高长期运行工作的可靠性。\n\n在各种用例中，最重要的结果是更快地完成作业，并在大规模系统上实现更高的经济效益。\n\nCoreWeave、微软和 Nebius 将成为首批使用 Spectrum-6 部署 NVIDIA Vera Rubin 基础设施的提供商，为广泛的开发者、初创公司和企业社区提供平台访问服务。\n\nAI 性能本质上是一个网络问题\n\n仅凭单个 GPU 峰值性能无法预测 AI 工厂的性能。\n\n大规模训练和推理工作负载依赖于数千个加速器，它们之间频繁进行数据交换。集合通信是跨 GPU 进行工作同步的基本操作，会产生密集的东西向流量，且系统上通常有许多任务同时进行流量传输。\n\n以太网最初主要用于企业应用，承载用户、服务器和存储之间的南北向数据流量，并非为超大规模 AI 的同步、集合密集型通信模式而创建。\n\nSpectrum-X 以太网改变了这一局面。它专为 AI 打造，将以太网转变为高性能横向扩展网络，旨在为每个 GPU 及时“喂上”足够数据。\n\n新一代 Spectrum-X 以太网\n\nSpectrum-6 交换机芯片与 NVIDIA ConnectX-9 SuperNIC 相结合，构成了新一代 Spectrum-X 以太网，与 NVIDIA Vera CPU、Rubin GPU、NVLink 6 交换机、ConnectX-9 SuperNIC、BlueField-4 DPU 和 Spectrum-6 以太网交换机一起，共同组成了 NVIDIA Vera Rubin 平台。\n\nSpectrum-6 支持可插拔和光电一体化封装两种规格。此外，Spectrum-6 产品还支持液冷，支持整个 AI 工厂全面的端到端液冷方案，显著提高系统能效。\n\n与通用以太网不同，用于 AI 工厂横向扩展的 NVIDIA Spectrum-X 以太网网络平台结合了智能交换机、NVIDIA ConnectX-9 SuperNIC 和全栈网络软件，共同为 AI 定向设计。该平台的高级功能不断优化数据流量在网络中的移动。\n\n此外，NVIDIA Spectrum-X 技术可智能平衡可用路径中的流量，并且在发生网络故障时，快速绕过故障点实现精准恢复。此外，它支持开放网络操作系统，以及多种 RDMA 传输模型，在不牺牲性能的前提下，为 AI 构建者带来了最大的灵活性。\n\nSpectrum-X 以太网采用 NVIDIA 垂直集成、横向开放的设计方法：为整个计算平台协同设计芯片、系统和软件，同时支持标准以太网、开放网络操作系统、开放协议以及云服务提供商、系统制造商和基础设施合作伙伴的广泛生态系统。客户无需组装零件之后再对其进行优化，而是直接获得了一个完整的 AI 工厂平台，该平台旨在缩短训练时间并降低单位 Token 成本。\n\n与通用以太网相比，Spectrum-X 以太网可提供高达 1.6 倍的 AI 网络性能，在超过 10 万个 GPU 的部署中保持高达 95% 的网络效率，这充分体现了协同设计方法的优越性。\n\n硬件加速的 Spectrum‑X 多平面拓扑可使数据中心所需交换机数量减少 40%，进一步提升网络效率。叠加 Spectrum‑X 以太网硅光技术带来的各项优势（能效提升 5 倍、平均无故障间隔时间提升 10 倍），协同设计网络架构持续体现超越单一组件层面优化的应用加速。\n\n详细了解 NVIDIA Spectrum-X 以太网平台。",
+      "readingMinutes": 4
+    },
+    {
+      "id": "9a4b60e8b1552bdd",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "title": "NVIDIA Vera Rubin 提升每瓦性能，为全球合作伙伴实现最低 Token 成本",
+      "url": "https://blogs.nvidia.cn/blog/vera-rubin/",
+      "published": "2026-07-21T02:00:00Z",
+      "author": "英伟达中国",
+      "summary": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。 Vera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。 Vera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供",
+      "content": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。\n\nVera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。\n\nVera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供最高的每瓦性能和最低的 Token 成本。CoreWeave 针对 DeepSeek-R1 的首次基准测试结果充分证明了这一点：其每兆瓦吞吐量比 Grace Blackwell NVL72 提升了 10 倍——这直接切中了电力受限的 AI 工厂最关心的核心指标。\n\n通过极致协同设计提升性能\n\n取得这一突破的关键在于七款芯片和五种机架托盘之间的极致协同设计。五种机架系统包括 Vera Rubin NVL72、Vera CPU 机架、Groq 3 LPX、Spectrum-6 SPX 和 Vera BlueField-4 STX。它们被作为一个完整的系统进行工程研发，而非由通用产品简单拼凑而成。\n\nNVIDIA Vera CPU 正是其核心所在。它重新定义了“AI 工厂 CPU”应有的形态。专为智能体时代设计，其定制 Olympus 核心相较竞品的芯粒 (chiplet) 方案，单线程性能提升 2 倍、核间带宽提升 3 倍、内存延迟降低 40%，使其成为面向最关键智能体负载时最高效的单线程 CPU。\n\n以专属定制网络，加速 AI 工厂建设\n\n在网络方面，该平台的第六代 NVLink 纵向扩展技术在处理复杂工作负载时，相比通用以太网，吞吐量提升超过 2 倍、延迟降低 1/3、数据包处理速率提升 10 倍。在横向扩展方面，Spectrum-X 以太网集成 102.4T 的 Spectrum-6 交换机系统、1.6T 的 ConnectX-9 SuperNIC、自适应路由、高级拥塞控制、遥测技术以及开放的操作系统支持，使其 RDMA 带宽比通用以太网高出 1.6 倍。\n\n包括 CoreWeave、微软、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础设施建设者率先采用 Spectrum-6 交换机，以加速其 AI 工厂的建设。此外，采用 NVIDIA 光电一体化封装 (CPO) 技术用于横向扩展，这是全球首款实现量产的同类型交换机，与传统可插拔收发器相比，其能效提升了 5 倍，平均无故障间隔时间 (MTBI) 提升了 10 倍。CoreWeave、Lambda 和 OCI 率先采用该技术。\n\nSpectrum-XGS 以太网跨站点吞吐量提升 1.9 倍，实现跨站点性能增强。满足十亿瓦级 AI 工厂的建设不再局限于单一建筑的需求。\n\n同时，NVLink Fusion 向第三方 XPU 开放了 NVIDIA 基础设施平台，为合作伙伴能够借助成熟的 NVLink 纵向扩展堆栈和生态系统，实现产品的快速上市。\n\n节省部署时间，节约水资源\n\n经过三代机架级协同设计的迭代，NVIDIA 打造出的 Vera Rubin NVL72 系统实现了托盘内无电缆、无风扇、无液冷软管的极简设计，将计算托盘的组装时间从过去的数小时大幅缩短至仅需 1 分钟。\n\n45 摄氏度的液冷进水温度设计，使得系统无需冷水机组，仅靠干式冷却器即可运行。对于新建的 AI 工厂而言，这种高温干式冷却结合闭环液冷系统，每兆瓦每年可节省数百万加仑的水资源。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 驱动欧洲开放模型时代\n\nVera Rubin 正为欧洲的 AI 基础设施注入下一代性能。\n\nVera Rubin 也是微软与 Mistral 新一轮深化合作的基石。该合作将前沿 AI 带到了欧洲，把开放的欧洲模型与云环境及客户管理的环境相结合，使各国政府和重点监管行业能够按照自身需求采用 AI 技术。\n\n这项合作的背后，是一项旨在扩大欧洲 AI 基础设施的数十亿美元新协议。Mistral 正在扩充其 GPU 算力，通过引入数千个最新的 NVIDIA Vera Rubin GPU，增加面向客户的 AI 算力供给，并为训练、推理和大规模部署提供共享平台。\n\nNVIDIA Vera Rubin 正迈入全面量产阶段。这款机架级 AI 超级计算机将七款协同设计的全新芯片整合为一个统一系统，它将调用数万个 GPU，为新一代 Mistral Compute 和微软欧洲的 AI 基础设施提供动力。\n\n欧洲希望在遵循自身法律的情况下，在本地完全自主可控地运行全球最强大的 AI。同时，其面临的挑战也在不断升级：智能体系统消耗的 Token 数量可达传统 AI 应用的 15 倍，这使得高效的基础设施成为重点。满足这一需求不仅需要庞大的计算能力，更需要 AI 在实现高效扩展的同时，满足区域对数据控制、治理、可靠性及战略自主的要求。\n\nVera Rubin 为欧洲的开放模型生态系统提供了计算基础。其全栈架构融合了加速计算、网络与软件，使模型和智能体能够从训练到生产实现高效运行。\n\n为企业级 AI 打造的开放模型\n\n微软、Mistral 与 NVIDIA 共同在公共云、云连接以及完全断开连接的私有云环境中，提供适配的 AI——将开放模型的灵活性与大规模运行所需的基础设施结合。\n\nMistral Medium 3.5 和 OCR 4 现已在 Microsoft Foundry 上线，同时 Mistral 模型也已集成至 Microsoft Copilot Studio。客户可以通过 Azure Local 和 Foundry Local 在云端和客户自主控制的环境中使用相同的模型、工具和运行模式。\n\n符合欧洲标准的 AI\n\n政府机构可将 AI 应用于涉及敏感业务的工作流；医疗和金融服务机构可在满足区域合规要求的前提下进行部署；制造商可在本地处理数据以实现更快速的决策。与 NVIDIA GB200 NVL72 相比，Vera Rubin NVL72 每兆瓦的 Token 产出提升高达 10 倍，每百万 Token 的成本降至原来的十分之一，在同等功耗下提供更强大的智能算力。\n\n打造真正适配当地语言、文化与法规的 AI 不应要求组织在创新、经济效益与控制权之间做出取舍。以 Vera Rubin 为计算基础，依托微软和 Mistral 提供的自主云基础设施与欧洲开放模型，欧洲完全可以三者兼得。\n\n详情请参阅微软与 Mistral 的新闻稿。\n\n2026 年 7 月 21 日\n\nCoreWeave 基准测试显示，NVIDIA Vera Rubin 系统每兆瓦 Token 吞吐量达 Blackwell 的 10 倍\n\n通过与 NVIDIA 进行极致的协同设计，CoreWeave 正依托 Vera Rubin NVL72 实现数量级的性能跃升。\n\n与 CoreWeave 等合作伙伴的紧密协作，对于将新一代 NVIDIA 加速计算成功部署至 AI 工厂至关重要。\n\n经过数月的联合工程研发，CoreWeave 成为首家完成 Vera Rubin NVL72 部署与验证的 AI 云服务提供商——他们首次公布了基于实际运行硬件测得的性能数据。\n\nCoreWeave 在 Vera Rubin NVL72 上运行了 DeepSeek-R1 基准测试。结果显示，与 Grace Blackwell NVL72 相比，Vera Rubin NVL72 每兆瓦每秒 Token 吞吐量提升了 10 倍。\n\n每兆瓦 Token 吞吐量是决定 AI 基础设施能否实现大规模盈利的核心指标。每兆瓦产出的 Token 越多，意味着在同等电力预算下能产出更多的智能算力，或者在显著降低功耗的情况下处理相同的工作负载。Jane Street 等 AI 实验室和企业将采用 Vera Rubin 平台，在 CoreWeave 云上扩展其 AI 工厂。\n\n借助 NVIDIA Spectrum-X 突破瓶颈\n\nDeepSeek R1 采用的混合专家 (MoE) 架构，在大规模部署场景下 GPU 间的 all-to-all 通信成为一项关键需求：每个 Token 都必须在分布式的专家子网络中进行路由。Vera Rubin NVL72 配备的 260 TB/s all-to-all NVLink 6 互连架构彻底消除了这一限制，使整个机架能够作为统一的加速器运行。\n\nCoreWeave 是首批部署 NVIDIA Spectrum-X 以太网 SN6600-LD，将其作为 Vera Rubin NVL72 交换网络架构的企业之一。\n\nCoreWeave 基于 102.4 Tb/s 的 Spectrum-6 交换芯片并采用液冷设计，部署了高密度交换机架，单机架可提供 1.64 Pb/s 的带宽，容量较上一代风冷交换机提升了 100%。此外，CoreWeave 还提供完全无阻塞、多平面、多轨方案的 Spine and Leaf 网络架构，确保使用 Vera Rubin NVL72 构建的系统 GPU 之间无阻塞互连通信。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 系统驱动全新 Google Cloud A5X 实例，助力 Ineffable Intelligence 发展\n\n由 NVIDIA Vera Rubin NVL72 和针对数据中心横向扩展架构的 Google Virgo 网络共同驱动的 Google Cloud A5X 实例。图片由 Google Cloud 提供。\n\nNVIDIA Vera Rubin NVL72 正在为 Google Cloud 的首个 A5X 实例提供算力支持，该实例现已由伦敦初创公司 Ineffable Intelligence 率先采用。\n\nIneffable Intelligence 致力于开发新一代智能“Superlearner”系统，该系统能够通过经验持续学习，从而在各个领域实现新的突破。\n\nIneffable Intelligence 的智能体直接从与环境的交互中学习，而非依赖静态数据集。Ineffable 没有使用大语言模型（LLMs），而是通过强化学习来开发“Superlearner”系统。该系统在持续模拟的大规模并行环境中生成经验，并迅速将这些经验转化为策略更新与评估。这种紧密耦合的学习闭环对算力、内存带宽和互连技术提出了极高的要求，需要基础设施能够在极大的规模下以极低的延迟运行。\n\nIneffable Intelligence 联合创始人 Lasse Espeholt 表示：“下一个研究时代，必须依托下一代的硬件。能与 NVIDIA 和 Google Cloud 的团队合作，让我们得以抢先体验 Vera Rubin，我们深感荣幸。这两个团队给予了极具价值的支持：我们的系统几乎立即完成部署并启动运行，目前已经在为 Superlearners 系统测试基础设施。”\n\nNVIDIA Vera Rubin NVL72 专为这类智能体训练而设计，能够提供可预测的低延迟、高利用率，以及远超上一代系统的单位智能算力产出。这使其成为大规模强化学习的理想平台选择。\n\n在 Google Cloud Next 上发布的 Google Cloud A5X 实例是基于 NVIDIA Vera Rubin NVL72 机架级系统构建的裸金属实例。与上一代相比，其每 Token 推理成本降低至 1/10，每兆瓦 Token 吞吐量提升了 10 倍。\n\nA5X 采用 NVIDIA ConnectX-9 SuperNICs 并结合了新一代 Google Virgo 网络，能够在单一站点内扩展至数万个 NVIDIA Rubin GPU，在跨多站点配置下更可扩展至近百万个 GPU 集群。这为客户提供了一套统一的、针对 AI 优化的技术栈，用于前沿模型、开放模型、智能体模型和物理 AI 模型的训练、微调和服务部署，同时实现了性能、成本和可持续性的全面优化。\n\n这一基础设施旨在助力解锁下一代强化学习系统，推动超级学习和超级智能领域的突破。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera CPU 助力 DeepInfra AI 云实现编排速度翻倍\n\nDeepInfra 的基准测试结果显示，NVIDIA Vera CPU 的运行速度是其他 CPU 的 2 倍以上，并且能够支持更多并发的 AI 智能体。\n\n作为 NVIDIA 开放 AI 生态系统的早期伙伴，云平台 DeepInfra 基于其生产级 AI 智能体基础设施，独立设计并运行了基准测试。DeepInfra 每周处理近 5 万亿个 Token，其中约 30% 由智能体系统驱动。其云平台专为高吞吐量的 AI 推理而打造。\n\n基准测试表明，在保持相同服务质量的前提下，Vera CPU 支持的并发 AI 智能体数量比其他 CPU多出高达 1.6 倍，编排速度快 2.2 倍，同时还能提高基础设施的利用率和成本效益。这些结果充分证明，NVIDIA Vera CPU 能够提供生产级智能体 AI 所需的成本效益、低延迟和高吞吐量。\n\n随着 AI 智能体承担起越来越复杂的推理、规划、工具调用和数据传输任务，对于编排每次模型调用前后相关的工作而言，CPU 的性能正变得愈发重要。\n\n作为 NVIDIA 面向 AI 工厂的极致协同设计理念的一部分，Vera CPU 专为智能体工作负载而打造。DeepInfra 的基准测试充分凸显了 NVIDIA Vera CPU 如何帮助云服务提供商提升基础设施利用率、提高成本效益，并在保持相同服务质量的前提下支持更多并发的 AI 智能体。\n\n深入了解 NVIDIA Vera Rubin 平台。",
+      "readingMinutes": 10
     },
     {
       "id": "865515e2b6308280",
@@ -509,6 +533,18 @@
       "readingMinutes": 4
     },
     {
+      "id": "ca1c8d6bc5c4c2da",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "title": "AI 创新先锋拥抱 NVIDIA Vera：为何在大规模场景下，极致单线程 CPU 性能至关重要",
+      "url": "https://blogs.nvidia.cn/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
+      "published": "2026-07-07T05:00:15Z",
+      "author": "Ian Buck",
+      "summary": "在大规模部署中追求极致单线程性能的 CPU，开创了专为智能体 AI 时代打造的全新 CPU 品类。 在智能体系统的构建与部署全过程中，CPU 直接决定了推理能力、响应速度和模型学习等关键环节。CPU 是执行 AI 模型指令的处理器，负责完成工具调用、代码执行、数据处理、KV 缓存以及结果分析等具体工作。 对于 AI 工厂中的智能体而言，速度至关重要。 CPU 调用工具的速度越快，智能体执行当前任务的速度也就越快。 对于 AI 工厂而言，GPU 利用率是数据中心最宝贵的资源。因此，任何等待任务完成",
+      "content": "在大规模部署中追求极致单线程性能的 CPU，开创了专为智能体 AI 时代打造的全新 CPU 品类。\n\n在智能体系统的构建与部署全过程中，CPU 直接决定了推理能力、响应速度和模型学习等关键环节。CPU 是执行 AI 模型指令的处理器，负责完成工具调用、代码执行、数据处理、KV 缓存以及结果分析等具体工作。\n\n对于 AI 工厂中的智能体而言，速度至关重要。\n\nCPU 调用工具的速度越快，智能体执行当前任务的速度也就越快。\n\n对于 AI 工厂而言，GPU 利用率是数据中心最宝贵的资源。因此，任何等待任务完成的时间都会限制 AI 工厂的收益；更糟糕的是，如果 GPU 在等待 CPU 完成任务时处于闲置状态，还会直接导致其利用率下降。因此，AI 工厂需要具备极致单线程性能的 CPU，以实现 AI 工厂收益和智能体性能的最大化。\n\n如今的数据中心 CPU 并非为大规模部署下的高速运行而设计。\n\n尽管市面上的 PC 和工作站早已拥有了高性能的 CPU，但数据中心 CPU 的发展方向逐渐偏离了单线程性能的提升。随着云计算的兴起，CPU 厂商开始打造拥有更多核心的数据中心 CPU，为了尽可能控制成本，不得不牺牲部分单线程性能。\n\n为了优化每个可租用核心的成本，CPU 的设计增加了单个芯片的核心数量，同时压缩了用于提升核心性能的硅片面积——例如高性能内存互连架构和更高的单核指令处理能力。而向芯粒（Chiplet）架构的演进虽然进一步降低了成本，却也随之带来了“芯粒税（Chiplet Tax）”，导致单个 CPU 的核心再也无法充分获得整颗芯片的全部内存性能。\n\nAI 智能体需要一款专为规模化部署打造、具备极致单线程性能的 CPU。\n\n在大规模场景下部署具备极致单线程性能的 CPU，能够确保在系统满载状态下，智能体的每一个执行步骤依然保持高速。每个核心都能以完整性能完成智能体任务，且不会受到其他核心的拖慢。这种大规模极致单线程 CPU 采用了截然不同的设计理念，旨在实现以下目标：\n\n在高负载下保持强劲的单核性能\n\n为每个核心提供充足的内存带宽，确保活跃核心获得持续的数据供给\n\n可预测的低延迟\n\n每个核心都能在不被其他核心拖慢的情况下独立完成任务，这不仅带来了卓越的吞吐量，更重要的是，实现了极致的单核任务处理性能。\n\nNVIDIA Vera 正是这种全新 CPU 设计的典范。\n\n大规模极致单线程 CPU 如何为运行智能体循环而生\n\nAI 智能体并不会在处理完单次请求后就停止运行，而是以循环模式运作。模型负责推理下一步操作，CPU 执行模型外围的工作，执行结果返回后，模型再决定下一步操作，如此循环往复。\n\n这种运行模式产生了一种全新的算力需求特征，而这正是传统 CPU 未曾专门优化过的场景。传统 CPU 的工作通常是间歇性且由用户驱动的，由人类触发一系列短暂交互构成。而智能体工作则是持续且并行的：庞大的智能体集群持续运行，每个智能体都在推进一系列步骤，且每一步都依赖于上一步的执行结果。\n\nCPU 核心数越多，意味着单个 CPU 能处理更多的智能体任务，因此数据中心 CPU 需要配备大量核心来最大化任务吞吐量。\n\n然而，增加 CPU 核心数并不能缩短单个智能体循环中每个步骤的耗时。更多的核心无法让任何单一任务运行得更快。事实上，专为追求最大化核心数量而设计的 CPU，在核心争抢资源时，甚至可能会拖慢每个单核的性能。\n\n单核性能对于加快每一步任务的完成速度至关重要。增加核心带来的吞吐量具有一定价值，但不足以满足需求。由于每个动作都依赖于前一步的执行结果，单核速度才真正决定了智能体循环的推进速度。\n\n归根结底，最顶尖的智能体 CPU 需要具备极致的单线程性能，且每一个核心都必须毫无妥协地释放这一性能。人类以秒计时，而智能体则以纳秒为度量单位。NVIDIA Vera 正是为这种全新类别的工作以及极致速度而生。\n\nNVIDIA Vera：专为智能体打造的大规模极致单线程 CPU\n\nNVIDIA Vera 是一款在大规模部署下具备极致单线程性能的 CPU，它从底层架构开始专为智能体循环而设计：即专门处理在模型调用间隙的各项任务，包括智能体调用工具、处理数据、运行代码以及验证结果等一系列工作。\n\nNVIDIA Vera CPU\n\nVera 的核心是 NVIDIA 专门设计的 CPU 核心 Olympus，其每周期指令数（IPC）较 NVIDIA Grace 提升了 50%。这一点至关重要，因为智能体的许多执行步骤都是串行的。无论是工具调用、代码执行、测试运行还是数据处理，都必须等当前步骤完成后，下一次模型调用才能使用其结果。更快的核心能更迅速地推进每一个循环。\n\nVera 将这些高速核心与高达 1.2TB/s 的 LPDDR5X 内存带宽相结合，并将内存功耗控制在 40 瓦以内。此外，它还采用了单片式计算裸片设计，提供高达 3.4TB/s 的核心间带宽，比其他数据中心 CPU 高出 3 倍，确保活跃核心始终获得充足的数据供给，并保持数据传输的可预测性。这使得全部 88 个核心都能充分发挥 CPU 的内存性能，而不会因资源瓶颈导致任何核心运行缓慢。\n\n这一设计最终带来了更快的智能体循环。在代表智能体执行的高负载 CPU 工作负载下，Vera 的持续单核性能达到了 x86 处理器的 1.8 倍。\n\n这些性能优势在工具调用、代码执行、数据处理步骤和结果验证等环节中不断累积，帮助 AI 工厂利用现有的 GPU 完成更多的智能体工作。\n\nPerplexity 在其日常运行的智能体工作中对 Vera 进行了实测。在真实的编码工作流中——即克隆代码仓库并在沙箱中运行测试套件——Vera 的完成速度达到了 x86 的 1.5 倍，并发启动多个沙箱的速度最高可达 1.9 倍。目前，Perplexity 正计划在其即将推出的生产系统中部署 Vera。\n\n智能体同样高度依赖数据。它们需要不断地查询、检索、筛选和传输信息，而 Vera 能够更快速地处理这些 CPU 端的数据工作负载。合作伙伴测试结果显示，与领先的 x86 服务器 CPU 相比，Vera 在 Starburst 大规模 SQL 分析中的速度提升了 3 倍，而在 Redpanda 实时流处理场景下，延迟降低为原来的 1/6。\n\n智能体工作并非单一的工作负载。智能体需要运行工具和沙箱、处理数据、响应请求，并通过强化学习训练下一代模型——而这一切都依赖于相同的底层能力。\n\n单个 Vera 处理器即可应对所有类型的任务，无需为不同类型的任务配备不同的 CPU。此外，由于 Vera 既是 NVIDIA Vera Rubin 平台中 GPU 的主机 CPU，也是 NVIDIA BlueField-4 STX 存储处理器的动力核心，整个 AI 工厂得以在同一架构和同一工具链上运行。\n\nNVIDIA 的脚步并未停止。NVIDIA 的下一代 Rosa CPU 将搭载 Rigel 核心，继续推进在智能体 AI 时代的 CPU 发展路线图。Rigel 是 NVIDIA 的下一代 Arm v9.2 CPU 核心，在保持相同硅片面积的前提下，实现了比 Olympus 更高的单核性能。其关键改进主要包括更高效的指令供给、更大的 L2 缓存以及更高效的内存管理。\n\n专为智能体速度而生\n\n在智能体 AI 时代，全球将涌现数十亿个智能体，而每一个智能体都需要依靠 CPU 来行动、校验、检索、运行任务并验证结果。在这个全新的市场中，智能体完成的任务本身就是产品。更快的智能体循环能让每一个 GPU 将更多时间用于创造收入的工作，而不是等待。\n\nNVIDIA Vera，正是为这一未来而生的 CPU。\n\n了解更多关于 NVIDIA Vera CPU 的信息。",
+      "readingMinutes": 7
+    },
+    {
       "id": "a87656f5ca2fa477",
       "feedTitle": "RSS Feed | PixelsTech",
       "feedUrl": "https://www.pixelstech.net/feed.xml",
@@ -737,30 +773,6 @@
       "readingMinutes": 8
     },
     {
-      "id": "a4ba7535ba366916",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "title": "Eco Wave Power 借助 NVIDIA AI 基础设施与数字孪生技术，将海浪转化为电能",
-      "url": "https://blogs.nvidia.cn/blog/eco-wave-power-ai-digital-twins/",
-      "published": "2026-06-22T04:19:47Z",
-      "author": "Tenika Versey Walker",
-      "summary": "AI 的下一个时代，将不再仅仅由算力来定义，其发展将由能源来决定。 随着加速计算在 AI 工厂、智能体 AI、工业 AI、边缘计算以及物理 AI (包括机器人和自主系统) 等领域不断扩展，全球电力需求正以前所未有的速度增长。 在许多地区，为了满足这一需求而扩建电网基础设施，往往需要经历数年时间来完成审批、输电网络升级、土地征用以及资本投资。 这一挑战正在重塑全球对 AI 能源基础设施的认知。 Eco Wave Power 是 NVIDIA 初创加速计划可持续未来倡议 (Sustainable F",
-      "content": "AI 的下一个时代，将不再仅仅由算力来定义，其发展将由能源来决定。\n\n随着加速计算在 AI 工厂、智能体 AI、工业 AI、边缘计算以及物理 AI (包括机器人和自主系统) 等领域不断扩展，全球电力需求正以前所未有的速度增长。\n\n在许多地区，为了满足这一需求而扩建电网基础设施，往往需要经历数年时间来完成审批、输电网络升级、土地征用以及资本投资。\n\n这一挑战正在重塑全球对 AI 能源基础设施的认知。\n\nEco Wave Power 是 NVIDIA 初创加速计划可持续未来倡议 (Sustainable Futures initiative) 的会员企业，它正借助 NVIDIA AI 基础设施和数字孪生技术开发一项新技术。该技术能够利用现有的海洋基础设施，将海浪产生的能量转化为清洁电能。通过利用已建成的沿海基础设施，波浪能发电可以在更靠近电力需求不断增长的地区进行部署，包括港口、工业区以及未来的 AI 基础设施枢纽。\n\nEco Wave Power 联合创始人兼首席执行官 Inna Braverman 表示：“波浪能是现存最大的可再生能源之一。所有人都渴望利用这种能源，但没人能真正驾驭它。因此，我研究了当前波浪能开发面临的挑战，并思考：我们应当如何简化其过程？”\n\n把海洋变成发电站\n\n利用地球的自然循环来发电并不是一个全新的概念。风能和太阳能产业在过去数十年已经发展得非常成熟。\n\n而波浪能，正有望成为这三大发电要素中的最后一块拼图。\n\n据美国能源信息署 (EIA) 统计，仅在美国，波浪能就能满足全国 60% 以上的年度能源消耗。\n\n这一切都始于浮子 (floaters) —— 这是一种非侵入式的浮动基础设施，安装在防波堤或海堤上，用于捕获海浪拍岸时产生的能量。\n\n海水的密度大约是空气密度的 800 倍，这意味着与风力涡轮机相比，波浪能设备只需极小的体积就能产生更多的能量。\n\n下一步则是管理和分配这些电力。以往的企业在这个阶段就会遇到瓶颈 —— 因为计算机硬件安装在浮子内部，在遭遇汹涌的海流时极易受损。而 Eco Wave Power 将计算机、传感器、液压转换装置和电气部件都安置在陆地上的控制中心，从而让昂贵的硬件保持干燥，免受风暴侵袭。\n\nBraverman 表示：“波浪能是间歇性最低的可再生能源。以太阳能为例，夜晚、冬季、云层遮挡和空气污染都会影响其发电量。而波浪能则能够实现全天候发电。”\n\n基于 NVIDIA Omniverse 库与加速计算构建波浪能 AI 层\n\n随着 AI 基础设施的不断扩展，能源系统本身也变得越来越智能化。\n\n利用 NVIDIA Omniverse 库构建的波浪模式和漂浮基础设施的数字孪生系统，可以在实际安装之前，对波浪条件、结构表现、部署配置和运行场景进行模拟。这些虚拟环境有助于优化工程决策，降低部署风险，并加速基础设施的规划。\n\n在运营层，NVIDIA 加速计算和 AI 技术能够通过预测分析、异常检测、环境预测和预测性维护，实现波浪能系统的实时优化。AI 模型可以持续分析海洋环境、设备性能和发电模式，从而提高效率和运营韧性。\n\nAI 还能够对具有能源感知能力的计算基础设施进行编排，将高能耗的工作负载与可再生能源发电的高峰期对齐，并在分布式系统中动态优化电力分配与利用。\n\n海洋能源驱动的数据中心正加速走向现实\n\nEco Wave Power 目前在洛杉矶港 (与 AltaSea 和壳牌合作) 运营着相关项目。此外，Eco Wave Power 还在葡萄牙莱索斯港、台湾地区苏澳港以及印度孟买 (与巴拉特石油公司合作) 开发新项目。\n\n波浪能已经证明了其满足大众日常能源需求的能力，现在更展现出支持数据中心的潜力。\n\nBraverman 表示：“我们有机会将 AI 工厂直接与波浪能连接起来，因为许多数据中心正在向沿海地区迁移。它们需要冷却和水资源，所以目前都选择建在港口附近。”\n\n洛杉矶港已启动相关试点项目，旨在展示波浪能如何在不接入现有电网的情况下，成为数据中心的唯一电力来源。\n\n在这个数据中心试点项目中，AI 软件扮演着控制层的角色，根据可用的电力供应来规划和调度计算任务。例如，该软件可以根据天气模式监测并预测一周内什么时候波浪更强，并据此将计算需求更高的任务分配至这些时段执行。\n\n“我们的业务已经落地，运转良好，并且已接入电网，拥有如此丰富的资源。”Braverman 表示。“现在正是需要能源的时候，所以我认为我们占据了天时地利。我们极具创新性，但并非遥不可及的未来概念，这正是我们脱颖而出的关键。”\n\n探索 NVIDIA 如何推动能源的未来。",
-      "readingMinutes": 4
-    },
-    {
-      "id": "048acfad0a15029e",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "title": "NVIDIA Vera CPU 为洛斯阿拉莫斯国家实验室的智能体科学 AI 开启新篇章",
-      "url": "https://blogs.nvidia.cn/blog/nvidia-vera-cpu-los-alamos-national-laboratory/",
-      "published": "2026-06-22T03:50:34Z",
-      "author": "Chris Porter",
-      "summary": "Mission、Vision 和 Veritas 是由 HPE 与 NVIDIA 合作为洛斯阿拉莫斯国家实验室 (LANL) 打造的新一代超级计算机。它们将采用 NVIDIA Vera CPU 来加速科学发现，进一步解锁面向科学研究的智能体 AI。 这些超级计算机将采用 HPE Cray Supercomputing GX5000 架构，并搭载 NVIDIA Vera Rubin 平台。该平台整合了 NVIDIA Vera CPU、NVIDIA Rubin GPU 以及 NVIDIA Quant",
-      "content": "Mission、Vision 和 Veritas 是由 HPE 与 NVIDIA 合作为洛斯阿拉莫斯国家实验室 (LANL) 打造的新一代超级计算机。它们将采用 NVIDIA Vera CPU 来加速科学发现，进一步解锁面向科学研究的智能体 AI。\n\n这些超级计算机将采用 HPE Cray Supercomputing GX5000 架构，并搭载 NVIDIA Vera Rubin 平台。该平台整合了 NVIDIA Vera CPU、NVIDIA Rubin GPU 以及 NVIDIA Quantum-X800 InfiniBand 网络。\n\n根据规划配置，Mission 将配备 NVIDIA Vera Rubin GPU 节点，以及 2300 个基于 HPE Cray Supercomputing GX240 刀片服务器的独立 NVIDIA Vera CPU。Veritas 则将配备约 1150 个独立 NVIDIA Vera CPU，以配合 NVIDIA Vera Rubin 节点协同工作。\n\nVeritas 将与 Mission 和 Vision 同步交付，主要用于支持实验室主导的研究与开发 (LDRD) 项目，助力加速科学领域智能体 AI 的发展。该系统还将对这些技术进行测试，为 LANL 正在建设的大型系统提供验证。\n\n研究人员正在为科学研究引入一项新工具 —— AI 智能体。这些 AI 智能体能够提出假设、选择工具、启动模拟、分析输出结果，并优化下一步行动。LANL 针对通用研究与科学智能体 (URSA) 开展的公开研究，正是这一发展方向的探索。URSA 目前运行于 Venado 上，未来也将部署至 Mission 和 Vision。它是一个模块化、反馈驱动的 AI 框架，旨在帮助科研人员构思假设、规划实验、运行模拟并分析结果。\n\nLANL 的测试结果显示，在处理 URSA 工作负载时，Vera CPU 的性能较 Crossroads x86 超级计算机所用 CPU 提升了 7 倍。\n\n专为智能体与模拟打造的 Vera CPU\n\nLANL 的早期测试结果显示，在运行开源蒙特卡洛传热仿真工具 Branson 时，NVIDIA Vera CPU 的性能较 Crossroads x86 超级计算机所用 CPU 性能提升超过 3 倍。\n\n这一测试结果得益于 Vera 的多项核心特性，包括其定制的 Olympus 核心、LPDDR5 内存以及高速片上互连架构。\n\n单个 Vera CPU 的性能比单路的 x86 架构 CPU 高出 3 倍以上，同时每核心内存容量提升超过 4 倍，每节点内存容量提升了 6 倍。归根结底，这意味着 LANL 能够以更快地速度得出科研成果。\n\n该实验室的所有超级计算机均由硬件架构师、系统软件开发人员、相关领域科学家、计算机科学家和应用数学家共同协同设计 —— 这确保了系统是基于真实的科研工作负载来打造的，而不仅仅是为了满足抽象的基准测试。\n\n传承 LANL 历代超算系统的经验\n\n预计于 2027 年投入运营的 Vision 系统，将作为基础科学研究的计算资源，涵盖材料、能源建模、生物医学研究以及 AI 等领域 —— 它能让更多的科研人员在开展高重要性的研究之前，先行测试新方法、训练模型并探索创新思路。\n\n这项工作延续了 LANL 与 NVIDIA 十多年来在 CPU 领域的深度合作。从 Grace 到 Vera，双方一直采用极致协同设计理念来满足 LANL 对模拟工作负载的需求。\n\n这三台全新的超级计算机建立在 Venado 的基础之上。Venado 是一台搭载 NVIDIA Grace Hopper 超级芯片和 NVIDIA Grace CPU 超级芯片的 HPE Cray EX 超级计算机，于 2024 年在洛斯阿拉莫斯国家实验室完成安装。\n\n了解更多有关 NVIDIA Vera CPU 的信息。",
-      "readingMinutes": 3
-    },
-    {
       "id": "13ef01bd78a2f13e",
       "feedTitle": "RSS Feed | PixelsTech",
       "feedUrl": "https://www.pixelstech.net/feed.xml",
@@ -771,18 +783,6 @@
       "summary": "Design of a Simulated 5G & Wi-Fi IIoT Thermal State Monitoring System (TSMS) for a Power Grid Cyber TwinProject Design Purpose : This article introduces the design and implementation of a simulated Industrial Internet of Things (IIoT)-based thermal state monitoring system develo…",
       "content": "Design of a Simulated 5G & Wi-Fi IIoT Thermal State Monitoring System (TSMS) for a Power Grid Cyber TwinProject Design Purpose : This article introduces the design and implementation of a simulated Industrial Internet of Things (IIoT)-based thermal state monitoring system developed as part of the OT Power Grid Cyber Twin. The project is aim to recreate the core operational concepts of a wirele",
       "readingMinutes": 1
-    },
-    {
-      "id": "d7d2798199d45370",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "title": "NVIDIA Vera Rubin 打造世界级科学超级计算机",
-      "url": "https://blogs.nvidia.cn/blog/nvidia-vera-rubin-delivers-world-class-supercomputers-for-science/",
-      "published": "2026-06-22T02:43:05Z",
-      "author": "英伟达中国",
-      "summary": "ISC High Performance 2026 —— NVIDIA 今日宣布，NVIDIA Vera Rubin 平台将打造世界级科学超级计算机，该平台结合了原生双精度 (FP64) 性能、NVIDIA CUDA-X™ 库以及 NVIDIA AI 平台的全栈能力。 Vera Rubin 整合了 NVIDIA 完整的加速计算技术栈——从硬件到软件，以及优化的科学计算库，全面加速 AI、仿真及数据密集型研究，将每个系统机架都化作一台用于科学发现与产业创新的超级计算机。 Vera Rubin 平台",
-      "content": "NVIDIA Vera Rubin 能够加速全球最严苛的 HPC 工作负载，涵盖气候建模、计算流体动力学和能源勘探等领域。\n\nNVIDIA Vera Rubin 与 Vera CPU 将智能体 AI 引入科学计算领域。\n\n莱布尼茨超级计算中心、美国国家能源研究科学计算中心以及洛斯阿拉莫斯国家实验室，将基于 Vera Rubin 打造新一代超级计算机，以推动开放科学、能源勘探、地球科学等领域的发展。\n\n全球系统制造商 Bull、戴尔科技、技嘉、HPE 和 Supermicro 宣布推出基于 Vera Rubin 的定制化高密度超级计算系统，单机架最高可集成 144 个 GPU。\n\nISC High Performance 2026 —— NVIDIA 今日宣布，NVIDIA Vera Rubin 平台将打造世界级科学超级计算机，该平台结合了原生双精度 (FP64) 性能、NVIDIA CUDA-X 库以及 NVIDIA AI 平台的全栈能力。\n\nVera Rubin 整合了 NVIDIA 完整的加速计算技术栈——从硬件到软件，以及优化的科学计算库，全面加速 AI、仿真及数据密集型研究，将每个系统机架都化作一台用于科学发现与产业创新的超级计算机。\n\nVera Rubin 平台旨在融合高精度仿真、AI 与数据分析，专为智能体时代而生。该平台通过加速气候建模、计算流体动力学、量子化学和能源勘探等工作负载，推动科学发现的进程。\n\n凭借超过 7 EFLOPS 的 AI 科学计算能力、5 PFLOPS 的原生 FP64 性能支持，以及高达 144 个 GPU 带来的极致内存带宽，Vera Rubin 超算系统的性能足以媲美全球最强超级计算机 TOP500 榜单上的顶尖系统。这将为科研机构和企业提供强大的算力支撑，使其能够运行更大规模的模型、提升仿真精度，并大幅缩短科学发现的周期。\n\nNVIDIA 创始人兼首席执行官黄仁勋表示：“如今，科学发现已经成为一场竞赛：一边是全球最严峻挑战的复杂性，另一边是为解决这些挑战而构建的计算系统。NVIDIA Vera Rubin 是一项全新的科学工具——这款机架级超级计算机将仿真、AI 与数据处理融为一体，旨在帮助研究人员和行业以前所未有的速度进行设计与探索。”\n\nVera Rubin 推动科学计算迈向新高度\n\nNVIDIA Vera Rubin 平台结合了 NVIDIA Rubin GPU 与 NVIDIA Vera CPU，通过高速 NVIDIA NVLink-C2C、NVIDIA ConnectX®-9 SuperNIC 以及 NVIDIA BlueField®-4 DPU 实现互连，并采用直接液冷架构设计。\n\n在科学计算领域，Vera Rubin 提供原生 FP64 计算能力，可加速对精度要求极高的仿真任务；同时，它具备强大的 AI 性能，能够支持代理模型、科学基础模型以及 AI 辅助分析。借助这一单一平台，研究人员即可运行传统数值求解器、训练并部署 AI 模型、从仪器设备中实时流式传输数据，并将仿真与实时数据分析深度耦合。\n\n打造新一代超级计算机\n\n全球领先的超算中心与产业创新先锋正纷纷采用 Vera Rubin，以构建新一代 AI 与 HPC 系统。\n\n莱布尼茨超级计算中心 (LRZ) 的 Blue Lion 超级计算机将搭载 NVIDIA Vera Rubin 平台与第二代 Exascale 级 HPE Cray 超算，其计算能力将达到 LRZ 现有系统的约 30 倍。Blue Lion 计划于 2027 年投入运行，它将经典仿真与建模、机器学习方法以及代理模型应用融于一体，为天体物理学、环境科学及生命科学领域的研究人员提供全面支持。\n\n美国国家能源研究科学计算中心 (NERSC) 的 Doudna 是美国能源部 (DOE) 在劳伦斯伯克利国家实验室部署的下一代旗舰超级计算机，该系统将由戴尔科技基于 NVIDIA Vera Rubin 打造，并通过能源科学网络 (ESnet) 与 DOE 的科学仪器相连。Doudna 专为大规模 HPC 工作负载、AI 训练与推理，以及数据密集型工作流而构建，广泛服务于分子动力学、高能物理、材料科学、药物研发和天文学等领域。\n\n洛斯阿拉莫斯国家实验室 (LANL) 已选择 NVIDIA Vera Rubin、Vera CPU 以及 NVIDIA Quantum-X800 InfiniBand，用于打造其新一代 Mission、Vision 和 Veritas 系统。这些系统将基于最新的 HPE Cray 超级计算机系统，由 HPE 负责构建与交付。\n\n在 ISC 全新亮相的 Veritas 系统，配备了 NVIDIA Rubin GPU 和独立的 Vera CPU 分区，专为智能体设计，以推动 LANL 的科学发现进程。\n\n这些加速计算系统将采用 NVIDIA GPU 构建，并整合为单一的统一系统。针对现代超级计算应用，Vera Rubin 平台在系统密度、能效以及运维效率等方面进行了全面优化。\n\n包括 Bull、戴尔科技、技嘉、HPE 和 Supermicro 在内的全球系统制造商，正推出基于 NVIDIA Vera Rubin 平台的直接液冷 AI 与 HPC 机架解决方案。基于 Vera Rubin 平台构建的超级计算机架，旨在帮助科研机构、国家实验室和企业部署机架级加速计算基础设施。\n\n这些系统进一步丰富了 NVIDIA 面向科学发现的加速计算生态系统，为各类机构提供了一个涵盖仿真、AI、数据处理和可视化的通用平台，全面支持从单机架部署到大型超级计算中心的各类应用场景。",
-      "readingMinutes": 4
     },
     {
       "id": "e1e2d98ee256effa",
