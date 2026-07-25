@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OPML_PATH = ROOT / "Fluent_Reader_Export.opml"
 OUTPUT_PATH = ROOT / "data" / "rss.json"
 ARTICLES_PER_FEED = 30
-MAX_ARTICLES = 360
+MAX_ARTICLES = 300
 MAX_CONTENT_LENGTH = 20_000
 USER_AGENT = "Euler0525 RSS Reader/1.0 (+https://nav.euler0525.cn/)"
 
@@ -291,6 +291,17 @@ def sort_key(article: dict[str, Any]) -> str:
     return article.get("published") or ""
 
 
+def prune_articles(
+    articles: list[dict[str, Any]],
+    limit: int = MAX_ARTICLES,
+) -> tuple[list[dict[str, Any]], int]:
+    unique_articles: dict[str, dict[str, Any]] = {}
+    for article in sorted(articles, key=sort_key, reverse=True):
+        unique_articles.setdefault(article["id"], article)
+    ordered_articles = list(unique_articles.values())
+    return ordered_articles[:limit], max(0, len(ordered_articles) - limit)
+
+
 def main() -> int:
     subscriptions = load_subscriptions()
     previous = load_previous_articles()
@@ -341,10 +352,9 @@ def main() -> int:
             "error": error,
         })
 
-    unique_articles = {
-        article["id"]: article for article in sorted(articles, key=sort_key, reverse=True)
-    }
-    articles = list(unique_articles.values())[:MAX_ARTICLES]
+    articles, removed_count = prune_articles(articles)
+    if removed_count:
+        print(f"Removed {removed_count} oldest articles (limit: {MAX_ARTICLES})")
     article_counts: dict[str, int] = {}
     for article in articles:
         article_counts[article["feedUrl"]] = article_counts.get(article["feedUrl"], 0) + 1
@@ -362,6 +372,7 @@ def main() -> int:
 
     payload = {
         "generatedAt": generated_at,
+        "maxArticles": MAX_ARTICLES,
         "feeds": feeds,
         "articles": articles,
     }

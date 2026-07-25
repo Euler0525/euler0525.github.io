@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-07-25T13:25:18.243184Z",
+  "generatedAt": "2026-07-25T13:42:08.194114Z",
+  "maxArticles": 300,
   "feeds": [
     {
       "title": "Electronics etc…",
@@ -53,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "https://www.pixelstech.net",
+      "siteUrl": "",
       "articleCount": 20,
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "title": "OpenAI · News",
@@ -77,9 +78,9 @@
       "title": "Google AI · Blog",
       "url": "https://blog.google/technology/ai/rss/",
       "category": "AI 新闻",
-      "siteUrl": "",
+      "siteUrl": "https://blog.google/innovation-and-ai/technology/ai/",
       "articleCount": 20,
-      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+      "error": ""
     },
     {
       "title": "Google AI · DeepMind",
