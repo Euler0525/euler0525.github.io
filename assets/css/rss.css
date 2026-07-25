@@ -202,6 +202,112 @@ a {
     padding: 12px 10px;
 }
 
+.source-list > .source-button {
+    margin-bottom: 13px;
+}
+
+.source-all-button {
+    border: 1px solid var(--border);
+    background: var(--panel-strong);
+}
+
+.source-all-button.is-active {
+    border-color: var(--accent);
+}
+
+.source-group {
+    margin: 0 0 12px;
+    overflow: hidden;
+    background: var(--panel-strong);
+    border: 1px solid var(--border);
+    border-radius: 11px;
+}
+
+.source-group-heading {
+    width: 100%;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    color: var(--text);
+    background: var(--panel-strong);
+    border: 0;
+    border-bottom: 1px solid var(--border);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.source-group-heading:hover {
+    color: var(--accent);
+    background: var(--accent-soft);
+}
+
+.source-group.is-collapsed .source-group-heading {
+    border-bottom-color: transparent;
+}
+
+.source-group-title {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.source-group-title > i {
+    width: 16px;
+    color: var(--accent);
+    font-size: 12px;
+    text-align: center;
+}
+
+.source-group-heading-meta {
+    flex: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.source-group-heading-meta strong {
+    padding: 3px 7px;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border-radius: 99px;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.source-group-heading-meta i {
+    font-size: 8px;
+    transition: transform 160ms ease;
+}
+
+.source-group.is-collapsed .source-group-heading-meta i {
+    transform: rotate(-90deg);
+}
+
+.source-group-feeds {
+    display: block;
+    padding: 6px;
+}
+
+.source-group .source-button {
+    grid-template-columns: 29px minmax(0, 1fr) auto;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.source-group .source-mark {
+    width: 29px;
+    height: 29px;
+    border-radius: 8px;
+    font-size: 11px;
+}
+
 .source-button {
     width: 100%;
     display: grid;

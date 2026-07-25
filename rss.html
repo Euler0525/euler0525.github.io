@@ -5,17 +5,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Euler0525 的 RSS 文章阅读器">
+    <meta name="description" content="按默认分类、AI 新闻与 AI 技术分类的 RSS 文章阅读器">
     <title>RSS 阅读器 · Euler0525</title>
     <link rel="shortcut icon" href="./assets/img/logo.ico">
     <link rel="stylesheet" href="./assets/css/fonts/fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./assets/css/rss.css">
+    <link rel="stylesheet" href="./assets/css/rss.css?v=20260725-3">
 </head>
 
 <body>
     <header class="reader-header">
         <a class="brand" href="./index.html" aria-label="返回导航首页">
-            <img src="./assets/img/Euler0525.png" alt="" width="38" height="38">
+            <img src="./assets/img/Euler0525.webp" alt="" width="38" height="38">
             <span>RSS Reader</span>
         </a>
 
@@ -28,8 +28,8 @@
             <a href="./index.html" aria-label="返回导航首页" title="返回导航首页">
                 <i class="fa fa-compass" aria-hidden="true"></i>
             </a>
-            <button id="sidebar-toggle" type="button" aria-label="折叠订阅源侧栏"
-                aria-controls="source-list" aria-expanded="true" title="折叠订阅源侧栏">
+            <button id="sidebar-toggle" type="button" aria-label="折叠订阅源侧栏" aria-controls="source-list"
+                aria-expanded="true" title="折叠订阅源侧栏">
                 <i class="fa fa-outdent" aria-hidden="true"></i>
             </button>
             <button id="theme-toggle" type="button" aria-label="切换深浅色主题" title="切换主题">
@@ -41,10 +41,10 @@
     <main class="reader-layout">
         <aside class="sources-panel">
             <div class="panel-heading">
-                <span>订阅源</span>
+                <span>分类与订阅源</span>
                 <strong id="feed-count">—</strong>
             </div>
-            <nav id="source-list" class="source-list" aria-label="RSS 订阅源">
+            <nav id="source-list" class="source-list" aria-label="RSS 分类与订阅源">
                 <div class="panel-loading">正在读取订阅源…</div>
             </nav>
             <div class="sources-footer">
@@ -119,7 +119,7 @@
     </main>
 
     <div id="source-backdrop" class="source-backdrop"></div>
-    <script src="./assets/js/rss.js"></script>
+    <script src="./assets/js/rss.js?v=20260725-3"></script>
 </body>
 
 </html>

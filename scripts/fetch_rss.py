@@ -10,18 +10,20 @@ import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
+from urllib.parse import unquote, urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OPML_PATH = ROOT / "Fluent_Reader_Export.opml"
 OUTPUT_PATH = ROOT / "data" / "rss.json"
 ARTICLES_PER_FEED = 30
-MAX_ARTICLES = 180
+MAX_ARTICLES = 360
 MAX_CONTENT_LENGTH = 20_000
 USER_AGENT = "Euler0525 RSS Reader/1.0 (+https://nav.euler0525.cn/)"
 
@@ -151,8 +153,46 @@ def reading_minutes(value: str) -> int:
     return max(1, round(latin_words / 220 + cjk_chars / 450))
 
 
+def parse_sitemap(root: ET.Element, feed: dict[str, str]) -> tuple[str, list[dict[str, Any]]]:
+    path_filter = feed.get("pathFilter", "")
+    articles: list[dict[str, Any]] = []
+    site_url = ""
+
+    for entry in root:
+        if local_name(entry.tag) != "url":
+            continue
+        url = child_text(entry, "loc")
+        if not url or (path_filter and path_filter not in urlparse(url).path):
+            continue
+        path = urlparse(url).path.rstrip("/")
+        slug = unquote(path.rsplit("/", 1)[-1]).replace("-", " ").strip()
+        if not slug:
+            continue
+        published = parse_date(child_text(entry, "lastmod"))
+        title = slug[0].upper() + slug[1:]
+        site_url = site_url or f"{urlparse(url).scheme}://{urlparse(url).netloc}"
+        articles.append({
+            "id": article_id(url, title, published),
+            "feedTitle": feed["title"],
+            "feedUrl": feed["url"],
+            "category": feed.get("category", "其他"),
+            "title": title,
+            "url": url,
+            "published": published,
+            "author": feed["title"].split(" · ", 1)[0],
+            "summary": f"{feed['title'].split(' · ', 1)[0]} 官方发布，点击前往原网站阅读完整内容。",
+            "content": "",
+            "readingMinutes": 0,
+        })
+
+    articles.sort(key=sort_key, reverse=True)
+    return site_url, articles[:ARTICLES_PER_FEED]
+
+
 def parse_feed(xml_bytes: bytes, feed: dict[str, str]) -> tuple[str, list[dict[str, Any]]]:
     root = ET.fromstring(xml_bytes)
+    if local_name(root.tag) == "urlset":
+        return parse_sitemap(root, feed)
     is_atom = local_name(root.tag) == "feed"
     channel = direct_child(root, "channel")
     container = root if is_atom or channel is None else channel
@@ -181,6 +221,7 @@ def parse_feed(xml_bytes: bytes, feed: dict[str, str]) -> tuple[str, list[dict[s
             "id": article_id(url, title, published),
             "feedTitle": feed["title"],
             "feedUrl": feed["url"],
+            "category": feed.get("category", "其他"),
             "title": title,
             "url": url or site_url or feed["url"],
             "published": published,
@@ -195,14 +236,29 @@ def parse_feed(xml_bytes: bytes, feed: dict[str, str]) -> tuple[str, list[dict[s
 
 def load_subscriptions() -> list[dict[str, str]]:
     root = ET.parse(OPML_PATH).getroot()
-    subscriptions = []
-    for outline in root.findall(".//outline"):
+    body = direct_child(root, "body")
+    subscriptions: list[dict[str, str]] = []
+
+    def visit(outline: ET.Element, parent_category: str = "其他") -> None:
         url = (outline.get("xmlUrl") or "").strip()
         if url:
             subscriptions.append({
                 "title": outline.get("title") or outline.get("text") or "未命名订阅",
                 "url": url,
+                "pathFilter": outline.get("pathFilter") or "",
+                "category": outline.get("category") or parent_category,
             })
+            return
+
+        category = outline.get("title") or outline.get("text") or parent_category
+        for child in outline:
+            if local_name(child.tag) == "outline":
+                visit(child, category)
+
+    if body is not None:
+        for outline in body:
+            if local_name(outline.tag) == "outline":
+                visit(outline)
     return subscriptions
 
 
@@ -241,22 +297,45 @@ def main() -> int:
     feeds: list[dict[str, Any]] = []
     articles: list[dict[str, Any]] = []
 
-    for subscription in subscriptions:
+    def fetch_subscription(
+        subscription: dict[str, str],
+    ) -> tuple[str, list[dict[str, Any]], str]:
         error = ""
         site_url = ""
         try:
             xml_bytes = fetch_feed(subscription["url"])
             site_url, feed_articles = parse_feed(xml_bytes, subscription)
-            print(f"Fetched {subscription['title']}: {len(feed_articles)} articles")
         except Exception as exc:
             error = str(exc)
             feed_articles = previous.get(subscription["url"], [])
-            print(f"Failed {subscription['title']}: {error}", file=sys.stderr)
+        return site_url, feed_articles, error
 
+    results: list[tuple[str, list[dict[str, Any]], str] | None] = [
+        None for _ in subscriptions
+    ]
+    with ThreadPoolExecutor(max_workers=min(8, len(subscriptions))) as executor:
+        futures = {
+            executor.submit(fetch_subscription, subscription): index
+            for index, subscription in enumerate(subscriptions)
+        }
+        for future in as_completed(futures):
+            results[futures[future]] = future.result()
+
+    for subscription, result in zip(subscriptions, results):
+        if result is None:
+            continue
+        site_url, feed_articles, error = result
+        if error:
+            print(f"Failed {subscription['title']}: {error}", file=sys.stderr)
+        else:
+            print(f"Fetched {subscription['title']}: {len(feed_articles)} articles")
+        for article in feed_articles:
+            article["category"] = subscription["category"]
         articles.extend(feed_articles)
         feeds.append({
             "title": subscription["title"],
             "url": subscription["url"],
+            "category": subscription["category"],
             "siteUrl": site_url,
             "articleCount": len(feed_articles),
             "error": error,
@@ -287,10 +366,8 @@ def main() -> int:
         "articles": articles,
     }
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    with OUTPUT_PATH.open("w", encoding="utf-8", newline="\n") as output:
+        output.write(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
     print(f"Wrote {len(articles)} articles to {OUTPUT_PATH.relative_to(ROOT)}")
     return 0 if articles else 1
 

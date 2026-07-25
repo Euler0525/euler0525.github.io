@@ -5,7 +5,8 @@
         data: null,
         activeFeed: "all",
         query: "",
-        selectedArticle: null
+        selectedArticle: null,
+        collapsedCategories: {}
     };
 
     var sourceList = document.getElementById("source-list");
@@ -97,31 +98,87 @@
     }
 
     function renderSources() {
+        var categories = [];
+        var allButton;
         sourceList.innerHTML = "";
-        sourceList.appendChild(createSourceButton(
+        allButton = createSourceButton(
             "all",
             "全部文章",
             state.data.articles.length,
             "全"
-        ));
+        );
+        allButton.classList.add("source-all-button");
+        sourceList.appendChild(allButton);
 
         state.data.feeds.forEach(function (feed) {
-            sourceList.appendChild(createSourceButton(
-                feed.url,
-                feed.title,
-                feed.articleCount || 0,
-                feed.title.trim().charAt(0).toUpperCase() || "R"
-            ));
+            if (categories.indexOf(feed.category) === -1) {
+                categories.push(feed.category);
+            }
+        });
+
+        categories.forEach(function (category, index) {
+            var group = document.createElement("section");
+            var heading = document.createElement("button");
+            var feedList = document.createElement("div");
+            var feeds = state.data.feeds.filter(function (feed) {
+                return feed.category === category;
+            });
+            var count = state.data.articles.filter(function (article) {
+                return article.category === category;
+            }).length;
+            var isCollapsed = state.collapsedCategories[category] === true;
+            var groupId = "source-group-" + index;
+
+            group.className = "source-group" + (isCollapsed ? " is-collapsed" : "");
+            heading.type = "button";
+            heading.className = "source-group-heading";
+            heading.setAttribute("aria-controls", groupId);
+            heading.setAttribute("aria-expanded", String(!isCollapsed));
+            heading.title = (isCollapsed ? "展开 " : "收起 ") + category;
+            heading.innerHTML =
+                '<span class="source-group-title"><i class="fa ' +
+                (isCollapsed ? "fa-folder" : "fa-folder-open") +
+                '" aria-hidden="true"></i>' +
+                category + "</span>" +
+                '<span class="source-group-heading-meta"><strong>' + count + " 篇</strong>" +
+                '<i class="fa fa-chevron-down" aria-hidden="true"></i></span>';
+            heading.addEventListener("click", function () {
+                var willCollapse = !group.classList.contains("is-collapsed");
+                state.collapsedCategories[category] = willCollapse;
+                group.classList.toggle("is-collapsed", willCollapse);
+                feedList.hidden = willCollapse;
+                heading.setAttribute("aria-expanded", String(!willCollapse));
+                heading.title = (willCollapse ? "展开 " : "收起 ") + category;
+                heading.querySelector(".source-group-title i").className =
+                    "fa " + (willCollapse ? "fa-folder" : "fa-folder-open");
+            });
+            group.appendChild(heading);
+            feedList.id = groupId;
+            feedList.className = "source-group-feeds";
+            feedList.hidden = isCollapsed;
+
+            feeds.forEach(function (feed) {
+                feedList.appendChild(createSourceButton(
+                    feed.url,
+                    feed.title,
+                    feed.articleCount || 0,
+                    feed.title.trim().charAt(0).toUpperCase() || "R"
+                ));
+            });
+            group.appendChild(feedList);
+            sourceList.appendChild(group);
         });
     }
 
     function getFilteredArticles() {
         var query = state.query.trim().toLocaleLowerCase();
         return state.data.articles.filter(function (article) {
-            var matchesFeed = state.activeFeed === "all" || article.feedUrl === state.activeFeed;
+            var matchesFeed = state.activeFeed === "all" ||
+                article.feedUrl === state.activeFeed;
             var haystack = [
                 article.title,
                 article.feedTitle,
+                article.category,
                 article.author,
                 article.summary
             ].join(" ").toLocaleLowerCase();
@@ -145,7 +202,7 @@
         }
 
         top.className = "article-item-top";
-        source.textContent = article.feedTitle;
+        source.textContent = article.category + " · " + article.feedTitle;
         date.dateTime = article.published || "";
         date.textContent = formatDate(article.published, true);
         top.appendChild(source);
@@ -204,7 +261,7 @@
         state.selectedArticle = article;
         readerPlaceholder.hidden = true;
         readerContent.hidden = false;
-        readerSource.textContent = article.feedTitle;
+        readerSource.textContent = article.category + " / " + article.feedTitle;
         readerTitle.textContent = article.title;
         readerMeta.textContent = [
             article.author,
@@ -264,14 +321,20 @@
             })
             .then(function (data) {
                 state.data = data;
+                var categoriesByFeed = {};
+                data.feeds.forEach(function (feed) {
+                    feed.category = feed.category || "其他";
+                    categoriesByFeed[feed.url] = feed.category;
+                });
+                data.articles.forEach(function (article) {
+                    article.category = article.category ||
+                        categoriesByFeed[article.feedUrl] || "其他";
+                });
                 feedCount.textContent = data.feeds.length;
                 updatedAt.textContent = "更新于 " + formatDate(data.generatedAt, true);
                 articleList.setAttribute("aria-busy", "false");
                 renderSources();
                 renderArticles();
-                if (data.articles.length) {
-                    selectArticle(data.articles[0]);
-                }
             })
             .catch(function () {
                 sourceList.innerHTML = "";
