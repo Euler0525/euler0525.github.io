@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T06:28:37.494397Z",
+  "generatedAt": "2026-07-26T16:54:36.881489Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -116,6 +116,19 @@
     }
   ],
   "articles": [
+    {
+      "id": "007faf8e7669cce4",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "手冲咖啡指北：天太热了，来做一杯不寡淡的冰手冲吧",
+      "url": "https://sspai.com/post/112421",
+      "published": "2026-07-26T07:28:01Z",
+      "author": "",
+      "summary": "「太热了，今天不聊了，赶紧回去吹空调。」查看全文",
+      "content": "「太热了，今天不聊了，赶紧回去吹空调。」查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "2ebce7403d3eae54",
       "feedTitle": "少数派",
@@ -908,19 +921,6 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
-    },
-    {
-      "id": "82ab189668512c75",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "Parti：一个零门槛联机游戏平台，凭什么不需要服务器？",
-      "url": "https://sspai.com/post/112545",
-      "published": "2026-07-22T09:43:06Z",
-      "author": "",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "content": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "readingMinutes": 1
     },
     {
       "id": "81ecd05c4aee847c",
