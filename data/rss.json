@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T13:42:08.194114Z",
+  "generatedAt": "2026-07-26T06:28:37.494397Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "",
+      "siteUrl": "https://www.pixelstech.net",
       "articleCount": 20,
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "title": "OpenAI · News",
