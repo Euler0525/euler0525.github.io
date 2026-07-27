@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T16:54:36.881489Z",
+  "generatedAt": "2026-07-27T06:55:06.202328Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "https://www.pixelstech.net",
+      "siteUrl": "",
       "articleCount": 20,
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "title": "OpenAI · News",
@@ -102,20 +102,46 @@
       "title": "DeepSeek · Research",
       "url": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "https://arxiv.org/api/query?search_query=all:DeepSeek&start=0&max_results=20&id_list=",
+      "siteUrl": "",
       "articleCount": 20,
-      "error": ""
+      "error": "The read operation timed out"
     },
     {
       "title": "Kimi · Research",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3AKimi%20AND%20all%3AMoonshot%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "https://arxiv.org/api/query?search_query=all:Kimi+AND+all:Moonshot&start=0&max_results=20&id_list=",
+      "siteUrl": "",
       "articleCount": 1,
-      "error": ""
+      "error": "The read operation timed out"
     }
   ],
   "articles": [
+    {
+      "id": "069a062e2891cea3",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "角落新声｜不再烧 Hi-Fi 后，我在走步机上给音乐留了一小时",
+      "url": "https://sspai.com/post/112705",
+      "published": "2026-07-27T02:47:56Z",
+      "author": "",
+      "summary": "我的「听音角落」并不完全是一个空间。它是一部旧手机、一枚小尾巴、一副老耳机、一台走步机，以及晚上没有被其他事情占走的那一个小时。查看全文",
+      "content": "我的「听音角落」并不完全是一个空间。它是一部旧手机、一枚小尾巴、一副老耳机、一台走步机，以及晚上没有被其他事情占走的那一个小时。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "07e9d61127934b84",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：携程因滥用市场支配地位被罚 51.79 亿元",
+      "url": "https://sspai.com/post/112769",
+      "published": "2026-07-26T23:00:57Z",
+      "author": "",
+      "summary": "携程因滥用市场支配地位被罚 51.79 亿元 英伟达、微软等联名支持开放权重模型 长鑫存储、长江存储获得空前定价权 「谷歌一下」成为过时说法 上海交大医学院宣布调查基因编辑致死事件 Geekbench 7 发布 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+      "content": "携程因滥用市场支配地位被罚 51.79 亿元\n\n英伟达、微软等联名支持开放权重模型\n\n长鑫存储、长江存储获得空前定价权\n\n「谷歌一下」成为过时说法\n\n上海交大医学院宣布调查基因编辑致死事件\n\nGeekbench 7 发布\n\n看看就行的简讯\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "007faf8e7669cce4",
       "feedTitle": "少数派",
@@ -154,6 +180,19 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
+    },
+    {
+      "id": "2fb00782bce4f744",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Advancing Semiconductor Innovation Across Materials Engineering and Manufacturing",
+      "url": "https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing/",
+      "published": "2026-07-24T20:45:33Z",
+      "author": "Tanya Lenz",
+      "summary": "As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have...",
+      "content": "As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have...\nAs AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have outsized financial impact in fast-moving AI hardware cycles. Simultaneously, the shift from chip-level optimization to system-level engineering is compounding thermal and power challenges. Meeting these demands requires breakthroughs…\n\nSource",
+      "readingMinutes": 1
     },
     {
       "id": "26b4e01c469da5de",
@@ -234,6 +273,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "55505eedb540052f",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding",
+      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding/",
+      "published": "2026-07-23T20:42:19Z",
+      "author": "Elizabeth Goodman",
+      "summary": "Modern chip design is increasingly limited by engineering time. Register transfer level (RTL) development and verification require specialized hardware...",
+      "content": "Modern chip design is increasingly limited by engineering time. Register transfer level (RTL) development and verification require specialized hardware...\nModern chip design is increasingly limited by engineering time. Register transfer level (RTL) development and verification require specialized hardware knowledge, precise reasoning, and repeated interaction with electronic design automation (EDA) tools. LLMs have accelerated code generation, and AI agents extend their impact by using verification feedback to iteratively correct errors.\n\nSource",
+      "readingMinutes": 1
+    },
+    {
       "id": "207296594c6a6fe8",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -286,19 +338,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "b18e2cdb0acbbd62",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
-      "url": "https://developer.nvidia.com/blog/nvidia-vera-cpu-boosts-ai-factory-throughput-to-accelerate-agentic-workloads/",
-      "published": "2026-07-23T18:54:22Z",
-      "author": "Michelle Horton",
-      "summary": "Agentic systems turn model reasoning into action through multi-step workflows that combine inference, tool use, code execution, retrieval, orchestration, and...",
-      "content": "Agentic systems turn model reasoning into action through multi-step workflows that combine inference, tool use, code execution, retrieval, orchestration, and...\nAgentic systems turn model reasoning into action through multi-step workflows that combine inference, tool use, code execution, retrieval, orchestration, and result handling. As these systems scale across the AI factory, performance depends not only on GPU acceleration, but also on the CPU work that happens between model steps. Across the creation and deployment of an agentic system…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "93cc8862ebaf3e3f",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -309,19 +348,6 @@
       "author": "Sean Lopp",
       "summary": "Agentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide top accuracy but are...",
       "content": "Agentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide top accuracy but are...\nAgentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide top accuracy but are expensive. Fine-tuning offers one way to address this problem. Smaller or more efficient open models starting with lower accuracy are taught to perform better with specific agents. However, fine-tuning requires expertise and hardware for…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f7a5bf37167c4f05",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Running Low-Latency Analytical Workloads with GPU-Accelerated Presto on NVIDIA GB200 NVL72",
-      "url": "https://developer.nvidia.com/blog/running-low-latency-analytical-workloads-with-gpu-accelerated-presto-on-nvidia-gb200-nvl72/",
-      "published": "2026-07-23T18:54:21Z",
-      "author": "Tanya Lenz",
-      "summary": "Presto is an open source, distributed SQL engine for running fast, interactive queries on very large datasets. On NVIDIA GPUs, Presto delivers peak performance...",
-      "content": "Presto is an open source, distributed SQL engine for running fast, interactive queries on very large datasets. On NVIDIA GPUs, Presto delivers peak performance...\nPresto is an open source, distributed SQL engine for running fast, interactive queries on very large datasets. On NVIDIA GPUs, Presto delivers peak performance for analytical query workloads and provides low latency for users and agents. GPU-accelerated Presto brings low latency to your analytical workloads, keeping you and your agents unblocked and iterating as fast as possible.\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -739,32 +765,6 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
-    },
-    {
-      "id": "64988311cba00b40",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "让 Windows 顺眼又省心：我的新设备配置经验",
-      "url": "https://sspai.com/post/111300",
-      "published": "2026-07-23T02:57:30Z",
-      "author": "",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "content": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "198bcacf52fd92fc",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：三星发布多款折叠屏新品、索尼发布 FX5 电影摄影机等",
-      "url": "https://sspai.com/post/112647",
-      "published": "2026-07-23T00:50:21Z",
-      "author": "",
-      "summary": "OpenAI 发布面向企业用户的 OpenAI Presence，耐克宣布重构大中华区市场生态等。查看全文",
-      "content": "OpenAI 发布面向企业用户的 OpenAI Presence，耐克宣布重构大中华区市场生态等。查看全文",
-      "readingMinutes": 1
     },
     {
       "id": "bf70d809f9542eee",
@@ -1322,8 +1322,8 @@
       "published": "2026-07-20T04:49:10Z",
       "author": "英伟达中国",
       "summary": "今年的 SIGGRAPH 大会将持续到 7 月 23 日 (星期四) 在洛杉矶举行，参会者可以了解领先的图形研究、神经渲染、仿真和 AI 如何改变人们和机器创造和理解世界的方式。 NVIDIA 主题演讲于太平洋时间 7 月 20 日 15:45 举行，NVIDIA AI 研究和工程团队负责人 Neil Ashton、Edward Liu 和 Ming-Yu Liu 讨论了由 AI 构建的神经渲染技术、世界模型和 AI 仿真方法。 请继续阅读，了解 SIGGRAPH 大会的最新动态，NVIDIA",
-      "content": "今年的 SIGGRAPH 大会将持续到 7 月 23 日 (星期四) 在洛杉矶举行，参会者可以了解领先的图形研究、神经渲染、仿真和 AI 如何改变人们和机器创造和理解世界的方式。\n\nNVIDIA 主题演讲于太平洋时间 7 月 20 日 15:45 举行，NVIDIA AI 研究和工程团队负责人 Neil Ashton、Edward Liu 和 Ming-Yu Liu 讨论了由 AI 构建的神经渲染技术、世界模型和 AI 仿真方法。\n\n请继续阅读，了解 SIGGRAPH 大会的最新动态，NVIDIA 和合作伙伴将展示：\n\nNVIDIA 主题演讲回顾\n\n模型上下文协议连接将代理式 AI 引入内容创建\n\n全新 NIM 合成视频检测器\n\n适用于本地物理 AI 的 Cosmos 3 Edge 开放世界模型\n\n在 DGX Station 上基于 NVIDIA Agent Toolkit 运行 NVIDIA NemoClaw\n\nSIGGRAPH 主题演讲：NVIDIA 勾勒图形与物理 AI 的新时代蓝图\n\nNVIDIA Cosmos 实验室副总裁 Ming -Yu Liu 在 SIGGRAPH 2026 发表演讲。\n\nNVIDIA AI 研究与工程团队负责人今天在 SIGGRAPH 大会上登台，分享了神经渲染、世界模型和仿真方面的最新进展。这些技术正在改变各个领域创建和使用数字世界的方式，并可应用于创意工具、工业设计、机器人和自主系统。\n\nNVIDIA 创始人兼首席执行官黄仁勋在开场视频中表示：“创作者和设计师需要足够强大的工具来拓展他们的想象力，需要足够灵活的工具来自由地塑造想法，也需要足够精确以实现他们的愿景。无论是用于游戏、电影、机器人还是工厂数字孪生，目标始终一致：打造具备与现实物理世界同等保真度和真实感的虚拟世界。”\n\nNVIDIA 应用深度学习研究主管 Edward Liu 首先展示了 3D 引导神经网络渲染。\n\n他分享了 NVIDIA 在神经渲染方面的最新进展，以及这些技术如何解决三大关键研究挑战：保留艺术创作的意图、确保输出在帧与帧之间的时间稳定性，以及实现 4K 内容实时渲染。\n\nEdward Liu 表示：“控制艺术创作方向对我们来说是一个非常令人兴奋的研究方向。仿真定义了世界，生成丰富了它的外观，而艺术家则主导最终的结果。AI 正在扩展图形学，就像可编程着色器和光线追踪曾经扩展图形学的方式。”\n\nNVIDIA 杰出工程师 Neil Ashton 介绍了 AI 物理领域的创新，包括天气预报、汽车空气动力学、散热设计等方面的应用。\n\n在气候和天气研究中 NVIDIA Earth-2 开放模型系列使科学家能够利用基于模拟数据训练的 AI 模型，将模拟分辨率提升到新的水平，同时实现与传统方法相同或更高的准确性。\n\nNVIDIA 杰出工程师 Neil Ashton 在 SIGGRAPH 2026 上介绍 NVIDIA Earth-2。\n\nAshton 说：“我们面临的挑战是如何将这些 AI 模型在天气和气候领域取得的成功应用到我们生活的世界中，从而能够设计出未来的飞机、汽车和数据中心。NVIDIA 关注的事情之一就是帮助实现这一愿景。”\n\nAshton 分享了 NVIDIA 研究中心及其合作伙伴开发的最新模型架构如何将模型 Checkpoint 压缩至数百 MB，这种百万倍量级的压缩能够在一秒内完成符合物理规律的精准可视化。\n\nNVIDIA Cosmos 实验室副总裁 Ming-Yu Liu 分享了 NVIDIA Cosmos，这是一个用于加速物理 AI 系统开发的世界基础模型平台。\n\n他说：“基础模型之所以被称为基础模型，关键在于它能够处理大量不同的数据。我们使用数据训练 Cosmos 执行各种物理任务，包括理解世界、预测、模拟和行动。我们使用一个主干网络解决所有不同的任务。”\n\nMing-Yu Liu 还介绍了用于帮助 NVIDIA Cosmos 3 实现全局理解的 Mixture-of-Transformers 模型架构。这种能力可实现符合物理规律的结果，适用于人形机器人、抓手或智能汽车等不同具身形态。\n\n他说：“每个具身都有不同的语言，而我们的解决方案是建立一种通用的体系。”\n\nNVIDIA Cosmos 包含一系列不同规模的开放模型，可支持开发者在各种部署用例下使用。今天发布的最新版本是 Cosmos 3 Edge，这是一个拥有 40 亿参数的模型，可在设备上实时运行。\n\nMing-Yu Liu 还宣布推出了 Cosmos-Dreams，这是一个闭环模拟器的集合，现场他和同事演示了一个专为智能汽车构建的模拟器，该模拟器可在单帧上生成整个世界，并在单张 NVIDIA RTX PRO GPU 上运行。\n\n开发者可以使用 Cosmos-Dreams 验证其模型的准确性，然后再将其部署到实际车队中，或者使用它在现实世界中难以创建的 AI 生成场景中训练模型，从而在节省运营成本的同时加速开发。\n\n观看完整主题演讲并详细了解 Cosmos 3 Edge。\n\nAI 智能体将创意工具扩展到数百万用户\n\n图片由 Epic Games 提供。\n\n领先的创意应用正在开启模型上下文协议 (MCP) 连接，让 AI 智能体在场景、镜头、时间线、资产和剪辑工具中开展工作 —— 同时让创作者始终保持掌控力。\n\n二十多年来，从 GPU 加速的视口和 CUDA 驱动的特效，到 NVIDIA RTX PRO 光线追踪、AI 降噪、神经渲染和实时仿真，NVIDIA 技术帮助加速艺术家、工作室和开发者用于构建全球游戏、电影、电视节目和广告内容的数字内容创作 (DCC) 工具。\n\n从加速到行动\n\nMCP 正开启加速创意的新篇章：应用程序不仅变得更快。它们正在成为面向智能体的产品。\n\n借助 MCP 连接的工具，艺术家或技术总监可以要求智能体检查场景中缺少的纹理、标记不一致的色彩管理、准备导出变体、为每日样片生成播放预览或根据工作流规则验证镜头，同时将创意决策权保留在人类手中。\n\n曾经加速视口、渲染、仿真和 AI 效果的 NVIDIA 平台，现在还可为专业创作者设计的系统上的本地智能体、模型推理和多应用工作流提供动力。\n\nNVIDIA RTX PRO 工作站、DGX Spark 和 DGX Station 系统旨在为艺术家、开发者和工作室的工作流带来经加速的 AI 性能。在本地运行模型和智能体有助于提升响应速度、减少对外部服务的依赖，并确保敏感的创意数据保存在可控环境之中。\n\nNVIDIA Agent Toolkit 还支持 MCP 集成，包括用于连接到远程 MCP 服务器的 MCP 客户端和用于向任何 MCP 客户端发布工具的 MCP 服务器。\n\n创意生态系统实现面向智能体\n\n在整个创意生态系统中，创意应用和平台正在暴露 MCP 连接或面向 MCP 的工作流，赋予 AI 智能体更深入、更具有依据的方式来访问实际生产环境。\n\nAdobe 正在将其创意智能体扩展到 Firefly、Express 和 Creative Cloud，为 AI 助手体验提供支持。创作者只需要描述他们想要的结果，助手便会协调多步骤工作流来实现。Adobe 还通过 Adobe 连接器将其专业级创意工具引入第三方 AI 平台，从而在人们创作和工作的任何地方扩展其创意能力。对于开发者，Adobe 提供了 Adobe Express Developer MCP Server，使 AI 编程助手能够使用官方文档和应用程序编程接口 (API) 构建 Adobe Express 附加组件。\n\nCanva 的 Affinity 推出了针对 Claude 的 AI 连接器，使用 MCP 将自然语言自动化直接引入 Affinity。设计师可以要求 Claude 处理重复性的生产任务，例如重命名图层和画板、为多渠道调整资产大小和格式、应用批量编辑、优化矢量路径以及准备交付文件。除了单项任务，Claude 还能帮助用户构建可复用的脚本和为其工作流量身定制的自定义功能，从而降低生产开销，让创意专业人士有更多时间专注于设计本身。\n\nBlender 通过 Blender Lab 提供了一个轻量级 MCP 服务器，为 Blender 的 Python API、文档和复杂设置提供自然语言接口。对于独立艺术家和工作室来说，Blender 提供了一个很好的范例，展示了如何让开放的创意工具在不改变创意重心的情况下，实现智能体访问。\n\nBoris FX Silhouette 现在包含一个 MCP 服务器，可让 AI 助手直接在您的项目中工作。通过使用 Silhouette 的 FX Scripting API 作为一流的 MCP 工具，助手可以检查项目、构建节点树、编辑形状和关键帧，以及渲染帧。全新的首选项面板通过安装 MCP 包、生成可直接粘贴的客户端配置以及测试连接，简化了设置过程。交互式在线模式可连接到您的活动会话，而离线模式则可运行无头实例，用于自动化、批量处理和大规模工作流。\n\nFoundry Griptape 原生支持 MCP，提供专为专业视觉特效 (VFX) 工作流设计的 AI 编排。这种集成使工作室能够安全地管理多个 AI 模型和智能体，同时保持必要的可追溯性和创意把控力。通过与 Blender 和 Foundry Nuke 等工具集成，Griptape 可自动执行重复性生产任务，例如清理、数字绘景和质量控制，同时确保艺术家始终掌握对创作过程的最终决定权。\n\nSideFX 正通过其全新的 APEX Script 工作流为 Houdini 22 引入 MCP 支持。AI 助手可以访问经过精心整理的 APEX Script 语法、函数、文档和示例集合，帮助艺术家生成和优化程序化角色绑定的代码。SideFX 的初始实现侧重于 APEX Script 和角色绑定，而社区开发的 MCP 服务器为智能体与 Houdini 的交互提供了更广泛的方式。\n\n虚幻引擎 (Unreal Engine) 近期宣布，能够通过 MCP 将 AI 客户端连接至虚幻编辑器 (Unreal Editor)，从而实现可通过标准化协议与编辑器功能进行交互的 AI 工作流。对于游戏开发者、虚拟制作团队和实时艺术家而言，这为能够对场景、资产和项目状态进行推理的 AI 助手敞开了大门。\n\n欢迎在 SIGGRAPH 大会上了解 NVIDIA RTX PRO 和 DGX 系统如何将本地 AI 智能体更紧密地融入创意工作。\n\nNVIDIA AI for Media 助力新闻编辑室检测合成视频\n\n每天，视频都会将重大新闻事件呈现在我们眼前 —— 从横跨各大洲的突发新闻，到重塑整个社区的事件，再到将全球各地的人们团结在一起的时刻。在全天候滚动更新的新闻周期中，值得信赖的视频是人们了解正在发生的事情、理解其重要性并保持信息同步的媒介。\n\n因此，公众对视频的信任比以往任何时候都更加重要。在 SIGGRAPH 大会上，NVIDIA 推出合成视频检测器 (Synthetic Video Detector) 的 NVIDIA NIM，作为 NVIDIA AI for Media 平台的一部分，将 AI 辅助的检测信号引入编辑和媒体工作流。\n\n该 NIM 能够逐帧分析视频，并生成一个分类器评分，以判断是否包含合成内容。编辑团队可以使用该评分来确定审核片段的优先级、标记或隔离可疑素材，或将其升级以进行更深入的分析。\n\n该 NIM 不会取代现有的验证习惯，而是为时间敏感型决策提供额外的信号 —— 帮助团队在快速行动的同时，保障编辑标准和确保公众信任。\n\n合成视频检测器在新闻编辑室和社交视频工作流中常见的压缩、调整大小、裁剪和重新编码步骤后仍然能保持有效性。在 NVIDIA 的测试中，该模型在未压缩视频上的准确率高达 92%，在 15% 压缩率下的准确率为 87%，在 50% 压缩率下的准确率为 82%。\n\n在 NVIDIA RTX 系统上，该 NIM 处理 1080p 视频仅需 22 毫秒，在 NVIDIA L40 GPU 上大约需要 30 毫秒。\n\n于视频所在之处部署检测\n\n组织可以将该 NIM 部署到更靠近敏感视频采集、存储或分发的位置，包括本地、边缘、混合和经批准的物理隔离环境。这种灵活性有助于团队保持对视频数据、访问权限和运营的把控。\n\n合作伙伴的采用已经帮助合成视频检测器从模型功能转变为可部署的媒体基础设施。Wowza 正在通过 Wowza Video Intelligence Framework 嵌入该 NIM，将实时合成视频检测引入其直播工作流中，该工作流已在 170 多个国家/地区完成了超过 35,000 次部署。\n\n这种规模化部署至关重要，因为许多易受合成媒体风险影响的组织 (包括广播公司、政府机构、金融机构和关键基础设施运营商)，在数据驻留、安全性和运营把控方面也面临严格要求。\n\n通过将合成视频检测器与客户现有的视频基础设施层相结合，Wowza 可以在更靠近摄取和流媒体传输操作的地方提供 AI 辅助验证，使团队能够实时标记可疑视频，同时将敏感素材保存在自己的环境中。\n\n请参阅软件产品信息的注意事项。\n\nNVIDIA Cosmos 3 Edge 现已推出，将前沿世界模型引入边缘 GPU 以实现本地物理 AI\n\n物理 AI 系统依赖世界模型来感知、推理和预测物理环境。但现实世界十分广阔、无法预测且瞬息万变。\n\n无论是导航仓库的机器人，还是观测工厂车间的摄像头网络，物理 AI 系统都需要理解当前状况，推断接下来可能发生的事情，并迅速采取行动以产生影响。到目前为止，在边缘端交付此类前沿 AI 通常意味着需要牺牲模型能力来换取部署效率。\n\n现已推出的 NVIDIA Cosmos 3 Edge 有助于消除这种权衡。这款拥有 40 亿参数的全模态模型已进行优化，可在 NVIDIA Jetson、NVIDIA RTX PRO 和 NVIDIA DGX 系统，以及 GeForce RTX GPU 上实现内存高效部署和高吞吐量。\n\n作为 NVIDIA Cosmos 3 的扩展，这款紧凑型世界基础模型能够理解并生成文本、图像、视频、环境声音和动作。其 Mixture-of-Transformers (MoT) 架构支持在设备上使得基于物理基础的实时视觉分析和机器人动作成为可能。\n\nCosmos 3 Edge 在边缘端提供前沿物理 AI —— 在同级别参数模型中，其视觉分析成功率在 VANTAGE-Bench 中排名第一，并通过后训练实现了先进的机器人学习。\n\n跨机器人、智能汽车和智能基础设施的设备端物理 AI\n\n开发者可以使用 NVIDIA DGX Station 台式 AI 超级计算机，利用专有机器人和传感器数据对 Cosmos 3 Edge 进行后训练，从而构建专用世界动作模型，然后将其部署在 NVIDIA Jetson Thor 上，以实现包括操作或移动在内的实时机器人管理策略。Agile Robots、斗山机器人、西门子和 Skild AI 等合作伙伴正在评估 Cosmos 3 Edge 在机器人工作流中的应用。\n\n对于智能汽车，Cosmos 3 Edge 可在资源受限的硬件上实现道路场景理解、交通推理、物体意图预测和策略模型蒸馏。该模型可用作学生主干网络，适用于汽车策略模型蒸馏，可与 NVIDIA Alpamayo 视觉语言动作模型结合使用。\n\n在智能基础设施领域，Cosmos 3 Edge 凭借在 Jetson Thor 上进行的实时推理，为视觉智能体提供了业界领先的吞吐量和准确性。这些智能体能够跨实时视频流进行推理，用于交通监测、公共安全、物流和工业检测。开发者还可以在 NVIDIA Jetson Orin 8GB 上独立运行由 NVIDIA Nemotron 驱动的 20 亿参数推理模块。Centific、Vaidio 和 YUAN 正在评估 Cosmos 3 Edge，以加速在边缘运行的视觉智能体。\n\nCosmos 平台现已开放获取\n\nCosmos 3 Edge 是用于开发物理 AI 世界模型的更广泛的 NVIDIA Cosmos 平台的一部分。随着 Cosmos 3 推出 Edge (4B)、Nano (16B) 和 Super (64B) 三种规模，开发者可以为从边缘部署到高保真生成的开发的各个阶段选择合适的模型。\n\nCosmos 3 Edge、Cosmos 3 Nano 和 Cosmos 3 Super 现已在 Hugging Face 上发布，其推理和后训练框架及方法已在 GitHub 上提供。\n\n简化 AI 智能体：使用 NVIDIA Agent Toolkit 在 DGX Station 上本地构建和运行个人 AI 智能体\n\n超级智能体已经登陆桌面端。NVIDIA DGX Station 是 AI 时代的台式超级计算机，借助 NVIDIA Agent Toolkit，只需三个步骤即可完成设置，系统大约在 30 分钟内即可投入运行。\n\n在 DGX Station 上，NVIDIA Agent Toolkit 将 NVIDIA NemoClaw、NVIDIA Nemotron 3 Ultra 开放模型、作为智能体可访问工具和技能的 NVIDIA Omniverse 库，以及一个安全运行时集成于单个本地系统中 —— 而无需互联网连接。随着工作负载的扩展，开发者可以将多个系统连接在一起，为并发用户、更多智能体和更大的模型提供服务。\n\n这使创意者和工程师能够自主拥有专属的智能能力，并通过一套随时可在本地运行的系统。全栈的模型、智能体和工具 —— 为创建和运行特定领域的“超级智能体”提供了一个平台，这些智能体可根据用户自己的数据和知识进行定制。\n\nDGX Station 上开放的 NVIDIA Agent Toolkit 软件栈包括：\n\nNVIDIA NemoClaw：用于构建自定义自主智能体的开放蓝图，将模型、Harness 和运行时打包在一起，作为团队构建专用、特定领域智能体起点。\n\nNVIDIA Nemotron 3 Ultra：一款拥有 5,500 亿参数的开放模型，经过优化可在 DGX Station Grace Blackwell Ultra 系统上运行，并作为模型层供团队根据自身领域进行定制。\n\nNVIDIA Omniverse 库：将智能体技能扩展至物理仿真和 3D 资产工作流中，为创意和工程专业人员提供远超通用智能体功能的工具。\n\nNVIDIA OpenShell：这是一个开源安全运行时，它将智能体置于沙盒中，并根据既定策略对智能体与工具、系统和数据的交互方式进行管理。\n\nNVIDIA Grace Blackwell Ultra 桌面超级芯片：可在 DGX Station 上提供数据中心级桌面性能，具备高达 20 PFLOPS 的 FP4 AI 计算能力和 748GB 的一致性内存，可运行像 Nemotron Ultra 这样的大型模型。\n\nNVIDIA ConnectX-8 SuperNIC 在 DGX Station 中提供高达 800GB/s 的带宽，可提供极速、高效的网络连接，并支持连接至多两台 DGX Station，以进一步扩展模型容量和性能。\n\n规模化发挥 Harness 能效\n\n对于大规模运行智能体的团队来说，DGX Station 从根本上改变了经济效益。Nemotron 3 Ultra 针对开放 Harness 提供了领先的性能，且在购买硬件后无需支付每 Token 成本，因此用户只需构建一次，即可按需运行。\n\nNVIDIA 已发布在 Blender 中集成 NVIDIA Omniverse 库的蓝图 —— 为 NemoClaw 智能体提供了可调用的 RTX 传感器仿真和物理工具，从而为物理 AI 工作流准备 3D 场景。\n\n在 DGX Station 上，设计师和工程师可以在一台设备中运行该工作流的核心组件 —— 前沿模型、开放 Harness、安全运行时、3D 工具 —— 所有这些组件都相互链接，并通过开放蓝图连接和部署。\n\n前沿模型可将 NemoClaw 作为专用子智能体进行编排，将特定领域的工作委托给在 DGX Station 上本地运行的智能体，并直接访问 Omniverse 工具和 Blender。\n\nLangChain 针对 Nemotron 3 Ultra 对其 Deep Agents Harness 进行了微调，为设计师和工程师提供了面向生产的路径，以较低的成本实现基准测试领先的智能体性能。\n\nNous Research 针对其 Hermes Agent Harness 对 Nemotron 3 Ultra 进行了微调，并将其应用于生产工作负载 —— 直接证明了拥有专属智能的价值。针对开发者技术栈调优模型，可打造出在特定领域中速度更快、能力更强的智能体。Hermes Agent 还将 Blender 添加到其模型上下文协议 (MCP) 目录中，使团队能够直接从其智能体中激活 Blender —— 这是一个可以在 DGX Station 上运行且能够使用工具的 NemoClaw 智能体的生动示例。\n\n对于运行 OpenClaw 的团队来说，这一技术栈扩展了可能性 —— 它将 Nemotron 3 Ultra、Omniverse 工具和 DGX Station 上的本地推理整合至一个环境中，让 OpenClaw 中持久且长时间运行的智能体可以持续对其进行操作。",
-      "readingMinutes": 17
+      "content": "今年的 SIGGRAPH 大会将持续到 7 月 23 日 (星期四) 在洛杉矶举行，参会者可以了解领先的图形研究、神经渲染、仿真和 AI 如何改变人们和机器创造和理解世界的方式。\n\nNVIDIA 主题演讲于太平洋时间 7 月 20 日 15:45 举行，NVIDIA AI 研究和工程团队负责人 Neil Ashton、Edward Liu 和 Ming-Yu Liu 讨论了由 AI 构建的神经渲染技术、世界模型和 AI 仿真方法。\n\n请继续阅读，了解 SIGGRAPH 大会的最新动态，NVIDIA 和合作伙伴将展示：\n\nNVIDIA 主题演讲回顾\n\n模型上下文协议连接将代理式 AI 引入内容创建\n\n全新 NIM 合成视频检测器\n\n适用于本地物理 AI 的 Cosmos 3 Edge 开放世界模型\n\n在 DGX Station 上基于 NVIDIA Agent Toolkit 运行 NVIDIA NemoClaw\n\nSIGGRAPH 主题演讲：NVIDIA 勾勒图形与物理 AI 的新时代蓝图\n\nNVIDIA Cosmos 实验室副总裁 Ming -Yu Liu 在 SIGGRAPH 2026 发表演讲。\n\nNVIDIA AI 研究与工程团队负责人今天在 SIGGRAPH 大会上登台，分享了神经渲染、世界模型和仿真方面的最新进展。这些技术正在改变各个领域创建和使用数字世界的方式，并可应用于创意工具、工业设计、机器人和自主系统。\n\nNVIDIA 创始人兼首席执行官黄仁勋在开场视频中表示：“创作者和设计师需要足够强大的工具来拓展他们的想象力，需要足够灵活的工具来自由地塑造想法，也需要足够精确以实现他们的愿景。无论是用于游戏、电影、机器人还是工厂数字孪生，目标始终一致：打造具备与现实物理世界同等保真度和真实感的虚拟世界。”\n\nNVIDIA 应用深度学习研究主管 Edward Liu 首先展示了 3D 引导神经网络渲染。\n\n他分享了 NVIDIA 在神经渲染方面的最新进展，以及这些技术如何解决三大关键研究挑战：保留艺术创作的意图、确保输出在帧与帧之间的时间稳定性，以及实现 4K 内容实时渲染。\n\nEdward Liu 表示：“控制艺术创作方向对我们来说是一个非常令人兴奋的研究方向。仿真定义了世界，生成丰富了它的外观，而艺术家则主导最终的结果。AI 正在扩展图形学，就像可编程着色器和光线追踪曾经扩展图形学的方式。”\n\nNVIDIA 杰出工程师 Neil Ashton 介绍了 AI 物理领域的创新，包括天气预报、汽车空气动力学、散热设计等方面的应用。\n\n在气候和天气研究中 NVIDIA Earth-2 开放模型系列使科学家能够利用基于模拟数据训练的 AI 模型，将模拟分辨率提升到新的水平，同时实现与传统方法相同或更高的准确性。\n\nNVIDIA 杰出工程师 Neil Ashton 在 SIGGRAPH 2026 上介绍 NVIDIA Earth-2。\n\nAshton 说：“我们面临的挑战是如何将这些 AI 模型在天气和气候领域取得的成功应用到我们生活的世界中，从而能够设计出未来的飞机、汽车和数据中心。NVIDIA 关注的事情之一就是帮助实现这一愿景。”\n\nAshton 分享了 NVIDIA 研究中心及其合作伙伴开发的最新模型架构如何将模型 Checkpoint 压缩至数百 MB，这种百万倍量级的压缩能够在一秒内完成符合物理规律的精准可视化。\n\nNVIDIA Cosmos 实验室副总裁 Ming-Yu Liu 分享了 NVIDIA Cosmos，这是一个用于加速物理 AI 系统开发的世界基础模型平台。\n\n他说：“基础模型之所以被称为基础模型，关键在于它能够处理大量不同的数据。我们使用数据训练 Cosmos 执行各种物理任务，包括理解世界、预测、模拟和行动。我们使用一个主干网络解决所有不同的任务。”\n\nMing-Yu Liu 还介绍了用于帮助 NVIDIA Cosmos 3 实现全局理解的 Mixture-of-Transformers 模型架构。这种能力可实现符合物理规律的结果，适用于人形机器人、抓手或智能汽车等不同具身形态。\n\n他说：“每个具身都有不同的语言，而我们的解决方案是建立一种通用的体系。”\n\nNVIDIA Cosmos 包含一系列不同规模的开放模型，可支持开发者在各种部署用例下使用。今天发布的最新版本是 Cosmos 3 Edge，这是一个拥有 40 亿参数的模型，可在设备上实时运行。\n\nMing-Yu Liu 还宣布推出了 Cosmos-Dreams，这是一个闭环模拟器的集合，现场他和同事演示了一个专为智能汽车构建的模拟器，该模拟器可在单帧上生成整个世界，并在单张 NVIDIA RTX PRO GPU 上运行。\n\n开发者可以使用 Cosmos-Dreams 验证其模型的准确性，然后再将其部署到实际车队中，或者使用它在现实世界中难以创建的 AI 生成场景中训练模型，从而在节省运营成本的同时加速开发。\n\n观看完整主题演讲并详细了解 Cosmos 3 Edge。\n\nAI 智能体将创意工具扩展到数百万用户\n\n图片由 Epic Games 提供。\n\n领先的创意应用正在开启模型上下文协议 (MCP) 连接，让 AI 智能体在场景、镜头、时间线、资产和剪辑工具中开展工作 —— 同时让创作者始终保持掌控力。\n\n二十多年来，从 GPU 加速的视口和 CUDA 驱动的特效，到 NVIDIA RTX PRO 光线追踪、AI 降噪、神经渲染和实时仿真，NVIDIA 技术帮助加速艺术家、工作室和开发者用于构建全球游戏、电影、电视节目和广告内容的数字内容创作 (DCC) 工具。\n\n从加速到行动\n\nMCP 正开启加速创意的新篇章：应用程序不仅变得更快。它们正在成为面向智能体的产品。\n\n借助 MCP 连接的工具，艺术家或技术总监可以要求智能体检查场景中缺少的纹理、标记不一致的色彩管理、准备导出变体、为每日样片生成播放预览或根据工作流规则验证镜头，同时将创意决策权保留在人类手中。\n\n曾经加速视口、渲染、仿真和 AI 效果的 NVIDIA 平台，现在还可为专业创作者设计的系统上的本地智能体、模型推理和多应用工作流提供动力。\n\nNVIDIA RTX PRO 工作站、DGX Spark 和 DGX Station 系统旨在为艺术家、开发者和工作室的工作流带来经加速的 AI 性能。在本地运行模型和智能体有助于提升响应速度、减少对外部服务的依赖，并确保敏感的创意数据保存在可控环境之中。\n\nNVIDIA Agent Toolkit 还支持 MCP 集成，包括用于连接到远程 MCP 服务器的 MCP 客户端和用于向任何 MCP 客户端发布工具的 MCP 服务器。\n\n创意生态系统实现面向智能体\n\n在整个创意生态系统中，创意应用和平台正在暴露 MCP 连接或面向 MCP 的工作流，赋予 AI 智能体更深入、更具有依据的方式来访问实际生产环境。\n\nAdobe 正在将其创意智能体扩展到 Firefly、Express 和 Creative Cloud，为 AI 助手体验提供支持。创作者只需要描述他们想要的结果，助手便会协调多步骤工作流来实现。Adobe 还通过 Adobe 连接器将其专业级创意工具引入第三方 AI 平台，从而在人们创作和工作的任何地方扩展其创意能力。对于开发者，Adobe 提供了 Adobe Express Developer MCP Server，使 AI 编程助手能够使用官方文档和应用程序编程接口 (API) 构建 Adobe Express 附加组件。\n\nCanva 的 Affinity 推出了针对 Claude 的 AI 连接器，使用 MCP 将自然语言自动化直接引入 Affinity。设计师可以要求 Claude 处理重复性的生产任务，例如重命名图层和画板、为多渠道调整资产大小和格式、应用批量编辑、优化矢量路径以及准备交付文件。除了单项任务，Claude 还能帮助用户构建可复用的脚本和为其工作流量身定制的自定义功能，从而降低生产开销，让创意专业人士有更多时间专注于设计本身。\n\nBlender 通过 Blender Lab 提供了一个轻量级 MCP 服务器，为 Blender 的 Python API、文档和复杂设置提供自然语言接口。对于独立艺术家和工作室来说，Blender 提供了一个很好的范例，展示了如何让开放的创意工具在不改变创意重心的情况下，实现智能体访问。\n\nBoris FX Silhouette 现在包含一个 MCP 服务器，可让 AI 助手直接在您的项目中工作。通过使用 Silhouette 的 FX Scripting API 作为一流的 MCP 工具，助手可以检查项目、构建节点树、编辑形状和关键帧，以及渲染帧。全新的首选项面板通过安装 MCP 包、生成可直接粘贴的客户端配置以及测试连接，简化了设置过程。交互式在线模式可连接到您的活动会话，而离线模式则可运行无头实例，用于自动化、批量处理和大规模工作流。\n\nFoundry Griptape 原生支持 MCP，提供专为专业视觉特效 (VFX) 工作流设计的 AI 编排。这种集成使工作室能够安全地管理多个 AI 模型和智能体，同时保持必要的可追溯性和创意把控力。通过与 Blender 和 Foundry Nuke 等工具集成，Griptape 可自动执行重复性生产任务，例如清理、数字绘景和质量控制，同时确保艺术家始终掌握对创作过程的最终决定权。\n\nSideFX 正通过其全新的 APEX Script 工作流为 Houdini 22 引入 MCP 支持。AI 助手可以访问经过精心整理的 APEX Script 语法、函数、文档和示例集合，帮助艺术家生成和优化程序化角色绑定的代码。SideFX 的初始实现侧重于 APEX Script 和角色绑定，而社区开发的 MCP 服务器为智能体与 Houdini 的交互提供了更广泛的方式。\n\n虚幻引擎 (Unreal Engine) 近期宣布，能够通过 MCP 将 AI 客户端连接至虚幻编辑器 (Unreal Editor)，从而实现可通过标准化协议与编辑器功能进行交互的 AI 工作流。对于游戏开发者、虚拟制作团队和实时艺术家而言，这为能够对场景、资产和项目状态进行推理的 AI 助手敞开了大门。\n\n欢迎在 SIGGRAPH 大会上了解 NVIDIA RTX PRO 和 DGX 系统如何将本地 AI 智能体更紧密地融入创意工作。\n\nNVIDIA AI for Media 助力新闻编辑室检测合成视频\n\n每天，视频都会将重大新闻事件呈现在我们眼前 —— 从横跨各大洲的突发新闻，到重塑整个社区的事件，再到将全球各地的人们团结在一起的时刻。在全天候滚动更新的新闻周期中，值得信赖的视频是人们了解正在发生的事情、理解其重要性并保持信息同步的媒介。\n\n因此，公众对视频的信任比以往任何时候都更加重要。在 SIGGRAPH 大会上，NVIDIA 推出合成视频检测器 (Synthetic Video Detector) 的 NVIDIA NIM，作为 NVIDIA AI for Media 平台的一部分，将 AI 辅助的检测信号引入编辑和媒体工作流。\n\n该 NIM 能够逐帧分析视频，并生成一个分类器评分，以判断是否包含合成内容。编辑团队可以使用该评分来确定审核片段的优先级、标记或隔离可疑素材，或将其升级以进行更深入的分析。\n\n该 NIM 不会取代现有的验证习惯，而是为时间敏感型决策提供额外的信号 —— 帮助团队在快速行动的同时，保障编辑标准和确保公众信任。\n\n合成视频检测器在新闻编辑室和社交视频工作流中常见的压缩、调整大小、裁剪和重新编码步骤后仍然能保持有效性。在 NVIDIA 的测试中，该模型在未压缩视频上的准确率高达 92%，在 15% 压缩率下的准确率为 87%，在 50% 压缩率下的准确率为 82%。\n\n在 NVIDIA RTX 系统上，该 NIM 处理 1080p 视频仅需 22 毫秒，在 NVIDIA L40 GPU 上大约需要 30 毫秒。\n\n于视频所在之处部署检测\n\n组织可以将该 NIM 部署到更靠近敏感视频采集、存储或分发的位置，包括本地、边缘、混合和经批准的物理隔离环境。这种灵活性有助于团队保持对视频数据、访问权限和运营的把控。\n\n合作伙伴的采用已经帮助合成视频检测器从模型功能转变为可部署的媒体基础设施。Wowza 正在通过 Wowza Video Intelligence Framework 嵌入该 NIM，将实时合成视频检测引入其直播工作流中，该工作流已在 170 多个国家/地区完成了超过 35,000 次部署。\n\n这种规模化部署至关重要，因为许多易受合成媒体风险影响的组织 (包括广播公司、政府机构、金融机构和关键基础设施运营商)，在数据驻留、安全性和运营把控方面也面临严格要求。\n\n通过将合成视频检测器与客户现有的视频基础设施层相结合，Wowza 可以在更靠近摄取和流媒体传输操作的地方提供 AI 辅助验证，使团队能够实时标记可疑视频，同时将敏感素材保存在自己的环境中。\n\n请参阅软件产品信息的注意事项。\n\nNVIDIA Cosmos 3 Edge 现已推出，将前沿世界模型引入边缘 GPU 以实现本地物理 AI\n\n物理 AI 系统依赖世界模型来感知、推理和预测物理环境。但现实世界十分广阔、无法预测且瞬息万变。\n\n无论是导航仓库的机器人，还是观测工厂车间的摄像头网络，物理 AI 系统都需要理解当前状况，推断接下来可能发生的事情，并迅速采取行动以产生影响。到目前为止，在边缘端交付此类前沿 AI 通常意味着需要牺牲模型能力来换取部署效率。\n\n现已推出的 NVIDIA Cosmos 3 Edge 有助于消除这种权衡。这款拥有 40 亿参数的全模态模型已进行优化，可在 NVIDIA Jetson、NVIDIA RTX PRO 和 NVIDIA DGX 系统，以及 GeForce RTX GPU 上实现内存高效部署和高吞吐量。\n\n作为 NVIDIA Cosmos 3 的扩展，这款紧凑型世界基础模型能够理解并生成文本、图像、视频、环境声音和动作。其 Mixture-of-Transformers (MoT) 架构支持在设备上使得基于物理基础的实时视觉分析和机器人动作成为可能。\n\nCosmos 3 Edge 在边缘端提供前沿物理 AI —— 在同级别参数模型中，其视觉分析成功率在 VANTAGE-Bench 中排名第一，并通过后训练实现了先进的机器人学习。\n\n跨机器人、智能汽车和智能基础设施的设备端物理 AI\n\n开发者可以使用 NVIDIA DGX Station 台式 AI 超级计算机，利用专有机器人和传感器数据对 Cosmos 3 Edge 进行后训练，从而构建专用世界动作模型，然后将其部署在 NVIDIA Jetson Thor 上，以实现包括操作或移动在内的实时机器人管理策略。Agile Robots、斗山机器人、西门子和 Skild AI 等合作伙伴正在评估 Cosmos 3 Edge 在机器人工作流中的应用。\n\n对于智能汽车，Cosmos 3 Edge 可在资源受限的硬件上实现道路场景理解、交通推理、物体意图预测和策略模型蒸馏。该模型可用作学生主干网络，适用于汽车策略模型蒸馏，可与 NVIDIA Alpamayo 视觉语言动作模型结合使用。\n\n在智能基础设施领域，Cosmos 3 Edge 凭借在 Jetson Thor 上进行的实时推理，为视觉智能体提供了业界领先的吞吐量和准确性。这些智能体能够跨实时视频流进行推理，用于交通监测、公共安全、物流和工业检测。开发者还可以在 NVIDIA Jetson Orin 8GB 上独立运行由 NVIDIA Nemotron 驱动的 20 亿参数推理模块。Centific、Vaidio 和 YUAN 正在评估 Cosmos 3 Edge，以加速在边缘运行的视觉智能体。\n\nCosmos 平台现已开放获取\n\nCosmos 3 Edge 是用于开发物理 AI 世界模型的更广泛的 NVIDIA Cosmos 平台的一部分。随着 Cosmos 3 推出 Edge (4B)、Nano (16B) 和 Super (64B) 三种规模，开发者可以为从边缘部署到高保真生成的开发的各个阶段选择合适的模型。\n\nCosmos 3 Edge、Cosmos 3 Nano 和 Cosmos 3 Super 现已在 Hugging Face 上发布，其推理和后训练框架及方法已在 GitHub 上提供。\n\n简化 AI 智能体：使用 NVIDIA Agent Toolkit 在 DGX Station 上本地构建和运行个人 AI 智能体\n\n超级智能体已经登陆桌面端。NVIDIA DGX Station 是 AI 时代的台式超级计算机，借助 NVIDIA Agent Toolkit，只需三个步骤即可完成设置，系统大约在 30 分钟内即可投入运行。\n\n在 DGX Station 上，NVIDIA Agent Toolkit 将 NVIDIA NemoClaw、NVIDIA Nemotron 3 Ultra 开放模型、作为智能体可访问工具和技能的 NVIDIA Omniverse 库，以及一个安全运行时集成于单个本地系统中 —— 而无需互联网连接。随着工作负载的扩展，开发者可以将多个系统连接在一起，为并发用户、更多智能体和更大的模型提供服务。\n\n这使创意者和工程师能够自主拥有专属的智能能力，并通过一套随时可在本地运行的系统。全栈的模型、智能体和工具 —— 为创建和运行特定领域的“超级智能体”提供了一个平台，这些智能体可根据用户自己的数据和知识进行定制。\n\nDGX Station 上开放的 NVIDIA Agent Toolkit 软件栈包括：\n\nNVIDIA NemoClaw：用于构建自定义自主智能体的开放蓝图，将模型、Harness 和运行时打包在一起，作为团队构建专用、特定领域智能体起点。\n\nNVIDIA Nemotron 3 Ultra：一款拥有 5,500 亿参数的开放模型，经过优化可在 DGX Station Grace Blackwell Ultra 系统上运行，并作为模型层供团队根据自身领域进行定制。\n\nNVIDIA Omniverse 库：将智能体技能扩展至物理仿真和 3D 资产工作流中，为创意和工程专业人员提供远超通用智能体功能的工具。\n\nNVIDIA OpenShell：这是一个开源安全运行时，它将智能体置于沙盒中，并根据既定策略对智能体与工具、系统和数据的交互方式进行管理。\n\nNVIDIA Grace Blackwell Ultra 桌面超级芯片：可在 DGX Station 上提供数据中心级桌面性能，具备高达 20 PFLOPS 的 FP4 AI 计算能力和 748GB 的一致性内存，可运行像 Nemotron Ultra 这样的大型模型。\n\nNVIDIA ConnectX-8 SuperNIC 在 DGX Station 中提供高达 800GB/s 的带宽，可提供极速、高效的网络连接，并支持连接至多两台 DGX Station，以进一步扩展模型容量和性能。\n\n规模化发挥 Harness 能效\n\n对于大规模运行智能体的团队来说，DGX Station 从根本上改变了经济效益。Nemotron 3 Ultra 针对开放 Harness 提供了领先的性能，且在购买硬件后无需支付每 Token 成本，因此用户只需构建一次，即可按需运行。\n\nNVIDIA 已发布在 Blender 中集成 NVIDIA Omniverse 库的蓝图 —— 为 NemoClaw 智能体提供了可调用的 RTX 传感器仿真和物理工具，从而为物理 AI 工作流准备 3D 场景。\n\n在 DGX Station 上，设计师和工程师可以在一台设备中运行该工作流的核心组件 —— 前沿模型、开放 Harness、安全运行时、3D 工具 —— 所有这些组件都相互链接，并通过开放蓝图连接和部署。\n\n前沿模型可将 NemoClaw 作为专用子智能体进行编排，将特定领域的工作委托给在 DGX Station 上本地运行的智能体，并直接访问 Omniverse 工具和 Blender。\n\nLangChain 针对 Nemotron 3 Ultra 对其 Deep Agents Harness 进行了微调，为设计师和工程师提供了面向生产的路径，以较低的成本实现基准测试领先的智能体性能。\n\nNous Research 针对其 Hermes Agent Harness 对 Nemotron 3 Ultra 进行了微调，并将其应用于生产工作负载 —— 直接证明了拥有专属智能的价值。针对开发者技术栈调优模型，可打造出在特定领域中速度更快、能力更强的智能体。Hermes Agent 还将 Blender 添加到其模型上下文协议 (MCP) 目录中，使团队能够直接从其智能体中激活 Blender —— 这是一个可以在 DGX Station 上运行且能够使用工具的 NemoClaw 智能体的生动示例。\n\n对于运行 OpenClaw 的团队来说，这一技术栈扩展了可能性 —— 它将 Nemotron 3 Ultra、Omniverse 工具和 DGX Station 上的本地推理整合至一个环境中，让 OpenClaw 中持久且长时间运行的智能体可以持续对其进行操作。\n\nNVIDIA 将图形研究领域的突破引入仿真与物理 AI\n\n在今年的 SIGGRAPH 大会上，NVIDIA 的研究重心不仅是打造视觉逼真的虚拟世界，更致力于让虚拟世界能够真实运作并实时响应。\n\n这一理念的转变贯穿了 NVIDIA 本届入选的 21 篇技术论文 —— 它们正成为实时系统的基石，使这些系统既能生成虚拟世界，又能驱动现实世界中的机器训练。\n\n无论是用于游戏、电影、机器人还是工厂数字孪生，其最终目标始终如一：利用以 3D 为基础、遵循物理规律且由创作者主导的 AI 生成世界，来拓展创意的边界。\n\n最直观的例证便是 MotionBricks：这是一个实时动作模型，基于超过 35 万个动作片段训练而成，能够以游戏引擎级的速度运行，让创作者能够灵活控制和衔接角色的动作。驱动屏幕上动画角色的同一个模型，还能同步控制现场的宇树 G1 人形机器人，通过计算机图形学 (CG) 和仿真技术来加速物理 AI 的发展。\n\nGPC (生成式预训练控制器) 框架则进一步延伸了这一理念，它用于在大规模动作数据集上训练生成式控制器。NVIDIA 利用大规模人体动作数据对单一控制器进行预训练，使其掌握可迁移的运动能力，并能够泛化到全新的任务中。这标志着运动控制基础模型的起步。\n\n为了构建可用于测试这些运动能力的虚拟世界，ArtiFixer 将粗糙、存在缺失的现实世界 3D 数据，重建为高质量且完整的虚拟场景。它还引入了一种全新的方法，能够仅凭场景几何结构信息，预测出照片级真实感的全局光照 —— 且无需追踪任何光线。\n\n为了让这些虚拟世界的表现与现实世界一致，NVIDIA Newton 物理引擎中采用了全新的求解器，使雪、沙子和弹性固体等难以模拟的材质变得栩栩如生。\n\n同时，为了确保创作者始终掌握创作控制权，VideoNeuMat 流程使他们能够从生成式视频模型中提取出可复用、可重新打光的材质；而 ARDY 自回归扩散模型，则允许创作者通过文本提示词实时引导 3D 角色的动作。\n\n上述论文均已公开发布，相关代码和模型均可免费下载。想要了解更多详情，敬请关注 NVIDIA 在 SIGGRAPH 上的最新展示。",
+      "readingMinutes": 18
     },
     {
       "id": "0eca850c4b96df64",
