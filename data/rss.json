@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T06:55:06.202328Z",
+  "generatedAt": "2026-07-27T17:39:21.399867Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -102,20 +102,111 @@
       "title": "DeepSeek · Research",
       "url": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "",
+      "siteUrl": "https://arxiv.org/api/query?search_query=all:DeepSeek&start=0&max_results=20&id_list=",
       "articleCount": 20,
-      "error": "The read operation timed out"
+      "error": ""
     },
     {
       "title": "Kimi · Research",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3AKimi%20AND%20all%3AMoonshot%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "",
+      "siteUrl": "https://arxiv.org/api/query?search_query=all:Kimi+AND+all:Moonshot&start=0&max_results=20&id_list=",
       "articleCount": 1,
-      "error": "The read operation timed out"
+      "error": ""
     }
   ],
   "articles": [
+    {
+      "id": "bc04202d666568e9",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "NVIDIA Ising Enables Fully Automated Quantum Computer Calibration with Enhanced In-Context Learning",
+      "url": "https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning/",
+      "published": "2026-07-27T15:38:48Z",
+      "author": "Tanya Lenz",
+      "summary": "NVIDIA Ising Calibration is an open source vision language model (VLM) designed to interpret diagnostic outputs from quantum processors and determine how they...",
+      "content": "NVIDIA Ising Calibration is an open source vision language model (VLM) designed to interpret diagnostic outputs from quantum processors and determine how they...\nNVIDIA Ising Calibration is an open source vision language model (VLM) designed to interpret diagnostic outputs from quantum processors and determine how they should be tuned to continue operating. This post introduces the latest model release, NVIDIA Ising Calibration 1.5, which advances AI-based QPU calibration by analyzing unfamiliar diagnostic results without prior training examples.\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "7b68f4f0be7a0fcc",
+      "feedTitle": "Anthropic · News",
+      "feedUrl": "https://www.anthropic.com/sitemap.xml",
+      "category": "AI 新闻",
+      "title": "Cognizant anthropic",
+      "url": "https://www.anthropic.com/news/cognizant-anthropic",
+      "published": "2026-07-27T15:34:00Z",
+      "author": "Anthropic",
+      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
+      "content": "",
+      "readingMinutes": 0
+    },
+    {
+      "id": "826efea84528ac45",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派评 | 近期值得关注的 App",
+      "url": "https://sspai.com/post/112785",
+      "published": "2026-07-27T09:34:04Z",
+      "author": "",
+      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "content": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f56a44182648e4dd",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Six Agent Harness Capabilities for Higher Model Performance",
+      "url": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance/",
+      "published": "2026-07-27T09:00:07Z",
+      "author": "Michelle Horton",
+      "summary": "Building a great AI agent isn’t just about choosing the right models. The harness is the architecture surrounding the model. How it renders context, executes...",
+      "content": "Building a great AI agent isn’t just about choosing the right models. The harness is the architecture surrounding the model. How it renders context, executes...\nBuilding a great AI agent isn’t just about choosing the right models. The harness is the architecture surrounding the model. How it renders context, executes actions, manages state, and decides when a task is done shapes outcomes just as much as the model itself. Harness design alone can account for double-digit swings in benchmark results and significant differences in token cost…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c6cbd04ddb810357",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "案例分享 | 基于 NVIDIA DGX Spark 的智能安防与工业智能方案开发应用",
+      "url": "https://developer.nvidia.cn/blog/nvidia-dgx-spark-smart-security-industrial-ai-solutions/",
+      "published": "2026-07-27T07:39:47Z",
+      "author": "wnger",
+      "summary": "在智慧城市安防升级与工业智能制造转型背景下，传统安防监控与工业运维模式普遍面临诸多瓶颈。为了打破这些技术限制， … Continued",
+      "content": "在智慧城市安防升级与工业智能制造转型背景下，传统安防监控与工业运维模式普遍面临诸多瓶颈。为了打破这些技术限制，本案例基于NVIDIA DGX Spark桌面级AI超算平台，搭建一站式智能安防与工业智能研发验证体系。该平台聚焦视频结构化分析、安防异常行为识别以及工业设备预测性维护三大核心AI场景为行业智能化方案研发与落地提供算力支撑与验证载体。 数据处理效率低下：传统算力设备难以支撑大规模数据的批量清洗、归一化与特征提取，这导致数据预处理周期长，从而直接制约了模型研发进度。 模型研发适配性不足：传统通用服务器算力薄弱，无法支撑深度学习模型的大规模迭代训练，导致训练出的模型泛化能力较差，且识别准确率难以满足复杂场景需求。 实时推理能力缺失：云端推理存在网络传输延迟、带宽瓶颈及数据安全风险。\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "a126a40c0b4c32f3",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "Windows 设计史 05 | 你怀念的 Windows 7，或许最具「人情味」",
+      "url": "https://sspai.com/post/101668",
+      "published": "2026-07-27T07:00:00Z",
+      "author": "",
+      "summary": "好用有时比创新更重要。查看全文",
+      "content": "好用有时比创新更重要。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "db9d0913513df69e",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "How AI is expanding what people do at work",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "published": "2026-07-27T03:30:00Z",
+      "author": "",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "content": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "readingMinutes": 1
+    },
     {
       "id": "069a062e2891cea3",
       "feedTitle": "少数派",
@@ -138,8 +229,8 @@
       "url": "https://sspai.com/post/112769",
       "published": "2026-07-26T23:00:57Z",
       "author": "",
-      "summary": "携程因滥用市场支配地位被罚 51.79 亿元 英伟达、微软等联名支持开放权重模型 长鑫存储、长江存储获得空前定价权 「谷歌一下」成为过时说法 上海交大医学院宣布调查基因编辑致死事件 Geekbench 7 发布 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
-      "content": "携程因滥用市场支配地位被罚 51.79 亿元\n\n英伟达、微软等联名支持开放权重模型\n\n长鑫存储、长江存储获得空前定价权\n\n「谷歌一下」成为过时说法\n\n上海交大医学院宣布调查基因编辑致死事件\n\nGeekbench 7 发布\n\n看看就行的简讯\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
+      "summary": "携程因滥用市场支配地位被罚 51.79 亿元 英伟达、微软等联名支持开放权重模型 「谷歌一下」成为过时说法 上海交大医学院宣布调查基因编辑致死事件 Geekbench 7 发布 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+      "content": "携程因滥用市场支配地位被罚 51.79 亿元\n\n英伟达、微软等联名支持开放权重模型\n\n「谷歌一下」成为过时说法\n\n上海交大医学院宣布调查基因编辑致死事件\n\nGeekbench 7 发布\n\n看看就行的简讯\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
       "readingMinutes": 1
     },
     {
@@ -221,6 +312,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "29c79f51647ac0e5",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "SK 集团和 NVIDIA 拓展在 AI 工厂和新一代内存领域的战略合作",
+      "url": "https://blogs.nvidia.cn/blog/sk-group-and-nvidia-expand-strategic-partnership-across-ai-factories-and-next-generation-memory/",
+      "published": "2026-07-24T14:00:00Z",
+      "author": "英伟达中国",
+      "summary": "新闻摘要： AI Summit – SK 集团 和 NVIDIA 宣布全面合作，双方计划投入超 5000 亿美元，以推进 AI 基础设施建设，从而满足全球日益增长的计算需求。双方已正式签署合作意向书，合作范围涵盖 AI 工厂建设和 AI 内存供应。 NVIDIA Vera Rubin 基础架构和 DSX 平台推动 20 亿瓦级建设 此次合作建立在 SK 集团与 NVIDIA 之间长达数十年的技术合作伙伴关系之上，双方于最近宣布 SK 电讯将在韩国打造 20 亿瓦级的 AI 云。 该 AI 云将采",
+      "content": "新闻摘要：\n\nSK 集团和 NVIDIA 通过一项超 5000 亿美元的计划扩展战略合作，涵盖 AI 工厂建设和新一代内存方向。\n\nSK 电讯将建设 20 亿瓦级的 NVIDIA Vera Rubin DSX AI 工厂，以满足全球对计算的需求。\n\nNVIDIA 与 SK 海力士建立长期合作关系，共同开发并稳定供应包括 HBM 在内的下一代 AI 内存。\n\nAI Summit – SK 集团 和 NVIDIA 宣布全面合作，双方计划投入超 5000 亿美元，以推进 AI 基础设施建设，从而满足全球日益增长的计算需求。双方已正式签署合作意向书，合作范围涵盖 AI 工厂建设和 AI 内存供应。\n\nNVIDIA Vera Rubin 基础架构和 DSX 平台推动 20 亿瓦级建设\n\n此次合作建立在 SK 集团与 NVIDIA 之间长达数十年的技术合作伙伴关系之上，双方于最近宣布 SK 电讯将在韩国打造 20 亿瓦级的 AI 云。\n\n该 AI 云将采用 NVIDIA® DSX 平台并部署由 SK 海力士 HBM4 提供支持的 NVIDIA Vera Rubin 加速计算，首座 AI 工厂计划于 2027 年投入运营。\n\n项目将基于 NVIDIA DSX 全栈 AI 工厂架构构建，该架构集成了 NVIDIA 加速计算、系统、软件和合作伙伴技术，以更大的能效实现最低的 Token 成本。\n\n两家公司的目标是加速大规模 AI 基础设施开发，包括物理 AI、代理式 AI 和企业级 AI 服务，并共同满足包括韩国在内的亚太地区日益增长的 AI 需求。\n\n大规模推进 AI 基础设施建设\n\nSK 电讯和 NVIDIA 的合作加快了 NVIDIA AI 基础设施的采用，让更多客户可以获取前沿云服务。此次合作使 SK 电讯能够投资和扩展大规模 AI 基础设施，同时向更广泛的客户提供资本密集型 AI 基础设施。\n\n推动新一代 AI 内存的发展\n\nSK 海力士还将与 NVIDIA 建立长期的 AI 内存合作伙伴关系。作为巩固双方之前长期技术合作的后续举措，此次合作使 NVIDIA 能够稳定供应新一代 AI 内存，同时使 SK 海力士扩大其增长基础。\n\n两家公司将共同开发和优化包括 HBM 在内的新一代 AI 内存解决方案，以满足从大语言模型训练到代理式 AI 和物理 AI 等多元场景下不断演进的基础设施需求。\n\nSK 集团董事长崔泰源表示：“在 AI 时代，竞争力不仅取决于 AI 的有效利用程度，还取决于我们能够产生多少智能。依托 SK 海力士的 AI 内存和 SK 电讯的 AI 基础设施能力，SK 将与 NVIDIA 合作打造世界级的 AI 工厂，助力韩国从 AI 领先采用者，成为推动 AI 创新的全球中心。”\n\nNVIDIA 创始人兼首席执行官黄仁勋表示：“韩国拥有世界一流的网络和数据中心、领先的芯片技术和庞大的工业规模，这些都是成为全球 AI 巨头的要素。我们正在与 SK 电讯和 SK 海力士一起构建新一代 AI 工厂，这将为韩国的下一波增长浪潮提供动力支持。”",
+      "readingMinutes": 3
+    },
+    {
       "id": "175aed47bf2a10aa",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -247,6 +351,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "2944d16f8ea3bdac",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Ethereum NFT Smart Contracts: Knowledge-Guided Vulnerability Detection with LLM and Code Slicing",
+      "url": "https://arxiv.org/abs/2607.21983v1",
+      "published": "2026-07-24T05:10:26Z",
+      "author": "Deyu Yang",
+      "summary": "Ethereum non-fungible tokens (NFTs) implement ownership, transfer, authorization, and metadata operations through smart contracts, making contract vulnerabilities a direct risk to digital assets. Existing static analyzers provide efficient rule-based screening but can struggle w…",
+      "content": "Ethereum non-fungible tokens (NFTs) implement ownership, transfer, authorization, and metadata operations through smart contracts, making contract vulnerabilities a direct risk to digital assets. Existing static analyzers provide efficient rule-based screening but can struggle with application-specific logic, whereas unconstrained large language model analysis may be distracted by irrelevant code or produce inconsistent outputs. We present a vulnerability-detection method that combines vulnerability-focused code slicing, an ERC-721-oriented knowledge base, and constrained DeepSeek analysis. Regular-expression patterns locate candidate statements for reentrancy, integer overflow or underflow, and timestamp dependence. A structure-aware context-window algorithm then extracts line-numbered code slices. DeepSeek analyzes each slice using explicit decision rules and a fixed output schema, and the resulting records support automated batch processing. On 450 NFT contract samples, the full configuration produced 437 positive labels, corresponding to a reported positive-label rate of 97.1%. Removing the external knowledge base reduced this rate to 87.11%, while analyzing complete contracts without the knowledge base reduced it to 73.78%. These results indicate that focused code context and domain constraints materially affect the detector's reported output.",
+      "readingMinutes": 1
+    },
+    {
       "id": "cc017f12ad641da5",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -257,6 +374,19 @@
       "author": "",
       "summary": "不是说好AI来临人类就解放了吗，怎么我连手机都买不起了？查看全文",
       "content": "不是说好AI来临人类就解放了吗，怎么我连手机都买不起了？查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "b5fd1341a79ce737",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Solar Open 2 Technical Report",
+      "url": "https://arxiv.org/abs/2607.20062v2",
+      "published": "2026-07-24T02:46:10Z",
+      "author": "Sungrae Park",
+      "summary": "We present Solar Open 2, a 250B-A15B Mixture-of-Experts language model built for long-horizon agentic tasks, scaled up from Solar Open 1 (Solar Open 100B). To hold entire agent trajectories in a single context, Solar Open 2 reaches a 1M-token window through a hybrid attention st…",
+      "content": "We present Solar Open 2, a 250B-A15B Mixture-of-Experts language model built for long-horizon agentic tasks, scaled up from Solar Open 1 (Solar Open 100B). To hold entire agent trajectories in a single context, Solar Open 2 reaches a 1M-token window through a hybrid attention stack that interleaves one softmax layer among every three linear-attention layers, using no positional encoding and a gated delta rule extended to negative eigenvalues. To train at this scale under a fixed compute budget, we make training efficient in two ways: a stronger starting point, and higher-value data. For the starting point, we initialize Solar Open 2 from Solar Open 1, transferring the 5.69B-parameter shared skeleton that survives the architectural change and learning everything else through full pre-training. For the data, we curate for value per token: quality- and rarity-aware data curation and mixture-ratio optimization refine a 20T pool into a 10T mixture that, at equal token budget, outperforms the Solar Open 1 recipe. To build its agent skills, we train twelve domain specialists across purpose-built scenarios, then consolidate them into a single model by Multi-teacher On-Policy Distillation (MOPD). Against comparably sized open-weight models on English benchmarks, Solar Open 2 leads on MMLU-Pro, LiveCodeBench, and the APEX-Agents agentic suite, and stays competitive with the strongest (DeepSeek-V4-Flash and MiMo-V2.5) elsewhere. On Korean benchmarks, Solar Open 2 records the highest average of any model compared, including fast-tier closed APIs, and on Ko-GDPval, an in-house Korean officework-agent benchmark, it is competitive with DeepSeek-V4-Pro (1.6T) at less than a sixth of its size.",
       "readingMinutes": 1
     },
     {
@@ -273,6 +403,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "cd9f4afd6cab4ae4",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Keeping the Cache Warm Pays: Keepalive Economics for Agentic Workloads",
+      "url": "https://arxiv.org/abs/2607.19214v2",
+      "published": "2026-07-24T00:14:55Z",
+      "author": "Maxim Khailo",
+      "summary": "Frontier LLM providers cache a prompt's processed prefix so that a follow-up request sharing it pays ~10% of the input price and skips most of the prefill latency. Agentic workloads systematically destroy this benefit: the agent sends a request, runs a tool or waits for approval…",
+      "content": "Frontier LLM providers cache a prompt's processed prefix so that a follow-up request sharing it pays ~10% of the input price and skips most of the prefill latency. Agentic workloads systematically destroy this benefit: the agent sends a request, runs a tool or waits for approval for minutes, and by the time the follow-up is sent the cached prefix has been evicted, so the agent pays the full prefill again. A client-side keepalive, replaying the prefix on a timer during the pause, prevents this, and it is individually rational: across Anthropic, OpenAI, Google, and DeepSeek we show that a keepalive holds the prefix warm through gaps where idle baselines are evicted, cutting the post-pause request cost by up to 12.5x. The strategic question is the ping frequency, and it has a clean answer: keepalive cost falls monotonically in the interval, so the economical choice is the largest interval safely under the provider's TTL, about 4 minutes at Anthropic's 5-minute TTL rather than the 30-second convention, and the strategy breaks even against a re-prefill at idle ~tau(w/r - 1) (~46 min for Anthropic, ~36 min for OpenAI and DeepSeek). Because the benefit is real and bounded only by each user's own bill, rational adoption is universal adoption; and since cache residency is priced per read rather than per token-hour, a keepalive-saturated tier gives LRU eviction nothing to rank. We argue this externality will push providers to meter cache residency directly, and one already does. We derive the operator's policy until then.",
+      "readingMinutes": 1
+    },
+    {
       "id": "55505eedb540052f",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -284,19 +427,6 @@
       "summary": "Modern chip design is increasingly limited by engineering time. Register transfer level (RTL) development and verification require specialized hardware...",
       "content": "Modern chip design is increasingly limited by engineering time. Register transfer level (RTL) development and verification require specialized hardware...\nModern chip design is increasingly limited by engineering time. Register transfer level (RTL) development and verification require specialized hardware knowledge, precise reasoning, and repeated interaction with electronic design automation (EDA) tools. LLMs have accelerated code generation, and AI agents extend their impact by using verification feedback to iteratively correct errors.\n\nSource",
       "readingMinutes": 1
-    },
-    {
-      "id": "207296594c6a6fe8",
-      "feedTitle": "Anthropic · News",
-      "feedUrl": "https://www.anthropic.com/sitemap.xml",
-      "category": "AI 新闻",
-      "title": "Claude for creative work dev",
-      "url": "https://www.anthropic.com/news/claude-for-creative-work-dev",
-      "published": "2026-07-23T20:11:00Z",
-      "author": "Anthropic",
-      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
-      "content": "",
-      "readingMinutes": 0
     },
     {
       "id": "25dd22dacf767554",
@@ -338,19 +468,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "93cc8862ebaf3e3f",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
-      "url": "https://developer.nvidia.com/blog/create-a-langchain-deep-agents-harness-profile-for-nvidia-nemotron-3-ultra-to-improve-performance/",
-      "published": "2026-07-23T18:54:21Z",
-      "author": "Sean Lopp",
-      "summary": "Agentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide top accuracy but are...",
-      "content": "Agentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide top accuracy but are...\nAgentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide top accuracy but are expensive. Fine-tuning offers one way to address this problem. Smaller or more efficient open models starting with lower accuracy are taught to perform better with specific agents. However, fine-tuning requires expertise and hardware for…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "602e74cb75effc09",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -361,19 +478,6 @@
       "author": "Elizabeth Goodman",
       "summary": "Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings...",
       "content": "Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings...\nFine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings and stock movements, while rarer events such as credit-rating changes, product approvals, and labor issues are harder to capture at scale. Synthetic generation can help fill those gaps for trading research, risk modeling, and surveillance…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "138c885d3e4cafad",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "A Practical Guide to GPU-Initiated Communication for Molecular Dynamics at Scale",
-      "url": "https://developer.nvidia.com/blog/a-practical-guide-to-gpu-initiated-communication-for-molecular-dynamics-at-scale/",
-      "published": "2026-07-23T18:54:20Z",
-      "author": "Michelle Horton",
-      "summary": "Molecular dynamics (MD) simulations are among the most demanding workloads in computational science. Using them, researchers can observe atomic behavior in...",
-      "content": "Molecular dynamics (MD) simulations are among the most demanding workloads in computational science. Using them, researchers can observe atomic behavior in...\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -689,16 +793,16 @@
       "readingMinutes": 1
     },
     {
-      "id": "115e56742f0c11a6",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "新玩意 247｜少数派的编辑们最近买了啥？",
-      "url": "https://sspai.com/post/112668",
-      "published": "2026-07-23T09:38:21Z",
-      "author": "",
-      "summary": "关于栏目很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。@Lotta：海备思文件夹读 ...查看全文",
-      "content": "关于栏目很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。@Lotta：海备思文件夹读 ...查看全文",
+      "id": "6bec38a6112dedf0",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Output Format x Model Identity: Interaction Effects in Single-Round Coding Agent Performance",
+      "url": "https://arxiv.org/abs/2607.21674v1",
+      "published": "2026-07-23T10:18:42Z",
+      "author": "Yang Yang",
+      "summary": "Output format is not a neutral implementation detail -- it can reorder model rankings, amplify or suppress individual model differences, and determine whether a coding agent succeeds or fails. We conducted a controlled single-round experiment with 3 models (DeepSeek V4, Doubao 2…",
+      "content": "Output format is not a neutral implementation detail -- it can reorder model rankings, amplify or suppress individual model differences, and determine whether a coding agent succeeds or fails. We conducted a controlled single-round experiment with 3 models (DeepSeek V4, Doubao 2.0 Pro, Qwen 3.7 Max) x 3 output formats (full file, JSON Patch, unified diff) x 6 tasks x 20 repetitions, totaling 4,013 runs across 4 open-source projects. Only one project (tqdm) yielded non-zero success rates: dotenv, requests, and jsoup yielded zero successes in 2,551 runs. Our central finding is a format x model interaction with no universally optimal format. Doubao achieves 94% success with JSON Patch (Cohen's h = 1.57, p < 0.001), DeepSeek excels at unified diff (66%, h = 0.63), and Qwen shows a small but significant full-file preference (50%, h = 0.29, p < 0.05). Beyond these headline results, we identify a distinct failure mechanism -- format misuse -- where agents correctly diagnose a problem but execute it with excessive scope, most vividly when a one-line fix is applied as a full-file replacement. We propose a model-specific output strategy, a tool-design principle that constrains format semantics to the agent's own localization step, and release all data and templates for reproducibility. All experimental data are available at https://doi.org/10.5281/zenodo.21505157.",
       "readingMinutes": 1
     },
     {
@@ -712,19 +816,6 @@
       "author": "Zibin Lin",
       "summary": "Agent Skills package reusable procedural knowledge as external artifacts for frozen language-model agents, yet existing optimizers do not jointly resolve where a failure occurs in a workflow, which mechanism caused it, and how relevant knowledge from third-party Skills should be…",
       "content": "Agent Skills package reusable procedural knowledge as external artifacts for frozen language-model agents, yet existing optimizers do not jointly resolve where a failure occurs in a workflow, which mechanism caused it, and how relevant knowledge from third-party Skills should be reused locally. We introduce Workflow-Localized Mechanism Learning (WML). Its Node--Mechanism Attribution identifies the failed workflow node, implicated mechanisms, and smallest valid edit target, routing single-mechanism defects to L3 resources and relational defects across mechanisms to L2 composition protocols. A six-module Workflow-Guided Skill Optimization (WGSO) loop then selects provenance- and scope-aware third-party knowledge, applies bounded patches, evaluates candidates, and stores verified outcomes in optimizer-side memory. On SpreadsheetBench, WML reaches 90.33 +/- 1.53 and 74.67 +/- 3.51 Hard Accuracy with DeepSeek and Qwen3.6-Flash, respectively; without additional optimization, the learned Skills transfer to WikiTableQuestions with 84.00 +/- 2.00 and 83.00 +/- 2.00 Denotation Accuracy. On Compiler-Supported50, WML attains both the highest hard-PASS rate and the lowest cost per successful task; compiled execution sharply reduces tokens and calls relative to a direct SkillAgent while retaining most of its successful tasks. Code and artifacts are available at https://github.com/xiaolin9595/workflow-localized-mechanism-learning.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "802c9194638667dc",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "小小云台，稳住「口袋电影机」：DJI Pocket 4P 漫谈",
-      "url": "https://sspai.com/post/112428",
-      "published": "2026-07-23T07:00:00Z",
-      "author": "",
-      "summary": "Pocket 一体式云台相机满是让人不容小觑的护城河与想象空间。查看全文",
-      "content": "Pocket 一体式云台相机满是让人不容小觑的护城河与想象空间。查看全文",
       "readingMinutes": 1
     },
     {
@@ -881,19 +972,6 @@
       "author": "Yanyu Chen",
       "summary": "Retrieval-augmented large language models frequently face contexts that interleave useful evidence with misleading statements or instruction-like content. Blanket refusal discards valid evidence, whereas uncritical adoption yields incorrect or unsafe answers. The ability to sele…",
       "content": "Retrieval-augmented large language models frequently face contexts that interleave useful evidence with misleading statements or instruction-like content. Blanket refusal discards valid evidence, whereas uncritical adoption yields incorrect or unsafe answers. The ability to selectively adopt relevant information while rejecting deceptive or harmful content is therefore critical for reliable deployment in real-world retrieval settings. We introduce SelectBench, a controlled benchmark and training set for selective evidence adoption, and post-train Qwen3.5-4B directly with DAPO using either deterministic rule rewards or a frozen semantic judge. On the corrected 325-example SelectBench-v2 test set, strict success rises from 22.46% for the original checkpoint to 25.54% with DAPO-Rule and 26.46% with DAPO-DeepSeek. Both trained policies reduce forbidden-content adoption and produce shorter, more focused responses, yet prompt-injection following does not improve. The paired gains are modest and fail to survive Holm correction, suggesting that stronger reward shaping or additional training iterations may be needed for more robust gains. DAPO-DeepSeek exhibits no material degradation on MMLU or clean HotpotQA, indicating that the post-training procedure preserves general capabilities. These results demonstrate a directional improvement in selective evidence use, while identifying injection resistance and statistical robustness as important remaining challenges for future work.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "7c77d75bede565a7",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Solar Open 2 Technical Report",
-      "url": "https://arxiv.org/abs/2607.20062v1",
-      "published": "2026-07-22T12:08:41Z",
-      "author": "Sungrae Park",
-      "summary": "We present Solar Open 2, a 250B-A15B Mixture-of-Experts language model built for long-horizon agentic tasks, scaled up from Solar Open 1 (Solar Open 100B). To hold entire agent trajectories in a single context, Solar Open 2 reaches a 1M-token window through a hybrid attention st…",
-      "content": "We present Solar Open 2, a 250B-A15B Mixture-of-Experts language model built for long-horizon agentic tasks, scaled up from Solar Open 1 (Solar Open 100B). To hold entire agent trajectories in a single context, Solar Open 2 reaches a 1M-token window through a hybrid attention stack that interleaves one softmax layer among every three linear-attention layers, using no positional encoding and a gated delta rule extended to negative eigenvalues. To train at this scale under a fixed compute budget, we make training efficient in two ways: a stronger starting point, and higher-value data. For the starting point, we initialize Solar Open 2 from Solar Open 1, transferring the 5.69B-parameter shared skeleton that survives the architectural change and learning everything else through full pre-training. For the data, we curate for value per token: quality- and rarity-aware data curation and mixture-ratio optimization refine a 20T pool into a 10T mixture that, at equal token budget, outperforms the Solar Open 1 recipe. To build its agent skills, we train twelve domain specialists across purpose-built scenarios, then consolidate them into a single model by Multi-teacher On-Policy Distillation (MOPD). Against comparably sized open-weight models on English benchmarks, Solar Open 2 leads on MMLU-Pro, LiveCodeBench, and the APEX-Agents agentic suite, and stays competitive with the strongest (DeepSeek-V4-Flash and MiMo-V2.5) elsewhere. On Korean benchmarks, Solar Open 2 records the highest average of any model compared, including fast-tier closed APIs, and on Ko-GDPval, an in-house Korean officework-agent benchmark, it is competitive with DeepSeek-V4-Pro (1.6T) at less than a sixth of its size.",
       "readingMinutes": 1
     },
     {
@@ -1105,6 +1183,19 @@
       "readingMinutes": 0
     },
     {
+      "id": "eec256213caed229",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Tool-Guided Retrieval-Augmented Repair for Securing LLM-Generated C Code",
+      "url": "https://arxiv.org/abs/2607.21641v1",
+      "published": "2026-07-21T19:01:59Z",
+      "author": "Vidyut Sriram",
+      "summary": "Large language models can generate C code from natural-language descriptions, but resulting programs often contain security vulnerabilities and compilation errors, posing risks for embedded and resource-constrained systems. This work investigates how feedback and retrieval impro…",
+      "content": "Large language models can generate C code from natural-language descriptions, but resulting programs often contain security vulnerabilities and compilation errors, posing risks for embedded and resource-constrained systems. This work investigates how feedback and retrieval improve reliability of LLM-generated C code. We present an analysis-and-repair workflow that combines compilation diagnostics, CodeQL static analysis, and KLEE symbolic execution with retrieval of prior repair patterns for iterative refinement.\nEvaluated on 5,000 C programming tasks exercising embedded relevant vulnerabilities, baseline models show substantial reliability gaps, with compilation failure rates up to 46% and security defect rates up to 49%. Our approach improves both metrics. For CodeLlama 7B, security defect rates decrease from 49% to 19% and total CodeQL errors drop from 15,088 to 2,463 (83.7%). For DeepSeek Coder 1.3B, compilation failures are reduced from 42% to 22% and security defects from 35% to 15%. These results show that integrating lightweight analysis tools can improve the safety of LLM-generated code for embedded development.",
+      "readingMinutes": 1
+    },
+    {
       "id": "3064e426d18ccd85",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1118,25 +1209,12 @@
       "readingMinutes": 1
     },
     {
-      "id": "4da7f7abf7e187bb",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Keeping the Cache Warm Pays: Keepalive Economics for Agentic Workloads",
-      "url": "https://arxiv.org/abs/2607.19214v1",
-      "published": "2026-07-21T15:45:47Z",
-      "author": "Maxim Khailo",
-      "summary": "Frontier LLM providers cache a prompt's processed prefix so that a follow-up request sharing it pays ~10% of the input price and skips most of the prefill latency. Agentic workloads systematically destroy this benefit: the agent sends a request, runs a tool or waits for approval…",
-      "content": "Frontier LLM providers cache a prompt's processed prefix so that a follow-up request sharing it pays ~10% of the input price and skips most of the prefill latency. Agentic workloads systematically destroy this benefit: the agent sends a request, runs a tool or waits for approval for minutes, and by the time the follow-up is sent the cached prefix has been evicted, so the agent pays the full prefill again. A client-side keepalive, replaying the prefix on a timer during the pause, prevents this, and it is individually rational: across Anthropic, OpenAI, Google, and DeepSeek we show that a keepalive holds the prefix warm through gaps where idle baselines are evicted, cutting the post-pause request cost by up to 12.5x. The strategic question is the ping frequency, and it has a clean answer: keepalive cost falls monotonically in the interval, so the economical choice is the largest interval safely under the provider's TTL, about 4 minutes at Anthropic's 5-minute TTL rather than the 30-second convention, and the strategy breaks even against a re-prefill at idle ~tau(w/r - 1) (~46 min for Anthropic, ~36 min for OpenAI and DeepSeek). Because the benefit is real and bounded only by each user's own bill, rational adoption is universal adoption; and since cache residency is priced per read rather than per token-hour, a keepalive-saturated tier gives LRU eviction nothing to rank. We argue this externality will push providers to meter cache residency directly, and one already does. We derive the operator's policy until then.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "a9044d63de90cb98",
+      "id": "e38a2bc2474832f2",
       "feedTitle": "Google AI · DeepMind",
       "feedUrl": "https://deepmind.google/blog/rss.xml",
       "category": "AI 技术",
       "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
       "published": "2026-07-21T15:16:30Z",
       "author": "",
       "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
@@ -1300,19 +1378,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "80596bf87073cb46",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "A Training-Memory Regression in MLA Sequence Parallelism: Why Megatron-Core Forbids Absorption, and LAGA -- a Communication-Efficient Fix",
-      "url": "https://arxiv.org/abs/2607.17644v1",
-      "published": "2026-07-20T07:57:34Z",
-      "author": "Changzheng Ma",
-      "summary": "Multi-head Latent Attention (MLA) ships two implementations in Megatron-Core: an explicit form used for training and an absorbed form -- which slashes collective communication by gathering only the compressed latent -- that is fully implemented but hard-asserted out of training…",
-      "content": "Multi-head Latent Attention (MLA) ships two implementations in Megatron-Core: an explicit form used for training and an absorbed form -- which slashes collective communication by gathering only the compressed latent -- that is fully implemented but hard-asserted out of training (the forward opens with \"assert not (self.training and self.cache_mla_latents)\"), allowed only in inference decode. The library documents no reason. We show the restriction is well-founded and quantify why: ported to training, the absorbed form is a memory trap -- its intermediates live in n_h x d_kv dimensions per token, larger than the per-head K/V they replace -- inflating activation memory by 20-34%, up to 9.2 GB at DeepSeek-V3 scale (n_h=128, seq=16384, SP=8, eager kernel; the gap widens to 19.2 GB under a fused kernel), enough to change device-fit. This measurement, validated on two axes (linear in seq and n_h) and cross-verified on NVIDIA A100, explains the otherwise-undocumented restriction and leaves practitioners with no low-communication MLA training path. We then provide one. LAGA (Latent All-Gather Attention) keeps the absorbed form's latent-gather communication but rejects the absorb reformulation, instead reconstructing per-head K/V locally from the gathered latent. On 8x Ascend 910B at real DeepSeek-V3 dimensions, LAGA cuts collective communication 1.98x, matches explicit memory within 0.5%, is bit-identical to explicit at SP=1 and equivalent to within 1e-3 at SP=2-8, and under a fused attention kernel improves attention-block throughput 1.04-1.06x single-node and 1.07-1.24x cross-node -- leading at all sequence lengths in the cross-node regime MLA is deployed for.",
-      "readingMinutes": 1
-    },
-    {
       "id": "bdaa22229fcb5ef7",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -1324,19 +1389,6 @@
       "summary": "今年的 SIGGRAPH 大会将持续到 7 月 23 日 (星期四) 在洛杉矶举行，参会者可以了解领先的图形研究、神经渲染、仿真和 AI 如何改变人们和机器创造和理解世界的方式。 NVIDIA 主题演讲于太平洋时间 7 月 20 日 15:45 举行，NVIDIA AI 研究和工程团队负责人 Neil Ashton、Edward Liu 和 Ming-Yu Liu 讨论了由 AI 构建的神经渲染技术、世界模型和 AI 仿真方法。 请继续阅读，了解 SIGGRAPH 大会的最新动态，NVIDIA",
       "content": "今年的 SIGGRAPH 大会将持续到 7 月 23 日 (星期四) 在洛杉矶举行，参会者可以了解领先的图形研究、神经渲染、仿真和 AI 如何改变人们和机器创造和理解世界的方式。\n\nNVIDIA 主题演讲于太平洋时间 7 月 20 日 15:45 举行，NVIDIA AI 研究和工程团队负责人 Neil Ashton、Edward Liu 和 Ming-Yu Liu 讨论了由 AI 构建的神经渲染技术、世界模型和 AI 仿真方法。\n\n请继续阅读，了解 SIGGRAPH 大会的最新动态，NVIDIA 和合作伙伴将展示：\n\nNVIDIA 主题演讲回顾\n\n模型上下文协议连接将代理式 AI 引入内容创建\n\n全新 NIM 合成视频检测器\n\n适用于本地物理 AI 的 Cosmos 3 Edge 开放世界模型\n\n在 DGX Station 上基于 NVIDIA Agent Toolkit 运行 NVIDIA NemoClaw\n\nSIGGRAPH 主题演讲：NVIDIA 勾勒图形与物理 AI 的新时代蓝图\n\nNVIDIA Cosmos 实验室副总裁 Ming -Yu Liu 在 SIGGRAPH 2026 发表演讲。\n\nNVIDIA AI 研究与工程团队负责人今天在 SIGGRAPH 大会上登台，分享了神经渲染、世界模型和仿真方面的最新进展。这些技术正在改变各个领域创建和使用数字世界的方式，并可应用于创意工具、工业设计、机器人和自主系统。\n\nNVIDIA 创始人兼首席执行官黄仁勋在开场视频中表示：“创作者和设计师需要足够强大的工具来拓展他们的想象力，需要足够灵活的工具来自由地塑造想法，也需要足够精确以实现他们的愿景。无论是用于游戏、电影、机器人还是工厂数字孪生，目标始终一致：打造具备与现实物理世界同等保真度和真实感的虚拟世界。”\n\nNVIDIA 应用深度学习研究主管 Edward Liu 首先展示了 3D 引导神经网络渲染。\n\n他分享了 NVIDIA 在神经渲染方面的最新进展，以及这些技术如何解决三大关键研究挑战：保留艺术创作的意图、确保输出在帧与帧之间的时间稳定性，以及实现 4K 内容实时渲染。\n\nEdward Liu 表示：“控制艺术创作方向对我们来说是一个非常令人兴奋的研究方向。仿真定义了世界，生成丰富了它的外观，而艺术家则主导最终的结果。AI 正在扩展图形学，就像可编程着色器和光线追踪曾经扩展图形学的方式。”\n\nNVIDIA 杰出工程师 Neil Ashton 介绍了 AI 物理领域的创新，包括天气预报、汽车空气动力学、散热设计等方面的应用。\n\n在气候和天气研究中 NVIDIA Earth-2 开放模型系列使科学家能够利用基于模拟数据训练的 AI 模型，将模拟分辨率提升到新的水平，同时实现与传统方法相同或更高的准确性。\n\nNVIDIA 杰出工程师 Neil Ashton 在 SIGGRAPH 2026 上介绍 NVIDIA Earth-2。\n\nAshton 说：“我们面临的挑战是如何将这些 AI 模型在天气和气候领域取得的成功应用到我们生活的世界中，从而能够设计出未来的飞机、汽车和数据中心。NVIDIA 关注的事情之一就是帮助实现这一愿景。”\n\nAshton 分享了 NVIDIA 研究中心及其合作伙伴开发的最新模型架构如何将模型 Checkpoint 压缩至数百 MB，这种百万倍量级的压缩能够在一秒内完成符合物理规律的精准可视化。\n\nNVIDIA Cosmos 实验室副总裁 Ming-Yu Liu 分享了 NVIDIA Cosmos，这是一个用于加速物理 AI 系统开发的世界基础模型平台。\n\n他说：“基础模型之所以被称为基础模型，关键在于它能够处理大量不同的数据。我们使用数据训练 Cosmos 执行各种物理任务，包括理解世界、预测、模拟和行动。我们使用一个主干网络解决所有不同的任务。”\n\nMing-Yu Liu 还介绍了用于帮助 NVIDIA Cosmos 3 实现全局理解的 Mixture-of-Transformers 模型架构。这种能力可实现符合物理规律的结果，适用于人形机器人、抓手或智能汽车等不同具身形态。\n\n他说：“每个具身都有不同的语言，而我们的解决方案是建立一种通用的体系。”\n\nNVIDIA Cosmos 包含一系列不同规模的开放模型，可支持开发者在各种部署用例下使用。今天发布的最新版本是 Cosmos 3 Edge，这是一个拥有 40 亿参数的模型，可在设备上实时运行。\n\nMing-Yu Liu 还宣布推出了 Cosmos-Dreams，这是一个闭环模拟器的集合，现场他和同事演示了一个专为智能汽车构建的模拟器，该模拟器可在单帧上生成整个世界，并在单张 NVIDIA RTX PRO GPU 上运行。\n\n开发者可以使用 Cosmos-Dreams 验证其模型的准确性，然后再将其部署到实际车队中，或者使用它在现实世界中难以创建的 AI 生成场景中训练模型，从而在节省运营成本的同时加速开发。\n\n观看完整主题演讲并详细了解 Cosmos 3 Edge。\n\nAI 智能体将创意工具扩展到数百万用户\n\n图片由 Epic Games 提供。\n\n领先的创意应用正在开启模型上下文协议 (MCP) 连接，让 AI 智能体在场景、镜头、时间线、资产和剪辑工具中开展工作 —— 同时让创作者始终保持掌控力。\n\n二十多年来，从 GPU 加速的视口和 CUDA 驱动的特效，到 NVIDIA RTX PRO 光线追踪、AI 降噪、神经渲染和实时仿真，NVIDIA 技术帮助加速艺术家、工作室和开发者用于构建全球游戏、电影、电视节目和广告内容的数字内容创作 (DCC) 工具。\n\n从加速到行动\n\nMCP 正开启加速创意的新篇章：应用程序不仅变得更快。它们正在成为面向智能体的产品。\n\n借助 MCP 连接的工具，艺术家或技术总监可以要求智能体检查场景中缺少的纹理、标记不一致的色彩管理、准备导出变体、为每日样片生成播放预览或根据工作流规则验证镜头，同时将创意决策权保留在人类手中。\n\n曾经加速视口、渲染、仿真和 AI 效果的 NVIDIA 平台，现在还可为专业创作者设计的系统上的本地智能体、模型推理和多应用工作流提供动力。\n\nNVIDIA RTX PRO 工作站、DGX Spark 和 DGX Station 系统旨在为艺术家、开发者和工作室的工作流带来经加速的 AI 性能。在本地运行模型和智能体有助于提升响应速度、减少对外部服务的依赖，并确保敏感的创意数据保存在可控环境之中。\n\nNVIDIA Agent Toolkit 还支持 MCP 集成，包括用于连接到远程 MCP 服务器的 MCP 客户端和用于向任何 MCP 客户端发布工具的 MCP 服务器。\n\n创意生态系统实现面向智能体\n\n在整个创意生态系统中，创意应用和平台正在暴露 MCP 连接或面向 MCP 的工作流，赋予 AI 智能体更深入、更具有依据的方式来访问实际生产环境。\n\nAdobe 正在将其创意智能体扩展到 Firefly、Express 和 Creative Cloud，为 AI 助手体验提供支持。创作者只需要描述他们想要的结果，助手便会协调多步骤工作流来实现。Adobe 还通过 Adobe 连接器将其专业级创意工具引入第三方 AI 平台，从而在人们创作和工作的任何地方扩展其创意能力。对于开发者，Adobe 提供了 Adobe Express Developer MCP Server，使 AI 编程助手能够使用官方文档和应用程序编程接口 (API) 构建 Adobe Express 附加组件。\n\nCanva 的 Affinity 推出了针对 Claude 的 AI 连接器，使用 MCP 将自然语言自动化直接引入 Affinity。设计师可以要求 Claude 处理重复性的生产任务，例如重命名图层和画板、为多渠道调整资产大小和格式、应用批量编辑、优化矢量路径以及准备交付文件。除了单项任务，Claude 还能帮助用户构建可复用的脚本和为其工作流量身定制的自定义功能，从而降低生产开销，让创意专业人士有更多时间专注于设计本身。\n\nBlender 通过 Blender Lab 提供了一个轻量级 MCP 服务器，为 Blender 的 Python API、文档和复杂设置提供自然语言接口。对于独立艺术家和工作室来说，Blender 提供了一个很好的范例，展示了如何让开放的创意工具在不改变创意重心的情况下，实现智能体访问。\n\nBoris FX Silhouette 现在包含一个 MCP 服务器，可让 AI 助手直接在您的项目中工作。通过使用 Silhouette 的 FX Scripting API 作为一流的 MCP 工具，助手可以检查项目、构建节点树、编辑形状和关键帧，以及渲染帧。全新的首选项面板通过安装 MCP 包、生成可直接粘贴的客户端配置以及测试连接，简化了设置过程。交互式在线模式可连接到您的活动会话，而离线模式则可运行无头实例，用于自动化、批量处理和大规模工作流。\n\nFoundry Griptape 原生支持 MCP，提供专为专业视觉特效 (VFX) 工作流设计的 AI 编排。这种集成使工作室能够安全地管理多个 AI 模型和智能体，同时保持必要的可追溯性和创意把控力。通过与 Blender 和 Foundry Nuke 等工具集成，Griptape 可自动执行重复性生产任务，例如清理、数字绘景和质量控制，同时确保艺术家始终掌握对创作过程的最终决定权。\n\nSideFX 正通过其全新的 APEX Script 工作流为 Houdini 22 引入 MCP 支持。AI 助手可以访问经过精心整理的 APEX Script 语法、函数、文档和示例集合，帮助艺术家生成和优化程序化角色绑定的代码。SideFX 的初始实现侧重于 APEX Script 和角色绑定，而社区开发的 MCP 服务器为智能体与 Houdini 的交互提供了更广泛的方式。\n\n虚幻引擎 (Unreal Engine) 近期宣布，能够通过 MCP 将 AI 客户端连接至虚幻编辑器 (Unreal Editor)，从而实现可通过标准化协议与编辑器功能进行交互的 AI 工作流。对于游戏开发者、虚拟制作团队和实时艺术家而言，这为能够对场景、资产和项目状态进行推理的 AI 助手敞开了大门。\n\n欢迎在 SIGGRAPH 大会上了解 NVIDIA RTX PRO 和 DGX 系统如何将本地 AI 智能体更紧密地融入创意工作。\n\nNVIDIA AI for Media 助力新闻编辑室检测合成视频\n\n每天，视频都会将重大新闻事件呈现在我们眼前 —— 从横跨各大洲的突发新闻，到重塑整个社区的事件，再到将全球各地的人们团结在一起的时刻。在全天候滚动更新的新闻周期中，值得信赖的视频是人们了解正在发生的事情、理解其重要性并保持信息同步的媒介。\n\n因此，公众对视频的信任比以往任何时候都更加重要。在 SIGGRAPH 大会上，NVIDIA 推出合成视频检测器 (Synthetic Video Detector) 的 NVIDIA NIM，作为 NVIDIA AI for Media 平台的一部分，将 AI 辅助的检测信号引入编辑和媒体工作流。\n\n该 NIM 能够逐帧分析视频，并生成一个分类器评分，以判断是否包含合成内容。编辑团队可以使用该评分来确定审核片段的优先级、标记或隔离可疑素材，或将其升级以进行更深入的分析。\n\n该 NIM 不会取代现有的验证习惯，而是为时间敏感型决策提供额外的信号 —— 帮助团队在快速行动的同时，保障编辑标准和确保公众信任。\n\n合成视频检测器在新闻编辑室和社交视频工作流中常见的压缩、调整大小、裁剪和重新编码步骤后仍然能保持有效性。在 NVIDIA 的测试中，该模型在未压缩视频上的准确率高达 92%，在 15% 压缩率下的准确率为 87%，在 50% 压缩率下的准确率为 82%。\n\n在 NVIDIA RTX 系统上，该 NIM 处理 1080p 视频仅需 22 毫秒，在 NVIDIA L40 GPU 上大约需要 30 毫秒。\n\n于视频所在之处部署检测\n\n组织可以将该 NIM 部署到更靠近敏感视频采集、存储或分发的位置，包括本地、边缘、混合和经批准的物理隔离环境。这种灵活性有助于团队保持对视频数据、访问权限和运营的把控。\n\n合作伙伴的采用已经帮助合成视频检测器从模型功能转变为可部署的媒体基础设施。Wowza 正在通过 Wowza Video Intelligence Framework 嵌入该 NIM，将实时合成视频检测引入其直播工作流中，该工作流已在 170 多个国家/地区完成了超过 35,000 次部署。\n\n这种规模化部署至关重要，因为许多易受合成媒体风险影响的组织 (包括广播公司、政府机构、金融机构和关键基础设施运营商)，在数据驻留、安全性和运营把控方面也面临严格要求。\n\n通过将合成视频检测器与客户现有的视频基础设施层相结合，Wowza 可以在更靠近摄取和流媒体传输操作的地方提供 AI 辅助验证，使团队能够实时标记可疑视频，同时将敏感素材保存在自己的环境中。\n\n请参阅软件产品信息的注意事项。\n\nNVIDIA Cosmos 3 Edge 现已推出，将前沿世界模型引入边缘 GPU 以实现本地物理 AI\n\n物理 AI 系统依赖世界模型来感知、推理和预测物理环境。但现实世界十分广阔、无法预测且瞬息万变。\n\n无论是导航仓库的机器人，还是观测工厂车间的摄像头网络，物理 AI 系统都需要理解当前状况，推断接下来可能发生的事情，并迅速采取行动以产生影响。到目前为止，在边缘端交付此类前沿 AI 通常意味着需要牺牲模型能力来换取部署效率。\n\n现已推出的 NVIDIA Cosmos 3 Edge 有助于消除这种权衡。这款拥有 40 亿参数的全模态模型已进行优化，可在 NVIDIA Jetson、NVIDIA RTX PRO 和 NVIDIA DGX 系统，以及 GeForce RTX GPU 上实现内存高效部署和高吞吐量。\n\n作为 NVIDIA Cosmos 3 的扩展，这款紧凑型世界基础模型能够理解并生成文本、图像、视频、环境声音和动作。其 Mixture-of-Transformers (MoT) 架构支持在设备上使得基于物理基础的实时视觉分析和机器人动作成为可能。\n\nCosmos 3 Edge 在边缘端提供前沿物理 AI —— 在同级别参数模型中，其视觉分析成功率在 VANTAGE-Bench 中排名第一，并通过后训练实现了先进的机器人学习。\n\n跨机器人、智能汽车和智能基础设施的设备端物理 AI\n\n开发者可以使用 NVIDIA DGX Station 台式 AI 超级计算机，利用专有机器人和传感器数据对 Cosmos 3 Edge 进行后训练，从而构建专用世界动作模型，然后将其部署在 NVIDIA Jetson Thor 上，以实现包括操作或移动在内的实时机器人管理策略。Agile Robots、斗山机器人、西门子和 Skild AI 等合作伙伴正在评估 Cosmos 3 Edge 在机器人工作流中的应用。\n\n对于智能汽车，Cosmos 3 Edge 可在资源受限的硬件上实现道路场景理解、交通推理、物体意图预测和策略模型蒸馏。该模型可用作学生主干网络，适用于汽车策略模型蒸馏，可与 NVIDIA Alpamayo 视觉语言动作模型结合使用。\n\n在智能基础设施领域，Cosmos 3 Edge 凭借在 Jetson Thor 上进行的实时推理，为视觉智能体提供了业界领先的吞吐量和准确性。这些智能体能够跨实时视频流进行推理，用于交通监测、公共安全、物流和工业检测。开发者还可以在 NVIDIA Jetson Orin 8GB 上独立运行由 NVIDIA Nemotron 驱动的 20 亿参数推理模块。Centific、Vaidio 和 YUAN 正在评估 Cosmos 3 Edge，以加速在边缘运行的视觉智能体。\n\nCosmos 平台现已开放获取\n\nCosmos 3 Edge 是用于开发物理 AI 世界模型的更广泛的 NVIDIA Cosmos 平台的一部分。随着 Cosmos 3 推出 Edge (4B)、Nano (16B) 和 Super (64B) 三种规模，开发者可以为从边缘部署到高保真生成的开发的各个阶段选择合适的模型。\n\nCosmos 3 Edge、Cosmos 3 Nano 和 Cosmos 3 Super 现已在 Hugging Face 上发布，其推理和后训练框架及方法已在 GitHub 上提供。\n\n简化 AI 智能体：使用 NVIDIA Agent Toolkit 在 DGX Station 上本地构建和运行个人 AI 智能体\n\n超级智能体已经登陆桌面端。NVIDIA DGX Station 是 AI 时代的台式超级计算机，借助 NVIDIA Agent Toolkit，只需三个步骤即可完成设置，系统大约在 30 分钟内即可投入运行。\n\n在 DGX Station 上，NVIDIA Agent Toolkit 将 NVIDIA NemoClaw、NVIDIA Nemotron 3 Ultra 开放模型、作为智能体可访问工具和技能的 NVIDIA Omniverse 库，以及一个安全运行时集成于单个本地系统中 —— 而无需互联网连接。随着工作负载的扩展，开发者可以将多个系统连接在一起，为并发用户、更多智能体和更大的模型提供服务。\n\n这使创意者和工程师能够自主拥有专属的智能能力，并通过一套随时可在本地运行的系统。全栈的模型、智能体和工具 —— 为创建和运行特定领域的“超级智能体”提供了一个平台，这些智能体可根据用户自己的数据和知识进行定制。\n\nDGX Station 上开放的 NVIDIA Agent Toolkit 软件栈包括：\n\nNVIDIA NemoClaw：用于构建自定义自主智能体的开放蓝图，将模型、Harness 和运行时打包在一起，作为团队构建专用、特定领域智能体起点。\n\nNVIDIA Nemotron 3 Ultra：一款拥有 5,500 亿参数的开放模型，经过优化可在 DGX Station Grace Blackwell Ultra 系统上运行，并作为模型层供团队根据自身领域进行定制。\n\nNVIDIA Omniverse 库：将智能体技能扩展至物理仿真和 3D 资产工作流中，为创意和工程专业人员提供远超通用智能体功能的工具。\n\nNVIDIA OpenShell：这是一个开源安全运行时，它将智能体置于沙盒中，并根据既定策略对智能体与工具、系统和数据的交互方式进行管理。\n\nNVIDIA Grace Blackwell Ultra 桌面超级芯片：可在 DGX Station 上提供数据中心级桌面性能，具备高达 20 PFLOPS 的 FP4 AI 计算能力和 748GB 的一致性内存，可运行像 Nemotron Ultra 这样的大型模型。\n\nNVIDIA ConnectX-8 SuperNIC 在 DGX Station 中提供高达 800GB/s 的带宽，可提供极速、高效的网络连接，并支持连接至多两台 DGX Station，以进一步扩展模型容量和性能。\n\n规模化发挥 Harness 能效\n\n对于大规模运行智能体的团队来说，DGX Station 从根本上改变了经济效益。Nemotron 3 Ultra 针对开放 Harness 提供了领先的性能，且在购买硬件后无需支付每 Token 成本，因此用户只需构建一次，即可按需运行。\n\nNVIDIA 已发布在 Blender 中集成 NVIDIA Omniverse 库的蓝图 —— 为 NemoClaw 智能体提供了可调用的 RTX 传感器仿真和物理工具，从而为物理 AI 工作流准备 3D 场景。\n\n在 DGX Station 上，设计师和工程师可以在一台设备中运行该工作流的核心组件 —— 前沿模型、开放 Harness、安全运行时、3D 工具 —— 所有这些组件都相互链接，并通过开放蓝图连接和部署。\n\n前沿模型可将 NemoClaw 作为专用子智能体进行编排，将特定领域的工作委托给在 DGX Station 上本地运行的智能体，并直接访问 Omniverse 工具和 Blender。\n\nLangChain 针对 Nemotron 3 Ultra 对其 Deep Agents Harness 进行了微调，为设计师和工程师提供了面向生产的路径，以较低的成本实现基准测试领先的智能体性能。\n\nNous Research 针对其 Hermes Agent Harness 对 Nemotron 3 Ultra 进行了微调，并将其应用于生产工作负载 —— 直接证明了拥有专属智能的价值。针对开发者技术栈调优模型，可打造出在特定领域中速度更快、能力更强的智能体。Hermes Agent 还将 Blender 添加到其模型上下文协议 (MCP) 目录中，使团队能够直接从其智能体中激活 Blender —— 这是一个可以在 DGX Station 上运行且能够使用工具的 NemoClaw 智能体的生动示例。\n\n对于运行 OpenClaw 的团队来说，这一技术栈扩展了可能性 —— 它将 Nemotron 3 Ultra、Omniverse 工具和 DGX Station 上的本地推理整合至一个环境中，让 OpenClaw 中持久且长时间运行的智能体可以持续对其进行操作。\n\nNVIDIA 将图形研究领域的突破引入仿真与物理 AI\n\n在今年的 SIGGRAPH 大会上，NVIDIA 的研究重心不仅是打造视觉逼真的虚拟世界，更致力于让虚拟世界能够真实运作并实时响应。\n\n这一理念的转变贯穿了 NVIDIA 本届入选的 21 篇技术论文 —— 它们正成为实时系统的基石，使这些系统既能生成虚拟世界，又能驱动现实世界中的机器训练。\n\n无论是用于游戏、电影、机器人还是工厂数字孪生，其最终目标始终如一：利用以 3D 为基础、遵循物理规律且由创作者主导的 AI 生成世界，来拓展创意的边界。\n\n最直观的例证便是 MotionBricks：这是一个实时动作模型，基于超过 35 万个动作片段训练而成，能够以游戏引擎级的速度运行，让创作者能够灵活控制和衔接角色的动作。驱动屏幕上动画角色的同一个模型，还能同步控制现场的宇树 G1 人形机器人，通过计算机图形学 (CG) 和仿真技术来加速物理 AI 的发展。\n\nGPC (生成式预训练控制器) 框架则进一步延伸了这一理念，它用于在大规模动作数据集上训练生成式控制器。NVIDIA 利用大规模人体动作数据对单一控制器进行预训练，使其掌握可迁移的运动能力，并能够泛化到全新的任务中。这标志着运动控制基础模型的起步。\n\n为了构建可用于测试这些运动能力的虚拟世界，ArtiFixer 将粗糙、存在缺失的现实世界 3D 数据，重建为高质量且完整的虚拟场景。它还引入了一种全新的方法，能够仅凭场景几何结构信息，预测出照片级真实感的全局光照 —— 且无需追踪任何光线。\n\n为了让这些虚拟世界的表现与现实世界一致，NVIDIA Newton 物理引擎中采用了全新的求解器，使雪、沙子和弹性固体等难以模拟的材质变得栩栩如生。\n\n同时，为了确保创作者始终掌握创作控制权，VideoNeuMat 流程使他们能够从生成式视频模型中提取出可复用、可重新打光的材质；而 ARDY 自回归扩散模型，则允许创作者通过文本提示词实时引导 3D 角色的动作。\n\n上述论文均已公开发布，相关代码和模型均可免费下载。想要了解更多详情，敬请关注 NVIDIA 在 SIGGRAPH 上的最新展示。",
       "readingMinutes": 18
-    },
-    {
-      "id": "0eca850c4b96df64",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Salience Induction against Multi-Hop RAG Agents: Threat and Defense",
-      "url": "https://arxiv.org/abs/2607.17535v1",
-      "published": "2026-07-20T04:27:50Z",
-      "author": "Xingfu Zhou",
-      "summary": "Agentic retrieval-augmented generation (RAG) systems increasingly retrieve external evidence and orchestrate tools for knowledge-intensive applications. In Multi-Hop question answering, agents chain facts across documents. Existing defenses focus on content poisoning, which inje…",
-      "content": "Agentic retrieval-augmented generation (RAG) systems increasingly retrieve external evidence and orchestrate tools for knowledge-intensive applications. In Multi-Hop question answering, agents chain facts across documents. Existing defenses focus on content poisoning, which injects false facts, and prompt injection, which embeds directives. We identify a third attack surface: the salience channel, through which fact position, emphasis, framing, and semantic proximity can redirect reasoning even when all retrieved claims are true and no instructions are present. We formalize Salience Induction as truth-preserving edits that redirect Multi-Hop attribute binding while leaving the retrieval trace semantically intact. We define six Salience-Editing operator classes and build an iterative proposer-verifier pipeline under factual and stealth constraints. We also introduce SalientWiki-MH, a decoy-annotated Multi-Hop benchmark. Evaluations across five frontier model families (GPT, Claude, Gemini, DeepSeek, and Qwen) and three agent architectures (ReAct, Reflexion, and tool-calling) show broad generalization. Under a 30% edit budget, Salience Induction achieves an 83.3% attack success rate; the strongest evaluated baseline defense leaves 75.7% post-defense ASR. Untargeted rewriting further reduces attacks only by degrading neutral task success. Our lightweight input-side defense, Salience Normalization, reduces attack success to 15.3% under standard attacks and 23.6% under an adaptive attack. These results show that truthfulness and instruction filtering alone are insufficient: robust agentic RAG also requires defenses against salience-relevance decoupling.",
-      "readingMinutes": 1
     },
     {
       "id": "bfed89f2bcb02506",
@@ -1363,19 +1415,6 @@
       "summary": "案例简介 客户简介及应用背景 Paper2Gal 是一款面向论文阅读、文档学习和 AI 教育场景的应用，能够将论文和文档转换为视觉小说式学习内容，产品能力覆盖 AI 分析、剧情生成、文档解析、云存档和 TTS。用户上传论文后，可通过角色对话、章节讲解、互动问答和语音播报等方式理解文献内容。 随着 AI 学习工具进入更专业的知识场景，论文与长文档的结构化解析成为 Paper2Gal 产品体验的核心基础。学术论文常包含多栏排版、公式、表格、图片、图注和扫描 OCR 内容，一旦解析结果出现顺序错乱、公",
       "content": "案例简介\n\n本案例中，Paper2Gal 基于 NVIDIA DGX Spark 与 NVIDIA CUDA 加速平台构建本地 AI 应用部署与验证环境，并在其上验证 TTS 推理与语音生成流程，将论文解析、AI 分析、剧情生成、互动问答和语音讲解串联为视觉小说式学习体验。\n\n客户简介及应用背景\n\nPaper2Gal 是一款面向论文阅读、文档学习和 AI 教育场景的应用，能够将论文和文档转换为视觉小说式学习内容，产品能力覆盖 AI 分析、剧情生成、文档解析、云存档和 TTS。用户上传论文后，可通过角色对话、章节讲解、互动问答和语音播报等方式理解文献内容。\n\n随着 AI 学习工具进入更专业的知识场景，论文与长文档的结构化解析成为 Paper2Gal 产品体验的核心基础。学术论文常包含多栏排版、公式、表格、图片、图注和扫描 OCR 内容，一旦解析结果出现顺序错乱、公式丢失或表格破坏，后续 AI 分析与剧情生成的质量都会受到影响。\n\n为提升复杂文档处理和本地 AI 验证能力，Paper2Gal 在文档解析环节接入专用解析组件，并以 NVIDIA DGX Spark 作为本地 AI 推理、流程调试和产品验证环境，同时在该环境中验证 TTS 推理、语音讲解和角色配音等流程，为多模态学习体验打下本地验证基础。\n\n客户挑战\n\nPaper2Gal 在将论文转化为互动学习内容的过程中，主要面临三方面挑战。\n\n首先是文档解析质量。传统 PDF 文本抽取难以稳定处理扫描件、多栏论文、复杂公式和跨页表格，容易造成章节顺序混乱、关键信息遗漏和正文噪声过多。\n\n其次是处理链路稳定性。用户上传的真实论文与文档来源复杂、版式不统一，单纯依赖浏览器前端或基础 PDF 解析器，在大文件、损坏图片、复杂压缩内容和长文档场景下容易失败。\n\n第三是生成质量。视觉小说式学习内容依赖准确的章节、方法、实验和结论输入；如果解析阶段无法保留公式、表格、图文关系和文档结构，AI 角色讲解就难以保持专业性和连贯性。\n\n因此，Paper2Gal 需要一套可与现有 Web 产品和后端任务系统集成的本地 AI 计算与部署环境，在保证用户体验的同时，支撑复杂论文处理、模型推理、AI 分析、剧情生成、互动问答和 TTS 等多阶段流程。\n\n应用方案\n\n基于以上挑战，Paper2Gal 选择 NVIDIA DGX Spark 构建本地 AI 应用部署与验证环境，将论文解析、模型推理、AI 分析、视觉小说式内容生成和语音讲解整合到可控的本地计算体系中，用于应用验证、推理链路调优和语音生成流程验证。\n\n对 Paper2Gal 而言，这套流程对计算环境的要求是综合性的：既要有充足的 GPU 算力与大容量内存承载长文本推理和 TTS 生成，又要与 CUDA 生态下的主流模型和推理框架保持兼容，还要让数据、调试链路和迭代过程完整留在本地，并以桌面级设备的形态融入团队的日常开发环境。NVIDIA DGX Spark 将 NVIDIA Blackwell 架构 GPU、128 GB 统一内存与完整的 NVIDIA AI 软件栈集成于一台桌面级设备，使单台设备即可覆盖从文档解析、模型推理到语音生成的完整链路，无需拼装多套硬件或依赖外部算力 —— 这正是 Paper2Gal 在评估多种方案后选择 NVIDIA DGX Spark 的核心原因。\n\nNVIDIA DGX Spark 支撑本地 AI 推理与应用验证\nPaper2Gal 在 NVIDIA DGX Spark 上部署和测试本地推理服务，将论文内容分析、章节理解、角色对白生成、互动问答生成等 AI 流程放在本地验证。相比完全依赖外部云端推理，本地部署缩短了调试链路，提升了模型、提示词和产品流程的迭代效率。\n\nNVIDIA GPU/CUDA 加速多阶段 AI 工作负载\nPaper2Gal 的核心流程涵盖文档解析、长文本理解、内容生成、交互问答和语音处理等多个计算密集环节。NVIDIA DGX Spark 依托 NVIDIA GPU 与 CUDA 软件生态，为这些任务提供加速基础，支撑复杂论文和教学文档场景下的处理能力验证。\n\nNVIDIA DGX Spark 支撑 TTS 推理与语音生成验证\nTTS 是视觉小说式学习体验的重要组成部分。Paper2Gal 在 NVIDIA DGX Spark 环境中验证 TTS 推理、语音讲解和角色配音流程，覆盖语音生成链路、任务排队和并发处理机制，为音频体验提供可控的本地验证条件。\n\n构建从文档输入到互动学习的闭环\n在本地验证能力支持下，Paper2Gal 将“论文上传 — 文档解析 — AI 分析 — 剧情生成 — 互动问答 — 语音讲解 — 学习复盘”串联为完整闭环。用户上传论文后，系统即可将专业内容转化为更易理解的视觉小说式学习体验，降低复杂知识的阅读门槛。\n\n构建稳定的本地部署与容错机制\n针对任务超时、模型服务异常、文件解析失败、语音生成失败、生成结果不完整等情况，Paper2Gal 建立了错误提示和降级处理机制。当某一环节暂不可用时，系统会明确提示用户重试、重新上传文件或切换处理方式，减少复杂论文处理过程中的体验中断。\n\n通过该方案，Paper2Gal 将本地 AI 应用验证、文档解析、剧情生成和 TTS 推理整合为完整的技术闭环，为长文档学习、论文解读、课程材料转化和 AI 教育内容生产提供了本地验证与迭代基础。\n\n使用效果及影响\n\n部署 NVIDIA DGX Spark 后，Paper2Gal 将论文解析、AI 分析和视觉小说式内容生成等关键流程整合到本地 AI 计算环境中，在本地即可完成文档处理、模型推理和多步骤内容生成，降低了对外部算力资源的依赖。\n\n在产品体验上，用户上传论文或文档即可进入视觉小说式学习流程，系统将论文内容转化为角色对白、章节讲解、互动问答和语音讲解等形式。本地环境中的 TTS 推理验证，帮助 Paper2Gal 持续优化音频生成稳定性和整体使用流畅度。\n\n在技术架构上，NVIDIA DGX Spark 让 Paper2Gal 构建起更完整的本地 AI 开发与验证环境，便于后续的扩展、监控和调度，支撑产品面向更复杂论文和教学文档场景的持续迭代。\n\n“Paper2Gal 的目标不是简单总结论文，而是把论文变成用户愿意读、读得懂、还能互动复盘的学习体验。NVIDIA DGX Spark 为我们提供了本地部署 AI 应用所需的算力基础，帮助我们完整验证论文理解、内容生成、语音讲解和交互式学习体验。”Paper2Gal 项目负责人塔米基表示。\n\nNVIDIA 初创加速计划\n\n上海米拉可科技有限公司是 NVIDIA 初创加速计划 (NVIDIA Inception) 会员企业。NVIDIA 初创加速计划为免费会员制、旨在培养颠覆行业格局的优秀创业公司。该计划联合国内外知名的风投机构、创业孵化器、创业加速器、行业合作伙伴以及科技创业媒体等，打造创业加速生态系统，能够提供产品折扣、技术支持、市场宣传、融资对接、业务推荐等一系列服务，加速创业公司的发展。",
       "readingMinutes": 6
-    },
-    {
-      "id": "6face5a876a176f1",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Though Language Models Err While They Strive: Conformal Prediction for Self-Correcting Scientific Generation",
-      "url": "https://arxiv.org/abs/2607.16704v1",
-      "published": "2026-07-18T08:38:19Z",
-      "author": "Mingqiao Mo",
-      "summary": "Large language models frequently violate fundamental scientific principles when generating technical content, undermining their reliability in scientific applications. We introduce Scientific Feasibility Control SFC, a graph-structured conformal prediction framework that provide…",
-      "content": "Large language models frequently violate fundamental scientific principles when generating technical content, undermining their reliability in scientific applications. We introduce Scientific Feasibility Control SFC, a graph-structured conformal prediction framework that provides statistical guarantees for scientific reasoning validity through progressive absolute-coherent-factuality validation. Our approach decomposes scientific reasoning into atomic absolute-coherent-factuality units requiring both individual correctness against physical laws and logical substantiation from preceding context, addressing the cascade effect where early scientific errors contaminate subsequent reasoning steps. Unlike independence-based methods that treat claims in isolation, SFC models logical dependencies as approximate deducibility graphs and operates through real-time validation with dynamic branching when scientific violations are detected, the system branches to alternative generation paths using verified context as foundation. We demonstrate SFC across established scientific reasoning benchmarks including PhyX multimodal physics, MATH, ScienceQA, and ARC Challenge, achieving 50.1 percent accuracy on PhyX physics reasoning, substantially outperforming recent reasoning models including DeepSeek-R1 49.8 percent and GPT-4 45.8 percent while providing 91.7 percent scientific validity with formal conformal coverage guarantees at alpha equals 0.10 confidence level and reducing scientific law violations by 73 percent across multiple model architectures.",
-      "readingMinutes": 1
     },
     {
       "id": "b5de177ccc831b45",
@@ -2002,19 +2041,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "2bfaecc2933a4d0f",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "借助 NVIDIA NeMo 生成用于金融 AI 研究的合成数据",
-      "url": "https://developer.nvidia.cn/blog/synthetic-data-generation-for-financial-ai-research-with-nvidia-nemo/",
-      "published": "2026-07-09T12:40:37Z",
-      "author": "wnger",
-      "summary": "金融自然语言处理 (NLP) 的微调 LLM 受到有限且不平衡的数据的限制。现实世界的金融新闻过度代表收益和股 … Continued",
-      "content": "金融自然语言处理 (NLP) 的微调 LLM 受到有限且不平衡的数据的限制。现实世界的金融新闻过度代表收益和股票动态，而信用评级变化、产品审批和劳动力问题等更罕见的事件则难以大规模捕获。合成生成技术有助于填补交易研究、风险建模和监控方面的空白，但多样性需要的不仅仅是一次大规模运行。 这篇博文将通过一个迭代流程，为 12 个主题以及“其他”类别生成 50 万条独特的金融新闻标题。该工作流结合了用于结构化生成的 NVIDIA NeMo Data Designer、用于语义去重的 NVIDIA NeMo Curator 和用于高吞吐量标题合成的 NVIDIA Nemotron 模型。它还添加了离中心较远的少数镜头策略，以引导每个回合获得新的输出。 在总共 5 万条标题中，65% 的标题因近乎重复而被删除。工作流不会缩放单个批量，而是会进行以下迭代：生成、筛选、全局去重、\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "e19fbb75eb44457e",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -2195,19 +2221,6 @@
       "summary": "在大规模部署中追求极致单线程性能的 CPU，开创了专为智能体 AI 时代打造的全新 CPU 品类。 在智能体系统的构建与部署全过程中，CPU 直接决定了推理能力、响应速度和模型学习等关键环节。CPU 是执行 AI 模型指令的处理器，负责完成工具调用、代码执行、数据处理、KV 缓存以及结果分析等具体工作。 对于 AI 工厂中的智能体而言，速度至关重要。 CPU 调用工具的速度越快，智能体执行当前任务的速度也就越快。 对于 AI 工厂而言，GPU 利用率是数据中心最宝贵的资源。因此，任何等待任务完成",
       "content": "在大规模部署中追求极致单线程性能的 CPU，开创了专为智能体 AI 时代打造的全新 CPU 品类。\n\n在智能体系统的构建与部署全过程中，CPU 直接决定了推理能力、响应速度和模型学习等关键环节。CPU 是执行 AI 模型指令的处理器，负责完成工具调用、代码执行、数据处理、KV 缓存以及结果分析等具体工作。\n\n对于 AI 工厂中的智能体而言，速度至关重要。\n\nCPU 调用工具的速度越快，智能体执行当前任务的速度也就越快。\n\n对于 AI 工厂而言，GPU 利用率是数据中心最宝贵的资源。因此，任何等待任务完成的时间都会限制 AI 工厂的收益；更糟糕的是，如果 GPU 在等待 CPU 完成任务时处于闲置状态，还会直接导致其利用率下降。因此，AI 工厂需要具备极致单线程性能的 CPU，以实现 AI 工厂收益和智能体性能的最大化。\n\n如今的数据中心 CPU 并非为大规模部署下的高速运行而设计。\n\n尽管市面上的 PC 和工作站早已拥有了高性能的 CPU，但数据中心 CPU 的发展方向逐渐偏离了单线程性能的提升。随着云计算的兴起，CPU 厂商开始打造拥有更多核心的数据中心 CPU，为了尽可能控制成本，不得不牺牲部分单线程性能。\n\n为了优化每个可租用核心的成本，CPU 的设计增加了单个芯片的核心数量，同时压缩了用于提升核心性能的硅片面积——例如高性能内存互连架构和更高的单核指令处理能力。而向芯粒（Chiplet）架构的演进虽然进一步降低了成本，却也随之带来了“芯粒税（Chiplet Tax）”，导致单个 CPU 的核心再也无法充分获得整颗芯片的全部内存性能。\n\nAI 智能体需要一款专为规模化部署打造、具备极致单线程性能的 CPU。\n\n在大规模场景下部署具备极致单线程性能的 CPU，能够确保在系统满载状态下，智能体的每一个执行步骤依然保持高速。每个核心都能以完整性能完成智能体任务，且不会受到其他核心的拖慢。这种大规模极致单线程 CPU 采用了截然不同的设计理念，旨在实现以下目标：\n\n在高负载下保持强劲的单核性能\n\n为每个核心提供充足的内存带宽，确保活跃核心获得持续的数据供给\n\n可预测的低延迟\n\n每个核心都能在不被其他核心拖慢的情况下独立完成任务，这不仅带来了卓越的吞吐量，更重要的是，实现了极致的单核任务处理性能。\n\nNVIDIA Vera 正是这种全新 CPU 设计的典范。\n\n大规模极致单线程 CPU 如何为运行智能体循环而生\n\nAI 智能体并不会在处理完单次请求后就停止运行，而是以循环模式运作。模型负责推理下一步操作，CPU 执行模型外围的工作，执行结果返回后，模型再决定下一步操作，如此循环往复。\n\n这种运行模式产生了一种全新的算力需求特征，而这正是传统 CPU 未曾专门优化过的场景。传统 CPU 的工作通常是间歇性且由用户驱动的，由人类触发一系列短暂交互构成。而智能体工作则是持续且并行的：庞大的智能体集群持续运行，每个智能体都在推进一系列步骤，且每一步都依赖于上一步的执行结果。\n\nCPU 核心数越多，意味着单个 CPU 能处理更多的智能体任务，因此数据中心 CPU 需要配备大量核心来最大化任务吞吐量。\n\n然而，增加 CPU 核心数并不能缩短单个智能体循环中每个步骤的耗时。更多的核心无法让任何单一任务运行得更快。事实上，专为追求最大化核心数量而设计的 CPU，在核心争抢资源时，甚至可能会拖慢每个单核的性能。\n\n单核性能对于加快每一步任务的完成速度至关重要。增加核心带来的吞吐量具有一定价值，但不足以满足需求。由于每个动作都依赖于前一步的执行结果，单核速度才真正决定了智能体循环的推进速度。\n\n归根结底，最顶尖的智能体 CPU 需要具备极致的单线程性能，且每一个核心都必须毫无妥协地释放这一性能。人类以秒计时，而智能体则以纳秒为度量单位。NVIDIA Vera 正是为这种全新类别的工作以及极致速度而生。\n\nNVIDIA Vera：专为智能体打造的大规模极致单线程 CPU\n\nNVIDIA Vera 是一款在大规模部署下具备极致单线程性能的 CPU，它从底层架构开始专为智能体循环而设计：即专门处理在模型调用间隙的各项任务，包括智能体调用工具、处理数据、运行代码以及验证结果等一系列工作。\n\nNVIDIA Vera CPU\n\nVera 的核心是 NVIDIA 专门设计的 CPU 核心 Olympus，其每周期指令数（IPC）较 NVIDIA Grace 提升了 50%。这一点至关重要，因为智能体的许多执行步骤都是串行的。无论是工具调用、代码执行、测试运行还是数据处理，都必须等当前步骤完成后，下一次模型调用才能使用其结果。更快的核心能更迅速地推进每一个循环。\n\nVera 将这些高速核心与高达 1.2TB/s 的 LPDDR5X 内存带宽相结合，并将内存功耗控制在 40 瓦以内。此外，它还采用了单片式计算裸片设计，提供高达 3.4TB/s 的核心间带宽，比其他数据中心 CPU 高出 3 倍，确保活跃核心始终获得充足的数据供给，并保持数据传输的可预测性。这使得全部 88 个核心都能充分发挥 CPU 的内存性能，而不会因资源瓶颈导致任何核心运行缓慢。\n\n这一设计最终带来了更快的智能体循环。在代表智能体执行的高负载 CPU 工作负载下，Vera 的持续单核性能达到了 x86 处理器的 1.8 倍。\n\n这些性能优势在工具调用、代码执行、数据处理步骤和结果验证等环节中不断累积，帮助 AI 工厂利用现有的 GPU 完成更多的智能体工作。\n\nPerplexity 在其日常运行的智能体工作中对 Vera 进行了实测。在真实的编码工作流中——即克隆代码仓库并在沙箱中运行测试套件——Vera 的完成速度达到了 x86 的 1.5 倍，并发启动多个沙箱的速度最高可达 1.9 倍。目前，Perplexity 正计划在其即将推出的生产系统中部署 Vera。\n\n智能体同样高度依赖数据。它们需要不断地查询、检索、筛选和传输信息，而 Vera 能够更快速地处理这些 CPU 端的数据工作负载。合作伙伴测试结果显示，与领先的 x86 服务器 CPU 相比，Vera 在 Starburst 大规模 SQL 分析中的速度提升了 3 倍，而在 Redpanda 实时流处理场景下，延迟降低为原来的 1/6。\n\n智能体工作并非单一的工作负载。智能体需要运行工具和沙箱、处理数据、响应请求，并通过强化学习训练下一代模型——而这一切都依赖于相同的底层能力。\n\n单个 Vera 处理器即可应对所有类型的任务，无需为不同类型的任务配备不同的 CPU。此外，由于 Vera 既是 NVIDIA Vera Rubin 平台中 GPU 的主机 CPU，也是 NVIDIA BlueField-4 STX 存储处理器的动力核心，整个 AI 工厂得以在同一架构和同一工具链上运行。\n\nNVIDIA 的脚步并未停止。NVIDIA 的下一代 Rosa CPU 将搭载 Rigel 核心，继续推进在智能体 AI 时代的 CPU 发展路线图。Rigel 是 NVIDIA 的下一代 Arm v9.2 CPU 核心，在保持相同硅片面积的前提下，实现了比 Olympus 更高的单核性能。其关键改进主要包括更高效的指令供给、更大的 L2 缓存以及更高效的内存管理。\n\n专为智能体速度而生\n\n在智能体 AI 时代，全球将涌现数十亿个智能体，而每一个智能体都需要依靠 CPU 来行动、校验、检索、运行任务并验证结果。在这个全新的市场中，智能体完成的任务本身就是产品。更快的智能体循环能让每一个 GPU 将更多时间用于创造收入的工作，而不是等待。\n\nNVIDIA Vera，正是为这一未来而生的 CPU。\n\n了解更多关于 NVIDIA Vera CPU 的信息。",
       "readingMinutes": 7
-    },
-    {
-      "id": "ab9ea62ec59ebe1a",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-      "url": "https://openai.com/index/australian-payments-plus",
-      "published": "2026-07-07T00:00:00Z",
-      "author": "",
-      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-      "content": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-      "readingMinutes": 1
     },
     {
       "id": "a87656f5ca2fa477",
@@ -2546,19 +2559,6 @@
       "summary": "四月是最残忍的一个月，荒地上长着丁香，把回忆和欲望混淆了，在春雨中分开。我既不是活的，也未曾死。我什么都不知道，望着光亮的中心看时，是一片寂静。",
       "content": "不管人们愿意与否，他们的感受性是随时代而变化的，但是只有一位天才人物才能改变表现的方式。\n很多二流的诗人之所以是二流，就是因为他们缺少那种敏锐和意识来发现他们与前一代人的感觉不同，必须使用不同的词汇。\n\n很多人第一次读《荒原》，都有同一个感受，那就是乱。\n\n人物好像没有固定身份，主角一会儿是我，一会儿变成路人、士兵、女人、酒馆里的大嗓门。场景一会儿在伦敦桥上挤早高峰，一会儿钻进富人家的客厅，一会儿跑去酒吧听闲话，一会儿又飘到海底、沙漠和荒山，语言里挤满了典故、外语、引用，好像一部剪辑过度的短视频。\n\n可是当我们换个角度，不再追问它讲了一个什么完整故事，而是问它把人丢在了一个什么样的精神空间里，你会发现这部作品要表现的东西其实异常清楚，而且清楚得有点残忍。\n\n首先，我们要理解这首诗，先得看清它站在怎样的时代门口。\n\n《荒原》发表在一九二二年，这时候一战刚过去不久。这场战争没有像冷兵器时代那样小打小闹，而是把整个欧洲拖进战壕。几乎所有西方文明国家都参与其中，参与的方式也是高度现代：总动员、总后勤、总火力。科学技术被装进大炮和毒气罐，工业系统则是被改造成生产军需品的机器，铁路系统、金融系统、官僚体制都在有条不紊地为相互屠杀服务。\n\n战前的维多利亚时代，西方有一种很自信的叙事：只要技术继续发展，生活就会一代比一代更好，世界会朝着某种更文明的方向稳定前进。但是战壕里的尸体、被炮火撕碎的身体、成片的废墟，证明这套叙事的底色其实是暴力。所谓文明国家之间的战争，残忍程度一点不比野蛮时代低，甚至可以说效率更高，规模更大。这就导致十九世纪留下来的那套话，理性会带来进步、文明比野蛮高级、帝国肩负使命和牺牲有崇高意义，到了战后都各自蒙上了血污。\n\n与此同时，知识界原本信奉的很多东西也发生了变化。心理学告诉人们，所谓理性的主体不过是冰山上面那一小块，冰山底下是欲望、恐惧、梦、创伤。人类学和宗教史研究则告诉欧洲人，你自以为独一无二的基督上帝、古典神话，在更大的视野里只是众多仪式与叙事的一种，很多你眼里低级、原始的文化，也有它们自己的祭祀、牺牲和救赎结构。西方人第一次被迫承认：我们不是站在人类文明的终点俯视别人，而是站在众多文化之一的位置回望自己。\n\n艾略特恰恰夹在这种巨大断裂之中。他出身良好，受的是最传统的高等教育，哲学、古典文献、神学功底极深，本质上是一个非常旧的人，对教会、礼仪、经典有天然的亲近感。但在这种信仰之下，他的个人生活却一点不体面：在银行做着枯燥工作，婚姻长期不幸，精神几乎要崩塌。他眼见战后伦敦在废墟上恢复秩序：街上商店灯火通明，地铁重新挤满上班族，夜生活热闹，新的大众文化和娱乐产业兴起，一种好像一切照旧的日常又回来了。\n\n但他内心非常清楚：这套日常背后的底层信念，已经坍塌。\n\n你可以说，他是一个同时失去旧信仰和不愿投入新狂热的人。一边是自己曾经熟悉、亲近的宗教传统、古典文化，他看得见其中的深度，也看得见它的无力。另一边是民族主义、革命、乌托邦、消费主义等新叙事，承诺用新时代的语言把人重新团结起来，他又敏锐地察觉，这些东西里潜伏着暴力、排外和另一种形式的麻木。\n\n左右都不能完全相信，这就是《荒原》的精神起点：\n\n站在一片断裂的空地上，背后是已经垮掉的教堂，前面是他并不放心的新秩序，脚下是碎砖烂瓦，而你必须继续走。\n\n在这样的处境里，他要写的是这一代人的精神状态，而不是虚构几个人物、讲一个顺顺当当的故事。\n\n于是，形式就成了问题：\n\n为什么是诗，而且是这种看上去支离破碎的诗？\n\n在传统印象里，诗要么是抒情，要么是格律优美，要么是象征隐喻，而且常常随着音乐性的增强，理解难度降低。艾略特做的事恰恰相反：\n\n他把诗变成一种高压容器，把不同语言、不同文化、不同时代的碎片塞进去，让它在纸面上爆炸。这就是为什么《荒原》里，你几乎看不到一个从头讲到尾的完整故事，看到的是不断切换的镜头。如果他写小说，就不得不选几个主要人物，用他们的经历串起这些场景，给出因果关系。如果他写长篇论文，就要把一切抽象成概念：现代性危机、宗教失效、传统崩塌、理性幻灭。\n\n那样当然清楚，却会把最重要的一层感觉削掉，那种逻辑上都懂了，但心里仍说不顺的混乱。\n\n诗恰恰能保留这个混乱：你在阅读中不断被打断、被转场、被塞进不熟悉的典故，被迫在一堆半懂不懂的句子里寻找线索，这种体验本身，就在模拟战后人的精神状态。\n\n换句话说，诗这个题材可以赤裸裸地碎。在一首诗里，叙述视角可以不停跳：上一行是我，下一行变成旁观者，再下一行变成酒馆女招待，谁也不需要对你解释这个我到底是谁；不同人物的声音可以挤在同一段里，不用打引号，不注明出处。\n\n这看起来不近人情，却正是现代人的真实体验：\n\n我们的意识里也充满了别人的声音，父母的话、老师的教导、宗教经文、影视对白、广告口号、社交媒体上的流行语，它们都在我们的脑中说话，很少排好队。艾略特利用诗的形式，让这种多重声音并存而无法统合的状态直接呈现出来，而不是替你把它简化成一条我认为的结论。\n\n其次，诗还可以把不同文化和语言原样堆在一起。\n\n《荒原》这部作品里，内容有圣经、有佛经、有但丁、有莎士比亚，有英国民谣，有法国诗句，也有梵文。有高雅的引文，也有粗俗对话，有庄严祷词，也有日常叫骂。在散文里这么写，读者会觉得是炫技。在诗里，它反而像是一种诚实的纪录：这就是一个在二十世纪受高等教育的人的精神世界。他既被教会教义塑造，又被大众文化包围，既背得出拉丁经文，也知道酒馆里骂人的俚语。文明不再是一条干净的血统线，而是各种材料堆在一起的废墟工地。诗的拼贴感，让你直接看到文明整体碎成许多片的现实。\n\n落实到整部作品里面，在开头，艾略特就先选择从希望这个核心开刀。\n\n那句著名的四月是最残忍的季节就是全诗最点睛的地方。从古典到浪漫主义，春天几乎在任何人的笔下都被写成万物复苏、希望和爱情开始的象征，可艾略特偏偏要把它反过来说残忍。\n\n为什么？因为对于一个经历过巨大创伤的时代，人真正害怕的不是寒冬，而是被迫醒来的那一刻。\n\n冬天代表的是麻木。\n\n地冻了，土壤封住了，伤口和记忆可以暂时被埋。战争结束，人们疲惫地回到城市，看似回归日常，可内心其实只想赶紧结束这一切，什么都不要想。\n\n春天一来，土地解冻，花开始发芽，雨水落下，那些被压下去的东西都跟着浮上来：战壕里的尸体，炮火边的恐惧，亲人之间的离散，情感的破裂，对未来的茫然，还有那些曾经让人真心相信的词：\n\n荣耀、牺牲、文明、进步。\n\n你越恢复知觉，就越感到疼。春天残忍，不是因为它带来坏事，而是因为它逼你重新感受，你无法再靠冻住自己活下去。\n\n这一点，其实离我们并不远。\n\n很多人在经历重大打击、疾病、亲人离世之后，最怕的不是当场的崩溃，而是若干年之后被一句话、一段歌、一阵味道重新拉回去的那一瞬间。你以为已经过去了，甚至以我已经走出来来安慰自己，结果某个普通的春日黄昏，记忆突然反扑。\n\n这就是《荒原》开头那种情绪：复苏意味着旧账连本带息回来，所谓重新开始，从来不是归零再来，而是背着全部旧伤继续向前。\n\n从春天的伤口，艾略特的镜头一下切到伦敦桥上的人流。\n\n那是整首诗里最具现代感的一个画面：\n\n清晨，河上的桥上挤满了通勤人群，步伐一致、表情木然，每个人都在往前走，却好像谁也看不见谁。艾略特在这里非常直白，他拿这个场景去和但丁地狱里冥河边的灵魂队伍对照：那里是等待审判的死者，这里是上班族，看上去都是行走的身体。你当然不能说这些人是有罪之人，可那种向前挤，却不知道要去哪里的总体形态，的确像是一条通往空洞的队伍。\n\n这就是现代日常的荒原感：\n\n你似乎每天都有任务、有日程、有会议、有报表、有待办清单，你用忙碌抵抗空虚，用时间表证明自己在生活。可如果有一天，你被迫停下来问：这一切，最后把我带向一个怎样的生命？十年后、二十年后，我会成为什么样的人？你会发现答案往往含糊甚至空白。\n\n文明用越来越精细的管理、越来越高效的节奏填满了我们的时间，却不能真正回答为什么。\n\n《荒原》里的早高峰，不是在讽刺谁懒惰，而是在揭露一种高效运转的空心生活：大家都在跑，谁也不懂方向。\n\n诗歌写到这里，外部世界看似恢复秩序，内部的亲密关系却在塌陷。诗里有两个对照特别醒目：一个是富人家的奢华客厅，一个是小人物的吵闹酒馆。\n\n走进那间布置精致的房间：水晶灯、华丽的壁纸、古董家具、香水和首饰，每一件都象征教养、品味、历史积累。这里应该是文明成果最集中的地方，可坐在里面的女人，整个人却呈现出典型的神经质和歇斯底里。她不断用语言在阐述什么，但是不是讲艺术、不是谈世界，而是不断重复围绕一个焦虑核心转圈：你是不是不爱我了，你为什么不说话，你是不是要离开我。\n\n在艾略特笔下，她其实在意的是控制：控制对方、控制关系、控制自己不被丢掉。她拥有财富、阶层、文化资本，但这些东西并没有让她变得心静下来，而是让她更清楚地意识到：一旦失宠，支撑起这一切的东西可以瞬间崩塌。\n\n爱情在这里不再是浪漫故事，而是一种风险很高的投资组合：对方的注意力、欲望、忠诚度，全都变成需要精心管理的资产。她不是不知道爱本可以更美好，她只是被一种深层恐惧拧住了：一旦失去这一段关系，她在这个世界上的位置就会彻底滑坡。这就是上层世界的荒原：外表精致，内里是一种被恐惧驱动的、失衡的亲密结构。\n\n再往下，是酒馆里的吵杂谈话。\n\n语言粗糙许多，生活也窘迫得多。刚堕胎的女人还没恢复元气，朋友已经急着提醒她要好好收拾自己，否则男人就有借口瞬间抛弃她。这里很难再提什么爱情理想，婚姻更像是赤裸裸的生存安排：没有这个男人，她可能会在经济上彻底坠落。没有维持住这段关系，她在阶层结构里就没筹码。于是，身体变成筹码，生育变成筹码，忍耐和妥协变成筹码。你不能简单骂她们功利，因为她们对现实残酷的知觉，比中产世界的浪漫幻想更清醒。\n\n在这两组场景里，爱情都不再是浪漫主义作品里那种可以唱给全世界听的故事，而是被结构性恐惧压弯了腰的关系。人既渴望不孤独，又害怕亲近；既想要安全感，又知道安全很可能建立在某种失衡之上。\n\n《荒原》要说明的，就是这种失效的亲密：彼此靠得近，却没有真正的信任和安顿，关系的语言里塞满算计、防御和焦虑。\n\n作者描述完这些场景，接着，我们就跟着他又来到河边。\n\n泰晤士河在英国诗史里本来是极美、极庄严的意象：见证帝国、见证历史、见证无数恋人和诗人。可在《荒原》里，它的画面是：河面上漂着垃圾和油污，岸边是蒸腾着疲惫和市井气的生活。强烈的对照在于：这条河仍然是城市生活的中心，但它不再承担任何高贵的象征，甚至连清洁都谈不上，只剩下一个现实功能——承受垃圾。\n\n你完全可以把这条河看成今天的信息流、社交媒体时间线、公共舆论场。它原本可以是公民讨论共同事务的空间，是集体记忆可以被好好保存的地方，但现实运作常常是：情绪一波波冲过去，垃圾一批批扔过去，真正值得沉淀的东西很难留下。每个人都在这里释放自己，但释放完转身就走，很少有人愿意为我们共同的河负责。这就是公共空间的荒原化：\n\n形式上比历史上任何时候都热闹，实质上比很多时代都更难孕育共同的价值。\n\n从河往下看，是海。\n\n海底躺着腓尼基青年，是曾经的商人、航海者、成功者。他的出身、经历，本来完全可以写一部冒险传奇：年少时在海上闯荡，见多识广，用聪明和勇气赚到财富。但诗里对他的描写极其冷静，只写他如何沉下去，身体如何被水流和时间慢慢拆解，最后成为海底的一部分。这一笔很白描，却显得异常残忍：一切个体的成功神话，在时间面前，不仅不神圣，甚至不特别。\n\n读到这里，你会有一种微妙的不适：我们习惯用成功或者失败来给人生贴标签，好像只要站到了某一个位置，人生就真的天然有了意义。\n\n《荒原》却冷冷地暗示：哪怕你站得再高、赚得再多、经历再传奇，最后都会和普通尸体一样被时间磨平。人生故事的宏大包装，在死亡和历史的尺度上统统被拆解，只剩下那些最不起眼的东西可能留下：你如何对待身边人，你如何处理自己的恐惧，你在恐惧之下有没有残存一点点不愿随波逐流的坚持。\n\n从海底抬头，我们又被拖向一片更抽象的景观：\n\n荒地上的跋涉。\n\n这里已经没有具体的城市、河流、屋子，而是一群筋疲力尽的人，在干裂的土地上持续往前走。天空阴沉，风刺骨，脚下是碎石和尘土，远处隐约有城市轮廓，又像是各种幻影。你不知道他们从哪里来，也不知道他们要去哪，只知道他们不能停。\n\n他们身后可能是战争的废墟，也可能是经济崩盘后的城市，他们往前走，是因为停下意味着被荒原吞没。\n\n这一步一步的前进，正是我们现代人生活的节奏：\n\n你不知道这份工作是不是真命天职，不知道这段关系是否值得走到最后，不知道你所在的社会、制度会把你带向怎样的未来，但你还是得明天早起，还是得往前走。旧的指南针是宗教、传统、帝国的荣誉逻辑，把人生解释成某种宏大的计划。新一套指南针可能是科学理性、民族国家、革命叙事、个人主义。但经过大战、政治狂热、资本扩张的一次次考验，人开始怀疑：\n\n这些新的大词是不是也终究会走向暴力和抽空，只是换了外壳？\n\n于是你站在中间，左右都是坑：完全把自己交给某个宏大叙事，可能再次被牺牲。完全什么都不相信，又会掉进彻底的虚无。《荒原》在这里写的很真实，拒绝假装有一条安全大道，它写的就是这段两边都危险的路，你不知道是否有真正正确的方向，却又本能地觉得，不能任自己随意滑向任何一边极端，只能在模糊中一点点试探着走。\n\n就在这种极度疲惫的行军中，那种第三人的感觉出现了。\n\n诗里写到：\n\n两个人一起走路时，总觉得旁边还跟着第三个，可回头却看不见。\n\n这个影像特别重要：它象征一种被看着的感觉，但这双眼睛已经不再像传统上帝那样有明确名字和形象。它可能是童年留下的道德教育，可能是内心里被社会塑造出的超我意识，也可能是历史、人类和未来这些抽象的大词在你心里的残影。\n\n无论叫什么，它都让你在一瞬间做某些事时停一下，觉得这样做不太对。\n\n但是问题也来了，在一个上帝退场，制度不可信的世界里，这种被看见的感觉还能支撑多久？你是要顺着它，觉得我还是要为自己的选择负责，还是要压过它，果断告诉自己算了，大家都这样，我又能怎样？《荒原》在这里没有讲大道理，而是用一种极其细腻的心理描写，让你意识到：\n\n责任感已经不再有一个外部权威来兜底，它更多地变成一种内在的、模糊的、不稳定的感受。你可以背向它，但它往往在某些夜晚又回来抓你。\n\n就是在这样一种形式自觉之中，《荒原》铺开了那张精神地图：从最残忍的四月起笔，到伦敦桥的人流，再到上流社会的客厅、下层的酒馆、垃圾漂浮的河面、海底的溺水者、荒地上的漫无目的行走，最后压到远处滚来的雷声和那句反复出现的愿有平静。\n\n这些场景不是杂乱堆砌，而是有一条隐线贯穿其中：传统宗教和道德的话语还在耳边回响，却不再提供完整意义。理性和科学依旧在运行，却无法阻止文明变成杀人机器。新的政治、经济、文化叙事纷纷抢夺真理的位置，却谁也不能让人彻底放心。\n\n旧神已死，新神未立，人却仍然每天早上六点半起床，挤进通勤的人潮。\n\n故事走到这里，很多作品会选择给一个强烈答案：要么高呼某个新的主义，要么彻底宣告一切荒谬。《荒原》偏不。\n\n站在这样的精神地貌上，艾略特没有高喊任何口号，也没有殷勤地递给你一本新的人生说明书。他只是让远处的雷声滚过来，吐出一个含混不清的音节：\n\n这是雷霆的话，是天空对贫瘠土地的一种赐福，将要到来的雨声，也是三种伟大德行开始的音符，Datta（奉献），Dayadvam（怜悯），Damyata（克制）。\n\n这三个现在看朴素得有点寒酸的词被重新举了出来，不再是假装撑起整个世界体系，而只是最起码、最低限度，不把自己活得太难看的几条做人方式。\n\n所谓奉献，是在高度自利结构里，拒绝完全按照“谁赚得多谁就对”的行事风格。你可以给的东西很少：在别人崩溃时多听五分钟，在不影响自己底线的前提下帮别人一把，不拿我比你苦当武器，不把别人的好意当成理所当然。你没有能力对整块荒原负责，但可以在你脚边的这小块地上，别把自己活成一个只会索取的人。荒原经济学鼓励所有人都只算自己的账，给予，是你对这套经济学理论的一点点反抗。\n\n所谓怜悯，是我们对抗信息时代冷血的最后防线。面对层出不穷的坏消息，人麻木是本能，否则活不下去。但麻木一旦扩散，就会把所有他人的痛苦都通通归入到与我无关的范畴。《荒原》要守住的，不是让你对每一个悲剧都痛哭流涕，而是防止你在心里习惯性地说活该、关我什么事。你承受不了全世界的痛苦，但你可以断然拒绝把任何痛苦都娱乐化、笑话化、当成茶余饭后的谈资。\n\n只要你还会在某些故事前沉默一下、心里有一点刺，这片荒原就没有完全吞掉你。\n\n所谓克制，是在欲望和情绪被全面动员起来时，给自己留出那一秒钟按住手的空间。资本想让你不停去消费，算法想让你不停刷新页面、不停激动，政治力量则是想让你立刻愤怒、立刻站队、立刻指责别人。\n\n克制不是要你变成毫无欲望的圣人，而是给自己几次不跟着走的权利：暂时不骂、暂时不转发、暂时不下结论、暂时不为了合群重复那些自己都不太相信的话。你在这一秒钟里做出的决定，是不是把冲动变成行动——很可能比你一生说过的任何漂亮话都更能定义你是谁。\n\n而那句反复出现的愿有平静，也就不再是某种空洞祝福，而更像一个坐在废墟边上、灰头土脸的人，对自己说的：人生漫漫，先别彻底垮掉。这句话没有承诺世界会变好，也没保证再坚持一下就胜利在望，它只是被动承认：\n\n在这样一块被掏空的土地上，能保持一点点不被恐惧、愤怒和虚无吞没的安静，本身就是一种昂贵的能力。这种平静，不是装作什么都没发生，而是在知道很多事情都已经发生、很多东西再也回不去的前提下，仍然努力不让自己彻底碎掉。\n\n把时代背景、形式选择和这几条最低限度的做人方式放在一块看，《荒原》真正讲透的是一种非常具体的处境：\n\n我们活在一块被战争、工业化、资本扩张和观念狂热反复耕翻过的精神废墟上。脚下尽是死老鼠、碎玻璃、炸毁的砖块和脱色的口号，头顶是再也听不出明确指示的雷声，耳边是各个阵营的语言与噪音，身边是一群和你一样疲惫、焦虑、还在强撑着自己给自己说我没事的人。\n\n你回不到那个简单的世界：相信一个神、一个主义、一个领袖就能安顿全部人生。你也无法真的在虚无里舒服躺平，因为你心里还残留着一点被看见的感觉——你知道，有些事做了，会让自己连自己也看不起。《荒原》没有替你找借口，也没有替你提供新的信仰商品，它只做了一件更不讨好的事：\n\n把责任推回到你这里——既然没有谁再替你兜着意义这件事，那你就得在承认世界很糟的前提下，自己决定要不要变成更糟的那一种人。\n\n在桥上的队伍里继续往前挤，沿着脏掉的河继续丢垃圾，在亲密关系里继续算计，在信息流里用冷笑麻醉自己，都是一种选择。\n\n在某些看起来微不足道的瞬间里面，多一点给予，多一点怜悯，多一点克制，也是一种选择。\n\n《荒原》不是一套人生指南，也不是一个晦涩的现代主义游戏，而是一面不太好看的镜子：照出我们脚下其实就是荒原，而我们每天迈出去的那一步，正在悄悄决定，我们是要彻底长成这片荒原的一截枯枝，还是愿意在这块土地上，固执地留下哪怕一点点、仍然像人的痕迹。",
       "readingMinutes": 19
-    },
-    {
-      "id": "6a888890d5134a29",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA 发布 Halos for Robotics，业界首个面向物理 AI 的全栈安全系统",
-      "url": "https://blogs.nvidia.cn/blog/nvidia-announces-halos-for-robotics-the-industrys-first-full-stack-safety-system-for-physical-ai/",
-      "published": "2026-06-22T09:19:23Z",
-      "author": "英伟达中国",
-      "summary": "新闻摘要： NVIDIA 今日宣布推出 NVIDIA Halos for Robotics，这是业界首个面向机器人和物理 AI 的全栈综合安全系统，实现了 AI 算力与安全能力的统一。 领先的人形机器人与物理 AI 公司 Agility 率先采用 NVIDIA Halos for Robotics，为其在工厂、仓库和物流场景中运行的人形机器人构建安全能力。目前，这些机器人服务于亚马逊、GXO、舍弗勒以及丰田汽车加拿大制造公司等客户。 下一代自主机器人将利用 AI 基础模型、加速计算和分布式传感器",
-      "content": "新闻摘要：\n\nNVIDIA Halos for Robotics 是业界唯一的全栈开放式机器人安全系统。它将 NVIDIA Halos 在智能汽车领域成熟的安全技术延伸至机器人和物理 AI 领域，为能够在现实世界中感知、决策和执行的机器提供了一套统一的通用安全架构。\n\n该系统在每一层都内置了安全机制。在 AI 计算与传感器连接方面，采用 NVIDIA IGX Thor 和 Holoscan Sensor Bridge；在安全功能与应用方面，依托 Halos OS 软件栈；此外，NVIDIA Halos AI 系统检测实验室还能协助合作伙伴顺利通过第三方认证。\n\n人形机器人与物理 AI 创新企业 Agility 成为首家与 NVIDIA 合作，将 Halos for Robotics 的组件整合至其专有的安全系统中的公司，为工厂、仓库和物流运营引入了安全可控自动化的新标准。\n\nNVIDIA 今日宣布推出 NVIDIA Halos for Robotics，这是业界首个面向机器人和物理 AI 的全栈综合安全系统，实现了 AI 算力与安全能力的统一。\n\n领先的人形机器人与物理 AI 公司 Agility 率先采用 NVIDIA Halos for Robotics，为其在工厂、仓库和物流场景中运行的人形机器人构建安全能力。目前，这些机器人服务于亚马逊、GXO、舍弗勒以及丰田汽车加拿大制造公司等客户。\n\n下一代自主机器人将利用 AI 基础模型、加速计算和分布式传感器，在动态环境中与人类协同作业，要实现此类系统的大规模应用，必须依靠全栈式的安全架构。\n\nNVIDIA Halos 使企业能够依托一套标准化的统一安全架构，将机器人系统的 AI 算力、系统软件、传感器数据、安全应用及检测检验无缝连接。\n\nNVIDIA 机器人与边缘 AI 副总裁 Deepu Talla 表示：“物理 AI 正在重塑工厂、仓库和物流的运作方式，机器人团队需要一套统一的安全架构，才能将自主系统规模化部署到这些环境中。借助 NVIDIA Halos for Robotics，开发者和系统构建者可以依托 NVIDIA 成熟的在智能汽车领域经过验证的安全基础，更快地开发出更安全的机器人，并更有信心地将它们引入工业运营场景，与人类员工并肩协同作业。”\n\n构建机器人安全的全栈底座\n\n基于相当于 18,600 多名工程师年工作产出的智能汽车安全研发经验，NVIDIA Halos for Robotics 为开发者提供了构建、验证和部署物理 AI 系统的通用安全架构。\n\n该系统涵盖了机器人安全所需的关键层级：\n\nNVIDIA IGX Thor 和 NVIDIA Holoscan Sensor Bridge 为实时机器人任务和安全任务负载提供工业级 AI 算力、内置安全机制及传感器连接能力。\n\nNVIDIA Halos OS 提供用于机器人安全的软件栈。其中，Halos Core 支持与安全相关的运行功能；基于 NVIDIA Halos Outside-In Safety Blueprint 构建的安全应用，则利用外部摄像头和 AI 智能体补充机器人自身的感知能力，并根据工业现场的变化动态调整机器人行为。\n\nNVIDIA Halos AI 系统检测实验室是全球首个获得美国国家标准学会 (ANSI) 国家认可委员会 (ANAB) 认证的物理 AI 功能安全与 AI 安全项目。它帮助合作伙伴为德国莱茵 TÜV、UL Solutions、TÜV 南德、exida、SGS 和 CertX 等领先认证机构的第三方认证做好准备。\n\nANSI 总裁兼首席执行官 Laurie E. Locascio 表示：“随着 AI 驱动的机器人进入工业环境，行业需要标准化的、国际公认的框架来评估日益复杂的系统的安全性。ANAB 对 NVIDIA Halos AI 系统检测实验室的认可，证实了该项目具备根据公认安全要求评估机器人 AI 系统的能力与公正性，为企业的认证之路提供了严谨且获国际认可的基础。”\n\nAgility 将 Halos 应用于工业人形机器人\n\n人形机器人需在动态环境中与员工、设备及其他移动机器人协同运行。这要求安全机制必须贯穿整个系统栈的每一层。\n\nAgility 正通过与 NVIDIA 合作，将 NVIDIA IGX Thor 和 Halos Core 集成至其人形机器人 Digit 的专有安全人员检测系统中，从而延续其在人形机器人安全领域的领先地位。专为物流、制造和仓库工业作业设计的人形机器人 Digit，将通过 NVIDIA IGX Thor 获得具备内置安全能力的工业级 AI 算力，Halos Core 则为安全相关的操作系统功能提供软件层支持。\n\nAgility 还将加入 NVIDIA Halos AI 系统检测实验室。双方将依托该实验室，确保 Digit 的安全相关软件、AI 组件和网络安全防护在最终获得第三方认证前，符合 IEC 61508、ISO 13849 和 ISO/IEC TR 5469 等严格标准。\n\nAgility 首席执行官 Peggy Johnson 表示：“要让人形机器人实现规模化价值，必须将安全性内置于机器人中，并在整个系统中进行验证。与 NVIDIA 合作实施并优化 Halos for Robotics 系统，巩固了我们在安全可控自动化领域的领先地位，这是将人形机器人安全引入工业工作流的必要条件。此次合作实现了真正的人机协作，将为下一代制造和物流运营提供长期回报。”\n\n为规模化部署打造的机器人安全生态系统\n\nNVIDIA Halos for Robotics 生态系统汇集了软件、系统、传感器、芯片、工业应用及认证机构等领域的合作伙伴，为从开发到部署的全流程提供安全保障：\n\n软件：Acontis、FreeRTOS 和 QNX 提供支持功能安全开发所需的实时运行环境、安全通信和嵌入式软件层。\n\n嵌入式系统：研华和 NexCobot 提供专为安全设计、基于 NVIDIA IGX 的系统，以支持机器人的实际部署。\n\n传感器与芯片：英飞凌、恩智浦半导体、意法半导体和德州仪器提供传感器、安全微控制器及其他半导体技术。\n\n工业应用：FORT Robotics、英业达、凯傲集团、Lyte AI 和 Neurealm 正借助 NVIDIA Halos Outside-In Safety Blueprint 开发功能安全智能体。\n\n评估机构：在 TÜV 南德对 Thor SoC 和 Halos Core 进行 ISO 26262 标准检测的基础上，德国莱茵 TÜV 正在对 NVIDIA IGX Thor、Halos OS 和 Holoscan Sensor Bridge 进行功能安全认证准备检验。\n\nNVIDIA Halos AI 系统检测实验室汇集了超过 40 家制造商、认证机构和安全供应商，致力于推动安全的物理 AI 系统从设计走向现实世界部署。德国莱茵 TÜV、TÜV 南德、UL Solutions、exida、SGS 和 CertX 均将 NVIDIA Halos AI 系统检测实验室纳入其认证流程体系。\n\n上市时间\n\n目前，面向 NVIDIA IGX 的 NVIDIA Halos Core 已向注册开发者提供早期访问，支持 Linux 以及 Linux 搭配 QNX OS for Safety 8.0 两种配置。作为 Halos OS 应用层的组成部分，开源的 NVIDIA Halos Outside-In Safety Blueprint 现已在 GitHub 开放抢先访问。\n\n如需了解更多关于 NVIDIA Halos for Robotics 的信息，请参阅相关技术博客和网页。\n\n图片由 Agility 提供。\n\n关于 NVIDIA\n\nNVIDIA (NASDAQ: NVDA) 是 AI 和加速计算领域的全球领导者。\n\n该新闻稿所含若干陈述包括 (但不限于) 有关以下各项的陈述：物理 AI 正在重塑工厂、仓库和物流的运作方式；对 NVIDIA 产品、服务和技术的优势、影响、性能和可用性；对 NVIDIA 与第三方 (包括其合作者和合作伙伴) 的相关预期；对技术发展及相关趋势预期；以及其他非历史事实的陈述，均属前瞻性陈述，这些都是符合 1933 年《证券法》第 27A 条 (经修订) 和 1934 年《证券交易法》第 21E 条 (经修订) 所定义的前瞻性声明。前瞻性声明受到这些法律条款创建的“安全港”保护，基于管理层当前可获得的信息及其信念与假设，并受风险与不确定性的影响，可能导致结果与预期有重大差异的风险和不确定因素。可能导致实际结果产生重大差异的重要因素包括：全球经济状况与政治环境；我们依靠第三方来制造、组装、包装和测试我们的产品；技术发展和竞争的影响；新产品和技术的开发或者现有产品升级；我们产品或合作伙伴产品的市场认可度；设计、制造或软件缺陷；消费者偏好或需求的变化；行业标准和接口变化；我们产品或技术在集成到系统中时发生的意外性能损失；以及适用法律法规的变更。NVIDIA 向美国证券交易委员会 (SEC) 提交最新报告中不时详述的其他因素，这些报告包括 (但不限于) 采用 10-K 表的年度报告和采用 10-Q 表的季度报告。向 SEC 提交的报告的副本均在 NVIDIA 的官方网站上发布，并可免费下载。以上前瞻性陈述并非未来表现的保证，仅以本协议日期为准；除法律要求外，NVIDIA 不承担更新以上前瞻性陈述以反映未来事件或情况的任何义务。\n\n本文中描述的许多产品和功能仍处于不同阶段并将在能够提供时提供。上述声明无意也不应被解释为承诺、允诺或法律义务。我们产品的开发、发布以及所描述的任何特性或功能的推出时间均可能发生变化，并由 NVIDIA 自行决定。NVIDIA 不对本文中所述的任何产品、特性或功能的未交付或延迟交付承担任何责任。\n\n© 2026 NVIDIA Corporation 保留一切权利。NVIDIA、NVIDIA 商标、NVIDIA IGX 以及 NVIDIA IGX Thor 均为 NVIDIA Corporation 在美国和/或其他国家的商标和/或注册商标。其他公司和产品名称可能是与其相关的各家公司的商标。功能、价格、可用性和规格如有更改，恕不另行通知。",
-      "readingMinutes": 8
     },
     {
       "id": "13ef01bd78a2f13e",
