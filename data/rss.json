@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T17:39:21.399867Z",
+  "generatedAt": "2026-07-28T06:17:46.870014Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -117,6 +117,97 @@
   ],
   "articles": [
     {
+      "id": "46f46ad4f86202ad",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "索尼抛弃实体游戏光盘，谁成为了转型代价？",
+      "url": "https://sspai.com/post/112774",
+      "published": "2026-07-28T03:02:53Z",
+      "author": "",
+      "summary": "占核心营收和利润支柱的业务，是不是应该追求最为稳妥的业务方向和逻辑？这个问题对于强大的索尼而言，答案大不相同。查看全文",
+      "content": "占核心营收和利润支柱的业务，是不是应该追求最为稳妥的业务方向和逻辑？这个问题对于强大的索尼而言，答案大不相同。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "bf3aa1461ef39c9b",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：月之暗面开源 Kimi K3 模型等",
+      "url": "https://sspai.com/post/112805",
+      "published": "2026-07-28T00:04:27Z",
+      "author": "",
+      "summary": "少数派的近期动态那个让你放松娱乐、拥抱心流、逃离纷扰或找回真我的角落，是如何构建起来的？「角落新声」征文活动火热征稿中你可能错过的文章角落新声｜不再烧Hi-Fi后，我在走步机上给音乐留了一小时Wind ...查看全文",
+      "content": "少数派的近期动态那个让你放松娱乐、拥抱心流、逃离纷扰或找回真我的角落，是如何构建起来的？「角落新声」征文活动火热征稿中你可能错过的文章角落新声｜不再烧Hi-Fi后，我在走步机上给音乐留了一小时Wind ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "688b06fb84f51f17",
+      "feedTitle": "Anthropic · News",
+      "feedUrl": "https://www.anthropic.com/sitemap.xml",
+      "category": "AI 新闻",
+      "title": "Position open weights models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "published": "2026-07-27T21:55:20Z",
+      "author": "Anthropic",
+      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
+      "content": "",
+      "readingMinutes": 0
+    },
+    {
+      "id": "8f67b154224e3c04",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField",
+      "url": "https://developer.nvidia.com/blog/scaling-agentic-ai-factories-through-extreme-co-design-with-nvidia-bluefield/",
+      "published": "2026-07-27T21:34:39Z",
+      "author": "Michelle Horton",
+      "summary": "Agentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage...",
+      "content": "Agentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage...\nAgentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage accesses, and network transfers before a final answer is produced. As more agents run at once and carry context across steps, users, tools, services, and sessions, infrastructure must move, protect, retrieve, and reuse data fast enough to keep…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "0ba76ef22f287366",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI",
+      "url": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/",
+      "published": "2026-07-27T21:34:38Z",
+      "author": "Eduardo Alvarez",
+      "summary": "What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale....",
+      "content": "What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale....\nWhat began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale. These factories are now tasked with powering agentic workflows that reason, plan, use tools, verify intermediate results, and execute complex multistep tasks across vast contexts. Agentic workloads are not defined by a single prompt…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "2fb00782bce4f744",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Advancing Semiconductor Innovation Across Materials Engineering and Manufacturing",
+      "url": "https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing/",
+      "published": "2026-07-27T17:49:26Z",
+      "author": "Tanya Lenz",
+      "summary": "As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have...",
+      "content": "As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have...\nAs AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have outsized financial impact in fast-moving AI hardware cycles. Simultaneously, the shift from chip-level optimization to system-level engineering is compounding thermal and power challenges. Meeting these demands requires breakthroughs…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "4ea4ebe664db7c51",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "PIVOT: Efficient Query-Group Indexing for Token-Level Sparse Attention",
+      "url": "https://arxiv.org/abs/2607.24593v1",
+      "published": "2026-07-27T15:58:07Z",
+      "author": "Hong Liu",
+      "summary": "Token-level sparse attention, as implemented by DeepSeek Sparse Attention (DSA) in production systems, makes the downstream attention efficient but shifts the bottleneck to the indexer that feeds it. To select the top-k tokens for each query, the indexer must still score every p…",
+      "content": "Token-level sparse attention, as implemented by DeepSeek Sparse Attention (DSA) in production systems, makes the downstream attention efficient but shifts the bottleneck to the indexer that feeds it. To select the top-k tokens for each query, the indexer must still score every preceding token, incurring a cost of O(L^2) per layer for a sequence of length L. We observe that this per-query scan is largely redundant: nearby queries select highly overlapping top-k tokens, and the indexer scores are long-tailed along the key axis. We exploit these properties in PIVOT, Proxy Indexing Via One full-prefix Traversal, a training-free, drop-in replacement for the DSA indexer that shares one prefix scan across a group of nearby queries. PIVOT aggregates a group into a single proxy query, performs one shared full-prefix scan to obtain a candidate set, and then selects a top-k for each query from that set. Two variants trade speed for fidelity: PIVOT-Reuse shares the proxy top-k across the group for maximum speed, whereas PIVOT-Refine re-scores the candidate set with the indexer of each query and then selects an individual top-k, matching the dense indexer at a small additional cost. A single algorithm covers both inference phases, differing only in how groups are formed: fixed-size groups of consecutive queries in prefill, and the queries decoded together in one multi-token prediction (MTP) step in decode. On DeepSeek-V3.2 and GLM-5.1 across LongBench and RULER, PIVOT matches the accuracy of the dense DSA indexer while accelerating it by up to 4x and reducing end-to-end latency by up to 1.6x at long context.",
+      "readingMinutes": 1
+    },
+    {
       "id": "bc04202d666568e9",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -141,6 +232,32 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
+    },
+    {
+      "id": "470cfedee1ef4024",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference",
+      "url": "https://arxiv.org/abs/2607.24434v1",
+      "published": "2026-07-27T13:44:42Z",
+      "author": "Dengke Han",
+      "summary": "Large Mixture-of-Experts (MoE) language models are attractive for end-device deployment because only a small subset of experts is active per token, but their routed expert weights often exceed accelerator memory. We target latency-critical single-user settings where routed exper…",
+      "content": "Large Mixture-of-Experts (MoE) language models are attractive for end-device deployment because only a small subset of experts is active per token, but their routed expert weights often exceed accelerator memory. We target latency-critical single-user settings where routed experts are staged on demand from CPU memory to a GPU or from Flash to a mobile NPU. In this setting, self-speculative decoding faces a new bottleneck: increasing the draft expert set improves accuracy but triggers extra expert loading, while cheap small-footprint drafts have low acceptance; moreover, verifying a multi-token block activates the union of target experts and is no longer close to one target step. We propose DraftExpert, an expansion-aware self-speculative decoding framework for expert-offloaded MoE inference. DraftExpert trains one lightweight accelerator-resident draft expert per layer by self-distilling residual, logit/token, and router-agreement signals from the frozen target MoE. At inference time, it uses a fixed-footprint shared+top-1+draft-expert drafter together with confidence--expansion truncation and target-expert prefetching, while final tokens are still exactly verified by the target model. On DeepSeek-V2-Lite and Moonlight-16B-A3B across CPU-GPU and Flash-NPU offload, DraftExpert improves decode throughput by 1.45x on average, raises draft acceptance to 84~87%, and achieves 86~88% prefetch hit rates.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "0a4da0c7b3446091",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Accuracy Hides How Language Models Fail: Measuring Failure States Under Matched Output Budgets",
+      "url": "https://arxiv.org/abs/2607.24268v1",
+      "published": "2026-07-27T11:04:17Z",
+      "author": "Zongyou Yang",
+      "summary": "Language-model benchmarks collapse two distinct measurement questions into a single accuracy score: whether a response reached an evaluable state, and whether its answer was judged correct. We introduce a two-layer evaluation framework that separates scorer-independent execution…",
+      "content": "Language-model benchmarks collapse two distinct measurement questions into a single accuracy score: whether a response reached an evaluable state, and whether its answer was judged correct. We introduce a two-layer evaluation framework that separates scorer-independent execution evidence, including termination, answer exposure, parseability, and completion length, from scorer-dependent correctness. Across 2,550 outputs from five fixed Qwen and DeepSeek configurations on MATH and ARC-Challenge, matched 2,048-token limits produce sharply different execution mixtures: 49 of 450 Qwen MATH outputs terminate without a final answer, compared with 5 of 300 DeepSeek MATH outputs and none of the 750 ARC outputs. Among the same 300 DeepSeek MATH question-model pairs, no missing-final length termination is observed at 8,192 tokens. A coverage-audited targeted verification study further shows that candidate-selection and aggregation policies can substantially alter comparative accuracy estimates. These results demonstrate that accuracy conflates execution case mix with verification policy. Evaluations of test-time methods should therefore report pre-intervention execution states, verification coverage, and scorer provenance alongside accuracy.",
+      "readingMinutes": 1
     },
     {
       "id": "826efea84528ac45",
@@ -195,6 +312,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "b0d676ff441fa043",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Tag Questions and the Generational Reversal of Sycophancy Across 45 Language Models",
+      "url": "https://arxiv.org/abs/2607.23976v1",
+      "published": "2026-07-27T04:02:00Z",
+      "author": "Tapan Parikh",
+      "summary": "Appending a two-word confirmation tag to a decision question -- \"Is X the better choice?\" versus \"X is the better choice, right?\" -- changes whether a language model endorses the choice. We measure this tag effect on 20 frozen, ground-truth-free decisions between two defensible…",
+      "content": "Appending a two-word confirmation tag to a decision question -- \"Is X the better choice?\" versus \"X is the better choice, right?\" -- changes whether a language model endorses the choice. We measure this tag effect on 20 frozen, ground-truth-free decisions between two defensible options, counterbalanced so a model's own preferences cancel, scored by exact match on clamped yes/no replies -- no LLM judge, no embeddings. Across 45 models the effect spans +32% to -32% -- a 64-point swing on one word -- with 5 models significantly sycophantic and 17 significantly resistant (BH-FDR q=.10). The sign is a clock: within model families the effect crosses from positive to negative as generations advance (GPT +4 to -28; Claude +7 to -32; Qwen and Grok likewise), roughly -6 points per year, a reversal robust to vendor tier; one lineage (DeepSeek) never crosses, and two releases during the study window (Claude Opus 5, Gemini 3.6 Flash) land on the trend out-of-sample. A full-panel ablation localizes the resistance as a double dissociation: a synonym tag reproduces each model's response almost exactly (r=0.89), while planting the same preference without a tag produces resistance in no resistant model (stance effects +6 to +49; r=0.23 with tag effects). The resistance is keyed to the surface construction of a tacked-on agreement bid, not the user's stance -- a pattern-match, not a principle. And the tag's polarity matters more than its presence: swap one word -- \"X is the better choice, maybe?\" -- and agreement rises above the neutral baseline in 45 of 45 models (+19.6 points), with ten models affirming both mutually exclusive options at 90-100%. Agreement tracks how sure the user sounds, in opposite directions at the two poles. The instrument is one word, one dollar, and judge-free; run per release, it reads the field's anti-sycophancy training directly off model behavior.",
+      "readingMinutes": 1
+    },
+    {
       "id": "db9d0913513df69e",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -221,6 +351,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "a71ca38e9ac658f6",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "行业领导者携手成立“开放安全 AI 联盟”，推动 AI 安全和保障发展",
+      "url": "https://blogs.nvidia.cn/blog/open-secure-ai-alliance/",
+      "published": "2026-07-27T02:00:00Z",
+      "author": "英伟达中国",
+      "summary": "开源软件是全球经济的重要支柱。它通过让专家社区能够访问和观察技术，为云计算、金融服务、制造业、电信、政府和互联网服务提供了坚实的基础。 网络安全是开源软件的三大受益领域之一。开放安全 AI 联盟 (Open Secure AI Alliance) —— 在 Linux 基金会的 Akrites 倡议和 OpenSSF 社区工作的基础上发展而来 —— 将使用开放技术修复和披露漏洞。 正如开源为软件构筑了共享的基石，我们及合作伙伴如今在 AI 安全领域也面临一个选择：保护我们基础设施的防御系统，究竟",
+      "content": "开源软件是全球经济的重要支柱。它通过让专家社区能够访问和观察技术，为云计算、金融服务、制造业、电信、政府和互联网服务提供了坚实的基础。\n\n网络安全是开源软件的三大受益领域之一。开放安全 AI 联盟 (Open Secure AI Alliance) —— 在 Linux 基金会的 Akrites 倡议和 OpenSSF 社区工作的基础上发展而来 —— 将使用开放技术修复和披露漏洞。\n\n正如开源为软件构筑了共享的基石，我们及合作伙伴如今在 AI 安全领域也面临一个选择：保护我们基础设施的防御系统，究竟是应该置于少数不透明的系统中，还是应该建立在任何防御者都能研究、调整和部署的开放的模型、Harness 和工具上。\n\n世界既需要闭源模型，也需要开放模型。对于网络安全而言，开放模型和开放框架至关重要，因为它们实现了防御能力普及化，提高了防御者的透明度，在保护数据的同时实现网络防御，并通过可定制的本地化管理对前沿的闭源模型进行了补充。开源技术支持大规模分布式的、社区驱动且自主可控的防御 —— 不存在单点故障。\n\n与任何强大的技术一样，开放模型也可能被滥用，包括试图削弱其安全保护或将功能用于网络攻击，但这些风险并非开放系统所独有，无论先进 AI 部署于何处，都必须对这些风险进行妥善管理。\n\n最近发生的 Hugging Face 安全事件提供了一个清晰的提醒：网络防御者需要开放的、前沿的智能体系统来进行自我防御。当无法区分攻击者和防御者的闭源 AI 工具阻碍了关键的取证分析时，Hugging Face 在自己的基础设施上运行了开放权重 GLM 5.2 模型，分析了超过 17,000 个动作，并遏制了入侵。\n\n这一事件揭示了一个现实：当防御者无法在自己的基础设施上检查、调整和运行先进的 AI 时，他们的响应能力恰恰在最需要速度的时刻受到了限制。企业和国家/地区需要开放的前沿防御工具和技术，以便关键行业能够在多供应商生态系统中构建安全系统，并避免单点故障。\n\n这就是开放安全 AI 联盟的使命：确保世界各地的防御者拥有其可信任和管理的开放前沿工具。\n\n来自云计算、网络安全、企业软件、开源基金会和 AI 研究领域的领导者 —— 包括 NVIDIA、Adobe、Cadence、Capital One、Cisco、Cloudera、Cloudflare、Cognition、CrowdStrike、Databricks、Dell Technologies、DoorDash、Elastic、HPE、Hugging Face、IBM、LangChain、the Linux Foundation、Microsoft、NAVER、NetApp、Nous Research、OpenClaw、Palantir、Palo Alto Networks、Red Hat、Reflection AI、Salesforce、SAP、SK Telecom、ServiceNow、Siemens、Snowflake、SpacexAI、Synopsys、Thinking Machines Lab 和 TrendAI 皆是开放安全 AI 联盟的创始合作伙伴。该联盟旨在开发和共享开放技术、方法和工具，以在 AI 时代保障软件和智能体的安全。\n\n有人认为，开放模型本身就存在安全隐患，因为它们可能被滥用于网络攻击或被修改以移除安全护栏。这些风险是真实存在的，但它们不会在闭源系统中消失，仅靠封闭权重并不能阻止蓄意攻击者去设法找到或利用强大的 AI。\n\n正确的应对措施不是拒绝防御者访问功能强大的开放系统。而应该将开放性与强有力的保障措施、明确的反恶意滥用规则、严格的评估和快速修复相结合。在网络安全领域，更安全的路径是赋予更多的防御者能够测试、验证和加强社会所依赖的系统的能力。\n\n防御者需要前沿闭源模型和前沿开放模型协同工作，以便他们能够选择适合任务的系统，并确保在安全需求所及之处，可实现透明化、适配性和自主可控。\n\n开放研究提升网络安全和 AI 安全性\n\nAI 智能体不仅仅是一种语言模型。它是一个由模型、Harness 和安全护栏组成的复杂系统。\n\n真正的 AI 安全与保障取决于整个智能体技术栈 —— 身份认证、权限、Harness、安全护栏、日志和评估 —— 而不仅仅是模型权重为开放还是闭源。开放 Harness 和工具使许多防御者能够更轻松地检查、测试和改进这些管理措施。\n\nNVIDIA 正在向开放安全 AI 联盟贡献开放模型、模型权重、数据和新的智能体 Harness 研究，以加速开发新的网络安全工具和技术。\n\n全新开源 NVIDIA Labs Object-Oriented Agent (NOOA) 项目现已在 GitHub 上发布，使智能体 Harness 更容易获取先进 AI 安全功能。NOOA 研究框架使 Harness 能够更好地与模型集成，使智能体行为更容易测试、追踪、审计和治理。\n\n在整个联盟中，贡献者们正在为智能体构建一个开放的防御技术栈 —— 从身份认证和隔离到安全模型格式、多模型扫描以及安全编码工作流。\n\nHPE 为 SPIFFE/SPIRE 做出贡献，创建零信任身份框架标准和方法，可对 AI 智能体和服务进行加密验证，确保只有经过授权的工作负载才能通信和访问企业资源。\n\nHugging Face 向 PyTorch 基金会提供了 Safetensors —— 一种用于存储 AI 模型权重的安全格式，提供透明度并保证不会执行远程代码。\n\nIBM 和 Red Hat 的 Lightwell 通过数字签名补丁，将安全性扩展到了整个开源供应链。\n\nMicrosoft 的 MDASH 多模型智能体扫描 Harness 负责编排专用 AI 智能体来发现、讨论和证明可利用的漏洞。\n\nSpaceXAI 开源了基于终端的 Grok Build AI 编码智能体，以提升信任、透明度和新功能，并计划开源 Grok 系列模型的权重，以支持开发者和研究社区。\n\n致政策制定者和监管机构的呼吁\n\n随着政策制定者和监管机构努力应对 AI 安全问题，在 AI 和网络安全政策中，将开放模型、Harness 和安全工具视为防御性资产而非负债将变得至关重要。全面限制开放前沿 AI 系统将削弱防御能力，并存在将权力、依赖性和脆弱性集中在少数闭源提供商手中的风险。\n\n企业和政府应该投资于 AI 防御的共享开放基础设施 —— 数据集、评估框架、攻击模拟器和红队工具 —— 就像过去几代人投资开源软件一样。\n\n我们应该构建的未来\n\nAI 智能体时代可以成为一个具有韧性和共享安全性的时代。通过正确的选择，开放安全 AI 系统可以为防御者提供所需的工具、加强竞争力、扩大技术领先优势，并确保这项出色技术的安全与防护是在公开透明的环境中为每个人而构建。\n\n我们不能只靠保密来确保未来的安全性。而是要通过构建足够强大的系统来确保安全，这些系统不仅要经得起检验，还要足够灵活以便进行改进，并足够开放以便动员整个防御者社区。\n\n这样的未来值得建设 —— 开放安全 AI 联盟邀请政府、行业和研究人员共同参与，共同守护 AI 时代的安全。\n\n了解详情或表达加入开放安全 AI 联盟的意向。",
+      "readingMinutes": 6
+    },
+    {
       "id": "07e9d61127934b84",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -234,6 +377,45 @@
       "readingMinutes": 1
     },
     {
+      "id": "1539d612f258d607",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Zing: Social Mind for LLMs",
+      "url": "https://arxiv.org/abs/2607.23740v1",
+      "published": "2026-07-26T16:25:45Z",
+      "author": "Zing Team",
+      "summary": "As large language models move from isolated task solving toward long-term service in human environments, they require social intelligence: the ability to infer mental states, track social relations, reason over norms, and adapt behavior under context. This report presents Zhijin…",
+      "content": "As large language models move from isolated task solving toward long-term service in human environments, they require social intelligence: the ability to infer mental states, track social relations, reason over norms, and adapt behavior under context. This report presents Zhijing, an integrated framework for measuring, internalizing, and grounding social intelligence. For measurement, we introduce SoMBench, a psychology-grounded benchmark spanning 3 primary dimensions, 17 secondary dimensions, and 71 task paradigms. It controls question format, narrative perspective, and context length across 284 shared scenarios and 3,481 expert-verified instances. Evaluation of 20 representative LLMs reveals substantial headroom: the best model achieves only 72.08% overall accuracy, and none of the 17 secondary dimensions reaches the 90% near-ceiling band. For internalization, we develop Zing, a diagnosis-driven training recipe combining supervised fine-tuning, on-policy distillation, and rubric-based reinforcement learning. Across five social-cognition benchmarks, Zing consistently outperforms its base models, with Zing-27B-Stage2 achieving the best average score and Zing-32B-Stage2 remaining competitive with DeepSeek-V4-Pro. For deployment-time grounding, we build Actio, a harness-controlled inference architecture that routes four typed supports into reasoning: PRISM for procedural guidance, Starling for runtime mental-state representation, SAGE for reusable experience, and gated RAG for external social and normative knowledge. Across five base models and three benchmarks, the full harness improves 14 of 15 model-benchmark pairs and is best or tied for best in 8, demonstrating the effectiveness of typed runtime support. Together, these results show that socially intelligent LLMs require coordinated advances in evaluation, parametric internalization, and deployment-time grounding.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "a8b74b4f3d7846ab",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "DualityCert: Verifier-Gated Language-Model Repair of Broken Duality Claims in Quantum Field Theory",
+      "url": "https://arxiv.org/abs/2607.23614v1",
+      "published": "2026-07-26T11:39:49Z",
+      "author": "Xingyang Yu",
+      "summary": "We present DualityCert, a symbolic verifier for candidate Seiberg-duality claims in four-dimensional N=1 quiver gauge theories. The verifier evaluates 't Hooft anomaly matching, superpotential R-charge consistency, central-charge matching, and a bounded chiral-ring proxy. A clai…",
+      "content": "We present DualityCert, a symbolic verifier for candidate Seiberg-duality claims in four-dimensional N=1 quiver gauge theories. The verifier evaluates 't Hooft anomaly matching, superpotential R-charge consistency, central-charge matching, and a bounded chiral-ring proxy. A claim that passes receives a consistency certificate, which states that no tested inconsistency was found, not that the duality is proven. We use the verifier as a repair environment for language-model agents, which receive a deliberately broken claim and must edit it until it certifies. On a preregistered benchmark of 145 broken claims, with the analysis fixed before the first confirmatory model call, verifier-gated retry improves final repair success over a single attempt by +8.3 percentage points (pp) on deepseek-chat and +7.1 pp on qwen-plus (Holm-adjusted p<0.002). Under an equal budget of eleven attempts, the stop-first strategy portfolio underperforms independent verifier-filtered resampling by 10.3 percentage points on deepseek-chat but outperforms it by 14.7 points on qwen-plus, reversing the ordering of the two tested verifier-exploitation policies across the two confirmatory models. On qwen-plus, category-level verifier feedback is worth +8.7 pp over content-free retry, and interpretable obligation identities alone are worth +6.4 pp over structurally identical masked feedback. Neither effect is detected on deepseek-chat. Separately, a preregistered MiniMax-M2.5 extension again finds an iteration gain and independent verifier-filtered resampling outperforming the strategy portfolio. Which policy is better thus differs between the two models, while every winning policy uses the same cheap certificate. The verifier, benchmark, protocol, and all per-attempt records are released.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "d2304edd8ef4b614",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Auditing Alignment Controllability in LLMs via Political Axes",
+      "url": "https://arxiv.org/abs/2607.23519v1",
+      "published": "2026-07-26T07:38:11Z",
+      "author": "Bartol Bućan",
+      "summary": "Political audits of large language models (LLMs) usually reduce each to one point on a political compass. But that resting point barely matters in deployment: a model must land somewhere, and what counts is how far, and in which directions, its answers can be steered. That steer…",
+      "content": "Political audits of large language models (LLMs) usually reduce each to one point on a political compass. But that resting point barely matters in deployment: a model must land somewhere, and what counts is how far, and in which directions, its answers can be steered. That steering runs through the system prompt: the personalization layer a platform sets, or one induced from a user's history, not necessarily written by hand. We run a dispersion-first stress test of prompt-based controllability across 12 ideological personas plus an unsteered baseline, 70 Political Compass items, ten replicates, and seven leading LLMs: GPT-5, Claude, Grok, Gemini, DeepSeek, Kimi, and Qwen (63,700 responses). Contextual framing explains roughly 88%-93% of variance on the economic and society axes, model identity under 3%: responses are highly instruction-adjustable. Models do not shift alike: some move more, and some saturate under extreme framings. Conflicting directional-steering results in prior audits resolve once baselines are recognized as non-centered: displacement and proximity diverge, so the effect is geometric, not differential compliance. Under authoritarian prompts, models produce similar shifts on the same questions. Political-coordinate audits therefore need steerability audits reporting dispersion, symmetry, saturation, and refusal floors. We release prompts, benchmark data, and code.",
+      "readingMinutes": 1
+    },
+    {
       "id": "007faf8e7669cce4",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -244,6 +426,58 @@
       "author": "",
       "summary": "「太热了，今天不聊了，赶紧回去吹空调。」查看全文",
       "content": "「太热了，今天不聊了，赶紧回去吹空调。」查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "02fc1a476eb0c860",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "On the Impossibility of Unbiased and Length-Invariant Policy Optimization with Outcome Rewards",
+      "url": "https://arxiv.org/abs/2607.23364v1",
+      "published": "2026-07-25T21:12:51Z",
+      "author": "Fei Ding",
+      "summary": "Group Relative Policy Optimization (GRPO) is the dominant reinforcement learning algorithm for training reasoning capabilities in large language models, notably adopted by DeepSeek-R1. The recent improvement Dr. GRPO (COLM 2025) identifies the response-level length bias caused b…",
+      "content": "Group Relative Policy Optimization (GRPO) is the dominant reinforcement learning algorithm for training reasoning capabilities in large language models, notably adopted by DeepSeek-R1. The recent improvement Dr. GRPO (COLM 2025) identifies the response-level length bias caused by per-trajectory length normalization in GRPO and proposes removing this normalization, claiming the resulting optimizer is \"unbiased.\" We show that this claim is incomplete. Specifically, we establish an impossibility theorem: under the standard outcome reward + GRPO setting, no length-based weighting scheme can simultaneously achieve the following two properties. (P1) Gradient unbiasedness: the gradient estimator is an unbiased estimate of the true policy gradient. (P2) Length invariance: each trajectory's effective contribution to the gradient is independent of its token length. GRPO approximately satisfies P2 but violates P1; Dr. GRPO satisfies P1 but violates P2. We characterize the complete tradeoff spectrum via the parametric family f_alpha(L) = L^{alpha - 1}, where alpha = 0 recovers GRPO, alpha = 1 recovers Dr. GRPO, and provide quantitative analysis showing that Dr. GRPO's length bias can cause longer trajectories to dominate gradient updates by a factor proportional to the length ratio. Our results reveal that neither algorithm is universally \"done right\"; they occupy opposite ends of a fundamental and unavoidable tradeoff.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "9c560dcf978155ff",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "RareLens: Towards End-to-End Rare Disease Care via Aligning Divergent Large Language Model Reasoning",
+      "url": "https://arxiv.org/abs/2607.23290v1",
+      "published": "2026-07-25T16:58:10Z",
+      "author": "Xi Chen",
+      "summary": "Rare diseases collectively affect an estimated 3.5% to 5.9% of the population, yet more than 70% of patients are misdiagnosed and many endure years of evaluation before a diagnosis is reached, because early presentations are nonspecific and relevant expertise is scarce and uneve…",
+      "content": "Rare diseases collectively affect an estimated 3.5% to 5.9% of the population, yet more than 70% of patients are misdiagnosed and many endure years of evaluation before a diagnosis is reached, because early presentations are nonspecific and relevant expertise is scarce and unevenly distributed. Artificial intelligence could provide support, but existing systems address isolated stages of care, overwhelmingly diagnosis. They typically depend on the results of downstream investigations, and they treat the variability between models as noise to be eliminated. Here we present RareLens, a system that supports clinical decision-making across the entire rare disease trajectory by exploiting this variability. When heterogeneous large language models evaluate the same case, they generate divergent but complementary reasoning, which RareLens aligns and calibrates into a single convergent, actionable decision at each stage. Four coordinated modules perform primary-visit risk screening, diagnosis, treatment planning and prognosis. Developed and evaluated on RareBench, a real-world dataset of 157,525 cases spanning all 33 Orphanet categories and more than 7,000 conditions, RareLens outperformed every frontier model tested, including GPT-5, DeepSeek-R1, Claude-3.7-Sonnet and Gemini-2.5-Pro, at each stage. It achieved an area under the curve of 0.917 for screening and top-1 accuracies of 65.5% and 89.8% for diagnosis and treatment. In an external study spanning 1,287 cases and 23 physicians, autonomous RareLens and physicians assisted by RareLens both substantially outperformed unaided physicians. These findings indicate that aligning divergent model reasoning, rather than scaling a single model, offers a generalizable strategy for high-uncertainty clinical decision-making.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "3abb145c88369ba7",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Decoding the Skew: Distribution-Aware MoE Inference with Adaptive Kernel Dispatch",
+      "url": "https://arxiv.org/abs/2607.23099v1",
+      "published": "2026-07-25T08:20:47Z",
+      "author": "En-Ming Huang",
+      "summary": "Mixture-of-Experts (MoE) inference consists of sparse expert GEMMs whose shapes vary with the runtime routing distribution. Existing serving systems typically select fused-MoE kernels using static token-count buckets, ignoring the per-expert routing distribution that determines…",
+      "content": "Mixture-of-Experts (MoE) inference consists of sparse expert GEMMs whose shapes vary with the runtime routing distribution. Existing serving systems typically select fused-MoE kernels using static token-count buckets, ignoring the per-expert routing distribution that determines tile padding, memory reuse, and kernel efficiency. We introduce a distribution-aware framework for modeling and benchmarking MoE inference. The framework combines the compact Effective Experts metric with a Dirichlet-based reverse-modeling procedure that generates controllable routing distributions for systematic hardware studies. Using it, we show that the best fused-MoE kernel changes with routing skew and token count. We further present DA-MoE, a GPU-resident kernel-dispatch runtime for NVIDIA GPUs that matches the live routing histogram to offline-tuned distributions and selects a near-optimal fused-MoE kernel without CPU--GPU synchronization. On HumanEval-X serving traces, DA-MoE improves geomean fused-MoE latency by 1.16X on DeepSeek-V3 and 1.29X on Kimi K2, with peak speedups of 1.40X and 1.56X.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "8a80608c2ebf9789",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Through the Bottleneck: How Multi-head Latent Attention Separates Content from Position in Language Models",
+      "url": "https://arxiv.org/abs/2607.23054v1",
+      "published": "2026-07-25T05:45:59Z",
+      "author": "Dhruvil S",
+      "summary": "Multi-head Latent Attention (MLA), introduced in DeepSeek-V2, compresses key-value pairs through a shared low-rank bottleneck (cKV), achieving 81% KV-cache reduction during inference. Despite its adoption in massive production models, no prior work has studied what information t…",
+      "content": "Multi-head Latent Attention (MLA), introduced in DeepSeek-V2, compresses key-value pairs through a shared low-rank bottleneck (cKV), achieving 81% KV-cache reduction during inference. Despite its adoption in massive production models, no prior work has studied what information this bottleneck preserves or discards, nor how it reshapes internal transformer circuits. We present the first comprehensive mechanistic interpretability study of MLA, training a 114M-parameter transformer (pretrained on a web/code/math mixture, fine-tuned on TinyStories) and analyzing its representations through SVD, attention head taxonomy, linear probing, and a disruption-attribution analysis. Our key findings are: (1) the cKV bottleneck learns a pure content representation, preserving entity identity (98% retention) while discarding positional information, validating MLA's separation of content from position via RoPE; (2) induction heads co-locate at a single layer (Layer 12), unlike their distributed formation in standard MHA; (3) a single \"semantic hub\" layer (Layer 15) simultaneously exhibits the highest SVD effective rank and strongest disruption-attribution score; and (4) the bottleneck is globally over-provisioned, using only 46% of its capacity on average. These findings suggest MLA does not merely compress attention passively, but reshapes how the model organizes content, position, and circuit structure. We view this as an initial data point and detail scope limitations in Section 5.",
       "readingMinutes": 1
     },
     {
@@ -271,19 +505,6 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
-    },
-    {
-      "id": "2fb00782bce4f744",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Advancing Semiconductor Innovation Across Materials Engineering and Manufacturing",
-      "url": "https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing/",
-      "published": "2026-07-24T20:45:33Z",
-      "author": "Tanya Lenz",
-      "summary": "As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have...",
-      "content": "As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have...\nAs AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have outsized financial impact in fast-moving AI hardware cycles. Simultaneously, the shift from chip-level optimization to system-level engineering is compounding thermal and power challenges. Meeting these demands requires breakthroughs…\n\nSource",
-      "readingMinutes": 1
     },
     {
       "id": "26b4e01c469da5de",
@@ -320,8 +541,8 @@
       "url": "https://blogs.nvidia.cn/blog/sk-group-and-nvidia-expand-strategic-partnership-across-ai-factories-and-next-generation-memory/",
       "published": "2026-07-24T14:00:00Z",
       "author": "英伟达中国",
-      "summary": "新闻摘要： AI Summit – SK 集团 和 NVIDIA 宣布全面合作，双方计划投入超 5000 亿美元，以推进 AI 基础设施建设，从而满足全球日益增长的计算需求。双方已正式签署合作意向书，合作范围涵盖 AI 工厂建设和 AI 内存供应。 NVIDIA Vera Rubin 基础架构和 DSX 平台推动 20 亿瓦级建设 此次合作建立在 SK 集团与 NVIDIA 之间长达数十年的技术合作伙伴关系之上，双方于最近宣布 SK 电讯将在韩国打造 20 亿瓦级的 AI 云。 该 AI 云将采",
-      "content": "新闻摘要：\n\nSK 集团和 NVIDIA 通过一项超 5000 亿美元的计划扩展战略合作，涵盖 AI 工厂建设和新一代内存方向。\n\nSK 电讯将建设 20 亿瓦级的 NVIDIA Vera Rubin DSX AI 工厂，以满足全球对计算的需求。\n\nNVIDIA 与 SK 海力士建立长期合作关系，共同开发并稳定供应包括 HBM 在内的下一代 AI 内存。\n\nAI Summit – SK 集团 和 NVIDIA 宣布全面合作，双方计划投入超 5000 亿美元，以推进 AI 基础设施建设，从而满足全球日益增长的计算需求。双方已正式签署合作意向书，合作范围涵盖 AI 工厂建设和 AI 内存供应。\n\nNVIDIA Vera Rubin 基础架构和 DSX 平台推动 20 亿瓦级建设\n\n此次合作建立在 SK 集团与 NVIDIA 之间长达数十年的技术合作伙伴关系之上，双方于最近宣布 SK 电讯将在韩国打造 20 亿瓦级的 AI 云。\n\n该 AI 云将采用 NVIDIA® DSX 平台并部署由 SK 海力士 HBM4 提供支持的 NVIDIA Vera Rubin 加速计算，首座 AI 工厂计划于 2027 年投入运营。\n\n项目将基于 NVIDIA DSX 全栈 AI 工厂架构构建，该架构集成了 NVIDIA 加速计算、系统、软件和合作伙伴技术，以更大的能效实现最低的 Token 成本。\n\n两家公司的目标是加速大规模 AI 基础设施开发，包括物理 AI、代理式 AI 和企业级 AI 服务，并共同满足包括韩国在内的亚太地区日益增长的 AI 需求。\n\n大规模推进 AI 基础设施建设\n\nSK 电讯和 NVIDIA 的合作加快了 NVIDIA AI 基础设施的采用，让更多客户可以获取前沿云服务。此次合作使 SK 电讯能够投资和扩展大规模 AI 基础设施，同时向更广泛的客户提供资本密集型 AI 基础设施。\n\n推动新一代 AI 内存的发展\n\nSK 海力士还将与 NVIDIA 建立长期的 AI 内存合作伙伴关系。作为巩固双方之前长期技术合作的后续举措，此次合作使 NVIDIA 能够稳定供应新一代 AI 内存，同时使 SK 海力士扩大其增长基础。\n\n两家公司将共同开发和优化包括 HBM 在内的新一代 AI 内存解决方案，以满足从大语言模型训练到代理式 AI 和物理 AI 等多元场景下不断演进的基础设施需求。\n\nSK 集团董事长崔泰源表示：“在 AI 时代，竞争力不仅取决于 AI 的有效利用程度，还取决于我们能够产生多少智能。依托 SK 海力士的 AI 内存和 SK 电讯的 AI 基础设施能力，SK 将与 NVIDIA 合作打造世界级的 AI 工厂，助力韩国从 AI 领先采用者，成为推动 AI 创新的全球中心。”\n\nNVIDIA 创始人兼首席执行官黄仁勋表示：“韩国拥有世界一流的网络和数据中心、领先的芯片技术和庞大的工业规模，这些都是成为全球 AI 巨头的要素。我们正在与 SK 电讯和 SK 海力士一起构建新一代 AI 工厂，这将为韩国的下一波增长浪潮提供动力支持。”",
+      "summary": "新闻摘要： AI Summit – SK 集团和 NVIDIA 宣布全面合作，双方计划投入超 5000 亿美元，以推进 AI 基础设施建设，从而满足全球日益增长的计算需求。双方已正式签署合作意向书，合作范围涵盖 AI 工厂建设和 AI 内存供应。 NVIDIA Vera Rubin 基础架构和 DSX 平台推动 20 亿瓦级建设 此次合作建立在 SK 集团与 NVIDIA 之间长达数十年的技术合作伙伴关系之上，双方于最近宣布 SK 电讯将在韩国打造 20 亿瓦级的 AI 云。 该 AI 云将采用",
+      "content": "新闻摘要：\n\nSK 集团和 NVIDIA 通过一项超 5000 亿美元的计划扩展战略合作，涵盖 AI 工厂建设和新一代内存方向。\n\nSK 电讯将建设 20 亿瓦级的 NVIDIA Vera Rubin DSX AI 工厂，以满足全球对计算的需求。\n\nNVIDIA 与 SK 海力士建立长期合作关系，共同开发并稳定供应包括 HBM 在内的下一代 AI 内存。\n\nAI Summit – SK 集团和 NVIDIA 宣布全面合作，双方计划投入超 5000 亿美元，以推进 AI 基础设施建设，从而满足全球日益增长的计算需求。双方已正式签署合作意向书，合作范围涵盖 AI 工厂建设和 AI 内存供应。\n\nNVIDIA Vera Rubin 基础架构和 DSX 平台推动 20 亿瓦级建设\n\n此次合作建立在 SK 集团与 NVIDIA 之间长达数十年的技术合作伙伴关系之上，双方于最近宣布 SK 电讯将在韩国打造 20 亿瓦级的 AI 云。\n\n该 AI 云将采用 NVIDIA® DSX 平台并部署由 SK 海力士 HBM4 提供支持的 NVIDIA Vera Rubin 加速计算，首座 AI 工厂计划于 2027 年投入运营。\n\n项目将基于 NVIDIA DSX 全栈 AI 工厂架构构建，该架构集成了 NVIDIA 加速计算、系统、软件和合作伙伴技术，以更大的能效实现最低的 Token 成本。\n\n两家公司的目标是加速大规模 AI 基础设施开发，包括物理 AI、代理式 AI 和企业级 AI 服务，并共同满足包括韩国在内的亚太地区日益增长的 AI 需求。\n\n大规模推进 AI 基础设施建设\n\nSK 电讯和 NVIDIA 的合作加快了 NVIDIA AI 基础设施的采用，让更多客户可以获取前沿云服务。此次合作使 SK 电讯能够投资和扩展大规模 AI 基础设施，同时向更广泛的客户提供资本密集型 AI 基础设施。\n\n推动新一代 AI 内存的发展\n\nSK 海力士还将与 NVIDIA 建立长期的 AI 内存合作伙伴关系。作为巩固双方之前长期技术合作的后续举措，此次合作使 NVIDIA 能够稳定供应新一代 AI 内存，同时使 SK 海力士扩大其增长基础。\n\n两家公司将共同开发和优化包括 HBM 在内的新一代 AI 内存解决方案，以满足从大语言模型训练到代理式 AI 和物理 AI 等多元场景下不断演进的基础设施需求。\n\nSK 集团董事长崔泰源表示：“在 AI 时代，竞争力不仅取决于 AI 的有效利用程度，还取决于我们能够产生多少智能。依托 SK 海力士的 AI 内存和 SK 电讯的 AI 基础设施能力，SK 将与 NVIDIA 合作打造世界级的 AI 工厂，助力韩国从 AI 领先采用者，成为推动 AI 创新的全球中心。”\n\nNVIDIA 创始人兼首席执行官黄仁勋表示：“韩国拥有世界一流的网络和数据中心、领先的芯片技术和庞大的工业规模，这些都是成为全球 AI 巨头的要素。我们正在与 SK 电讯和 SK 海力士一起构建新一代 AI 工厂，这将为韩国的下一波增长浪潮提供动力支持。”",
       "readingMinutes": 3
     },
     {
@@ -364,58 +585,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "cc017f12ad641da5",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "赛博对话｜对话潘玮哲x老麦煮机：电子产品在悄悄变贵！",
-      "url": "https://sspai.com/post/112679",
-      "published": "2026-07-24T03:00:00Z",
-      "author": "",
-      "summary": "不是说好AI来临人类就解放了吗，怎么我连手机都买不起了？查看全文",
-      "content": "不是说好AI来临人类就解放了吗，怎么我连手机都买不起了？查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "b5fd1341a79ce737",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Solar Open 2 Technical Report",
-      "url": "https://arxiv.org/abs/2607.20062v2",
-      "published": "2026-07-24T02:46:10Z",
-      "author": "Sungrae Park",
-      "summary": "We present Solar Open 2, a 250B-A15B Mixture-of-Experts language model built for long-horizon agentic tasks, scaled up from Solar Open 1 (Solar Open 100B). To hold entire agent trajectories in a single context, Solar Open 2 reaches a 1M-token window through a hybrid attention st…",
-      "content": "We present Solar Open 2, a 250B-A15B Mixture-of-Experts language model built for long-horizon agentic tasks, scaled up from Solar Open 1 (Solar Open 100B). To hold entire agent trajectories in a single context, Solar Open 2 reaches a 1M-token window through a hybrid attention stack that interleaves one softmax layer among every three linear-attention layers, using no positional encoding and a gated delta rule extended to negative eigenvalues. To train at this scale under a fixed compute budget, we make training efficient in two ways: a stronger starting point, and higher-value data. For the starting point, we initialize Solar Open 2 from Solar Open 1, transferring the 5.69B-parameter shared skeleton that survives the architectural change and learning everything else through full pre-training. For the data, we curate for value per token: quality- and rarity-aware data curation and mixture-ratio optimization refine a 20T pool into a 10T mixture that, at equal token budget, outperforms the Solar Open 1 recipe. To build its agent skills, we train twelve domain specialists across purpose-built scenarios, then consolidate them into a single model by Multi-teacher On-Policy Distillation (MOPD). Against comparably sized open-weight models on English benchmarks, Solar Open 2 leads on MMLU-Pro, LiveCodeBench, and the APEX-Agents agentic suite, and stays competitive with the strongest (DeepSeek-V4-Flash and MiMo-V2.5) elsewhere. On Korean benchmarks, Solar Open 2 records the highest average of any model compared, including fast-tier closed APIs, and on Ko-GDPval, an in-house Korean officework-agent benchmark, it is competitive with DeepSeek-V4-Pro (1.6T) at less than a sixth of its size.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "3490f6f7850190f3",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：Acrab 发布边缘 AI 芯片 GELIX 1 和个人 AI 系统 Agent Box 等",
-      "url": "https://sspai.com/post/112677",
-      "published": "2026-07-24T00:33:05Z",
-      "author": "",
-      "summary": "欧盟委员会对 Google 处以总计 8.9 亿欧元罚款，Anthropic 扩大 Claude 语音模式支持范围。查看全文",
-      "content": "欧盟委员会对 Google 处以总计 8.9 亿欧元罚款，Anthropic 扩大 Claude 语音模式支持范围。查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "cd9f4afd6cab4ae4",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Keeping the Cache Warm Pays: Keepalive Economics for Agentic Workloads",
-      "url": "https://arxiv.org/abs/2607.19214v2",
-      "published": "2026-07-24T00:14:55Z",
-      "author": "Maxim Khailo",
-      "summary": "Frontier LLM providers cache a prompt's processed prefix so that a follow-up request sharing it pays ~10% of the input price and skips most of the prefill latency. Agentic workloads systematically destroy this benefit: the agent sends a request, runs a tool or waits for approval…",
-      "content": "Frontier LLM providers cache a prompt's processed prefix so that a follow-up request sharing it pays ~10% of the input price and skips most of the prefill latency. Agentic workloads systematically destroy this benefit: the agent sends a request, runs a tool or waits for approval for minutes, and by the time the follow-up is sent the cached prefix has been evicted, so the agent pays the full prefill again. A client-side keepalive, replaying the prefix on a timer during the pause, prevents this, and it is individually rational: across Anthropic, OpenAI, Google, and DeepSeek we show that a keepalive holds the prefix warm through gaps where idle baselines are evicted, cutting the post-pause request cost by up to 12.5x. The strategic question is the ping frequency, and it has a clean answer: keepalive cost falls monotonically in the interval, so the economical choice is the largest interval safely under the provider's TTL, about 4 minutes at Anthropic's 5-minute TTL rather than the 30-second convention, and the strategy breaks even against a re-prefill at idle ~tau(w/r - 1) (~46 min for Anthropic, ~36 min for OpenAI and DeepSeek). Because the benefit is real and bounded only by each user's own bill, rational adoption is universal adoption; and since cache residency is priced per read rather than per token-hour, a keepalive-saturated tier gives LRU eviction nothing to rank. We argue this externality will push providers to meter cache residency directly, and one already does. We derive the operator's policy until then.",
-      "readingMinutes": 1
-    },
-    {
       "id": "55505eedb540052f",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -439,19 +608,6 @@
       "author": "Praveen Menon",
       "summary": "Agentic AI shifts more of the critical execution path onto the CPU. Agents operate in sandboxes to execute code, invoke tools, retrieve context, interact with...",
       "content": "Agentic AI shifts more of the critical execution path onto the CPU. Agents operate in sandboxes to execute code, invoke tools, retrieve context, interact with...\nAgentic AI shifts more of the critical execution path onto the CPU. Agents operate in sandboxes to execute code, invoke tools, retrieve context, interact with databases, and analyze results before returning information to the model. As these loops run concurrently across an AI factory, CPU performance increasingly shapes both per-agent responsiveness and overall factory throughput.\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "0ba76ef22f287366",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI",
-      "url": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/",
-      "published": "2026-07-23T19:50:55Z",
-      "author": "Eduardo Alvarez",
-      "summary": "What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale....",
-      "content": "What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale....\nWhat began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale. These factories are now tasked with powering agentic workflows that reason, plan, use tools, verify intermediate results, and execute complex multistep tasks across vast contexts. Agentic workloads are not defined by a single prompt…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -650,19 +806,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "8f67b154224e3c04",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField",
-      "url": "https://developer.nvidia.com/blog/scaling-agentic-ai-factories-through-extreme-co-design-with-nvidia-bluefield/",
-      "published": "2026-07-23T18:54:11Z",
-      "author": "Michelle Horton",
-      "summary": "Agentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage...",
-      "content": "Agentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage...\nAgentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage accesses, and network transfers before a final answer is produced. As more agents run at once and carry context across steps, users, tools, services, and sessions, infrastructure must move, protect, retrieve, and reuse data fast enough to keep…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "f9cc26d6c3077d02",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -816,19 +959,6 @@
       "author": "Zibin Lin",
       "summary": "Agent Skills package reusable procedural knowledge as external artifacts for frozen language-model agents, yet existing optimizers do not jointly resolve where a failure occurs in a workflow, which mechanism caused it, and how relevant knowledge from third-party Skills should be…",
       "content": "Agent Skills package reusable procedural knowledge as external artifacts for frozen language-model agents, yet existing optimizers do not jointly resolve where a failure occurs in a workflow, which mechanism caused it, and how relevant knowledge from third-party Skills should be reused locally. We introduce Workflow-Localized Mechanism Learning (WML). Its Node--Mechanism Attribution identifies the failed workflow node, implicated mechanisms, and smallest valid edit target, routing single-mechanism defects to L3 resources and relational defects across mechanisms to L2 composition protocols. A six-module Workflow-Guided Skill Optimization (WGSO) loop then selects provenance- and scope-aware third-party knowledge, applies bounded patches, evaluates candidates, and stores verified outcomes in optimizer-side memory. On SpreadsheetBench, WML reaches 90.33 +/- 1.53 and 74.67 +/- 3.51 Hard Accuracy with DeepSeek and Qwen3.6-Flash, respectively; without additional optimization, the learned Skills transfer to WikiTableQuestions with 84.00 +/- 2.00 and 83.00 +/- 2.00 Denotation Accuracy. On Compiler-Supported50, WML attains both the highest hard-PASS rate and the lowest cost per successful task; compiled execution sharply reduces tokens and calls relative to a direct SkillAgent while retaining most of its successful tasks. Code and artifacts are available at https://github.com/xiaolin9595/workflow-localized-mechanism-learning.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "0d9d932c1f859037",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "VirtualSet: Typed Ontology Worlds as an LLM Generation Target for Grounded Queries and Guarded Decisions",
-      "url": "https://arxiv.org/abs/2607.18821v2",
-      "published": "2026-07-23T06:41:55Z",
-      "author": "Qunhui Zhang",
-      "summary": "Large language models increasingly read and act on enterprise data, but SQL gives a late error signal: hallucinated fields or relations can execute and return plausible wrong answers, while incorrect writes cannot be safely assessed after execution. We present VirtualSet, a live…",
-      "content": "Large language models increasingly read and act on enterprise data, but SQL gives a late error signal: hallucinated fields or relations can execute and return plausible wrong answers, while incorrect writes cannot be safely assessed after execution. We present VirtualSet, a live, receiver-typed ontology-world interface and generation target for LLMs. Instead of SQL, the model emits set expressions over entity-edge worlds. Generic Constraint Projection (GCP) checks expressions before execution, while future this preserves concrete receiver types through collection chains, turning invalid fields, edges, receivers, and actions into token-anchored type errors. Type-clean reads use a SQL fast path or bounded stream interpretation, with a parity oracle checking both paths over the exercised operator space. The same substrate supports guarded decisions: actions run first in a simulated world, and world-change events require external approval before actualization. On BIRD, we lift relational schemas into typed worlds and compare VirtualSet with direct SQL while holding the model, evidence, values, zero-shot setting, timeout, glossary, repair/voting, and grader constant where possible. On a frozen 1,072-question split, VirtualSet achieves 67.5% accuracy versus 63.5% for glossary-matched direct SQL with repair and voting (+4.0 points; McNemar exact p = 0.00117) using deepseek-reasoner. Full-corpus analysis finds no engine mis-computation of a type-clean expression; remaining errors arise from model semantics or gold defects. In a 30-body guard corpus, the write chain intercepts 20/20 hallucinated action bodies with zero false positives. VirtualSet thus remains competitive on SQL's home benchmark while providing pre-execution semantics for guarded decisions.",
       "readingMinutes": 1
     },
     {
@@ -1001,32 +1131,6 @@
       "readingMinutes": 0
     },
     {
-      "id": "81ecd05c4aee847c",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Auto-Fill: Learning to Predict Missing Values Accurately with Specialist Language Models",
-      "url": "https://arxiv.org/abs/2607.19847v1",
-      "published": "2026-07-22T07:32:09Z",
-      "author": "Yurong Liu",
-      "summary": "Predicting missing cell values in tabular data is a fundamental problem in data cleaning. While state-of-the-art reasoning models show great promise in predicting missing values in tables, by reasoning holistically across rows and columns, they are costly to deploy at scale and…",
-      "content": "Predicting missing cell values in tabular data is a fundamental problem in data cleaning. While state-of-the-art reasoning models show great promise in predicting missing values in tables, by reasoning holistically across rows and columns, they are costly to deploy at scale and tend to be overconfident, often generating hallucinated or false-positive predictions.\nIn this paper, we observe that achieving high-precision missing-value prediction in tables requires a distinct combination of three capabilities: (1) world knowledge, (2) text-based reasoning, and (3) code-based reasoning. We systematically explore design choices for combining these capabilities, and propose an Auto-Fill approach that post-trains three specialist small language models (SLMs), each optimized for one capability. We develop a calibrated ensemble mechanism that either dynamically selects the most confident specialist or abstains, ensuring high accuracy.\nExtensive experiments on 11 benchmarks with 2200 real tables drawn from diverse domains show that Auto-Fill achieves superior accuracy compared to state-of-the-art reasoning models (e.g., o3-pro, Gemini 3 Pro, and DeepSeek R1), while operating at a fraction (less than 1%) of the cost of these frontier models. Our results highlight the effectiveness of specialization and calibrated abstention in the important domain of tabular data. Auto-Fill is publicly available at https://github.com/lyrain2001/auto-fill.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f77851404db1a146",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "DARWIN: Evolving Jailbreak Adversary and Guardrail for LLM Safety Evaluation and Protection",
-      "url": "https://arxiv.org/abs/2607.19829v1",
-      "published": "2026-07-22T07:08:59Z",
-      "author": "Weiwei Qi",
-      "summary": "Most existing LLM safety evaluation and defense methods follow a static formulation: jailbreak vulnerabilities are evaluated with fixed attack methods, and guardrails are trained on fixed malicious prompt datasets. However, real-world adversaries continuously evolve their capabi…",
-      "content": "Most existing LLM safety evaluation and defense methods follow a static formulation: jailbreak vulnerabilities are evaluated with fixed attack methods, and guardrails are trained on fixed malicious prompt datasets. However, real-world adversaries continuously evolve their capabilities and expand the attack space. To address this challenge, we propose DARWIN, an evolutionary attack-defense framework that formulates jailbreaking as an open-ended evolution process and continuously updates guardrails through an evolving attack-defense loop. DARWIN-Attack is an evolutionary adversary that expands its capabilities through strategy discovery, mutation, selection, and feedback-driven composition. It collects strategies from broad external sources, generates new variants through self-reflection and genetic evolution, and retains effective strategies based on their performance against aligned LLMs. During attack execution, DARWIN-Attack adaptively selects and combines evolved strategies according to feedback from target LLMs and guardrails. Across frontier models and guardrails, it achieves state-of-the-art attack success rates, including nearly 100% on DeepSeek-V4-Pro and YuFeng-XGuard and over 90% on GPT-5.5. On the defense side, we introduce DARWIN-Guard, an online adversarial training paradigm that iteratively learns from emerging adversarial samples generated by DARWIN-Attack. To improve robustness without sacrificing utility, DARWIN-Guard jointly trains on malicious and benign disguised queries, encouraging the model to identify underlying intent rather than superficial attack patterns. DARWIN-Guard achieves an average unsafe recall of 91.6% across 12 safety benchmarks, outperforming strong guardrails such as YuFeng-XGuard and Nemotron Guard, while maintaining a nearly 100% pass rate on standard benign datasets.",
-      "readingMinutes": 1
-    },
-    {
       "id": "839f7a51d7b587ae",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1183,19 +1287,6 @@
       "readingMinutes": 0
     },
     {
-      "id": "eec256213caed229",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Tool-Guided Retrieval-Augmented Repair for Securing LLM-Generated C Code",
-      "url": "https://arxiv.org/abs/2607.21641v1",
-      "published": "2026-07-21T19:01:59Z",
-      "author": "Vidyut Sriram",
-      "summary": "Large language models can generate C code from natural-language descriptions, but resulting programs often contain security vulnerabilities and compilation errors, posing risks for embedded and resource-constrained systems. This work investigates how feedback and retrieval impro…",
-      "content": "Large language models can generate C code from natural-language descriptions, but resulting programs often contain security vulnerabilities and compilation errors, posing risks for embedded and resource-constrained systems. This work investigates how feedback and retrieval improve reliability of LLM-generated C code. We present an analysis-and-repair workflow that combines compilation diagnostics, CodeQL static analysis, and KLEE symbolic execution with retrieval of prior repair patterns for iterative refinement.\nEvaluated on 5,000 C programming tasks exercising embedded relevant vulnerabilities, baseline models show substantial reliability gaps, with compilation failure rates up to 46% and security defect rates up to 49%. Our approach improves both metrics. For CodeLlama 7B, security defect rates decrease from 49% to 19% and total CodeQL errors drop from 15,088 to 2,463 (83.7%). For DeepSeek Coder 1.3B, compilation failures are reduced from 42% to 22% and security defects from 35% to 15%. These results show that integrating lightweight analysis tools can improve the safety of LLM-generated code for embedded development.",
-      "readingMinutes": 1
-    },
-    {
       "id": "3064e426d18ccd85",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1222,19 +1313,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "185ab40c88b26708",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "PhoenixRepair: Rethinking Repair Strategy Exploration in Software Agents",
-      "url": "https://arxiv.org/abs/2607.18859v1",
-      "published": "2026-07-21T08:49:30Z",
-      "author": "Tianyue Jiang",
-      "summary": "While Large Language Models have greatly advanced automated issue resolution, existing agent-based methods exhibit a fundamental limitation in their insufficient exploration of repair strategies. This insufficiency manifests in two key aspects. First, the exploration of multiple…",
-      "content": "While Large Language Models have greatly advanced automated issue resolution, existing agent-based methods exhibit a fundamental limitation in their insufficient exploration of repair strategies. This insufficiency manifests in two key aspects. First, the exploration of multiple potential edit locations is limited. Second, the exploration of repair attempts at each location is also insufficient. To address these challenges, we present PhoenixRepair, a multi-agent framework that systematically explores multiple candidate edit locations and performs iterative reflection and refinement on patch generation, thereby expanding the search space of repair strategies. Our framework begins with multi-location sampling, optionally augmented with graph-based localization information for difficult tasks, followed by iterative reflection and refinement to generate better patches, culminating in final-round generation guided by distilled insights from all historical attempts. Experiments on SWE-bench-Verified demonstrate that PhoenixRepair achieves the largest relative improvement of 7.8\\% over SWE-agent under DeepSeek-V3.1, and attains the highest resolved rate of 76.0\\% Pass@1 under MiniMax-M2.5. Meanwhile, it achieves higher fault localization accuracy than existing approaches. Our code is available at https://github.com/DeepSoftwareAnalytics/PhoenixRepair.",
-      "readingMinutes": 1
-    },
-    {
       "id": "d925d8c91f460a44",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1245,19 +1323,6 @@
       "author": "",
       "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
       "content": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "19c84f6c273afa18",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "TrapHunter: Exposing Covert Pathways in Trap Token Contracts",
-      "url": "https://arxiv.org/abs/2607.18753v1",
-      "published": "2026-07-21T06:20:35Z",
-      "author": "Yin Wu",
-      "summary": "Standardized token contracts (e.g., ERC-20) form the foundation of digital assets. However, attackers increasingly abuse this standardization to disguise malicious trap tokens. Unlike obvious violations, these contracts employ a strategy of \"deceptive adherence\": they strictly a…",
-      "content": "Standardized token contracts (e.g., ERC-20) form the foundation of digital assets. However, attackers increasingly abuse this standardization to disguise malicious trap tokens. Unlike obvious violations, these contracts employ a strategy of \"deceptive adherence\": they strictly adhere to standard protocols to evade detection while embedding covert logic to defraud users. To address this, we first systematize the trap landscape by proposing a novel taxonomy derived from the intrinsic functional lifecycle of tokens (Generation, Circulation, Persistence, and Observation). We then propose TrapHunter, a framework designed to identify these traps and expose covert pathways within these deceptive contracts via intent deviation analysis. Specifically, TrapHunter introduces a unified semantic representation combining Abstract Behavior Trees (ABTs) and Augmented Path Graphs (APGs) to normalize intra-procedural syntax and reveal hidden execution paths driven by inter-procedural state dependencies. Crucially, it bridges the semantic gap by leveraging LLMs to reason about the behavioral intent of deviations from reference implementations, followed by fork-based dynamic validation to confirm exploitability. Experimental evaluation on 269 real-world contracts with three LLMs (DeepSeek, GPT, and Gemini) demonstrates that TrapHunter effectively detects all six categories of traps, achieving an average precision of 81.8% and recall of 85.4%, significantly outperforming state-of-the-art tools.",
       "readingMinutes": 1
     },
     {
@@ -1283,7 +1348,7 @@
       "published": "2026-07-21T02:00:00Z",
       "author": "英伟达中国",
       "summary": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。 Vera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。 Vera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供",
-      "content": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。\n\nVera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。\n\nVera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供最高的每瓦性能和最低的 Token 成本。CoreWeave 针对 DeepSeek-R1 的首次基准测试结果充分证明了这一点：其每兆瓦吞吐量比 Grace Blackwell NVL72 提升了 10 倍——这直接切中了电力受限的 AI 工厂最关心的核心指标。\n\n通过极致协同设计提升性能\n\n取得这一突破的关键在于七款芯片和五种机架托盘之间的极致协同设计。五种机架系统包括 Vera Rubin NVL72、Vera CPU 机架、Groq 3 LPX、Spectrum-6 SPX 和 Vera BlueField-4 STX。它们被作为一个完整的系统进行工程研发，而非由通用产品简单拼凑而成。\n\nNVIDIA Vera CPU 正是其核心所在。它重新定义了“AI 工厂 CPU”应有的形态。专为智能体时代设计，其定制 Olympus 核心相较竞品的芯粒 (chiplet) 方案，单线程性能提升 2 倍、核间带宽提升 3 倍、内存延迟降低 40%，使其成为面向最关键智能体负载时最高效的单线程 CPU。\n\n以专属定制网络，加速 AI 工厂建设\n\n在网络方面，该平台的第六代 NVLink 纵向扩展技术在处理复杂工作负载时，相比通用以太网，吞吐量提升超过 2 倍、延迟降低 1/3、数据包处理速率提升 10 倍。在横向扩展方面，Spectrum-X 以太网集成 102.4T 的 Spectrum-6 交换机系统、1.6T 的 ConnectX-9 SuperNIC、自适应路由、高级拥塞控制、遥测技术以及开放的操作系统支持，使其 RDMA 带宽比通用以太网高出 1.6 倍。\n\n包括 CoreWeave、微软、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础设施建设者率先采用 Spectrum-6 交换机，以加速其 AI 工厂的建设。此外，采用 NVIDIA 光电一体化封装 (CPO) 技术用于横向扩展，这是全球首款实现量产的同类型交换机，与传统可插拔收发器相比，其能效提升了 5 倍，平均无故障间隔时间 (MTBI) 提升了 10 倍。CoreWeave、Lambda 和 OCI 率先采用该技术。\n\nSpectrum-XGS 以太网跨站点吞吐量提升 1.9 倍，实现跨站点性能增强。满足十亿瓦级 AI 工厂的建设不再局限于单一建筑的需求。\n\n同时，NVLink Fusion 向第三方 XPU 开放了 NVIDIA 基础设施平台，为合作伙伴能够借助成熟的 NVLink 纵向扩展堆栈和生态系统，实现产品的快速上市。\n\n节省部署时间，节约水资源\n\n经过三代机架级协同设计的迭代，NVIDIA 打造出的 Vera Rubin NVL72 系统实现了托盘内无电缆、无风扇、无液冷软管的极简设计，将计算托盘的组装时间从过去的数小时大幅缩短至仅需 1 分钟。\n\n45 摄氏度的液冷进水温度设计，使得系统无需冷水机组，仅靠干式冷却器即可运行。对于新建的 AI 工厂而言，这种高温干式冷却结合闭环液冷系统，每兆瓦每年可节省数百万加仑的水资源。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 驱动欧洲开放模型时代\n\nVera Rubin 正为欧洲的 AI 基础设施注入下一代性能。\n\nVera Rubin 也是微软与 Mistral 新一轮深化合作的基石。该合作将前沿 AI 带到了欧洲，把开放的欧洲模型与云环境及客户管理的环境相结合，使各国政府和重点监管行业能够按照自身需求采用 AI 技术。\n\n这项合作的背后，是一项旨在扩大欧洲 AI 基础设施的数十亿美元新协议。Mistral 正在扩充其 GPU 算力，通过引入数千个最新的 NVIDIA Vera Rubin GPU，增加面向客户的 AI 算力供给，并为训练、推理和大规模部署提供共享平台。\n\nNVIDIA Vera Rubin 正迈入全面量产阶段。这款机架级 AI 超级计算机将七款协同设计的全新芯片整合为一个统一系统，它将调用数万个 GPU，为新一代 Mistral Compute 和微软欧洲的 AI 基础设施提供动力。\n\n欧洲希望在遵循自身法律的情况下，在本地完全自主可控地运行全球最强大的 AI。同时，其面临的挑战也在不断升级：智能体系统消耗的 Token 数量可达传统 AI 应用的 15 倍，这使得高效的基础设施成为重点。满足这一需求不仅需要庞大的计算能力，更需要 AI 在实现高效扩展的同时，满足区域对数据控制、治理、可靠性及战略自主的要求。\n\nVera Rubin 为欧洲的开放模型生态系统提供了计算基础。其全栈架构融合了加速计算、网络与软件，使模型和智能体能够从训练到生产实现高效运行。\n\n为企业级 AI 打造的开放模型\n\n微软、Mistral 与 NVIDIA 共同在公共云、云连接以及完全断开连接的私有云环境中，提供适配的 AI——将开放模型的灵活性与大规模运行所需的基础设施结合。\n\nMistral Medium 3.5 和 OCR 4 现已在 Microsoft Foundry 上线，同时 Mistral 模型也已集成至 Microsoft Copilot Studio。客户可以通过 Azure Local 和 Foundry Local 在云端和客户自主控制的环境中使用相同的模型、工具和运行模式。\n\n符合欧洲标准的 AI\n\n政府机构可将 AI 应用于涉及敏感业务的工作流；医疗和金融服务机构可在满足区域合规要求的前提下进行部署；制造商可在本地处理数据以实现更快速的决策。与 NVIDIA GB200 NVL72 相比，Vera Rubin NVL72 每兆瓦的 Token 产出提升高达 10 倍，每百万 Token 的成本降至原来的十分之一，在同等功耗下提供更强大的智能算力。\n\n打造真正适配当地语言、文化与法规的 AI 不应要求组织在创新、经济效益与控制权之间做出取舍。以 Vera Rubin 为计算基础，依托微软和 Mistral 提供的自主云基础设施与欧洲开放模型，欧洲完全可以三者兼得。\n\n详情请参阅微软与 Mistral 的新闻稿。\n\n2026 年 7 月 21 日\n\nCoreWeave 基准测试显示，NVIDIA Vera Rubin 系统每兆瓦 Token 吞吐量达 Blackwell 的 10 倍\n\n通过与 NVIDIA 进行极致的协同设计，CoreWeave 正依托 Vera Rubin NVL72 实现数量级的性能跃升。\n\n与 CoreWeave 等合作伙伴的紧密协作，对于将新一代 NVIDIA 加速计算成功部署至 AI 工厂至关重要。\n\n经过数月的联合工程研发，CoreWeave 成为首家完成 Vera Rubin NVL72 部署与验证的 AI 云服务提供商——他们首次公布了基于实际运行硬件测得的性能数据。\n\nCoreWeave 在 Vera Rubin NVL72 上运行了 DeepSeek-R1 基准测试。结果显示，与 Grace Blackwell NVL72 相比，Vera Rubin NVL72 每兆瓦每秒 Token 吞吐量提升了 10 倍。\n\n每兆瓦 Token 吞吐量是决定 AI 基础设施能否实现大规模盈利的核心指标。每兆瓦产出的 Token 越多，意味着在同等电力预算下能产出更多的智能算力，或者在显著降低功耗的情况下处理相同的工作负载。Jane Street 等 AI 实验室和企业将采用 Vera Rubin 平台，在 CoreWeave 云上扩展其 AI 工厂。\n\n借助 NVIDIA Spectrum-X 突破瓶颈\n\nDeepSeek R1 采用的混合专家 (MoE) 架构，在大规模部署场景下 GPU 间的 all-to-all 通信成为一项关键需求：每个 Token 都必须在分布式的专家子网络中进行路由。Vera Rubin NVL72 配备的 260 TB/s all-to-all NVLink 6 互连架构彻底消除了这一限制，使整个机架能够作为统一的加速器运行。\n\nCoreWeave 是首批部署 NVIDIA Spectrum-X 以太网 SN6600-LD，将其作为 Vera Rubin NVL72 交换网络架构的企业之一。\n\nCoreWeave 基于 102.4 Tb/s 的 Spectrum-6 交换芯片并采用液冷设计，部署了高密度交换机架，单机架可提供 1.64 Pb/s 的带宽，容量较上一代风冷交换机提升了 100%。此外，CoreWeave 还提供完全无阻塞、多平面、多轨方案的 Spine and Leaf 网络架构，确保使用 Vera Rubin NVL72 构建的系统 GPU 之间无阻塞互连通信。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 系统驱动全新 Google Cloud A5X 实例，助力 Ineffable Intelligence 发展\n\n由 NVIDIA Vera Rubin NVL72 和针对数据中心横向扩展架构的 Google Virgo 网络共同驱动的 Google Cloud A5X 实例。图片由 Google Cloud 提供。\n\nNVIDIA Vera Rubin NVL72 正在为 Google Cloud 的首个 A5X 实例提供算力支持，该实例现已由伦敦初创公司 Ineffable Intelligence 率先采用。\n\nIneffable Intelligence 致力于开发新一代智能“Superlearner”系统，该系统能够通过经验持续学习，从而在各个领域实现新的突破。\n\nIneffable Intelligence 的智能体直接从与环境的交互中学习，而非依赖静态数据集。Ineffable 没有使用大语言模型（LLMs），而是通过强化学习来开发“Superlearner”系统。该系统在持续模拟的大规模并行环境中生成经验，并迅速将这些经验转化为策略更新与评估。这种紧密耦合的学习闭环对算力、内存带宽和互连技术提出了极高的要求，需要基础设施能够在极大的规模下以极低的延迟运行。\n\nIneffable Intelligence 联合创始人 Lasse Espeholt 表示：“下一个研究时代，必须依托下一代的硬件。能与 NVIDIA 和 Google Cloud 的团队合作，让我们得以抢先体验 Vera Rubin，我们深感荣幸。这两个团队给予了极具价值的支持：我们的系统几乎立即完成部署并启动运行，目前已经在为 Superlearners 系统测试基础设施。”\n\nNVIDIA Vera Rubin NVL72 专为这类智能体训练而设计，能够提供可预测的低延迟、高利用率，以及远超上一代系统的单位智能算力产出。这使其成为大规模强化学习的理想平台选择。\n\n在 Google Cloud Next 上发布的 Google Cloud A5X 实例是基于 NVIDIA Vera Rubin NVL72 机架级系统构建的裸金属实例。与上一代相比，其每 Token 推理成本降低至 1/10，每兆瓦 Token 吞吐量提升了 10 倍。\n\nA5X 采用 NVIDIA ConnectX-9 SuperNICs 并结合了新一代 Google Virgo 网络，能够在单一站点内扩展至数万个 NVIDIA Rubin GPU，在跨多站点配置下更可扩展至近百万个 GPU 集群。这为客户提供了一套统一的、针对 AI 优化的技术栈，用于前沿模型、开放模型、智能体模型和物理 AI 模型的训练、微调和服务部署，同时实现了性能、成本和可持续性的全面优化。\n\n这一基础设施旨在助力解锁下一代强化学习系统，推动超级学习和超级智能领域的突破。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera CPU 助力 DeepInfra AI 云实现编排速度翻倍\n\nDeepInfra 的基准测试结果显示，NVIDIA Vera CPU 的运行速度是其他 CPU 的 2 倍以上，并且能够支持更多并发的 AI 智能体。\n\n作为 NVIDIA 开放 AI 生态系统的早期伙伴，云平台 DeepInfra 基于其生产级 AI 智能体基础设施，独立设计并运行了基准测试。DeepInfra 每周处理近 5 万亿个 Token，其中约 30% 由智能体系统驱动。其云平台专为高吞吐量的 AI 推理而打造。\n\n基准测试表明，在保持相同服务质量的前提下，Vera CPU 支持的并发 AI 智能体数量比其他 CPU多出高达 1.6 倍，编排速度快 2.2 倍，同时还能提高基础设施的利用率和成本效益。这些结果充分证明，NVIDIA Vera CPU 能够提供生产级智能体 AI 所需的成本效益、低延迟和高吞吐量。\n\n随着 AI 智能体承担起越来越复杂的推理、规划、工具调用和数据传输任务，对于编排每次模型调用前后相关的工作而言，CPU 的性能正变得愈发重要。\n\n作为 NVIDIA 面向 AI 工厂的极致协同设计理念的一部分，Vera CPU 专为智能体工作负载而打造。DeepInfra 的基准测试充分凸显了 NVIDIA Vera CPU 如何帮助云服务提供商提升基础设施利用率、提高成本效益，并在保持相同服务质量的前提下支持更多并发的 AI 智能体。\n\n深入了解 NVIDIA Vera Rubin 平台。",
+      "content": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。\n\nVera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。\n\nVera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供最高的每瓦性能和最低的 Token 成本。CoreWeave 针对 DeepSeek-R1 的首次基准测试结果充分证明了这一点：其每兆瓦吞吐量比 Grace Blackwell NVL72 提升了 10 倍——这直接切中了电力受限的 AI 工厂最关心的核心指标。\n\n通过极致协同设计提升性能\n\n取得这一突破的关键在于七款芯片和五种机架托盘之间的极致协同设计。五种机架系统包括 Vera Rubin NVL72、Vera CPU 机架、Groq 3 LPX、Spectrum-6 SPX 和 Vera BlueField-4 STX。它们被作为一个完整的系统进行工程研发，而非由通用产品简单拼凑而成。\n\nNVIDIA Vera CPU 正是其核心所在。它重新定义了“AI 工厂 CPU”应有的形态。专为智能体时代设计，其定制 Olympus 核心相较竞品的芯粒 (chiplet) 方案，单线程性能提升 2 倍、核间带宽提升 3 倍、内存延迟降低 40%，使其成为面向最关键智能体负载时最高效的单线程 CPU。\n\n以专属定制网络，加速 AI 工厂建设\n\n在网络方面，该平台的第六代 NVLink 纵向扩展技术在处理复杂工作负载时，相比通用以太网，吞吐量提升超过 2 倍、延迟降低 1/3、数据包处理速率提升 10 倍。在横向扩展方面，Spectrum-X 以太网集成 102.4T 的 Spectrum-6 交换机系统、1.6T 的 ConnectX-9 SuperNIC、自适应路由、高级拥塞控制、遥测技术以及开放的操作系统支持，使其 RDMA 带宽比通用以太网高出 1.6 倍。\n\n包括 CoreWeave、微软、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础设施建设者率先采用 Spectrum-6 交换机，以加速其 AI 工厂的建设。此外，采用 NVIDIA 光电一体化封装 (CPO) 技术用于横向扩展，这是全球首款实现量产的同类型交换机，与传统可插拔收发器相比，其能效提升了 5 倍，平均无故障间隔时间 (MTBI) 提升了 10 倍。CoreWeave、Lambda 和 OCI 率先采用该技术。\n\nSpectrum-XGS 以太网跨站点吞吐量提升 1.9 倍，实现跨站点性能增强。满足十亿瓦级 AI 工厂的建设不再局限于单一建筑的需求。\n\n同时，NVLink Fusion 向第三方 XPU 开放了 NVIDIA 基础设施平台，为合作伙伴能够借助成熟的 NVLink 纵向扩展堆栈和生态系统，实现产品的快速上市。\n\n节省部署时间，节约水资源\n\n经过三代机架级协同设计的迭代，NVIDIA 打造出的 Vera Rubin NVL72 系统实现了托盘内无电缆、无风扇、无液冷软管的极简设计，将计算托盘的组装时间从过去的数小时大幅缩短至仅需 1 分钟。\n\n45 摄氏度的液冷进水温度设计，使得系统无需冷水机组，仅靠干式冷却器即可运行。对于新建的 AI 工厂而言，这种高温干式冷却结合闭环液冷系统，每兆瓦每年可节省数百万加仑的水资源。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 驱动欧洲开放模型时代\n\nVera Rubin 正为欧洲的 AI 基础设施注入下一代性能。\n\nVera Rubin 也是微软与 Mistral 新一轮深化合作的基石。该合作将前沿 AI 带到了欧洲，把开放的欧洲模型与云环境及客户管理的环境相结合，使各国政府和重点监管行业能够按照自身需求采用 AI 技术。\n\n这项合作的背后，是一项旨在扩大欧洲 AI 基础设施的数十亿美元新协议。Mistral 正在扩充其 GPU 算力，通过引入数千个最新的 NVIDIA Vera Rubin GPU，增加面向客户的 AI 算力供给，并为训练、推理和大规模部署提供共享平台。\n\nNVIDIA Vera Rubin 正迈入全面量产阶段。这款机架级 AI 超级计算机将七款协同设计的全新芯片整合为一个统一系统，它将调用数万个 GPU，为新一代 Mistral Compute 和微软欧洲的 AI 基础设施提供动力。\n\n欧洲希望在遵循自身法律的情况下，在本地完全自主可控地运行全球最强大的 AI。同时，其面临的挑战也在不断升级：智能体系统消耗的 Token 数量可达传统 AI 应用的 15 倍，这使得高效的基础设施成为重点。满足这一需求不仅需要庞大的计算能力，更需要 AI 在实现高效扩展的同时，满足区域对数据控制、治理、可靠性及战略自主的要求。\n\nVera Rubin 为欧洲的开放模型生态系统提供了计算基础。其全栈架构融合了加速计算、网络与软件，使模型和智能体能够从训练到生产实现高效运行。\n\n为企业级 AI 打造的开放模型\n\n微软、Mistral 与 NVIDIA 共同在公共云、云连接以及完全断开连接的私有云环境中，提供适配的 AI——将开放模型的灵活性与大规模运行所需的基础设施结合。\n\nMistral Medium 3.5 和 OCR 4 现已在 Microsoft Foundry 上线，同时 Mistral 模型也已集成至 Microsoft Copilot Studio。客户可以通过 Azure Local 和 Foundry Local 在云端和客户自主控制的环境中使用相同的模型、工具和运行模式。\n\n符合欧洲标准的 AI\n\n政府机构可将 AI 应用于涉及敏感业务的工作流；医疗和金融服务机构可在满足区域合规要求的前提下进行部署；制造商可在本地处理数据以实现更快速的决策。与 NVIDIA GB200 NVL72 相比，Vera Rubin NVL72 每兆瓦的 Token 产出提升高达 10 倍，每百万 Token 的成本降至原来的十分之一，在同等功耗下提供更强大的智能算力。\n\n打造真正适配当地语言、文化与法规的 AI 不应要求组织在创新、经济效益与控制权之间做出取舍。以 Vera Rubin 为计算基础，依托微软和 Mistral 提供的自主云基础设施与欧洲开放模型，欧洲完全可以三者兼得。\n\n详情请参阅微软与 Mistral 的新闻稿。\n\n2026 年 7 月 21 日\n\nCoreWeave 基准测试显示，NVIDIA Vera Rubin 系统每兆瓦 Token 吞吐量达 Blackwell 的 10 倍\n\n通过与 NVIDIA 进行极致的协同设计，CoreWeave 正依托 Vera Rubin NVL72 实现数量级的性能跃升。\n\n与 CoreWeave 等合作伙伴的紧密协作，对于将新一代 NVIDIA 加速计算成功部署至 AI 工厂至关重要。\n\n经过数月的联合工程研发，CoreWeave 成为首家完成 Vera Rubin NVL72 部署与验证的 AI 云服务提供商——他们首次公布了基于实际运行硬件测得的性能数据。\n\nCoreWeave 在 Vera Rubin NVL72 上运行了 DeepSeek-R1 基准测试。结果显示，与 Grace Blackwell NVL72 相比，Vera Rubin NVL72 每兆瓦每秒 Token 吞吐量提升了 10 倍。\n\n每兆瓦 Token 吞吐量是决定 AI 基础设施能否实现大规模盈利的核心指标。每兆瓦产出的 Token 越多，意味着在同等电力预算下能产出更多的智能算力，或者在显著降低功耗的情况下处理相同的工作负载。Jane Street 等 AI 实验室和企业将采用 Vera Rubin 平台，在 CoreWeave 云上扩展其 AI 工厂。\n\n借助 NVIDIA Spectrum-X 突破瓶颈\n\nDeepSeek R1 采用的混合专家 (MoE) 架构，在大规模部署场景下 GPU 间的 all-to-all 通信成为一项关键需求：每个 Token 都必须在分布式的专家子网络中进行路由。Vera Rubin NVL72 配备的 260 TB/s all-to-all NVLink 6 互连架构彻底消除了这一限制，使整个机架能够作为统一的加速器运行。\n\nCoreWeave 是首批部署 NVIDIA Spectrum-X 以太网 SN6600-LD，将其作为 Vera Rubin NVL72 交换网络架构的企业之一。\n\nCoreWeave 基于 102.4 Tb/s 的 Spectrum-6 交换芯片并采用液冷设计，部署了高密度交换机架，单机架可提供 1.64 Pb/s 的带宽，容量较上一代风冷交换机提升了 100%。此外，CoreWeave 还提供完全无阻塞、多平面、多轨方案的 Spine and Leaf 网络架构，确保使用 Vera Rubin NVL72 构建的系统 GPU 之间无阻塞互连通信。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 系统驱动全新 Google Cloud A5X 实例，助力 Ineffable Intelligence 发展\n\n由 NVIDIA Vera Rubin NVL72 和针对数据中心横向扩展架构的 Google Virgo 网络共同驱动的 Google Cloud A5X 实例。图片由 Google Cloud 提供。\n\nNVIDIA Vera Rubin NVL72 正在为 Google Cloud 的首个 A5X 实例提供算力支持，该实例现已由伦敦初创公司 Ineffable Intelligence 率先采用。\n\nIneffable Intelligence 致力于开发新一代智能“Superlearner”系统，该系统能够通过经验持续学习，从而在各个领域实现新的突破。\n\nIneffable Intelligence 的智能体直接从与环境的交互中学习，而非依赖静态数据集。Ineffable 没有使用大语言模型 (LLMs) ，而是通过强化学习来开发“Superlearner”系统。该系统在持续模拟的大规模并行环境中生成经验，并迅速将这些经验转化为策略更新与评估。这种紧密耦合的学习闭环对算力、内存带宽和互连技术提出了极高的要求，需要基础设施能够在极大的规模下以极低的延迟运行。\n\nIneffable Intelligence 联合创始人 Lasse Espeholt 表示：“下一个研究时代，必须依托下一代的硬件。能与 NVIDIA 和 Google Cloud 的团队合作，让我们得以抢先体验 Vera Rubin，我们深感荣幸。这两个团队给予了极具价值的支持：我们的系统几乎立即完成部署并启动运行，目前已经在为 Superlearners 系统测试基础设施。”\n\nNVIDIA Vera Rubin NVL72 专为这类智能体训练而设计，能够提供可预测的低延迟、高利用率，以及远超上一代系统的单位智能算力产出。这使其成为大规模强化学习的理想平台选择。\n\n在 Google Cloud Next 上发布的 Google Cloud A5X 实例是基于 NVIDIA Vera Rubin NVL72 机架级系统构建的裸金属实例。与上一代相比，其每 Token 推理成本降低至 1/10，每兆瓦 Token 吞吐量提升了 10 倍。\n\nA5X 采用 NVIDIA ConnectX-9 SuperNICs 并结合了新一代 Google Virgo 网络，能够在单一站点内扩展至数万个 NVIDIA Rubin GPU，在跨多站点配置下更可扩展至近百万个 GPU 集群。这为客户提供了一套统一的、针对 AI 优化的技术栈，用于前沿模型、开放模型、智能体模型和物理 AI 模型的训练、微调和服务部署，同时实现了性能、成本和可持续性的全面优化。\n\n这一基础设施旨在助力解锁下一代强化学习系统，推动超级学习和超级智能领域的突破。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera CPU 助力 DeepInfra AI 云实现编排速度翻倍\n\nDeepInfra 的基准测试结果显示，NVIDIA Vera CPU 的运行速度是其他 CPU 的 2 倍以上，并且能够支持更多并发的 AI 智能体。\n\n作为 NVIDIA 开放 AI 生态系统的早期伙伴，云平台 DeepInfra 基于其生产级 AI 智能体基础设施，独立设计并运行了基准测试。DeepInfra 每周处理近 5 万亿个 Token，其中约 30% 由智能体系统驱动。其云平台专为高吞吐量的 AI 推理而打造。\n\n基准测试表明，在保持相同服务质量的前提下，Vera CPU 支持的并发 AI 智能体数量比其他 CPU多出高达 1.6 倍，编排速度快 2.2 倍，同时还能提高基础设施的利用率和成本效益。这些结果充分证明，NVIDIA Vera CPU 能够提供生产级智能体 AI 所需的成本效益、低延迟和高吞吐量。\n\n随着 AI 智能体承担起越来越复杂的推理、规划、工具调用和数据传输任务，对于编排每次模型调用前后相关的工作而言，CPU 的性能正变得愈发重要。\n\n作为 NVIDIA 面向 AI 工厂的极致协同设计理念的一部分，Vera CPU 专为智能体工作负载而打造。DeepInfra 的基准测试充分凸显了 NVIDIA Vera CPU 如何帮助云服务提供商提升基础设施利用率、提高成本效益，并在保持相同服务质量的前提下支持更多并发的 AI 智能体。\n\n深入了解 NVIDIA Vera Rubin 平台。",
       "readingMinutes": 10
     },
     {
@@ -1300,32 +1365,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "51a1bf9627a638e6",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Semantic Drift in Bug Resolution: How Behavioral Signals Propagate from Reports to Tests and Patches",
-      "url": "https://arxiv.org/abs/2607.18550v1",
-      "published": "2026-07-20T22:32:23Z",
-      "author": "Wendkûuni C. Ouédraogo",
-      "summary": "Bug resolution is a cross-artifact process: natural-language reports must expose actionable behavioral cues that can be reproduced by tests and corrected by patches. Yet the extent to which these signals are preserved across artifacts remains largely unquantified. We introduce D…",
-      "content": "Bug resolution is a cross-artifact process: natural-language reports must expose actionable behavioral cues that can be reproduced by tests and corrected by patches. Yet the extent to which these signals are preserved across artifacts remains largely unquantified. We introduce Desc2Fix, a framework for measuring semantic alignment between bug reports, triggering tests, and developer-written fixes. Alignment is operationalized through structured behavioral anchors (e.g., reproduction steps, API/exception cues, expected vs. actual behavior), deterministic similarity metrics (ROUGE, SBERT, CodeBERT, OpenAI embeddings), and LLM-based judgments grounded in coverage, correctness, and specificity. We analyze 2,857 report-test-patch triplets from Defects4J and SWT-Bench using GPT-4o and DeepSeek-Chat. LLMs reliably extract structured signals (up to 90% completeness) and exhibit strong cross-model consistency, yielding a stable semantic input contract for downstream reasoning. However, alignment is highly representation-sensitive: lexical similarity alone is insufficient; full diffs provide the most stable basis for judging report-patch correspondence; and structured summaries trade surface similarity for predicate-level salience. Across more than 182,000 LLM alignment ratings, both models show systematic optimism relative to humans (1-2 points on 5-point scales) and only modest rank agreement, motivating bias-aware evaluation. Our results demonstrate that behavioral alignment is measurable but not reducible to similarity, and that structured anchors combined with embedding-based proxies provide reproducible signals for ranking and filtering tests and candidate patches. By transforming alignment into a controllable engineering signal, Desc2Fix enables more reliable test generation, semantics-aware fault localization, principled patch ranking, and improved bug report authoring.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "28b5dd539b1bcaaa",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Beyond Resolved Rate: A Non-Functional Quality Study",
-      "url": "https://arxiv.org/abs/2607.18462v1",
-      "published": "2026-07-20T19:24:57Z",
-      "author": "Xin Sun",
-      "summary": "Repository-level coding benchmarks typically measure progress in model capability by comparing the resolved rates of later and earlier models. However, this focus overlooks whether the non-functional quality of their generated patches has also changed across model generations. T…",
-      "content": "Repository-level coding benchmarks typically measure progress in model capability by comparing the resolved rates of later and earlier models. However, this focus overlooks whether the non-functional quality of their generated patches has also changed across model generations. This study investigates whether later models produce functionally correct patches with better non-functional characteristics than earlier models on comparable repository-level repair tasks. We conducted two case studies involving four Claude and DeepSeek models on SWE-bench Lite. Using the same SWE-agent functional repair setting, we evaluated the generated patches with CodeQL, CodeScene, CPU time, and peak memory. Our primary analysis compared the models on commonly resolved instances. The static analysis results showed that most CodeQL paired differences were zero and that no CodeQL or CodeScene comparison remained significant after Holm correction. CPU time differences were small and inconsistent across model families, while peak memory usage was slightly higher for the later models under the benchmark test workload, with small absolute differences. Differences in individual CodeQL rules and CodeScene categories varied across model families and did not survive multiple-comparison correction. Overall, later models resolved more instances but showed no consistent improvement in the measured non-functional indicators on tasks solved by both models. Through this study, we hope to encourage a more comprehensive evaluation of models' practical software engineering capabilities.",
-      "readingMinutes": 1
-    },
-    {
       "id": "413ef8ab41769726",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -1337,19 +1376,6 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
-    },
-    {
-      "id": "9a7b0f0942b6ba49",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "MADA-RL: Multi-Agent Debate-Aware Reinforcement Learning for Parameter-Efficient Reasoning in Compact Models",
-      "url": "https://arxiv.org/abs/2607.18006v1",
-      "published": "2026-07-20T14:38:00Z",
-      "author": "Martino M. L. Pulici",
-      "summary": "Large language models achieve strong reasoning performance, but often at prohibitive training cost - a challenge that is especially acute for compact models ($\\leq 4 \\, \\mathrm{B}$ parameters) trained under limited budgets. We introduce MADA-RL, a post-training framework that sp…",
-      "content": "Large language models achieve strong reasoning performance, but often at prohibitive training cost - a challenge that is especially acute for compact models ($\\leq 4 \\, \\mathrm{B}$ parameters) trained under limited budgets. We introduce MADA-RL, a post-training framework that specializes compact models into generator and critic roles and trains them with a debate-aware learning signal, fine-tuning only a small subset of parameters via LoRA adapters. Our central contribution is a counterfactual critic advantage: a dynamic, role-conditioned baseline that redefines the critic's advantage as its reward minus the generator ensemble's per-instance accuracy. This explicitly optimizes critics to improve over generator consensus rather than to merely reproduce a correct answer, yielding more targeted credit assignment than static mean-reward normalization. At deployment, the specialized agents are composed in a lightweight multi-round protocol. Across five mathematical reasoning benchmarks, MADA-RL raises the accuracy of the DeepSeek-R1-Distill-Qwen-1.5B model from $39.9 \\, \\%$ to $41.9 \\, \\%$ ($+2.0$ points, $p < 0.001$) using $16$ times fewer trainable parameters than fully fine-tuned baselines, placing it on the accuracy-trainable-parameter Pareto front. It approaches, but does not surpass, the strongest baselines (DeepScaleR, STILL-3), which are trained on substantially larger datasets; we analyse this gap and the associated inference-time cost directly. A controlled study isolates the source of MADA-RL's gains: the counterfactual advantage produces the highest critic improvement rate of any model evaluated, indicating that trained critics learn to correct generator errors rather than to imitate them.",
-      "readingMinutes": 1
     },
     {
       "id": "a5ab872c216c2f94",
@@ -1375,6 +1401,32 @@
       "author": "",
       "summary": "In the previous article \"Cluster User Emulation System (CUE Agent) for Automated Blue Team and Red Team Activities in Cyber Exercises\" , I introduced the Cluster User Emulation System (CUE) and how to use this agent framework to automatically generate realistic Blue Team and Red…",
       "content": "In the previous article \"Cluster User Emulation System (CUE Agent) for Automated Blue Team and Red Team Activities in Cyber Exercises\" , I introduced the Cluster User Emulation System (CUE) and how to use this agent framework to automatically generate realistic Blue Team and Red Team user activities for cyber exercises. Such as emulating the daily behavior of legitimate users as well as attacker o",
+      "readingMinutes": 1
+    },
+    {
+      "id": "34528ab1d440321e",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "NVIDIA NVLink：适用于 AI 工厂的纵向扩展网络",
+      "url": "https://developer.nvidia.cn/blog/nvidia-nvlink-the-scale-up-network-for-ai-factories/",
+      "published": "2026-07-20T08:46:28Z",
+      "author": "wnger",
+      "summary": "对 AI 的需求持续加速。工作负载变得越来越大，模型变得越来越复杂，并且以前所未有的速度部署 AI 计算基础设 … Continued",
+      "content": "对 AI 的需求持续加速。工作负载变得越来越大，模型变得越来越复杂，并且以前所未有的速度部署 AI 计算基础设施的压力越来越大。AI 工厂是数据中心规模的系统，可持续将数据和能源转化为智能，以满足这种永无止境的需求。 这种面向数据中心的 AI 工厂方法从根本上改变了系统设计和运营。加速器 FLOPS 峰值已无法满足需求。当今的 AI 工作负载，包括万亿参数模型、多专家模型 (MoE) 架构、长上下文推理和分解服务，需要多个加速器作为单个计算单元协同工作。实现这一目标需要高带宽、低延迟的 GPU 到 GPU 通信、集合网络的快速网络计算以及软件感知调度。 考虑到组件数量众多，需要在整个数据中心中建立弹性。跟上 AI 的步伐需要能够跟上行业创新速度的技术和供应链。 因此，纵向扩展网络已成为 AI 工厂中最重要的架构决策之一。纵向扩展结构使加速器能够作为单个计算单元运行，\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "9581280eba8c9e72",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "将 NVIDIA Omniverse RTX 传感器仿真集成到现有应用中",
+      "url": "https://developer.nvidia.cn/blog/integrate-nvidia-omniverse-rtx-sensor-simulation-into-existing-apps/",
+      "published": "2026-07-20T08:00:00Z",
+      "author": "wnger",
+      "summary": "构建 3D、设计、仿真、机器人和工业数字孪生应用的开发者需要如何将物理 AI 功能引入他们已经使用的工具和服务 … Continued",
+      "content": "构建 3D、设计、仿真、机器人和工业数字孪生应用的开发者需要如何将物理 AI 功能引入他们已经使用的工具和服务中。其中许多工作流已依赖于 物理 AI 场景、OpenUSD 资产、仿真就绪 (SimReady) 基于 Blender 的工作流、CAD 工作流或特定领域的应用堆栈。挑战在于如何为应用和 AI 智能体提供可调用的工具，以检查场景、生成传感器输出、测试更改并返回开发者可以信任的证据。 NVIDIA Omniverse 库，现在是 NVIDIA Agent Toolkit 的一部分，提供模块化构建块，用于将这些功能添加到现有应用中。 ovrtx 是该堆栈中的 RTX 传感器仿真库，现已作为预发行软件在 GitHub 上提供。它为开发者提供了轻量级的 C 和 Python SDK，用于从 OpenUSD 内容生成摄像头、激光雷达、雷达和相关传感器输出，\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1479,6 +1531,19 @@
       "author": "Justin Luk",
       "summary": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images",
       "content": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f488e55b10047ff0",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "问答：Capcom 如何在“虚实万象 ( PRAGMATA) ”和“生化危机：安魂曲 ( Resident Evil Requiem) ”中将路径追踪技术引入 RE ENGINE",
+      "url": "https://developer.nvidia.cn/blog/qa-how-capcom-brought-path-tracing-to-re-engine-across-pragmata-and-resident-evil-requiem/",
+      "published": "2026-07-16T15:59:09Z",
+      "author": "wnger",
+      "summary": "Capcom 的 RE ENGINE 团队着手将路径追踪技术同时引入两款游戏：“生化危机：安魂曲 ( Resi … Continued",
+      "content": "Capcom 的 RE ENGINE 团队着手将路径追踪技术同时引入两款游戏：“生化危机：安魂曲 ( Resident Evil Requiem)” 和 “虚实万象 ( PRAGMATA)”，每款游戏都具有不同的视觉特征。 两年多来，RE ENGINE 团队构建了一个参考路径追踪器，根据常见的 DCC 路径追踪器验证了其光照效果，然后将其扩展为针对 DLSS 优化并基于 NVIDIA RTX Kit 构建的面向游戏的版本。 带来的好处是：直接照明现在可以通过路径追踪器代替阴影贴图来实现，游戏过程和过场动画之间的视觉差距大大缩小，发丝在这两个游戏中都能获得实时光线传输。 NVIDIA 游戏团队与 RE ENGINE 讨论了从光线追踪到路径追踪的过渡、内容管线中的变化以及渲染器的下一步发展方向。 为何 Capcom 现在要在“虚实万象 ( PRAGMATA) ”和“生化危机：\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1690,19 +1755,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "330468ecd8ed06f0",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "如何借助 RL 智能体技能和 NVIDIA NeMo 运行自动研究工作流",
-      "url": "https://developer.nvidia.cn/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo/",
-      "published": "2026-07-14T09:00:00Z",
-      "author": "wnger",
-      "summary": "编码 AI 智能体 正成为长期运行的机器学习 (ML) 工作流程的实用运算符。他们可以检查资源库、设置运行时、 … Continued",
-      "content": "编码 AI 智能体 正成为长期运行的机器学习 (ML) 工作流程的实用运算符。他们可以检查资源库、设置运行时、解决构建问题、启动实验、监控执行、分析指标并汇总结果。 对于 强化学习 (RL) 研究而言，这一点很重要，因为有意义的指标通常只有在基本实验基础设施就绪后才会出现。 Autoresearch 是 Andrej Karpathy 的一个开源 Python 项目，用于自动化 AI 和 ML 模型训练。 通过这种方法，自主 AI 智能体将高层次的目标转化为假设，编辑和测试真实的代码库，保留改进指标的想法，并将结果交还给人类研究人员。这使得团队能够从高性能开放模型 (例如 NVIDIA Nemotron) 开始构建专业领域智能体，然后使用 RL 针对可测量的领域任务对其进行改进，同时保持对数据、IP、部署和训练工作流的控制。 本文将介绍如何运行轻量级、无代码、\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "4925cbdbe40bde73",
       "feedTitle": "NVIDIA 技术博客",
       "feedUrl": "https://developer.nvidia.cn/blog/feed",
@@ -1713,6 +1765,19 @@
       "author": "wnger",
       "summary": "如果自主编码 AI 智能体 能够在几乎无需人工操作的情况下将您的视觉推理模型的准确率提高 90% 以上，那该多 … Continued",
       "content": "如果自主编码 AI 智能体 能够在几乎无需人工操作的情况下将您的视觉推理模型的准确率提高 90% 以上，那该多好？在根据生产视频任务调整视觉推理模型时，开发者通常需要花费数天时间来处理数据格式化、容器设置、训练脚本、基准评估和超参数扫描，然后才能知道后训练是否能提高准确性。 将开放物理 AI 世界基础模型 NVIDIA Cosmos 3 与 NVIDIA TAO 智能体技能 相结合，为应对这一挑战提供了解决方案。Cosmos 3 通过共享的全模态世界模型将理解、生成、模拟和行动联系起来。它在 混合转换器 (MoT) 架构下统一了文本、图像、视频、环境声音和动作追踪。虽然该模型提供出色的开箱即用视觉推理，但每个现实世界的部署都需要领域专门化，以处理独特的摄像头角度、边缘情况和环境。这正是后期训练的重要性所在。\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "330468ecd8ed06f0",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "如何借助 RL 智能体技能和 NVIDIA NeMo 运行自动研究工作流",
+      "url": "https://developer.nvidia.cn/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo/",
+      "published": "2026-07-14T09:00:00Z",
+      "author": "wnger",
+      "summary": "编码 AI 智能体 正成为长期运行的机器学习 (ML) 工作流程的实用运算符。他们可以检查资源库、设置运行时、 … Continued",
+      "content": "编码 AI 智能体 正成为长期运行的机器学习 (ML) 工作流程的实用运算符。他们可以检查资源库、设置运行时、解决构建问题、启动实验、监控执行、分析指标并汇总结果。 对于 强化学习 (RL) 研究而言，这一点很重要，因为有意义的指标通常只有在基本实验基础设施就绪后才会出现。 Autoresearch 是 Andrej Karpathy 的一个开源 Python 项目，用于自动化 AI 和 ML 模型训练。 通过这种方法，自主 AI 智能体将高层次的目标转化为假设，编辑和测试真实的代码库，保留改进指标的想法，并将结果交还给人类研究人员。这使得团队能够从高性能开放模型 (例如 NVIDIA Nemotron) 开始构建专业领域智能体，然后使用 RL 针对可测量的领域任务对其进行改进，同时保持对数据、IP、部署和训练工作流的控制。 本文将介绍如何运行轻量级、无代码、\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1885,32 +1950,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "3d632104d9c827fe",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "NVIDIA CUDA 中的内核融合：优化内存流量并启动开销",
-      "url": "https://developer.nvidia.cn/blog/kernel-fusion-in-nvidia-cuda-optimizing-memory-traffic-and-launch-overhead/",
-      "published": "2026-07-10T09:41:03Z",
-      "author": "wnger",
-      "summary": "针对 GPU 优化代码的方法有很多。在本文中，您将了解内核融合如何提高内存带宽并减少内核启动用度，以及在 NV … Continued",
-      "content": "针对 GPU 优化代码的方法有很多。在本文中，您将了解内核融合如何提高内存带宽并减少内核启动用度，以及在 NVIDIA CUDA 代码中应用该技术的多种方法。 在编写 GPU 代码时，一个常见的瓶颈是 GPU 计算速度极快，即使是高带宽设备内存也无法完全使用 GPU 内核。内核融合通过将多个 GPU 操作合并到单个设备内核中来解决这一问题，因此中间结果不需要在全局内存中来回切换，也不需要单独的内核启动。 本文介绍的是融合核函数，以便将中间结果保留在寄存器中，并减少内存传输。CUDA 计算图提供另一种融合，但位于不同的层。图形将核函数启动、内存复制和同步的序列捕获到一个可重复使用的对象中，主机只需调用一次即可发送该对象。它不会融合内核主体。 图形中的内核单独运行，并通过全局内存传递中间结果。在图形中包装原始基准可在几微秒内从主机端删除数据，\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "56ccd79112b76f91",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "AI 模型协同设计：硬件友好型 LLM 设计",
-      "url": "https://developer.nvidia.cn/blog/ai-model-co-design-hardware-friendly-llm-design/",
-      "published": "2026-07-10T09:36:02Z",
-      "author": "wnger",
-      "summary": "AI 性能可归结为三个维度： 部署必须平衡这三者：如果响应速度缓慢，就会浪费高准确度；如果每个用户 … Continued",
-      "content": "AI 性能可归结为三个维度： 部署必须平衡这三者：如果响应速度缓慢，就会浪费高准确度；如果每个用户的体验滞后，则原始吞吐量就意味着微不足道。因此，实用的系统可同时优化准确性、吞吐量和交互性。 本文重点介绍吞吐量和交互性，以及模型设计选择如何在不牺牲准确性的情况下影响这两者 (我们会在出现准确性权衡的地方标记准确性权衡) 。 保持精度不变，问题就变成了二维帕累托边界：改进一个通常会使另一个付出代价。目标是将整个边界向外推进，使曲线下方的区域最大化 (请参见下图 1) 。 我们将从 LLM 开始，这是当今最重要的 AI 工作负载。这种权衡有两个方面：一是系统部署人员优先考虑集群吞吐量 (token/ 秒) ，二是用户重视较低的初始 token 和 token 间延迟。token 间延迟与之相反，token/ 秒/\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "521cb8f5727237af",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1921,19 +1960,6 @@
       "author": "",
       "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
       "content": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "e76d8f48f8410ad9",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "借助 NVIDIA BioNeMo Agent Toolkit 加速端到端协同折叠性能",
-      "url": "https://developer.nvidia.cn/blog/accelerating-end-to-end-co-folding-performance-with-nvidia-bionemo-agent-toolkit/",
-      "published": "2026-07-10T06:00:00Z",
-      "author": "wnger",
-      "summary": "生物分子结构预测以及与 OpenFold3 等模型的联合折叠现已成为主流的大规模工作负载，为药物研发和蛋白质设 … Continued",
-      "content": "生物分子结构预测以及与 OpenFold3 等模型的联合折叠现已成为主流的大规模工作负载，为药物研发和蛋白质设计提供支持。它们越来越多地由 AI 智能体提供端到端驱动。要让智能体良好运行该工作流，每个步骤都需要快速且可扩展：多序列比对 (MSA) 生成、联合折叠推理、服务和多 GPU 横向扩展。任何地方的瓶颈都会限制整体吞吐量。 速度和内存效率对于关键的药物研发工作流程 (例如虚拟筛选和大分子组合预测) 至关重要。在虚拟筛选中，针对一个或几个蛋白质标筛选数百万到数十亿种化合物。虽然联合折叠模型通常会给出最佳预测结构，但运行成本可能很高，因此无法用于虚拟筛选应用。这正是 NVIDIA 加速的关键所在，使得 OpenFold3 和相关方法能够在大型化合物库中大规模部署成为可能。 在预测涉及多种蛋白质和数千个氨基酸残基的大型分子组合时，速度也很重要，\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -2093,19 +2119,6 @@
       "readingMinutes": 8
     },
     {
-      "id": "521645e00650b7db",
-      "feedTitle": "Anthropic · News",
-      "feedUrl": "https://www.anthropic.com/sitemap.xml",
-      "category": "AI 新闻",
-      "title": "Strategic warning for ai risk progress and insights from our frontier red team",
-      "url": "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
-      "published": "2026-07-08T22:43:38Z",
-      "author": "Anthropic",
-      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
-      "content": "",
-      "readingMinutes": 0
-    },
-    {
       "id": "e00d55023af7c16f",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -2219,7 +2232,7 @@
       "published": "2026-07-07T05:00:15Z",
       "author": "Ian Buck",
       "summary": "在大规模部署中追求极致单线程性能的 CPU，开创了专为智能体 AI 时代打造的全新 CPU 品类。 在智能体系统的构建与部署全过程中，CPU 直接决定了推理能力、响应速度和模型学习等关键环节。CPU 是执行 AI 模型指令的处理器，负责完成工具调用、代码执行、数据处理、KV 缓存以及结果分析等具体工作。 对于 AI 工厂中的智能体而言，速度至关重要。 CPU 调用工具的速度越快，智能体执行当前任务的速度也就越快。 对于 AI 工厂而言，GPU 利用率是数据中心最宝贵的资源。因此，任何等待任务完成",
-      "content": "在大规模部署中追求极致单线程性能的 CPU，开创了专为智能体 AI 时代打造的全新 CPU 品类。\n\n在智能体系统的构建与部署全过程中，CPU 直接决定了推理能力、响应速度和模型学习等关键环节。CPU 是执行 AI 模型指令的处理器，负责完成工具调用、代码执行、数据处理、KV 缓存以及结果分析等具体工作。\n\n对于 AI 工厂中的智能体而言，速度至关重要。\n\nCPU 调用工具的速度越快，智能体执行当前任务的速度也就越快。\n\n对于 AI 工厂而言，GPU 利用率是数据中心最宝贵的资源。因此，任何等待任务完成的时间都会限制 AI 工厂的收益；更糟糕的是，如果 GPU 在等待 CPU 完成任务时处于闲置状态，还会直接导致其利用率下降。因此，AI 工厂需要具备极致单线程性能的 CPU，以实现 AI 工厂收益和智能体性能的最大化。\n\n如今的数据中心 CPU 并非为大规模部署下的高速运行而设计。\n\n尽管市面上的 PC 和工作站早已拥有了高性能的 CPU，但数据中心 CPU 的发展方向逐渐偏离了单线程性能的提升。随着云计算的兴起，CPU 厂商开始打造拥有更多核心的数据中心 CPU，为了尽可能控制成本，不得不牺牲部分单线程性能。\n\n为了优化每个可租用核心的成本，CPU 的设计增加了单个芯片的核心数量，同时压缩了用于提升核心性能的硅片面积——例如高性能内存互连架构和更高的单核指令处理能力。而向芯粒（Chiplet）架构的演进虽然进一步降低了成本，却也随之带来了“芯粒税（Chiplet Tax）”，导致单个 CPU 的核心再也无法充分获得整颗芯片的全部内存性能。\n\nAI 智能体需要一款专为规模化部署打造、具备极致单线程性能的 CPU。\n\n在大规模场景下部署具备极致单线程性能的 CPU，能够确保在系统满载状态下，智能体的每一个执行步骤依然保持高速。每个核心都能以完整性能完成智能体任务，且不会受到其他核心的拖慢。这种大规模极致单线程 CPU 采用了截然不同的设计理念，旨在实现以下目标：\n\n在高负载下保持强劲的单核性能\n\n为每个核心提供充足的内存带宽，确保活跃核心获得持续的数据供给\n\n可预测的低延迟\n\n每个核心都能在不被其他核心拖慢的情况下独立完成任务，这不仅带来了卓越的吞吐量，更重要的是，实现了极致的单核任务处理性能。\n\nNVIDIA Vera 正是这种全新 CPU 设计的典范。\n\n大规模极致单线程 CPU 如何为运行智能体循环而生\n\nAI 智能体并不会在处理完单次请求后就停止运行，而是以循环模式运作。模型负责推理下一步操作，CPU 执行模型外围的工作，执行结果返回后，模型再决定下一步操作，如此循环往复。\n\n这种运行模式产生了一种全新的算力需求特征，而这正是传统 CPU 未曾专门优化过的场景。传统 CPU 的工作通常是间歇性且由用户驱动的，由人类触发一系列短暂交互构成。而智能体工作则是持续且并行的：庞大的智能体集群持续运行，每个智能体都在推进一系列步骤，且每一步都依赖于上一步的执行结果。\n\nCPU 核心数越多，意味着单个 CPU 能处理更多的智能体任务，因此数据中心 CPU 需要配备大量核心来最大化任务吞吐量。\n\n然而，增加 CPU 核心数并不能缩短单个智能体循环中每个步骤的耗时。更多的核心无法让任何单一任务运行得更快。事实上，专为追求最大化核心数量而设计的 CPU，在核心争抢资源时，甚至可能会拖慢每个单核的性能。\n\n单核性能对于加快每一步任务的完成速度至关重要。增加核心带来的吞吐量具有一定价值，但不足以满足需求。由于每个动作都依赖于前一步的执行结果，单核速度才真正决定了智能体循环的推进速度。\n\n归根结底，最顶尖的智能体 CPU 需要具备极致的单线程性能，且每一个核心都必须毫无妥协地释放这一性能。人类以秒计时，而智能体则以纳秒为度量单位。NVIDIA Vera 正是为这种全新类别的工作以及极致速度而生。\n\nNVIDIA Vera：专为智能体打造的大规模极致单线程 CPU\n\nNVIDIA Vera 是一款在大规模部署下具备极致单线程性能的 CPU，它从底层架构开始专为智能体循环而设计：即专门处理在模型调用间隙的各项任务，包括智能体调用工具、处理数据、运行代码以及验证结果等一系列工作。\n\nNVIDIA Vera CPU\n\nVera 的核心是 NVIDIA 专门设计的 CPU 核心 Olympus，其每周期指令数（IPC）较 NVIDIA Grace 提升了 50%。这一点至关重要，因为智能体的许多执行步骤都是串行的。无论是工具调用、代码执行、测试运行还是数据处理，都必须等当前步骤完成后，下一次模型调用才能使用其结果。更快的核心能更迅速地推进每一个循环。\n\nVera 将这些高速核心与高达 1.2TB/s 的 LPDDR5X 内存带宽相结合，并将内存功耗控制在 40 瓦以内。此外，它还采用了单片式计算裸片设计，提供高达 3.4TB/s 的核心间带宽，比其他数据中心 CPU 高出 3 倍，确保活跃核心始终获得充足的数据供给，并保持数据传输的可预测性。这使得全部 88 个核心都能充分发挥 CPU 的内存性能，而不会因资源瓶颈导致任何核心运行缓慢。\n\n这一设计最终带来了更快的智能体循环。在代表智能体执行的高负载 CPU 工作负载下，Vera 的持续单核性能达到了 x86 处理器的 1.8 倍。\n\n这些性能优势在工具调用、代码执行、数据处理步骤和结果验证等环节中不断累积，帮助 AI 工厂利用现有的 GPU 完成更多的智能体工作。\n\nPerplexity 在其日常运行的智能体工作中对 Vera 进行了实测。在真实的编码工作流中——即克隆代码仓库并在沙箱中运行测试套件——Vera 的完成速度达到了 x86 的 1.5 倍，并发启动多个沙箱的速度最高可达 1.9 倍。目前，Perplexity 正计划在其即将推出的生产系统中部署 Vera。\n\n智能体同样高度依赖数据。它们需要不断地查询、检索、筛选和传输信息，而 Vera 能够更快速地处理这些 CPU 端的数据工作负载。合作伙伴测试结果显示，与领先的 x86 服务器 CPU 相比，Vera 在 Starburst 大规模 SQL 分析中的速度提升了 3 倍，而在 Redpanda 实时流处理场景下，延迟降低为原来的 1/6。\n\n智能体工作并非单一的工作负载。智能体需要运行工具和沙箱、处理数据、响应请求，并通过强化学习训练下一代模型——而这一切都依赖于相同的底层能力。\n\n单个 Vera 处理器即可应对所有类型的任务，无需为不同类型的任务配备不同的 CPU。此外，由于 Vera 既是 NVIDIA Vera Rubin 平台中 GPU 的主机 CPU，也是 NVIDIA BlueField-4 STX 存储处理器的动力核心，整个 AI 工厂得以在同一架构和同一工具链上运行。\n\nNVIDIA 的脚步并未停止。NVIDIA 的下一代 Rosa CPU 将搭载 Rigel 核心，继续推进在智能体 AI 时代的 CPU 发展路线图。Rigel 是 NVIDIA 的下一代 Arm v9.2 CPU 核心，在保持相同硅片面积的前提下，实现了比 Olympus 更高的单核性能。其关键改进主要包括更高效的指令供给、更大的 L2 缓存以及更高效的内存管理。\n\n专为智能体速度而生\n\n在智能体 AI 时代，全球将涌现数十亿个智能体，而每一个智能体都需要依靠 CPU 来行动、校验、检索、运行任务并验证结果。在这个全新的市场中，智能体完成的任务本身就是产品。更快的智能体循环能让每一个 GPU 将更多时间用于创造收入的工作，而不是等待。\n\nNVIDIA Vera，正是为这一未来而生的 CPU。\n\n了解更多关于 NVIDIA Vera CPU 的信息。",
+      "content": "在大规模部署中追求极致单线程性能的 CPU，开创了专为智能体 AI 时代打造的全新 CPU 品类。\n\n在智能体系统的构建与部署全过程中，CPU 直接决定了推理能力、响应速度和模型学习等关键环节。CPU 是执行 AI 模型指令的处理器，负责完成工具调用、代码执行、数据处理、KV 缓存以及结果分析等具体工作。\n\n对于 AI 工厂中的智能体而言，速度至关重要。\n\nCPU 调用工具的速度越快，智能体执行当前任务的速度也就越快。\n\n对于 AI 工厂而言，GPU 利用率是数据中心最宝贵的资源。因此，任何等待任务完成的时间都会限制 AI 工厂的收益；更糟糕的是，如果 GPU 在等待 CPU 完成任务时处于闲置状态，还会直接导致其利用率下降。因此，AI 工厂需要具备极致单线程性能的 CPU，以实现 AI 工厂收益和智能体性能的最大化。\n\n如今的数据中心 CPU 并非为大规模部署下的高速运行而设计。\n\n尽管市面上的 PC 和工作站早已拥有了高性能的 CPU，但数据中心 CPU 的发展方向逐渐偏离了单线程性能的提升。随着云计算的兴起，CPU 厂商开始打造拥有更多核心的数据中心 CPU，为了尽可能控制成本，不得不牺牲部分单线程性能。\n\n为了优化每个可租用核心的成本，CPU 的设计增加了单个芯片的核心数量，同时压缩了用于提升核心性能的硅片面积 —— 例如高性能内存互连架构和更高的单核指令处理能力。而向芯粒 (Chiplet) 架构的演进虽然进一步降低了成本，却也随之带来了“芯粒税 (Chiplet Tax)”，导致单个 CPU 的核心再也无法充分获得整颗芯片的全部内存性能。\n\nAI 智能体需要一款专为规模化部署打造、具备极致单线程性能的 CPU。\n\n在大规模场景下部署具备极致单线程性能的 CPU，能够确保在系统满载状态下，智能体的每一个执行步骤依然保持高速。每个核心都能以完整性能完成智能体任务，且不会受到其他核心的拖慢。这种大规模极致单线程 CPU 采用了截然不同的设计理念，旨在实现以下目标：\n\n在高负载下保持强劲的单核性能\n\n为每个核心提供充足的内存带宽，确保活跃核心获得持续的数据供给\n\n可预测的低延迟\n\n每个核心都能在不被其他核心拖慢的情况下独立完成任务，这不仅带来了卓越的吞吐量，更重要的是，实现了极致的单核任务处理性能。\n\nNVIDIA Vera 正是这种全新 CPU 设计的典范。\n\n大规模极致单线程 CPU 如何为运行智能体循环而生\n\nAI 智能体并不会在处理完单次请求后就停止运行，而是以循环模式运作。模型负责推理下一步操作，CPU 执行模型外围的工作，执行结果返回后，模型再决定下一步操作，如此循环往复。\n\n这种运行模式产生了一种全新的算力需求特征，而这正是传统 CPU 未曾专门优化过的场景。传统 CPU 的工作通常是间歇性且由用户驱动的，由人类触发一系列短暂交互构成。而智能体工作则是持续且并行的：庞大的智能体集群持续运行，每个智能体都在推进一系列步骤，且每一步都依赖于上一步的执行结果。\n\nCPU 核心数越多，意味着单个 CPU 能处理更多的智能体任务，因此数据中心 CPU 需要配备大量核心来最大化任务吞吐量。\n\n然而，增加 CPU 核心数并不能缩短单个智能体循环中每个步骤的耗时。更多的核心无法让任何单一任务运行得更快。事实上，专为追求最大化核心数量而设计的 CPU，在核心争抢资源时，甚至可能会拖慢每个单核的性能。\n\n单核性能对于加快每一步任务的完成速度至关重要。增加核心带来的吞吐量具有一定价值，但不足以满足需求。由于每个动作都依赖于前一步的执行结果，单核速度才真正决定了智能体循环的推进速度。\n\n归根结底，最顶尖的智能体 CPU 需要具备极致的单线程性能，且每一个核心都必须毫无妥协地释放这一性能。人类以秒计时，而智能体则以纳秒为度量单位。NVIDIA Vera 正是为这种全新类别的工作以及极致速度而生。\n\nNVIDIA Vera：专为智能体打造的大规模极致单线程 CPU\n\nNVIDIA Vera 是一款在大规模部署下具备极致单线程性能的 CPU，它从底层架构开始专为智能体循环而设计：即专门处理在模型调用间隙的各项任务，包括智能体调用工具、处理数据、运行代码以及验证结果等一系列工作。\n\nNVIDIA Vera CPU\n\nVera 的核心是 NVIDIA 专门设计的 CPU 核心 Olympus，其每周期指令数 (IPC) 较 NVIDIA Grace 提升了 50%。这一点至关重要，因为智能体的许多执行步骤都是串行的。无论是工具调用、代码执行、测试运行还是数据处理，都必须等当前步骤完成后，下一次模型调用才能使用其结果。更快的核心能更迅速地推进每一个循环。\n\nVera 将这些高速核心与高达 1.2TB/s 的 LPDDR5X 内存带宽相结合，并将内存功耗控制在 40 瓦以内。此外，它还采用了单片式计算裸片设计，提供高达 3.4TB/s 的核心间带宽，比其他数据中心 CPU 高出 3 倍，确保活跃核心始终获得充足的数据供给，并保持数据传输的可预测性。这使得全部 88 个核心都能充分发挥 CPU 的内存性能，而不会因资源瓶颈导致任何核心运行缓慢。\n\n这一设计最终带来了更快的智能体循环。在代表智能体执行的高负载 CPU 工作负载下，Vera 的持续单核性能达到了 x86 处理器的 1.8 倍。\n\n这些性能优势在工具调用、代码执行、数据处理步骤和结果验证等环节中不断累积，帮助 AI 工厂利用现有的 GPU 完成更多的智能体工作。\n\nPerplexity 在其日常运行的智能体工作中对 Vera 进行了实测。在真实的编码工作流中 —— 即克隆代码仓库并在沙箱中运行测试套件 —— Vera 的完成速度达到了 x86 的 1.5 倍，并发启动多个沙箱的速度最高可达 1.9 倍。目前，Perplexity 正计划在其即将推出的生产系统中部署 Vera。\n\n智能体同样高度依赖数据。它们需要不断地查询、检索、筛选和传输信息，而 Vera 能够更快速地处理这些 CPU 端的数据工作负载。合作伙伴测试结果显示，与领先的 x86 服务器 CPU 相比，Vera 在 Starburst 大规模 SQL 分析中的速度提升了 3 倍，而在 Redpanda 实时流处理场景下，延迟降低为原来的 1/6。\n\n智能体工作并非单一的工作负载。智能体需要运行工具和沙箱、处理数据、响应请求，并通过强化学习训练下一代模型 —— 而这一切都依赖于相同的底层能力。\n\n单个 Vera 处理器即可应对所有类型的任务，无需为不同类型的任务配备不同的 CPU。此外，由于 Vera 既是 NVIDIA Vera Rubin 平台中 GPU 的主机 CPU，也是 NVIDIA BlueField-4 STX 存储处理器的动力核心，整个 AI 工厂得以在同一架构和同一工具链上运行。\n\nNVIDIA 的脚步并未停止。NVIDIA 的下一代 Rosa CPU 将搭载 Rigel 核心，继续推进在智能体 AI 时代的 CPU 发展路线图。Rigel 是 NVIDIA 的下一代 Arm v9.2 CPU 核心，在保持相同硅片面积的前提下，实现了比 Olympus 更高的单核性能。其关键改进主要包括更高效的指令供给、更大的 L2 缓存以及更高效的内存管理。\n\n专为智能体速度而生\n\n在智能体 AI 时代，全球将涌现数十亿个智能体，而每一个智能体都需要依靠 CPU 来行动、校验、检索、运行任务并验证结果。在这个全新的市场中，智能体完成的任务本身就是产品。更快的智能体循环能让每一个 GPU 将更多时间用于创造收入的工作，而不是等待。\n\nNVIDIA Vera，正是为这一未来而生的 CPU。\n\n了解更多关于 NVIDIA Vera CPU 的信息。",
       "readingMinutes": 7
     },
     {
@@ -2533,19 +2546,6 @@
       "summary": "新闻摘要： 根据在德国汉堡举行的 ISC 大会上发布的最新榜单，在全球 TOP500 最快超级计算机中，超过 400 台由 NVIDIA 技术提供支持，占 TOP500 榜单的 81%。 与上一期榜单相比，采用 NVIDIA 技术的系统数量增加了 17 台，且新系统部署势头强劲：新晋上榜的系统中，近九成均基于 NVIDIA 技术构建。 这一比例反映出业界倾向于选择能够同时兼顾 AI、模拟和科学计算的机器，且这一趋势正在加速：在 TOP500 榜单中，NVIDIA 系统提供的 AI 训练吞吐量是其",
       "content": "新闻摘要：\n\n在 TOP500 榜单中，有 81% 的超级计算机采用了 NVIDIA 技术，新晋上榜的系统中，这一比例更高达 90%。\n\nTOP500 榜单中有 26 台超级计算机采用了 NVIDIA Grace CPU，较上一期榜单增加了 8 台。\n\n在 Green500 榜单中，排名前 8 的系统均搭载 NVIDIA GPU，前 10 名中有 9 台采用了 NVIDIA 技术。\n\n位列 Green500 榜单榜首的 KAIROS 系统，采用了单个 NVIDIA Grace Hopper 超级芯片。\n\nTOP500 榜单中有 376 台系统使用了 NVIDIA 的网络进行互连。\n\n根据在德国汉堡举行的 ISC 大会上发布的最新榜单，在全球 TOP500 最快超级计算机中，超过 400 台由 NVIDIA 技术提供支持，占 TOP500 榜单的 81%。\n\n与上一期榜单相比，采用 NVIDIA 技术的系统数量增加了 17 台，且新系统部署势头强劲：新晋上榜的系统中，近九成均基于 NVIDIA 技术构建。\n\n这一比例反映出业界倾向于选择能够同时兼顾 AI、模拟和科学计算的机器，且这一趋势正在加速：在 TOP500 榜单中，NVIDIA 系统提供的 AI 训练吞吐量是其他所有平台总和的 2 倍以上，AI 推理吞吐量更是接近 3 倍。\n\nGPU 和网络的采用率双双创下新高：搭载 NVIDIA GPU 加速的系统数量达到了创纪录的 238 台，采用 NVIDIA 网络连接的系统数量也创下 376 台的新纪录。其中绝大多数系统采用大规模 AI 和高性能计算的骨干 —— NVIDIA Quantum InfiniBand，其余则采用以太网。\n\n数据背后所反映的趋势，其意义远超榜单本身：加速计算正成为构建各类系统的基石，以应对 AI 和科学领域中最具挑战性的工作负载。\n\nTOP500 榜单每年更新两次，旨在对全球最快的超级计算机进行排名；而 Green500 榜单则侧重于评估每台计算机每瓦的算力表现。\n\n全栈式布局\n\nNVIDIA 的技术版图现已覆盖整个系统 —— 包括 GPU、网络，以及正被广泛采用的 CPU。其中，采用 NVIDIA Grace CPU 的系统数量已达到 26 个，较上一期榜单增加了 8 个，Grace CPU 累计出货量接近 250 万个。\n\n基于 NVIDIA Grace 的超级计算机在两大榜单中均名列前茅：JUPITER 和 Alps 分别位列 TOP500 榜单的第 5 名和第 10 名，而 KAIROS 则高居 Green500 榜单榜首。\n\n这些系统均采用 NVIDIA Grace Hopper 超级芯片，在一个超级芯片中集成了 NVIDIA GPU 与 Grace CPU，使两者能够以极低的开销共享内存 —— 这一架构专为满足现代 AI 对海量内存的需求而设计。\n\n今年早些时候发布的 NVIDIA Vera CPU 延续了 Grace 的成功，将 CPU 的性能和能效推向了新高度，专为现代数据中心中最严苛的 AI 工作负载而生。在这些工作负载中，AI 智能体正从简单的问答，进化到能够自主执行操作、运行代码、调用工具并评估结果。\n\n领跑能效榜单\n\nNVIDIA 横扫了 Green500 全球最节能超级计算机榜单：排名前八的系统全部由 NVIDIA GPU 驱动，前 10 名中有 9 台采用了 NVIDIA 技术。\n\n位列榜首的是法国图卢兹大学的 KAIROS，这是一款基于 NVIDIA Grace Hopper 架构的系统，能效高达每瓦 73.3 GFLOPS。此外，基于 Grace Hopper 的系统包揽了前 4 名，这些系统分别部署在法国、德国和英国。\n\n从 Exascale 级科学计算迈向新浪潮\n\n欧洲正在研发创纪录的 35 台 NVIDIA AI HPC 超级计算机，将为超过 300 万名研究人员提供下一代基础设施，以推动欧洲的 AI、加速科学研究与工业创新。\n\n在这些系统中，部署在德国于利希超算中心的 JUPITER 是欧洲最快的超级计算机，也是欧洲首台达到 Exascale 级算力的超级计算机。\n\nJUPITER 正在细胞尺度上绘制人脑图谱，模拟地球气候，并推动下一代 6G 网络背后的 AI 技术发展。\n\n新晋上榜的系统运行在 NVIDIA Blackwell 架构上。\n\n这场建设浪潮席卷全球，从南非新建的 AI 工厂，到沙特阿拉伯、新加坡和越南部署的 AI 系统，无一例外。\n\n纵观整个榜单，这个趋势高度一致：NVIDIA 正全面推进全球 AI 基础设施的建设浪潮。",
       "readingMinutes": 4
-    },
-    {
-      "id": "ae9f3212267d6c1b",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA 发布 BioNeMo Agent Toolkit——加速科学发现的智能体工具",
-      "url": "https://blogs.nvidia.cn/blog/nvidia-launches-bionemo-agent-toolkit-giving-ai-agents-the-tools-to-accelerate-scientific-discovery/",
-      "published": "2026-06-23T00:40:36Z",
-      "author": "英伟达中国",
-      "summary": "新闻摘要： NVIDIA 今日宣布推出 NVIDIA BioNeMo Agent Toolkit，为智能体生命科学时代提供专业领域的工具与技能。 该工具包汇集了 NVIDIA 十多年来积累的生命科学库、工具和开放模型，使 AI 智能体、科研人员和实验室能够协同工作：通过收集证据、跨研究结果进行推理、执行计算实验以及推荐最佳后续步骤，加速科学发现。 它为各类智能体和 AI 平台 —— 从通用助手到专业科学智能体、软件平台及企业内部的生物制药系统提供所需工具，使其能够综合与总结科学知识、调用模型、评",
-      "content": "新闻摘要：\n\n包括达索系统、Databricks、礼来、Schrödinger、Snowflake、华盛顿大学医学院蛋白质设计研究所在内的行业和研究机构领导者正在采用 NVIDIA BioNeMo Agent Toolkit；Anthropic 和 OpenAI 也在集成该工具包，旨在为研究人员和科学家提供智能体驱动的生命科学工作流。\n\nNVIDIA BioNeMo Agent Toolkit 涵盖了 NVIDIA Nemotron、NemoClaw、OpenShell 和 BioNeMo 等组件，为 AI 智能体提供了加速生命科学研究的工具，全面覆盖生物学、化学、基因组学及药物研发等领域。\n\n全新的 NVIDIA BioNeMo 工具赋予了智能体执行科学计算所需的上下文与专业知识，从而提升了计算的准确性、任务完成率以及 Token 使用效率。\n\nNVIDIA 今日宣布推出 NVIDIA BioNeMo Agent Toolkit，为智能体生命科学时代提供专业领域的工具与技能。\n\n该工具包汇集了 NVIDIA 十多年来积累的生命科学库、工具和开放模型，使 AI 智能体、科研人员和实验室能够协同工作：通过收集证据、跨研究结果进行推理、执行计算实验以及推荐最佳后续步骤，加速科学发现。\n\n它为各类智能体和 AI 平台 —— 从通用助手到专业科学智能体、软件平台及企业内部的生物制药系统提供所需工具，使其能够综合与总结科学知识、调用模型、评估结果、进行推理并执行后续行动。\n\n该工具包包含 NVIDIA BioNeMo，并由 NVIDIA NIM、NVIDIA Parabricks®、NVIDIA NeMo 和 NVIDIA Nemotron 技术以及加速计算能力与技能提供支持，为生命科学领域的智能体构建了一个开放且可信的基础。\n\n目前已有超过 50 家头部企业在使用该工具包推进科学发现，利用其可供智能体调用的技能来完成各类任务，包括蛋白质结构预测、分子对接、生成式化学、基因组分析、蛋白质设计和生物标志物发现等。\n\nNVIDIA 创始人兼首席执行官黄仁勋表示：“前沿模型是大脑，BioNeMo 是科学工具箱。两者结合，赋予了 AI 智能体博士级研究助理的专业技能和超级计算机的运行速度。这是研究人员首次能够构建出能够理解科学知识、使用科学工具并执行科学工作流的 AI 智能体。这是一种全新的科学研究方式，能够大幅加速生物学、化学、基因组学和医学领域的发现进程。”\n\n包括 Arc Institute、开放分子软件基金会 (OMSF) 以及华盛顿大学蛋白质设计研究所 (IPD) 在内的开放模型和研究组织，正与 NVIDIA 合作，利用 BioNeMo 推进前沿模型的发展，并通过支持智能体就绪的工作流，使前沿模型更易于被广泛使用。IPD 的合作大幅缩短了 RosettaFold3 等顶尖生物设计模型的运行时间，使其性能比上一代模型提升了 2 倍。此外，还有更多旨在加速蛋白质设计的应用正在推进中，为研究人员提供了具有前所未有的规模和成本优势的科研工具。\n\n华盛顿大学医学院生物化学教授兼蛋白质设计研究所所长 David Baker 表示：“我们为蛋白质设计打造的每一款工具，只有在科研人员能够高效访问时才能发挥其强大威力。科学的下一次飞跃不会来自单一发现，而是得益于迭代设计的速度，以及智能体能够以人类无法企及的速度，不断对复杂生物学问题进行推理的能力。”\n\n面向生命科学的智能体就绪工具与技能\n\n生命科学是全球最重要的科学前沿之一，全球科学研发支出已达 3.8 万亿美元，年度制药预算接近 3000 亿美元。\n\n智能体工作流可帮助生命科学行业加快迭代速度，同时降低成本并提升研发成功概率。借助该工具包，开发者只需几分钟即可将通用智能体转化为生命科学专用智能体。研究人员可以更快地开展实验，持续从结果中学习，并打通假设到发现的闭环。部分企业已将这一迭代延过程伸至实体实验室中。\n\n通用智能体在高效处理科学工作流时往往会遇到瓶颈，需要在过程中不断推断正确的工具、输入输出以及生物学意义。有了 BioNeMo Agent Toolkit，智能体能够精准调用合适的工具，更准确地解读结果，从而更快、更可靠地获取科学洞察。\n\nNVIDIA 正在通过将各类库、模型和框架转化为可供智能体调用的工具，来优化整个 BioNeMo 平台。\n\n这包括利用 NVIDIA Agent Toolkit 的多项技术，例如作为推理基础的 NVIDIA Nemotron 开放模型、用于强化学习的 NVIDIA NeMo RL 库，以及用于构建安全、私密智能体的 NVIDIA NemoClaw 蓝图，这类智能体能够跨任务推理、调用工具并持续与数据交互。\n\nNVIDIA NIM 帮助智能体调用模型并执行任务，NVIDIA OpenShell 运行时则提供受控的可执行环境。\n\n借助该工具包组件，智能体能够完成以下工作流：\n\n虚拟筛选：智能体能够通过生成和筛选化合物、将其与靶点对接、预测结合强度以及筛选具备成药性的候选分子，帮助研究人员发现小分子药物候选物。随后，智能体可输出应优先选择的候选药物，将筛选周期从数天缩短至几分钟。\n\n基因组分析与靶点发现：智能体能够帮助研究人员将原始测序数据转化为高优先级的基因洞察和生物学靶点。NVIDIA Parabricks 加速了序列比对和变异检测，基因组基础模型用于评估变异效应，智能体则对与疾病最相关的候选靶点进行排序，以供进一步研究。\n\n蛋白质结合物设计：智能体可在实际工作开始前，通过计算方式设计和验证候选物，从而压缩传统上耗时费力的设计工作。\n\n深度生物医学研究：智能体能够借助 NVIDIA Biomedical AI-Q Research Agent，将真实世界数据与推理模型相连接，以提高各类科学和临床开发流程的效率与准确性，涵盖文献回顾、方案生成、临床试验筛选和药物警戒等工作。\n\n医学影像分析：智能体能够帮助研究人员处理、分割、生成并分析医学影像数据，以支持生物标志物的发现，加速整个研究工作流中的证据生成。\n\n基于 NVIDIA BioNeMo 构建的生命科学生态系统\n\n技术和生命科学生态系统中的众多企业正在使用该工具包推进智能体工作流。\n\n包括 Anthropic、Edison Scientific、Lila Sciences、OpenAI 和 Owkin 在内的前沿实验室和科学智能体构建者，正将 BioNeMo 集成至其平台，推动智能体从“回答问题”迈向“完成科学工作”。NVIDIA 加速模型和分析库有助于缩短从假设到洞察的周期。\n\n来自 Benchling、Certara、Databricks、Snowflake 和 Seqera 的科学数据和工作流平台正在使用 BioNeMo Agent Toolkit，将数据系统与 AI 驱动的科学相连接。BioNeMo 的各项技能可帮助智能体查询生物和化学数据集、准备适用于模型就绪的输入、启动可复现的工作流、分析输出，并直接在科学家和数据团队日常使用的平台中返回洞察。\n\n包括礼来和 Natera 在内的诊断和制药公司，正在使用 BioNeMo Agent Toolkit，将可复用的智能体工作流规模化应用于药物研发、转化研究及临床洞察等各个环节。\n\n包括 Boltz、Basecamp Research、Chai Discovery、Dyno、PerturbAI 和 Proxima 在内的 AI 原生生物科技企业已与 NVIDIA 合作，开发旨在加速模型驱动的治疗设计工作流的工具。\n\n达索系统、Cadence (OpenEye) 和 Schrödinger 等计算机辅助药物研发软件提供商，正将该工具包的能力集成到研发团队广泛使用的科学应用中。借助智能体协调分子生成、对接和预测，这些计算机辅助设计平台正转变为研究人员可以提问、启动分析并更快识别最佳后续步骤的系统。\n\nAutomata、HighRes、帝肯、赛默飞世尔科技等实验室仪器与自动化企业，以及自主数据生成平台 Medra，正利用 BioNeMo 技能将系统与计算发现相连接。\n\nBaseten、Modal 和 Nebius 等 AI 云和 AI 基础设施企业，正在使用该工具包帮助开发者将生命科学工作流构建为可靠的托管服务。通过支持可扩展的 API、托管计算和生产级推理环境，这些公司正帮助将智能体生物学工作流从原型转化为研究人员和企业可便捷获取的服务。\n\n上市时间\n\nBioNeMo Agent Toolkit 及相关技能现已上线，可通过 NVIDIA 开发者资源页面和 GitHub 获取。\n\n关于 NVIDIA\n\n该新闻稿所含若干陈述包括 (但不限于) 有关以下各项的陈述：这是研究人员首次能够构建出能够理解科学知识、使用科学工具并执行科学工作流的 AI 智能体；对 NVIDIA 产品、服务和技术的优势、影响、性能和可用性；对 NVIDIA 与第三方 (包括其合作者和合作伙伴) 的相关预期；对技术发展及相关趋势预期；以及其他非历史事实的陈述，均属前瞻性陈述，这些都是符合 1933 年《证券法》第 27A 条 (经修订) 和 1934 年《证券交易法》第 21E 条 (经修订) 所定义的前瞻性声明。前瞻性声明受到这些法律条款创建的“安全港”保护，基于管理层当前可获得的信息及其信念与假设，并受风险与不确定性的影响，可能导致结果与预期有重大差异的风险和不确定因素。可能导致实际结果产生重大差异的重要因素包括：全球经济状况与政治环境；我们依靠第三方来制造、组装、包装和测试我们的产品；技术发展和竞争的影响；新产品和技术的开发或者现有产品升级；我们产品或合作伙伴产品的市场认可度；设计、制造或软件缺陷；消费者偏好或需求的变化；行业标准和接口变化；我们产品或技术在集成到系统中时发生的意外性能损失；以及适用法律法规的变更。NVIDIA 向美国证券交易委员会 (SEC) 提交最新报告中不时详述的其他因素，这些报告包括 (但不限于) 采用 10-K 表的年度报告和采用 10-Q 表的季度报告。向 SEC 提交的报告的副本均在 NVIDIA 的官方网站上发布，并可免费下载。以上前瞻性陈述并非未来表现的保证，仅以本协议日期为准；除法律要求外，NVIDIA 不承担更新以上前瞻性陈述以反映未来事件或情况的任何义务。\n\n© 2026 NVIDIA Corporation 保留一切权利。NVIDIA、NVIDIA 商标、BioNeMo、NemoClaw、Nemotron、NVIDIA NeMo、NVIDIA NIM、NVIDIA OpenShell 以及 Parabricks 均为 NVIDIA Corporation 在美国和/或其他国家的商标和/或注册商标。其他公司和产品名称可能是与其相关的各家公司的商标。功能、价格、可用性和规格如有更改，恕不另行通知。",
-      "readingMinutes": 9
     },
     {
       "id": "ec3fbf495e4c1601",
