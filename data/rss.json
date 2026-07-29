@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T06:23:58.195776Z",
+  "generatedAt": "2026-07-29T17:11:35.554772Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -102,20 +102,98 @@
       "title": "DeepSeek · Research",
       "url": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "",
+      "siteUrl": "https://arxiv.org/api/query?search_query=all:DeepSeek&start=0&max_results=20&id_list=",
       "articleCount": 20,
-      "error": "The read operation timed out"
+      "error": ""
     },
     {
       "title": "Kimi · Research",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3AKimi%20AND%20all%3AMoonshot%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "",
+      "siteUrl": "https://arxiv.org/api/query?search_query=all:Kimi+AND+all:Moonshot&start=0&max_results=20&id_list=",
       "articleCount": 1,
-      "error": "HTTP Error 429: Unknown Error"
+      "error": ""
     }
   ],
   "articles": [
+    {
+      "id": "af0f4d36615d964d",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails",
+      "url": "https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/",
+      "published": "2026-07-29T16:46:59Z",
+      "author": "Tanya Lenz",
+      "summary": "Deploying an AI coding assistant in a regulated, sovereign, or source-sensitive environment, often comes with challenges. Three common issues are: the source...",
+      "content": "Deploying an AI coding assistant in a regulated, sovereign, or source-sensitive environment, often comes with challenges. Three common issues are: the source...\nDeploying an AI coding assistant in a regulated, sovereign, or source-sensitive environment, often comes with challenges. Three common issues are: the source cannot leave the network, the assistant occasionally invents package names that introduce supply-chain risk, and there is no audit trail when a generated change ships a defect. This tutorial walks you through how to self-host a validated…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "05b5e14c97505dcc",
+      "feedTitle": "Google AI · DeepMind",
+      "feedUrl": "https://deepmind.google/blog/rss.xml",
+      "category": "AI 技术",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "published": "2026-07-29T16:02:10Z",
+      "author": "",
+      "summary": "",
+      "content": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "0ffe97ba29ad4b4a",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
+      "url": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/",
+      "published": "2026-07-29T15:57:46Z",
+      "author": "Michelle Horton",
+      "summary": "Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....",
+      "content": "Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....\nUnlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation. Every demonstration requires specialized equipment, clinical expertise, and access to patients or laboratory environments. This creates three fundamental challenges for developers. First is the data gap. Training modern robotic policies…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "47da73cdc4f72b4c",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "published": "2026-07-29T10:00:00Z",
+      "author": "",
+      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "content": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "53529e9013fbce9c",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "离 AI 最近的老牌写作工具不聊 AI：iA Writer 8.0 大版本更新",
+      "url": "https://sspai.com/post/112787",
+      "published": "2026-07-29T09:30:00Z",
+      "author": "",
+      "summary": "本文为你梳理 8.0 版本 iA Writer 的主要亮点。查看全文",
+      "content": "本文为你梳理 8.0 版本 iA Writer 的主要亮点。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "91220bb72dd0f548",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "陕北看海，黄土难寻",
+      "url": "https://sspai.com/post/112761",
+      "published": "2026-07-29T07:00:51Z",
+      "author": "",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "content": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "f2bf3ff335f1377c",
       "feedTitle": "少数派",
@@ -143,19 +221,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "0ffe97ba29ad4b4a",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
-      "url": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/",
-      "published": "2026-07-28T21:07:26Z",
-      "author": "Michelle Horton",
-      "summary": "Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....",
-      "content": "Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....\nUnlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation. Every demonstration requires specialized equipment, clinical expertise, and access to patients or laboratory environments. This creates three fundamental challenges for developers. First is the data gap. Training modern robotic policies…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "824b5ba22f1e74f5",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -179,6 +244,19 @@
       "author": "Philipp Schmid",
       "summary": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers",
       "content": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers",
+      "readingMinutes": 1
+    },
+    {
+      "id": "088c63af229f208d",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "AI's Capability in Assisting Scientific Research in Physics, Astrophysics, and Cosmology II: Project Planning and Proposal Evaluation",
+      "url": "https://arxiv.org/abs/2607.25881v1",
+      "published": "2026-07-28T15:43:01Z",
+      "author": "Jia Liu",
+      "summary": "We investigate how well large language models (LLMs) can assist scientific project planning and proposal evaluation. One-page project plans were independently generated for eight expert-conceived research projects in physics, astrophysics, and cosmology by human researchers and…",
+      "content": "We investigate how well large language models (LLMs) can assist scientific project planning and proposal evaluation. One-page project plans were independently generated for eight expert-conceived research projects in physics, astrophysics, and cosmology by human researchers and three contemporary LLMs (ChatGPT, Claude, and DeepSeek; mid-2025 models, used with their default tool access). The resulting 32 proposals were blindly evaluated by four human reviewers and two newer frontier LLMs (Claude Opus 4.8 and ChatGPT Pro 5.5) using a four-aspect evaluation rubric. Reviewers were also asked to identify whether each proposal was written by a human or an AI. Human reviewers rated human- and AI-written proposals similarly overall, whereas both AI reviewers scored AI-written proposals about one point higher (on a five-point scale) than human-written proposals. Human reviewers correctly identified human- and AI-written proposals 72% and 79% of the time, respectively, while both AI reviewers correctly classified all 32 proposals (100%). These results suggest that current LLMs can produce project plans comparable to human-written ones in the eyes of human reviewers, but that AI reviewers show a systematic preference for AI-generated proposals. Our results suggest caution when deploying LLMs widely in proposal preparation and evaluation.",
       "readingMinutes": 1
     },
     {
@@ -218,6 +296,19 @@
       "author": "News from Google Team",
       "summary": "An illustrated black magnifying glass with a sparkle in a white circle surrounded by a dinner party tablescape",
       "content": "An illustrated black magnifying glass with a sparkle in a white circle surrounded by a dinner party tablescape",
+      "readingMinutes": 1
+    },
+    {
+      "id": "567af37fefa3523a",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Estimating the Geopolitical Preferences of Large Language Models from United Nations Voting Data",
+      "url": "https://arxiv.org/abs/2607.25526v1",
+      "published": "2026-07-28T10:07:53Z",
+      "author": "Maxim Chupilkin",
+      "summary": "How should researchers measure the geopolitical preferences expressed by large language models (LLMs)? Existing audits commonly rely on surveys and simple tests, but international-relations research has long recognized that measuring geopolitical preferences is difficult and has…",
+      "content": "How should researchers measure the geopolitical preferences expressed by large language models (LLMs)? Existing audits commonly rely on surveys and simple tests, but international-relations research has long recognized that measuring geopolitical preferences is difficult and has developed methods for recovering them from observed choices. This paper applies a dynamic ordinal ideal-point approach from international relations, treating LLMs as respondents to the full texts of 5,555 divisive, recorded, adopted resolutions considered in regular sessions of the UN General Assembly from 1946 through 2025. Support ranges from 37.8% for DeepSeek to 97.3% for GPT-5. Surprisingly, in the twenty-first century, GPT-5, Claude Sonnet, and Gemini are closest among the permanent five to Russia; DeepSeek is closest to France; and all four are farthest from the United States. Among 2,104 resolutions opposed by the United States but supported by China and Russia/USSR, GPT-5 supported 96.1%, Gemini 83.4%, Claude Sonnet 65.2%, and DeepSeek 36.1%. The findings show that a model's expressed geopolitical position can differ markedly from that of its developer's home country, especially in international politics, where state actions can diverge from the stated principles prevalent in the texts on which models are trained.",
       "readingMinutes": 1
     },
     {
@@ -270,6 +361,19 @@
       "author": "",
       "summary": "占核心营收和利润支柱的业务，是不是应该追求最为稳妥的业务方向和逻辑？这个问题对于强大的索尼而言，答案大不相同。查看全文",
       "content": "占核心营收和利润支柱的业务，是不是应该追求最为稳妥的业务方向和逻辑？这个问题对于强大的索尼而言，答案大不相同。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "acb4051afcd4b009",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Decoding the Skew: Distribution-Aware MoE Inference with Adaptive Kernel Dispatch",
+      "url": "https://arxiv.org/abs/2607.23099v2",
+      "published": "2026-07-28T02:21:18Z",
+      "author": "En-Ming Huang",
+      "summary": "Mixture-of-Experts (MoE) inference consists of sparse expert GEMMs whose shapes vary with the runtime routing distribution. Existing serving systems typically select fused-MoE kernels using static token-count buckets, ignoring the per-expert routing distribution that determines…",
+      "content": "Mixture-of-Experts (MoE) inference consists of sparse expert GEMMs whose shapes vary with the runtime routing distribution. Existing serving systems typically select fused-MoE kernels using static token-count buckets, ignoring the per-expert routing distribution that determines tile padding, memory reuse, and kernel efficiency. We introduce a distribution-aware framework for modeling and benchmarking MoE inference. The framework combines the compact Effective Experts metric with a Dirichlet-based reverse-modeling procedure that generates controllable routing distributions for systematic hardware studies. Using it, we show that the best fused-MoE kernel changes with routing skew and token count. We further present DA-MoE, a GPU-resident kernel-dispatch runtime for NVIDIA GPUs that matches the live routing histogram to offline-tuned distributions and selects a near-optimal fused-MoE kernel without CPU--GPU synchronization. On HumanEval-X serving traces, DA-MoE improves geomean fused-MoE latency by 1.16X on DeepSeek-V3 and 1.29X on Kimi K2, with peak speedups of 1.40X and 1.56X.",
       "readingMinutes": 1
     },
     {
@@ -429,6 +533,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "f870ea177af49ebb",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "GraphRareBench: An Auditable Graph-Evidence Benchmark for Phenotype-Driven Rare-Disease Diagnosis",
+      "url": "https://arxiv.org/abs/2607.24878v1",
+      "published": "2026-07-27T07:58:29Z",
+      "author": "Guiling Guo",
+      "summary": "Phenotype-driven diagnostic benchmarks usually report the rank of the reference disease, but they rarely reveal which plausible alternatives are ranked above it or what evidence a tool-using model examines before making its decision. We introduce GraphRareBench, a provenance-pre…",
+      "content": "Phenotype-driven diagnostic benchmarks usually report the rank of the reference disease, but they rarely reveal which plausible alternatives are ranked above it or what evidence a tool-using model examines before making its decision. We introduce GraphRareBench, a provenance-preserving benchmark containing 2,365 ontology-derived cases and 18,093 target-confounder pairs. Each case includes a coarsened HPO query, a fixed candidate pool, graph-defined hard confounders, and source-linked evidence records. On the 237-case gene-component-disjoint test split, supervised rankers using a shared 21-feature interface achieved MRRs ranging from 0.640 to 0.740 and case-averaged target-over-confounder accuracies ranging from 0.898 to 0.916. Agents instantiated with Agents-A1 and DeepSeek-V4-Flash achieved MRRs of 0.746 and 0.718, respectively. Their paired MRR difference was not statistically significant, whereas their target-evidence coverage differed by 0.561. Together with the observation that 22.1% to 43.7% of selected Hit@10 successes still ranked at least one graph-defined hard confounder above the target, these results indicate that full-pool retrieval, hard-confounder discrimination, and observable evidence access capture complementary aspects of model behavior. GraphRareBench therefore provides a foundation for more transparent and evidence-aware evaluation of phenotype-driven diagnostic systems. Code and data are available at https://github.com/GUI0609/GraphRareBench.",
+      "readingMinutes": 1
+    },
+    {
       "id": "c6cbd04ddb810357",
       "feedTitle": "NVIDIA 技术博客",
       "feedUrl": "https://developer.nvidia.cn/blog/feed",
@@ -439,19 +556,6 @@
       "author": "wnger",
       "summary": "在智慧城市安防升级与工业智能制造转型背景下，传统安防监控与工业运维模式普遍面临诸多瓶颈。为了打破这些技术限制， … Continued",
       "content": "在智慧城市安防升级与工业智能制造转型背景下，传统安防监控与工业运维模式普遍面临诸多瓶颈。为了打破这些技术限制，本案例基于NVIDIA DGX Spark桌面级AI超算平台，搭建一站式智能安防与工业智能研发验证体系。该平台聚焦视频结构化分析、安防异常行为识别以及工业设备预测性维护三大核心AI场景为行业智能化方案研发与落地提供算力支撑与验证载体。 数据处理效率低下：传统算力设备难以支撑大规模数据的批量清洗、归一化与特征提取，这导致数据预处理周期长，从而直接制约了模型研发进度。 模型研发适配性不足：传统通用服务器算力薄弱，无法支撑深度学习模型的大规模迭代训练，导致训练出的模型泛化能力较差，且识别准确率难以满足复杂场景需求。 实时推理能力缺失：云端推理存在网络传输延迟、带宽瓶颈及数据安全风险。\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "a126a40c0b4c32f3",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "Windows 设计史 05 | 你怀念的 Windows 7，或许最具「人情味」",
-      "url": "https://sspai.com/post/101668",
-      "published": "2026-07-27T07:00:00Z",
-      "author": "",
-      "summary": "好用有时比创新更重要。查看全文",
-      "content": "好用有时比创新更重要。查看全文",
       "readingMinutes": 1
     },
     {
@@ -478,19 +582,6 @@
       "author": "",
       "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
       "content": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "069a062e2891cea3",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "角落新声｜不再烧 Hi-Fi 后，我在走步机上给音乐留了一小时",
-      "url": "https://sspai.com/post/112705",
-      "published": "2026-07-27T02:47:56Z",
-      "author": "",
-      "summary": "我的「听音角落」并不完全是一个空间。它是一部旧手机、一枚小尾巴、一副老耳机、一台走步机，以及晚上没有被其他事情占走的那一个小时。查看全文",
-      "content": "我的「听音角落」并不完全是一个空间。它是一部旧手机、一枚小尾巴、一副老耳机、一台走步机，以及晚上没有被其他事情占走的那一个小时。查看全文",
       "readingMinutes": 1
     },
     {
@@ -606,8 +697,8 @@
       "url": "https://blogs.nvidia.cn/blog/vera-cpu-eda/",
       "published": "2026-07-26T02:00:00Z",
       "author": "英伟达中国",
-      "summary": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化（EDA）应用。 目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU ，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。 加速关键 EDA 工作负载 这关乎芯片的生产节奏。反过来，EDA",
-      "content": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化（EDA）应用。\n\n目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU ，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。\n\n加速关键 EDA 工作负载\n\n这关乎芯片的生产节奏。反过来，EDA 工作负载性能的提升也将加快行业技术的发展步伐，推动整体研发进程。\n\n仿真、验证和实现技术在半导体开发中扮演着核心角色。在芯片进入制造阶段前，工程师们往往需要花费数年时间，通过数千次迭代来验证设计行为、识别边界条件并优化设计。\n\n尽管 GPU 和 AI 已经加速了芯片设计的许多环节，但部分关键的 EDA 工作负载仍高度依赖 CPU 性能。逻辑仿真、形式验证以及数字实现流程中的部分任务，通常都需要快速的单核性能、高效的内存系统以及强大的整体吞吐能力。\n\n因此，CPU 架构成为决定工程团队验证设计、探索替代方案以及推动产品流片速度的重要因素。\n\n部署于 NVIDIA 波特兰数据中心的 Vera 集群\n\nCadence 与新思科技的初步测试结果\n\nNVIDIA 的初步测试涵盖了多款领先的 EDA 应用。测试结果显示，Vera 在加速现代芯片设计中两个计算密集型环节具备显著优势。针对部分生产级工作流的初步测试展现了令人瞩目的性能表现。\n\nCadence Jasper 是一款形式验证平台，通过智能证明技术和机器学习，能够在设计周期初期发现并修复缺陷或漏洞，从而提升验证效率。\n\nSynopsys VCS 是一款高性能功能验证解决方案，用于在芯片制造前仿真和验证复杂的芯片设计。本次测试在相同核心数量配置下进行。\n\n在选定的工作负载下，两款应用的性能提升了 1.5 倍。\n\n除了基准测试外，NVIDIA 还与这两家公司在应用性能分析、软件优化和系统级调优方面展开紧密合作，持续全面提升更广泛工作流的工程生产力。\n\n将 Vera 引入设计流程\n\nNVIDIA 正在 EDA 工作流中全面部署 Vera，用于创建未来的 NVIDIA 处理器。\n\nVera 结合了 88 颗定制的 NVIDIA Olympus CPU 核心、高效 LPDDR5X 内存子系统，以及第二代 NVIDIA 可扩展一致性互连架构，旨在为高要求的工程应用提供强大的单核性能、高内存带宽和稳定的低延迟表现。\n\n这些能力对于混合延迟敏感型任务与计算集群大规模回归测试的工作负载尤为重要。更快的执行速度可以缩短单次验证的运行时间，而更高的吞吐量则帮助工程师能够在相同的开发周期内评估更多设计方案并完成更多验证任务。\n\n从 RTL 到硅片\n\n在确立了处理器的架构和微架构后，工程师会在寄存器传输级 (RTL) 描述其大部分行为。随后，多种验证和实现技术协同工作，将设计转化为可用于制造的硅片。\n\n这些工作流涵盖逻辑仿真、形式验证、回归测试和数字实现，帮助工程师验证功能、识别边界条件，并最终将设计转化为可投产的硅片。\n\n由于这些阶段紧密相连，提升验证吞吐量有助于企业更早发现问题，从而减少下游代价高昂的设计迭代。\n\n使用 NVIDIA CPU 打造未来的 NVIDIA 芯片\n\n在 NVIDIA 自身的工程工作流中部署 Vera，反映了一项更宏大的战略：根据任务匹配最适合的计算架构，为各项工作负载加速。\n\n在 EDA 领域，GPU 和 AI 正持续加速众多算法，而高性能 CPU 对于关键的仿真、验证和实现工作负载依然不可或缺。两者相辅相成，共同提升整个设计周期的性能。\n\n展望未来，NVIDIA 计划在 Vera 的基础上，推出由 NVIDIA Rigel 核心驱动的下一代 Rosa CPU，并继续在其 CPU 产品路线图中，对领先的 EDA 应用做针对性优化。\n\n通过使用 NVIDIA CPU 来设计未来的 NVIDIA CPU 和 GPU，NVIDIA 正在硅片设计、软件优化和系统工程之间建立一个持续运转的反馈闭环，让每一代产品都成为构建下一代产品的基石。\n\n了解更多 NVIDIA 在 DAC 2026 上的动态。",
+      "summary": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。 目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。 加速关键 EDA 工作负载 这关乎芯片的生产节奏。反过来，ED",
+      "content": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。\n\n目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。\n\n加速关键 EDA 工作负载\n\n这关乎芯片的生产节奏。反过来，EDA 工作负载性能的提升也将加快行业技术的发展步伐，推动整体研发进程。\n\n仿真、验证和实现技术在半导体开发中扮演着核心角色。在芯片进入制造阶段前，工程师们往往需要花费数年时间，通过数千次迭代来验证设计行为、识别边界条件并优化设计。\n\n尽管 GPU 和 AI 已经加速了芯片设计的许多环节，但部分关键的 EDA 工作负载仍高度依赖 CPU 性能。逻辑仿真、形式验证以及数字实现流程中的部分任务，通常都需要快速的单核性能、高效的内存系统以及强大的整体吞吐能力。\n\n因此，CPU 架构成为决定工程团队验证设计、探索替代方案以及推动产品流片速度的重要因素。\n\n部署于 NVIDIA 波特兰数据中心的 Vera 集群\n\nCadence 与新思科技的初步测试结果\n\nNVIDIA 的初步测试涵盖了多款领先的 EDA 应用。测试结果显示，Vera 在加速现代芯片设计中两个计算密集型环节具备显著优势。针对部分生产级工作流的初步测试展现了令人瞩目的性能表现。\n\nCadence Jasper 是一款形式验证平台，通过智能证明技术和机器学习，能够在设计周期初期发现并修复缺陷或漏洞，从而提升验证效率。\n\nSynopsys VCS 是一款高性能功能验证解决方案，用于在芯片制造前仿真和验证复杂的芯片设计。本次测试在相同核心数量配置下进行。\n\n在选定的工作负载下，两款应用的性能提升了 1.5 倍。\n\n除了基准测试外，NVIDIA 还与这两家公司在应用性能分析、软件优化和系统级调优方面展开紧密合作，持续全面提升更广泛工作流的工程生产力。\n\n将 Vera 引入设计流程\n\nNVIDIA 正在 EDA 工作流中全面部署 Vera，用于创建未来的 NVIDIA 处理器。\n\nVera 结合了 88 颗定制的 NVIDIA Olympus CPU 核心、高效 LPDDR5X 内存子系统，以及第二代 NVIDIA 可扩展一致性互连架构，旨在为高要求的工程应用提供强大的单核性能、高内存带宽和稳定的低延迟表现。\n\n这些能力对于混合延迟敏感型任务与计算集群大规模回归测试的工作负载尤为重要。更快的执行速度可以缩短单次验证的运行时间，而更高的吞吐量则帮助工程师能够在相同的开发周期内评估更多设计方案并完成更多验证任务。\n\n从 RTL 到硅片\n\n在确立了处理器的架构和微架构后，工程师会在寄存器传输级 (RTL) 描述其大部分行为。随后，多种验证和实现技术协同工作，将设计转化为可用于制造的硅片。\n\n这些工作流涵盖逻辑仿真、形式验证、回归测试和数字实现，帮助工程师验证功能、识别边界条件，并最终将设计转化为可投产的硅片。\n\n由于这些阶段紧密相连，提升验证吞吐量有助于企业更早发现问题，从而减少下游代价高昂的设计迭代。\n\n使用 NVIDIA CPU 打造未来的 NVIDIA 芯片\n\n在 NVIDIA 自身的工程工作流中部署 Vera，反映了一项更宏大的战略：根据任务匹配最适合的计算架构，为各项工作负载加速。\n\n在 EDA 领域，GPU 和 AI 正持续加速众多算法，而高性能 CPU 对于关键的仿真、验证和实现工作负载依然不可或缺。两者相辅相成，共同提升整个设计周期的性能。\n\n展望未来，NVIDIA 计划在 Vera 的基础上，推出由 NVIDIA Rigel 核心驱动的下一代 Rosa CPU，并继续在其 CPU 产品路线图中，对领先的 EDA 应用做针对性优化。\n\n通过使用 NVIDIA CPU 来设计未来的 NVIDIA CPU 和 GPU，NVIDIA 正在硅片设计、软件优化和系统工程之间建立一个持续运转的反馈闭环，让每一代产品都成为构建下一代产品的基石。\n\n了解更多 NVIDIA 在 DAC 2026 上的动态。",
       "readingMinutes": 4
     },
     {
@@ -634,19 +725,6 @@
       "author": "Xi Chen",
       "summary": "Rare diseases collectively affect an estimated 3.5% to 5.9% of the population, yet more than 70% of patients are misdiagnosed and many endure years of evaluation before a diagnosis is reached, because early presentations are nonspecific and relevant expertise is scarce and uneve…",
       "content": "Rare diseases collectively affect an estimated 3.5% to 5.9% of the population, yet more than 70% of patients are misdiagnosed and many endure years of evaluation before a diagnosis is reached, because early presentations are nonspecific and relevant expertise is scarce and unevenly distributed. Artificial intelligence could provide support, but existing systems address isolated stages of care, overwhelmingly diagnosis. They typically depend on the results of downstream investigations, and they treat the variability between models as noise to be eliminated. Here we present RareLens, a system that supports clinical decision-making across the entire rare disease trajectory by exploiting this variability. When heterogeneous large language models evaluate the same case, they generate divergent but complementary reasoning, which RareLens aligns and calibrates into a single convergent, actionable decision at each stage. Four coordinated modules perform primary-visit risk screening, diagnosis, treatment planning and prognosis. Developed and evaluated on RareBench, a real-world dataset of 157,525 cases spanning all 33 Orphanet categories and more than 7,000 conditions, RareLens outperformed every frontier model tested, including GPT-5, DeepSeek-R1, Claude-3.7-Sonnet and Gemini-2.5-Pro, at each stage. It achieved an area under the curve of 0.917 for screening and top-1 accuracies of 65.5% and 89.8% for diagnosis and treatment. In an external study spanning 1,287 cases and 23 physicians, autonomous RareLens and physicians assisted by RareLens both substantially outperformed unaided physicians. These findings indicate that aligning divergent model reasoning, rather than scaling a single model, offers a generalizable strategy for high-uncertainty clinical decision-making.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "3abb145c88369ba7",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Decoding the Skew: Distribution-Aware MoE Inference with Adaptive Kernel Dispatch",
-      "url": "https://arxiv.org/abs/2607.23099v1",
-      "published": "2026-07-25T08:20:47Z",
-      "author": "En-Ming Huang",
-      "summary": "Mixture-of-Experts (MoE) inference consists of sparse expert GEMMs whose shapes vary with the runtime routing distribution. Existing serving systems typically select fused-MoE kernels using static token-count buckets, ignoring the per-expert routing distribution that determines…",
-      "content": "Mixture-of-Experts (MoE) inference consists of sparse expert GEMMs whose shapes vary with the runtime routing distribution. Existing serving systems typically select fused-MoE kernels using static token-count buckets, ignoring the per-expert routing distribution that determines tile padding, memory reuse, and kernel efficiency. We introduce a distribution-aware framework for modeling and benchmarking MoE inference. The framework combines the compact Effective Experts metric with a Dirichlet-based reverse-modeling procedure that generates controllable routing distributions for systematic hardware studies. Using it, we show that the best fused-MoE kernel changes with routing skew and token count. We further present DA-MoE, a GPU-resident kernel-dispatch runtime for NVIDIA GPUs that matches the live routing histogram to offline-tuned distributions and selects a near-optimal fused-MoE kernel without CPU--GPU synchronization. On HumanEval-X serving traces, DA-MoE improves geomean fused-MoE latency by 1.16X on DeepSeek-V3 and 1.29X on Kimi K2, with peak speedups of 1.40X and 1.56X.",
       "readingMinutes": 1
     },
     {
@@ -780,19 +858,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "e769374b87e4b299",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
-      "url": "https://developer.nvidia.com/blog/accelerating-end-to-end-co-folding-performance-with-nvidia-bionemo-agent-toolkit/",
-      "published": "2026-07-23T18:54:19Z",
-      "author": "Elizabeth Goodman",
-      "summary": "Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein...",
-      "content": "Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein...\nBiomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein design. Increasingly, they’re driven end-to-end by AI agents. For an agent to run that pipeline well, every step needs to be fast and scalable: Multiple Sequence Alignment (MSA) generation, co-folding inference, serving, and multi-GPU scale-out.\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "86dbb4b49ba3f643",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -871,19 +936,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "ee3f54330f399597",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo",
-      "url": "https://developer.nvidia.com/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo/",
-      "published": "2026-07-23T18:54:14Z",
-      "author": "Tanya Lenz",
-      "summary": "Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...",
-      "content": "Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...\nCoding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve build issues, launch experiments, monitor execution, analyze metrics, and summarize results. For reinforcement learning (RL) research, this matters because meaningful metrics often appear only after the essential experiment infrastructure…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "f470dee7b01bc0c6",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -894,6 +946,19 @@
       "author": "Tanya Lenz",
       "summary": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...",
       "content": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...\nWhat if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning models to production video tasks, developers often lose days to data formatting, container setup, training scripts, baseline evaluation, and hyperparameter sweeps before they even know whether post-training improves accuracy.\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "ee3f54330f399597",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo",
+      "url": "https://developer.nvidia.com/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo/",
+      "published": "2026-07-23T18:54:14Z",
+      "author": "Tanya Lenz",
+      "summary": "Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...",
+      "content": "Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...\nCoding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve build issues, launch experiments, monitor execution, analyze metrics, and summarize results. For reinforcement learning (RL) research, this matters because meaningful metrics often appear only after the essential experiment infrastructure…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1170,19 +1235,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "c33163fd69822d4f",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Evaluating Large Language Models for Symbolic Security Protocol Analysis",
-      "url": "https://arxiv.org/abs/2607.20712v1",
-      "published": "2026-07-22T20:29:59Z",
-      "author": "Paolo Modesti",
-      "summary": "Security protocol verification relies on formal tools such as ProVerif and OFMC. This study evaluates whether Large Language Models (LLMs) can perform comparable analysis. We test GPT and DeepSeek in chat and reasoning modes over three runs on 130 obfuscated AnB/AnBx protocols c…",
-      "content": "Security protocol verification relies on formal tools such as ProVerif and OFMC. This study evaluates whether Large Language Models (LLMs) can perform comparable analysis. We test GPT and DeepSeek in chat and reasoning modes over three runs on 130 obfuscated AnB/AnBx protocols covering 388 security goals, scored against ProVerif and OFMC. Chat models reach 69 to 81% recall at precision below 31%. Reasoning models reverse this trade-off, reaching 66.5% precision for GPT and 45.4% for DeepSeek, but detect just over half the attacks. DeepSeek's two modes share one underlying model, so the comparison isolates reasoning itself, which raises precision from 27.2% to 45.4%. The GPT contrast spans a model-version change and is only suggestive. All models perform worst on authentication goals: reasoning models detect well under half of injective and non-injective agreement attacks, whereas chat models over-flag them at low precision. Confidentiality is the exception, with F1 up to 95.7% in reasoning mode. Verdicts are unstable across runs, identical on 89.7% of goals for GPT but 74.0% for DeepSeek. Self-reported confidence is uniformly high yet shows no meaningful correlation with correctness. On this benchmark LLMs do not match formal verification, but may serve, at best, as pre-screening filters.",
-      "readingMinutes": 1
-    },
-    {
       "id": "a66075dc0af41a68",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -1194,19 +1246,6 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
-    },
-    {
-      "id": "e5042049e03a1060",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD",
-      "url": "https://arxiv.org/abs/2607.20145v1",
-      "published": "2026-07-22T13:49:17Z",
-      "author": "Dongfang Li",
-      "summary": "Full-parameter post-training of trillion-parameter-scale MoE models introduces substantial system-level challenges for large-scale distributed training, including severe memory pressure, non-overlapped communication overhead, and inefficient kernel execution. While most large-sc…",
-      "content": "Full-parameter post-training of trillion-parameter-scale MoE models introduces substantial system-level challenges for large-scale distributed training, including severe memory pressure, non-overlapped communication overhead, and inefficient kernel execution. While most large-scale LLM training systems are built around GPU-based clusters, this report presents an end-to-end optimization practice on the Ascend NPU SuperPOD. Using the DeepSeek-V4 model family as the target workload, we develop a hierarchical optimization framework spanning model-level parallelism, computation-communication orchestration, and low-level kernel execution. The resulting system achieves 34.22% Model FLOPs Utilization (MFU) with a 2.93x improvement over the open-source baseline recipe while maintaining training stability. Building on this optimized infrastructure, we further establish a CPT and SFT workflow for complex Operations Research (OR) tasks. We refer to the integrated framework as SLAI T-Rex. Using DeepSeek-V4-Flash, we develop OR-oriented CPT and SFT data pipelines that combine collected domain resources with solver-verified synthetic optimization documents. The resulting dataset contains 10K high-quality SFT samples spanning four task categories and three problem representations. The specialized model achieves the highest average zero-shot Pass@1 score among the evaluated models, reaching 71.81% and outperforming GPT-5.4-Mini and the base DeepSeek-V4-Flash model by 3.98 and 11.27 percentage points, respectively. Overall, this work demonstrates a full-stack pathway from efficient trillion-parameter model post-training on Ascend infra to domain-specialized Flash models for solver-grounded mathematical modeling, advancing frontier-model systems for complex reasoning.",
-      "readingMinutes": 1
     },
     {
       "id": "a821810ee2b72f16",
@@ -1258,19 +1297,6 @@
       "author": "Menaka Shroff",
       "summary": "Gentle Monster glasses, Warby Parker glasses, a prompt asking for the history behind a pictured building, and a prompt asking to book a table at a pictured restaurant",
       "content": "Gentle Monster glasses, Warby Parker glasses, a prompt asking for the history behind a pictured building, and a prompt asking to book a table at a pictured restaurant",
-      "readingMinutes": 1
-    },
-    {
-      "id": "6f8203820ba90bbc",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Reinforcement Learning for Large Language Model Selective Evidence Adoption from Contaminated Retrieval Results",
-      "url": "https://arxiv.org/abs/2607.20090v1",
-      "published": "2026-07-22T12:45:04Z",
-      "author": "Yanyu Chen",
-      "summary": "Retrieval-augmented large language models frequently face contexts that interleave useful evidence with misleading statements or instruction-like content. Blanket refusal discards valid evidence, whereas uncritical adoption yields incorrect or unsafe answers. The ability to sele…",
-      "content": "Retrieval-augmented large language models frequently face contexts that interleave useful evidence with misleading statements or instruction-like content. Blanket refusal discards valid evidence, whereas uncritical adoption yields incorrect or unsafe answers. The ability to selectively adopt relevant information while rejecting deceptive or harmful content is therefore critical for reliable deployment in real-world retrieval settings. We introduce SelectBench, a controlled benchmark and training set for selective evidence adoption, and post-train Qwen3.5-4B directly with DAPO using either deterministic rule rewards or a frozen semantic judge. On the corrected 325-example SelectBench-v2 test set, strict success rises from 22.46% for the original checkpoint to 25.54% with DAPO-Rule and 26.46% with DAPO-DeepSeek. Both trained policies reduce forbidden-content adoption and produce shorter, more focused responses, yet prompt-injection following does not improve. The paired gains are modest and fail to survive Holm correction, suggesting that stronger reward shaping or additional training iterations may be needed for more robust gains. DAPO-DeepSeek exhibits no material degradation on MMLU or clean HotpotQA, indicating that the post-training procedure preserves general capabilities. These results demonstrate a directional improvement in selective evidence use, while identifying injection resistance and statistical robustness as important remaining challenges for future work.",
       "readingMinutes": 1
     },
     {
@@ -1937,19 +1963,6 @@
       "readingMinutes": 4
     },
     {
-      "id": "0090139282200a1d",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "How sales teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "published": "2026-07-14T00:00:00Z",
-      "author": "",
-      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "content": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "readingMinutes": 1
-    },
-    {
       "id": "578b3bdf5cbf1347",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1960,6 +1973,19 @@
       "author": "",
       "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "content": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "0090139282200a1d",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "How sales teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+      "published": "2026-07-14T00:00:00Z",
+      "author": "",
+      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "content": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "readingMinutes": 1
     },
     {
@@ -2158,19 +2184,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "2015b07b78a1afec",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "published": "2026-07-09T10:00:00Z",
-      "author": "",
-      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "content": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "readingMinutes": 1
-    },
-    {
       "id": "07aa5a8a45a2217e",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -2181,6 +2194,19 @@
       "author": "",
       "summary": "Details about the OpenAI Bio Bounty program",
       "content": "Details about the OpenAI Bio Bounty program",
+      "readingMinutes": 1
+    },
+    {
+      "id": "2015b07b78a1afec",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "published": "2026-07-09T10:00:00Z",
+      "author": "",
+      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "content": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
       "readingMinutes": 1
     },
     {
@@ -2220,19 +2246,6 @@
       "author": "",
       "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
       "content": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "3447f8d32f7ed63d",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Helping K–12 educators build practical AI skills",
-      "url": "https://openai.com/index/k-12-educators-practical-skills",
-      "published": "2026-07-08T10:00:00Z",
-      "author": "",
-      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
-      "content": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
       "readingMinutes": 1
     },
     {
@@ -3130,19 +3143,6 @@
       "author": "",
       "summary": "Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis.",
       "content": "Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "1c8f3fa51238191a",
-      "feedTitle": "Google AI · DeepMind",
-      "feedUrl": "https://deepmind.google/blog/rss.xml",
-      "category": "AI 技术",
-      "title": "How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica",
-      "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/",
-      "published": "2026-05-16T03:14:17Z",
-      "author": "",
-      "summary": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa.",
-      "content": "Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa.",
       "readingMinutes": 1
     },
     {
