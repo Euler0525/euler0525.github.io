@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T17:11:35.554772Z",
+  "generatedAt": "2026-07-30T06:18:06.775990Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -117,6 +117,45 @@
   ],
   "articles": [
     {
+      "id": "8a2242c78e6a1c54",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "少数派会员年度更新：把共同的热爱随身携带",
+      "url": "https://sspai.com/post/112858",
+      "published": "2026-07-30T03:01:11Z",
+      "author": "",
+      "summary": "感谢每一位已经同行多年的会员，也欢迎新朋友加入我们共同建设的社区。查看全文",
+      "content": "感谢每一位已经同行多年的会员，也欢迎新朋友加入我们共同建设的社区。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c7b4d728735ae5c3",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：中国电信将不再通过第三方互联网渠道提供号卡办理服务等",
+      "url": "https://sspai.com/post/112881",
+      "published": "2026-07-30T00:32:38Z",
+      "author": "",
+      "summary": "Bigme 大我推出 F13 彩墨屏 AI 数码相框，OpenAI 宣布开源 Codex Security CLI 等。查看全文",
+      "content": "Bigme 大我推出 F13 彩墨屏 AI 数码相框，OpenAI 宣布开源 Codex Security CLI 等。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "ccb8f7c133b84f7f",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
+      "url": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/",
+      "published": "2026-07-29T18:14:24Z",
+      "author": "Elizabeth Goodman",
+      "summary": "Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving...",
+      "content": "Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving...\nEvery byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving these model weights around the cluster is extremely common. For instance, a cold start may pull weights from remote storage into GPU memory; autoscaling and rolling updates must populate each new replica; and RL post-training continuously…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
       "id": "af0f4d36615d964d",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -156,6 +195,45 @@
       "readingMinutes": 1
     },
     {
+      "id": "265c6a0134aba9b6",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "published": "2026-07-29T15:00:00Z",
+      "author": "",
+      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "content": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "80f74e427d3930e6",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "MRCoder: An Efficient Context Selecting Approach for Repository-Level Code Generation",
+      "url": "https://arxiv.org/abs/2607.26805v1",
+      "published": "2026-07-29T11:47:51Z",
+      "author": "Peiding Wang",
+      "summary": "Large language models (LLMs) have demonstrated strong capabilities in code generation. However, repository-level code generation remains challenging, as it requires effectively identifying and utilizing repository-specific context. While retrieval-augmented generation (RAG) inco…",
+      "content": "Large language models (LLMs) have demonstrated strong capabilities in code generation. However, repository-level code generation remains challenging, as it requires effectively identifying and utilizing repository-specific context. While retrieval-augmented generation (RAG) incorporates relevant code snippets, it often introduces redundant context that interferes with the LLM's ability to utilize relevant information, leading to degraded generation quality and increased computational cost. Moreover, existing context selection and compression methods struggle to balance efficiency and quality, either introducing additional computational overhead or failing to effectively select valid context. In this paper, we propose MRCoder, an efficient context selection framework that improves both the effectiveness and efficiency of repository-level code generation. MRCoder adopts a Map-Reduce paradigm: in the Map Phase, a lightweight draft model generates drafts over partitioned contexts, and Structure-Aware Draft-Guided Selection (SADGS) selects informative contexts based on drafts through API consistency and logical similarity; in the Reduce Phase, the refined contexts are aggregated for final generation, with a parallel verification strategy further accelerating decoding. We evaluate MRCoder on two widely used repository-level code generation benchmarks, CoderEval and DevEval, using Qwen2.5-Coder and DeepSeek-Coder as backbone LLMs. Experimental results show that MRCoder improves code generation accuracy over strong baselines while reducing token consumption by 30 to 50% and inference time by up to 52%. These results demonstrate that our proposed structured and draft-guided context selection strategy is crucial for improving both the quality and efficiency of repository-level code generation",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c110d3e23c0473a0",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "CodeSpec: Dual Executable Specifications for Agentic Long-Horizon Feature Development",
+      "url": "https://arxiv.org/abs/2607.26777v1",
+      "published": "2026-07-29T11:20:49Z",
+      "author": "Peiding Wang",
+      "summary": "LLM-based code agents have advanced repository-level software development through iterative interaction with codebases and tools. However, feature development requires integrating new behaviors into existing architectures through coherent cross-component functional chains. Exist…",
+      "content": "LLM-based code agents have advanced repository-level software development through iterative interaction with codebases and tools. However, feature development requires integrating new behaviors into existing architectures through coherent cross-component functional chains. Existing agents typically derive such chains through free-form reasoning, often producing unreliable feature designs with incomplete functional chains. Moreover, textual designs are difficult to verify and enforce, making it challenging to maintain design-implementation consistency throughout long-horizon development. We propose CodeSpec, a dual executable specification method for repository-level feature development. It builds reliable functional chains from evidence pairing sub-requirement semantics with repository architectures, then compiles them into complementary architecture and behavior specifications that check chain completeness and correctness while preserving design-implementation consistency over long interactions. On FeatureBench, which targets feature development in existing repositories, CodeSpec achieves 70.7%, 55.0%, and 49.9% pass rates under DeepSeek-V4-Pro, outperforming representative baselines such as Claude Code. Results on the repository generation benchmark NL2Repo-Bench further demonstrate its generalizability.",
+      "readingMinutes": 1
+    },
+    {
       "id": "47da73cdc4f72b4c",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -179,6 +257,19 @@
       "author": "",
       "summary": "本文为你梳理 8.0 版本 iA Writer 的主要亮点。查看全文",
       "content": "本文为你梳理 8.0 版本 iA Writer 的主要亮点。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "3d866ebbc26cb853",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "A Physics-Informed Framework for PID Tuning of Chemical Processes Using Large Language Model Agents",
+      "url": "https://arxiv.org/abs/2607.26594v1",
+      "published": "2026-07-29T08:14:31Z",
+      "author": "Zhoupeng Shou",
+      "summary": "PID tuning for chemical processes commonly relies on identified process models, whereas plant engineers often retune loops iteratively by observing responses, diagnosing deficiencies, adjusting gains, and validating the result. This work formalizes this engineer-like workflow in…",
+      "content": "PID tuning for chemical processes commonly relies on identified process models, whereas plant engineers often retune loops iteratively by observing responses, diagnosing deficiencies, adjusting gains, and validating the result. This work formalizes this engineer-like workflow in a language-model-assisted PID tuning framework applicable to both large and small language models (LLMs/SLMs). Hosted LLMs receive closed-loop response features, control-engineering diagnoses, tuning preferences, and internal model control (IMC)-based demonstrations to generate and iteratively correct PID gains under common acceptance criteria. For local deployment, Qwen3-0.6B is adapted through supervised fine-tuning (SFT) with simulation-verified IMC targets and physics-informed group relative policy optimization (PI-GRPO) with non-compensable stability and performance rewards. On 100 first-order plus dead time (FOPDT) and 100 second-order plus dead time (SOPDT) test cases, hosted LLMs (DeepSeek-V4-Flash and Qwen3.7-Plus) achieve final success rates of 75-89% and 77-79%, respectively. As for Qwen3-0.6B, supervised fine-tuning raises first-recommendation success to 86.5%, and PI-GRPO further increases it to 94.0%, primarily improving first-attempt reliability and stability margins.",
       "readingMinutes": 1
     },
     {
@@ -218,6 +309,19 @@
       "author": "",
       "summary": "少数派的近期动态那个让你放松娱乐、拥抱心流、逃离纷扰或找回真我的角落，是如何构建起来的？「角落新声」征文活动火热征稿中你可能错过的好文章社区速递151|派友的六月好物盘点、携程被重罚热议和tomtoc ...查看全文",
       "content": "少数派的近期动态那个让你放松娱乐、拥抱心流、逃离纷扰或找回真我的角落，是如何构建起来的？「角落新声」征文活动火热征稿中你可能错过的好文章社区速递151|派友的六月好物盘点、携程被重罚热议和tomtoc ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "eb71f165025c2507",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "published": "2026-07-29T00:00:00Z",
+      "author": "",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "content": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
       "readingMinutes": 1
     },
     {
@@ -377,19 +481,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "bf3aa1461ef39c9b",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：月之暗面开源 Kimi K3 模型等",
-      "url": "https://sspai.com/post/112805",
-      "published": "2026-07-28T00:04:27Z",
-      "author": "",
-      "summary": "少数派的近期动态那个让你放松娱乐、拥抱心流、逃离纷扰或找回真我的角落，是如何构建起来的？「角落新声」征文活动火热征稿中你可能错过的文章角落新声｜不再烧Hi-Fi后，我在走步机上给音乐留了一小时Wind ...查看全文",
-      "content": "少数派的近期动态那个让你放松娱乐、拥抱心流、逃离纷扰或找回真我的角落，是如何构建起来的？「角落新声」征文活动火热征稿中你可能错过的文章角落新声｜不再烧Hi-Fi后，我在走步机上给音乐留了一小时Wind ...查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "8f67b154224e3c04",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -491,19 +582,6 @@
       "author": "Zongyou Yang",
       "summary": "Language-model benchmarks collapse two distinct measurement questions into a single accuracy score: whether a response reached an evaluable state, and whether its answer was judged correct. We introduce a two-layer evaluation framework that separates scorer-independent execution…",
       "content": "Language-model benchmarks collapse two distinct measurement questions into a single accuracy score: whether a response reached an evaluable state, and whether its answer was judged correct. We introduce a two-layer evaluation framework that separates scorer-independent execution evidence, including termination, answer exposure, parseability, and completion length, from scorer-dependent correctness. Across 2,550 outputs from five fixed Qwen and DeepSeek configurations on MATH and ARC-Challenge, matched 2,048-token limits produce sharply different execution mixtures: 49 of 450 Qwen MATH outputs terminate without a final answer, compared with 5 of 300 DeepSeek MATH outputs and none of the 750 ARC outputs. Among the same 300 DeepSeek MATH question-model pairs, no missing-final length termination is observed at 8,192 tokens. A coverage-audited targeted verification study further shows that candidate-selection and aggregation policies can substantially alter comparative accuracy estimates. These results demonstrate that accuracy conflates execution case mix with verification policy. Evaluations of test-time methods should therefore report pre-intervention execution states, verification coverage, and scorer provenance alongside accuracy.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "826efea84528ac45",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派评 | 近期值得关注的 App",
-      "url": "https://sspai.com/post/112785",
-      "published": "2026-07-27T09:34:04Z",
-      "author": "",
-      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
-      "content": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
       "readingMinutes": 1
     },
     {
@@ -676,19 +754,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "43676046e7a97b7a",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA 扩展 Agent Toolkit，集成 PhysicsNeMo 与 CUDA-X 库，重塑全球工程、设计与制造方式",
-      "url": "https://blogs.nvidia.cn/blog/nvidia-expands-nvidia-agent-toolkit-with-nvidia-physicsnemo-and-cuda-x-libraries-to-transform-how-the-world-engineers-designs-and-builds/",
-      "published": "2026-07-26T02:00:00Z",
-      "author": "英伟达中国",
-      "summary": "新闻摘要： NVIDIA 今日宣布扩展面向工程领域的 NVIDIA Agent Toolkit，将 NVIDIA PhysicsNeMo™ 和 CUDA-X™ 库作为智能体就绪的工具与技能纳入其中，旨在重塑全球产品设计与开发模式。 构建新一代芯片和系统要求团队在日益复杂的设计周期中，打通物理、仿真和性能分析环节。为应对这种复杂性，一类全新的自主 AI 工程师应运而生。它们借助专业工具进行仿真并生成高保真数据，从而推动芯片设计、验证、封装及系统工程的规模化发展。 NVIDIA 现已将架构重构的 P",
-      "content": "新闻摘要：\n\nNVIDIA 通过引入架构重构的 NVIDIA PhysicsNeMo 库及更新的 NVIDIA CUDA-X 库，扩展了 NVIDIA Agent Toolkit。此举使软件开发者能够构建具备 AI 物理技能、加速求解器及量子化学能力的自主 AI 工程师。\n\n在 NVIDIA 研究中心的 ACE-RTL 智能体支持下，NVIDIA Nemotron 3 Ultra 在开放模型中的智能体级寄存器传输级 (RTL) 编码能力方面处于领先地位，助力企业打造用于芯片设计与验证的可定制 AI 智能体。\n\nCadence、西门子、新思科技等行业领导者正采用 NVIDIA 的加速计算与智能体 AI 技术，推动芯片设计、验证、封装及系统设计领域的自主工程工作流发展。\n\nNVIDIA 今日宣布扩展面向工程领域的 NVIDIA Agent Toolkit，将 NVIDIA PhysicsNeMo 和 CUDA-X 库作为智能体就绪的工具与技能纳入其中，旨在重塑全球产品设计与开发模式。\n\n构建新一代芯片和系统要求团队在日益复杂的设计周期中，打通物理、仿真和性能分析环节。为应对这种复杂性，一类全新的自主 AI 工程师应运而生。它们借助专业工具进行仿真并生成高保真数据，从而推动芯片设计、验证、封装及系统工程的规模化发展。\n\nNVIDIA 现已将架构重构的 PhysicsNeMo 整合为一系列支持智能体的友好型库，并新增及更新了 CUDA-X 库，以支持复杂的工程任务。上述能力已被纳入 NVIDIA Agent Toolkit。其中，PhysicsNeMo 提供用于模型训练与部署的 AI 物理技能，而 CUDA-X 库则将加速求解器和量子化学能力引入智能体工程工作流。\n\nNVIDIA 计算工程副总裁兼总经理 Timothy Costa 表示：“工程领域已迎来关键拐点。如今，AI 能够熟练运用物理、仿真和设计工具。借助 NVIDIA Agent Toolkit，开发者可以构建出具备物理推理能力、能运行复杂仿真并生成高保真数据的智能体工程师，使其成为芯片与系统设计创新的新引擎。”\n\nNVIDIA Agent Toolkit 为工程智能体新增 AI 物理与加速计算技能\n\nNVIDIA Agent Toolkit 帮助开发者构建连接特定领域工具、模型和数据的专用工程 AI 助手。随着 NVIDIA PhysicsNeMo 和 CUDA-X 库的加入，这些智能体如今能够运用 AI 物理技能、加速求解器和量子化学能力，为芯片、系统及工业工程领域提供服务。\n\n核心功能包括：\n\nAI 物理技能：NVIDIA PhysicsNeMo 库帮助智能体针对复杂的设计与仿真任务，训练和部署可定制的 AI 物理模型，将模型架构转化为工程工作流中可直接调用的工具。\n\n迭代稀疏求解器：全新的 NVIDIA cuISS (CUDA Iterative Sparse Solvers，CUDA 迭代稀疏求解器) 库可加速基于物理和工程仿真中的大型稀疏线性系统的求解。该库专为在 GPU 上实现灵活性与高性能而设计，凭借现代化的可组合求解器与预处理技术，可帮助开发者为智能体工程工作流构建可扩展的生产级仿真引擎。\n\n直接稀疏求解器：NVIDIA cuDSS (CUDA Direct Sparse Solvers，CUDA 直接稀疏求解器) 可加速电子设计自动化 (EDA) 和科学仿真中核心的大型复杂稀疏线性系统求解。它为器件、电路和系统仿真等关键工作负载提供高性能与数值鲁棒性，并支持在生产环境中的多 GPU 和多节点扩展部署。\n\n量子化学：NVIDIA cuEST (CUDA Electronic Structure Theory，CUDA 电子结构理论) 将高精度的量子化学仿真引入器件相关尺度，使密度泛函理论 (DFT) 及后 DFT 方法能够大规模集成到生产工作流中。cuEST 支持多种现代泛函，使日益庞大的基态和激发态仿真在 NVIDIA GPU 上变得切实可行，从而为客户带来实际的生产价值。\n\nNVIDIA Nemotron 3 Ultra 开放模型推动芯片设计智能体编码\n\n芯片设计依赖于专业的寄存器传输级 (RTL) 编码，这要求极高的准确性、深厚的领域专业知识以及灵活的部署能力。\n\n借助 NVIDIA 研究中心推出的硬件设计智能体 ACE-RTL，NVIDIA Nemotron 3 Ultra 在全面的 Verilog 设计问题基准测试中表现优异，在开放模型的智能体 RTL 编码任务中拔得头筹。\n\n这表明 Nemotron 3 Ultra 具备行业领先的准确性和效率，且支持在专有数据上进行后训练，并可在本地或企业内部部署，从而在企业构建用于芯片设计 AI 智能体时，为其提供更强的可控性、定制化能力和数据隐私保障。\n\n开发者可通过多种途径快速上手 Nemotron 3 Ultra，包括使用 Cadence 的 Harness、新思科技面向设计验证及模拟与混合信号工作流打造的全自主可长时间运行的智能体、西门子的 Questa One 智能验证智能体工具包，以及在 Hugging Face 平台体验。\n\n软件巨头借助 NVIDIA 技术打造自主 AI 工程师\n\n工业工程领域的领导者们已开始利用全新及扩展后的 NVIDIA Agent Toolkit 组件，开发自主 AI 工程师。\n\nCadence 将 NVIDIA Nemotron、加速计算和 CUDA-X 库与最新推出的 Cadence AuraStack AI Super Agent 及 Cadence Millennium M2000 平台相结合，自主驱动从探索到签核 (signoff) 的高级封装与印制电路板 (PCB) 设计，实现高达 20 倍的多物理场性能提升。这进一步完善了 Cadence 的硅片设计超级智能体产品组合，实现从架构到制造签核的芯片设计工作流端到端覆盖。\n\n此外，双方的合作从智能体设计延伸至底层计算。包括形式验证平台 Cadence Jasper 在内的 EDA 与系统设计自动化产品组合，正针对 NVIDIA Vera CPU 进行优化，以帮助工程团队更快地验证先进芯片设计。\n\n新思科技利用 NVIDIA Agent Toolkit、NVIDIA NIM、Nemotron 开放模型、NVIDIA NeMo Gym 库及 NVIDIA NemoClaw 蓝图，结合 Synopsys AgentEngineer，构建跨芯片与系统设计的安全、加速智能体工作流。借助 Ansys Icepak，新思科技的智能体工作流可自主执行复杂 GPU 散热设计优化的仿真设置及前后处理。同时，新思科技正开发 NVIDIA cuISS 的用例，以加速仿真工作负载。\n\n双方的合作同样从智能体工作流延伸至底层计算平台。用于在流片前仿真和验证复杂芯片设计的高性能功能验证解决方案 Synopsys VCS，正针对 NVIDIA Vera CPU 进行优化，以提升验证吞吐量。\n\n西门子正将 NVIDIA NeMo Gym、Nemotron 开放模型和 CUDA-X 库与西门子 Fuse EDA AI 智能体结合使用，以编排跨半导体、3D-IC、PCB 及系统设计的多工具与多智能体工作流，覆盖从概念设计到签核的全流程。在西门子 Solido Characterization Suite 中，这些智能体 AI 工作流使库特征速度提升 10 倍以上，同时将 Token 成本降低至原来的 1/10 以上。\n\n三星正利用 NVIDIA cuLitho 和 CUDA-X 库，使计算光刻性能提升高达 20 倍；同时应用 NVIDIA PhysicsNeMo 进行芯片级热应力分析，在包含高达 100 亿个单元的区域中实现了数值求解器级别的精度。\n\nChipAgents 正使用 NVIDIA Agent Toolkit 构建用于芯片设计与验证的特定领域 AI 智能体。该团队正针对包括调试、形式验证、覆盖率等在内的复杂端到端半导体设计与验证工作流，对 NVIDIA Nemotron 模型进行微调。\n\nSilvaco 正借助 NVIDIA 加速计算，扩大 Silvaco Victory Device 中的高精度 3D 光学仿真规模。该仿真在由 NVIDIA NVLink 技术互连的 32 个 NVIDIA GPU 上运行，在不到 4 小时内完成了 32 亿网格节点的光子边缘耦合器仿真，这一工作量已超出基于 CPU 仿真的实际极限。\n\nKeysight 正利用 NVIDIA cuDSS 将电磁仿真速度提升高达 10 倍；同时，三星、新思科技和 TSMC 正将 NVIDIA cuEST 集成到其 GPU 加速流程中，使关键量子化学工作负载的速度提升高达 50 倍。\n\n欢迎参加 NVIDIA 在 DAC 的活动，了解更多信息。",
-      "readingMinutes": 7
-    },
-    {
       "id": "957360b22dd1f5a4",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -700,6 +765,19 @@
       "summary": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。 目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。 加速关键 EDA 工作负载 这关乎芯片的生产节奏。反过来，ED",
       "content": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。\n\n目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。\n\n加速关键 EDA 工作负载\n\n这关乎芯片的生产节奏。反过来，EDA 工作负载性能的提升也将加快行业技术的发展步伐，推动整体研发进程。\n\n仿真、验证和实现技术在半导体开发中扮演着核心角色。在芯片进入制造阶段前，工程师们往往需要花费数年时间，通过数千次迭代来验证设计行为、识别边界条件并优化设计。\n\n尽管 GPU 和 AI 已经加速了芯片设计的许多环节，但部分关键的 EDA 工作负载仍高度依赖 CPU 性能。逻辑仿真、形式验证以及数字实现流程中的部分任务，通常都需要快速的单核性能、高效的内存系统以及强大的整体吞吐能力。\n\n因此，CPU 架构成为决定工程团队验证设计、探索替代方案以及推动产品流片速度的重要因素。\n\n部署于 NVIDIA 波特兰数据中心的 Vera 集群\n\nCadence 与新思科技的初步测试结果\n\nNVIDIA 的初步测试涵盖了多款领先的 EDA 应用。测试结果显示，Vera 在加速现代芯片设计中两个计算密集型环节具备显著优势。针对部分生产级工作流的初步测试展现了令人瞩目的性能表现。\n\nCadence Jasper 是一款形式验证平台，通过智能证明技术和机器学习，能够在设计周期初期发现并修复缺陷或漏洞，从而提升验证效率。\n\nSynopsys VCS 是一款高性能功能验证解决方案，用于在芯片制造前仿真和验证复杂的芯片设计。本次测试在相同核心数量配置下进行。\n\n在选定的工作负载下，两款应用的性能提升了 1.5 倍。\n\n除了基准测试外，NVIDIA 还与这两家公司在应用性能分析、软件优化和系统级调优方面展开紧密合作，持续全面提升更广泛工作流的工程生产力。\n\n将 Vera 引入设计流程\n\nNVIDIA 正在 EDA 工作流中全面部署 Vera，用于创建未来的 NVIDIA 处理器。\n\nVera 结合了 88 颗定制的 NVIDIA Olympus CPU 核心、高效 LPDDR5X 内存子系统，以及第二代 NVIDIA 可扩展一致性互连架构，旨在为高要求的工程应用提供强大的单核性能、高内存带宽和稳定的低延迟表现。\n\n这些能力对于混合延迟敏感型任务与计算集群大规模回归测试的工作负载尤为重要。更快的执行速度可以缩短单次验证的运行时间，而更高的吞吐量则帮助工程师能够在相同的开发周期内评估更多设计方案并完成更多验证任务。\n\n从 RTL 到硅片\n\n在确立了处理器的架构和微架构后，工程师会在寄存器传输级 (RTL) 描述其大部分行为。随后，多种验证和实现技术协同工作，将设计转化为可用于制造的硅片。\n\n这些工作流涵盖逻辑仿真、形式验证、回归测试和数字实现，帮助工程师验证功能、识别边界条件，并最终将设计转化为可投产的硅片。\n\n由于这些阶段紧密相连，提升验证吞吐量有助于企业更早发现问题，从而减少下游代价高昂的设计迭代。\n\n使用 NVIDIA CPU 打造未来的 NVIDIA 芯片\n\n在 NVIDIA 自身的工程工作流中部署 Vera，反映了一项更宏大的战略：根据任务匹配最适合的计算架构，为各项工作负载加速。\n\n在 EDA 领域，GPU 和 AI 正持续加速众多算法，而高性能 CPU 对于关键的仿真、验证和实现工作负载依然不可或缺。两者相辅相成，共同提升整个设计周期的性能。\n\n展望未来，NVIDIA 计划在 Vera 的基础上，推出由 NVIDIA Rigel 核心驱动的下一代 Rosa CPU，并继续在其 CPU 产品路线图中，对领先的 EDA 应用做针对性优化。\n\n通过使用 NVIDIA CPU 来设计未来的 NVIDIA CPU 和 GPU，NVIDIA 正在硅片设计、软件优化和系统工程之间建立一个持续运转的反馈闭环，让每一代产品都成为构建下一代产品的基石。\n\n了解更多 NVIDIA 在 DAC 2026 上的动态。",
       "readingMinutes": 4
+    },
+    {
+      "id": "43676046e7a97b7a",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA 扩展 Agent Toolkit，集成 PhysicsNeMo 与 CUDA-X 库，重塑全球工程、设计与制造方式",
+      "url": "https://blogs.nvidia.cn/blog/nvidia-expands-nvidia-agent-toolkit-with-nvidia-physicsnemo-and-cuda-x-libraries-to-transform-how-the-world-engineers-designs-and-builds/",
+      "published": "2026-07-26T02:00:00Z",
+      "author": "英伟达中国",
+      "summary": "新闻摘要： NVIDIA 今日宣布扩展面向工程领域的 NVIDIA Agent Toolkit，将 NVIDIA PhysicsNeMo™ 和 CUDA-X™ 库作为智能体就绪的工具与技能纳入其中，旨在重塑全球产品设计与开发模式。 构建新一代芯片和系统要求团队在日益复杂的设计周期中，打通物理、仿真和性能分析环节。为应对这种复杂性，一类全新的自主 AI 工程师应运而生。它们借助专业工具进行仿真并生成高保真数据，从而推动芯片设计、验证、封装及系统工程的规模化发展。 NVIDIA 现已将架构重构的 P",
+      "content": "新闻摘要：\n\nNVIDIA 通过引入架构重构的 NVIDIA PhysicsNeMo 库及更新的 NVIDIA CUDA-X 库，扩展了 NVIDIA Agent Toolkit。此举使软件开发者能够构建具备 AI 物理技能、加速求解器及量子化学能力的自主 AI 工程师。\n\n在 NVIDIA 研究中心的 ACE-RTL 智能体支持下，NVIDIA Nemotron 3 Ultra 在开放模型中的智能体级寄存器传输级 (RTL) 编码能力方面处于领先地位，助力企业打造用于芯片设计与验证的可定制 AI 智能体。\n\nCadence、西门子、新思科技等行业领导者正采用 NVIDIA 的加速计算与智能体 AI 技术，推动芯片设计、验证、封装及系统设计领域的自主工程工作流发展。\n\nNVIDIA 今日宣布扩展面向工程领域的 NVIDIA Agent Toolkit，将 NVIDIA PhysicsNeMo 和 CUDA-X 库作为智能体就绪的工具与技能纳入其中，旨在重塑全球产品设计与开发模式。\n\n构建新一代芯片和系统要求团队在日益复杂的设计周期中，打通物理、仿真和性能分析环节。为应对这种复杂性，一类全新的自主 AI 工程师应运而生。它们借助专业工具进行仿真并生成高保真数据，从而推动芯片设计、验证、封装及系统工程的规模化发展。\n\nNVIDIA 现已将架构重构的 PhysicsNeMo 整合为一系列支持智能体的友好型库，并新增及更新了 CUDA-X 库，以支持复杂的工程任务。上述能力已被纳入 NVIDIA Agent Toolkit。其中，PhysicsNeMo 提供用于模型训练与部署的 AI 物理技能，而 CUDA-X 库则将加速求解器和量子化学能力引入智能体工程工作流。\n\nNVIDIA 计算工程副总裁兼总经理 Timothy Costa 表示：“工程领域已迎来关键拐点。如今，AI 能够熟练运用物理、仿真和设计工具。借助 NVIDIA Agent Toolkit，开发者可以构建出具备物理推理能力、能运行复杂仿真并生成高保真数据的智能体工程师，使其成为芯片与系统设计创新的新引擎。”\n\nNVIDIA Agent Toolkit 为工程智能体新增 AI 物理与加速计算技能\n\nNVIDIA Agent Toolkit 帮助开发者构建连接特定领域工具、模型和数据的专用工程 AI 助手。随着 NVIDIA PhysicsNeMo 和 CUDA-X 库的加入，这些智能体如今能够运用 AI 物理技能、加速求解器和量子化学能力，为芯片、系统及工业工程领域提供服务。\n\n核心功能包括：\n\nAI 物理技能：NVIDIA PhysicsNeMo 库帮助智能体针对复杂的设计与仿真任务，训练和部署可定制的 AI 物理模型，将模型架构转化为工程工作流中可直接调用的工具。\n\n迭代稀疏求解器：全新的 NVIDIA cuISS (CUDA Iterative Sparse Solvers，CUDA 迭代稀疏求解器) 库可加速基于物理和工程仿真中的大型稀疏线性系统的求解。该库专为在 GPU 上实现灵活性与高性能而设计，凭借现代化的可组合求解器与预处理技术，可帮助开发者为智能体工程工作流构建可扩展的生产级仿真引擎。\n\n直接稀疏求解器：NVIDIA cuDSS (CUDA Direct Sparse Solvers，CUDA 直接稀疏求解器) 可加速电子设计自动化 (EDA) 和科学仿真中核心的大型复杂稀疏线性系统求解。它为器件、电路和系统仿真等关键工作负载提供高性能与数值鲁棒性，并支持在生产环境中的多 GPU 和多节点扩展部署。\n\n量子化学：NVIDIA cuEST (CUDA Electronic Structure Theory，CUDA 电子结构理论) 将高精度的量子化学仿真引入器件相关尺度，使密度泛函理论 (DFT) 及后 DFT 方法能够大规模集成到生产工作流中。cuEST 支持多种现代泛函，使日益庞大的基态和激发态仿真在 NVIDIA GPU 上变得切实可行，从而为客户带来实际的生产价值。\n\nNVIDIA Nemotron 3 Ultra 开放模型推动芯片设计智能体编码\n\n芯片设计依赖于专业的寄存器传输级 (RTL) 编码，这要求极高的准确性、深厚的领域专业知识以及灵活的部署能力。\n\n借助 NVIDIA 研究中心推出的硬件设计智能体 ACE-RTL，NVIDIA Nemotron 3 Ultra 在全面的 Verilog 设计问题基准测试中表现优异，在开放模型的智能体 RTL 编码任务中拔得头筹。\n\n这表明 Nemotron 3 Ultra 具备行业领先的准确性和效率，且支持在专有数据上进行后训练，并可在本地或企业内部部署，从而在企业构建用于芯片设计 AI 智能体时，为其提供更强的可控性、定制化能力和数据隐私保障。\n\n开发者可通过多种途径快速上手 Nemotron 3 Ultra，包括使用 Cadence 的 Harness、新思科技面向设计验证及模拟与混合信号工作流打造的全自主可长时间运行的智能体、西门子的 Questa One 智能验证智能体工具包，以及在 Hugging Face 平台体验。\n\n软件巨头借助 NVIDIA 技术打造自主 AI 工程师\n\n工业工程领域的领导者们已开始利用全新及扩展后的 NVIDIA Agent Toolkit 组件，开发自主 AI 工程师。\n\nCadence 将 NVIDIA Nemotron、加速计算和 CUDA-X 库与最新推出的 Cadence AuraStack AI Super Agent 及 Cadence Millennium M2000 平台相结合，自主驱动从探索到签核 (signoff) 的高级封装与印制电路板 (PCB) 设计，实现高达 20 倍的多物理场性能提升。这进一步完善了 Cadence 的硅片设计超级智能体产品组合，实现从架构到制造签核的芯片设计工作流端到端覆盖。\n\n此外，双方的合作从智能体设计延伸至底层计算。包括形式验证平台 Cadence Jasper 在内的 EDA 与系统设计自动化产品组合，正针对 NVIDIA Vera CPU 进行优化，以帮助工程团队更快地验证先进芯片设计。\n\n新思科技利用 NVIDIA Agent Toolkit、NVIDIA NIM、Nemotron 开放模型、NVIDIA NeMo Gym 库及 NVIDIA NemoClaw 蓝图，结合 Synopsys AgentEngineer，构建跨芯片与系统设计的安全、加速智能体工作流。借助 Ansys Icepak，新思科技的智能体工作流可自主执行复杂 GPU 散热设计优化的仿真设置及前后处理。同时，新思科技正开发 NVIDIA cuISS 的用例，以加速仿真工作负载。\n\n双方的合作同样从智能体工作流延伸至底层计算平台。用于在流片前仿真和验证复杂芯片设计的高性能功能验证解决方案 Synopsys VCS，正针对 NVIDIA Vera CPU 进行优化，以提升验证吞吐量。\n\n西门子正将 NVIDIA NeMo Gym、Nemotron 开放模型和 CUDA-X 库与西门子 Fuse EDA AI 智能体结合使用，以编排跨半导体、3D-IC、PCB 及系统设计的多工具与多智能体工作流，覆盖从概念设计到签核的全流程。在西门子 Solido Characterization Suite 中，这些智能体 AI 工作流使库特征速度提升 10 倍以上，同时将 Token 成本降低至原来的 1/10 以上。\n\n三星正利用 NVIDIA cuLitho 和 CUDA-X 库，使计算光刻性能提升高达 20 倍；同时应用 NVIDIA PhysicsNeMo 进行芯片级热应力分析，在包含高达 100 亿个单元的区域中实现了数值求解器级别的精度。\n\nChipAgents 正使用 NVIDIA Agent Toolkit 构建用于芯片设计与验证的特定领域 AI 智能体。该团队正针对包括调试、形式验证、覆盖率等在内的复杂端到端半导体设计与验证工作流，对 NVIDIA Nemotron 模型进行微调。\n\nSilvaco 正借助 NVIDIA 加速计算，扩大 Silvaco Victory Device 中的高精度 3D 光学仿真规模。该仿真在由 NVIDIA NVLink 技术互连的 32 个 NVIDIA GPU 上运行，在不到 4 小时内完成了 32 亿网格节点的光子边缘耦合器仿真，这一工作量已超出基于 CPU 仿真的实际极限。\n\nKeysight 正利用 NVIDIA cuDSS 将电磁仿真速度提升高达 10 倍；同时，三星、新思科技和 TSMC 正将 NVIDIA cuEST 集成到其 GPU 加速流程中，使关键量子化学工作负载的速度提升高达 50 倍。\n\n欢迎参加 NVIDIA 在 DAC 的活动，了解更多信息。",
+      "readingMinutes": 7
     },
     {
       "id": "02fc1a476eb0c860",
@@ -765,19 +843,6 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
-    },
-    {
-      "id": "ccb8f7c133b84f7f",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "ModelExpress: Distributing Model Artifacts at the Speed of Light",
-      "url": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/",
-      "published": "2026-07-24T16:35:50Z",
-      "author": "Elizabeth Goodman",
-      "summary": "Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving...",
-      "content": "Every byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving...\nEvery byte moved has a cost. As model checkpoints grow to hundreds of gigabytes or even a terabyte, that cost adds up quickly. To make things even worse, moving these model weights around the cluster is extremely common. For instance, a cold start may pull weights from remote storage into GPU memory; autoscaling and rolling updates must populate each new replica; and RL post-training continuously…\n\nSource",
-      "readingMinutes": 1
     },
     {
       "id": "29c79f51647ac0e5",
@@ -936,19 +1001,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "f470dee7b01bc0c6",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
-      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills/",
-      "published": "2026-07-23T18:54:14Z",
-      "author": "Tanya Lenz",
-      "summary": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...",
-      "content": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...\nWhat if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning models to production video tasks, developers often lose days to data formatting, container setup, training scripts, baseline evaluation, and hyperparameter sweeps before they even know whether post-training improves accuracy.\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "ee3f54330f399597",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -959,6 +1011,19 @@
       "author": "Tanya Lenz",
       "summary": "Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...",
       "content": "Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...\nCoding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve build issues, launch experiments, monitor execution, analyze metrics, and summarize results. For reinforcement learning (RL) research, this matters because meaningful metrics often appear only after the essential experiment infrastructure…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f470dee7b01bc0c6",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
+      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills/",
+      "published": "2026-07-23T18:54:14Z",
+      "author": "Tanya Lenz",
+      "summary": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...",
+      "content": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...\nWhat if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning models to production video tasks, developers often lose days to data formatting, container setup, training scripts, baseline evaluation, and hyperparameter sweeps before they even know whether post-training improves accuracy.\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1131,32 +1196,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "226bd5ba9e857bd9",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Token Budget Saturation and Mechanistic Early Detection of Reasoning Non-Convergence in Chain-of-Thought Models",
-      "url": "https://arxiv.org/abs/2607.21433v1",
-      "published": "2026-07-23T15:37:04Z",
-      "author": "Renuka Oladri",
-      "summary": "Chain-of-thought reasoning models such as DeepSeek-R1-Distill-Qwen-7B exhibit a bimodal convergence pattern: generations either terminate within a token budget (converged) or exhaust it without reaching a conclusion (non-converged). We characterize this phenomenon empirically, s…",
-      "content": "Chain-of-thought reasoning models such as DeepSeek-R1-Distill-Qwen-7B exhibit a bimodal convergence pattern: generations either terminate within a token budget (converged) or exhaust it without reaching a conclusion (non-converged). We characterize this phenomenon empirically, showing that converged generations achieve 90.3% accuracy on AIME 1983-2024 while non-converged ones achieve only 6.6%, with an overall convergence rate of 62.0%. We then ask whether this outcome is detectable early in the thinking chain using internal model representations. Training linear probes on hidden-state activations at token positions 50-300, we find that layer-20 activations at token 150 achieve AUC 0.608 (+-0.080, 5-fold CV), reliably above chance even at token 50. Activation probes consistently outperform behavioral baselines derived from token entropy and repetition statistics. A sweep-level permutation test yields p=0.063 (100,000 permutations), consistent with a modest signal that our sample size cannot confirm at conventional thresholds. These findings suggest that convergence fate is partially encoded in intermediate representations well before the generation ends, opening a path toward early-exit inference and adaptive compute allocation.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "6bec38a6112dedf0",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Output Format x Model Identity: Interaction Effects in Single-Round Coding Agent Performance",
-      "url": "https://arxiv.org/abs/2607.21674v1",
-      "published": "2026-07-23T10:18:42Z",
-      "author": "Yang Yang",
-      "summary": "Output format is not a neutral implementation detail -- it can reorder model rankings, amplify or suppress individual model differences, and determine whether a coding agent succeeds or fails. We conducted a controlled single-round experiment with 3 models (DeepSeek V4, Doubao 2…",
-      "content": "Output format is not a neutral implementation detail -- it can reorder model rankings, amplify or suppress individual model differences, and determine whether a coding agent succeeds or fails. We conducted a controlled single-round experiment with 3 models (DeepSeek V4, Doubao 2.0 Pro, Qwen 3.7 Max) x 3 output formats (full file, JSON Patch, unified diff) x 6 tasks x 20 repetitions, totaling 4,013 runs across 4 open-source projects. Only one project (tqdm) yielded non-zero success rates: dotenv, requests, and jsoup yielded zero successes in 2,551 runs. Our central finding is a format x model interaction with no universally optimal format. Doubao achieves 94% success with JSON Patch (Cohen's h = 1.57, p < 0.001), DeepSeek excels at unified diff (66%, h = 0.63), and Qwen shows a small but significant full-file preference (50%, h = 0.29, p < 0.05). Beyond these headline results, we identify a distinct failure mechanism -- format misuse -- where agents correctly diagnose a problem but execute it with excessive scope, most vividly when a one-line fix is applied as a full-file replacement. We propose a model-specific output strategy, a tool-design principle that constrains format semantics to the agent's own localization step, and release all data and templates for reproducibility. All experimental data are available at https://doi.org/10.5281/zenodo.21505157.",
-      "readingMinutes": 1
-    },
-    {
       "id": "58d8a4c0428250a6",
       "feedTitle": "NVIDIA 技术博客",
       "feedUrl": "https://developer.nvidia.cn/blog/feed",
@@ -1180,19 +1219,6 @@
       "author": "wnger",
       "summary": "自定义使开发者能够采用通用模型，并根据用例、领域、语言等对其进行定制。 然而，定制化也带来了一些挑战。它需要基 … Continued",
       "content": "自定义使开发者能够采用通用模型，并根据用例、领域、语言等对其进行定制。 然而，定制化也带来了一些挑战。它需要基础设施、技术专业知识和特定于工作流程的软件，以及 GPU 等资源和有效使用这些资源的能力。这还取决于专业领域知识：我应该使用什么算法？我应该使用什么环境？如何知道模型是否真正学习了？ 定制可能令人望而生畏。 通过将 NVIDIA Nemotron 3 系列 (包括 Nano、Super 和 Ultra) 等开放模型与提供训练即服务的 Prime Intellect Lab 等平台相结合，完整的定制循环变得更加容易。在本教程中，您将使用 Prime Intellect Lab 通过托管强化学习自定义 NVIDIA Nemotron 3 Nano，并生成可下载的 LoRA 适配器。 本地设置大约需要五分钟。 在本博客的最后，您将学到两件事：\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "268750a8e3cc53ef",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Workflow-Localized Mechanism Learning: Attribution-Guided Repair and Knowledge Reuse for Structured Agent Skills",
-      "url": "https://arxiv.org/abs/2607.20999v1",
-      "published": "2026-07-23T07:28:50Z",
-      "author": "Zibin Lin",
-      "summary": "Agent Skills package reusable procedural knowledge as external artifacts for frozen language-model agents, yet existing optimizers do not jointly resolve where a failure occurs in a workflow, which mechanism caused it, and how relevant knowledge from third-party Skills should be…",
-      "content": "Agent Skills package reusable procedural knowledge as external artifacts for frozen language-model agents, yet existing optimizers do not jointly resolve where a failure occurs in a workflow, which mechanism caused it, and how relevant knowledge from third-party Skills should be reused locally. We introduce Workflow-Localized Mechanism Learning (WML). Its Node--Mechanism Attribution identifies the failed workflow node, implicated mechanisms, and smallest valid edit target, routing single-mechanism defects to L3 resources and relational defects across mechanisms to L2 composition protocols. A six-module Workflow-Guided Skill Optimization (WGSO) loop then selects provenance- and scope-aware third-party knowledge, applies bounded patches, evaluates candidates, and stores verified outcomes in optimizer-side memory. On SpreadsheetBench, WML reaches 90.33 +/- 1.53 and 74.67 +/- 3.51 Hard Accuracy with DeepSeek and Qwen3.6-Flash, respectively; without additional optimization, the learned Skills transfer to WikiTableQuestions with 84.00 +/- 2.00 and 83.00 +/- 2.00 Denotation Accuracy. On Compiler-Supported50, WML attains both the highest hard-PASS rate and the lowest cost per successful task; compiled execution sharply reduces tokens and calls relative to a direct SkillAgent while retaining most of its successful tasks. Code and artifacts are available at https://github.com/xiaolin9595/workflow-localized-mechanism-learning.",
       "readingMinutes": 1
     },
     {
@@ -1963,19 +1989,6 @@
       "readingMinutes": 4
     },
     {
-      "id": "578b3bdf5cbf1347",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "How data science teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "published": "2026-07-14T00:00:00Z",
-      "author": "",
-      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "content": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "readingMinutes": 1
-    },
-    {
       "id": "0090139282200a1d",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1986,6 +1999,19 @@
       "author": "",
       "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
       "content": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "578b3bdf5cbf1347",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "How data science teams use ChatGPT Work",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "published": "2026-07-14T00:00:00Z",
+      "author": "",
+      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "content": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "readingMinutes": 1
     },
     {
@@ -2171,19 +2197,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "e19fbb75eb44457e",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "url": "https://openai.com/index/gpt-5-6",
-      "published": "2026-07-09T10:00:00Z",
-      "author": "",
-      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-      "content": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-      "readingMinutes": 1
-    },
-    {
       "id": "07aa5a8a45a2217e",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -2210,6 +2223,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "e19fbb75eb44457e",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6",
+      "published": "2026-07-09T10:00:00Z",
+      "author": "",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "content": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "readingMinutes": 1
+    },
+    {
       "id": "1b102ef7997b6224",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -2221,32 +2247,6 @@
       "summary": "四川慧途智联科技有限公司 (品牌 HTZL.AI) 成立于人工智能基础设施浪潮兴起之际，是国内领先的企业级私有 AI 基础设施提供商及行业赋能者。HTZL.AI 是一家 AINative 的科技公司 —— 从模型部署、RAG 知识引擎、多工具 Agent 编排、API 网关到企业级管理控制台与授权许可系统，全栈软件均为自主研发；其研发流程本身也由 AI 驱动，搭建于 NVIDIA DGX Spark 自托管 CI/CD 流水线之上，后端已沉淀 2,300+ 自动化测试，形成“用 AI 造 AI”",
       "content": "四川慧途智联科技有限公司 (品牌 HTZL.AI) 成立于人工智能基础设施浪潮兴起之际，是国内领先的企业级私有 AI 基础设施提供商及行业赋能者。HTZL.AI 是一家 AINative 的科技公司 —— 从模型部署、RAG 知识引擎、多工具 Agent 编排、API 网关到企业级管理控制台与授权许可系统，全栈软件均为自主研发；其研发流程本身也由 AI 驱动，搭建于 NVIDIA DGX Spark 自托管 CI/CD 流水线之上，后端已沉淀 2,300+ 自动化测试，形成“用 AI 造 AI”的工程闭环。HTZL.AI 主打“数据不出企业、模型不进云端”的私有化 AI 路径，已在环保咨询机构、出海企业等数据敏感行业落地。\n\n垂直企业级私有 AI 技术，攻破“120B 大模型必须上云”的核心问题\n\nHTZL.AI 自成立之初就将研发重心放在“让企业级大模型真正进入企业内部”这一核心命题上。区别于调用公有云 API 的轻量套壳方案，HTZL.AI 自研了完整的私有化技术栈：开放内核 (open-core) 架构、混合检索 RAG 引擎、基于 LangGraph 的 Agent 编排、sk-htzl-* 计费网关、多租户管理控制台。\n\n这套系统全部搭载于 NVIDIA DGX Spark (GraceBlackwell 架构、128 GB 统一内存) 单机之上，实现了在客户自有办公室/机房内对大模型推理、向量检索、业务数据与 Agent 编排的全方位自主掌控 —— 数据全程不出企业、推理结果带原文引用、每一次调用可计量可审计。\n\nHTZL.AI 智能问答控制台 —— 多租户私有知识库\n\nHTZL.AI 的企业控制台支持单台 NVIDIA DGX Spark 同时承载多个相互隔离的租户 (site_key 隔离)，每租户拥有独立的向量库 collection ({site_key}_context)、独立配额、独立审计日志，并在 PostgreSQL 层以行级安全 (RLS)，相当于把“一朵小型企业 AI 私有云”装进了客户自家的办公室。\n\n数据 AI 引擎 —— 每一次请求都是飞轮的燃料\n\nHTZL.AI 已构建企业级 AI 数据引擎：每一次交互 (对话、token 用量、模型时延、错误率、用户反馈、知识盲点) 都被完整持久化进 PostgreSQL，形成数据全流程高效闭环。在 NVIDIA DGX Spark 高容量统一内存与 NVIDIA CUDA 计算栈的加持下，海量交互数据被自动化处理 —— 这些数据今天驱动企业运营看板，明天即可驱动模型微调与检索策略迭代，让私有 AI 的智能化与自主化能力持续演进。\n\n怀揣“数据不出企业”的愿景，研发企业级私有 AI 三大产品线\n\nHTZL.AI 自成立以来，始终坚持“让 AI 真正属于企业自己 —— 可信、可控、可审计”的愿景，致力于企业级私有 AI 基础设施的研发，形成三大产品线：“物理可控的 GPU 工作站算力底座、精细可审计的 AI 基础设施中枢、以及数据绝对可信的行业 SaaS 业务平台”三大产品线，为企业交付端到端的全栈私有化 AI 闭环解决方案。\n\n企业级私有 AI 的全新挑战\n\n随着大模型在企业场景快速渗透，落地场景正由“公有云 SaaS”扩展至“客户办公室/机房内的私有化部署”。不同于公有云场景，私有化部署对系统提出了全新挑战：业务要拥抱 120B 级大模型，但律师手中的合同与诉讼材料、生物公司的专利与配方、出海企业的客户名单与跨境股权结构，任何一份外泄都意味着商业泄密甚至法律责任，绝不能在公有云大模型中被分析、缓存乃至训练。过去要在企业内部部署一个 Qwen3.6 同等水准的大模型，往往意味着购置数十张高端 GPU、搭建液冷机房、组建 MLOps 团队，初期投入数百万人民币 —— 这对绝大多数中小企业是无法承受之重。\n\n为实现安全可靠的私有化推理，HTZL.AI 需要一种单机即可承载完整 AI 栈的计算平台，用于多模型共存、向量检索与 Agent 编排的本地部署。最终团队在对比多卡工作站方案后，选择 NVIDIA DGX Spark 作为单机部署底座，提供媲美高端算力中心的高性价比方案。NVIDIA Grace Blackwell 架构提供 128 GB CPU/GPU 统一内存，提供了更大容量的模型加载能力；丰富的 NVIDIA 软件生态 (CUDA、TensorRT-LLM) 则为多模型推理与向量并行计算提供了高质量算力支持。\n\nHTZL.AI 采用的 NVIDIA 产品\n\n在选择 NVIDIA 产品生态作为底座后，HTZL.AI 充分利用了 NVIDIA 硬件与软件解决方案的多样性与强大性能，具体采用了以下 NVIDIA 产品：\n\nNVIDIA DGX Spark/Grace Blackwell 平台：128 GB 统一内存让三个模型在一台设备上稳定共存 —— Qwen3.5-122 B 主推理模型 (FP4 量化、约 65 GB，默认常驻)、Qwen3-Embedding-4 B 中英混合嵌入模型 (Q8 量化、约 5.4 GB、2560 维向量，默认常驻)、Qwen-VL-视觉理解模型 (约 14 GB，按需启用)。三模型满载约 82.9 GB，仍为系统与批处理缓存预留约 45 GB 余量。CPU 与 GPU 共享内存让单机即可完成“召回→融合→重排→生成”的全链路 RAG 推理，从架构上彻底消除了多机调度开销。\n\nNVIDIA CUDA：Milvus 向量检索、BM25 稀疏召回与嵌入模型推理全部跑在 CUDA 加速通路上。HTZL.AI 的混合检索引擎以稠密向量召回 + BM25 稀疏召回并行执行，经 RRF 倒数排名融合 (k=60) 合并，再由 Cross-encoder 重排模型 (BAAI/bge-reranker-v2-m3) 精排，输出带“源文件 + 页码 + 段落”三级引用的检索结果；单租户查询端到端 P95 控制在数百毫秒级。\n\nllama.cpp on NVIDIA CUDA 推理后端：Qwen3.5-122 B 与 Qwen3-Embedding-4 B 经 llama.cpp 的 CUDA 后端 (FlashAttention、prompt 缓存、连续批处理) 对外稳定提供 SSE 流式输出，首 token 通常在 1 秒内返回，支持企业内部数十名活跃用户同时对话与文档问答。SSE 事件流实时下发 token、工具调用状态与引用列表，让客户在浏览器上“边读边等”。\n\nNVIDIA TensorRT-LLM：视觉理解模型 Qwen-VL – 已基于 TensorRT-LLM (PyTorch 后端) 在 NVIDIA DGX Spark 上部署，作为 Agent 的 explain_image 工具，让系统能够直接读懂扫描合同、判例图表、证照影像等非结构化图像内容。后续将进一步把主模型 token 流迁移至 TensorRT-LLM 以压低首 token 延迟。\n\n标杆落地：HTZL.AI 租户 Molycure，让中国企业出海拥有“24 小时在线的合规专家”\n\nMolycure 是运行在 HTZL.AI 平台之上的旗舰垂直租户 —— 国内首批面向“中国企业出海”场景的垂直行业 AI Agent。借助 HTZL.AI 的多租户私有架构，Molycure 在一套 NVIDIA DGX Spark 上整合了东南亚、欧盟、北美、中东等高频出海目的地的法规、税务、签证、知识产权与数据合规专业文档，覆盖 18 个出海垂直领域、194+ 权威数据源、数十万向量片段，整体源召回率达到 100%。\n\n在具体业务环节中，NVIDIA 计算平台发挥了重要作用：通过 NVIDIA DGX Spark 128 GB 统一内存，Molycure 的“召回→融合→重排→中文回答”全链路在单机完成，单次跨境合规咨询从传统“对每个国家聘请一家律所、平均 3 天等回邮件”缩短至分钟级；通过 NVIDIA CUDA 加速的批量文档摄入流水线，单次客户专属知识库 (私密会议文档、合同库、董事会决议、海外注册材料) 的全量灌库时间从多机方案的数小时缩短至单机十几分钟。架构层面，molycure 前端部署在 Vercel 全球边缘，经 Cloudflare Tunnel 安全反向接入本地 NVIDIA DGX Spark，对外只暴露 HTTPS，无任何公网 IP 与入站端口 —— 这对存放着客户跨境资产与股权信息的“出海大脑”而言，是企业级数据安全的最低门槛。\n\n业务价值：把“上云才能用 AI”的旧逻辑彻底翻转\n\n依托 NVIDIA DGX Spark，HTZL.AI 为出海企业、律所、生物科技等数据敏感客户带来了显著优势。在成本与能耗方面，客户硬件投入相比多卡 GPU 工作站降低约 50%、能耗降低 90% 以上；在合规属性方面，客户首次获得“数据不出企业、推理结果带引用、所有调用可审计”的强合规能力；在交付形态方面，整机功耗与一台高端笔记本相当，可直接摆进客户办公室。以旗舰租户 Molycure 为例，出海企业的年度海外顾问费从数十万元降至单台设备的硬件摊销 + 订阅费用，实现了一个数量级的成本压缩。\n\n使用的 NVIDIA 技术包括：\n\nNVIDIA DGX Spark (Grace Blackwell)、NVIDIA CUDA、llama.cpp on CUDA (主模型/嵌入模型推理)、NVIDIA TensorRT-LLM (Qwen-VL 视觉模型，已落地)、NVIDIA CUDA 加速向量检索 (Milvus)、NVIDIA NIM (规划中)\n\n架构示意图\n\nHTZL.AI–Architecture: Vercel → Cloudflare → Office (NVIDIA DGX Spark) LLM Inference\n\nNVIDIA 初创加速计划 \n\n四川慧途智联科技有限公司是 NVIDIA 初创加速计划会员企业。\n\nNVIDIA 初创加速计划 (NVIDIA Inception) 为免费会员制，旨在培养颠覆行业格局的优秀创业公司。该计划联合国内外知名的风投机构、创业孵化器、创业加速器、行业合作伙伴以及科技创业媒体等，打造创业加速生态系统。能够提供产品折扣、技术支持、市场宣传、融资对接、业务推荐等一系列服务，加速创业公司的发展。",
       "readingMinutes": 8
-    },
-    {
-      "id": "e00d55023af7c16f",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Our approach to government and national security partnerships",
-      "url": "https://openai.com/index/government-national-security-partnerships",
-      "published": "2026-07-08T13:30:00Z",
-      "author": "",
-      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-      "content": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "e9167e656930e3f1",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Separating signal from noise in coding evaluations",
-      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "published": "2026-07-08T13:00:00Z",
-      "author": "",
-      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "content": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "readingMinutes": 1
     },
     {
       "id": "76d9fb1a95d54d44",
