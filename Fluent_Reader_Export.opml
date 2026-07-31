@@ -21,5 +21,16 @@
       <outline text="NVIDIA AI · Technical Blog" title="NVIDIA AI · Technical Blog" type="rss" htmlUrl="https://developer.nvidia.com/blog/" xmlUrl="https://developer.nvidia.com/blog/feed/"/>
       <outline text="DeepSeek · Research" title="DeepSeek · Research" type="rss" htmlUrl="https://arxiv.org/search/?query=DeepSeek&amp;searchtype=all" xmlUrl="https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&amp;start=0&amp;max_results=20&amp;sortBy=submittedDate&amp;sortOrder=descending"/>
       <outline text="Kimi · Research" title="Kimi · Research" type="rss" htmlUrl="https://arxiv.org/search/?query=Kimi+Moonshot&amp;searchtype=all" xmlUrl="https://export.arxiv.org/api/query?search_query=%28all%3AKimi%20AND%20all%3AMoonshot%29&amp;start=0&amp;max_results=20&amp;sortBy=submittedDate&amp;sortOrder=descending"/></outline>
+    <outline text="AI Infra" title="AI Infra">
+      <outline text="Meta Engineering" title="Meta Engineering" type="rss" htmlUrl="https://engineering.fb.com/" xmlUrl="https://engineering.fb.com/feed/"/>
+      <outline text="Kubernetes Blog" title="Kubernetes Blog" type="rss" htmlUrl="https://kubernetes.io/blog/" xmlUrl="https://kubernetes.io/feed.xml"/>
+      <outline text="PyTorch Blog" title="PyTorch Blog" type="rss" htmlUrl="https://pytorch.org/blog/" xmlUrl="https://pytorch.org/blog/feed/"/>
+      <outline text="vLLM Releases" title="vLLM Releases" type="rss" htmlUrl="https://github.com/vllm-project/vllm/releases" xmlUrl="https://github.com/vllm-project/vllm/releases.atom"/>
+      <outline text="SGLang Releases" title="SGLang Releases" type="rss" htmlUrl="https://github.com/sgl-project/sglang/releases" xmlUrl="https://github.com/sgl-project/sglang/releases.atom"/>
+      <outline text="DeepSpeed Releases" title="DeepSpeed Releases" type="rss" htmlUrl="https://github.com/deepspeedai/DeepSpeed/releases" xmlUrl="https://github.com/deepspeedai/DeepSpeed/releases.atom"/>
+      <outline text="Ray Releases" title="Ray Releases" type="rss" htmlUrl="https://github.com/ray-project/ray/releases" xmlUrl="https://github.com/ray-project/ray/releases.atom"/>
+      <outline text="KServe Releases" title="KServe Releases" type="rss" htmlUrl="https://github.com/kserve/kserve/releases" xmlUrl="https://github.com/kserve/kserve/releases.atom"/>
+      <outline text="TensorRT-LLM Releases" title="TensorRT-LLM Releases" type="rss" htmlUrl="https://github.com/NVIDIA/TensorRT-LLM/releases" xmlUrl="https://github.com/NVIDIA/TensorRT-LLM/releases.atom"/>
+      <outline text="Triton Inference Server Releases" title="Triton Inference Server Releases" type="rss" htmlUrl="https://github.com/triton-inference-server/server/releases" xmlUrl="https://github.com/triton-inference-server/server/releases.atom"/></outline>
   </body>
 </opml>

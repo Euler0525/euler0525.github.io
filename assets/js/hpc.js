@@ -8,6 +8,11 @@
             description: "日常信息流：行业新闻、深度分析、技术博客与论文"
         },
         {
+            id: "ai-infra",
+            label: "AI Infra",
+            description: "训练、推理、集群编排、模型服务与高性能通信的一手动态"
+        },
+        {
             id: "software",
             label: "开源软件",
             description: "直接追踪调度、通信、构建和可移植性工具的发布"
@@ -132,6 +137,101 @@
             kind: "超算中心",
             description: "Aurora、Exascale 软件栈、科研应用和系统运行实践。",
             tags: ["Aurora", "Exascale", "实践"]
+        },
+
+        {
+            category: "ai-infra",
+            name: "Meta Engineering",
+            url: "https://engineering.fb.com/",
+            feed: "https://engineering.fb.com/feed/",
+            kind: "工程实践",
+            description: "关注大规模 AI 训练、推荐系统、数据中心网络、存储和硬件平台实践。",
+            tags: ["Training", "Datacenter", "Systems"],
+            featured: true
+        },
+        {
+            category: "ai-infra",
+            name: "Kubernetes Blog",
+            url: "https://kubernetes.io/blog/",
+            feed: "https://kubernetes.io/feed.xml",
+            kind: "云原生基础设施",
+            description: "跟踪 Kubernetes、批处理、设备管理、AI Gateway 与推理工作负载编排。",
+            tags: ["Kubernetes", "Scheduling", "Gateway"]
+        },
+        {
+            category: "ai-infra",
+            name: "PyTorch",
+            url: "https://pytorch.org/blog/",
+            feed: "https://pytorch.org/blog/feed/",
+            kind: "训练框架",
+            description: "PyTorch 编译、分布式训练、FSDP、通信与新版本能力。",
+            tags: ["PyTorch", "FSDP", "Distributed"],
+            featured: true
+        },
+        {
+            category: "ai-infra",
+            name: "vLLM",
+            url: "https://github.com/vllm-project/vllm",
+            feed: "https://github.com/vllm-project/vllm/releases.atom",
+            kind: "推理引擎",
+            description: "高吞吐 LLM 推理、PagedAttention、KV Cache、并行执行与生产部署。",
+            tags: ["Inference", "KV Cache", "Serving"],
+            featured: true
+        },
+        {
+            category: "ai-infra",
+            name: "SGLang",
+            url: "https://github.com/sgl-project/sglang",
+            feed: "https://github.com/sgl-project/sglang/releases.atom",
+            kind: "推理引擎",
+            description: "面向大模型与多模态模型的高性能服务、前后端协同和分布式推理。",
+            tags: ["Inference", "RadixAttention", "Serving"],
+            featured: true
+        },
+        {
+            category: "ai-infra",
+            name: "DeepSpeed",
+            url: "https://github.com/deepspeedai/DeepSpeed",
+            feed: "https://github.com/deepspeedai/DeepSpeed/releases.atom",
+            kind: "分布式训练",
+            description: "ZeRO、模型并行、混合精度、训练内存优化与大模型系统能力。",
+            tags: ["ZeRO", "Training", "Parallelism"]
+        },
+        {
+            category: "ai-infra",
+            name: "Ray",
+            url: "https://github.com/ray-project/ray",
+            feed: "https://github.com/ray-project/ray/releases.atom",
+            kind: "分布式运行时",
+            description: "面向 AI 工作负载的分布式执行、数据处理、训练和服务编排。",
+            tags: ["Runtime", "Ray Serve", "Autoscaling"]
+        },
+        {
+            category: "ai-infra",
+            name: "KServe",
+            url: "https://github.com/kserve/kserve",
+            feed: "https://github.com/kserve/kserve/releases.atom",
+            kind: "模型服务平台",
+            description: "Kubernetes 原生模型服务、推理图、弹性伸缩与 LLM 推理服务。",
+            tags: ["Kubernetes", "Model Serving", "Autoscaling"]
+        },
+        {
+            category: "ai-infra",
+            name: "TensorRT-LLM",
+            url: "https://github.com/NVIDIA/TensorRT-LLM",
+            feed: "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
+            kind: "推理优化",
+            description: "NVIDIA GPU 上的大模型编译、量化、内核优化和多 GPU 推理运行时。",
+            tags: ["TensorRT", "Quantization", "Multi-GPU"]
+        },
+        {
+            category: "ai-infra",
+            name: "Triton Inference Server",
+            url: "https://github.com/triton-inference-server/server",
+            feed: "https://github.com/triton-inference-server/server/releases.atom",
+            kind: "推理服务",
+            description: "多框架模型部署、动态批处理、并发执行、指标与生产服务接口。",
+            tags: ["Inference Server", "Batching", "Observability"]
         },
 
         {
@@ -716,6 +816,11 @@
         "HPC.social",
         "NVIDIA HPC Technical Blog",
         "AMD ROCm Blog",
+        "Meta Engineering",
+        "PyTorch",
+        "vLLM",
+        "SGLang",
+        "KServe",
         "arXiv · cs.DC",
         "arXiv · cs.PF",
         "arXiv · cs.AR",
@@ -768,6 +873,8 @@
     var themeToggle = document.getElementById("theme-toggle");
     var toast = document.getElementById("toast");
     var backToTop = document.getElementById("back-to-top");
+    var aiInfraNews = document.getElementById("ai-infra-news");
+    var aiInfraStatus = document.getElementById("ai-infra-status");
     var toastTimer;
 
     function escapeHtml(value) {
@@ -876,6 +983,67 @@
         "</article>";
     }
 
+    function formatArticleDate(value) {
+        var date = new Date(value);
+        if (Number.isNaN(date.getTime())) {
+            return "日期待确认";
+        }
+        return new Intl.DateTimeFormat("zh-CN", {
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit"
+        }).format(date);
+    }
+
+    function renderAiInfraFallback() {
+        aiInfraStatus.textContent = "订阅源已接入，等待首次同步";
+        aiInfraNews.innerHTML =
+            '<div class="ai-news-empty">' +
+                '<i class="fa fa-rss" aria-hidden="true"></i>' +
+                "<div><strong>最新条目正在同步</strong>" +
+                "<p>可先在下方资源库筛选 AI Infra，查看全部官方来源。</p></div>" +
+                '<button type="button" data-filter-ai-infra>查看 AI Infra 来源</button>' +
+            "</div>";
+    }
+
+    function renderAiInfraNews(data) {
+        var articles = (data.articles || []).filter(function (article) {
+            return article.category === "AI Infra" && article.title && article.url;
+        }).sort(function (left, right) {
+            return String(right.published || "").localeCompare(String(left.published || ""));
+        }).slice(0, 6);
+
+        if (!articles.length) {
+            renderAiInfraFallback();
+            return;
+        }
+
+        aiInfraStatus.textContent = "更新于 " + formatArticleDate(data.generatedAt) +
+            " · 展示 " + articles.length + " 条";
+        aiInfraNews.innerHTML = articles.map(function (article) {
+            return '<a class="ai-news-card" href="' + escapeHtml(article.url) +
+                '" target="_blank" rel="noopener noreferrer">' +
+                '<div class="ai-news-meta"><span>' + escapeHtml(article.feedTitle) +
+                "</span><time>" + escapeHtml(formatArticleDate(article.published)) + "</time></div>" +
+                "<h4>" + escapeHtml(article.title) + "</h4>" +
+                "<p>" + escapeHtml(article.summary || "打开来源阅读完整内容。") + "</p>" +
+                '<span class="ai-news-action">阅读原文 <i class="fa fa-external-link" aria-hidden="true"></i></span>' +
+            "</a>";
+        }).join("");
+    }
+
+    function loadAiInfraNews() {
+        fetch("./data/rss.json", { cache: "no-store" })
+            .then(function (response) {
+                if (!response.ok) {
+                    throw new Error("RSS data unavailable");
+                }
+                return response.json();
+            })
+            .then(renderAiInfraNews)
+            .catch(renderAiInfraFallback);
+    }
+
     function renderSections() {
         var filtered = getFilteredResources();
         var visibleCategories = categories.filter(function (category) {
@@ -974,6 +1142,18 @@
         }
     });
 
+    aiInfraNews.addEventListener("click", function (event) {
+        var button = event.target.closest("[data-filter-ai-infra]");
+        if (!button) {
+            return;
+        }
+        state.category = "ai-infra";
+        state.query = "";
+        searchInput.value = "";
+        render();
+        document.getElementById("resources").scrollIntoView({ behavior: "smooth" });
+    });
+
     searchInput.addEventListener("input", function (event) {
         state.query = event.target.value;
         renderSections();
@@ -1016,4 +1196,5 @@
 
     initializeTheme();
     render();
+    loadAiInfraNews();
 })();

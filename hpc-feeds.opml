@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Euler0525 HPC Intelligence Feeds</title>
-    <dateCreated>Thu, 23 Jul 2026 00:00:00 +0800</dateCreated>
+    <dateCreated>Fri, 31 Jul 2026 00:00:00 +0800</dateCreated>
   </head>
   <body>
     <outline text="HPC 核心资讯" title="HPC 核心资讯">
@@ -18,6 +18,18 @@
       <outline text="arXiv cs.DC" title="arXiv cs.DC" type="rss" htmlUrl="https://arxiv.org/list/cs.DC/recent" xmlUrl="https://rss.arxiv.org/rss/cs.DC"/>
       <outline text="arXiv cs.PF" title="arXiv cs.PF" type="rss" htmlUrl="https://arxiv.org/list/cs.PF/recent" xmlUrl="https://rss.arxiv.org/rss/cs.PF"/>
       <outline text="arXiv cs.AR" title="arXiv cs.AR" type="rss" htmlUrl="https://arxiv.org/list/cs.AR/recent" xmlUrl="https://rss.arxiv.org/rss/cs.AR"/>
+    </outline>
+    <outline text="AI Infra 资讯" title="AI Infra 资讯">
+      <outline text="Meta Engineering" title="Meta Engineering" type="rss" htmlUrl="https://engineering.fb.com/" xmlUrl="https://engineering.fb.com/feed/"/>
+      <outline text="Kubernetes Blog" title="Kubernetes Blog" type="rss" htmlUrl="https://kubernetes.io/blog/" xmlUrl="https://kubernetes.io/feed.xml"/>
+      <outline text="PyTorch Blog" title="PyTorch Blog" type="rss" htmlUrl="https://pytorch.org/blog/" xmlUrl="https://pytorch.org/blog/feed/"/>
+      <outline text="vLLM Releases" title="vLLM Releases" type="rss" htmlUrl="https://github.com/vllm-project/vllm/releases" xmlUrl="https://github.com/vllm-project/vllm/releases.atom"/>
+      <outline text="SGLang Releases" title="SGLang Releases" type="rss" htmlUrl="https://github.com/sgl-project/sglang/releases" xmlUrl="https://github.com/sgl-project/sglang/releases.atom"/>
+      <outline text="DeepSpeed Releases" title="DeepSpeed Releases" type="rss" htmlUrl="https://github.com/deepspeedai/DeepSpeed/releases" xmlUrl="https://github.com/deepspeedai/DeepSpeed/releases.atom"/>
+      <outline text="Ray Releases" title="Ray Releases" type="rss" htmlUrl="https://github.com/ray-project/ray/releases" xmlUrl="https://github.com/ray-project/ray/releases.atom"/>
+      <outline text="KServe Releases" title="KServe Releases" type="rss" htmlUrl="https://github.com/kserve/kserve/releases" xmlUrl="https://github.com/kserve/kserve/releases.atom"/>
+      <outline text="TensorRT-LLM Releases" title="TensorRT-LLM Releases" type="rss" htmlUrl="https://github.com/NVIDIA/TensorRT-LLM/releases" xmlUrl="https://github.com/NVIDIA/TensorRT-LLM/releases.atom"/>
+      <outline text="Triton Inference Server Releases" title="Triton Inference Server Releases" type="rss" htmlUrl="https://github.com/triton-inference-server/server/releases" xmlUrl="https://github.com/triton-inference-server/server/releases.atom"/>
     </outline>
     <outline text="HPC 开源软件发布" title="HPC 开源软件发布">
       <outline text="Slurm Releases" title="Slurm Releases" type="rss" htmlUrl="https://github.com/SchedMD/slurm" xmlUrl="https://github.com/SchedMD/slurm/releases.atom"/>

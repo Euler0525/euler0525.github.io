@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="面向高性能计算从业者的 HPC 资讯、软硬件架构、标准、开源项目、论文、基准与会议导航">
+    <meta name="description" content="面向高性能计算与 AI 基础设施从业者的资讯、软硬件架构、开源项目、论文、基准与会议导航">
     <meta name="theme-color" content="#111318">
-    <title>HPC Intelligence Hub · Euler0525</title>
+    <title>HPC × AI Infra Intelligence Hub · Euler0525</title>
     <link rel="shortcut icon" href="./assets/img/logo.ico">
     <link rel="stylesheet" href="./assets/css/fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/hpc.css">
@@ -18,12 +18,13 @@
         <a class="brand" href="./index.html" aria-label="返回导航首页">
             <img src="./assets/img/Euler0525.webp" alt="" width="38" height="38">
             <span>
-                <strong>HPC Intelligence</strong>
+                <strong>HPC · AI Infra</strong>
                 <small>by Euler0525</small>
             </span>
         </a>
 
         <nav class="header-nav" aria-label="页面导航">
+            <a href="#ai-infra">AI Infra</a>
             <a href="#resources">资源库</a>
             <a href="#workflow">关注节奏</a>
             <a href="./rss.html">RSS 阅读器</a>
@@ -42,11 +43,11 @@
     <main>
         <section class="hero">
             <div class="hero-copy">
-                <p class="eyebrow"><span></span> HIGH PERFORMANCE COMPUTING</p>
-                <h1>高性能计算<br><em>情报与订阅中心</em></h1>
+                <p class="eyebrow"><span></span> HPC × AI INFRASTRUCTURE</p>
+                <h1>高性能计算<br><em>与 AI 基础设施</em></h1>
                 <p class="hero-description">
-                    一站式追踪 HPC 行业新闻、软硬件架构、编程模型、开源项目、论文、基准榜单与旗舰会议。
-                    信息源按用途分层，既能快速知道发生了什么，也能深入理解技术为什么变化。
+                    一站式追踪 HPC 与 AI Infra 的行业新闻、软硬件架构、训练与推理系统、开源项目、论文、基准榜单与旗舰会议。
+                    从算力、互连和调度到底层运行时，既能快速知道发生了什么，也能深入理解技术为什么变化。
                 </p>
                 <div class="hero-actions">
                     <a class="primary-button" href="./hpc-feeds.opml" download>
@@ -63,8 +64,8 @@
             <aside class="hero-dashboard" aria-label="资源概览">
                 <div class="signal">
                     <span class="signal-dot"></span>
-                    <span>持续更新的 HPC 信号源</span>
-                    <time datetime="2026-07-23">2026.07</time>
+                    <span>持续更新的 HPC / AI Infra 信号源</span>
+                    <time datetime="2026-07-31">2026.07</time>
                 </div>
                 <div class="metric-grid">
                     <div class="metric metric-primary">
@@ -85,7 +86,7 @@
                     <span class="radar-ring radar-ring-two"></span>
                     <span class="radar-ring radar-ring-three"></span>
                     <span class="radar-sweep"></span>
-                    <span class="radar-core">HPC</span>
+                    <span class="radar-core">HPC × AI</span>
                     <i style="--x: 26%; --y: 31%"></i>
                     <i style="--x: 72%; --y: 24%"></i>
                     <i style="--x: 81%; --y: 69%"></i>
@@ -93,21 +94,73 @@
                 </div>
                 <p class="dashboard-note">
                     <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-                    新闻看趋势，Release 看变化，基准与超算中心报告负责交叉验证。
+                    新闻看趋势，Release 看变化，基准、工程实践与运行报告负责交叉验证。
                 </p>
             </aside>
+        </section>
+
+        <section class="ai-infra" id="ai-infra">
+            <div class="ai-infra-heading">
+                <div>
+                    <p class="section-kicker">AI INFRA SIGNALS</p>
+                    <h2>AI 基础设施最新信号</h2>
+                    <p>围绕大模型训练、推理服务、集群调度与高速通信，优先聚合官方工程博客和开源项目发布。</p>
+                </div>
+                <a class="signal-link" href="./rss.html">
+                    打开完整阅读器
+                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <div class="infra-track-grid" aria-label="AI Infra 重点方向">
+                <article>
+                    <span>01 / TRAIN</span>
+                    <h3>分布式训练</h3>
+                    <p>FSDP、ZeRO、并行策略、检查点与训练容错。</p>
+                    <div><b>PyTorch</b><b>DeepSpeed</b><b>NCCL</b></div>
+                </article>
+                <article>
+                    <span>02 / SERVE</span>
+                    <h3>推理与服务</h3>
+                    <p>连续批处理、KV Cache、量化、推测解码与多节点推理。</p>
+                    <div><b>vLLM</b><b>SGLang</b><b>TensorRT-LLM</b></div>
+                </article>
+                <article>
+                    <span>03 / SCHEDULE</span>
+                    <h3>编排与调度</h3>
+                    <p>GPU 资源池、弹性伸缩、队列、模型网关与可观测性。</p>
+                    <div><b>Kubernetes</b><b>KServe</b><b>Ray</b></div>
+                </article>
+                <article>
+                    <span>04 / FABRIC</span>
+                    <h3>计算与互连</h3>
+                    <p>GPU 集群、RDMA、Scale-up / Scale-out、存储和数据管线。</p>
+                    <div><b>InfiniBand</b><b>RoCE</b><b>CXL</b></div>
+                </article>
+            </div>
+
+            <div class="ai-latest">
+                <div class="ai-latest-heading">
+                    <div>
+                        <span class="signal-dot"></span>
+                        <h3>最近更新</h3>
+                    </div>
+                    <span id="ai-infra-status">正在载入 AI Infra 资讯…</span>
+                </div>
+                <div class="ai-news-grid" id="ai-infra-news" aria-live="polite"></div>
+            </div>
         </section>
 
         <section class="resource-shell" id="resources">
             <div class="resource-intro">
                 <div>
                     <p class="section-kicker">CURATED DIRECTORY</p>
-                    <h2>HPC 资源库</h2>
-                    <p>优先展示专业媒体与一手技术源；厂商数据建议结合独立基准和超算中心报告判断。</p>
+                    <h2>HPC / AI Infra 资源库</h2>
+                    <p>优先展示专业媒体与一手技术源；厂商数据建议结合独立基准、工程实践和超算中心报告判断。</p>
                 </div>
                 <label class="resource-search" for="resource-search">
                     <i class="fa fa-search" aria-hidden="true"></i>
-                    <input id="resource-search" type="search" placeholder="搜索 CUDA、MPI、互连、会议…" autocomplete="off">
+                    <input id="resource-search" type="search" placeholder="搜索 CUDA、MPI、vLLM、推理、互连…" autocomplete="off">
                     <kbd>/</kbd>
                 </label>
             </div>
@@ -140,7 +193,7 @@
                     <span>01</span>
                     <p class="cadence-label">DAILY</p>
                     <h3>每日扫视</h3>
-                    <p>HPCwire、insideHPC、The Next Platform，用于快速发现行业事件和架构趋势。</p>
+                    <p>HPCwire、The Next Platform、Meta Engineering 与 Kubernetes Blog，用于快速发现行业和架构趋势。</p>
                 </article>
                 <article>
                     <span>02</span>
@@ -152,7 +205,7 @@
                     <span>03</span>
                     <p class="cadence-label">REAL-TIME</p>
                     <h3>发布即跟进</h3>
-                    <p>Slurm、MPI、UCX、Spack、ROCm 等 Release，及时掌握兼容性与部署变化。</p>
+                    <p>Slurm、UCX、vLLM、SGLang、DeepSpeed 等 Release，及时掌握兼容性、性能与部署变化。</p>
                 </article>
                 <article>
                     <span>04</span>
@@ -166,7 +219,8 @@
                 <div>
                     <b>Exascale</b><b>HPC-AI</b><b>HBM</b><b>CXL</b><b>InfiniBand</b>
                     <b>Ultra Ethernet</b><b>Liquid Cooling</b><b>MPI</b><b>OpenMP</b>
-                    <b>CUDA</b><b>ROCm</b><b>SYCL</b><b>Slurm</b><b>Lustre</b><b>DAOS</b>
+                    <b>CUDA</b><b>ROCm</b><b>NCCL</b><b>vLLM</b><b>SGLang</b>
+                    <b>KV Cache</b><b>MoE</b><b>FSDP</b><b>Slurm</b><b>Lustre</b><b>DAOS</b>
                 </div>
             </div>
             <div class="field-notes" aria-label="资讯判读原则">
@@ -197,10 +251,10 @@
 
     <footer>
         <div>
-            <strong>HPC Intelligence Hub</strong>
-            <span>面向 HPC 从业者的长期资源目录</span>
+            <strong>HPC × AI Infra Intelligence Hub</strong>
+            <span>面向高性能计算与 AI 基础设施从业者的长期资源目录</span>
         </div>
-        <p>最后整理：2026 年 7 月 · <a href="./index.html">返回 Euler0525 导航</a></p>
+        <p>最后整理：2026 年 7 月 31 日 · <a href="./index.html">返回 Euler0525 导航</a></p>
     </footer>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
