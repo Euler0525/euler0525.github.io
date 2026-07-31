@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T06:19:03.889025Z",
+  "generatedAt": "2026-07-31T06:28:35.270950Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "https://www.pixelstech.net",
+      "siteUrl": "",
       "articleCount": 10,
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "title": "OpenAI · News",
@@ -78,9 +78,9 @@
       "title": "Google AI · Blog",
       "url": "https://blog.google/technology/ai/rss/",
       "category": "AI 新闻",
-      "siteUrl": "",
+      "siteUrl": "https://blog.google/innovation-and-ai/technology/ai/",
       "articleCount": 20,
-      "error": "<urlopen error [Errno 104] Connection reset by peer>"
+      "error": ""
     },
     {
       "title": "Google AI · DeepMind",
@@ -1120,19 +1120,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "957360b22dd1f5a4",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA 利用 Vera CPU 加速下一代 CPU 与 GPU 设计",
-      "url": "https://blogs.nvidia.cn/blog/vera-cpu-eda/",
-      "published": "2026-07-26T02:00:00Z",
-      "author": "英伟达中国",
-      "summary": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。 目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。 加速关键 EDA 工作负载 这关乎芯片的生产节奏。反过来，ED",
-      "content": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。\n\n目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。\n\n加速关键 EDA 工作负载\n\n这关乎芯片的生产节奏。反过来，EDA 工作负载性能的提升也将加快行业技术的发展步伐，推动整体研发进程。\n\n仿真、验证和实现技术在半导体开发中扮演着核心角色。在芯片进入制造阶段前，工程师们往往需要花费数年时间，通过数千次迭代来验证设计行为、识别边界条件并优化设计。\n\n尽管 GPU 和 AI 已经加速了芯片设计的许多环节，但部分关键的 EDA 工作负载仍高度依赖 CPU 性能。逻辑仿真、形式验证以及数字实现流程中的部分任务，通常都需要快速的单核性能、高效的内存系统以及强大的整体吞吐能力。\n\n因此，CPU 架构成为决定工程团队验证设计、探索替代方案以及推动产品流片速度的重要因素。\n\n部署于 NVIDIA 波特兰数据中心的 Vera 集群\n\nCadence 与新思科技的初步测试结果\n\nNVIDIA 的初步测试涵盖了多款领先的 EDA 应用。测试结果显示，Vera 在加速现代芯片设计中两个计算密集型环节具备显著优势。针对部分生产级工作流的初步测试展现了令人瞩目的性能表现。\n\nCadence Jasper 是一款形式验证平台，通过智能证明技术和机器学习，能够在设计周期初期发现并修复缺陷或漏洞，从而提升验证效率。\n\nSynopsys VCS 是一款高性能功能验证解决方案，用于在芯片制造前仿真和验证复杂的芯片设计。本次测试在相同核心数量配置下进行。\n\n在选定的工作负载下，两款应用的性能提升了 1.5 倍。\n\n除了基准测试外，NVIDIA 还与这两家公司在应用性能分析、软件优化和系统级调优方面展开紧密合作，持续全面提升更广泛工作流的工程生产力。\n\n将 Vera 引入设计流程\n\nNVIDIA 正在 EDA 工作流中全面部署 Vera，用于创建未来的 NVIDIA 处理器。\n\nVera 结合了 88 颗定制的 NVIDIA Olympus CPU 核心、高效 LPDDR5X 内存子系统，以及第二代 NVIDIA 可扩展一致性互连架构，旨在为高要求的工程应用提供强大的单核性能、高内存带宽和稳定的低延迟表现。\n\n这些能力对于混合延迟敏感型任务与计算集群大规模回归测试的工作负载尤为重要。更快的执行速度可以缩短单次验证的运行时间，而更高的吞吐量则帮助工程师能够在相同的开发周期内评估更多设计方案并完成更多验证任务。\n\n从 RTL 到硅片\n\n在确立了处理器的架构和微架构后，工程师会在寄存器传输级 (RTL) 描述其大部分行为。随后，多种验证和实现技术协同工作，将设计转化为可用于制造的硅片。\n\n这些工作流涵盖逻辑仿真、形式验证、回归测试和数字实现，帮助工程师验证功能、识别边界条件，并最终将设计转化为可投产的硅片。\n\n由于这些阶段紧密相连，提升验证吞吐量有助于企业更早发现问题，从而减少下游代价高昂的设计迭代。\n\n使用 NVIDIA CPU 打造未来的 NVIDIA 芯片\n\n在 NVIDIA 自身的工程工作流中部署 Vera，反映了一项更宏大的战略：根据任务匹配最适合的计算架构，为各项工作负载加速。\n\n在 EDA 领域，GPU 和 AI 正持续加速众多算法，而高性能 CPU 对于关键的仿真、验证和实现工作负载依然不可或缺。两者相辅相成，共同提升整个设计周期的性能。\n\n展望未来，NVIDIA 计划在 Vera 的基础上，推出由 NVIDIA Rigel 核心驱动的下一代 Rosa CPU，并继续在其 CPU 产品路线图中，对领先的 EDA 应用做针对性优化。\n\n通过使用 NVIDIA CPU 来设计未来的 NVIDIA CPU 和 GPU，NVIDIA 正在硅片设计、软件优化和系统工程之间建立一个持续运转的反馈闭环，让每一代产品都成为构建下一代产品的基石。\n\n了解更多 NVIDIA 在 DAC 2026 上的动态。",
-      "readingMinutes": 4
-    },
-    {
       "id": "43676046e7a97b7a",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -1144,6 +1131,19 @@
       "summary": "新闻摘要： NVIDIA 今日宣布扩展面向工程领域的 NVIDIA Agent Toolkit，将 NVIDIA PhysicsNeMo™ 和 CUDA-X™ 库作为智能体就绪的工具与技能纳入其中，旨在重塑全球产品设计与开发模式。 构建新一代芯片和系统要求团队在日益复杂的设计周期中，打通物理、仿真和性能分析环节。为应对这种复杂性，一类全新的自主 AI 工程师应运而生。它们借助专业工具进行仿真并生成高保真数据，从而推动芯片设计、验证、封装及系统工程的规模化发展。 NVIDIA 现已将架构重构的 P",
       "content": "新闻摘要：\n\nNVIDIA 通过引入架构重构的 NVIDIA PhysicsNeMo 库及更新的 NVIDIA CUDA-X 库，扩展了 NVIDIA Agent Toolkit。此举使软件开发者能够构建具备 AI 物理技能、加速求解器及量子化学能力的自主 AI 工程师。\n\n在 NVIDIA 研究中心的 ACE-RTL 智能体支持下，NVIDIA Nemotron 3 Ultra 在开放模型中的智能体级寄存器传输级 (RTL) 编码能力方面处于领先地位，助力企业打造用于芯片设计与验证的可定制 AI 智能体。\n\nCadence、西门子、新思科技等行业领导者正采用 NVIDIA 的加速计算与智能体 AI 技术，推动芯片设计、验证、封装及系统设计领域的自主工程工作流发展。\n\nNVIDIA 今日宣布扩展面向工程领域的 NVIDIA Agent Toolkit，将 NVIDIA PhysicsNeMo 和 CUDA-X 库作为智能体就绪的工具与技能纳入其中，旨在重塑全球产品设计与开发模式。\n\n构建新一代芯片和系统要求团队在日益复杂的设计周期中，打通物理、仿真和性能分析环节。为应对这种复杂性，一类全新的自主 AI 工程师应运而生。它们借助专业工具进行仿真并生成高保真数据，从而推动芯片设计、验证、封装及系统工程的规模化发展。\n\nNVIDIA 现已将架构重构的 PhysicsNeMo 整合为一系列支持智能体的友好型库，并新增及更新了 CUDA-X 库，以支持复杂的工程任务。上述能力已被纳入 NVIDIA Agent Toolkit。其中，PhysicsNeMo 提供用于模型训练与部署的 AI 物理技能，而 CUDA-X 库则将加速求解器和量子化学能力引入智能体工程工作流。\n\nNVIDIA 计算工程副总裁兼总经理 Timothy Costa 表示：“工程领域已迎来关键拐点。如今，AI 能够熟练运用物理、仿真和设计工具。借助 NVIDIA Agent Toolkit，开发者可以构建出具备物理推理能力、能运行复杂仿真并生成高保真数据的智能体工程师，使其成为芯片与系统设计创新的新引擎。”\n\nNVIDIA Agent Toolkit 为工程智能体新增 AI 物理与加速计算技能\n\nNVIDIA Agent Toolkit 帮助开发者构建连接特定领域工具、模型和数据的专用工程 AI 助手。随着 NVIDIA PhysicsNeMo 和 CUDA-X 库的加入，这些智能体如今能够运用 AI 物理技能、加速求解器和量子化学能力，为芯片、系统及工业工程领域提供服务。\n\n核心功能包括：\n\nAI 物理技能：NVIDIA PhysicsNeMo 库帮助智能体针对复杂的设计与仿真任务，训练和部署可定制的 AI 物理模型，将模型架构转化为工程工作流中可直接调用的工具。\n\n迭代稀疏求解器：全新的 NVIDIA cuISS (CUDA Iterative Sparse Solvers，CUDA 迭代稀疏求解器) 库可加速基于物理和工程仿真中的大型稀疏线性系统的求解。该库专为在 GPU 上实现灵活性与高性能而设计，凭借现代化的可组合求解器与预处理技术，可帮助开发者为智能体工程工作流构建可扩展的生产级仿真引擎。\n\n直接稀疏求解器：NVIDIA cuDSS (CUDA Direct Sparse Solvers，CUDA 直接稀疏求解器) 可加速电子设计自动化 (EDA) 和科学仿真中核心的大型复杂稀疏线性系统求解。它为器件、电路和系统仿真等关键工作负载提供高性能与数值鲁棒性，并支持在生产环境中的多 GPU 和多节点扩展部署。\n\n量子化学：NVIDIA cuEST (CUDA Electronic Structure Theory，CUDA 电子结构理论) 将高精度的量子化学仿真引入器件相关尺度，使密度泛函理论 (DFT) 及后 DFT 方法能够大规模集成到生产工作流中。cuEST 支持多种现代泛函，使日益庞大的基态和激发态仿真在 NVIDIA GPU 上变得切实可行，从而为客户带来实际的生产价值。\n\nNVIDIA Nemotron 3 Ultra 开放模型推动芯片设计智能体编码\n\n芯片设计依赖于专业的寄存器传输级 (RTL) 编码，这要求极高的准确性、深厚的领域专业知识以及灵活的部署能力。\n\n借助 NVIDIA 研究中心推出的硬件设计智能体 ACE-RTL，NVIDIA Nemotron 3 Ultra 在全面的 Verilog 设计问题基准测试中表现优异，在开放模型的智能体 RTL 编码任务中拔得头筹。\n\n这表明 Nemotron 3 Ultra 具备行业领先的准确性和效率，且支持在专有数据上进行后训练，并可在本地或企业内部部署，从而在企业构建用于芯片设计 AI 智能体时，为其提供更强的可控性、定制化能力和数据隐私保障。\n\n开发者可通过多种途径快速上手 Nemotron 3 Ultra，包括使用 Cadence 的 Harness、新思科技面向设计验证及模拟与混合信号工作流打造的全自主可长时间运行的智能体、西门子的 Questa One 智能验证智能体工具包，以及在 Hugging Face 平台体验。\n\n软件巨头借助 NVIDIA 技术打造自主 AI 工程师\n\n工业工程领域的领导者们已开始利用全新及扩展后的 NVIDIA Agent Toolkit 组件，开发自主 AI 工程师。\n\nCadence 将 NVIDIA Nemotron、加速计算和 CUDA-X 库与最新推出的 Cadence AuraStack AI Super Agent 及 Cadence Millennium M2000 平台相结合，自主驱动从探索到签核 (signoff) 的高级封装与印制电路板 (PCB) 设计，实现高达 20 倍的多物理场性能提升。这进一步完善了 Cadence 的硅片设计超级智能体产品组合，实现从架构到制造签核的芯片设计工作流端到端覆盖。\n\n此外，双方的合作从智能体设计延伸至底层计算。包括形式验证平台 Cadence Jasper 在内的 EDA 与系统设计自动化产品组合，正针对 NVIDIA Vera CPU 进行优化，以帮助工程团队更快地验证先进芯片设计。\n\n新思科技利用 NVIDIA Agent Toolkit、NVIDIA NIM、Nemotron 开放模型、NVIDIA NeMo Gym 库及 NVIDIA NemoClaw 蓝图，结合 Synopsys AgentEngineer，构建跨芯片与系统设计的安全、加速智能体工作流。借助 Ansys Icepak，新思科技的智能体工作流可自主执行复杂 GPU 散热设计优化的仿真设置及前后处理。同时，新思科技正开发 NVIDIA cuISS 的用例，以加速仿真工作负载。\n\n双方的合作同样从智能体工作流延伸至底层计算平台。用于在流片前仿真和验证复杂芯片设计的高性能功能验证解决方案 Synopsys VCS，正针对 NVIDIA Vera CPU 进行优化，以提升验证吞吐量。\n\n西门子正将 NVIDIA NeMo Gym、Nemotron 开放模型和 CUDA-X 库与西门子 Fuse EDA AI 智能体结合使用，以编排跨半导体、3D-IC、PCB 及系统设计的多工具与多智能体工作流，覆盖从概念设计到签核的全流程。在西门子 Solido Characterization Suite 中，这些智能体 AI 工作流使库特征速度提升 10 倍以上，同时将 Token 成本降低至原来的 1/10 以上。\n\n三星正利用 NVIDIA cuLitho 和 CUDA-X 库，使计算光刻性能提升高达 20 倍；同时应用 NVIDIA PhysicsNeMo 进行芯片级热应力分析，在包含高达 100 亿个单元的区域中实现了数值求解器级别的精度。\n\nChipAgents 正使用 NVIDIA Agent Toolkit 构建用于芯片设计与验证的特定领域 AI 智能体。该团队正针对包括调试、形式验证、覆盖率等在内的复杂端到端半导体设计与验证工作流，对 NVIDIA Nemotron 模型进行微调。\n\nSilvaco 正借助 NVIDIA 加速计算，扩大 Silvaco Victory Device 中的高精度 3D 光学仿真规模。该仿真在由 NVIDIA NVLink 技术互连的 32 个 NVIDIA GPU 上运行，在不到 4 小时内完成了 32 亿网格节点的光子边缘耦合器仿真，这一工作量已超出基于 CPU 仿真的实际极限。\n\nKeysight 正利用 NVIDIA cuDSS 将电磁仿真速度提升高达 10 倍；同时，三星、新思科技和 TSMC 正将 NVIDIA cuEST 集成到其 GPU 加速流程中，使关键量子化学工作负载的速度提升高达 50 倍。\n\n欢迎参加 NVIDIA 在 DAC 的活动，了解更多信息。",
       "readingMinutes": 7
+    },
+    {
+      "id": "957360b22dd1f5a4",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA 利用 Vera CPU 加速下一代 CPU 与 GPU 设计",
+      "url": "https://blogs.nvidia.cn/blog/vera-cpu-eda/",
+      "published": "2026-07-26T02:00:00Z",
+      "author": "英伟达中国",
+      "summary": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。 目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。 加速关键 EDA 工作负载 这关乎芯片的生产节奏。反过来，ED",
+      "content": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。\n\n目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。\n\n加速关键 EDA 工作负载\n\n这关乎芯片的生产节奏。反过来，EDA 工作负载性能的提升也将加快行业技术的发展步伐，推动整体研发进程。\n\n仿真、验证和实现技术在半导体开发中扮演着核心角色。在芯片进入制造阶段前，工程师们往往需要花费数年时间，通过数千次迭代来验证设计行为、识别边界条件并优化设计。\n\n尽管 GPU 和 AI 已经加速了芯片设计的许多环节，但部分关键的 EDA 工作负载仍高度依赖 CPU 性能。逻辑仿真、形式验证以及数字实现流程中的部分任务，通常都需要快速的单核性能、高效的内存系统以及强大的整体吞吐能力。\n\n因此，CPU 架构成为决定工程团队验证设计、探索替代方案以及推动产品流片速度的重要因素。\n\n部署于 NVIDIA 波特兰数据中心的 Vera 集群\n\nCadence 与新思科技的初步测试结果\n\nNVIDIA 的初步测试涵盖了多款领先的 EDA 应用。测试结果显示，Vera 在加速现代芯片设计中两个计算密集型环节具备显著优势。针对部分生产级工作流的初步测试展现了令人瞩目的性能表现。\n\nCadence Jasper 是一款形式验证平台，通过智能证明技术和机器学习，能够在设计周期初期发现并修复缺陷或漏洞，从而提升验证效率。\n\nSynopsys VCS 是一款高性能功能验证解决方案，用于在芯片制造前仿真和验证复杂的芯片设计。本次测试在相同核心数量配置下进行。\n\n在选定的工作负载下，两款应用的性能提升了 1.5 倍。\n\n除了基准测试外，NVIDIA 还与这两家公司在应用性能分析、软件优化和系统级调优方面展开紧密合作，持续全面提升更广泛工作流的工程生产力。\n\n将 Vera 引入设计流程\n\nNVIDIA 正在 EDA 工作流中全面部署 Vera，用于创建未来的 NVIDIA 处理器。\n\nVera 结合了 88 颗定制的 NVIDIA Olympus CPU 核心、高效 LPDDR5X 内存子系统，以及第二代 NVIDIA 可扩展一致性互连架构，旨在为高要求的工程应用提供强大的单核性能、高内存带宽和稳定的低延迟表现。\n\n这些能力对于混合延迟敏感型任务与计算集群大规模回归测试的工作负载尤为重要。更快的执行速度可以缩短单次验证的运行时间，而更高的吞吐量则帮助工程师能够在相同的开发周期内评估更多设计方案并完成更多验证任务。\n\n从 RTL 到硅片\n\n在确立了处理器的架构和微架构后，工程师会在寄存器传输级 (RTL) 描述其大部分行为。随后，多种验证和实现技术协同工作，将设计转化为可用于制造的硅片。\n\n这些工作流涵盖逻辑仿真、形式验证、回归测试和数字实现，帮助工程师验证功能、识别边界条件，并最终将设计转化为可投产的硅片。\n\n由于这些阶段紧密相连，提升验证吞吐量有助于企业更早发现问题，从而减少下游代价高昂的设计迭代。\n\n使用 NVIDIA CPU 打造未来的 NVIDIA 芯片\n\n在 NVIDIA 自身的工程工作流中部署 Vera，反映了一项更宏大的战略：根据任务匹配最适合的计算架构，为各项工作负载加速。\n\n在 EDA 领域，GPU 和 AI 正持续加速众多算法，而高性能 CPU 对于关键的仿真、验证和实现工作负载依然不可或缺。两者相辅相成，共同提升整个设计周期的性能。\n\n展望未来，NVIDIA 计划在 Vera 的基础上，推出由 NVIDIA Rigel 核心驱动的下一代 Rosa CPU，并继续在其 CPU 产品路线图中，对领先的 EDA 应用做针对性优化。\n\n通过使用 NVIDIA CPU 来设计未来的 NVIDIA CPU 和 GPU，NVIDIA 正在硅片设计、软件优化和系统工程之间建立一个持续运转的反馈闭环，让每一代产品都成为构建下一代产品的基石。\n\n了解更多 NVIDIA 在 DAC 2026 上的动态。",
+      "readingMinutes": 4
     },
     {
       "id": "c34a327604b5be4a",
