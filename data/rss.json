@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T06:36:05.934095Z",
+  "generatedAt": "2026-07-31T17:25:46.487079Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "",
+      "siteUrl": "https://www.pixelstech.net",
       "articleCount": 10,
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "title": "OpenAI · News",
@@ -197,6 +197,110 @@
   ],
   "articles": [
     {
+      "id": "ff7c1653ce2eb767",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Disrupting a Criminal Scam Operation",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "published": "2026-08-04T00:00:00Z",
+      "author": "",
+      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "content": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "9fa3b4695ecb2f2e",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "NVIDIA Video Codec SDK 13.1: Zero-Copy Transcode, AV1 B-Frames, and Frame-Accurate Seek",
+      "url": "https://developer.nvidia.com/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek/",
+      "published": "2026-07-31T15:13:16Z",
+      "author": "Elizabeth Goodman",
+      "summary": "The demand for high-quality video continues to accelerate across industries, powering everything from immersive streaming experiences to remote collaboration,...",
+      "content": "The demand for high-quality video continues to accelerate across industries, powering everything from immersive streaming experiences to remote collaboration,...\nThe demand for high-quality video continues to accelerate across industries, powering everything from immersive streaming experiences to remote collaboration, generative AI media tools, and large-scale content delivery. Behind these experiences is a growing need for video pipelines that are faster, more efficient, and capable of handling increasingly complex formats and workloads.\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f8ec64126bdac17b",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Advancing responsible AI across Europe",
+      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "published": "2026-07-31T15:00:00Z",
+      "author": "",
+      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "content": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "966cd163f8692d8c",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Building abundant intelligence",
+      "url": "https://openai.com/index/building-abundant-intelligence",
+      "published": "2026-07-31T15:00:00Z",
+      "author": "",
+      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "content": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "ed9463cb67ed1c24",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "本月玩什么｜节奏天国、斯普拉遁 涂击队、刺客信条：黑旗 记忆重置",
+      "url": "https://sspai.com/post/112962",
+      "published": "2026-07-31T10:49:07Z",
+      "author": "",
+      "summary": "以上便是部分近期值得探讨的新游信息汇总，个人角度仅供参考。本文设有有奖互动环节：你有什么特别喜欢的操作系统模拟玩法的游戏吗？（我很喜欢《Uplink》）提前感谢你真诚的分享。>关注少数派小红书，感受精 ...查看全文",
+      "content": "以上便是部分近期值得探讨的新游信息汇总，个人角度仅供参考。本文设有有奖互动环节：你有什么特别喜欢的操作系统模拟玩法的游戏吗？（我很喜欢《Uplink》）提前感谢你真诚的分享。>关注少数派小红书，感受精 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "a5892a717bf09d20",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "本周看什么 | 最近值得一看的 10 部作品",
+      "url": "https://sspai.com/post/112961",
+      "published": "2026-07-31T09:57:39Z",
+      "author": "",
+      "summary": "📅本周新预告《银翼杀手2099》首支预告7月25日，剧集《银翼杀手2099》发布了首支预告，定档11月25日上线PrimeVideo。亨特·莎弗、杨紫琼主演，2099年的洛杉矶，擅用各种身份掩饰自己的 ...查看全文",
+      "content": "📅本周新预告《银翼杀手2099》首支预告7月25日，剧集《银翼杀手2099》发布了首支预告，定档11月25日上线PrimeVideo。亨特·莎弗、杨紫琼主演，2099年的洛杉矶，擅用各种身份掩饰自己的 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "3feeecf84fa6f882",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "App+1 | 诗经山河图：我用 AI 做了一张《诗经》地图",
+      "url": "https://sspai.com/post/112730",
+      "published": "2026-07-31T07:00:36Z",
+      "author": "",
+      "summary": "也许在某个瞬间，你会发现：三千年的时间很长，但古人与我们之间，并没有想象中那么遥远。查看全文",
+      "content": "也许在某个瞬间，你会发现：三千年的时间很长，但古人与我们之间，并没有想象中那么遥远。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "cd88270c00622daf",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Univé builds an AI-ready workforce",
+      "url": "https://openai.com/index/unive",
+      "published": "2026-07-31T07:00:00Z",
+      "author": "",
+      "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+      "content": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+      "readingMinutes": 1
+    },
+    {
       "id": "aa8c37c3ff991945",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -308,7 +412,7 @@
       "title": "FBTriton Infra: Upstream Ingestion, Hierarchical Validation, Ideals vs Realities",
       "url": "https://pytorch.org/blog/fbtriton-infra-upstream-ingestion-hierarchical-validation-ideals-vs-realities/",
       "published": "2026-07-30T15:26:48Z",
-      "author": "Meta PyTorch Team: Xu Zhao Agron Tsai Wenyuan Chi Alexey Loginov",
+      "author": "Meta Triton Team: Daohang Shi, Xu Zhao, Agron Tsai, Wenyuan Chi, Alexey Loginov",
       "summary": "TL:DR Learn how Meta’s FBTriton infrastructure powers custom GPU compiler innovations like TLX and autoWS while staying synced with upstream Triton using agentic ingestion and a stratified L1/L2/L3 validation framework....",
       "content": "TL:DR\n\nLearn how Meta’s FBTriton infrastructure powers custom GPU compiler innovations like TLX and autoWS while staying synced with upstream Triton using agentic ingestion and a stratified L1/L2/L3 validation framework.\n\nIntroduction of fbtriton\n\nTriton is a foundational element of our AI hardware acceleration strategy. While Triton is developed and maintained by OpenAI, the upstream repository alone cannot fully accommodate our internal feature requests, hardware-specific optimizations, and urgent bug fixes. In parallel, we are developing our own GPU optimization solutions, including TLX/torchTLX and autoWS, whose development timelines and code structures do not always align with upstream.\n\nTo bridge this gap, we consolidate our innovations into a downstream fork called fbtriton (pip install fbtriton). This allows us to rapidly develop features optimized for our workloads while keeping the delta from upstream as small as possible. The repository is continuously synchronized into our internal codebase with minimal in-house adjustment and powers GPU training and inference workloads across Meta’s services.\n\nSince its consolidation in Q3 2025, fbtriton has served as an optimization runway for Meta engineers and external partners, including NVIDIA, AMD, and academic collaborators, to co-design compiler and DSL innovations and make them accessible for OSS and industry’s evaluation.\n\nThis blog covers continuous upstream ingestion, the L1/L2/L3 validation hierarchy, and the practical gap between engineering ideals and production realities.\n\nClosing the Upstream Gap: Risk-partitioned Agentic Bundling\n\nIt is not easy for fbtriton to aggressively develop Meta-inspired optimizations while keeping the gap against a fast-moving upstream small.\n\nMaintaining a downstream fork usually forces a choice between two strategies: periodic full-trunk rebases or continuous cherry-picking. We chose continuous cherry-picking to keep our modifications stable and decouple daily development from the structural uncertainty and friction of large rebases.\n\nThe core friction comes from architectural divergence in the compiler stack. fbtriton uses distinct strategies and designs for layout interfaces, quantization, and warp specialization.\n\nTo clear the accumulated backlog without overwhelming CI engineers with manual conflict resolution, we built an agentic loop that separates upstream commits into large low-risk bundles and context-heavy risky chains.\n\nStep 1: Dependency tracking.\n\nThe system checks whether an incoming patch touches files or symbols linked to an ongoing complex change, also known as an existing risky chain.\n\nStep 2: Path selection.\n\nIf a correlation is found, the patch is automatically grouped into that existing chain to preserve the correct ordering of dependent changes. Otherwise, the commit is considered safe and merged into a large low-risk bundle, such as commit #1872.\n\nOperation metrics: Ingestion Tracking\n\nTo measure progress accurately, we track two distinct operational metrics.\n\nMain Metric: Days Behind Upstream\n\nThis metric tracks how many days the tip of our upstream ingestion lags behind the tip of the upstream main branch. In rare circumstances, we may urgently cherry-pick specific commits from very recent upstream. These isolated picks do not affect the main metric.\n\nCounter Metric: Backlog Commits\n\nThis metric tracks the holes left behind the ingestion tip: older upstream commits that remain unpicked and outstanding.\n\nBy decoupling these metrics, CI engineers can focus on driving down the main metric, while context-heavy backlog commits can be triaged asynchronously to keep the counter metric low. This allows the team to operate efficiently without conflating forward progress with backlog cleanup.\n\nOut-of-Order Landing\n\nCommits can be landed out of order as long as each one independently passes both OSS CI and internal CI. This flexibility allows us to unblock clean upstream features immediately instead of stalling behind a single complex dependency.\n\nHowever, operating this way safely requires a robust, stratified hierarchical test framework discussed in the next section.\n\nDesigning the Hierarchical Test Framework\n\nA risky Triton change, including an LLVM version bump, can trigger cascading regressions across the production stack. These issues are rarely clean build failures. Instead, they may appear as silent regressions in training/serving efficiency, increased PT2 compilation time, or subtle drift in model performance (normalized entropy).\n\nEvaluating this entire spectrum of signals for every commit is both operationally and financially impractical. A localized single-GPU correctness test may finish in seconds, while validating job-level metrics may require GPU clusters running for hours. In practice, we manage this resource asymmetry by organizing tests into an L1/L2/L3 hierarchy based on relative value and cost.\n\nL1: Diff tests\n\nFast, localized tests, including LITs (LLVM Integrated Tester), Triton unit tests, TLX tutorial kernel correctness tests, and internal customers’ kernel tests. These are triggered at every diff to prevent major breakage and kernel-level numeric mismatches.\n\nL2: Trunk tests\n\nPeriodic, resource-intensive integration tests run on trunk, such as a tritonbench run sweeping required matrix-multiplication shapes or a distributed training job. These tests are fully bisectable on metric regressions, such as performance degradation, so we can automatically locate the culprit commit.\n\nL3: Manual tests\n\nHeavy, fully on-demand production workloads provided dynamically by internal production teams. These consume significant GPU hours and require explicit metric sign-off from area owners.\n\nDiscussion: Practical Engineering Problems\n\nMoving from an abstract pipeline blueprint to a real production environment introduces operational realities across infrastructure reliability, human behavior, and shifting business context.\n\nDerisking from Infrastructure Single Points of Failure\n\nWe cannot assume a testing platform is a flawless source of truth. We learned this when a silent bug in an underlying test infrastructure layer began omitting L1 test suites without raising alerts, creating a blind spot of unmonitored false negatives.\n\nTo eliminate this single point of failure, we adopted a saturated validation strategy by adopting various testing harnesses (such as servicelab), diverse compute capacities across both internal and OSS pipelines to improve CI signal robustness.\n\nManaging Daily Operational Friction\n\nLeaving an error on the trunk inevitably masks subsequent regressions. At the same time, diff authors often ignore trunk errors if a failure appears unrelated to their specific code change. These overlapping error lifecycles can quickly paralyze daily triage.\n\nMaintaining a green trunk requires continuous team discipline and rapid daily resolution of incoming failures.\n\nNavigating the Context Gap During Pin Updates\n\nAs a core compiler team, it is impossible to maintain a complete view of every downstream workload and model architecture across the fleet. This context gap exists both internally and in the broader OSS community.\n\nThe only viable mitigation is a dynamic, continuous context-sharing loop between teams, ensuring that compiler optimizations remain aligned with changing fleet realities.\n\nFlawless CI: Ideals vs Realities\n\nThe engineering ideal is a fully autonomous, zero-noise, instantaneous CI/CD loop that maps perfectly to broad subsystem-level metrics. Production reality is more complicated. Coarse metrics do not fully capture risk, and fleet-scale stability requires localized operational discipline in addition to abstract subsystem-level tracking.\n\nA high-craftsmanship CI system cannot be built in a day. It requires not only putting code together, but also putting teams together, and sustaining that cultural alignment over time.\n\nAgentic solutions are now deeply integrated into our daily workflow, but it is important to stay clear-eyed about what has changed and what has not. AI agents are effective at eliminating tedious engineering work. We use them to resolve merge conflicts, report infrastructure issues, summarize test results, group error types, and auto-file tracking issues with proposed fixes when nightly tests break.\n\nHowever, the underlying physics of the compiler and hardware remain unchanged. In practice, we must remain cautious about both AI hallucinations and human error, ensuring that agentic velocity is always guarded by deterministic safety rails.\n\nAcknowledgments\n\nWe would like to extend our gratitude to Abhinav Singh (NVIDIA), Shucai Xiao (AMD), and Andrey Talman (PyTorch Dev Infra) for their invaluable support in providing OSS test capacity.",
       "readingMinutes": 6
@@ -717,32 +821,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "91220bb72dd0f548",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "陕北看海，黄土难寻",
-      "url": "https://sspai.com/post/112761",
-      "published": "2026-07-29T07:00:51Z",
-      "author": "",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "content": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f2bf3ff335f1377c",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "角落新声｜没有书房，也要给音乐留一个角落：聊聊我的黑胶「窝棚」",
-      "url": "https://sspai.com/post/112715",
-      "published": "2026-07-29T03:00:01Z",
-      "author": "",
-      "summary": "无论处在什么环境里，都别忘记：我们有听音乐的权利。查看全文",
-      "content": "无论处在什么环境里，都别忘记：我们有听音乐的权利。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "eb71f165025c2507",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -870,19 +948,6 @@
       "author": "Maxim Chupilkin",
       "summary": "How should researchers measure the geopolitical preferences expressed by large language models (LLMs)? Existing audits commonly rely on surveys and simple tests, but international-relations research has long recognized that measuring geopolitical preferences is difficult and has…",
       "content": "How should researchers measure the geopolitical preferences expressed by large language models (LLMs)? Existing audits commonly rely on surveys and simple tests, but international-relations research has long recognized that measuring geopolitical preferences is difficult and has developed methods for recovering them from observed choices. This paper applies a dynamic ordinal ideal-point approach from international relations, treating LLMs as respondents to the full texts of 5,555 divisive, recorded, adopted resolutions considered in regular sessions of the UN General Assembly from 1946 through 2025. Support ranges from 37.8% for DeepSeek to 97.3% for GPT-5. Surprisingly, in the twenty-first century, GPT-5, Claude Sonnet, and Gemini are closest among the permanent five to Russia; DeepSeek is closest to France; and all four are farthest from the United States. Among 2,104 resolutions opposed by the United States but supported by China and Russia/USSR, GPT-5 supported 96.1%, Gemini 83.4%, Claude Sonnet 65.2%, and DeepSeek 36.1%. The findings show that a model's expressed geopolitical position can differ markedly from that of its developer's home country, especially in international politics, where state actions can diverge from the stated principles prevalent in the texts on which models are trained.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "b241e0b91af4562d",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "社区速递 151 | 派友的六月好物盘点、携程被重罚热议和 tomtoc 城市穿行背包",
-      "url": "https://sspai.com/post/112820",
-      "published": "2026-07-28T09:00:00Z",
-      "author": "",
-      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
-      "content": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
       "readingMinutes": 1
     },
     {
@@ -1120,19 +1185,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "957360b22dd1f5a4",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA 利用 Vera CPU 加速下一代 CPU 与 GPU 设计",
-      "url": "https://blogs.nvidia.cn/blog/vera-cpu-eda/",
-      "published": "2026-07-26T02:00:00Z",
-      "author": "英伟达中国",
-      "summary": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。 目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。 加速关键 EDA 工作负载 这关乎芯片的生产节奏。反过来，ED",
-      "content": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。\n\n目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。\n\n加速关键 EDA 工作负载\n\n这关乎芯片的生产节奏。反过来，EDA 工作负载性能的提升也将加快行业技术的发展步伐，推动整体研发进程。\n\n仿真、验证和实现技术在半导体开发中扮演着核心角色。在芯片进入制造阶段前，工程师们往往需要花费数年时间，通过数千次迭代来验证设计行为、识别边界条件并优化设计。\n\n尽管 GPU 和 AI 已经加速了芯片设计的许多环节，但部分关键的 EDA 工作负载仍高度依赖 CPU 性能。逻辑仿真、形式验证以及数字实现流程中的部分任务，通常都需要快速的单核性能、高效的内存系统以及强大的整体吞吐能力。\n\n因此，CPU 架构成为决定工程团队验证设计、探索替代方案以及推动产品流片速度的重要因素。\n\n部署于 NVIDIA 波特兰数据中心的 Vera 集群\n\nCadence 与新思科技的初步测试结果\n\nNVIDIA 的初步测试涵盖了多款领先的 EDA 应用。测试结果显示，Vera 在加速现代芯片设计中两个计算密集型环节具备显著优势。针对部分生产级工作流的初步测试展现了令人瞩目的性能表现。\n\nCadence Jasper 是一款形式验证平台，通过智能证明技术和机器学习，能够在设计周期初期发现并修复缺陷或漏洞，从而提升验证效率。\n\nSynopsys VCS 是一款高性能功能验证解决方案，用于在芯片制造前仿真和验证复杂的芯片设计。本次测试在相同核心数量配置下进行。\n\n在选定的工作负载下，两款应用的性能提升了 1.5 倍。\n\n除了基准测试外，NVIDIA 还与这两家公司在应用性能分析、软件优化和系统级调优方面展开紧密合作，持续全面提升更广泛工作流的工程生产力。\n\n将 Vera 引入设计流程\n\nNVIDIA 正在 EDA 工作流中全面部署 Vera，用于创建未来的 NVIDIA 处理器。\n\nVera 结合了 88 颗定制的 NVIDIA Olympus CPU 核心、高效 LPDDR5X 内存子系统，以及第二代 NVIDIA 可扩展一致性互连架构，旨在为高要求的工程应用提供强大的单核性能、高内存带宽和稳定的低延迟表现。\n\n这些能力对于混合延迟敏感型任务与计算集群大规模回归测试的工作负载尤为重要。更快的执行速度可以缩短单次验证的运行时间，而更高的吞吐量则帮助工程师能够在相同的开发周期内评估更多设计方案并完成更多验证任务。\n\n从 RTL 到硅片\n\n在确立了处理器的架构和微架构后，工程师会在寄存器传输级 (RTL) 描述其大部分行为。随后，多种验证和实现技术协同工作，将设计转化为可用于制造的硅片。\n\n这些工作流涵盖逻辑仿真、形式验证、回归测试和数字实现，帮助工程师验证功能、识别边界条件，并最终将设计转化为可投产的硅片。\n\n由于这些阶段紧密相连，提升验证吞吐量有助于企业更早发现问题，从而减少下游代价高昂的设计迭代。\n\n使用 NVIDIA CPU 打造未来的 NVIDIA 芯片\n\n在 NVIDIA 自身的工程工作流中部署 Vera，反映了一项更宏大的战略：根据任务匹配最适合的计算架构，为各项工作负载加速。\n\n在 EDA 领域，GPU 和 AI 正持续加速众多算法，而高性能 CPU 对于关键的仿真、验证和实现工作负载依然不可或缺。两者相辅相成，共同提升整个设计周期的性能。\n\n展望未来，NVIDIA 计划在 Vera 的基础上，推出由 NVIDIA Rigel 核心驱动的下一代 Rosa CPU，并继续在其 CPU 产品路线图中，对领先的 EDA 应用做针对性优化。\n\n通过使用 NVIDIA CPU 来设计未来的 NVIDIA CPU 和 GPU，NVIDIA 正在硅片设计、软件优化和系统工程之间建立一个持续运转的反馈闭环，让每一代产品都成为构建下一代产品的基石。\n\n了解更多 NVIDIA 在 DAC 2026 上的动态。",
-      "readingMinutes": 4
-    },
-    {
       "id": "43676046e7a97b7a",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -1144,6 +1196,19 @@
       "summary": "新闻摘要： NVIDIA 今日宣布扩展面向工程领域的 NVIDIA Agent Toolkit，将 NVIDIA PhysicsNeMo™ 和 CUDA-X™ 库作为智能体就绪的工具与技能纳入其中，旨在重塑全球产品设计与开发模式。 构建新一代芯片和系统要求团队在日益复杂的设计周期中，打通物理、仿真和性能分析环节。为应对这种复杂性，一类全新的自主 AI 工程师应运而生。它们借助专业工具进行仿真并生成高保真数据，从而推动芯片设计、验证、封装及系统工程的规模化发展。 NVIDIA 现已将架构重构的 P",
       "content": "新闻摘要：\n\nNVIDIA 通过引入架构重构的 NVIDIA PhysicsNeMo 库及更新的 NVIDIA CUDA-X 库，扩展了 NVIDIA Agent Toolkit。此举使软件开发者能够构建具备 AI 物理技能、加速求解器及量子化学能力的自主 AI 工程师。\n\n在 NVIDIA 研究中心的 ACE-RTL 智能体支持下，NVIDIA Nemotron 3 Ultra 在开放模型中的智能体级寄存器传输级 (RTL) 编码能力方面处于领先地位，助力企业打造用于芯片设计与验证的可定制 AI 智能体。\n\nCadence、西门子、新思科技等行业领导者正采用 NVIDIA 的加速计算与智能体 AI 技术，推动芯片设计、验证、封装及系统设计领域的自主工程工作流发展。\n\nNVIDIA 今日宣布扩展面向工程领域的 NVIDIA Agent Toolkit，将 NVIDIA PhysicsNeMo 和 CUDA-X 库作为智能体就绪的工具与技能纳入其中，旨在重塑全球产品设计与开发模式。\n\n构建新一代芯片和系统要求团队在日益复杂的设计周期中，打通物理、仿真和性能分析环节。为应对这种复杂性，一类全新的自主 AI 工程师应运而生。它们借助专业工具进行仿真并生成高保真数据，从而推动芯片设计、验证、封装及系统工程的规模化发展。\n\nNVIDIA 现已将架构重构的 PhysicsNeMo 整合为一系列支持智能体的友好型库，并新增及更新了 CUDA-X 库，以支持复杂的工程任务。上述能力已被纳入 NVIDIA Agent Toolkit。其中，PhysicsNeMo 提供用于模型训练与部署的 AI 物理技能，而 CUDA-X 库则将加速求解器和量子化学能力引入智能体工程工作流。\n\nNVIDIA 计算工程副总裁兼总经理 Timothy Costa 表示：“工程领域已迎来关键拐点。如今，AI 能够熟练运用物理、仿真和设计工具。借助 NVIDIA Agent Toolkit，开发者可以构建出具备物理推理能力、能运行复杂仿真并生成高保真数据的智能体工程师，使其成为芯片与系统设计创新的新引擎。”\n\nNVIDIA Agent Toolkit 为工程智能体新增 AI 物理与加速计算技能\n\nNVIDIA Agent Toolkit 帮助开发者构建连接特定领域工具、模型和数据的专用工程 AI 助手。随着 NVIDIA PhysicsNeMo 和 CUDA-X 库的加入，这些智能体如今能够运用 AI 物理技能、加速求解器和量子化学能力，为芯片、系统及工业工程领域提供服务。\n\n核心功能包括：\n\nAI 物理技能：NVIDIA PhysicsNeMo 库帮助智能体针对复杂的设计与仿真任务，训练和部署可定制的 AI 物理模型，将模型架构转化为工程工作流中可直接调用的工具。\n\n迭代稀疏求解器：全新的 NVIDIA cuISS (CUDA Iterative Sparse Solvers，CUDA 迭代稀疏求解器) 库可加速基于物理和工程仿真中的大型稀疏线性系统的求解。该库专为在 GPU 上实现灵活性与高性能而设计，凭借现代化的可组合求解器与预处理技术，可帮助开发者为智能体工程工作流构建可扩展的生产级仿真引擎。\n\n直接稀疏求解器：NVIDIA cuDSS (CUDA Direct Sparse Solvers，CUDA 直接稀疏求解器) 可加速电子设计自动化 (EDA) 和科学仿真中核心的大型复杂稀疏线性系统求解。它为器件、电路和系统仿真等关键工作负载提供高性能与数值鲁棒性，并支持在生产环境中的多 GPU 和多节点扩展部署。\n\n量子化学：NVIDIA cuEST (CUDA Electronic Structure Theory，CUDA 电子结构理论) 将高精度的量子化学仿真引入器件相关尺度，使密度泛函理论 (DFT) 及后 DFT 方法能够大规模集成到生产工作流中。cuEST 支持多种现代泛函，使日益庞大的基态和激发态仿真在 NVIDIA GPU 上变得切实可行，从而为客户带来实际的生产价值。\n\nNVIDIA Nemotron 3 Ultra 开放模型推动芯片设计智能体编码\n\n芯片设计依赖于专业的寄存器传输级 (RTL) 编码，这要求极高的准确性、深厚的领域专业知识以及灵活的部署能力。\n\n借助 NVIDIA 研究中心推出的硬件设计智能体 ACE-RTL，NVIDIA Nemotron 3 Ultra 在全面的 Verilog 设计问题基准测试中表现优异，在开放模型的智能体 RTL 编码任务中拔得头筹。\n\n这表明 Nemotron 3 Ultra 具备行业领先的准确性和效率，且支持在专有数据上进行后训练，并可在本地或企业内部部署，从而在企业构建用于芯片设计 AI 智能体时，为其提供更强的可控性、定制化能力和数据隐私保障。\n\n开发者可通过多种途径快速上手 Nemotron 3 Ultra，包括使用 Cadence 的 Harness、新思科技面向设计验证及模拟与混合信号工作流打造的全自主可长时间运行的智能体、西门子的 Questa One 智能验证智能体工具包，以及在 Hugging Face 平台体验。\n\n软件巨头借助 NVIDIA 技术打造自主 AI 工程师\n\n工业工程领域的领导者们已开始利用全新及扩展后的 NVIDIA Agent Toolkit 组件，开发自主 AI 工程师。\n\nCadence 将 NVIDIA Nemotron、加速计算和 CUDA-X 库与最新推出的 Cadence AuraStack AI Super Agent 及 Cadence Millennium M2000 平台相结合，自主驱动从探索到签核 (signoff) 的高级封装与印制电路板 (PCB) 设计，实现高达 20 倍的多物理场性能提升。这进一步完善了 Cadence 的硅片设计超级智能体产品组合，实现从架构到制造签核的芯片设计工作流端到端覆盖。\n\n此外，双方的合作从智能体设计延伸至底层计算。包括形式验证平台 Cadence Jasper 在内的 EDA 与系统设计自动化产品组合，正针对 NVIDIA Vera CPU 进行优化，以帮助工程团队更快地验证先进芯片设计。\n\n新思科技利用 NVIDIA Agent Toolkit、NVIDIA NIM、Nemotron 开放模型、NVIDIA NeMo Gym 库及 NVIDIA NemoClaw 蓝图，结合 Synopsys AgentEngineer，构建跨芯片与系统设计的安全、加速智能体工作流。借助 Ansys Icepak，新思科技的智能体工作流可自主执行复杂 GPU 散热设计优化的仿真设置及前后处理。同时，新思科技正开发 NVIDIA cuISS 的用例，以加速仿真工作负载。\n\n双方的合作同样从智能体工作流延伸至底层计算平台。用于在流片前仿真和验证复杂芯片设计的高性能功能验证解决方案 Synopsys VCS，正针对 NVIDIA Vera CPU 进行优化，以提升验证吞吐量。\n\n西门子正将 NVIDIA NeMo Gym、Nemotron 开放模型和 CUDA-X 库与西门子 Fuse EDA AI 智能体结合使用，以编排跨半导体、3D-IC、PCB 及系统设计的多工具与多智能体工作流，覆盖从概念设计到签核的全流程。在西门子 Solido Characterization Suite 中，这些智能体 AI 工作流使库特征速度提升 10 倍以上，同时将 Token 成本降低至原来的 1/10 以上。\n\n三星正利用 NVIDIA cuLitho 和 CUDA-X 库，使计算光刻性能提升高达 20 倍；同时应用 NVIDIA PhysicsNeMo 进行芯片级热应力分析，在包含高达 100 亿个单元的区域中实现了数值求解器级别的精度。\n\nChipAgents 正使用 NVIDIA Agent Toolkit 构建用于芯片设计与验证的特定领域 AI 智能体。该团队正针对包括调试、形式验证、覆盖率等在内的复杂端到端半导体设计与验证工作流，对 NVIDIA Nemotron 模型进行微调。\n\nSilvaco 正借助 NVIDIA 加速计算，扩大 Silvaco Victory Device 中的高精度 3D 光学仿真规模。该仿真在由 NVIDIA NVLink 技术互连的 32 个 NVIDIA GPU 上运行，在不到 4 小时内完成了 32 亿网格节点的光子边缘耦合器仿真，这一工作量已超出基于 CPU 仿真的实际极限。\n\nKeysight 正利用 NVIDIA cuDSS 将电磁仿真速度提升高达 10 倍；同时，三星、新思科技和 TSMC 正将 NVIDIA cuEST 集成到其 GPU 加速流程中，使关键量子化学工作负载的速度提升高达 50 倍。\n\n欢迎参加 NVIDIA 在 DAC 的活动，了解更多信息。",
       "readingMinutes": 7
+    },
+    {
+      "id": "957360b22dd1f5a4",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA 利用 Vera CPU 加速下一代 CPU 与 GPU 设计",
+      "url": "https://blogs.nvidia.cn/blog/vera-cpu-eda/",
+      "published": "2026-07-26T02:00:00Z",
+      "author": "英伟达中国",
+      "summary": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。 目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。 加速关键 EDA 工作负载 这关乎芯片的生产节奏。反过来，ED",
+      "content": "随着工程团队致力于开发更先进的 CPU、GPU 和 AI 系统，现代芯片设计的复杂性也在不断增加。为了应对这一挑战，NVIDIA 正与行业领导者 Cadence 和新思科技展开合作，针对 NVIDIA Vera CPU 优化关键的电子设计自动化 (EDA) 应用。\n\n目前，NVIDIA 正在其 EDA 工作流中全面部署 Vera，用于开发下一代 CPU 和 GPU，这展示了高性能 CPU 架构如何帮助加速业内要求最严苛的工程工作负载。\n\n加速关键 EDA 工作负载\n\n这关乎芯片的生产节奏。反过来，EDA 工作负载性能的提升也将加快行业技术的发展步伐，推动整体研发进程。\n\n仿真、验证和实现技术在半导体开发中扮演着核心角色。在芯片进入制造阶段前，工程师们往往需要花费数年时间，通过数千次迭代来验证设计行为、识别边界条件并优化设计。\n\n尽管 GPU 和 AI 已经加速了芯片设计的许多环节，但部分关键的 EDA 工作负载仍高度依赖 CPU 性能。逻辑仿真、形式验证以及数字实现流程中的部分任务，通常都需要快速的单核性能、高效的内存系统以及强大的整体吞吐能力。\n\n因此，CPU 架构成为决定工程团队验证设计、探索替代方案以及推动产品流片速度的重要因素。\n\n部署于 NVIDIA 波特兰数据中心的 Vera 集群\n\nCadence 与新思科技的初步测试结果\n\nNVIDIA 的初步测试涵盖了多款领先的 EDA 应用。测试结果显示，Vera 在加速现代芯片设计中两个计算密集型环节具备显著优势。针对部分生产级工作流的初步测试展现了令人瞩目的性能表现。\n\nCadence Jasper 是一款形式验证平台，通过智能证明技术和机器学习，能够在设计周期初期发现并修复缺陷或漏洞，从而提升验证效率。\n\nSynopsys VCS 是一款高性能功能验证解决方案，用于在芯片制造前仿真和验证复杂的芯片设计。本次测试在相同核心数量配置下进行。\n\n在选定的工作负载下，两款应用的性能提升了 1.5 倍。\n\n除了基准测试外，NVIDIA 还与这两家公司在应用性能分析、软件优化和系统级调优方面展开紧密合作，持续全面提升更广泛工作流的工程生产力。\n\n将 Vera 引入设计流程\n\nNVIDIA 正在 EDA 工作流中全面部署 Vera，用于创建未来的 NVIDIA 处理器。\n\nVera 结合了 88 颗定制的 NVIDIA Olympus CPU 核心、高效 LPDDR5X 内存子系统，以及第二代 NVIDIA 可扩展一致性互连架构，旨在为高要求的工程应用提供强大的单核性能、高内存带宽和稳定的低延迟表现。\n\n这些能力对于混合延迟敏感型任务与计算集群大规模回归测试的工作负载尤为重要。更快的执行速度可以缩短单次验证的运行时间，而更高的吞吐量则帮助工程师能够在相同的开发周期内评估更多设计方案并完成更多验证任务。\n\n从 RTL 到硅片\n\n在确立了处理器的架构和微架构后，工程师会在寄存器传输级 (RTL) 描述其大部分行为。随后，多种验证和实现技术协同工作，将设计转化为可用于制造的硅片。\n\n这些工作流涵盖逻辑仿真、形式验证、回归测试和数字实现，帮助工程师验证功能、识别边界条件，并最终将设计转化为可投产的硅片。\n\n由于这些阶段紧密相连，提升验证吞吐量有助于企业更早发现问题，从而减少下游代价高昂的设计迭代。\n\n使用 NVIDIA CPU 打造未来的 NVIDIA 芯片\n\n在 NVIDIA 自身的工程工作流中部署 Vera，反映了一项更宏大的战略：根据任务匹配最适合的计算架构，为各项工作负载加速。\n\n在 EDA 领域，GPU 和 AI 正持续加速众多算法，而高性能 CPU 对于关键的仿真、验证和实现工作负载依然不可或缺。两者相辅相成，共同提升整个设计周期的性能。\n\n展望未来，NVIDIA 计划在 Vera 的基础上，推出由 NVIDIA Rigel 核心驱动的下一代 Rosa CPU，并继续在其 CPU 产品路线图中，对领先的 EDA 应用做针对性优化。\n\n通过使用 NVIDIA CPU 来设计未来的 NVIDIA CPU 和 GPU，NVIDIA 正在硅片设计、软件优化和系统工程之间建立一个持续运转的反馈闭环，让每一代产品都成为构建下一代产品的基石。\n\n了解更多 NVIDIA 在 DAC 2026 上的动态。",
+      "readingMinutes": 4
     },
     {
       "id": "c34a327604b5be4a",
@@ -1260,19 +1325,6 @@
       "author": "Elizabeth Goodman",
       "summary": "Across science, engineering, and finance, many of the most important risks come from low-likelihood, high-impact events. Estimating the probability of these...",
       "content": "Across science, engineering, and finance, many of the most important risks come from low-likelihood, high-impact events. Estimating the probability of these...\nAcross science, engineering, and finance, many of the most important risks come from low-likelihood, high-impact events. Estimating the probability of these events with brute-force Monte Carlo sampling—running a model repeatedly with randomly drawn inputs to estimate the probability of rare outcomes—can require an excessive volume of model iterations, especially when each sample comes from an…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "6cd7a727089fbd99",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
-      "url": "https://developer.nvidia.com/blog/how-to-evaluate-general-purpose-robot-policies-for-real-world-deployment/",
-      "published": "2026-07-23T18:54:16Z",
-      "author": "Brad Nemire",
-      "summary": "Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place, sort, and manipulate a...",
-      "content": "Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place, sort, and manipulate a...\nRobotics foundation models have made remarkable progress. Today’s best systems can follow natural language instructions to pick, place, sort, and manipulate a wide variety of objects. But as these models grow more capable, evaluating them rigorously has become one of the field’s hardest unsolved problems. In this blog post, we introduce the key problems and our method for addressing them.\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -2602,19 +2654,6 @@
       "readingMinutes": 25
     },
     {
-      "id": "521cb8f5727237af",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "url": "https://openai.com/index/deutsche-telekom",
-      "published": "2026-07-10T07:00:00Z",
-      "author": "",
-      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
-      "content": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
-      "readingMinutes": 1
-    },
-    {
       "id": "2421a78a2bf886f8",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -2626,19 +2665,6 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
-    },
-    {
-      "id": "aa67bf587bd0c123",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Getting started with ChatGPT",
-      "url": "https://openai.com/academy/getting-started",
-      "published": "2026-07-10T00:00:00Z",
-      "author": "",
-      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "content": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "readingMinutes": 1
     },
     {
       "id": "4ff5ab7d45bc6dc5",
@@ -2693,19 +2719,6 @@
       "readingMinutes": 0
     },
     {
-      "id": "b98a594ec40e8f26",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "published": "2026-07-09T13:00:00Z",
-      "author": "",
-      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "content": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "readingMinutes": 1
-    },
-    {
       "id": "6b2c42e23122a331",
       "feedTitle": "vLLM Releases",
       "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
@@ -2716,19 +2729,6 @@
       "author": "chaunceyjiang",
       "summary": "[P/D][Bugfix] Fix PD async KV load lookahead handling for MTP spec de…",
       "content": "[P/D][Bugfix] Fix PD async KV load lookahead handling for MTP spec de…",
-      "readingMinutes": 1
-    },
-    {
-      "id": "2015b07b78a1afec",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "published": "2026-07-09T10:00:00Z",
-      "author": "",
-      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "content": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
       "readingMinutes": 1
     },
     {
