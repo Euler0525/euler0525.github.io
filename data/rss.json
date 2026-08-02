@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T06:26:15.256645Z",
+  "generatedAt": "2026-08-02T16:54:47.145942Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -158,9 +158,9 @@
       "title": "DeepSpeed Releases",
       "url": "https://github.com/deepspeedai/DeepSpeed/releases.atom",
       "category": "AI Infra",
-      "siteUrl": "",
+      "siteUrl": "https://github.com/deepspeedai/DeepSpeed/releases",
       "articleCount": 3,
-      "error": "The read operation timed out"
+      "error": ""
     },
     {
       "title": "Ray Releases",
@@ -196,6 +196,19 @@
     }
   ],
   "articles": [
+    {
+      "id": "d3d0310a69e0c704",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "从拉萨到雅鲁藏布江大峡谷，我的春日西藏游记",
+      "url": "https://sspai.com/post/112843",
+      "published": "2026-08-02T06:38:25Z",
+      "author": "",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "content": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "17d25b4b8c3ba111",
       "feedTitle": "少数派",
@@ -688,19 +701,6 @@
       "author": "Haodong Zhu",
       "summary": "Reinforcement learning (RL) finetuning significantly enhances the reasoning capabilities of large language models (LLMs), yet its effectiveness critically depends on selecting prompts of appropriate difficulty for the current policy. This is challenging because prompt difficulty…",
       "content": "Reinforcement learning (RL) finetuning significantly enhances the reasoning capabilities of large language models (LLMs), yet its effectiveness critically depends on selecting prompts of appropriate difficulty for the current policy. This is challenging because prompt difficulty evolves throughout training. Existing online methods therefore face a trade-off: evaluation-based approaches are accurate but expensive, while prediction-based approaches are efficient but typically assume stationary difficulty, making them ill-suited to RL's non-stationary training dynamics. To address these issues, we propose a Kalman-Guided Prompt Selection method (KGPS), which reformulates prompt selection as a dynamic state estimation problem rather than static difficulty prediction. KGPS models each prompt's latent success rate in logit space using a linear-Gaussian state-space model, with process noise coupled to the magnitude of policy updates so that uncertainty increases when the policy changes more substantially. A Kalman filter then maintains a calibrated Gaussian posterior over prompt difficulty, and prompts are selected by maximizing a posterior-expected training utility that favors intermediate-difficulty prompts while naturally revisiting uncertain ones. The resulting procedure is adaptive to policy drift and requires no additional rollouts beyond standard policy training. Extensive experiments across mathematics, planning, and geometry reasoning benchmarks, as well as multiple RL algorithms, show that KGPS consistently improves both final accuracy and rollout efficiency over strong baselines, establishing state-of-the-art performance among online prompt selection methods. For example, on DeepSeek-R1-Distill-7B, KGPS uses 83% fewer rollouts than DS while even improving the average performance by 0.12 point across six math reasoning benchmarks.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "c7b4d728735ae5c3",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：中国电信将不再通过第三方互联网渠道提供号卡办理服务等",
-      "url": "https://sspai.com/post/112881",
-      "published": "2026-07-30T00:32:38Z",
-      "author": "",
-      "summary": "Bigme 大我推出 F13 彩墨屏 AI 数码相框，OpenAI 宣布开源 Codex Security CLI 等。查看全文",
-      "content": "Bigme 大我推出 F13 彩墨屏 AI 数码相框，OpenAI 宣布开源 Codex Security CLI 等。查看全文",
       "readingMinutes": 1
     },
     {
