@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T16:55:15.947638Z",
+  "generatedAt": "2026-08-02T06:26:15.256645Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "https://www.pixelstech.net",
+      "siteUrl": "",
       "articleCount": 10,
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "title": "OpenAI · News",
@@ -158,9 +158,9 @@
       "title": "DeepSpeed Releases",
       "url": "https://github.com/deepspeedai/DeepSpeed/releases.atom",
       "category": "AI Infra",
-      "siteUrl": "https://github.com/deepspeedai/DeepSpeed/releases",
+      "siteUrl": "",
       "articleCount": 3,
-      "error": ""
+      "error": "The read operation timed out"
     },
     {
       "title": "Ray Releases",
