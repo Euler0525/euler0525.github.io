@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T16:54:47.145942Z",
+  "generatedAt": "2026-08-03T06:51:03.828298Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "",
-      "articleCount": 10,
-      "error": "HTTP Error 403: Forbidden"
+      "siteUrl": "https://www.pixelstech.net",
+      "articleCount": 11,
+      "error": ""
     },
     {
       "title": "OpenAI · News",
@@ -87,7 +87,7 @@
       "url": "https://deepmind.google/blog/rss.xml",
       "category": "AI 技术",
       "siteUrl": "https://deepmind.google/blog/",
-      "articleCount": 23,
+      "articleCount": 22,
       "error": ""
     },
     {
@@ -197,6 +197,45 @@
   ],
   "articles": [
     {
+      "id": "3f3b50f12f847435",
+      "feedTitle": "RSS Feed | PixelsTech",
+      "feedUrl": "https://www.pixelstech.net/feed.xml",
+      "category": "默认分类",
+      "title": "How Fully Automated AI Agent Dominated Cyber Security CTF Competition",
+      "url": "https://www.pixelstech.net/article/1785725394-How-Fully-Automated-AI-Agent-Dominated-Cyber-Security-CTF-Competition",
+      "published": "2026-08-03T02:58:29Z",
+      "author": "",
+      "summary": "In 2026, cybersecurity Capture The Flag (CTF) competitions are experiencing a significant transformation driven by the rapid development of fully automated AI agents. In previous years, participants typically relied on their own technical knowledge, experience, and teamwork to a…",
+      "content": "In 2026, cybersecurity Capture The Flag (CTF) competitions are experiencing a significant transformation driven by the rapid development of fully automated AI agents. In previous years, participants typically relied on their own technical knowledge, experience, and teamwork to analyze vulnerabilities, reverse engineer binaries, investigate network traffic, exploit vulnerable services, and develop",
+      "readingMinutes": 1
+    },
+    {
+      "id": "a14697c11f85063a",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "角落新声｜两平米、两个角落，安放两个自己",
+      "url": "https://sspai.com/post/112551",
+      "published": "2026-08-03T02:52:56Z",
+      "author": "",
+      "summary": "编者按：本文是「角落新声」征文活动的入围文章。本次主题征文由声擎冠名，邀你前来分享那个让你放松娱乐、拥抱汩汩心流、逃离尘世纷扰、找回本真自我的理想一隅。8月7日前投稿参与，即有机会获得声擎Cyber5 ...查看全文",
+      "content": "编者按：本文是「角落新声」征文活动的入围文章。本次主题征文由声擎冠名，邀你前来分享那个让你放松娱乐、拥抱汩汩心流、逃离尘世纷扰、找回本真自我的理想一隅。8月7日前投稿参与，即有机会获得声擎Cyber5 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "7d504dd4629ac9ae",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：DeepSeek V4 Flash 正式版发布",
+      "url": "https://sspai.com/post/113014",
+      "published": "2026-08-02T22:49:31Z",
+      "author": "",
+      "summary": "DeepSeek V4 Flash 正式版发布 特朗普向科技公司频繁索要捐款 马斯克称从未讨论过出售特斯拉中国业务 国补调整后终端销售承压 风投机构重新涌入中国科技领域 统计显示实体光盘并不能保证游戏长期可玩 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+      "content": "DeepSeek V4 Flash 正式版发布\n\n特朗普向科技公司频繁索要捐款\n\n马斯克称从未讨论过出售特斯拉中国业务\n\n国补调整后终端销售承压\n\n风投机构重新涌入中国科技领域\n\n统计显示实体光盘并不能保证游戏长期可玩\n\n看看就行的简讯\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
+      "readingMinutes": 1
+    },
+    {
       "id": "d3d0310a69e0c704",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -275,6 +314,19 @@
       "readingMinutes": 6
     },
     {
+      "id": "2e2e2f3a24dbd3d3",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "AMTFV: Agentic Mathematical Tool-Flow Verification for LLM Self-Correction",
+      "url": "https://arxiv.org/abs/2607.29549v1",
+      "published": "2026-07-31T15:42:00Z",
+      "author": "Rui Zou",
+      "summary": "Large language models have demonstrated strong mathematical problem-solving capabilities, yet reliably verifying their candidate answers remains challenging. Existing representative methods mainly revise outputs through natural-language reflection or assist verification by direc…",
+      "content": "Large language models have demonstrated strong mathematical problem-solving capabilities, yet reliably verifying their candidate answers remains challenging. Existing representative methods mainly revise outputs through natural-language reflection or assist verification by directly generating verification programs; the former may not reliably support exact computation, whereas the latter prematurely couples mathematical modeling with low-level implementation. We propose AMTFV (Agentic Mathematical Tool-Flow Verification). By introducing Mathematical Tool Flow (MTF) as an interrupt--execute--resume interface, AMTFV decouples verification modeling from concrete execution and supports exact computation through a mathematical toolbox. Specifically, the verification agent first constructs a verification workflow, encodes the mathematical objects and computational intent requiring reliable execution in an MTF request, and sends it to the mathematical toolbox agent. The latter parses the request, generates executable calls, and dispatches them to the backend for exact computation. Tool outputs then support candidate-answer adjudication, answer revision, and verification-workflow revision. We evaluate AMTFV on five challenging mathematical reasoning datasets with seven model configurations from DeepSeek, GPT, and Gemini. Experimental results show that AMTFV outperforms the representative baselines evaluated in this study overall; under an individual model configuration, it improves average accuracy over the strongest baseline by up to 8.3 percentage points, with larger gains on samples of medium and high verification complexity.",
+      "readingMinutes": 1
+    },
+    {
       "id": "9fa3b4695ecb2f2e",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -311,6 +363,19 @@
       "author": "",
       "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
       "content": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "062662353c3f4e87",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Translation with Thought: Difficulty-Adaptive Reasoning via Reinforcement Learning for Multi-Domain Machine Translation",
+      "url": "https://arxiv.org/abs/2607.29287v1",
+      "published": "2026-07-31T10:59:39Z",
+      "author": "Yongshi Ye",
+      "summary": "Multi-domain machine translation (MDMT) poses a unique challenge due to varying levels of linguistic complexity across domains. Inspired by human translators' ability to adapt reasoning effort based on difficulty, we propose TwT (Translation with Thought), a resource-rational fr…",
+      "content": "Multi-domain machine translation (MDMT) poses a unique challenge due to varying levels of linguistic complexity across domains. Inspired by human translators' ability to adapt reasoning effort based on difficulty, we propose TwT (Translation with Thought), a resource-rational framework that learns to modulate inference between intuitive and deliberate reasoning. TwT is trained in two stages: (1) supervised fine-tuning on difficulty-aware long chain-of-thought traces distilled from DeepSeek-R1 and rewritten by GPT-4o to reflect human-like reasoning economy, and (2) reinforcement learning with a hybrid reward to optimize translation quality and reasoning efficiency. Evaluated on 15 benchmarks spanning in-domain and out-of-domain settings, as well as 3 seen and 59 unseen languages, with ablations across three backbone models, TwT-7B and TwT-14B outperform much larger SOTA reasoning models in translation quality, while reducing token usage by 32--60\\%. These results confirm that aligning translation behavior with cognitive principles enables robust generalization, high translation quality, and efficient reasoning in MDMT.",
       "readingMinutes": 1
     },
     {
@@ -363,6 +428,19 @@
       "author": "",
       "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
       "content": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "91f4ba6f42b65e40",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Tokenizer-Agnostic Engram Module",
+      "url": "https://arxiv.org/abs/2607.29065v1",
+      "published": "2026-07-31T06:32:15Z",
+      "author": "Jia Peng Lim",
+      "summary": "Deepseek's Engram, a conditional memory module, was introduced to trade-off storage versus reasoning in large language models. However, the module relies on token-level $N$-gram hashing for Engram embedding lookup, introducing a tight coupling to the tokenizer used: a model with…",
+      "content": "Deepseek's Engram, a conditional memory module, was introduced to trade-off storage versus reasoning in large language models. However, the module relies on token-level $N$-gram hashing for Engram embedding lookup, introducing a tight coupling to the tokenizer used: a model with a different tokenizer would have to train its own Engram embeddings from scratch. To improve the reusability of Engram embeddings, we propose a change to the hashing routine, enabling compatibility between Engram models using different tokenizers. Instead of modelling disjoint $N$-gram spaces, we treat $N$-gram as a method to sample potentially useful byte sequences, from all possible byte sequences across tokens. We replace the XOR-based hashing with the general polynomial hashing with a joint embedding space across $N$. This work investigates the possible trade-offs and shows that this simple substitution produces comparable performance and achieves tokenizer-agnosticism: hash equivalence for byte-equivalent token sequences.",
       "readingMinutes": 1
     },
     {
@@ -649,45 +727,6 @@
       "author": "Ken Ding",
       "summary": "Reinforcement learning from verifiable rewards (RLVR) for mathematical reasoning suffers from a structural blind spot: on \"cliff\" prompts-those on which every sampled rollout in a group fails-the group-normalized advantage is identically zero, so GRPO produces no gradient on pre…",
       "content": "Reinforcement learning from verifiable rewards (RLVR) for mathematical reasoning suffers from a structural blind spot: on \"cliff\" prompts-those on which every sampled rollout in a group fails-the group-normalized advantage is identically zero, so GRPO produces no gradient on precisely the prompts at the frontier of the model's capability. We introduce LoRA Scaffolded Policy Optimization (LSPO), a sampling-time mechanism that recovers this lost gradient. Each RL step, LSPO detects cliff prompts, fits a small low-rank (LoRA) adapter by a brief supervised step on their ground-truth solutions, re-rolls the cliffs with the base-plus-adapter model, splices the now-successful completions back into the RL batch with an importance-sampling correction, and takes a GRPO step on the base alone; the adapter receives only the supervised gradient and is discarded at checkpoint, yielding a base-only model. On DeepMath-103K with DeepSeek-R1-Distill-Qwen-1.5B, evaluated over n=5 paired seeds per arm at a matched 1000-step reporting horizon, LSPO's 5-seed mean matches or beats a DAPO baseline on all 16 (benchmark, pass@k) cells (15 strict wins and one exact tie), with gains of up to +10.7 points on AIME24/pass@4, +6.7 points on AIME24 and AIME26 at pass@16, and +2.4 points on MATH500/pass@1; averaged over the 16 cells the improvement is +3.8 points.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "1cafe33dd1ecefaf",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "在流媒体时代，搭建一个专属于自己的「音乐探索系统」",
-      "url": "https://sspai.com/post/112656",
-      "published": "2026-07-30T06:53:18Z",
-      "author": "",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "content": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "253105a970bf877e",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Accuracy Hides How Language Models Fail: Measuring Failure States Under Matched Output Budgets",
-      "url": "https://arxiv.org/abs/2607.24268v2",
-      "published": "2026-07-30T06:23:36Z",
-      "author": "Zongyou Yang",
-      "summary": "Language-model benchmarks collapse two distinct measurement questions into a single accuracy score: whether a response reached an evaluable state, and whether its answer was judged correct. We introduce a two-layer evaluation framework that separates scorer-independent execution…",
-      "content": "Language-model benchmarks collapse two distinct measurement questions into a single accuracy score: whether a response reached an evaluable state, and whether its answer was judged correct. We introduce a two-layer evaluation framework that separates scorer-independent execution evidence, including termination, answer exposure, parseability, and completion length, from scorer-dependent correctness. Across 2,550 outputs from five fixed Qwen and DeepSeek configurations on MATH and ARC-Challenge, matched 2,048-token limits produce sharply different execution mixtures: 49 of 450 Qwen MATH outputs terminate without a final answer, compared with 5 of 300 DeepSeek MATH outputs and none of the 750 ARC outputs. Among the same 300 DeepSeek MATH question-model pairs, no missing-final length termination is observed at 8,192 tokens. A coverage-audited targeted verification study further shows that candidate-selection and aggregation policies can substantially alter comparative accuracy estimates. These results demonstrate that accuracy conflates execution case mix with verification policy. Evaluations of test-time methods should therefore report pre-intervention execution states, verification coverage, and scorer provenance alongside accuracy.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "8a2242c78e6a1c54",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "少数派会员年度更新：把共同的热爱随身携带",
-      "url": "https://sspai.com/post/112858",
-      "published": "2026-07-30T03:01:11Z",
-      "author": "",
-      "summary": "感谢每一位已经同行多年的会员，也欢迎新朋友加入我们共同建设的社区。查看全文",
-      "content": "感谢每一位已经同行多年的会员，也欢迎新朋友加入我们共同建设的社区。查看全文",
       "readingMinutes": 1
     },
     {
@@ -990,6 +1029,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "3bf2fb81570bc6b0",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "极致算力，小巧且“稳” —— 用 NVIDIA Jetson 随时随地构建 AI",
+      "url": "https://blogs.nvidia.cn/blog/build-ai-with-nvidia-jetson/",
+      "published": "2026-07-28T02:27:02Z",
+      "author": "Matthew Leib",
+      "summary": "作为一名既看重“颜值”又讲究“实力”的敏锐 AI 投资人，Sarah Guo 深知，本季最亮眼的配饰绝不是最新款的名牌包，而是包里的“硬核”装备。 在最近的一段视频中，AI 原生风投公司 Conviction 的创始人兼 AI 播客”No Priors”的联合主持人 Guo 强调，NVIDIA Jetson 边缘 AI 与机器人平台将强大的算力与便携性完美结合，为忙碌的开发者提供了一个专为物理世界和各行各业打造的、智能体就绪 AI 平台。最令人称道的是，这一切都能轻松装进一个手提包里。 NVID",
+      "content": "作为一名既看重“颜值”又讲究“实力”的敏锐 AI 投资人，Sarah Guo 深知，本季最亮眼的配饰绝不是最新款的名牌包，而是包里的“硬核”装备。\n\n在最近的一段视频中，AI 原生风投公司 Conviction 的创始人兼 AI 播客”No Priors”的联合主持人 Guo 强调，NVIDIA Jetson 边缘 AI 与机器人平台将强大的算力与便携性完美结合，为忙碌的开发者提供了一个专为物理世界和各行各业打造的、智能体就绪 AI 平台。最令人称道的是，这一切都能轻松装进一个手提包里。\n\nNVIDIA Jetson 模组和开发者套件体积小巧，可轻松放进包中，但算力强大，足以应对最棘手的难题。无论是在教室、实验室还是创客空间，只要在灵感迸发之处，它们便能为机器人、自主机器及现实世界 AI 项目提供动力。开发者可以利用该平台，以最高的安全标准，基于具有行业变革性的前沿开放模型进行开发。\n\n无论是使用 Jetson Orin Nano Super 开展首个机器人项目的学生，还是借助 Jetson AGX Orin 将前沿 AI 引入课程教学的教授，亦或是使用 Jetson AGX Thor 突破自主系统极限的研究人员，借助该平台，他们就能够在全球各地的每一间教室和实验室中构建、学习并推出新一代智能机器人。\n\n正如 Guo 所展示的：只需要带上你的包，Jetson 就能为你提供机器人的“大脑”。\n\n本周我们将持续发布一系列案例，首先从下方的 Jetson Orin Nano Super 开始，帮助开发者深入了解 NVIDIA Jetson 平台，开启下一个机器人技术突破之旅。\n\nNVIDIA Jetson Orin Nano Super：构建首个 AI 机器人的理想选择\n\n机器人理应拥有一个真正的大脑，而且显然还需要一段“时尚”的通勤之旅。当 Guo 将 Jetson Orin Nano Super 放进她的 Jacquemus 迷你包时，她等于把整套 AI 技术栈握在了手中——现在，它还多了一个可爱的提手：化身为小巧的手拿包！\n\nJetson Orin Nano Super 将桌面级的生成式 AI 浓缩进了一款可轻松放入手提包的开发者套件中，为初学者提供了一条学习计算机视觉、构建 AI 智能体、原型设计边缘 AI 等的实用路径。凭借每秒 67 TOPS 的 AI 性能，Jetson Orin Nano Super 助力开发者着手解决他们一直想攻克的难题。\n\n为了帮助开发者将灵感转化为现实，NVIDIA Jetson Device Skills 和 Jetson BSP Skills 为学生、研究人员和开发者提供了更便捷的方式。借助这些工具，他们可以轻松驾驭 AI 编程智能体，在边缘端创建、优化和部署现实世界的 AI 应用。\n\n机器人开发者们可以通过以下 Jetson Orin Nano Super 的实际应用案例，获取灵感，从而开启自己的第一个或下一个创意项目：\n\n自动驾驶我的电动汽车 | Model SidewalkPilot\n\n借助 Jetson Orin Nano Super，定制版 SidewalkPilot AI 模型可在玩具电动汽车上自主执行各种机动操作。\n\nReachy Mini Jetson 助手\n\nReachy Mini Jetson 助手是一款低延迟、完全在本地运行的语音和视觉助手，专为 Reachy Mini Lite 打造，由 NVIDIA Jetson Orin Nano Super 提供动力。所有功能均通过 GPU 加速在本地运行——无需云端、无需 API 密钥、运行时也无需联网。点击此处开始体验。\n\n从零开始构建我的首个 AI 机器人\n\nCoding with Lewis 使用开放权重模型 Mistral 构建了一个 AI 机器人，证明了初涉机器人领域的开发者也能借助 Jetson Orin Nano Super 从零开始进行开发。\n\n机器人 AI 播客\n\nAsier Arnaz 利用 Jetson Orin Nano Super 打造了一档基于 Yocto 的机器人 AI 视频播客。节目中，两个 AI 模型实时讨论各种话题，并重点展示了创客们在边缘端的创造成果。\n\n受到启发了吗？欢迎关注我们的系列直播，开启你的创作之旅。课程共设三个模块，开发者将学习如何在 NVIDIA Jetson 上运行生成式 AI、构建 Claw 智能体，并部署视觉语言模型 (VLM) 及视觉语言动作模型 (VLA)，从而赋能现实世界的物理 AI 应用。\n\n用 Jetson AGX Orin 为现实世界的机器注入强大 AI 算力\n\nJetson AGX Orin 拥有 275 TOPS 的 AI 性能，当工作负载变得更加复杂时，它便是你的得力助手。在 Guo 看来，道理很简单：算力越高，能承载的任务就越多。\n\n对于进阶创客而言，Jetson AGX Orin 将 AI 的全部实力带入课程教学、毕业设计和应用研究中。它为高级机器人、自主机器和边缘 AI 提供动力，证明了强大的 AI 不再只能被安置在服务器机房中，也不再是少数人的专属。\n\nJetson AGX Orin 让开发者能够在真实环境中验证真实想法，并将整套系统带到课堂、实验室、演示台，甚至是首场投资人会议中。\n\n凭借在高级机器人课程和严肃的初创项目中的广泛适用性，Jetson AGX Orin 能够支持计算机视觉、生成式 AI、自主导航等任务，使其成为推动各行各业转型的理想选择——无论是打造配送机器人、智能视觉功能还是实现工业自动化。\n\n通过以下创新案例，进一步了解 Jetson AGX Orin 的实际应用：\n\n实时 VLM WebUI\n\n这款基于浏览器的界面，可在 Jetson AGX Orin 上实时流式运行视觉语言模型 (VLM) 的推理过程，让用户能够通过摄像头画面与 VLM 进行实时交互。\n\nSMoRes\n\n卡耐基梅隆大学的机器人团队打造的这套自主系统，能够在时间紧迫的救援场景中，同步构建环境的 3D 地图并搜寻幸存者。\n\n不止于“返校季”，用 Jetson AGX Thor 构建更强大的 AI 应用\n\n放学了，机器人创客们要动真格了。最繁重的工作负载需要最强大的“大脑”，而 Jetson AGX Thor 名副其实。它可提供高达 2070 FP4 TFLOPS 的 AI 算力和 128GB 内存。听听专家怎么说：“假期就要干点大项目，否则不如在教室继续上课。”当然，更大的大脑自然需要更大的“背包“来承载。\n\n作为下一代人形机器人和自主系统的终极平台，Jetson AGX Thor 专为那些需要在边缘端进行复杂实时推理的系统而生，它正是所有机器人翘首以盼的“大脑”。它为实验室、工厂及现场最具挑战性的工作负载提供服务器级算力和 AI 智能体能力，赋能全球各行各业的创新应用。\n\n有了 Jetson AGX Thor，未来已真正“收入囊中”。通过以下创新案例，了解 Jetson AGX Thor 的实际落地：\n\n抹茶机器人\n\n这款作品来自伊利诺伊大学香槟分校 SIGRobotics 团队，它在黑客松中荣获第一名。该团队利用两台机械臂在 Jetson AGX Thor 上运行 NVIDIA Isaac GR00T N1.5 模型，实现了自主完成倒水、备料和搅拌抹茶的全过程。\n\n多模态 AI 工作室\n\n这是一个基于 Jetson AGX Thor 打造的创意开发环境，融合了视觉、音频和语言输入，让开发者能够在边缘端开展丰富的多模态 AI 实验。\n\n让机器人动起来并不难，但 Jetson 能让机器人学会“思考”，将前沿 AI 技术交到每一位开发者手中。那么，哪款 NVIDIA Jetson 模组最适合你？不妨先从合适的入门款开始，待时机成熟再行升级。Guo，你说对不对？\n\n深入了解 NVIDIA Jetson。",
+      "readingMinutes": 6
+    },
+    {
       "id": "64070f532ce8493d",
       "feedTitle": "vLLM Releases",
       "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
@@ -1081,19 +1133,6 @@
       "readingMinutes": 0
     },
     {
-      "id": "470cfedee1ef4024",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "DraftExpert: Expansion-Aware Self-Speculative Decoding for End-Device MoE Inference",
-      "url": "https://arxiv.org/abs/2607.24434v1",
-      "published": "2026-07-27T13:44:42Z",
-      "author": "Dengke Han",
-      "summary": "Large Mixture-of-Experts (MoE) language models are attractive for end-device deployment because only a small subset of experts is active per token, but their routed expert weights often exceed accelerator memory. We target latency-critical single-user settings where routed exper…",
-      "content": "Large Mixture-of-Experts (MoE) language models are attractive for end-device deployment because only a small subset of experts is active per token, but their routed expert weights often exceed accelerator memory. We target latency-critical single-user settings where routed experts are staged on demand from CPU memory to a GPU or from Flash to a mobile NPU. In this setting, self-speculative decoding faces a new bottleneck: increasing the draft expert set improves accuracy but triggers extra expert loading, while cheap small-footprint drafts have low acceptance; moreover, verifying a multi-token block activates the union of target experts and is no longer close to one target step. We propose DraftExpert, an expansion-aware self-speculative decoding framework for expert-offloaded MoE inference. DraftExpert trains one lightweight accelerator-resident draft expert per layer by self-distilling residual, logit/token, and router-agreement signals from the frozen target MoE. At inference time, it uses a fixed-footprint shared+top-1+draft-expert drafter together with confidence--expansion truncation and target-expert prefetching, while final tokens are still exactly verified by the target model. On DeepSeek-V2-Lite and Moonlight-16B-A3B across CPU-GPU and Flash-NPU offload, DraftExpert improves decode throughput by 1.45x on average, raises draft acceptance to 84~87%, and achieves 86~88% prefetch hit rates.",
-      "readingMinutes": 1
-    },
-    {
       "id": "f56a44182648e4dd",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -1117,19 +1156,6 @@
       "author": "wnger",
       "summary": "NVIDIA Ising Calibration 是一个开源视觉语言模型 (VLM) ，旨在解释量子处理器的诊 … Continued",
       "content": "NVIDIA Ising Calibration 是一个开源视觉语言模型 (VLM) ，旨在解释量子处理器的诊断输出，并确定如何调整这些输出以继续运行。 本文将介绍新发布的模型 NVIDIA Ising Calibration 1.5，该模型可在未预先训练示例的情况下分析不熟悉的诊断结果，从而推进基于 AI 的 QPU 校准。Ising Calibration 1.5 还使用相关实验中的示例 (如果可用) ，并且在 BF16 精度下，该精度较小 11.4%。这简化了直接在本地实验室环境中部署代理校正工作流的过程。 该模型还首次提供 NVFP4 量化版本，支持在单个 GPU 或 NVIDIA DGX Spark 上部署，可与 Fable 5 和 GPT 5.6 Sol 等领先的封闭模型相美。 Ising Calibration 1.5…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f870ea177af49ebb",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "GraphRareBench: An Auditable Graph-Evidence Benchmark for Phenotype-Driven Rare-Disease Diagnosis",
-      "url": "https://arxiv.org/abs/2607.24878v1",
-      "published": "2026-07-27T07:58:29Z",
-      "author": "Guiling Guo",
-      "summary": "Phenotype-driven diagnostic benchmarks usually report the rank of the reference disease, but they rarely reveal which plausible alternatives are ranked above it or what evidence a tool-using model examines before making its decision. We introduce GraphRareBench, a provenance-pre…",
-      "content": "Phenotype-driven diagnostic benchmarks usually report the rank of the reference disease, but they rarely reveal which plausible alternatives are ranked above it or what evidence a tool-using model examines before making its decision. We introduce GraphRareBench, a provenance-preserving benchmark containing 2,365 ontology-derived cases and 18,093 target-confounder pairs. Each case includes a coarsened HPO query, a fixed candidate pool, graph-defined hard confounders, and source-linked evidence records. On the 237-case gene-component-disjoint test split, supervised rankers using a shared 21-feature interface achieved MRRs ranging from 0.640 to 0.740 and case-averaged target-over-confounder accuracies ranging from 0.898 to 0.916. Agents instantiated with Agents-A1 and DeepSeek-V4-Flash achieved MRRs of 0.746 and 0.718, respectively. Their paired MRR difference was not statistically significant, whereas their target-evidence coverage differed by 0.561. Together with the observation that 22.1% to 43.7% of selected Hit@10 successes still ranked at least one graph-defined hard confounder above the target, these results indicate that full-pool retrieval, hard-confounder discrimination, and observable evidence access capture complementary aspects of model behavior. GraphRareBench therefore provides a foundation for more transparent and evidence-aware evaluation of phenotype-driven diagnostic systems. Code and data are available at https://github.com/GUI0609/GraphRareBench.",
       "readingMinutes": 1
     },
     {
@@ -3083,19 +3109,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "09f06ed361381243",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "洞悉 Omniverse：借助合成数据和微调提高视觉 AI 智能体准确性的三大工作流",
-      "url": "https://blogs.nvidia.cn/blog/vision-ai-agent-skills-omniverse-metropolis/",
-      "published": "2026-06-30T03:51:30Z",
-      "author": "Esther Lee",
-      "summary": "编者注：本文是洞悉 Omniverse 系列文章。“洞悉 Omniverse”重点介绍开发者、3D 从业者与企业如何使用 OpenUSD 和 NVIDIA Omniverse 的最新进展深入改变他们的工作流。 视觉 AI 智能体正成为一种切实可行的方式，可将来自物理世界的视频数据自动转化为工厂、城市、仓库和交通系统中的运营智能。 随着越来越多的 AI 工作负载向数据生成的位置靠近，这种转变正在加速。Gartner 预测，到 2028 年，超过三分之二的企业管理数据将在数据中心或云端之外生成和处理",
-      "content": "编者注：本文是洞悉 Omniverse 系列文章。“洞悉 Omniverse”重点介绍开发者、3D 从业者与企业如何使用 OpenUSD 和 NVIDIA Omniverse 的最新进展深入改变他们的工作流。\n\n视觉 AI 智能体正成为一种切实可行的方式，可将来自物理世界的视频数据自动转化为工厂、城市、仓库和交通系统中的运营智能。\n\n随着越来越多的 AI 工作负载向数据生成的位置靠近，这种转变正在加速。Gartner 预测，到 2028 年，超过三分之二的企业管理数据将在数据中心或云端之外生成和处理；到 2029 年，全球超过三分之二的企业将部署边缘 AI，而这一比例在 2025 年仅为 10% (1)。\n\n但边缘数据的增加并不会自动创建更多的智能。根据同一份 Gartner 报告，高达 90% 的现有边缘数据未经处理。\n\n将这些数据转化为有用的行动需要视觉 AI 智能体，它们能够理解视频、适应现实世界条件，并将洞察与运营工作流相连接。这些智能体通常在摄像头、机器和传感器附近运行，在这些地方，模型必须满足延迟、功耗、成本和连接要求，同时适应特定现场的条件。\n\n为了构建这些智能体，开发者需要可重复的方法来生成训练数据、微调模型，并在边缘和云环境中部署智能体视频应用。\n\nNVIDIA Metropolis 智能体技能和蓝图为开发者提供可复用的工作流，以便在整个生命周期内构建、运行和优化视觉 AI 智能体。\n\n在仿真模拟和合成数据方面，通用场景描述 (OpenUSD) 为描述、组合和复用 3D 世界提供了一个通用框架。基于 OpenUSD 构建的 NVIDIA Omniverse 库可帮助团队构建仿真模拟、合成数据生成和数字孪生工作流，这些工作流可对现实世界环境进行建模，并扩展场景覆盖范围，涵盖照明、天气、交通模式、摄像头角度、遮挡和罕见事件等条件。\n\n视觉 AI 智能体项目可能会陷入的困境\n\n组织转向自主视觉智能体时，通常会面临以下三个挑战：\n\n数据缺失导致准确率遇到瓶颈：视觉 AI 智能体需要识别罕见缺陷、异常事件和不断变化的环境。例如，在制造业中，一个检测模型在检测常见划痕或凹痕时可能表现良好，但在检测训练数据中未出现过的新型细纹裂缝时，则可能表现不佳。\n\n缺乏微调专业知识：一旦团队发现性能差距，改进模型往往不是一次简单的交接。微调需要标记数据集、训练配置、实验跟踪、评估以及针对目标用例决定是否进行改进。许多构建视觉 AI 智能体的组织没有大型的内部机器学习团队来快速管理这一过程，尤其是在涉及多个站点、产品或摄像头视图时。\n\n复杂且耗时的智能体组装工作流：部署视觉 AI 智能体远不只是需要运行推理。开发者必须将视频管线、AI 模型、元数据、嵌入、索引、搜索、警报、报告和系统集成整合在一起。为特定环境定制该工作流非常耗时且需要专业知识。如果没有 OpenUSD 的共享场景描述层，每次条件或部署地点发生变化时，团队都要从头开始重建 3D 环境。\n\n视觉 AI 智能体的全生命周期解决方案\n\nNVIDIA 智能体技能和蓝图与基于 OpenUSD 的仿真和合成数据生成的 NVIDIA Omniverse、以及模型开发和视频 AI 部署的 NVIDIA Metropolis 结合使用，为开发者在这些工作流的关键部分提供可复用的起点：\n\n缺陷图像生成技能有助于创建合成缺陷数据。\n\n视频数据增强技能有助于扩展场景覆盖范围。\n\nNVIDIA TAO 技能支持模型微调。\n\nNVIDIA 视频搜索和总结 (VSS) 技能有助于将视频理解转化为可部署的工作流，用于警报、报告、流管理等。\n\n开发者无需从头开始重建每个步骤，而是可以使用这些可复用的工作流来更快速地生成数据、改进模型并部署视觉 AI 智能体。\n\n视觉检测：生成生产线上缺失的数据\n\n在制造业中，一家工厂在预防缺陷方面越成功，就越难收集到足够的缺陷样本来训练下一个检测模型。\n\nRoboflow 正将 NVIDIA 缺陷图像生成技能和 NVIDIA Cosmos 世界基础模型集成至其视觉 AI 平台，当真实训练数据稀缺时，为康宁等客户生成合成缺陷图像。这不仅实现了优秀的检测性能，还显著减少人工图像审查的需求。\n\n在与康宁光纤制造工程团队进行的一项基准测试中，一个仅使用 8 张真实缺陷图像 (通过 NVIDIA 缺陷图像生成技能生成的合成数据进行增强) 训练的模型在具有挑战性的缺陷类别上达到了 95% 的平均精度和出色的召回率。这一性能超过了仅使用真实数据训练的基准模型，有效地将一个原本需要历时多个季度的检测项目压缩到了短短几天内。\n\n观看视频，了解合成数据生成工作流如何帮助开发者创建训练和改进物理 AI 模型所需的数据：\n\n智慧城市：从视频分析到自主运营\n\n大规模城市运营展示了为什么视觉 AI 智能体需要的是相互连接的工作流，而不仅仅是推理。\n\nLinker Vision 正在使用适用于 VSS 的 NVIDIA Metropolis Blueprint 构建智慧城市 AI 系统，加速在城市基础设施中部署视频推理智能体。在这一工作流中，VSS 技能可以将搜索、摘要、警报、报告和流管理等常见视频 AI 任务打包成可复用且可由智能体执行的工作流。\n\n基于 OpenUSD 的 NVIDIA Omniverse 数字孪生帮助建模城市环境，并测试视觉 AI 系统如何应对不同的交通模式、天气条件、紧急事件和基础设施变化。Linker Vision 使用 NVIDIA Cosmos 进行视频数据增强，并使用 NVIDIA TAO 进行 Cosmos 模型微调。\n\n在高雄，Linker Vision 使用 VSS 蓝图将开发工作量减少了 85%，并将事件响应时间缩短了高达 80%。其较新的 AI-GRID 扩展基于这种方法，结合用于安全智能体 AI 的 NVIDIA NemoClaw 蓝图，支持城市和交通环境中的自主视频推理。\n\n工业运营：在工作中进行实时推理\n\n在工业环境中，挑战不仅仅在于检测视频帧中出现的内容。团队需要智能体能够：\n\n理解工作是否被正确执行。\n\n对比执行与标准操作程序。\n\n在缺陷转移到下游之前生成洞察。\n\n在 Foxconn，DeepHow 的实时标准操作程序 (SOP) 验证智能体使用 NVIDIA Metropolis VSS 蓝图作为智能体视频工作流层，用于跨运营环境的搜索、摘要和分析。NVIDIA Cosmos 提供推理能力，帮助智能体在上下文中解释复杂的人类活动和工作序列，例如组装步骤是否按预期顺序正确执行。\n\n该解决方案已在 NVIDIA Grace Blackwell Ultra 服务器生产线上使用，可将一次交验合格率提高 3%，在关键 SOP 步骤的微动作理解中实现 99% 的任务级准确率，并通过帮助团队尽早发现问题来减少冗余工作。\n\n探索 NVIDIA 智能体技能和蓝图，构建、运行和优化视频分析 AI 智能体。\n\n来源：Gartner，《预测 2026：物理 AI 将 I&O 推向边缘》，2026 年 3 月 3 日。Gartner 是 Gartner, Inc. 和/或其关联公司的商标。",
-      "readingMinutes": 6
-    },
-    {
       "id": "6cc910fb018354bf",
       "feedTitle": "vLLM Releases",
       "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
@@ -4081,19 +4094,6 @@
       "author": "",
       "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
       "content": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "3381a474afe6dd0c",
-      "feedTitle": "Google AI · DeepMind",
-      "feedUrl": "https://deepmind.google/blog/rss.xml",
-      "category": "AI 技术",
-      "title": "Introducing Gemini Omni",
-      "url": "https://deepmind.google/blog/introducing-gemini-omni/",
-      "published": "2026-05-17T19:50:57Z",
-      "author": "",
-      "summary": "",
-      "content": "",
       "readingMinutes": 1
     }
   ]
