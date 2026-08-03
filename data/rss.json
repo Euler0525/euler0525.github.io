@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T06:51:03.828298Z",
+  "generatedAt": "2026-08-03T17:47:30.773509Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "https://www.pixelstech.net",
+      "siteUrl": "",
       "articleCount": 11,
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "title": "OpenAI · News",
@@ -197,6 +197,71 @@
   ],
   "articles": [
     {
+      "id": "8de7aa6843a71335",
+      "feedTitle": "Anthropic · News",
+      "feedUrl": "https://www.anthropic.com/sitemap.xml",
+      "category": "AI 新闻",
+      "title": "Claude for nonprofits",
+      "url": "https://www.anthropic.com/news/claude-for-nonprofits",
+      "published": "2026-08-03T16:00:43Z",
+      "author": "Anthropic",
+      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
+      "content": "",
+      "readingMinutes": 0
+    },
+    {
+      "id": "8b96329aed14643e",
+      "feedTitle": "Anthropic · News",
+      "feedUrl": "https://www.anthropic.com/sitemap.xml",
+      "category": "AI 新闻",
+      "title": "Investigating incidents cybersecurity evals",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "published": "2026-08-03T14:36:32Z",
+      "author": "Anthropic",
+      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
+      "content": "",
+      "readingMinutes": 0
+    },
+    {
+      "id": "8f37be6c8a5fc505",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派评 | 近期值得关注的 App",
+      "url": "https://sspai.com/post/113040",
+      "published": "2026-08-03T10:09:00Z",
+      "author": "",
+      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "content": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "7a11e90fa63ee471",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "把折叠屏外屏做成手机后：iKKO MindOne Pro 体验",
+      "url": "https://sspai.com/post/112685",
+      "published": "2026-08-03T07:35:11Z",
+      "author": "",
+      "summary": "在如今智能手机市场高度同质化、各家都在公模和微创新里打转的时代，一台形态奇特的设备总是能轻易抓住数码爱好者的眼球。前段时间，我在浏览iKKO官网时，被一台名为MindOnePro的手机吸引了。它接近正 ...查看全文",
+      "content": "在如今智能手机市场高度同质化、各家都在公模和微创新里打转的时代，一台形态奇特的设备总是能轻易抓住数码爱好者的眼球。前段时间，我在浏览iKKO官网时，被一台名为MindOnePro的手机吸引了。它接近正 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "834bd3c4b071e7a0",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "职人专访 #001：少数派背后的理想主义",
+      "url": "https://sspai.com/post/112966",
+      "published": "2026-08-03T06:03:08Z",
+      "author": "",
+      "summary": "因为这款手机壳，我跟老麦聊了一下午。查看全文",
+      "content": "因为这款手机壳，我跟老麦聊了一下午。查看全文",
+      "readingMinutes": 1
+    },
+    {
       "id": "3f3b50f12f847435",
       "feedTitle": "RSS Feed | PixelsTech",
       "feedUrl": "https://www.pixelstech.net/feed.xml",
@@ -285,6 +350,19 @@
       "author": "Tanya Lenz",
       "summary": "As agentic and long-context workloads become common, the context lengths increase and attention consumes a larger share of inference time (Figure 1). Because...",
       "content": "As agentic and long-context workloads become common, the context lengths increase and attention consumes a larger share of inference time (Figure 1). Because...\nAs agentic and long-context workloads become common, the context lengths increase and attention consumes a larger share of inference time (Figure 1). Because attention now dominates that cost, how it is designed—not just how it is implemented—increasingly determines a model’s inference performance. Shaping model architecture around how GPUs execute it is the premise of AI model co-design.\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "7ad276c6d6cb0638",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "How to Run Isolated Tenant Kubernetes Clusters on Shared GPU Infrastructure",
+      "url": "https://developer.nvidia.com/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/",
+      "published": "2026-07-31T20:38:34Z",
+      "author": "Tanya Lenz",
+      "summary": "Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared...",
+      "content": "Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared...\nRunning a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared across many teams, the coordination costs increase as the number of teams grows. Challenges include conflicting CRD versions, overlapping RBAC, and no clean way to carve GPU capacity into team-level budgets. At a certain scale…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -444,32 +522,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "aa8c37c3ff991945",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "简单有效的 E-cise，如何让我摆脱体态不良的「三件套」？",
-      "url": "https://sspai.com/post/112833",
-      "published": "2026-07-31T02:21:28Z",
-      "author": "",
-      "summary": "无论你的运动专项为何，E-cise 都可以构成一个很好的辅助和补充。查看全文",
-      "content": "无论你的运动专项为何，E-cise 都可以构成一个很好的辅助和补充。查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "b0a6a7bb63ea43ea",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：小米汽车举行 SKYNOMAD 小米澎程技术发布会等",
-      "url": "https://sspai.com/post/112930",
-      "published": "2026-07-31T00:37:53Z",
-      "author": "",
-      "summary": "CHERRY 樱桃发布 MW5500 PRO 8K 无线游戏鼠标，零刻推出 SEi13 AI / SEi14 AI 迷你主机等查看全文",
-      "content": "CHERRY 樱桃发布 MW5500 PRO 8K 无线游戏鼠标，零刻推出 SEi13 AI / SEi14 AI 迷你主机等查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "ff7c1653ce2eb767",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -481,19 +533,6 @@
       "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
       "content": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
       "readingMinutes": 1
-    },
-    {
-      "id": "8b96329aed14643e",
-      "feedTitle": "Anthropic · News",
-      "feedUrl": "https://www.anthropic.com/sitemap.xml",
-      "category": "AI 新闻",
-      "title": "Investigating incidents cybersecurity evals",
-      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "published": "2026-07-30T23:14:55Z",
-      "author": "Anthropic",
-      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
-      "content": "",
-      "readingMinutes": 0
     },
     {
       "id": "fa0f8504b8a9bc0a",
@@ -688,19 +727,6 @@
       "author": "",
       "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
       "content": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "70b109601a74bba5",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "App+1 | 免费、多功能的远程控制新选择：网易 UU 远程",
-      "url": "https://sspai.com/post/112405",
-      "published": "2026-07-30T09:30:00Z",
-      "author": "",
-      "summary": "从远程桌面到终端、端口映射和云电脑，网易 UU 远程帮你一站式搞定。查看全文",
-      "content": "从远程桌面到终端、端口映射和云电脑，网易 UU 远程帮你一站式搞定。查看全文",
       "readingMinutes": 1
     },
     {
@@ -921,8 +947,8 @@
       "published": "2026-07-28T18:13:05Z",
       "author": "PyTorch Foundation",
       "summary": "We invite you to design the 2026 PyTorch Foundation flare pin for PyTorch Conference North America. The winning entrant will receive one complimentary ticket to PyTorch Conference North America in...",
-      "content": "We invite you to design the 2026 PyTorch Foundation flare pin for PyTorch Conference North America.\n\nThe winning entrant will receive one complimentary ticket to PyTorch Conference North America in San Jose, CA, in October.\n\nPyTorch Foundation will produce the winning design as a 1-inch die-cut soft enamel pin for PyTorch Conference North America.\n\nSubmit an original design by August 14, 2026, at 11:59 p.m. PT by posting on LinkedIn, X, Facebook, or Bluesky using the hashtags #PyTorchPin and #PyTorchCon.\n\nDesign the 2026 Flare Pin\n\nEach design must:\n\nBe original and suitable for a 1-inch die-cut soft enamel pin\n\nInclude “26” or “2026”\n\nInclude the official PyTorch Foundation symbol\n\nProvide the final design in SVG, PNG, or PDF format\n\nDesigns may use any shape, typeface, and color palette appropriate for distribution at a professional community event.\n\nUse only official PyTorch Foundation assets and follow the PyTorch Foundation Brand Guidelines, Linux Foundation Trademark Usage Guidelines, and Linux Foundation Terms of Use. Official assets must remain intact and legible and must not be redrawn, distorted, or modified.\n\nHow to Enter\n\nEach entry must include:\n\nOne clear image of the complete, standalone design\n\nA brief description of the concept and its connection to the PyTorch community\n\nThe entrant’s name or social handle\n\nDisclosure of any AI tools used\n\nPost the entry publicly on LinkedIn, X, Facebook, or Bluesky using #PyTorchPin and #PyTorchCon. The post must remain public until PyTorch Foundation announces the winner.\n\nSelection\n\nThe PyTorch Foundation Marketing Committee will select the winning design based on originality, legibility at 1 inch, use of the required symbol and year, brand compliance, and suitability for production.\n\nThe winner will be contacted on August 19, 2026, and must respond and provide final artwork by August 24, 2026. The committee’s decision is final, and PyTorch Foundation may decline to select a winner if no eligible entry meets the requirements.\n\nPyTorch Foundation may adjust the winning design to meet production, brand, or trademark requirements.\n\nContest Rules and Submission Details\n\nShow the flat design clearly without cropping, watermarks, overlays, or mockup effects that obscure the artwork. Additional mockups are permitted.\n\nSocial entries must be published by the deadline. Entrants unable to submit through an eligible social platform may email the required materials to marketing@pytorch.org with the subject line 2026 PyTorch Pin Design Submission. Email entries must be received by the same deadline.\n\nAI-assisted and AI-generated designs are permitted. Entrants remain responsible for ensuring that their designs meet all contest, copyright, brand, and trademark requirements.\n\nEntrants must be at least 18 years old. Joint or group entries are not eligible.\n\nEntrants must own or have permission to use every element in the design. Entries containing unauthorized third-party trademarks, copyrighted material, or obscene, sexually explicit, hateful, discriminatory, harassing, threatening, or otherwise inappropriate content are not eligible.\n\nPermission to use PyTorch Foundation assets applies only to creating and submitting an entry. It does not authorize entrants to manufacture, sell, or distribute PyTorch Foundation-branded merchandise.\n\nArtwork Rights\n\nEntrants retain ownership of their artwork but grant PyTorch Foundation and its event and production partners a nonexclusive, worldwide, royalty-free license to reproduce, publish, display, and promote submissions in connection with the contest.\n\nFor the winning design, the license also covers adaptation, production, distribution, photography, and promotion of the pin.\n\nPrize and Travel\n\nThe complimentary ticket may not be sold, transferred after issuance, or redeemed for cash.\n\nThe ticket covers conference admission only. PyTorch Foundation will not pay or reimburse travel, lodging, ground transportation, meals, visa-related costs, or other attendance expenses.\n\nEligible community members may separately apply for The Linux Foundation Travel Fund. Applications close August 23, 2026, at 11:59 p.m. PT, and applicants will be notified by September 2, 2026. Travel funding is separate from the contest and is not guaranteed.\n\nQuestions may be sent to marketing@pytorch.org.\n\nPyTorch Foundation and the PyTorch Foundation logo design are registered trademarks of the Linux Foundation.",
-      "readingMinutes": 3
+      "content": "We invite you to design the 2026 PyTorch Foundation flare pin for PyTorch Conference North America.\n\nThe winning entrant will receive one complimentary ticket to PyTorch Conference North America in San Jose, CA, in October.\n\nPyTorch Foundation will produce the winning design as a 1-inch die-cut soft enamel pin for PyTorch Conference North America.\n\nSubmit an original design by August 14, 2026, at 11:59 p.m. PT by posting on LinkedIn, X, Facebook, or Bluesky using the hashtags #PyTorchPin and #PyTorchCon.\n\nDesign the 2026 Flare Pin\n\nEach design must:\n\nBe original and suitable for a 1-inch die-cut soft enamel pin\n\nInclude “26” or “2026”\n\nInclude the official PyTorch Foundation symbol\n\nProvide the final design in SVG, PNG, or PDF format\n\nDesigns may use any shape, typeface, and color palette appropriate for distribution at a professional community event.\n\nUse only official PyTorch Foundation assets and follow the PyTorch Foundation Brand Guidelines, Linux Foundation Trademark Usage Guidelines, and Linux Foundation Terms of Use. Official assets must remain intact and legible and must not be redrawn, distorted, or modified.\n\nHow to Enter\n\nEach entry must include:\n\nOne clear image of the complete, standalone design\n\nA brief description of the concept and its connection to the PyTorch community\n\nThe entrant’s name or social handle\n\nDisclosure of any AI tools used\n\nPost the entry publicly on LinkedIn, X, Facebook, or Bluesky using #PyTorchPin and #PyTorchCon. The post must remain public until PyTorch Foundation announces the winner.\n\nOptional AI Design Prompt\n\nUsing an AI image generation tool? Copy the prompt below into your preferred tool to develop a concept through a guided interview. The prompt is optional, and every submission must still meet all contest, copyright, brand, trademark, and production requirements outlined in this post.\n\nFor best results, upload the official PyTorch Foundation symbol to your image generation tool when it supports image attachments.\n\nYou are designing the 2026 PyTorch Foundation flare pin for PyTorch Conference North America in San Jose.\n\nThe design should reflect the PyTorch community and remain appropriate for distribution at a professional community event.\n\nUse the official PyTorch Foundation symbol available here:\n\nhttps://github.com/pytorch-fdn/artwork/blob/main/assets/img/pytorch_foundation_logo/icons/png/PyTorchFLogo_Icon_fullColor.png\n\nInclude the official symbol in the design. Keep it intact and legible. Do not redraw, distort, recolor, or otherwise modify it. Any other PyTorch Foundation logos, symbols, or brand assets must come from official files only.\n\nBeyond the required symbol, you may use any original shape, imagery, typeface, and color palette appropriate for distribution at a professional community event.\n\nDesign requirements:\n\nCreate an original design suitable for a 1-inch die-cut soft enamel pin.\n\nInclude “26” or “2026.”\n\nInclude the official PyTorch Foundation symbol.\n\nUse flat, clearly separated color areas and details that remain legible at 1 inch.\n\nAvoid unnecessary gradients, shadows, transparent effects, and overly fine details.\n\nCreate a design appropriate for distribution at a professional community event.\n\nOutput requirements:\n\nGenerate exactly one design variation in a single image.\n\nShow the complete, standalone design as flat, front-facing artwork.\n\nKeep the entire design visible and uncropped.\n\nUse a transparent background where supported. Otherwise, use a solid white background.\n\nDo not render the design as a photograph, physical product mockup, or environmental scene.\n\nDo not include watermarks, overlays, lighting effects, or other effects that obscure the artwork.\n\nDevelop the creative direction through an interactive interview.\n\nDo not generate an image yet. Ask me one follow-up question at a time and refine the concept based on each answer. Cover all 4 areas below:\n\nImagery and composition: What imagery or theme should be used in conjunction with the official symbol, and how and where should “26” or “2026” appear?\n\nShape and Colors: What die-cut shape and which colors should the design use?\n\nVisual style: What visual approach should guide the design, such as retro, minimal, geometric, isometric, or California-inspired?\n\nCommunity connection: How should the concept connect to the PyTorch community?\n\nAfter I answer all four areas, combine my answers into one concise final concept and ask me to approve or revise it.\n\nDo not generate the image until I explicitly approve the final concept.\n\nAfter approval, generate exactly one pin design that follows the approved creative direction and all requirements above.\n\nSelection\n\nThe PyTorch Foundation Marketing Committee will select the winning design based on originality, legibility at 1 inch, use of the required symbol and year, brand compliance, and suitability for production.\n\nThe winner will be contacted on August 19, 2026, and must respond and provide final artwork by August 24, 2026. The committee’s decision is final, and PyTorch Foundation may decline to select a winner if no eligible entry meets the requirements.\n\nPyTorch Foundation may adjust the winning design to meet production, brand, or trademark requirements.\n\nContest Rules and Submission Details\n\nShow the flat design clearly without cropping, watermarks, overlays, or mockup effects that obscure the artwork. Additional mockups are permitted.\n\nSocial entries must be published by the deadline. Entrants unable to submit through an eligible social platform may email the required materials to marketing@pytorch.org with the subject line 2026 PyTorch Pin Design Submission. Email entries must be received by the same deadline.\n\nAI-assisted and AI-generated designs are permitted. Entrants remain responsible for ensuring that their designs meet all contest, copyright, brand, and trademark requirements.\n\nEntrants must be at least 18 years old. Joint or group entries are not eligible.\n\nEntrants must own or have permission to use every element in the design. Entries containing unauthorized third-party trademarks, copyrighted material, or obscene, sexually explicit, hateful, discriminatory, harassing, threatening, or otherwise inappropriate content are not eligible.\n\nPermission to use PyTorch Foundation assets applies only to creating and submitting an entry. It does not authorize entrants to manufacture, sell, or distribute PyTorch Foundation-branded merchandise.\n\nArtwork Rights\n\nEntrants retain ownership of their artwork but grant PyTorch Foundation and its event and production partners a nonexclusive, worldwide, royalty-free license to reproduce, publish, display, and promote submissions in connection with the contest.\n\nFor the winning design, the license also covers adaptation, production, distribution, photography, and promotion of the pin.\n\nPrize and Travel\n\nThe complimentary ticket may not be sold, transferred after issuance, or redeemed for cash.\n\nThe ticket covers conference admission only. PyTorch Foundation will not pay or reimburse travel, lodging, ground transportation, meals, visa-related costs, or other attendance expenses.\n\nEligible community members may separately apply for The Linux Foundation Travel Fund. Applications close August 23, 2026, at 11:59 p.m. PT, and applicants will be notified by September 2, 2026. Travel funding is separate from the contest and is not guaranteed.\n\nQuestions may be sent to marketing@pytorch.org.\n\nPyTorch Foundation and the PyTorch Foundation logo design are registered trademarks of the Linux Foundation.\n\nUpdated August 3, 2026: This post now includes an optional AI design prompt to help entrants create a flat, front-facing pin concept that follows the contest requirements.",
+      "readingMinutes": 5
     },
     {
       "id": "824b5ba22f1e74f5",
@@ -1380,16 +1406,16 @@
       "readingMinutes": 1
     },
     {
-      "id": "4e00ad3e5978c686",
+      "id": "f470dee7b01bc0c6",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
       "category": "AI 技术",
-      "title": "NVIDIA Ising Decoding Cuts Color Code Logical Error Rates by Over 300x",
-      "url": "https://developer.nvidia.com/blog/nvidia-ising-decoding-cuts-color-code-logical-error-rates-by-over-300x/",
-      "published": "2026-07-23T18:54:15Z",
-      "author": "Elizabeth Goodman",
-      "summary": "Useful quantum computers will require fault tolerant logical operations. Researchers are actively exploring many different quantum error correction (QEC) codes...",
-      "content": "Useful quantum computers will require fault tolerant logical operations. Researchers are actively exploring many different quantum error correction (QEC) codes...\nUseful quantum computers will require fault tolerant logical operations. Researchers are actively exploring many different quantum error correction (QEC) codes to enable this, improving the Logical Error Rates (LER) of Quantum Processing Units (QPUs). While it is well understood how to run logical operations with surface codes (which belong to the topological code family) via lattice surgery…\n\nSource",
+      "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
+      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills/",
+      "published": "2026-07-23T18:54:14Z",
+      "author": "Tanya Lenz",
+      "summary": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...",
+      "content": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...\nWhat if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning models to production video tasks, developers often lose days to data formatting, container setup, training scripts, baseline evaluation, and hyperparameter sweeps before they even know whether post-training improves accuracy.\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1403,19 +1429,6 @@
       "author": "Tanya Lenz",
       "summary": "Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...",
       "content": "Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...\nCoding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve build issues, launch experiments, monitor execution, analyze metrics, and summarize results. For reinforcement learning (RL) research, this matters because meaningful metrics often appear only after the essential experiment infrastructure…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f470dee7b01bc0c6",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
-      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills/",
-      "published": "2026-07-23T18:54:14Z",
-      "author": "Tanya Lenz",
-      "summary": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...",
-      "content": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...\nWhat if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning models to production video tasks, developers often lose days to data formatting, container setup, training scripts, baseline evaluation, and hyperparameter sweeps before they even know whether post-training improves accuracy.\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -2030,19 +2043,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "444580407c455e68",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA Spectrum-6 专为 Vera Rubin 打造，登陆十亿瓦级 AI 工厂",
-      "url": "https://blogs.nvidia.cn/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
-      "published": "2026-07-21T02:00:00Z",
-      "author": "Scot Schultz",
-      "summary": "AI 已进入十亿瓦级时代。 全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。 作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。 Spectrum-6 驱动新一代 NVIDIA Spec",
-      "content": "AI 已进入十亿瓦级时代。\n\n全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。\n\n作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。\n\nSpectrum-6 驱动新一代 NVIDIA Spectrum-X 以太网平台，为运营 AI 工厂端到端计算系统提供所需的高带宽、规模扩展和智能。\n\n领先的 AI 构建者率先行动\n\n包括 CoreWeave、微软、Nebius、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础架构构建商，率先采用 Spectrum-6，以加速其 AI 工厂建设。\n\n对于云服务提供商而言，Spectrum-6 意味着更高的计算能力，可以作为统一的高性能资源运行，帮助客户更快地训练模型和部署推理服务。\n\nCoreWeave 网络产品总监 Min Jun 表示：“CoreWeave 专为要求严苛的 AI 工作负载而构建，而网络是提供大规模高性能系统的核心。将 NVIDIA Spectrum-6 和液冷 Spectrum-X 以太网基础设施引入我们的 AI 工厂，能够提供更高的带宽、可靠性和效率，从而帮助我们更好地为客户提供模型训练服务，并更快地部署推理服务。”\n\nNebius 全球合作伙伴关系副总裁 Laurelle Roseman 表示：“在十亿瓦级系统上，协同决定总体性能：让每个 GPU 时刻保持同步，避免因为一个慢环节拖累整个工作。这正是 NVIDIA Spectrum-6 追求的目标，也是我们抢先采用它的原因——它能确保网络在随着客户应对要求严苛的工作负载规模扩展时，时刻保持高速和可靠性。”\n\n对于自建基础设施的 AI 先驱来说，Spectrum-6 意味着更多的 GPU 能够保持同步运行，为要求严苛、大量使用集合操作的作业实现更高的系统利用率，并提高长期运行工作的可靠性。\n\n在各种用例中，最重要的结果是更快地完成作业，并在大规模系统上实现更高的经济效益。\n\nCoreWeave、微软和 Nebius 将成为首批使用 Spectrum-6 部署 NVIDIA Vera Rubin 基础设施的提供商，为广泛的开发者、初创公司和企业社区提供平台访问服务。\n\nAI 性能本质上是一个网络问题\n\n仅凭单个 GPU 峰值性能无法预测 AI 工厂的性能。\n\n大规模训练和推理工作负载依赖于数千个加速器，它们之间频繁进行数据交换。集合通信是跨 GPU 进行工作同步的基本操作，会产生密集的东西向流量，且系统上通常有许多任务同时进行流量传输。\n\n以太网最初主要用于企业应用，承载用户、服务器和存储之间的南北向数据流量，并非为超大规模 AI 的同步、集合密集型通信模式而创建。\n\nSpectrum-X 以太网改变了这一局面。它专为 AI 打造，将以太网转变为高性能横向扩展网络，旨在为每个 GPU 及时“喂上”足够数据。\n\n新一代 Spectrum-X 以太网\n\nSpectrum-6 交换机芯片与 NVIDIA ConnectX-9 SuperNIC 相结合，构成了新一代 Spectrum-X 以太网，与 NVIDIA Vera CPU、Rubin GPU、NVLink 6 交换机、ConnectX-9 SuperNIC、BlueField-4 DPU 和 Spectrum-6 以太网交换机一起，共同组成了 NVIDIA Vera Rubin 平台。\n\nSpectrum-6 支持可插拔和光电一体化封装两种规格。此外，Spectrum-6 产品还支持液冷，支持整个 AI 工厂全面的端到端液冷方案，显著提高系统能效。\n\n与通用以太网不同，用于 AI 工厂横向扩展的 NVIDIA Spectrum-X 以太网网络平台结合了智能交换机、NVIDIA ConnectX-9 SuperNIC 和全栈网络软件，共同为 AI 定向设计。该平台的高级功能不断优化数据流量在网络中的移动。\n\n此外，NVIDIA Spectrum-X 技术可智能平衡可用路径中的流量，并且在发生网络故障时，快速绕过故障点实现精准恢复。此外，它支持开放网络操作系统，以及多种 RDMA 传输模型，在不牺牲性能的前提下，为 AI 构建者带来了最大的灵活性。\n\nSpectrum-X 以太网采用 NVIDIA 垂直集成、横向开放的设计方法：为整个计算平台协同设计芯片、系统和软件，同时支持标准以太网、开放网络操作系统、开放协议以及云服务提供商、系统制造商和基础设施合作伙伴的广泛生态系统。客户无需组装零件之后再对其进行优化，而是直接获得了一个完整的 AI 工厂平台，该平台旨在缩短训练时间并降低单位 Token 成本。\n\n与通用以太网相比，Spectrum-X 以太网可提供高达 1.6 倍的 AI 网络性能，在超过 10 万个 GPU 的部署中保持高达 95% 的网络效率，这充分体现了协同设计方法的优越性。\n\n硬件加速的 Spectrum‑X 多平面拓扑可使数据中心所需交换机数量减少 40%，进一步提升网络效率。叠加 Spectrum‑X 以太网硅光技术带来的各项优势 (能效提升 5 倍、平均无故障间隔时间提升 10 倍)，协同设计网络架构持续体现超越单一组件层面优化的应用加速。\n\n详细了解 NVIDIA Spectrum-X 以太网平台。",
-      "readingMinutes": 4
-    },
-    {
       "id": "9a4b60e8b1552bdd",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -2054,6 +2054,19 @@
       "summary": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。 Vera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。 Vera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供",
       "content": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。\n\nVera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。\n\nVera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供最高的每瓦性能和最低的 Token 成本。CoreWeave 针对 DeepSeek-R1 的首次基准测试结果充分证明了这一点：其每兆瓦吞吐量比 Grace Blackwell NVL72 提升了 10 倍——这直接切中了电力受限的 AI 工厂最关心的核心指标。\n\n通过极致协同设计提升性能\n\n取得这一突破的关键在于七款芯片和五种机架托盘之间的极致协同设计。五种机架系统包括 Vera Rubin NVL72、Vera CPU 机架、Groq 3 LPX、Spectrum-6 SPX 和 Vera BlueField-4 STX。它们被作为一个完整的系统进行工程研发，而非由通用产品简单拼凑而成。\n\nNVIDIA Vera CPU 正是其核心所在。它重新定义了“AI 工厂 CPU”应有的形态。专为智能体时代设计，其定制 Olympus 核心相较竞品的芯粒 (chiplet) 方案，单线程性能提升 2 倍、核间带宽提升 3 倍、内存延迟降低 40%，使其成为面向最关键智能体负载时最高效的单线程 CPU。\n\n以专属定制网络，加速 AI 工厂建设\n\n在网络方面，该平台的第六代 NVLink 纵向扩展技术在处理复杂工作负载时，相比通用以太网，吞吐量提升超过 2 倍、延迟降低 1/3、数据包处理速率提升 10 倍。在横向扩展方面，Spectrum-X 以太网集成 102.4T 的 Spectrum-6 交换机系统、1.6T 的 ConnectX-9 SuperNIC、自适应路由、高级拥塞控制、遥测技术以及开放的操作系统支持，使其 RDMA 带宽比通用以太网高出 1.6 倍。\n\n包括 CoreWeave、微软、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础设施建设者率先采用 Spectrum-6 交换机，以加速其 AI 工厂的建设。此外，采用 NVIDIA 光电一体化封装 (CPO) 技术用于横向扩展，这是全球首款实现量产的同类型交换机，与传统可插拔收发器相比，其能效提升了 5 倍，平均无故障间隔时间 (MTBI) 提升了 10 倍。CoreWeave、Lambda 和 OCI 率先采用该技术。\n\nSpectrum-XGS 以太网跨站点吞吐量提升 1.9 倍，实现跨站点性能增强。满足十亿瓦级 AI 工厂的建设不再局限于单一建筑的需求。\n\n同时，NVLink Fusion 向第三方 XPU 开放了 NVIDIA 基础设施平台，为合作伙伴能够借助成熟的 NVLink 纵向扩展堆栈和生态系统，实现产品的快速上市。\n\n节省部署时间，节约水资源\n\n经过三代机架级协同设计的迭代，NVIDIA 打造出的 Vera Rubin NVL72 系统实现了托盘内无电缆、无风扇、无液冷软管的极简设计，将计算托盘的组装时间从过去的数小时大幅缩短至仅需 1 分钟。\n\n45 摄氏度的液冷进水温度设计，使得系统无需冷水机组，仅靠干式冷却器即可运行。对于新建的 AI 工厂而言，这种高温干式冷却结合闭环液冷系统，每兆瓦每年可节省数百万加仑的水资源。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 驱动欧洲开放模型时代\n\nVera Rubin 正为欧洲的 AI 基础设施注入下一代性能。\n\nVera Rubin 也是微软与 Mistral 新一轮深化合作的基石。该合作将前沿 AI 带到了欧洲，把开放的欧洲模型与云环境及客户管理的环境相结合，使各国政府和重点监管行业能够按照自身需求采用 AI 技术。\n\n这项合作的背后，是一项旨在扩大欧洲 AI 基础设施的数十亿美元新协议。Mistral 正在扩充其 GPU 算力，通过引入数千个最新的 NVIDIA Vera Rubin GPU，增加面向客户的 AI 算力供给，并为训练、推理和大规模部署提供共享平台。\n\nNVIDIA Vera Rubin 正迈入全面量产阶段。这款机架级 AI 超级计算机将七款协同设计的全新芯片整合为一个统一系统，它将调用数万个 GPU，为新一代 Mistral Compute 和微软欧洲的 AI 基础设施提供动力。\n\n欧洲希望在遵循自身法律的情况下，在本地完全自主可控地运行全球最强大的 AI。同时，其面临的挑战也在不断升级：智能体系统消耗的 Token 数量可达传统 AI 应用的 15 倍，这使得高效的基础设施成为重点。满足这一需求不仅需要庞大的计算能力，更需要 AI 在实现高效扩展的同时，满足区域对数据控制、治理、可靠性及战略自主的要求。\n\nVera Rubin 为欧洲的开放模型生态系统提供了计算基础。其全栈架构融合了加速计算、网络与软件，使模型和智能体能够从训练到生产实现高效运行。\n\n为企业级 AI 打造的开放模型\n\n微软、Mistral 与 NVIDIA 共同在公共云、云连接以及完全断开连接的私有云环境中，提供适配的 AI——将开放模型的灵活性与大规模运行所需的基础设施结合。\n\nMistral Medium 3.5 和 OCR 4 现已在 Microsoft Foundry 上线，同时 Mistral 模型也已集成至 Microsoft Copilot Studio。客户可以通过 Azure Local 和 Foundry Local 在云端和客户自主控制的环境中使用相同的模型、工具和运行模式。\n\n符合欧洲标准的 AI\n\n政府机构可将 AI 应用于涉及敏感业务的工作流；医疗和金融服务机构可在满足区域合规要求的前提下进行部署；制造商可在本地处理数据以实现更快速的决策。与 NVIDIA GB200 NVL72 相比，Vera Rubin NVL72 每兆瓦的 Token 产出提升高达 10 倍，每百万 Token 的成本降至原来的十分之一，在同等功耗下提供更强大的智能算力。\n\n打造真正适配当地语言、文化与法规的 AI 不应要求组织在创新、经济效益与控制权之间做出取舍。以 Vera Rubin 为计算基础，依托微软和 Mistral 提供的自主云基础设施与欧洲开放模型，欧洲完全可以三者兼得。\n\n详情请参阅微软与 Mistral 的新闻稿。\n\n2026 年 7 月 21 日\n\nCoreWeave 基准测试显示，NVIDIA Vera Rubin 系统每兆瓦 Token 吞吐量达 Blackwell 的 10 倍\n\n通过与 NVIDIA 进行极致的协同设计，CoreWeave 正依托 Vera Rubin NVL72 实现数量级的性能跃升。\n\n与 CoreWeave 等合作伙伴的紧密协作，对于将新一代 NVIDIA 加速计算成功部署至 AI 工厂至关重要。\n\n经过数月的联合工程研发，CoreWeave 成为首家完成 Vera Rubin NVL72 部署与验证的 AI 云服务提供商——他们首次公布了基于实际运行硬件测得的性能数据。\n\nCoreWeave 在 Vera Rubin NVL72 上运行了 DeepSeek-R1 基准测试。结果显示，与 Grace Blackwell NVL72 相比，Vera Rubin NVL72 每兆瓦每秒 Token 吞吐量提升了 10 倍。\n\n每兆瓦 Token 吞吐量是决定 AI 基础设施能否实现大规模盈利的核心指标。每兆瓦产出的 Token 越多，意味着在同等电力预算下能产出更多的智能算力，或者在显著降低功耗的情况下处理相同的工作负载。Jane Street 等 AI 实验室和企业将采用 Vera Rubin 平台，在 CoreWeave 云上扩展其 AI 工厂。\n\n借助 NVIDIA Spectrum-X 突破瓶颈\n\nDeepSeek R1 采用的混合专家 (MoE) 架构，在大规模部署场景下 GPU 间的 all-to-all 通信成为一项关键需求：每个 Token 都必须在分布式的专家子网络中进行路由。Vera Rubin NVL72 配备的 260 TB/s all-to-all NVLink 6 互连架构彻底消除了这一限制，使整个机架能够作为统一的加速器运行。\n\nCoreWeave 是首批部署 NVIDIA Spectrum-X 以太网 SN6600-LD，将其作为 Vera Rubin NVL72 交换网络架构的企业之一。\n\nCoreWeave 基于 102.4 Tb/s 的 Spectrum-6 交换芯片并采用液冷设计，部署了高密度交换机架，单机架可提供 1.64 Pb/s 的带宽，容量较上一代风冷交换机提升了 100%。此外，CoreWeave 还提供完全无阻塞、多平面、多轨方案的 Spine and Leaf 网络架构，确保使用 Vera Rubin NVL72 构建的系统 GPU 之间无阻塞互连通信。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 系统驱动全新 Google Cloud A5X 实例，助力 Ineffable Intelligence 发展\n\n由 NVIDIA Vera Rubin NVL72 和针对数据中心横向扩展架构的 Google Virgo 网络共同驱动的 Google Cloud A5X 实例。图片由 Google Cloud 提供。\n\nNVIDIA Vera Rubin NVL72 正在为 Google Cloud 的首个 A5X 实例提供算力支持，该实例现已由伦敦初创公司 Ineffable Intelligence 率先采用。\n\nIneffable Intelligence 致力于开发新一代智能“Superlearner”系统，该系统能够通过经验持续学习，从而在各个领域实现新的突破。\n\nIneffable Intelligence 的智能体直接从与环境的交互中学习，而非依赖静态数据集。Ineffable 没有使用大语言模型 (LLMs) ，而是通过强化学习来开发“Superlearner”系统。该系统在持续模拟的大规模并行环境中生成经验，并迅速将这些经验转化为策略更新与评估。这种紧密耦合的学习闭环对算力、内存带宽和互连技术提出了极高的要求，需要基础设施能够在极大的规模下以极低的延迟运行。\n\nIneffable Intelligence 联合创始人 Lasse Espeholt 表示：“下一个研究时代，必须依托下一代的硬件。能与 NVIDIA 和 Google Cloud 的团队合作，让我们得以抢先体验 Vera Rubin，我们深感荣幸。这两个团队给予了极具价值的支持：我们的系统几乎立即完成部署并启动运行，目前已经在为 Superlearners 系统测试基础设施。”\n\nNVIDIA Vera Rubin NVL72 专为这类智能体训练而设计，能够提供可预测的低延迟、高利用率，以及远超上一代系统的单位智能算力产出。这使其成为大规模强化学习的理想平台选择。\n\n在 Google Cloud Next 上发布的 Google Cloud A5X 实例是基于 NVIDIA Vera Rubin NVL72 机架级系统构建的裸金属实例。与上一代相比，其每 Token 推理成本降低至 1/10，每兆瓦 Token 吞吐量提升了 10 倍。\n\nA5X 采用 NVIDIA ConnectX-9 SuperNICs 并结合了新一代 Google Virgo 网络，能够在单一站点内扩展至数万个 NVIDIA Rubin GPU，在跨多站点配置下更可扩展至近百万个 GPU 集群。这为客户提供了一套统一的、针对 AI 优化的技术栈，用于前沿模型、开放模型、智能体模型和物理 AI 模型的训练、微调和服务部署，同时实现了性能、成本和可持续性的全面优化。\n\n这一基础设施旨在助力解锁下一代强化学习系统，推动超级学习和超级智能领域的突破。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera CPU 助力 DeepInfra AI 云实现编排速度翻倍\n\nDeepInfra 的基准测试结果显示，NVIDIA Vera CPU 的运行速度是其他 CPU 的 2 倍以上，并且能够支持更多并发的 AI 智能体。\n\n作为 NVIDIA 开放 AI 生态系统的早期伙伴，云平台 DeepInfra 基于其生产级 AI 智能体基础设施，独立设计并运行了基准测试。DeepInfra 每周处理近 5 万亿个 Token，其中约 30% 由智能体系统驱动。其云平台专为高吞吐量的 AI 推理而打造。\n\n基准测试表明，在保持相同服务质量的前提下，Vera CPU 支持的并发 AI 智能体数量比其他 CPU 多出高达 1.6 倍，编排速度快 2.2 倍，同时还能提高基础设施的利用率和成本效益。这些结果充分证明，NVIDIA Vera CPU 能够提供生产级智能体 AI 所需的成本效益、低延迟和高吞吐量。\n\n随着 AI 智能体承担起越来越复杂的推理、规划、工具调用和数据传输任务，对于编排每次模型调用前后相关的工作而言，CPU 的性能正变得愈发重要。\n\n作为 NVIDIA 面向 AI 工厂的极致协同设计理念的一部分，Vera CPU 专为智能体工作负载而打造。DeepInfra 的基准测试充分凸显了 NVIDIA Vera CPU 如何帮助云服务提供商提升基础设施利用率、提高成本效益，并在保持相同服务质量的前提下支持更多并发的 AI 智能体。\n\n深入了解 NVIDIA Vera Rubin 平台。",
       "readingMinutes": 10
+    },
+    {
+      "id": "444580407c455e68",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA Spectrum-6 专为 Vera Rubin 打造，登陆十亿瓦级 AI 工厂",
+      "url": "https://blogs.nvidia.cn/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+      "published": "2026-07-21T02:00:00Z",
+      "author": "Scot Schultz",
+      "summary": "AI 已进入十亿瓦级时代。 全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。 作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。 Spectrum-6 驱动新一代 NVIDIA Spec",
+      "content": "AI 已进入十亿瓦级时代。\n\n全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。\n\n作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。\n\nSpectrum-6 驱动新一代 NVIDIA Spectrum-X 以太网平台，为运营 AI 工厂端到端计算系统提供所需的高带宽、规模扩展和智能。\n\n领先的 AI 构建者率先行动\n\n包括 CoreWeave、微软、Nebius、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础架构构建商，率先采用 Spectrum-6，以加速其 AI 工厂建设。\n\n对于云服务提供商而言，Spectrum-6 意味着更高的计算能力，可以作为统一的高性能资源运行，帮助客户更快地训练模型和部署推理服务。\n\nCoreWeave 网络产品总监 Min Jun 表示：“CoreWeave 专为要求严苛的 AI 工作负载而构建，而网络是提供大规模高性能系统的核心。将 NVIDIA Spectrum-6 和液冷 Spectrum-X 以太网基础设施引入我们的 AI 工厂，能够提供更高的带宽、可靠性和效率，从而帮助我们更好地为客户提供模型训练服务，并更快地部署推理服务。”\n\nNebius 全球合作伙伴关系副总裁 Laurelle Roseman 表示：“在十亿瓦级系统上，协同决定总体性能：让每个 GPU 时刻保持同步，避免因为一个慢环节拖累整个工作。这正是 NVIDIA Spectrum-6 追求的目标，也是我们抢先采用它的原因——它能确保网络在随着客户应对要求严苛的工作负载规模扩展时，时刻保持高速和可靠性。”\n\n对于自建基础设施的 AI 先驱来说，Spectrum-6 意味着更多的 GPU 能够保持同步运行，为要求严苛、大量使用集合操作的作业实现更高的系统利用率，并提高长期运行工作的可靠性。\n\n在各种用例中，最重要的结果是更快地完成作业，并在大规模系统上实现更高的经济效益。\n\nCoreWeave、微软和 Nebius 将成为首批使用 Spectrum-6 部署 NVIDIA Vera Rubin 基础设施的提供商，为广泛的开发者、初创公司和企业社区提供平台访问服务。\n\nAI 性能本质上是一个网络问题\n\n仅凭单个 GPU 峰值性能无法预测 AI 工厂的性能。\n\n大规模训练和推理工作负载依赖于数千个加速器，它们之间频繁进行数据交换。集合通信是跨 GPU 进行工作同步的基本操作，会产生密集的东西向流量，且系统上通常有许多任务同时进行流量传输。\n\n以太网最初主要用于企业应用，承载用户、服务器和存储之间的南北向数据流量，并非为超大规模 AI 的同步、集合密集型通信模式而创建。\n\nSpectrum-X 以太网改变了这一局面。它专为 AI 打造，将以太网转变为高性能横向扩展网络，旨在为每个 GPU 及时“喂上”足够数据。\n\n新一代 Spectrum-X 以太网\n\nSpectrum-6 交换机芯片与 NVIDIA ConnectX-9 SuperNIC 相结合，构成了新一代 Spectrum-X 以太网，与 NVIDIA Vera CPU、Rubin GPU、NVLink 6 交换机、ConnectX-9 SuperNIC、BlueField-4 DPU 和 Spectrum-6 以太网交换机一起，共同组成了 NVIDIA Vera Rubin 平台。\n\nSpectrum-6 支持可插拔和光电一体化封装两种规格。此外，Spectrum-6 产品还支持液冷，支持整个 AI 工厂全面的端到端液冷方案，显著提高系统能效。\n\n与通用以太网不同，用于 AI 工厂横向扩展的 NVIDIA Spectrum-X 以太网网络平台结合了智能交换机、NVIDIA ConnectX-9 SuperNIC 和全栈网络软件，共同为 AI 定向设计。该平台的高级功能不断优化数据流量在网络中的移动。\n\n此外，NVIDIA Spectrum-X 技术可智能平衡可用路径中的流量，并且在发生网络故障时，快速绕过故障点实现精准恢复。此外，它支持开放网络操作系统，以及多种 RDMA 传输模型，在不牺牲性能的前提下，为 AI 构建者带来了最大的灵活性。\n\nSpectrum-X 以太网采用 NVIDIA 垂直集成、横向开放的设计方法：为整个计算平台协同设计芯片、系统和软件，同时支持标准以太网、开放网络操作系统、开放协议以及云服务提供商、系统制造商和基础设施合作伙伴的广泛生态系统。客户无需组装零件之后再对其进行优化，而是直接获得了一个完整的 AI 工厂平台，该平台旨在缩短训练时间并降低单位 Token 成本。\n\n与通用以太网相比，Spectrum-X 以太网可提供高达 1.6 倍的 AI 网络性能，在超过 10 万个 GPU 的部署中保持高达 95% 的网络效率，这充分体现了协同设计方法的优越性。\n\n硬件加速的 Spectrum‑X 多平面拓扑可使数据中心所需交换机数量减少 40%，进一步提升网络效率。叠加 Spectrum‑X 以太网硅光技术带来的各项优势 (能效提升 5 倍、平均无故障间隔时间提升 10 倍)，协同设计网络架构持续体现超越单一组件层面优化的应用加速。\n\n详细了解 NVIDIA Spectrum-X 以太网平台。",
+      "readingMinutes": 4
     },
     {
       "id": "69e481323262afa1",
@@ -2739,19 +2752,6 @@
       "title": "Ben bernanke",
       "url": "https://www.anthropic.com/news/ben-bernanke",
       "published": "2026-07-09T18:07:20Z",
-      "author": "Anthropic",
-      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
-      "content": "",
-      "readingMinutes": 0
-    },
-    {
-      "id": "8dbb2238c30b71eb",
-      "feedTitle": "Anthropic · News",
-      "feedUrl": "https://www.anthropic.com/sitemap.xml",
-      "category": "AI 新闻",
-      "title": "Hard questions",
-      "url": "https://www.anthropic.com/news/hard-questions",
-      "published": "2026-07-09T17:28:23Z",
       "author": "Anthropic",
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
