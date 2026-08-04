@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T06:19:07.568319Z",
+  "generatedAt": "2026-08-04T17:42:43.775850Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -197,16 +197,94 @@
   ],
   "articles": [
     {
+      "id": "cde859f5c947a2b8",
+      "feedTitle": "Anthropic · News",
+      "feedUrl": "https://www.anthropic.com/sitemap.xml",
+      "category": "AI 新闻",
+      "title": "Tino cuellar",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "published": "2026-08-04T17:40:15Z",
+      "author": "Anthropic",
+      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
+      "content": "",
+      "readingMinutes": 0
+    },
+    {
+      "id": "78a94a00420f20b5",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Generate Trajectories, Reasoning Traces, and Auto-Labels with NVIDIA Alpamayo 2 Super",
+      "url": "https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/",
+      "published": "2026-08-04T15:02:05Z",
+      "author": "Elizabeth Goodman",
+      "summary": "Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data...",
+      "content": "Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data...\nAutonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data labeling. This separation makes it hard to compare related outputs, investigate model behavior, and reuse the same representations across the development workflow. NVIDIA Alpamayo 2 Super is an open 34-billion-parameter reasoning vision…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "58ba351a21396b43",
+      "feedTitle": "Google AI · Blog",
+      "feedUrl": "https://blog.google/technology/ai/rss/",
+      "category": "AI 新闻",
+      "title": "The latest AI news we announced in July 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "published": "2026-08-04T13:00:00Z",
+      "author": "News from Google Team",
+      "summary": "July AI recap header",
+      "content": "July AI recap header",
+      "readingMinutes": 1
+    },
+    {
+      "id": "3387f39233cee582",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "敬畏热度、保持热情：如何在夏季坚持跑步",
+      "url": "https://sspai.com/post/74342",
+      "published": "2026-08-04T10:42:08Z",
+      "author": "",
+      "summary": "无论你是初跑者，还是跑步老手，相信这份「夏季跑步指南」都能帮助到你。查看全文",
+      "content": "无论你是初跑者，还是跑步老手，相信这份「夏季跑步指南」都能帮助到你。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "b209ed9c4bcd0880",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "家庭饮品 DIY 指南（三）：常用固体物料推荐",
+      "url": "https://sspai.com/prime/story/home-made-beverages-3",
+      "published": "2026-08-04T09:54:35Z",
+      "author": "",
+      "summary": "往期文章：（一）工欲善其事，必先利其器（二）常用液体物料推荐之前说的液体物料只是把最常用的几类跟大家分享一下，其实还有非常多好喝的好用的液体物料无法一一说明，后边配方中如果需要会顺带介绍。这篇聊一聊固 ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "content": "往期文章：（一）工欲善其事，必先利其器（二）常用液体物料推荐之前说的液体物料只是把最常用的几类跟大家分享一下，其实还有非常多好喝的好用的液体物料无法一一说明，后边配方中如果需要会顺带介绍。这篇聊一聊固 ...查看全文\n本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "readingMinutes": 1
+    },
+    {
+      "id": "eda4ea94e90d3595",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "社区速递 152 | 派友的固定回购清单、治愈系果壳风铃与超轻薄迷你风扇",
+      "url": "https://sspai.com/post/113060",
+      "published": "2026-08-04T09:00:00Z",
+      "author": "",
+      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "content": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
       "id": "4c06c93e8ae3e1a5",
       "feedTitle": "NVIDIA 技术博客",
       "feedUrl": "https://developer.nvidia.cn/blog/feed",
       "category": "默认分类",
-      "title": "告别 Token 焦虑：用 NVIDIA DGX Spark 打造游戏 UGC 多智能体「AI 圆桌」协作系统",
+      "title": "告别 Token 焦虑：用 NVIDIA DGX Spark 打造游戏 UGC 多智能体“AI 圆桌”协作系统",
       "url": "https://developer.nvidia.cn/blog/spark-ugc-ai-roundtable/",
       "published": "2026-08-04T04:21:42Z",
       "author": "wnger",
       "summary": "获奖背景 我们是来自苏州大学的学生开发团队。在 挑战杯中国大学生创业计划竞赛，中，本文介绍的这套多智 … Continued",
-      "content": "我们是来自苏州大学的学生开发团队。在 挑战杯中国大学生创业计划竞赛，中，本文介绍的这套多智能体协作系统帮助我们获得了 江苏省一等奖。这篇文章记录了整个系统从零到一的完整工程实践，希望能为同样在探索本地 AI 开发的开发者提供参考。 我们在 NVIDIA DGX Spark 上本地部署开源大模型，并借助 OpenClaw 多智能体框架，构建了一套专门面向 Minecraft UGC 开发的「AI 圆桌会议」系统——让 7 个专业智能体像真实团队一样讨论、质疑、修正，最终产出一致的设计方案。 游戏 UGC（User Generated Content）的开发，与传统的软件开发有着明显不同。 在大多数项目中，真正消耗团队时间的并不是代码，而是内容生产。一个玩法从概念到上线，往往需要经历玩法策划、剧情设计、NPC 对话、数值配置、程序实现、\n\nSource",
+      "content": "我们是来自苏州大学的学生开发团队。在 挑战杯中国大学生创业计划竞赛，中，本文介绍的这套多智能体协作系统帮助我们获得了 江苏省一等奖。这篇文章记录了整个系统从零到一的完整工程实践，希望能为同样在探索本地 AI 开发的开发者提供参考。 我们在 NVIDIA DGX Spark 上本地部署开源大模型，并借助 OpenClaw 多智能体框架，构建了一套专门面向 Minecraft UGC 开发的 AI 圆桌会议系统——让 7 个专业智能体像真实团队一样讨论、质疑、修正，最终产出一致的设计方案。 游戏 UGC（User Generated Content）的开发，与传统的软件开发有着明显不同。 在大多数项目中，真正消耗团队时间的并不是代码，而是内容生产。一个玩法从概念到上线，往往需要经历玩法策划、剧情设计、NPC 对话、数值配置、程序实现、\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -246,6 +324,19 @@
       "author": "cjohannsen-cloudera",
       "summary": "What's Changed since v0.20.0-rc0 feat(llmisvc): drop old flag to support new TLS flag for disagg-sidecar by @madhugoutham in #5875 fix(llmisvc): escape quotes in generated --kv-transfer-config by @Chung-Hsuan-Tsai in #5880 fix(llmisvc): skip v1alpha2 InfPool reconcile when CRD a…",
       "content": "What's Changed since v0.20.0-rc0\n\nfeat(llmisvc): drop old flag to support new TLS flag for disagg-sidecar by @madhugoutham in #5875\n\nfix(llmisvc): escape quotes in generated --kv-transfer-config by @Chung-Hsuan-Tsai in #5880\n\nfix(llmisvc): skip v1alpha2 InfPool reconcile when CRD absent by @bartoszmajsak in #5890\n\nrelease: prepare release v0.20.0-rc1 by @cjohannsen-cloudera in #5894\n\nFull Changelog: v0.20.0-rc0...v0.20.0-rc1",
+      "readingMinutes": 1
+    },
+    {
+      "id": "129511f54188e7df",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "published": "2026-08-04T00:00:00Z",
+      "author": "",
+      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "content": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
       "readingMinutes": 1
     },
     {
@@ -314,6 +405,19 @@
       "readingMinutes": 5
     },
     {
+      "id": "6193ed5523d0e166",
+      "feedTitle": "Google AI · Blog",
+      "feedUrl": "https://blog.google/technology/ai/rss/",
+      "category": "AI 新闻",
+      "title": "Inside our 353,000-person vibe coding course",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "published": "2026-08-03T15:00:00Z",
+      "author": "Anant Nawalgaria",
+      "summary": "Illustrations of a laptop, an AI spark, messages, code, and a 3-D cube",
+      "content": "Illustrations of a laptop, an AI spark, messages, code, and a 3-D cube",
+      "readingMinutes": 1
+    },
+    {
       "id": "8b96329aed14643e",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -337,6 +441,32 @@
       "author": "",
       "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
       "content": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "8103c32837170038",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "如何在共享 GPU 基础架构上运行隔离的租户 Kubernetes 集群",
+      "url": "https://developer.nvidia.cn/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/",
+      "published": "2026-08-03T09:00:00Z",
+      "author": "wnger",
+      "summary": "每个团队运行专用的 Kubernetes 集群通常会导致隔离程度超出组织所需的程度。虽然一个集群可以在多个团队 … Continued",
+      "content": "每个团队运行专用的 Kubernetes 集群通常会导致隔离程度超出组织所需的程度。虽然一个集群可以在多个团队之间成功共享，但协调成本会随着团队数量的增加而增加。挑战包括 CRD 版本冲突、RBAC 重叠，以及没有明确的方法将 GPU 容量划分到团队级别的预算。在一定程度上，团队可能会开始要求自己的集群来重新获得自主性。 本文提供了一种模式，即在不分割硬件的情况下保持团队自主性。此解决方案涉及具有 GPU 池的单个控制平面集群、按团队配额共享的 GPU，以及每个团队隔离的 Kubernetes 控制平面，包括 API 服务器、控制器、数据存储、同步器和调度程序。这可以使用两种开源工具来实现：KAI Scheduler 和 vCluster。 按照教程步骤操作，您将有三个团队在自己的租户集群中运行真实的 GPU Kubernetes Pod，并且都共享一个物理 GPU。\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "5a91ad11205f080c",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "NVIDIA Vera Storage 基准测试：加速 AI 原生存储的加密、压缩、完整性检查和恢复",
+      "url": "https://developer.nvidia.cn/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/",
+      "published": "2026-08-03T09:00:00Z",
+      "author": "wnger",
+      "summary": "存储是每个代理式 AI 工作流的积极组成部分。当智能体检索企业知识、访问持久内存、重复使用键值 (KV) 缓存 … Continued",
+      "content": "存储是每个代理式 AI 工作流的积极组成部分。当智能体检索企业知识、访问持久内存、重复使用键值 (KV) 缓存数据、执行工具并生成新结果时，存储系统必须不断提供和保留移动智能体推理循环的数据。 每个智能体步骤都可以触发多个存储操作，并且这些操作可以在数千个并发智能体中重复执行，上下文窗口也会变得越来越大。提供和保留这些数据需要的不仅仅是基本的读取和写入。AI 推理在 GPU 上运行，但代理式进程、工具调用、数据管理任务以及支持它们的存储服务在 CPU 上运行。 在写入期间，存储可能会压缩和加密数据、计算校验和以及计算冗余。在读取期间，它可以验证、解密、解压缩或重建数据，然后再将其返回到应用程序。这些功能对于 AI 系统的安全性和弹性至关重要。当数据在存储路径中移动时，每个功能还需要额外的 CPU 处理。 随着智能体并发 (多个用户、AI 智能体或并行运行的任务)…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -496,19 +626,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "d3d0310a69e0c704",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "从拉萨到雅鲁藏布江大峡谷，我的春日西藏游记",
-      "url": "https://sspai.com/post/112843",
-      "published": "2026-08-02T06:38:25Z",
-      "author": "",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "content": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "d991dc9eafad872b",
       "feedTitle": "DeepSeek · Research",
       "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
@@ -545,19 +662,6 @@
       "author": "Qunhui Zhang",
       "summary": "Large language model (LLM) applications increasingly operate as streaming workflows combining retrieval, tool calls, safety filters, and multi-agent coordination. Although contemporary frameworks expose provider deltas, workflow nodes often treat generation as coarse request-res…",
       "content": "Large language model (LLM) applications increasingly operate as streaming workflows combining retrieval, tool calls, safety filters, and multi-agent coordination. Although contemporary frameworks expose provider deltas, workflow nodes often treat generation as coarse request-response steps, leaving queue management, worker allocation, ordering, and backpressure to ad hoc callback code. This paper presents AiFlow, a token-native reactive orchestration model that normalizes provider deltas into typed Context events propagated through a directed streaming graph. Each node is managed by a Node Guardian that declares and enforces local queue bounds, worker concurrency, ordering, overflow policy, cancellation propagation, and retry discipline. We formalize the bounded-memory property, present the compilation from a compact DSL and JSON graph form, and provide static validation for type safety, state concurrency, and injection compatibility. Controlled microbenchmarks, captured DeepSeek trace replay (30 runs), descriptive online runs, LangGraph baselines, a streaming RAG workload, and an Ollama local-backend check show that AiFlow does not alter provider-side Model TTFT but reduces Application TTFPT by 70.9-94.7\\% versus aggregation and keeps runtime-owned queue depth within declared bounds (93.7-96.5\\% MaxQ reduction versus unbounded policies). The supplementary artifact contains scripts, raw traces, machine-readable tables, checksums, and an API-free smoke test; the public implementation is available through the FIT Framework repository.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "17d25b4b8c3ba111",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "「弯道超车」赛车入门指北：进站不只为换胎，策略里的那本时间账",
-      "url": "https://sspai.com/post/112701",
-      "published": "2026-08-01T04:54:31Z",
-      "author": "",
-      "summary": "真正的比赛往往不只发生在赛道上，也发生在每一次进站窗口打开的时候。查看全文",
-      "content": "真正的比赛往往不只发生在赛道上，也发生在每一次进站窗口打开的时候。查看全文",
       "readingMinutes": 1
     },
     {
@@ -626,6 +730,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "acbf8757618be5c7",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Beyond VLAs: How World Action Models Reshape Robot Manipulation",
+      "url": "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/",
+      "published": "2026-07-31T18:57:04Z",
+      "author": "Michelle Horton",
+      "summary": "A central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy that succeeds in a training scene...",
+      "content": "A central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy that succeeds in a training scene...\nA central challenge in robotics is building policies that generalize beyond the demonstrations they’re trained on. A policy that succeeds in a training scene often fails when object shapes, positions, or lighting change. Generalizing to these new conditions requires the policy to understand the tasks underlying physics, not just mimic the demonstrations. This ability comes from the backbone it’s…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
       "id": "a0aac223fd2998c2",
       "feedTitle": "TensorRT-LLM Releases",
       "feedUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
@@ -662,6 +779,19 @@
       "author": "Rui Zou",
       "summary": "Large language models have demonstrated strong mathematical problem-solving capabilities, yet reliably verifying their candidate answers remains challenging. Existing representative methods mainly revise outputs through natural-language reflection or assist verification by direc…",
       "content": "Large language models have demonstrated strong mathematical problem-solving capabilities, yet reliably verifying their candidate answers remains challenging. Existing representative methods mainly revise outputs through natural-language reflection or assist verification by directly generating verification programs; the former may not reliably support exact computation, whereas the latter prematurely couples mathematical modeling with low-level implementation. We propose AMTFV (Agentic Mathematical Tool-Flow Verification). By introducing Mathematical Tool Flow (MTF) as an interrupt--execute--resume interface, AMTFV decouples verification modeling from concrete execution and supports exact computation through a mathematical toolbox. Specifically, the verification agent first constructs a verification workflow, encodes the mathematical objects and computational intent requiring reliable execution in an MTF request, and sends it to the mathematical toolbox agent. The latter parses the request, generates executable calls, and dispatches them to the backend for exact computation. Tool outputs then support candidate-answer adjudication, answer revision, and verification-workflow revision. We evaluate AMTFV on five challenging mathematical reasoning datasets with seven model configurations from DeepSeek, GPT, and Gemini. Experimental results show that AMTFV outperforms the representative baselines evaluated in this study overall; under an individual model configuration, it improves average accuracy over the strongest baseline by up to 8.3 percentage points, with larger gains on samples of medium and high verification complexity.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f2fac89beb1cb061",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "共同设计 AI 模型注意力，实现快速的交互式长上下文推理",
+      "url": "https://developer.nvidia.cn/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference/",
+      "published": "2026-07-31T15:16:17Z",
+      "author": "wnger",
+      "summary": "随着代理式和长上下文工作负载变得常见，上下文长度增加，注意力消耗更大比例的推理时间 (图 1) 。由于注意力现 … Continued",
+      "content": "随着代理式和长上下文工作负载变得常见，上下文长度增加，注意力消耗更大比例的推理时间 (图 1) 。由于注意力现在主宰了成本，因此模型的设计方式 (而不仅仅是实现方式) 越来越多地决定了模型的推理性能。围绕 GPU 的执行方式塑造模型架构是 AI 模型协同设计的前提。有关模型设计选择如何在不牺牲准确性的情况下影响吞吐量和交互性的讨论，请参阅上一篇文章《 AI 模型协同设计：硬件友好型 LLM 设计》。 本文将探讨组大小 (每个 KV 头的查询头) 、头维度和序列长度如何影响密集注意力的性能，其中每个查询都会关注序列长度上的所有键和值。蒸馏的分析以及注意力在 GPU 上的并行性，形成了四个实用指南：共同设计检查清单，帮助模型开发者提高 NVIDIA GPU 上的推理吞吐量和交互性。敬请关注有关稀疏注意力的博文。 每次分析都基于两个来源：来自 GEMM 形状算法的分析公式，\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -714,19 +844,6 @@
       "author": "Yongshi Ye",
       "summary": "Multi-domain machine translation (MDMT) poses a unique challenge due to varying levels of linguistic complexity across domains. Inspired by human translators' ability to adapt reasoning effort based on difficulty, we propose TwT (Translation with Thought), a resource-rational fr…",
       "content": "Multi-domain machine translation (MDMT) poses a unique challenge due to varying levels of linguistic complexity across domains. Inspired by human translators' ability to adapt reasoning effort based on difficulty, we propose TwT (Translation with Thought), a resource-rational framework that learns to modulate inference between intuitive and deliberate reasoning. TwT is trained in two stages: (1) supervised fine-tuning on difficulty-aware long chain-of-thought traces distilled from DeepSeek-R1 and rewritten by GPT-4o to reflect human-like reasoning economy, and (2) reinforcement learning with a hybrid reward to optimize translation quality and reasoning efficiency. Evaluated on 15 benchmarks spanning in-domain and out-of-domain settings, as well as 3 seen and 59 unseen languages, with ablations across three backbone models, TwT-7B and TwT-14B outperform much larger SOTA reasoning models in translation quality, while reducing token usage by 32--60\\%. These results confirm that aligning translation behavior with cognitive principles enables robust generalization, high translation quality, and efficient reasoning in MDMT.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "ed9463cb67ed1c24",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "本月玩什么｜节奏天国、斯普拉遁 涂击队、刺客信条：黑旗 记忆重置",
-      "url": "https://sspai.com/post/112962",
-      "published": "2026-07-31T10:49:07Z",
-      "author": "",
-      "summary": "以上便是部分近期值得探讨的新游信息汇总，个人角度仅供参考。本文设有有奖互动环节：你有什么特别喜欢的操作系统模拟玩法的游戏吗？（我很喜欢《Uplink》）提前感谢你真诚的分享。>关注少数派小红书，感受精 ...查看全文",
-      "content": "以上便是部分近期值得探讨的新游信息汇总，个人角度仅供参考。本文设有有奖互动环节：你有什么特别喜欢的操作系统模拟玩法的游戏吗？（我很喜欢《Uplink》）提前感谢你真诚的分享。>关注少数派小红书，感受精 ...查看全文",
       "readingMinutes": 1
     },
     {
@@ -1510,19 +1627,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "ee3f54330f399597",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo",
-      "url": "https://developer.nvidia.com/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo/",
-      "published": "2026-07-23T18:54:14Z",
-      "author": "Tanya Lenz",
-      "summary": "Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...",
-      "content": "Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...\nCoding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve build issues, launch experiments, monitor execution, analyze metrics, and summarize results. For reinforcement learning (RL) research, this matters because meaningful metrics often appear only after the essential experiment infrastructure…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "f71c222de176290e",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -1533,19 +1637,6 @@
       "author": "Michelle Horton",
       "summary": "For over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that...",
       "content": "For over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that...\nFor over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that sits underneath authenticated encryption, error-correcting codes, and modern zero-knowledge proofs. Until now, NVIDIA GPUs lacked native support for this operation. NVIDIA CUDA 13.3 closes that gap with , a new PTX instruction available on…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "36ab9a132fa3d83c",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Lessons From the Leaderboard: What 5,000+ Kagglers Taught Us About Improving AI Reasoning",
-      "url": "https://developer.nvidia.com/blog/lessons-from-the-leaderboard-what-5000-kagglers-taught-us-about-improving-ai-reasoning/",
-      "published": "2026-07-23T18:54:13Z",
-      "author": "Elizabeth Goodman",
-      "summary": "The NVIDIA Nemotron Model Reasoning Challenge invited the Kaggle community to explore a focused question: What techniques can improve reasoning accuracy when...",
-      "content": "The NVIDIA Nemotron Model Reasoning Challenge invited the Kaggle community to explore a focused question: What techniques can improve reasoning accuracy when...\nThe NVIDIA Nemotron Model Reasoning Challenge invited the Kaggle community to explore a focused question: What techniques can improve reasoning accuracy when everyone starts from the same open model, benchmark, infrastructure and evaluation constraints? The response was massive. By the close of the competition, more than 5,000 active participants across 4,000 teams had generated thousands of…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -2108,19 +2199,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "d155a97095048d60",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "NVIDIA Vera CPU：专为实现代理式 AI 的最大单线程性能而打造的 Olympus Core",
-      "url": "https://developer.nvidia.cn/blog/inside-nvidia-vera-cpu-olympus-cores-built-for-maximum-single-threaded-performance-in-agentic-ai/",
-      "published": "2026-07-21T11:00:00Z",
-      "author": "wnger",
-      "summary": "代理式 AI 将更多的关键执行路径转移到 CPU 上。智能体在沙盒中执行代码、调用工具、检索上下文、与数据库交 … Continued",
-      "content": "代理式 AI 将更多的关键执行路径转移到 CPU 上。智能体在沙盒中执行代码、调用工具、检索上下文、与数据库交互，以及分析结果，然后再将信息返回至模型。随着这些循环在 AI 工厂中同时运行，CPU 性能逐渐决定了每个智能体的响应速度和整个工厂的吞吐量。 这会创建一个不同的 CPU 设计点。智能体工作负载依赖于： 这些要求不同于传统的云 CPU 设计，后者通常优先处理更统一的工作负载的核心密度和吞吐量。相反，代理式 AI 在每个智能体循环中的连续、分支密集型和延迟敏感型软件路径上，更注重每线程的持续进度。 NVIDIA Vera CPU 专为此类工作负载而打造，其设计以 Olympus 核心为核心。本文将探讨 Olympus 核心架构、多线程方法、一致性结构、内存子系统，以及可在 AI 工厂规模下实现高单线程性能的安全纵向扩展连接。有关更深入的技术讨论，\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "d925d8c91f460a44",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -2209,32 +2287,6 @@
       "author": "",
       "summary": "In the previous article \"Cluster User Emulation System (CUE Agent) for Automated Blue Team and Red Team Activities in Cyber Exercises\" , I introduced the Cluster User Emulation System (CUE) and how to use this agent framework to automatically generate realistic Blue Team and Red…",
       "content": "In the previous article \"Cluster User Emulation System (CUE Agent) for Automated Blue Team and Red Team Activities in Cyber Exercises\" , I introduced the Cluster User Emulation System (CUE) and how to use this agent framework to automatically generate realistic Blue Team and Red Team user activities for cyber exercises. Such as emulating the daily behavior of legitimate users as well as attacker o",
-      "readingMinutes": 1
-    },
-    {
-      "id": "34528ab1d440321e",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "NVIDIA NVLink：适用于 AI 工厂的纵向扩展网络",
-      "url": "https://developer.nvidia.cn/blog/nvidia-nvlink-the-scale-up-network-for-ai-factories/",
-      "published": "2026-07-20T08:46:28Z",
-      "author": "wnger",
-      "summary": "对 AI 的需求持续加速。工作负载变得越来越大，模型变得越来越复杂，并且以前所未有的速度部署 AI 计算基础设 … Continued",
-      "content": "对 AI 的需求持续加速。工作负载变得越来越大，模型变得越来越复杂，并且以前所未有的速度部署 AI 计算基础设施的压力越来越大。AI 工厂是数据中心规模的系统，可持续将数据和能源转化为智能，以满足这种永无止境的需求。 这种面向数据中心的 AI 工厂方法从根本上改变了系统设计和运营。加速器 FLOPS 峰值已无法满足需求。当今的 AI 工作负载，包括万亿参数模型、多专家模型 (MoE) 架构、长上下文推理和分解服务，需要多个加速器作为单个计算单元协同工作。实现这一目标需要高带宽、低延迟的 GPU 到 GPU 通信、集合网络的快速网络计算以及软件感知调度。 考虑到组件数量众多，需要在整个数据中心中建立弹性。跟上 AI 的步伐需要能够跟上行业创新速度的技术和供应链。 因此，纵向扩展网络已成为 AI 工厂中最重要的架构决策之一。纵向扩展结构使加速器能够作为单个计算单元运行，\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "9581280eba8c9e72",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "将 NVIDIA Omniverse RTX 传感器仿真集成到现有应用中",
-      "url": "https://developer.nvidia.cn/blog/integrate-nvidia-omniverse-rtx-sensor-simulation-into-existing-apps/",
-      "published": "2026-07-20T08:00:00Z",
-      "author": "wnger",
-      "summary": "构建 3D、设计、仿真、机器人和工业数字孪生应用的开发者需要如何将物理 AI 功能引入他们已经使用的工具和服务 … Continued",
-      "content": "构建 3D、设计、仿真、机器人和工业数字孪生应用的开发者需要如何将物理 AI 功能引入他们已经使用的工具和服务中。其中许多工作流已依赖于 物理 AI 场景、OpenUSD 资产、仿真就绪 (SimReady) 基于 Blender 的工作流、CAD 工作流或特定领域的应用堆栈。挑战在于如何为应用和 AI 智能体提供可调用的工具，以检查场景、生成传感器输出、测试更改并返回开发者可以信任的证据。 NVIDIA Omniverse 库，现在是 NVIDIA Agent Toolkit 的一部分，提供模块化构建块，用于将这些功能添加到现有应用中。 ovrtx 是该堆栈中的 RTX 传感器仿真库，现已作为预发行软件在 GitHub 上提供。它为开发者提供了轻量级的 C 和 Python SDK，用于从 OpenUSD 内容生成摄像头、激光雷达、雷达和相关传感器输出，\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -2470,19 +2522,6 @@
       "summary": "TLDR The PyTorch-Triton 3.7 release introduces the Triton Plugin Extensions system, a framework for dynamically loading custom compiler passes, dialects (including their ops), and DSL extensions into upstream Triton at...",
       "content": "TLDR\n\nThe PyTorch-Triton 3.7 release introduces the Triton Plugin Extensions system, a framework for dynamically loading custom compiler passes, dialects (including their ops), and DSL extensions into upstream Triton at runtime, without forking or recompiling. As the first major consumer of this system, Meta’s Triton Language Extensions (TLX) are now enabled out of the box, bringing persistent GEMM kernels and fine-grained hardware control to stock Triton with performance that matches or exceeds vendor libraries on both NVIDIA H100 and AMD MI350.\n\nThe Problem: Why Extensions?\n\nWriting high-performance GPU kernels often requires going beyond what the default Triton compiler pipeline provides. Custom optimization passes, hardware-specific intrinsics, and specialized memory management patterns are essential for squeezing out the last drops of performance on production workloads. Until now, enabling these capabilities meant maintaining a fork of Triton and said forks come with real costs.\n\nForks quickly fall behind upstream. Every upstream update risks merge conflicts, broken APIs, and subtle behavioral changes that require careful reconciliation. Teams that pin to a forked version find themselves stuck on stale releases, unable to take advantage of upstream bug fixes, new hardware support, and community improvements. The maintenance burden compounds over time, and the fork becomes a bottleneck rather than an accelerator.\n\nWhat’s needed is a way to extend Triton’s compiler pipeline adding passes, ops, and even entire dialects without modifying core Triton at all. A plugin system that loads extensions dynamically at runtime would allow researchers and engineers to iterate on custom features at full speed, always running on the latest upstream release, and ship results without waiting for changes to be merged into the mainline repository.\n\nThe Triton Plugin Extensions System\n\nThe PyTorch Triton 3.7 release delivers exactly this: a general-purpose plugin extensions system that spans the entire compilation pipeline and built into upstream Triton. Plugins are shared libraries (.so files) that are discovered and loaded at runtime via the TRITON_PLUGIN_PATHS environment variable. No recompilation of Triton is required to install a plugin package, point the environment variable at it, and the extensions are immediately available.\n\nOverridable Compiler Pipeline\n\nAt the heart of the system is a set of hooks embedded in Triton’s backend compiler.py stages. These hooks provide fine-grained control over the MLIR pass pipeline at every lowering level from higher level Triton IR (TTIR) through TritonGPU IR (TTGIR) down to LLVM IR and target-specific assembly (PTX, AMDGCN). With these hooks, plugins can:\n\nInsert one or more custom passes at arbitrary points in any stage.\n\nDisable specific passes within a stage.\n\nReplace existing passes with specialized custom implementations (e.g., a custom warp specialization strategy).\n\nOverride entire stages or the full pipeline.\n\nThis is available on both the NVIDIA and AMD backends\n\nCustom Ops, Dialects, and Lowering\n\nThe plugin API is designed to complement PyBind11, enabling three levels of extensibility:\n\nCustom transformation passes: single passes that can be inserted at arbitrary points in the pipeline without an associated dialect.\n\nCustom MLIR dialects and conversion passes: separately compiled dialects loaded into Triton, with plugin passes that rewrite standard Triton IR patterns into custom dialect ops for specialized lowering.\n\nCustom top-level DSL ops: new Python-level syntax and semantics enabling entirely new programming abstractions without altering Triton itself.\n\nPer-Kernel Control\n\nPlugins can be toggled on and off dynamically at the kernel level. A compiler hook set in kernel code activates a custom pipeline for all kernels called after the hook is set, until it is unset. There is no limit on how many custom pipelines can be defined, and plugins are responsible for implementing their own hashing strategy for kernel cache management—ensuring that recompilation is triggered only when needed. This is handled entirely by the utlx library for the user.\n\n# Enabling the TLX plugin is as simple as setting an environment variable\nimport os\nimport sysconfig\n\ndist_packages = sysconfig.get_paths()[\"purelib\"]\nlibutlx_path = os.path.join(dist_packages, \"utlx_plugin\", \"libutlx.so\")\nos.environ[\"TRITON_PLUGIN_PATHS\"] = libutlx_path\n\nTLX: Triton Language Extensions, Now Built-In\n\nTriton Language Extensions (TLX) is a set of hardware-aware operations developed by Meta for explicit memory management and asynchronous compute/load pipelining. TLX gives kernel authors direct control over shared memory allocation, data movement, and instruction scheduling—capabilities that are critical for writing persistent kernels that saturate modern GPU hardware.\n\nThe core TLX operations include:\n\nOperation\n\nDescription\n\ntlx.local_alloc(shape, dtype, num_buffers)\n\nAllocate shared memory buffers for software pipelining.\n\ntlx.local_view(buffers, index)\n\nView a specific buffer within an allocation.\n\ntlx.async_load(src, dst, mask)\n\nInitiate an asynchronous load from global to shared memory.\n\ntlx.async_load_commit_group(tokens)\n\nCommit a group of async loads.\n\ntlx.async_load_wait_group(n)\n\nWait for async load groups to complete.\n\ntlx.async_dot(a, b, acc)\n\nAsynchronous matrix multiply-accumulate.\n\ntlx.async_dot_wait(n, acc)\n\nWait for async dot operations to complete.\n\ntlx.local_store(dst, src)\n\nStore data to shared memory.\n\ntlx.local_load(src)\n\nLoad data from shared memory to registers.\n\nPreviously, using TLX required building from Meta’s experimental Triton fork. With the plugin extensions system, TLX is now distributed as a standalone Python package (utlx) that works with unmodified upstream Triton. Starting with PyTorch-Triton 3.7, TLX will be enabled by default on all Triton releases going forward.\n\nCross-Hardware: NVIDIA H100 and AMD MI350\n\nOne of the key advantages of TLX is that the same programming model works across hardware vendors, while still mapping to vendor-specific features under the hood.\n\nNVIDIA H100 (Hopper) — Persistent GEMM\n\nOn Hopper GPUs, TLX maps to hardware-native TMA (Tensor Memory Accelerator) async loads and WGMMA (Warp Group Matrix Multiply-Accumulate) instructions. The persistent GEMM kernel uses multi-stage software pipelining with async commit/wait groups:\n\n@triton.jit\ndef matmul_kernel_pipelined_hopper(\na_ptr, b_ptr, c_ptr, M, N, K,\nstride_am, stride_ak, stride_bk, stride_bn, stride_cm, stride_cn,\nBLOCK_SIZE_M: tl.constexpr, BLOCK_SIZE_N: tl.constexpr,\nBLOCK_SIZE_K: tl.constexpr, GROUP_SIZE_M: tl.constexpr,\nNUM_STAGES: tl.constexpr,\n):\n# ... tile indexing ...\n\n# Allocate multi-stage shared memory buffers\nbuffers_A = tlx.local_alloc((BLOCK_SIZE_M, BLOCK_SIZE_K), tlx.dtype_of(a_ptr), NUM_STAGES)\nbuffers_B = tlx.local_alloc((BLOCK_SIZE_K, BLOCK_SIZE_N), tlx.dtype_of(b_ptr), NUM_STAGES)\n\n# Prefetch pipeline prologue\nfor i in tl.range(0, NUM_STAGES - 1, loop_unroll_factor=NUM_STAGES - 1):\na = tlx.local_view(buffers_A, i)\nb = tlx.local_view(buffers_B, i)\ntoken_a = tlx.async_load(a_ptrs, a, mask=...)\ntoken_b = tlx.async_load(b_ptrs, b, mask=...)\ntlx.async_load_commit_group([token_a, token_b])\n\n# Main K loop with overlapped compute and data movement\nacc = tl.zeros((BLOCK_SIZE_M, BLOCK_SIZE_N), dtype=tl.float32)\nfor k in tl.range(0, tl.cdiv(K, BLOCK_SIZE_K), num_stages=0):\nbuf = k % NUM_STAGES\ntlx.async_load_wait_group(NUM_STAGES - 2)\nacc = tlx.async_dot(\ntlx.local_view(buffers_A, buf),\ntlx.local_view(buffers_B, buf),\nacc\n)\n# Prefetch next stage ...\n\nacc = tlx.async_dot_wait(0, acc)\n# Store results ...\n\nNVIDIA H100 (Hopper) — Performance Results\n\nThe table below shows FP16 GEMM throughput on NVIDIA H100 comparing stock Triton with the TLX extension plugin against cuBLAS. Since the plugin system produces identical codegen to the compiled-in fork, these results apply to both paths.\n\nOn the large, compute-bound shapes that dominate production LLM workloads, Triton + TLX matches cuBLAS on square GEMM and exceeds it on the wide and large shapes, confirming that the plugin-loaded path introduces zero overhead while reaching or beating the vendor library:\n\n128×13312×16384: cuBLAS 247.8 TFLOPS → Triton+TLX 257.0 TFLOPS (+3.7%)\n\n16384×8192×8192: cuBLAS 549.4 TFLOPS → Triton+TLX 566.7 TFLOPS (+3.2%)\n\n8192×16384×8192: cuBLAS 564.8 TFLOPS → Triton+TLX 575.9 TFLOPS (+2.0%)\n\n8192×53248×8192: cuBLAS 571.3 TFLOPS → Triton+TLX 573.2 TFLOPS (+0.3%)\n\n8192×28672×4096: cuBLAS 560.4 TFLOPS → Triton+TLX 559.8 TFLOPS (−0.1%)\n\n8192×8192×8192: cuBLAS 582.3 TFLOPS → Triton+TLX 577.0 TFLOPS (−0.9%)\n\nAMD MI350 — Pipelined GEMM\n\nOn AMD MI350 GPUs, TLX uses explicit register-based pipelining with local_store and local_load operations. The same buffer management pattern applies, but the data movement path goes through registers rather than async hardware units:\n\n@triton.jit\ndef matmul_kernel_pipelined_mi300(\na_ptr, b_ptr, c_ptr, M, N, K, ...\n):\n# ... tile indexing ...\n\n# Allocate shared memory buffers\nbuffers_A = tlx.local_alloc((BLOCK_SIZE_M, BLOCK_SIZE_K), tlx.dtype_of(a_ptr), NUM_STAGES - 1)\nbuffers_B = tlx.local_alloc((BLOCK_SIZE_K, BLOCK_SIZE_N), tlx.dtype_of(b_ptr), NUM_STAGES - 1)\n\n# Prologue: load into shared memory via registers\nfor i in tl.range(0, NUM_STAGES - 1, loop_unroll_factor=NUM_STAGES - 1):\na_reg = tl.load(a_ptrs, mask=...)\nb_reg = tl.load(b_ptrs, mask=...)\ntlx.local_store(tlx.local_view(buffers_A, i), a_reg)\ntlx.local_store(tlx.local_view(buffers_B, i), b_reg)\n\n# Main loop: overlapped compute and memory operations\nacc = tl.zeros((BLOCK_SIZE_M, BLOCK_SIZE_N), dtype=tl.float32)\nfor k in tl.range(NUM_STAGES - 1, K_ITERS, num_stages=0):\n# Load next tile into registers\na_reg = tl.load(a_ptrs, mask=...)\nb_reg = tl.load(b_ptrs, mask=...)\n\n# Compute on previously staged data\na_prev = tlx.local_load(tlx.local_view(buffers_A, buf))\nb_prev = tlx.local_load(tlx.local_view(buffers_B, buf))\nacc = tl.dot(a_prev, b_prev, acc)\n\n# Store new data to shared memory for next iteration\ntlx.local_store(tlx.local_view(buffers_A, ...), a_reg)\ntlx.local_store(tlx.local_view(buffers_B, ...), b_reg)\n\nAMD MI350 — Performance Results\n\nThe table below shows FP16 GEMM throughput on AMD MI350 comparing stock Triton with the TLX extension plugin against rocBLAS. Since the plugin system produces identical codegen to the compiled-in fork, these results apply uniformly to both paths.\n\nTriton + TLX delivers 12–15% higher TFLOPS consistently across all tested matrix sizes, confirming that the plugin-loaded path introduces zero overhead while exceeding the vendor library:\n\n256×256×256: rocBLAS 4.4 TFLOPS → Triton+TLX 5.0 TFLOPS (+11.8%)\n\n512×512×512: rocBLAS 29.4 TFLOPS → Triton+TLX 33.9 TFLOPS (+15.2%)\n\n1024×1024×1024: rocBLAS 161.2 TFLOPS → Triton+TLX 180.8 TFLOPS (+12.1%)\n\n2048×2048×2048: rocBLAS 445.1 TFLOPS → Triton+TLX 511.9 TFLOPS (+15.0%)\n\nGPUMode Trimul Multiplicative Update Validation\n\nWe wanted to validate the plugin path in the production, and also on a heavy kernel pipeline closer to the real problem rather than a standalone microbenchmark. On GPU mode, there was a Trimul multiplicative update – five projection GEMMs feeding a batched matmul plus an output linear, wrapped in layer norms, sigmoid gates, and permutations. The PyTorch + torch.compile baseline ran at 19.2ms, dominated by GEMMs. With the TLX plugin loaded into stock Triton via TRITON_PLUGIN_PATHS, we dropped the warp-specialized persistent GEMM (hopper_gemm_ws.py). Because TLX exposes the matmul as just another Triton kernel, we could collapse the pipeline around it. The final TLX-WS + fusion submission ran at 12.0ms, with a 1.61x speedup over the cuBLAS + torch.compile baseline, beating libcuEquivariance and all other SOTA implementations on H100. We’ve later extended with CLC pipelining on B200, further widening the gap. The final takeaway is the actual extensions integration took a few lines of installing wheel on gpu mode and very little set up overhead.\n\nIdentical CodeGen, Zero Fork Required\n\nA critical validation of the plugin approach is that the generated code is identical to what the Meta Triton fork produces. The TLX extension plugin goes through the same MLIR lowering pipeline; the only difference is that the passes and ops are loaded dynamically rather than compiled in.\n\nOur demos confirm:\n\nIdentical PTX codegen on NVIDIA H100 for persistent GEMM kernels.\n\nIdentical AMDGCN codegen on AMD MI350 for pipelined GEMM kernels.\n\nEquivalent performance — no measurable overhead from the dynamic loading path.\n\nThe Colab notebooks and standalone scripts used for this validation are available below and will be updated to point to the official PyTorch-Triton 3.7 packages after the release ships.\n\nGetting Started\n\nGetting started with TLX on upstream Triton is straightforward:\n\n# Install Triton (from source) and the TLX extension from PyPI package\ngit clone https://github.com/triton-lang/triton && cd triton\nTRITON_EXT_ENABLED=ON pip install -e . --no-build-isolation && cd ..\n# uTLX plugin (published on PyPI):\npip install triton-utlx\n\nThe utlx package includes the pre-built extension library. Once installed, set the plugin path and import the extensions:\n\nimport os\nimport sysconfig\n\n# Point Triton at the TLX plugin\ndist_packages = sysconfig.get_paths()[\"purelib\"]\nos.environ[\"TRITON_PLUGIN_PATHS\"] = os.path.join(dist_packages, \"utlx_plugin\", \"libutlx.so\")\n\n# Now TLX ops are available in your kernels\nimport triton\nimport triton.language as tl\nimport utlx_plugin as tlx\n\nTo explore the full demos and repositories:\n\nH100 Persistent GEMM Notebook: Colab\n\nH100 Standalone Script: GitHub Gist\n\nAMD MI350 Pipelined GEMM: GitHub Gist\n\nPlugin Documentation: triton/lib/Plugins/README.md\n\nExtension Repository: triton-lang/triton-ext\n\nutlx PyPI Project: https://pypi.org/project/triton-utlx/\n\nWhat’s Next\n\nThe plugin extensions system opens the door to a growing ecosystem of community-developed Triton extensions. Areas of active development and future proposals include:\n\nCustom backends: dynamically loaded out-of-tree backends for Intel, CPU, and other targets without modifying Triton’s build system.\n\ntriton-distributed: distributed computing primitives as an extension.\n\nCustomized versions of instrumentation and profiling tools like Proton and ConSan developed as plugins for user specific runtime-loadable performance analysis\n\nCustom optimization passes: target-specific warp specialization, loop splitting, and model-specific optimizations shipped as add-ins\n\nSpecialized ops: 2:4 structured sparsity, custom layout conversions, and more\n\nWe’re looking forward to community engagement in picking up and implementing extensions that unlock new capabilities for the broader Triton ecosystem. If you’re interested in contributing, start with the triton-ext repository and the plugin documentation.",
       "readingMinutes": 10
-    },
-    {
-      "id": "23b1197c74335456",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "The US is advancing AI safety through state and federal action",
-      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "published": "2026-07-15T12:00:00Z",
-      "author": "",
-      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "content": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "readingMinutes": 1
     },
     {
       "id": "50c3e70c754922fd",
@@ -2778,19 +2817,6 @@
       "title": "The long term benefit trust",
       "url": "https://www.anthropic.com/news/the-long-term-benefit-trust",
       "published": "2026-07-09T19:21:35Z",
-      "author": "Anthropic",
-      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
-      "content": "",
-      "readingMinutes": 0
-    },
-    {
-      "id": "5a81a35f01891896",
-      "feedTitle": "Anthropic · News",
-      "feedUrl": "https://www.anthropic.com/sitemap.xml",
-      "category": "AI 新闻",
-      "title": "Ben bernanke",
-      "url": "https://www.anthropic.com/news/ben-bernanke",
-      "published": "2026-07-09T18:07:20Z",
       "author": "Anthropic",
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
@@ -3928,19 +3954,6 @@
       "readingMinutes": 5
     },
     {
-      "id": "10845ea96e172413",
-      "feedTitle": "Google AI · Blog",
-      "feedUrl": "https://blog.google/technology/ai/rss/",
-      "category": "AI 新闻",
-      "title": "How we used Gemini to build Google I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "published": "2026-06-01T16:00:00Z",
-      "author": "Marvin Chow",
-      "summary": "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
-      "content": "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
-      "readingMinutes": 1
-    },
-    {
       "id": "d72796303eb13d41",
       "feedTitle": "TensorRT-LLM Releases",
       "feedUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
@@ -3951,19 +3964,6 @@
       "author": "niukuo",
       "summary": "Signed-off-by: Yiteng Niu 6831097+niukuo@users.noreply.github.com",
       "content": "Signed-off-by: Yiteng Niu 6831097+niukuo@users.noreply.github.com",
-      "readingMinutes": 1
-    },
-    {
-      "id": "45a6a15551bea239",
-      "feedTitle": "Google AI · Blog",
-      "feedUrl": "https://blog.google/technology/ai/rss/",
-      "category": "AI 新闻",
-      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-      "published": "2026-05-29T19:00:00Z",
-      "author": "Zahra Thompson",
-      "summary": "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
-      "content": "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
       "readingMinutes": 1
     },
     {
