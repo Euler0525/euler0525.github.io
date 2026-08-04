@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T17:47:30.773509Z",
+  "generatedAt": "2026-08-04T06:19:07.568319Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -87,7 +87,7 @@
       "url": "https://deepmind.google/blog/rss.xml",
       "category": "AI 技术",
       "siteUrl": "https://deepmind.google/blog/",
-      "articleCount": 22,
+      "articleCount": 20,
       "error": ""
     },
     {
@@ -127,7 +127,7 @@
       "url": "https://kubernetes.io/feed.xml",
       "category": "AI Infra",
       "siteUrl": "https://kubernetes.io/",
-      "articleCount": 15,
+      "articleCount": 16,
       "error": ""
     },
     {
@@ -175,7 +175,7 @@
       "url": "https://github.com/kserve/kserve/releases.atom",
       "category": "AI Infra",
       "siteUrl": "https://github.com/kserve/kserve/releases",
-      "articleCount": 5,
+      "articleCount": 6,
       "error": ""
     },
     {
@@ -197,6 +197,97 @@
   ],
   "articles": [
     {
+      "id": "4c06c93e8ae3e1a5",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "告别 Token 焦虑：用 NVIDIA DGX Spark 打造游戏 UGC 多智能体「AI 圆桌」协作系统",
+      "url": "https://developer.nvidia.cn/blog/spark-ugc-ai-roundtable/",
+      "published": "2026-08-04T04:21:42Z",
+      "author": "wnger",
+      "summary": "获奖背景 我们是来自苏州大学的学生开发团队。在 挑战杯中国大学生创业计划竞赛，中，本文介绍的这套多智 … Continued",
+      "content": "我们是来自苏州大学的学生开发团队。在 挑战杯中国大学生创业计划竞赛，中，本文介绍的这套多智能体协作系统帮助我们获得了 江苏省一等奖。这篇文章记录了整个系统从零到一的完整工程实践，希望能为同样在探索本地 AI 开发的开发者提供参考。 我们在 NVIDIA DGX Spark 上本地部署开源大模型，并借助 OpenClaw 多智能体框架，构建了一套专门面向 Minecraft UGC 开发的「AI 圆桌会议」系统——让 7 个专业智能体像真实团队一样讨论、质疑、修正，最终产出一致的设计方案。 游戏 UGC（User Generated Content）的开发，与传统的软件开发有着明显不同。 在大多数项目中，真正消耗团队时间的并不是代码，而是内容生产。一个玩法从概念到上线，往往需要经历玩法策划、剧情设计、NPC 对话、数值配置、程序实现、\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c7de0fdeca01eb7e",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "角落新声｜成年的快乐，是可以将角落铺满全家",
+      "url": "https://sspai.com/post/112738",
+      "published": "2026-08-04T02:59:26Z",
+      "author": "",
+      "summary": "我理解中的角落，不是电影里那种阴暗逼仄、藏着邪恶与不堪的地方，而是生活中时间与现实的锚点。查看全文",
+      "content": "我理解中的角落，不是电影里那种阴暗逼仄、藏着邪恶与不堪的地方，而是生活中时间与现实的锚点。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "40722e296b22153f",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：MiniMax H3 开源、Qwen3.8-Max 发布等",
+      "url": "https://sspai.com/post/113053",
+      "published": "2026-08-04T00:13:40Z",
+      "author": "",
+      "summary": "少数派的近期动态投稿征文赢好礼！「角落新声」征文活动距离结束还有一周。火速投稿新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡。点击了解你可能错过的文章角落新声｜两平米、两个角落，安放两个自己 ...查看全文",
+      "content": "少数派的近期动态投稿征文赢好礼！「角落新声」征文活动距离结束还有一周。火速投稿新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡。点击了解你可能错过的文章角落新声｜两平米、两个角落，安放两个自己 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f1441a1998a6f28b",
+      "feedTitle": "KServe Releases",
+      "feedUrl": "https://github.com/kserve/kserve/releases.atom",
+      "category": "AI Infra",
+      "title": "v0.20.0-rc1",
+      "url": "https://github.com/kserve/kserve/releases/tag/v0.20.0-rc1",
+      "published": "2026-08-04T00:00:40Z",
+      "author": "cjohannsen-cloudera",
+      "summary": "What's Changed since v0.20.0-rc0 feat(llmisvc): drop old flag to support new TLS flag for disagg-sidecar by @madhugoutham in #5875 fix(llmisvc): escape quotes in generated --kv-transfer-config by @Chung-Hsuan-Tsai in #5880 fix(llmisvc): skip v1alpha2 InfPool reconcile when CRD a…",
+      "content": "What's Changed since v0.20.0-rc0\n\nfeat(llmisvc): drop old flag to support new TLS flag for disagg-sidecar by @madhugoutham in #5875\n\nfix(llmisvc): escape quotes in generated --kv-transfer-config by @Chung-Hsuan-Tsai in #5880\n\nfix(llmisvc): skip v1alpha2 InfPool reconcile when CRD absent by @bartoszmajsak in #5890\n\nrelease: prepare release v0.20.0-rc1 by @cjohannsen-cloudera in #5894\n\nFull Changelog: v0.20.0-rc0...v0.20.0-rc1",
+      "readingMinutes": 1
+    },
+    {
+      "id": "2fb00782bce4f744",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Advancing Semiconductor Innovation Across Materials Engineering and Manufacturing",
+      "url": "https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing/",
+      "published": "2026-08-03T22:11:49Z",
+      "author": "Tanya Lenz",
+      "summary": "As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have...",
+      "content": "As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have...\nAs AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have outsized financial impact in fast-moving AI hardware cycles. Simultaneously, the shift from chip-level optimization to system-level engineering is compounding thermal and power challenges. Meeting these demands requires breakthroughs…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "4a9b73e77846b899",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Apple is getting this wrong",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "published": "2026-08-03T22:00:00Z",
+      "author": "",
+      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "content": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "6f6bcc8e979832ff",
+      "feedTitle": "Meta Engineering",
+      "feedUrl": "https://engineering.fb.com/feed/",
+      "category": "AI Infra",
+      "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
+      "url": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
+      "published": "2026-08-03T18:00:17Z",
+      "author": "",
+      "summary": "Meta’s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post goes into the details on how we achieved: doubling end-to-end (E2…",
+      "content": "Meta’s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post goes into the details on how we achieved: doubling end-to-end (E2E) training efficiency to 20–25% Model FLOPs Utilization (MFU) while scaling training FLOPs 4x in 12 months, by co-designing kernels, precision, parallelism, networking, and memory together.\n\nTraining GEM presents unique engineering challenges at the intersection of recommendation systems and LLMs as the model combines a hybrid architecture plus recommendations-domain data properties that are unlike typical LLM workloads.\n\nAI infrastructure optimized for LLM training (kernels, parallelism, low precision recipes etc.) does not directly transfer, requiring significant innovation and hardware/software co-design to reach LLM-scale training for recommendation models efficiently.\n\nWe tackled these challenges through complementary compute efficiency and scaling efficiency innovations:\n\nCompute efficiency: Achieved through a customized recommendation kernel library — Jagged Flash Attention (JFA), Generalized Dot-Product Attention (GDPA), BlockAttention, etc. — and mixed ultra-low precision training (including MXFP8 attention and MLP) optimized for recommendation workloads, purpose-built to exploit latest generation GPU’s architecture.\n\nScaling efficiency: Topology-aware 5D parallelism with Streaming Multiprocessor (SM)-free collectives — 2D FSDP + Expert Parallelism for dense parameters, combined with Fully Sharded 2D Model Parallelism for sparse parameters — co-designed with Meta’s multi-tiered network hierarchy to reduce communication overhead.\n\nThe results: we doubled GEM’s E2E training efficiency to 20-25% MFU while scaling total training FLOPs 4x over the past 12 months.\n\nGEM’s Architecture And Its Unique Training Challenges\n\nGEM is the central recommendations foundation model behind Meta’s ads system. It has a hybrid architecture with trillions of sparse embedding parameters and billions of dense parameters. GEM is trained on ad content and user engagement data with two categories of features: sequence features (e.g., user activity history) and non-sequence features (e.g., user location, ad creative representation). Customized attention mechanisms are applied to each group independently, while also enabling cross-feature learning.\n\nThe interplay between this hybrid architecture and rec-domain data properties is what makes GEM’s training uniquely challenging.\n\nChallenge 1: Achieving High Per-GPU Utilization\n\nToday’s data center GPUs and their software stacks are mostly optimized for LLM workloads, whereas recommendation workloads have a fundamentally different profile due to unique data characteristics and rich user & ads signal interaction patterns that make it extremely difficult to achieve high GPU compute utilization for training a foundational recommendation model of GEM’s size.\n\nJagged Inputs: Training samples have highly variable sequence length as user activity history can vary wildly. Padding to max length would waste up to 50% compute.\n\nDiverse interaction patterns and asymmetric sequences: Self-attention operates on extremely long sequences (activity history) but short attention window; cross-attention learns user x ads interaction with long queries but short key/value; pooled multi-head attention (PMA) compress user activity history, resulting in short queries but long key/value. These asymmetric shapes make intra kernel pipelining less effective to saturate compute units.\n\nMemory-bound operations: e.g., small embedding dimension for MLP and various normalizations for model quality and training stability leave compute units underutilized.\n\nNumerical sensitivity: Ads optimization tasks (CTR/CVR prediction) are highly sensitive to numerical change (e.g., precision), making naïve low-precision training prone to quality regression.\n\nChallenge 2: Scaling Efficiently Across Thousands of GPUs\n\nTraining GEM across thousands of GPUs with trillions of sparse embedding parameters and billions of dense parameters requires scaling efficiently, not just scaling up. Simply adding more GPUs does not translate to proportional speedup. In distributed training, E2E latency per training step is determined by:\n\nE2E Latency = Max across GPU Rank (Max(Local Compute Time, Communication Time))\n\nNear-linear scaling requires four conditions:\n\nTotal compute time >> total communication time.\n\nCommunication hidden behind compute without contention.\n\nMinimal recomputation from memory pressure.\n\nGood load balancing across ranks.\n\nGEM’s workload threatens every one of these:\n\nO(Trillion) sparse parameters and O(Billion) dense parameters drive heavy communication with mixed compute patterns.\n\nArchitecture diversity across layers makes overlap windows uneven; resource contention between communication and computation makes hiding communication non-trivial.\n\nLong sequences with large activations push memory usage toward its limit, forcing activation recomputation that erodes efficiency.\n\nJagged sequences across samples create data-driven load skew that varies across ranks.\n\nOur Approach and Efficiency Framework\n\nGiven the challenges outlined above, we needed a framework that turned a sprawling co-design effort into a small number of technical levers. We measure training efficiency through E2E MFU, which decomposes into two factors:\n\nE2E MFU = Local MFU (compute efficiency) × Scaling Ratio (scaling efficiency)\n\nThese factors describe two related but distinct optimization problems.\n\nLocal MFU (compute efficiency) measures how well a single GPU’s compute units are utilized — how close the workload runs to the hardware roofline. It is determined by kernel design, numerical precision, and how well the workload’s compute patterns (data dimensions, sequence lengths) map onto GPU architecture (Tensor cores, memory hierarchy, streaming multiprocessor scheduling).\n\nScaling Ratio (scaling efficiency) measures how much single-GPU performance is retained when distributing across thousands of GPUs. A scaling ratio of 1.0 means perfect linear scaling; in practice, communication overhead, load imbalance, straggler effects, and activation recomputation from memory pressure all erode it.\n\nTo isolate local MFU, we run model layers individually on a single GPU and compute a weighted average MFU without activation recomputation or communication exposure. The scaling ratio is derived as the ratio between local and E2E MFU.\n\nThis decomposition matters because it lets us treat compute efficiency and scaling efficiency as related but distinct optimization problems, each with its own dedicated set of techniques:\n\nCompute efficiency is a kernel-level and numerical-precision problem. The levers are kernel design and ultra-low-precision training — both targeting the per-GPU roofline.\n\nScaling efficiency is a distributed-systems problem. The levers are parallelism strategy, network topology mapping, networking efficiency, memory management, and load balancing — all targeting the gap between single-GPU and multi-GPU throughput.\n\nBoth must be addressed to maximize end-to-end MFU.\n\nOptimizing Compute Efficiency With Recommendation Kernels and Ultra-Low-Precision Training\n\nTo address the recommendations-system-specific challenges mentioned above and push up GPU FLOPS utilization, we built a custom kernel library and an ultra-low-precision training recipe custom-built and optimized for recommendation workloads on the latest GPU hardware.\n\nJFA — eliminates the up-to-50% compute waste from padding jagged inputs.\n\nBlockAttention — reduces long user-history self-attention cost from O(L²) to O(L) while preserving model quality and efficiency\n\nGDPA — unifies and accelerates GEM’s diverse, asymmetric attention modules where FlashAttention’s dense long-sequence assumptions break down\n\nMXFP8 attention + MLP — turns lower-precision Tensor Core throughput into real end-to-end speedups without regressing precision-sensitive CTR/CVR objectives\n\nInside the Customized Kernel Library for Recommendation\n\nJagged Sequence Flash Attention\n\nFlashAttention is designed for dense, fixed-length sequences common in LLMs. In recommendation models, user sequences are inherently jagged — varying from hundreds to tens of thousands of tokens per sample — and padding to max length could waste up to 50% of compute.\n\nStandard FlashAttention implementations assume uniform sequence lengths for efficient tiling and parallelization; with jagged inputs, naive approaches either pad (wasting compute) or leave SMs idle when short sequences finish early. We developed JFA, a custom FlashAttention implementation that operates directly on variable-length jagged tensors, eliminating padding overhead while supporting rec-specific features such as custom attention biases, asymmetric query/key-value lengths, and efficient backward passes.\n\nWe evolved JFA through four generations, progressively closing the gap from being slower than padded SDPA (scaled dot-product attention) to matching SOTA CUDA/Cutlass performance on latest-generation GPUs:\n\nJagged masking via subtraction scheme: Traditional 2D masking for jagged boundaries (marking invalid positions with -inf) consumes significant non-tensor-core instructions (~28% of executed instructions). We replaced this with a novel subtraction scheme — masking Query/Key with zeros (which the Tensor Memory Accelerator (TMA) does for free) and subtracting the extra exponents — producing numerically equivalent results without the masking overhead.\n\nBackward parallelization: FlashAttention’s backward pass requires accumulating dQ across sequence tiles, typically via costly atomic adds. We explored multiple schemes (seq-parallel with atomics, no seq-parallel, seq-parallel with recompute, split dQ/dKdV) and found that for rec workloads with high batch x heads, a non-seq-parallel scheme with split dQ computation delivers 21-40% backward speedup by eliminating both atomic writes and redundant recomputation.\n\nWarp specialization and persistent kernels: Upgrading to Triton Low-Level Extensions (TLX) enabled explicit warp specialization, along with use of TMA, and persistent kernel scheduling — unlocking 30-100% TFLOPS improvement by leveraging the latest hardware feature.\n\nJFA v4 (TLX) achieves 40-140% TFLOPS improvement over JFA v2, which delivers consistent gains under production jagged distributions (sparsity 0.5), contributing to 18.5% relative local MFU gain and 12% QPS gain.\n\nGeneralized Dot-Product Attention (GDPA)\n\nGEM uses diverse attention-like interaction patterns — self-attention, PMA, and cross-attention — that share a common structure: two matrix multiplications with an element-wise activation in between, but replace softmax with activations like GELU or SiLU. We unify these modules under a single GDPA kernel optimized for production RecSys training workloads on latest generation GPUs.\n\nExisting FlashAttention kernels are designed for LLM-style dense, long-sequence inputs and perform poorly under real production traffic. We observed a 2.6x forward performance gap and up to 4x worst-case gap between real-world workloads and synthetic benchmarks driven by short/asymmetric K/V sequences, jagged inputs, and large batch sizes that break pipeline occupancy assumptions.\n\nWe redesigned the kernel pipeline, scheduling, and math to close the performance gap between real-world traffic and hardware roofline.\n\nPipeline redesign for non-softmax activations: Eliminating the softmax correction stage frees four warps and their registers. For short K/V sequences, outer-loop software pipelining recovers ~10% performance lost by inner-loop pipelining when the inner loop runs only 1–2 iterations.\n\nSoftware-level tile scheduling for jagged tensors: precompute valid tiles on CPU, skip empty tiles entirely, and apply zigzag assignment across SMs — reducing workload skew from 6x to near-balanced.\n\nALU-only activation approximation: Replace GELU’s SFU-bound tanh with a 6th-order Taylor expansion (ALU-only), accurate within the bounded input range enforced by QK-norm (query/key normalization). Eliminates SFU contention in both forward and backward passes.\n\nWith these optimizations, the optimized GDPA kernel achieves 2x forward speedup (1,145 BF16 TFLOPs, ~97% Tensor Core utilization) and 1.6x backward speedup over baseline. Under short K/V production settings, it achieves up to 3.5x forward speedup over Flash Attention 4 (FA4). Applied across the full model, these kernels deliver over 30% end-to-end training throughput improvement.\n\nBlockAttention\n\nFor GEM self-attention, the core efficiency challenge was scaling long user sequences without paying the quadratic cost of full attention. We first moved the layer from full self-attention to sliding-window attention, limiting each token to nearby events and reducing complexity from O(L2) to O(L * window). This made longer sequences practical. The Sliding Window Attention (SWA) kernel skipped off-window tiles in JFA and reduced long-sequence self-attention latency by up to 68% with neutral NE (normalized entropy, a model-quality metric).\n\nWe then pushed the structure further with block-aligned attention. Since GEM could safely use fixed 64-token blocks, each Q block only attends to its corresponding K/V block, turning attention into independent 64×64 problems. This removes the partial-window masking and multi-tile iteration still present in SWA, and lets a dedicated TLX kernel eliminate FlashAttention overheads such as online softmax correction, logsumexp HBM traffic, and separate Di preprocessing.\n\nFusing RoPE backward into the attention epilogue removes another memory-bound kernel and keeps gradients in FP32 registers. Together, TLX block attention + fused rotary improves self-attention layer MFU by +30.6% over Triton block attention, or roughly +44% over the SWA baseline.\n\nMixed Ultra-Low-Precision Training\n\nOn a GPU, lower precision directly translates to higher Tensor core throughput. For the latest generation GPU, FP8 delivers 2x peak FLOPS over FP16, and FP4 delivers 4x. We expect the peak FLOPS of low precision to increase faster in next-generation GPUs. This makes low-precision training increasingly attractive as hardware vendors scale low-precision FLOPS faster than FP16.\n\nHowever, making low-precision training work without quality regression — addressing both numerical stability and quantization overhead — remains an industry-wide challenge. We developed MXFP8 Attention and MLP with numerical stability enhancement, which addressed both training stability and quantization overhead.\n\nLow Precision Flash Attention\n\nWe extended the FA4 kernel with end-to-end MXFP8 blockscaled MMA for both forward and backward passes leveraging latest generation GPUs’ native support for low precision. The main challenge is that low precision attention is not just a datatype swap. Scale factors must be generated along each GEMM’s (General Matrix Multiplications) K dimension, staged through shared memory (SMEM) / tensor memory (TMEM) despite FA4’s already full TMEM footprint, and computed online for intermediates such as softmax P and backward dS.\n\nTo make the Tensor core speedup survive at module level, quantization was fused into upstream normalization and projection kernels, emitting FP8 activations and tensor-core-friendly scale layouts directly while avoiding extra BF16 global-memory traffic. For GEM’s jagged recommendation workloads, FP8 data stays at unpadded positions and only compact scale factors are scattered/padded for TMA. This turns MXFP8 block-scaled MMA support into practical E2E attention speedups without introducing model quality regressions.\n\nTo meet our unique requirements we had to develop three new innovations at the kernel level:\n\nTMEM scale factor placement: The original FA4 fully utilized 512-column TMEM for accumulators, leaving no room for block-scale factors. We solve this by overlapping scale factors with temporarily-unused TMEM regions (e.g., placing S(i) scale factors in the S(1-i) accumulator region), requiring only one additional lightweight barrier that is hidden behind existing GEMM latency.\n\nOnline P-to-MXFP8 conversion: Softmax output (P) is quantized to MXFP8 in-place within the softmax warp, reusing the row-max already computed for softmax normalization to avoid redundant reductions. Scale factors are derived via optimized PTX bit-manipulation sequences instead of expensive log2/round/clamp operations.\n\nBlock-wise Quantization: We use [32, 32] square quantization computing one scale factor per 32×32 block via redux.sync.max.abs.f32 warp-wide reduction — making quantization transpose-invariant so each tensor is quantized only once. This is useful for the backward pass, where transposed Q,K values are needed.\n\nOn GEM representative shapes, measured on Meta internal power capped latest generation GPU, we achieved >1.3x speedup for the forward kernel with MXFP8. For the backward kernel, we achieved >1.5x speedup with MXFP8.\n\nHandling Quantization Overhead\n\nQuantization overhead mainly comes from two sources, model parameters (weights) and intermediate tensors (activations). If handled naively, the extra casting, scaling, and data movement can offset the compute speedup from low-precision Tensor cores.\n\nWeight – quantization on Fully Sharded Data Parallel (FSDP) shard\n\nPre-all-gather shard quantization: quantize each rank’s local shard before FSDP all-gather to amortize the quantization cost across ranks, this avoids re-quantizing the fully gathered weight on every rank.\n\nQuantized FSDP communication: communicate low-precision payloads (vs. BF16) to reduce all-gather volume and cut all-gather latency which further neutralizes the quantization overhead.\n\nActivation – kernel fusion\n\nLinear modules: Instead of doing a separate quantization step with extra kernel launch + HBM traffic, we fused activation quantization into the preceding normalization (PreNorm fusion) to avoid the overhead.\n\nAttention modules: In addition to PreNorm fusion, we also fused quantization into the preceding projection so the attention kernel consumes low-precision activations directly with no extra quantization step.\n\nAddressing Numerical Stability\n\nQuantization errors, outliers, and rounding bias can make low-precision training numerically fragile, especially for gradient computation. We addressed these challenges with:\n\nOutlier mitigation:\n\nWe applied Random Hadamard Transforms spread outliers and smooth distributions prior to low precision quantization.\n\nRecipe tuning (fine-grained controls):\n\nWe used stochastic rounding to eliminate deterministic rounding bias.\n\nSkipping / higher-precision weight-gradient (WGrad): We observed activations and gradients can exhibit more severe outlier behavior; selectively skipping WGrad or using higher precision can materially improve model quality.\n\nMixed precision:\n\nWe use ultra low precision where it will have the most benefit (e.g., large GEMMs) and fall back to BF16 (e.g., later layers in the model are more sensitive to quantization errors) where ultra low precision is insufficient to meet model quality targets.\n\nScaling Efficiency: 5D Parallelism, Networking, Memory, And Load Balancing\n\nAs mentioned above, for large scale distributed training:\n\nE2E Latency = Max across GPU Rank (Max(Local Compute Time, Communication Time))\n\nNear-linear scaling requires four conditions: total compute time > communication time, compute / communication overlapping without contention, minimal recomputation, and good load balancing. Our optimizations address each condition to push up GEM’s scaling efficiency.\n\nCondition\n\nGEM’s Challenges\n\nOptimizations\n\nTotal compute time > total communication time\n\nO(Trillion) sparse parameters and O(Billion) dense parameters drive heavy communication with mixed compute patterns.\n\nTopology-aware 5D Parallelism\n\nCommunication hidden behind ",
+      "readingMinutes": 22
+    },
+    {
       "id": "8de7aa6843a71335",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -208,6 +299,19 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
+    },
+    {
+      "id": "645624c7eeb4c62c",
+      "feedTitle": "Kubernetes Blog",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "category": "AI Infra",
+      "title": "Gateway API v1.6: TCPRoute and UDPRoute Graduate to Standard",
+      "url": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
+      "published": "2026-08-03T16:00:00Z",
+      "author": "",
+      "summary": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0, which was released on June 30th of this year! Gateway API has become the standard for modern, role-oriented, and expressive service networking in Kubernetes. In previous releases, Gatewa…",
+      "content": "The Kubernetes SIG Network community is thrilled to share the release of Gateway API v1.6.0, which was released on June 30th of this year!\n\nGateway API has become the standard for modern, role-oriented,\nand expressive service networking in Kubernetes.\nIn previous releases, Gateway API established a production-grade foundation\nfor HTTP and TLS layer 7 traffic.\nWith version 1.6.0, Gateway API takes a major step forward by expanding\nstandard layer 4 protocol routing and introducing cleaner API boundaries for experimental innovation.\n\nHere is a quick summary of what's new in Gateway API v1.6.0:\n\nTCPRoute and UDPRoute Graduate to Standard: Raw L4 TCP and UDP traffic routing reach GA stability in the v1 API version.\n\nExperimental API Group Separation: Experimental resources transition to a distinct API group (gateway.networking.x-k8s.io) with an X prefix to make experimental vs. standard boundaries crystal clear.\n\nLet's dive into the details!\n\nTCPRoute and UDPRoute graduate to Standard\n\nLeads: Nick Young, Ricardo Katz and Zac Nixon\n\nGEP-2644 - TCPRoute\n\nGEP-2645 - UDPRoute\n\nUntil now, Gateway API only offered a stable routing model for HTTP and TLS traffic.\nWorkloads that speak a raw protocol over TCP or UDP - databases,\nDNS, VoIP, gaming, IoT telemetry - had no portable way to plug\ninto a Gateway. Users either fell back to a plain Kubernetes Service,\nor to an implementation-specific CRD that doesn't travel between Gateway controllers.\n\nTCPRoute and UDPRoute close that gap: they route traffic to backends based on protocol and port alone, no L7 awareness required.\nWith this release, both have graduated from the Experimental channel to Standard, and moved to the v1 API version.\nThe v1alpha2 version of each was deprecated as of the v1.6 release, and will be removed in a future release.\n\nHow it works\n\nA Gateway needs a listener that allows TCPRoute attachment:\n\napiVersion: gateway.networking.k8s.io/v1\nkind: Gateway\nmetadata:\nname: example-gateway\nspec:\ngatewayClassName: example-gateway-class\nlisteners:\n- name: foo\nprotocol: TCP\nport: 12345\nallowedRoutes:\nkinds:\n- kind: TCPRoute\n\nA TCPRoute then attaches to that listener and forwards traffic to a backend:\n\napiVersion: gateway.networking.k8s.io/v1\nkind: TCPRoute\nmetadata:\nname: tcp-app\nspec:\nparentRefs:\n- name: example-gateway\nsectionName: foo\nrules:\n- backendRefs:\n- name: my-foo-service\nport: 6000\n\nTraffic arriving on the Gateway's port 12345 is proxied to the endpoints of my-foo-service on port 6000. Omitting sectionName and port from parentRefs attaches the route to every TCP listener on the Gateway instead of a single one.\n\nUDPRoute follows the same pattern; swap the listener protocol and the route kind:\n\napiVersion: gateway.networking.k8s.io/v1\nkind: Gateway\nmetadata:\nname: example-gateway\nspec:\ngatewayClassName: example-gateway-class\nlisteners:\n- name: foo\nprotocol: UDP\nport: 12345\nallowedRoutes:\nkinds:\n- kind: UDPRoute\n---\napiVersion: gateway.networking.k8s.io/v1\nkind: UDPRoute\nmetadata:\nname: udp-app\nspec:\nparentRefs:\n- name: example-gateway\nsectionName: foo\nrules:\n- backendRefs:\n- name: my-foo-service\nport: 6000\n\nXBackend arrives in Experimental\n\nLeads: Keith Mattix II\n\nGEP-4894 - Backend Resource\n\nGateway API v1.6 introduces the new XBackend resource, which is a general-purpose decorator for Service (and other backend types) within Gateway API.\n\nThe Service resource is an amazing, stable, and flexible object, but that comes with some costs: The flexibility creates a lot of edge cases that Gateway API needs to handle, and the stability makes it impossible to add new concepts to Service.\n\nThe XBackend resource builds on the ideas in the upstream EndpointSelector KEP, to add a Gateway API-native object that still targets the backend app, while allowing the community to extend it to handle use cases that are difficult or dangerous to handle with Service.\n\nThe first version of XBackend includes support for ExternalHostname destinations, which are ruled out from Service support in Gateway API because of the possibility of confused deputy attacks.\n\nFor XBackend, this support is an Extended/Optional feature, allowing implementations and users to opt in once they understand the security tradeoffs.\n\nThis support is very useful for egress use cases (which are most commonly used for cluster-hosted agentic workloads), which the community is also working towards formalizing in GEPs about Gateways for Egress (work in progress, stay tuned!)\n\nThe XBackend API is experimental and its behavior can change, do not assume it is ready for production\n\nAn example of a Gateway with an ExternalName backend that can be used for egress to a cloud AI API is as follows:\n\n# Gateway-level TLS remains authoritative for incoming connections\napiVersion: gateway.networking.k8s.io/v1\nkind: Gateway\nspec:\nlisteners:\n- name: https\nprotocol: HTTPS\ntls:\ncertificateRefs:\n- name: gateway-cert\n---\n# Backend resource for external destination\napiVersion: gateway.networking.x-k8s.io/v1alpha1\nkind: XBackend\nmetadata:\nname: ai-provider-api\nnamespace: ai-apps\nspec:\ntype: ExternalHostname\nexternalHostname:\nhostname: api.ai-provider.com\n\n---\n# HTTPRoute referencing XBackend\napiVersion: gateway.networking.k8s.io/v1\nkind: HTTPRoute\nspec:\nrules:\n- backendRefs:\n- name: ai-provider-api\nkind: XBackend\ngroup: gateway.networking.x-k8s.io\n\nThe community is also working on moving Session Persistence config from XBackendTrafficPolicy into XBackend, along with other use cases like retries, TLS origination and similar config that is useful to be able to configure per-application rather than per-Route.\n\nExperimental resources move off the standard API group\n\nPreviously, experimental resources shared the same API group as standard ones - gateway.networking.k8s.io - distinguished only by a v1alpha2-style version. TCPRoute and UDPRoute were the last resources to graduate under that scheme.\n\nGoing forward, new experimental resources are defined in a separate group,\ngateway.networking.x-k8s.io,\nand the names of their API types get an X prefix - for example XBackend and XMesh.\nWhen one of these graduates to Standard, it's renamed into the gateway.networking.k8s.io group\nand drops the X prefix, the same way XMesh is expected to become Mesh.\n\nThis separation makes the experimental/standard boundary explicit at the API group level, rather than relying on version strings alone.\n\nWhat's next & getting involved\n\nThe graduation of TCPRoute and UDPRoute to Standard marks an essential milestone\nin making Gateway API a complete, universal ingress and mesh networking API\nfor Kubernetes workloads across layer 4 and layer 7 protocols.\n\nTry it out\n\nYou can start using Gateway API v1.6.0 today with your favorite Gateway controller implementation:\n\nCheck out the Gateway API Documentation for detailed guides and API references.\n\nView the v1.6.0 Release Notes for complete details on the CRD installation and changes.\n\nGateway API relies on an extensive conformance test suite to ensure consistent,\nportable behavior across all implementations.\nHere is a list of the implementations that are conforment with v1.6 on the day we published the article:\n\nAgentgateway\n\nAirlock Microgateway\n\nGKE Gateway\n\nkgateway\n\nNGINX Gateway Fabric\n\nTraefik Proxy\n\nGet involved\n\nGateway API is an open, community-driven project built under Kubernetes SIG Network. We welcome contributions, feedback, and participation from everyone!\n\nJoin our Slack Channel: Join #sig-network-gateway-api on the Kubernetes Slack.\n\nAttend Community Meetings: We hold weekly community meetings. Check out the SIG Network Calendar for dates and agendas.\n\nContribute on GitHub: File issues, suggest enhancements (GEPs), or submit PRs at kubernetes-sigs/gateway-api.\n\nAcknowledgments\n\nA huge thank you to all the contributors, reviewers, maintainers, and implementation authors whose hard work made Gateway API v1.6.0 possible!",
+      "readingMinutes": 5
     },
     {
       "id": "8b96329aed14643e",
@@ -236,6 +340,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "8dbd44e21e7238f9",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Decoupling semantics from vision: A framework for faithful visual-text compression evaluation",
+      "url": "https://arxiv.org/abs/2608.01848v1",
+      "published": "2026-08-03T07:56:43Z",
+      "author": "Yonghan Gao",
+      "summary": "Recent visual-text compression (VTC) methods, typified by DeepSeek-OCR, report impressive high token compression ratios for long-context modeling tasks by leveraging text-to-image rendering. However, existing evaluation protocols heavily rely on downstream task performance. Such…",
+      "content": "Recent visual-text compression (VTC) methods, typified by DeepSeek-OCR, report impressive high token compression ratios for long-context modeling tasks by leveraging text-to-image rendering. However, existing evaluation protocols heavily rely on downstream task performance. Such evaluation metrics fail to accurately measure text preservation due to the strong inherent linguistic priors of Multimodal Large Language Models (MLLMs). In this work, we introduce a new evaluation framework that decouples MLLMs' capabilities to faithfully assess VTC quality. Within this framework, we further introduce the ZeroSense Benchmark to ensure low semantic correlation of testing samples. By eliminating textual dependencies, our benchmark guarantees that the evaluation results are purely reflective of VTC quality, unaffected by the semantic inference capabilities of downstream models. Extensive experiments across multiple datasets demonstrate that VTC quality and downstream task accuracy diverge significantly, highlighting the necessity of our decoupled evaluation framework.",
+      "readingMinutes": 1
+    },
+    {
       "id": "7a11e90fa63ee471",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -249,6 +366,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "deec56a13e2b9b57",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "published": "2026-08-03T07:00:00Z",
+      "author": "",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "content": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "readingMinutes": 1
+    },
+    {
       "id": "834bd3c4b071e7a0",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -259,6 +389,32 @@
       "author": "",
       "summary": "因为这款手机壳，我跟老麦聊了一下午。查看全文",
       "content": "因为这款手机壳，我跟老麦聊了一下午。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "93ba0dd98358354c",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "TCPO: Turn-Level Credit Policy Optimization",
+      "url": "https://arxiv.org/abs/2608.01667v1",
+      "published": "2026-08-03T04:01:36Z",
+      "author": "Sicong Liao",
+      "summary": "Verifier-guided reinforcement learning has become a powerful paradigm for improving LLM reasoning. In multi-turn settings, models receive a verifier score after each turn and iteratively refine their outputs. Although such scores provide dense feedback, they do not directly prov…",
+      "content": "Verifier-guided reinforcement learning has become a powerful paradigm for improving LLM reasoning. In multi-turn settings, models receive a verifier score after each turn and iteratively refine their outputs. Although such scores provide dense feedback, they do not directly provide dense credit: a score measures the quality of the current output, while credit should measure how the current turn changes the refinement trajectory. We propose TCPO, a turn-level credit assignment method for verifier-guided multi-turn RL. TCPO casts credit assignment as score-to-credit conversion and constructs turn-level advantages through reference-based comparisons: retrospective credit captures immediate progress and regression relative to the best prior state; hindsight delayed credit identifies non-improving turns with later payoff; and selective fixed-history counterfactual estimation refines high-surprisal turns under the same history. Experiments on math reasoning, code generation, and AppWorld agent tasks show that TCPO improves or matches the strongest baselines across model scales, task domains, and verifier types. TCPO achieves the best or tied-best best-turn Pass@8 on Qwen3-4B and DeepSeek-R1-Distill-Llama-8B, reduces turns to success, and improves multi-turn agent performance. These results highlight score-to-credit conversion as a central ingredient for verifier-guided multi-turn policy optimization.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "54b975e4bb27c9db",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing",
+      "url": "https://arxiv.org/abs/2608.01662v1",
+      "published": "2026-08-03T03:51:21Z",
+      "author": "Wen Zan",
+      "summary": "DeepSeek Sparse Attention (DSA) enables efficient long-context modeling through its Lightning Indexer. However, practical deployment remains constrained by the indexer's expensive $O(L^2)$ scoring overhead and the hardware-inefficient, discontinuous memory-access patterns induce…",
+      "content": "DeepSeek Sparse Attention (DSA) enables efficient long-context modeling through its Lightning Indexer. However, practical deployment remains constrained by the indexer's expensive $O(L^2)$ scoring overhead and the hardware-inefficient, discontinuous memory-access patterns induced by its outputs. To address these system-level bottlenecks, we introduce LongCat Sparse Attention (LSA), a hardware-algorithm co-designed framework comprising three complementary and orthogonal strategies: (1) Streaming-Aware Indexing, which selectively converts scattered KV entries into hardware-aligned contiguous layouts to enable coalesced HBM access; (2) Cross-Layer Indexing, which amortizes indexing overhead by reusing the results produced by a single layer across consecutive layers, supported by cross-layer distillation; and (3) Hierarchical Indexing, which adopts a coarse-to-fine scoring scheme to progressively narrow the candidate set for each query, thereby substantially reducing indexing computation. Extensive scaling experiments, ranging from 69B-A3B to 560B-A27B models, demonstrate that LSA consistently achieves performance on par with full attention across both general-purpose and long-context benchmarks. Moreover, LSA supports native training with context lengths of up to one million tokens and underpins the development of LongCat-2.0 (1.6T-A48B). To facilitate further research, we also introduce and open-source LongCat-Flash-Lite-Sparse (69B-A3B), which integrates LSA into LongCat-Flash-Lite and incorporates an updated long-context training corpus.",
       "readingMinutes": 1
     },
     {
@@ -288,6 +444,32 @@
       "readingMinutes": 1
     },
     {
+      "id": "567f2e4af89142a6",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Emergence Invariance: From Symbolized Thought to Interface Refinement",
+      "url": "https://arxiv.org/abs/2608.01548v1",
+      "published": "2026-08-03T00:04:14Z",
+      "author": "Yi Liu",
+      "summary": "Language can be viewed as a formalized subset of thought: a consequence-governed symbolic structure projected from wider situated cognition. Large language models trained at scale exhibit compensatory emergence: sparse architectural primitives support in-context learning, multi-…",
+      "content": "Language can be viewed as a formalized subset of thought: a consequence-governed symbolic structure projected from wider situated cognition. Large language models trained at scale exhibit compensatory emergence: sparse architectural primitives support in-context learning, multi-step reasoning, tool use, and chain of thought. Yet a language-first probabilistic architecture inherits substantive, substrate, and high-level incompletenesses relative to human cognition. Their coexistence makes an LLM a human-like thought-form generator that reconstructs increasingly human-like reasoning forms from an incomplete substrate. We ask whether emergence can compensate for every missing distinction. We formalize the philosophical premise as the Symbolization--Substructure Thesis and introduce emergence invariance. For a scale-indexed family acting through a shared task interface $φ$, $\\mathcal{R}_s^*=\\mathcal{R}_φ^*+C_s$: scale can reduce the compensation gap $C_s$, while a positive interface floor $\\mathcal{R}_φ^*$ persists. We prove that, under a fixed input law, one interface is universally no less informative exactly when its completed information $σ$-field refines the other, and that total compensation occurs exactly when both the interface floor and asymptotic compensation gap vanish. The framework unifies existing results on grounding, memory, position, attention, Bayesian inheritance, scientific abduction, and reasoning control. In a matched DeepSeek V4-Flash API study, thinking improves pointer chasing from $0/16$ to $14/16$ when relevant distinctions are available; exact observational twins remain at their $50\\%$ construction floor; and restoring decisive memory moves matched performance from $50\\%$ to $100\\%$. These results provide initial evidence for the predicted separation between scaling within an interface and refining the interface itself.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "97e92714d577da88",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "url": "https://openai.com/index/circles",
+      "published": "2026-08-03T00:00:00Z",
+      "author": "",
+      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "content": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "readingMinutes": 1
+    },
+    {
       "id": "7d504dd4629ac9ae",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -298,6 +480,19 @@
       "author": "",
       "summary": "DeepSeek V4 Flash 正式版发布 特朗普向科技公司频繁索要捐款 马斯克称从未讨论过出售特斯拉中国业务 国补调整后终端销售承压 风投机构重新涌入中国科技领域 统计显示实体光盘并不能保证游戏长期可玩 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
       "content": "DeepSeek V4 Flash 正式版发布\n\n特朗普向科技公司频繁索要捐款\n\n马斯克称从未讨论过出售特斯拉中国业务\n\n国补调整后终端销售承压\n\n风投机构重新涌入中国科技领域\n\n统计显示实体光盘并不能保证游戏长期可玩\n\n看看就行的简讯\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "a146e8ff6963e834",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Why Formal Monitors Fail: Attack Distribution Entropy as a Coverage Bound for LTL-Based LLM Agent Safety",
+      "url": "https://arxiv.org/abs/2608.01388v1",
+      "published": "2026-08-02T17:08:21Z",
+      "author": "Ruiyang Zhang",
+      "summary": "Runtime safety monitors based on Linear Temporal Logic (LTL) and finite automata (FSA) are increasingly deployed to intercept unsafe tool-call sequences in LLM agents. Yet the same monitor achieves 68-75% attack coverage on some model architectures and near-zero on others, with…",
+      "content": "Runtime safety monitors based on Linear Temporal Logic (LTL) and finite automata (FSA) are increasingly deployed to intercept unsafe tool-call sequences in LLM agents. Yet the same monitor achieves 68-75% attack coverage on some model architectures and near-zero on others, with no explanation from capability scores, training data, or prompt design. We provide the missing theory. We prove that the recall of any fixed-invariant FSA monitor is bounded above by the concentration of the attack distribution: the fraction of attacks covered by the k most frequent trigger-completion patterns. When attacks concentrate (low Shannon entropy), a small fixed invariant set achieves high recall; when they disperse across many structurally distinct patterns (high entropy), no fixed invariant set of tractable size can, regardless of how the invariants were derived. We validate this entropy-coverage bound across eight frontier LLM architectures. GPT-class and DeepSeek backends yield highly concentrated attacks (H ~ 0.24 bits; one pattern covers 96%), explaining 68-75% recall; Gemini variants yield high-entropy distributions (H ~ 2.81 bits; 7 clusters each <= 7%), explaining near-zero recall (6-13%), invariant to architecture-matched retraining. Entropy accounts for 76% of variance in coverage (Pearson r = -0.87, p = 0.005, 95% CI [-0.98, -0.78]), holding under leave-one-out (r in [-0.91, -0.82]). We introduce a pre-deployment entropy test that predicts monitor coverage from a small attack sample, enabling architecture-aware monitor selection before deployment. The bound and test are architecture-agnostic and apply to any FSA-based runtime monitor over discrete action sequences.",
       "readingMinutes": 1
     },
     {
@@ -314,6 +509,45 @@
       "readingMinutes": 1
     },
     {
+      "id": "d991dc9eafad872b",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Claim Plane: Reliability Gains and the Limits of Selective Concurrency for Parallel Coding Agents: A 30-Pair, Three-Seed Confirmatory Study of Deterministic Pre-Write Admission",
+      "url": "https://arxiv.org/abs/2608.00947v1",
+      "published": "2026-08-02T02:56:49Z",
+      "author": "Maxim Nikolaev",
+      "summary": "Parallel coding agents can produce locally valid changes that fail when combined. Claim Plane addresses this failure mode as deterministic pre-write admission over versioned change intents. This paper reports a confirmatory study on 30 frozen CooperBench feature pairs, balanced…",
+      "content": "Parallel coding agents can produce locally valid changes that fail when combined. Claim Plane addresses this failure mode as deterministic pre-write admission over versioned change intents. This paper reports a confirmatory study on 30 frozen CooperBench feature pairs, balanced between 15 conflict and 15 clean labels, with three coder seeds, four coordination arms, and 360 completed executions. DeepSeek V4 Pro generated 60 feature-level planner declarations once; the declarations were frozen across all arms and coder seeds, while DeepSeek V4 Flash performed the coding work. Static Claim Plane raised pair pass from 23.3% under unconstrained parallel execution to 50.0%, a paired task-cluster difference of +26.7 percentage points (95% bootstrap CI 9.6 to 60.0), and raised integration success from 65.6% to 96.7%. On conflict-labeled pairs, pair pass rose from 6.7% to 60.0%. However, static admission serialized 96.7% of executions, including 93.3% of clean cases, and therefore recovered reliability largely by collapsing toward serial execution. Dynamic admission was more selective, serializing 66.7% of conflict cases and 13.3% of clean cases, but 46 of 90 executions failed closed on undeclared scope, reducing pair pass to 22.2%. Forty-five of those 46 blocks targeted files already present in the frozen declarations, indicating region undercoverage and insufficient amendment handling rather than wholly unknown files. The results support pre-write admission as a reliability mechanism, but they do not establish useful wall-clock parallel speedup: provider calls were physically sequential, and the conservative policy largely serialized the workload. The complete study artifacts, hashes, and clustered bootstrap analysis are publicly released for reproduction.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "2671ad0740db7a16",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "AI and Exchange Rate Predictability",
+      "url": "https://arxiv.org/abs/2608.00761v1",
+      "published": "2026-08-01T16:50:04Z",
+      "author": "Amin Izadyar",
+      "summary": "I revisit the exchange rate disconnect puzzle, first documented by Meese and Rogoff (1983), using generative artificial intelligence (AI) to forecast currency returns based on economic fundamentals. Using ChatGPT and DeepSeek, I analyze a comprehensive dataset of economic data r…",
+      "content": "I revisit the exchange rate disconnect puzzle, first documented by Meese and Rogoff (1983), using generative artificial intelligence (AI) to forecast currency returns based on economic fundamentals. Using ChatGPT and DeepSeek, I analyze a comprehensive dataset of economic data releases for major currency pairs and measure the fundamental strength of each currency. These AI-powered fundamentals exhibit significant cross-sectional predictive power. A simple trading strategy that goes long currencies with strong fundamentals and short currencies with weak fundamentals generates a Sharpe ratio exceeding 0.7 per annum. The excess returns of this strategy remain significant after controlling for traditional currency factors. To mitigate concerns of look-ahead bias, I run multiple exercises to ensure that predictability stems from AI reasoning rather than memorization. Finally, I explore the potential sources of predictability and find evidence that the Taylor rule framework, generally used by central banks to set interest rates, is a key mechanism connecting exchange rates to economic fundamentals.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f36245f9271bf6c7",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "AiFlow: Token-Native Reactive Orchestration with Bounded Backpressure for Streaming LLM Applications",
+      "url": "https://arxiv.org/abs/2608.00558v1",
+      "published": "2026-08-01T09:33:29Z",
+      "author": "Qunhui Zhang",
+      "summary": "Large language model (LLM) applications increasingly operate as streaming workflows combining retrieval, tool calls, safety filters, and multi-agent coordination. Although contemporary frameworks expose provider deltas, workflow nodes often treat generation as coarse request-res…",
+      "content": "Large language model (LLM) applications increasingly operate as streaming workflows combining retrieval, tool calls, safety filters, and multi-agent coordination. Although contemporary frameworks expose provider deltas, workflow nodes often treat generation as coarse request-response steps, leaving queue management, worker allocation, ordering, and backpressure to ad hoc callback code. This paper presents AiFlow, a token-native reactive orchestration model that normalizes provider deltas into typed Context events propagated through a directed streaming graph. Each node is managed by a Node Guardian that declares and enforces local queue bounds, worker concurrency, ordering, overflow policy, cancellation propagation, and retry discipline. We formalize the bounded-memory property, present the compilation from a compact DSL and JSON graph form, and provide static validation for type safety, state concurrency, and injection compatibility. Controlled microbenchmarks, captured DeepSeek trace replay (30 runs), descriptive online runs, LangGraph baselines, a streaming RAG workload, and an Ollama local-backend check show that AiFlow does not alter provider-side Model TTFT but reduces Application TTFPT by 70.9-94.7\\% versus aggregation and keeps runtime-owned queue depth within declared bounds (93.7-96.5\\% MaxQ reduction versus unbounded policies). The supplementary artifact contains scripts, raw traces, machine-readable tables, checksums, and an API-free smoke test; the public implementation is available through the FIT Framework repository.",
+      "readingMinutes": 1
+    },
+    {
       "id": "17d25b4b8c3ba111",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -324,6 +558,19 @@
       "author": "",
       "summary": "真正的比赛往往不只发生在赛道上，也发生在每一次进站窗口打开的时候。查看全文",
       "content": "真正的比赛往往不只发生在赛道上，也发生在每一次进站窗口打开的时候。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "ad9ae4b80831c53b",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
+      "url": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/",
+      "published": "2026-08-01T01:36:10Z",
+      "author": "Elizabeth Goodman",
+      "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
+      "content": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...\nStorage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data, execute tools, and generate new results, storage systems must continuously supply and preserve the data that moves the agent reasoning loop. Each agent step can trigger multiple storage operations, and those operations can repeat across…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -363,6 +610,19 @@
       "author": "Tanya Lenz",
       "summary": "Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared...",
       "content": "Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared...\nRunning a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared across many teams, the coordination costs increase as the number of teams grows. Challenges include conflicting CRD versions, overlapping RBAC, and no clean way to carve GPU capacity into team-level budgets. At a certain scale…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "4174d70657e8e918",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Benchmarking LLMs on File System Design and Implementation: The Good, The Bad, and The Ugly",
+      "url": "https://arxiv.org/abs/2608.00280v1",
+      "published": "2026-07-31T20:31:32Z",
+      "author": "Yuqi Xue",
+      "summary": "Large Language Models (LLMs) are fundamentally transforming computer system research and development. As we employ LLMs in file system (fs) development, it is essential to understand their capabilities, limitations, and operational efficiency for domain-specific tasks. We presen…",
+      "content": "Large Language Models (LLMs) are fundamentally transforming computer system research and development. As we employ LLMs in file system (fs) development, it is essential to understand their capabilities, limitations, and operational efficiency for domain-specific tasks. We present φ-Bench, an LLM benchmarking framework for fs-specific tasks. To facilitate benchmarking, we develop six types of tasks in φ-Bench: basic understanding, basic implementation, performance modeling, debugging, optimization, and new feature development. Each type emphasizes different LLM capabilities: instruction following, knowledge recall, reasoning, or coding. To create high-quality tasks while achieving broad coverage with minimal human effort, we develop a new AI-assisted task generation pipeline in addition to expert-written and textbook-adapted tasks. With 505 tasks in φ-Bench, we conduct an empirical study with both open source (DeepSeek-V4-Flash, GLM-5.1, and MiniMax-M2.7) and proprietary (Claude-Opus-4.7, GPT-5.2, and Gemini-3.1-Pro) LLMs. Our study discloses the model efficiency for different tasks, causes of failed fs tasks, and techniques for mitigating LLM failures. We will open source φ-Bench to facilitate public research on using LLMs for fs development.",
       "readingMinutes": 1
     },
     {
@@ -467,32 +727,6 @@
       "author": "",
       "summary": "以上便是部分近期值得探讨的新游信息汇总，个人角度仅供参考。本文设有有奖互动环节：你有什么特别喜欢的操作系统模拟玩法的游戏吗？（我很喜欢《Uplink》）提前感谢你真诚的分享。>关注少数派小红书，感受精 ...查看全文",
       "content": "以上便是部分近期值得探讨的新游信息汇总，个人角度仅供参考。本文设有有奖互动环节：你有什么特别喜欢的操作系统模拟玩法的游戏吗？（我很喜欢《Uplink》）提前感谢你真诚的分享。>关注少数派小红书，感受精 ...查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "a5892a717bf09d20",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "本周看什么 | 最近值得一看的 10 部作品",
-      "url": "https://sspai.com/post/112961",
-      "published": "2026-07-31T09:57:39Z",
-      "author": "",
-      "summary": "📅本周新预告《银翼杀手2099》首支预告7月25日，剧集《银翼杀手2099》发布了首支预告，定档11月25日上线PrimeVideo。亨特·莎弗、杨紫琼主演，2099年的洛杉矶，擅用各种身份掩饰自己的 ...查看全文",
-      "content": "📅本周新预告《银翼杀手2099》首支预告7月25日，剧集《银翼杀手2099》发布了首支预告，定档11月25日上线PrimeVideo。亨特·莎弗、杨紫琼主演，2099年的洛杉矶，擅用各种身份掩饰自己的 ...查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "3feeecf84fa6f882",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "App+1 | 诗经山河图：我用 AI 做了一张《诗经》地图",
-      "url": "https://sspai.com/post/112730",
-      "published": "2026-07-31T07:00:36Z",
-      "author": "",
-      "summary": "也许在某个瞬间，你会发现：三千年的时间很长，但古人与我们之间，并没有想象中那么遥远。查看全文",
-      "content": "也许在某个瞬间，你会发现：三千年的时间很长，但古人与我们之间，并没有想象中那么遥远。查看全文",
       "readingMinutes": 1
     },
     {
@@ -743,32 +977,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "67b62a1a75ce4bd2",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "LoRA Scaffolded Policy Optimization (LSPO): A Sampling-Time Low-Rank Scaffold for Recovering Reinforcement-Learning Gradient on Zero-Reward Cliff Prompts",
-      "url": "https://arxiv.org/abs/2607.27787v1",
-      "published": "2026-07-30T07:21:34Z",
-      "author": "Ken Ding",
-      "summary": "Reinforcement learning from verifiable rewards (RLVR) for mathematical reasoning suffers from a structural blind spot: on \"cliff\" prompts-those on which every sampled rollout in a group fails-the group-normalized advantage is identically zero, so GRPO produces no gradient on pre…",
-      "content": "Reinforcement learning from verifiable rewards (RLVR) for mathematical reasoning suffers from a structural blind spot: on \"cliff\" prompts-those on which every sampled rollout in a group fails-the group-normalized advantage is identically zero, so GRPO produces no gradient on precisely the prompts at the frontier of the model's capability. We introduce LoRA Scaffolded Policy Optimization (LSPO), a sampling-time mechanism that recovers this lost gradient. Each RL step, LSPO detects cliff prompts, fits a small low-rank (LoRA) adapter by a brief supervised step on their ground-truth solutions, re-rolls the cliffs with the base-plus-adapter model, splices the now-successful completions back into the RL batch with an importance-sampling correction, and takes a GRPO step on the base alone; the adapter receives only the supervised gradient and is discarded at checkpoint, yielding a base-only model. On DeepMath-103K with DeepSeek-R1-Distill-Qwen-1.5B, evaluated over n=5 paired seeds per arm at a matched 1000-step reporting horizon, LSPO's 5-seed mean matches or beats a DAPO baseline on all 16 (benchmark, pass@k) cells (15 strict wins and one exact tie), with gains of up to +10.7 points on AIME24/pass@4, +6.7 points on AIME24 and AIME26 at pass@16, and +2.4 points on MATH500/pass@1; averaged over the 16 cells the improvement is +3.8 points.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f54ac6f31af422a2",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Kalman Meets Curriculum: Efficient Dynamic Prompt Selection for Adaptive RL Finetuning",
-      "url": "https://arxiv.org/abs/2607.27610v1",
-      "published": "2026-07-30T02:55:02Z",
-      "author": "Haodong Zhu",
-      "summary": "Reinforcement learning (RL) finetuning significantly enhances the reasoning capabilities of large language models (LLMs), yet its effectiveness critically depends on selecting prompts of appropriate difficulty for the current policy. This is challenging because prompt difficulty…",
-      "content": "Reinforcement learning (RL) finetuning significantly enhances the reasoning capabilities of large language models (LLMs), yet its effectiveness critically depends on selecting prompts of appropriate difficulty for the current policy. This is challenging because prompt difficulty evolves throughout training. Existing online methods therefore face a trade-off: evaluation-based approaches are accurate but expensive, while prediction-based approaches are efficient but typically assume stationary difficulty, making them ill-suited to RL's non-stationary training dynamics. To address these issues, we propose a Kalman-Guided Prompt Selection method (KGPS), which reformulates prompt selection as a dynamic state estimation problem rather than static difficulty prediction. KGPS models each prompt's latent success rate in logit space using a linear-Gaussian state-space model, with process noise coupled to the magnitude of policy updates so that uncertainty increases when the policy changes more substantially. A Kalman filter then maintains a calibrated Gaussian posterior over prompt difficulty, and prompts are selected by maximizing a posterior-expected training utility that favors intermediate-difficulty prompts while naturally revisiting uncertain ones. The resulting procedure is adaptive to policy drift and requires no additional rollouts beyond standard policy training. Extensive experiments across mathematics, planning, and geometry reasoning benchmarks, as well as multiple RL algorithms, show that KGPS consistently improves both final accuracy and rollout efficiency over strong baselines, establishing state-of-the-art performance among online prompt selection methods. For example, on DeepSeek-R1-Distill-7B, KGPS uses 83% fewer rollouts than DS while even improving the average performance by 0.12 point across six math reasoning benchmarks.",
-      "readingMinutes": 1
-    },
-    {
       "id": "da425c76a8c018d0",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -847,19 +1055,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "b362df1311fec079",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "AgentS4D: Benchmarking Runtime Risks across the Execution Lifecycle of LLM-Based Workspace Agents",
-      "url": "https://arxiv.org/abs/2607.27294v1",
-      "published": "2026-07-29T15:55:45Z",
-      "author": "Jiajun Zhou",
-      "summary": "Large language model (LLM)-based workspace agents execute stateful, multi-step workflows across heterogeneous resources, external tools, and persistent state. Their safety must therefore be assessed from actions, side effects, and state changes throughout execution. Although rec…",
-      "content": "Large language model (LLM)-based workspace agents execute stateful, multi-step workflows across heterogeneous resources, external tools, and persistent state. Their safety must therefore be assessed from actions, side effects, and state changes throughout execution. Although recent benchmarks have advanced executable safety testing and trajectory-aware verification, they rarely provide a unified account of where risks enter, how they elicit unsafe behavior, which harms they target, and where supporting evidence appears during execution. We introduce AgentS4D, a sandboxed benchmark for lifecycle-wide runtime safety evaluation. Its four-dimensional runtime-safety framework uses six risk-entry sources, six induction strategies, and nine target harms to guide case construction, while seven lifecycle checkpoints organize post-run evidence. AgentS4D contains 328 risk-injected cases. We evaluate all 20 combinations of four harnesses (Hermes, OpenClaw, Claude Code, and Codex) and five LLM backends (GPT-5.5, Gemini 3.1 Pro, DeepSeek-V4-Pro, MiniMax-M3, and Qwen3.7-Plus) on these cases, yielding 6,560 runs. Overall, 4,461 runs (68.0%) trigger prespecified unsafe signals. Across the 20 configurations, the observed safety of an agent system varies with both its harness-LLM pairing and how risk is introduced. Agent systems exhibit markedly different safety behavior when the same induction strategy reaches them through different risk carriers. They also respond differently to the same target harm when it is realized through different carriers and strategies. Moreover, 4,344 runs (66.22% overall) are unsafe yet complete. Thus, task completion cannot establish runtime safety, and testing only one form of a risk can conceal important weaknesses. Evaluations should examine complete agent configurations across diverse risk conditions and retain evidence throughout execution.",
-      "readingMinutes": 1
-    },
-    {
       "id": "265c6a0134aba9b6",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -873,32 +1068,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "80f74e427d3930e6",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "MRCoder: An Efficient Context Selecting Approach for Repository-Level Code Generation",
-      "url": "https://arxiv.org/abs/2607.26805v1",
-      "published": "2026-07-29T11:47:51Z",
-      "author": "Peiding Wang",
-      "summary": "Large language models (LLMs) have demonstrated strong capabilities in code generation. However, repository-level code generation remains challenging, as it requires effectively identifying and utilizing repository-specific context. While retrieval-augmented generation (RAG) inco…",
-      "content": "Large language models (LLMs) have demonstrated strong capabilities in code generation. However, repository-level code generation remains challenging, as it requires effectively identifying and utilizing repository-specific context. While retrieval-augmented generation (RAG) incorporates relevant code snippets, it often introduces redundant context that interferes with the LLM's ability to utilize relevant information, leading to degraded generation quality and increased computational cost. Moreover, existing context selection and compression methods struggle to balance efficiency and quality, either introducing additional computational overhead or failing to effectively select valid context. In this paper, we propose MRCoder, an efficient context selection framework that improves both the effectiveness and efficiency of repository-level code generation. MRCoder adopts a Map-Reduce paradigm: in the Map Phase, a lightweight draft model generates drafts over partitioned contexts, and Structure-Aware Draft-Guided Selection (SADGS) selects informative contexts based on drafts through API consistency and logical similarity; in the Reduce Phase, the refined contexts are aggregated for final generation, with a parallel verification strategy further accelerating decoding. We evaluate MRCoder on two widely used repository-level code generation benchmarks, CoderEval and DevEval, using Qwen2.5-Coder and DeepSeek-Coder as backbone LLMs. Experimental results show that MRCoder improves code generation accuracy over strong baselines while reducing token consumption by 30 to 50% and inference time by up to 52%. These results demonstrate that our proposed structured and draft-guided context selection strategy is crucial for improving both the quality and efficiency of repository-level code generation",
-      "readingMinutes": 1
-    },
-    {
-      "id": "c110d3e23c0473a0",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "CodeSpec: Dual Executable Specifications for Agentic Long-Horizon Feature Development",
-      "url": "https://arxiv.org/abs/2607.26777v1",
-      "published": "2026-07-29T11:20:49Z",
-      "author": "Peiding Wang",
-      "summary": "LLM-based code agents have advanced repository-level software development through iterative interaction with codebases and tools. However, feature development requires integrating new behaviors into existing architectures through coherent cross-component functional chains. Exist…",
-      "content": "LLM-based code agents have advanced repository-level software development through iterative interaction with codebases and tools. However, feature development requires integrating new behaviors into existing architectures through coherent cross-component functional chains. Existing agents typically derive such chains through free-form reasoning, often producing unreliable feature designs with incomplete functional chains. Moreover, textual designs are difficult to verify and enforce, making it challenging to maintain design-implementation consistency throughout long-horizon development. We propose CodeSpec, a dual executable specification method for repository-level feature development. It builds reliable functional chains from evidence pairing sub-requirement semantics with repository architectures, then compiles them into complementary architecture and behavior specifications that check chain completeness and correctness while preserving design-implementation consistency over long interactions. On FeatureBench, which targets feature development in existing repositories, CodeSpec achieves 70.7%, 55.0%, and 49.9% pass rates under DeepSeek-V4-Pro, outperforming representative baselines such as Claude Code. Results on the repository generation benchmark NL2Repo-Bench further demonstrate its generalizability.",
-      "readingMinutes": 1
-    },
-    {
       "id": "47da73cdc4f72b4c",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -909,19 +1078,6 @@
       "author": "",
       "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
       "content": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "3d866ebbc26cb853",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "A Physics-Informed Framework for PID Tuning of Chemical Processes Using Large Language Model Agents",
-      "url": "https://arxiv.org/abs/2607.26594v1",
-      "published": "2026-07-29T08:14:31Z",
-      "author": "Zhoupeng Shou",
-      "summary": "PID tuning for chemical processes commonly relies on identified process models, whereas plant engineers often retune loops iteratively by observing responses, diagnosing deficiencies, adjusting gains, and validating the result. This work formalizes this engineer-like workflow in…",
-      "content": "PID tuning for chemical processes commonly relies on identified process models, whereas plant engineers often retune loops iteratively by observing responses, diagnosing deficiencies, adjusting gains, and validating the result. This work formalizes this engineer-like workflow in a language-model-assisted PID tuning framework applicable to both large and small language models (LLMs/SLMs). Hosted LLMs receive closed-loop response features, control-engineering diagnoses, tuning preferences, and internal model control (IMC)-based demonstrations to generate and iteratively correct PID gains under common acceptance criteria. For local deployment, Qwen3-0.6B is adapted through supervised fine-tuning (SFT) with simulation-verified IMC targets and physics-informed group relative policy optimization (PI-GRPO) with non-compensable stability and performance rewards. On 100 first-order plus dead time (FOPDT) and 100 second-order plus dead time (SOPDT) test cases, hosted LLMs (DeepSeek-V4-Flash and Qwen3.7-Plus) achieve final success rates of 75-89% and 77-79%, respectively. As for Qwen3-0.6B, supervised fine-tuning raises first-recommendation success to 86.5%, and PI-GRPO further increases it to 94.0%, primarily improving first-attempt reliability and stability margins.",
       "readingMinutes": 1
     },
     {
@@ -977,19 +1133,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "088c63af229f208d",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "AI's Capability in Assisting Scientific Research in Physics, Astrophysics, and Cosmology II: Project Planning and Proposal Evaluation",
-      "url": "https://arxiv.org/abs/2607.25881v1",
-      "published": "2026-07-28T15:43:01Z",
-      "author": "Jia Liu",
-      "summary": "We investigate how well large language models (LLMs) can assist scientific project planning and proposal evaluation. One-page project plans were independently generated for eight expert-conceived research projects in physics, astrophysics, and cosmology by human researchers and…",
-      "content": "We investigate how well large language models (LLMs) can assist scientific project planning and proposal evaluation. One-page project plans were independently generated for eight expert-conceived research projects in physics, astrophysics, and cosmology by human researchers and three contemporary LLMs (ChatGPT, Claude, and DeepSeek; mid-2025 models, used with their default tool access). The resulting 32 proposals were blindly evaluated by four human reviewers and two newer frontier LLMs (Claude Opus 4.8 and ChatGPT Pro 5.5) using a four-aspect evaluation rubric. Reviewers were also asked to identify whether each proposal was written by a human or an AI. Human reviewers rated human- and AI-written proposals similarly overall, whereas both AI reviewers scored AI-written proposals about one point higher (on a five-point scale) than human-written proposals. Human reviewers correctly identified human- and AI-written proposals 72% and 79% of the time, respectively, while both AI reviewers correctly classified all 32 proposals (100%). These results suggest that current LLMs can produce project plans comparable to human-written ones in the eyes of human reviewers, but that AI reviewers show a systematic preference for AI-generated proposals. Our results suggest caution when deploying LLMs widely in proposal preparation and evaluation.",
-      "readingMinutes": 1
-    },
-    {
       "id": "688b06fb84f51f17",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -1042,19 +1185,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "567af37fefa3523a",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Estimating the Geopolitical Preferences of Large Language Models from United Nations Voting Data",
-      "url": "https://arxiv.org/abs/2607.25526v1",
-      "published": "2026-07-28T10:07:53Z",
-      "author": "Maxim Chupilkin",
-      "summary": "How should researchers measure the geopolitical preferences expressed by large language models (LLMs)? Existing audits commonly rely on surveys and simple tests, but international-relations research has long recognized that measuring geopolitical preferences is difficult and has…",
-      "content": "How should researchers measure the geopolitical preferences expressed by large language models (LLMs)? Existing audits commonly rely on surveys and simple tests, but international-relations research has long recognized that measuring geopolitical preferences is difficult and has developed methods for recovering them from observed choices. This paper applies a dynamic ordinal ideal-point approach from international relations, treating LLMs as respondents to the full texts of 5,555 divisive, recorded, adopted resolutions considered in regular sessions of the UN General Assembly from 1946 through 2025. Support ranges from 37.8% for DeepSeek to 97.3% for GPT-5. Surprisingly, in the twenty-first century, GPT-5, Claude Sonnet, and Gemini are closest among the permanent five to Russia; DeepSeek is closest to France; and all four are farthest from the United States. Among 2,104 resolutions opposed by the United States but supported by China and Russia/USSR, GPT-5 supported 96.1%, Gemini 83.4%, Claude Sonnet 65.2%, and DeepSeek 36.1%. The findings show that a model's expressed geopolitical position can differ markedly from that of its developer's home country, especially in international politics, where state actions can diverge from the stated principles prevalent in the texts on which models are trained.",
-      "readingMinutes": 1
-    },
-    {
       "id": "3bf2fb81570bc6b0",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -1063,8 +1193,8 @@
       "url": "https://blogs.nvidia.cn/blog/build-ai-with-nvidia-jetson/",
       "published": "2026-07-28T02:27:02Z",
       "author": "Matthew Leib",
-      "summary": "作为一名既看重“颜值”又讲究“实力”的敏锐 AI 投资人，Sarah Guo 深知，本季最亮眼的配饰绝不是最新款的名牌包，而是包里的“硬核”装备。 在最近的一段视频中，AI 原生风投公司 Conviction 的创始人兼 AI 播客”No Priors”的联合主持人 Guo 强调，NVIDIA Jetson 边缘 AI 与机器人平台将强大的算力与便携性完美结合，为忙碌的开发者提供了一个专为物理世界和各行各业打造的、智能体就绪 AI 平台。最令人称道的是，这一切都能轻松装进一个手提包里。 NVID",
-      "content": "作为一名既看重“颜值”又讲究“实力”的敏锐 AI 投资人，Sarah Guo 深知，本季最亮眼的配饰绝不是最新款的名牌包，而是包里的“硬核”装备。\n\n在最近的一段视频中，AI 原生风投公司 Conviction 的创始人兼 AI 播客”No Priors”的联合主持人 Guo 强调，NVIDIA Jetson 边缘 AI 与机器人平台将强大的算力与便携性完美结合，为忙碌的开发者提供了一个专为物理世界和各行各业打造的、智能体就绪 AI 平台。最令人称道的是，这一切都能轻松装进一个手提包里。\n\nNVIDIA Jetson 模组和开发者套件体积小巧，可轻松放进包中，但算力强大，足以应对最棘手的难题。无论是在教室、实验室还是创客空间，只要在灵感迸发之处，它们便能为机器人、自主机器及现实世界 AI 项目提供动力。开发者可以利用该平台，以最高的安全标准，基于具有行业变革性的前沿开放模型进行开发。\n\n无论是使用 Jetson Orin Nano Super 开展首个机器人项目的学生，还是借助 Jetson AGX Orin 将前沿 AI 引入课程教学的教授，亦或是使用 Jetson AGX Thor 突破自主系统极限的研究人员，借助该平台，他们就能够在全球各地的每一间教室和实验室中构建、学习并推出新一代智能机器人。\n\n正如 Guo 所展示的：只需要带上你的包，Jetson 就能为你提供机器人的“大脑”。\n\n本周我们将持续发布一系列案例，首先从下方的 Jetson Orin Nano Super 开始，帮助开发者深入了解 NVIDIA Jetson 平台，开启下一个机器人技术突破之旅。\n\nNVIDIA Jetson Orin Nano Super：构建首个 AI 机器人的理想选择\n\n机器人理应拥有一个真正的大脑，而且显然还需要一段“时尚”的通勤之旅。当 Guo 将 Jetson Orin Nano Super 放进她的 Jacquemus 迷你包时，她等于把整套 AI 技术栈握在了手中——现在，它还多了一个可爱的提手：化身为小巧的手拿包！\n\nJetson Orin Nano Super 将桌面级的生成式 AI 浓缩进了一款可轻松放入手提包的开发者套件中，为初学者提供了一条学习计算机视觉、构建 AI 智能体、原型设计边缘 AI 等的实用路径。凭借每秒 67 TOPS 的 AI 性能，Jetson Orin Nano Super 助力开发者着手解决他们一直想攻克的难题。\n\n为了帮助开发者将灵感转化为现实，NVIDIA Jetson Device Skills 和 Jetson BSP Skills 为学生、研究人员和开发者提供了更便捷的方式。借助这些工具，他们可以轻松驾驭 AI 编程智能体，在边缘端创建、优化和部署现实世界的 AI 应用。\n\n机器人开发者们可以通过以下 Jetson Orin Nano Super 的实际应用案例，获取灵感，从而开启自己的第一个或下一个创意项目：\n\n自动驾驶我的电动汽车 | Model SidewalkPilot\n\n借助 Jetson Orin Nano Super，定制版 SidewalkPilot AI 模型可在玩具电动汽车上自主执行各种机动操作。\n\nReachy Mini Jetson 助手\n\nReachy Mini Jetson 助手是一款低延迟、完全在本地运行的语音和视觉助手，专为 Reachy Mini Lite 打造，由 NVIDIA Jetson Orin Nano Super 提供动力。所有功能均通过 GPU 加速在本地运行——无需云端、无需 API 密钥、运行时也无需联网。点击此处开始体验。\n\n从零开始构建我的首个 AI 机器人\n\nCoding with Lewis 使用开放权重模型 Mistral 构建了一个 AI 机器人，证明了初涉机器人领域的开发者也能借助 Jetson Orin Nano Super 从零开始进行开发。\n\n机器人 AI 播客\n\nAsier Arnaz 利用 Jetson Orin Nano Super 打造了一档基于 Yocto 的机器人 AI 视频播客。节目中，两个 AI 模型实时讨论各种话题，并重点展示了创客们在边缘端的创造成果。\n\n受到启发了吗？欢迎关注我们的系列直播，开启你的创作之旅。课程共设三个模块，开发者将学习如何在 NVIDIA Jetson 上运行生成式 AI、构建 Claw 智能体，并部署视觉语言模型 (VLM) 及视觉语言动作模型 (VLA)，从而赋能现实世界的物理 AI 应用。\n\n用 Jetson AGX Orin 为现实世界的机器注入强大 AI 算力\n\nJetson AGX Orin 拥有 275 TOPS 的 AI 性能，当工作负载变得更加复杂时，它便是你的得力助手。在 Guo 看来，道理很简单：算力越高，能承载的任务就越多。\n\n对于进阶创客而言，Jetson AGX Orin 将 AI 的全部实力带入课程教学、毕业设计和应用研究中。它为高级机器人、自主机器和边缘 AI 提供动力，证明了强大的 AI 不再只能被安置在服务器机房中，也不再是少数人的专属。\n\nJetson AGX Orin 让开发者能够在真实环境中验证真实想法，并将整套系统带到课堂、实验室、演示台，甚至是首场投资人会议中。\n\n凭借在高级机器人课程和严肃的初创项目中的广泛适用性，Jetson AGX Orin 能够支持计算机视觉、生成式 AI、自主导航等任务，使其成为推动各行各业转型的理想选择——无论是打造配送机器人、智能视觉功能还是实现工业自动化。\n\n通过以下创新案例，进一步了解 Jetson AGX Orin 的实际应用：\n\n实时 VLM WebUI\n\n这款基于浏览器的界面，可在 Jetson AGX Orin 上实时流式运行视觉语言模型 (VLM) 的推理过程，让用户能够通过摄像头画面与 VLM 进行实时交互。\n\nSMoRes\n\n卡耐基梅隆大学的机器人团队打造的这套自主系统，能够在时间紧迫的救援场景中，同步构建环境的 3D 地图并搜寻幸存者。\n\n不止于“返校季”，用 Jetson AGX Thor 构建更强大的 AI 应用\n\n放学了，机器人创客们要动真格了。最繁重的工作负载需要最强大的“大脑”，而 Jetson AGX Thor 名副其实。它可提供高达 2070 FP4 TFLOPS 的 AI 算力和 128GB 内存。听听专家怎么说：“假期就要干点大项目，否则不如在教室继续上课。”当然，更大的大脑自然需要更大的“背包“来承载。\n\n作为下一代人形机器人和自主系统的终极平台，Jetson AGX Thor 专为那些需要在边缘端进行复杂实时推理的系统而生，它正是所有机器人翘首以盼的“大脑”。它为实验室、工厂及现场最具挑战性的工作负载提供服务器级算力和 AI 智能体能力，赋能全球各行各业的创新应用。\n\n有了 Jetson AGX Thor，未来已真正“收入囊中”。通过以下创新案例，了解 Jetson AGX Thor 的实际落地：\n\n抹茶机器人\n\n这款作品来自伊利诺伊大学香槟分校 SIGRobotics 团队，它在黑客松中荣获第一名。该团队利用两台机械臂在 Jetson AGX Thor 上运行 NVIDIA Isaac GR00T N1.5 模型，实现了自主完成倒水、备料和搅拌抹茶的全过程。\n\n多模态 AI 工作室\n\n这是一个基于 Jetson AGX Thor 打造的创意开发环境，融合了视觉、音频和语言输入，让开发者能够在边缘端开展丰富的多模态 AI 实验。\n\n让机器人动起来并不难，但 Jetson 能让机器人学会“思考”，将前沿 AI 技术交到每一位开发者手中。那么，哪款 NVIDIA Jetson 模组最适合你？不妨先从合适的入门款开始，待时机成熟再行升级。Guo，你说对不对？\n\n深入了解 NVIDIA Jetson。",
+      "summary": "作为一名既看重“颜值”又讲究“实力”的敏锐 AI 投资人，Sarah Guo 深知，本季最亮眼的配饰绝不是最新款的名牌包，而是包里的“硬核”装备。 在最近的一段视频中，AI 原生风投公司 Conviction 的创始人兼 AI 播客“No Priors”的联合主持人 Guo 强调，NVIDIA Jetson 边缘 AI 与机器人平台将强大的算力与便携性完美结合，为忙碌的开发者提供了一个专为物理世界和各行各业打造的、智能体就绪 AI 平台。最令人称道的是，这一切都能轻松装进一个手提包里。 NVID",
+      "content": "作为一名既看重“颜值”又讲究“实力”的敏锐 AI 投资人，Sarah Guo 深知，本季最亮眼的配饰绝不是最新款的名牌包，而是包里的“硬核”装备。\n\n在最近的一段视频中，AI 原生风投公司 Conviction 的创始人兼 AI 播客“No Priors”的联合主持人 Guo 强调，NVIDIA Jetson 边缘 AI 与机器人平台将强大的算力与便携性完美结合，为忙碌的开发者提供了一个专为物理世界和各行各业打造的、智能体就绪 AI 平台。最令人称道的是，这一切都能轻松装进一个手提包里。\n\nNVIDIA Jetson 模组和开发者套件体积小巧，可轻松放进包中，但算力强大，足以应对最棘手的难题。无论是在教室、实验室还是创客空间，只要在灵感迸发之处，它们便能为机器人、自主机器及现实世界 AI 项目提供动力。开发者可以利用该平台，以最高的安全标准，基于具有行业变革性的前沿开放模型进行开发。\n\n无论是使用 Jetson Orin Nano Super 开展首个机器人项目的学生，还是借助 Jetson AGX Orin 将前沿 AI 引入课程教学的教授，亦或是使用 Jetson AGX Thor 突破自主系统极限的研究人员，借助该平台，他们就能够在全球各地的每一间教室和实验室中构建、学习并推出新一代智能机器人。\n\n正如 Guo 所展示的：只需要带上你的包，Jetson 就能为你提供机器人的“大脑”。\n\n本周我们将持续发布一系列案例，首先从下方的 Jetson Orin Nano Super 开始，帮助开发者深入了解 NVIDIA Jetson 平台，开启下一个机器人技术突破之旅。\n\nNVIDIA Jetson Orin Nano Super：构建首个 AI 机器人的理想选择\n\n机器人理应拥有一个真正的大脑，而且显然还需要一段“时尚”的通勤之旅。当 Guo 将 Jetson Orin Nano Super 放进她的 Jacquemus 迷你包时，她等于把整套 AI 技术栈握在了手中 —— 现在，它还多了一个可爱的提手：化身为小巧的手拿包！\n\nJetson Orin Nano Super 将桌面级的生成式 AI 浓缩进了一款可轻松放入手提包的开发者套件中，为初学者提供了一条学习计算机视觉、构建 AI 智能体、原型设计边缘 AI 等的实用路径。凭借每秒 67 TOPS 的 AI 性能，Jetson Orin Nano Super 助力开发者着手解决他们一直想攻克的难题。\n\n为了帮助开发者将灵感转化为现实，NVIDIA Jetson Device Skills 和 Jetson BSP Skills 为学生、研究人员和开发者提供了更便捷的方式。借助这些工具，他们可以轻松驾驭 AI 编程智能体，在边缘端创建、优化和部署现实世界的 AI 应用。\n\n机器人开发者们可以通过以下 Jetson Orin Nano Super 的实际应用案例，获取灵感，从而开启自己的第一个或下一个创意项目：\n\n自动驾驶我的电动汽车 | Model SidewalkPilot\n\n借助 Jetson Orin Nano Super，定制版 SidewalkPilot AI 模型可在玩具电动汽车上自主执行各种机动操作。\n\nReachy Mini Jetson 助手\n\nReachy Mini Jetson 助手是一款低延迟、完全在本地运行的语音和视觉助手，专为 Reachy Mini Lite 打造，由 NVIDIA Jetson Orin Nano Super 提供动力。所有功能均通过 GPU 加速在本地运行 —— 无需云端、无需 API 密钥、运行时也无需联网。点击此处开始体验。\n\n从零开始构建我的首个 AI 机器人\n\nCoding with Lewis 使用开放权重模型 Mistral 构建了一个 AI 机器人，证明了初涉机器人领域的开发者也能借助 Jetson Orin Nano Super 从零开始进行开发。\n\n机器人 AI 播客\n\nAsier Arnaz 利用 Jetson Orin Nano Super 打造了一档基于 Yocto 的机器人 AI 视频播客。节目中，两个 AI 模型实时讨论各种话题，并重点展示了创客们在边缘端的创造成果。\n\n受到启发了吗？欢迎关注我们的系列直播，开启你的创作之旅。课程共设三个模块，开发者将学习如何在 NVIDIA Jetson 上运行生成式 AI、构建 Claw 智能体，并部署视觉语言模型 (VLM) 及视觉语言动作模型 (VLA)，从而赋能现实世界的物理 AI 应用。\n\n用 Jetson AGX Orin 为现实世界的机器注入强大 AI 算力\n\nJetson AGX Orin 拥有 275 TOPS 的 AI 性能，当工作负载变得更加复杂时，它便是你的得力助手。在 Guo 看来，道理很简单：算力越高，能承载的任务就越多。\n\n对于进阶创客而言，Jetson AGX Orin 将 AI 的全部实力带入课程教学、毕业设计和应用研究中。它为高级机器人、自主机器和边缘 AI 提供动力，证明了强大的 AI 不再只能被安置在服务器机房中，也不再是少数人的专属。\n\nJetson AGX Orin 让开发者能够在真实环境中验证真实想法，并将整套系统带到课堂、实验室、演示台，甚至是首场投资人会议中。\n\n凭借在高级机器人课程和严肃的初创项目中的广泛适用性，Jetson AGX Orin 能够支持计算机视觉、生成式 AI、自主导航等任务，使其成为推动各行各业转型的理想选择 —— 无论是打造配送机器人、智能视觉功能还是实现工业自动化。\n\n通过以下创新案例，进一步了解 Jetson AGX Orin 的实际应用：\n\n实时 VLM WebUI\n\n这款基于浏览器的界面，可在 Jetson AGX Orin 上实时流式运行视觉语言模型 (VLM) 的推理过程，让用户能够通过摄像头画面与 VLM 进行实时交互。\n\nSMoRes\n\n卡耐基梅隆大学的机器人团队打造的这套自主系统，能够在时间紧迫的救援场景中，同步构建环境的 3D 地图并搜寻幸存者。\n\n不止于“返校季”，用 Jetson AGX Thor 构建更强大的 AI 应用\n\n放学了，机器人创客们要动真格了。最繁重的工作负载需要最强大的“大脑”，而 Jetson AGX Thor 名副其实。它可提供高达 2070 FP4 TFLOPS 的 AI 算力和 128GB 内存。听听专家怎么说：“假期就要干点大项目，否则不如在教室继续上课。”当然，更大的大脑自然需要更大的“背包”来承载。\n\n作为下一代人形机器人和自主系统的终极平台，Jetson AGX Thor 专为那些需要在边缘端进行复杂实时推理的系统而生，它正是所有机器人翘首以盼的“大脑”。它为实验室、工厂及现场最具挑战性的工作负载提供服务器级算力和 AI 智能体能力，赋能全球各行各业的创新应用。\n\n有了 Jetson AGX Thor，未来已真正“收入囊中”。通过以下创新案例，了解 Jetson AGX Thor 的实际落地：\n\n抹茶机器人\n\n这款作品来自伊利诺伊大学香槟分校 SIGRobotics 团队，它在黑客松中荣获第一名。该团队利用两台机械臂在 Jetson AGX Thor 上运行 NVIDIA Isaac GR00T N1.5 模型，实现了自主完成倒水、备料和搅拌抹茶的全过程。\n\n多模态 AI 工作室\n\n这是一个基于 Jetson AGX Thor 打造的创意开发环境，融合了视觉、音频和语言输入，让开发者能够在边缘端开展丰富的多模态 AI 实验。\n\n让机器人动起来并不难，但 Jetson 能让机器人学会“思考”，将前沿 AI 技术交到每一位开发者手中。那么，哪款 NVIDIA Jetson 模组最适合你？不妨先从合适的入门款开始，待时机成熟再行升级。Guo，你说对不对？\n\n深入了解 NVIDIA Jetson。",
       "readingMinutes": 6
     },
     {
@@ -1104,32 +1234,6 @@
       "author": "Eduardo Alvarez",
       "summary": "What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale....",
       "content": "What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale....\nWhat began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale. These factories are now tasked with powering agentic workflows that reason, plan, use tools, verify intermediate results, and execute complex multistep tasks across vast contexts. Agentic workloads are not defined by a single prompt…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "2fb00782bce4f744",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Advancing Semiconductor Innovation Across Materials Engineering and Manufacturing",
-      "url": "https://developer.nvidia.com/blog/advancing-semiconductor-innovation-across-materials-engineering-and-manufacturing/",
-      "published": "2026-07-27T17:49:26Z",
-      "author": "Tanya Lenz",
-      "summary": "As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have...",
-      "content": "As AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have...\nAs AI workloads increase, explosive compute demand is pushing the semiconductor industry to meet unprecedented performance targets. Even small delays can have outsized financial impact in fast-moving AI hardware cycles. Simultaneously, the shift from chip-level optimization to system-level engineering is compounding thermal and power challenges. Meeting these demands requires breakthroughs…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "4ea4ebe664db7c51",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "PIVOT: Efficient Query-Group Indexing for Token-Level Sparse Attention",
-      "url": "https://arxiv.org/abs/2607.24593v1",
-      "published": "2026-07-27T15:58:07Z",
-      "author": "Hong Liu",
-      "summary": "Token-level sparse attention, as implemented by DeepSeek Sparse Attention (DSA) in production systems, makes the downstream attention efficient but shifts the bottleneck to the indexer that feeds it. To select the top-k tokens for each query, the indexer must still score every p…",
-      "content": "Token-level sparse attention, as implemented by DeepSeek Sparse Attention (DSA) in production systems, makes the downstream attention efficient but shifts the bottleneck to the indexer that feeds it. To select the top-k tokens for each query, the indexer must still score every preceding token, incurring a cost of O(L^2) per layer for a sequence of length L. We observe that this per-query scan is largely redundant: nearby queries select highly overlapping top-k tokens, and the indexer scores are long-tailed along the key axis. We exploit these properties in PIVOT, Proxy Indexing Via One full-prefix Traversal, a training-free, drop-in replacement for the DSA indexer that shares one prefix scan across a group of nearby queries. PIVOT aggregates a group into a single proxy query, performs one shared full-prefix scan to obtain a candidate set, and then selects a top-k for each query from that set. Two variants trade speed for fidelity: PIVOT-Reuse shares the proxy top-k across the group for maximum speed, whereas PIVOT-Refine re-scores the candidate set with the indexer of each query and then selects an individual top-k, matching the dense indexer at a small additional cost. A single algorithm covers both inference phases, differing only in how groups are formed: fixed-size groups of consecutive queries in prefill, and the queries decoded together in one multi-token prediction (MTP) step in decode. On DeepSeek-V3.2 and GLM-5.1 across LongBench and RULER, PIVOT matches the accuracy of the dense DSA indexer while accelerating it by up to 4x and reducing end-to-end latency by up to 1.6x at long context.",
       "readingMinutes": 1
     },
     {
@@ -1241,12 +1345,12 @@
       "feedTitle": "NVIDIA 技术博客",
       "feedUrl": "https://developer.nvidia.cn/blog/feed",
       "category": "默认分类",
-      "title": "六种智能体线束功能可实现更高的模型性能",
+      "title": "六种智能体 Harness 功能可实现更高的模型性能",
       "url": "https://developer.nvidia.cn/blog/six-agent-harness-capabilities-for-higher-model-performance/",
       "published": "2026-07-27T02:00:00Z",
       "author": "wnger",
-      "summary": "构建出色的 AI 智能体不仅仅是选择合适的模型。线束是围绕模型的架构。渲染上下文、执行动作、管理状态以及决定任 … Continued",
-      "content": "构建出色的 AI 智能体不仅仅是选择合适的模型。线束是围绕模型的架构。渲染上下文、执行动作、管理状态以及决定任务何时完成，所塑造的结果与模型本身一样重要。光是线束设计就可以考虑到基准测试结果的两位数波动和 token 成本的显著差异，且底层模型相同。 NVIDIA Labs Object-Oriented Agents (NOOA) 是基于此见解构建的开源研究预览。它具有 Python 框架、内存系统、能力测试和基准测试智能体，并已发布代码、数据和评估，因此社区可以复制、挑战和构建这些结果。 智能体开发涉及跨提示模板、工具模式、回调代码和工作流程图协调多个移动部分。NOOA 采用了一种更简单的方法：智能体就是一个 Python 类。它的方法就是它的能力。它的字段就是它的状态。它的文档字符串就是提示词。其类型标注是可执行的合同。其主体为省略号 (…\n\nSource",
+      "summary": "构建出色的 AI 智能体不仅仅是选择合适的模型。Harness 是围绕模型的架构。渲染上下文、执行动作、管理状 … Continued",
+      "content": "构建出色的 AI 智能体不仅仅是选择合适的模型。Harness 是围绕模型的架构。渲染上下文、执行动作、管理状态以及决定任务何时完成，所塑造的结果与模型本身一样重要。光是 Harness 设计就可以考虑到基准测试结果的两位数波动和 token 成本的显著差异，且底层模型相同。 NVIDIA Labs Object-Oriented Agents (NOOA) 是基于此见解构建的开源研究预览。它具有 Python 框架、内存系统、能力测试和基准测试智能体，并已发布代码、数据和评估，因此社区可以复制、挑战和构建这些结果。 智能体开发涉及跨提示模板、工具模式、回调代码和工作流程图协调多个移动部分。NOOA 采用了一种更简单的方法：智能体就是一个 Python 类。它的方法就是它的能力。它的字段就是它的状态。它的文档字符串就是提示词。其类型标注是可执行的合同。其主体为省略号 (… …)…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1403,19 +1507,6 @@
       "author": "khluu",
       "summary": "v0.26.0rc1",
       "content": "v0.26.0rc1",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f470dee7b01bc0c6",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
-      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-in-one-day-using-agent-skills/",
-      "published": "2026-07-23T18:54:14Z",
-      "author": "Tanya Lenz",
-      "summary": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...",
-      "content": "What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...\nWhat if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning models to production video tasks, developers often lose days to data formatting, container setup, training scripts, baseline evaluation, and hyperparameter sweeps before they even know whether post-training improves accuracy.\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -2277,19 +2368,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "f488e55b10047ff0",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "问答：Capcom 如何在“虚实万象 ( PRAGMATA) ”和“生化危机：安魂曲 ( Resident Evil Requiem) ”中将路径追踪技术引入 RE ENGINE",
-      "url": "https://developer.nvidia.cn/blog/qa-how-capcom-brought-path-tracing-to-re-engine-across-pragmata-and-resident-evil-requiem/",
-      "published": "2026-07-16T15:59:09Z",
-      "author": "wnger",
-      "summary": "Capcom 的 RE ENGINE 团队着手将路径追踪技术同时引入两款游戏：“生化危机：安魂曲 ( Resi … Continued",
-      "content": "Capcom 的 RE ENGINE 团队着手将路径追踪技术同时引入两款游戏：“生化危机：安魂曲 ( Resident Evil Requiem)” 和 “虚实万象 ( PRAGMATA)”，每款游戏都具有不同的视觉特征。 两年多来，RE ENGINE 团队构建了一个参考路径追踪器，根据常见的 DCC 路径追踪器验证了其光照效果，然后将其扩展为针对 DLSS 优化并基于 NVIDIA RTX Kit 构建的面向游戏的版本。 带来的好处是：直接照明现在可以通过路径追踪器代替阴影贴图来实现，游戏过程和过场动画之间的视觉差距大大缩小，发丝在这两个游戏中都能获得实时光线传输。 NVIDIA 游戏团队与 RE ENGINE 讨论了从光线追踪到路径追踪的过渡、内容管线中的变化以及渲染器的下一步发展方向。 为何 Capcom 现在要在“虚实万象 ( PRAGMATA) ”和“生化危机：\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "53ad893ddb18c2e1",
       "feedTitle": "Google AI · DeepMind",
       "feedUrl": "https://deepmind.google/blog/rss.xml",
@@ -2420,19 +2498,6 @@
       "readingMinutes": 7
     },
     {
-      "id": "f8df3e0d3cc81402",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "published": "2026-07-15T10:00:00Z",
-      "author": "",
-      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "content": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "readingMinutes": 1
-    },
-    {
       "id": "0221b1d0649ec5f2",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -2498,19 +2563,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "0a5ca4c5b5238e08",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "How to manage AI investments in the agentic era",
-      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "published": "2026-07-14T10:00:00Z",
-      "author": "",
-      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "content": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "readingMinutes": 1
-    },
-    {
       "id": "9b15fa345e7ac466",
       "feedTitle": "vLLM Releases",
       "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
@@ -2548,19 +2600,6 @@
       "summary": "编者注：本文是 Nemotron Labs 系列博客文章，探讨最新的开放模型、数据集和训练技术如何帮助企业在 NVIDIA 平台上构建专用 AI 系统和应用。每篇文章都重点介绍了在生产中使用开放软件栈来提供价值的实用方法，涵盖了从透明的研究 Copilot 到可扩展的 AI 智能体等领域。 企业有许多强大的模型可供选择。真正的考验在于企业所构建的 AI 能否特定地处理其业务需求：改进工作流、使用领域知识并超越准确性和信任度的标准。 如今，AI 领域的竞争优势越来越取决于组织如何基于现有模型进行构",
       "content": "编者注：本文是 Nemotron Labs 系列博客文章，探讨最新的开放模型、数据集和训练技术如何帮助企业在 NVIDIA 平台上构建专用 AI 系统和应用。每篇文章都重点介绍了在生产中使用开放软件栈来提供价值的实用方法，涵盖了从透明的研究 Copilot 到可扩展的 AI 智能体等领域。\n\n企业有许多强大的模型可供选择。真正的考验在于企业所构建的 AI 能否特定地处理其业务需求：改进工作流、使用领域知识并超越准确性和信任度的标准。\n\n如今，AI 领域的竞争优势越来越取决于组织如何基于现有模型进行构建，而不仅仅是选择哪种模型。\n\n像 NVIDIA Nemotron 这样的开放模型专为定制化而构建 —— 帮助企业和国家构建可控、可信且为其需求量身定制的 AI。\n\n从使用 AI 到拥有智能\n\n譬如自主智能体和应用这样的专用 AI 都基于定制的开放模型构建。这些智能体旨在很好地完成指定任务，因为其所使用的模型已根据专有知识进行调优，并针对实际业务成果进行了评估。\n\n这需要直接访问模型本身。闭源模型拓宽了可能性的边界，并不断推动通用智能的前沿，但同时也为企业在检查、调优和改进方面设置了上限。开放模型则打破了这一壁垒 —— 提供企业完整的所有权与完全管理权。\n\n高效的智能体 AI 应用是由多个模型组成的系统，在系统中，开放模型与领先的前沿模型协同工作，各自发挥所长。高性能推理模型可以处理复杂的规划，而较小的模型则执行特定任务。这使企业能够合理调整推理成本、提高特定任务的准确性，并随工作流演进保持灵活性。\n\n值得企业信赖的定制化\n\n开放模型为企业提供了闭源模型所不能提供的能力：可根据业务需求定制、检查和改进 AI 的完全管理权。公开基准测试可衡量的是通用能力 —— 但以业务为导向的评估让团队能够根据自己的数据、工作流和准确性的定义进行测试 —— 并以此为基础进行改进。\n\n例如，在医疗和法律这样的行业，错误答案的代价很高，这些行业的团队通常处理敏感数据并对准确性有严格要求，因此这些领域的组织必须清楚了解模型训练方式和性能表现，并具备在必要时对其进行改进的能力。\n\n借助开放模型，团队可以检查其应用、根据自身标准运行私有评估，并建立针对其工作流进行调优的强化学习环境。其专有数据无需通过第三方路由传输。\n\n各行各业的公司已经在各自的领域对 Nemotron 进行专用化定制：\n\nAbridge 正在定制 Nemotron，以构建首个专为临床对话打造的基础模型。\n\nGlean 构建了 Waldo，一种智能体搜索模型，它将 Nemotron 与更大的闭源模型结合，以显著降低延迟并减少 Token 消耗，从而提供企业级搜索。\n\nH Company 基于专有计算机使用数据对 Nemotron 3 Nano Omni 进行后训练，构建了 Holotron 3 Nano。该模型在 OSWorld-Verified —— 一项计算机任务基准测试 —— 上面实现了高于 76% 的准确率，并且成本远低于其他领先的前沿模型。\n\nHarvey 在其法律基准上对 Nemotron 3 Ultra 进行了后训练并达到了前沿级准确性 —— 在复杂法律任务上能够与领先的闭源模型相媲美，并且每次运行成本至多是原来的十分之一。\n\nHeidi Health 在无需前沿规模计算的情况下，在临床文档记录方面实现了前沿质量的成果。\n\nYTL AI Labs 针对马来西亚语对 Nemotron 模型进行了后训练，以本地定制 AI 赋能马来西亚开发者社区，以进一步提升其 AI 能力。\n\n微调环境与优化运行成本\n\n定制化可提高准确性。当模型针对特定 Harness 或领域进行调优时，其运行效率也会更高。\n\nNVIDIA NeMo 开放库套件不仅支持智能体优化和治理，还能加速模型定制和评估。\n\nPrime Intellect 和 Unsloth 等合作伙伴已开始为在 Nemotron 上构建后训练管线的企业提供 AI 定制支持，使规模化运行专用 AI 变得切实可行。\n\nLangChain 为 Nemotron 3 Ultra 调优其 Deep Agents Harness —— 在无需重新训练模型的情况下调整提示词、工具和中间件 —— 并在开放模型中实现了更高的智能体准确性，而每次运行成本约为其他领先闭源替代方案的十分之一。\n\n这些成本优势扩展到了基础设施，以实现出色的可扩展性。通过在 NVIDIA Blackwell 平台上对 Nemotron 进行后训练，Arcee AI 实现了每百万输出 Token 约 90 美分的推理成本 —— 比同类闭源前沿模型低约 20 倍 (成本仅为后者的二十分之一左右) —— 同时在 PinchBench 上排名第二，并保持完全开放的权重。\n\n节省的成本有助于实现更广泛的实验、更多部署和更快的迭代。\n\n基于开放基础的生态系统构建\n\n从采用 AI 到拥有 AI 的转变正在全面展开。NVIDIA Nemotron Coalition 正在帮助将开放模型开发转化为一项生态系统工程，将模型构建者和开发者聚集在一起，通过共享数据、评估和领域专业知识来改进 Nemotron。此外，黑客松的提交成果和社区贡献也跨行业生成了可复用证明资产。\n\n构建者们正在将 Nemotron 整合到其 AI 系统中，证明其价值并分享有效经验。这一切的基础是完全开放的。\n\n详细了解 NVIDIA Nemotron 开放模型并在 NVIDIA 官网上体验。",
       "readingMinutes": 4
-    },
-    {
-      "id": "578b3bdf5cbf1347",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "How data science teams use ChatGPT Work",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "published": "2026-07-14T00:00:00Z",
-      "author": "",
-      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "content": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "readingMinutes": 1
     },
     {
       "id": "3bec5ca69d709adf",
@@ -3980,19 +4019,6 @@
       "readingMinutes": 4
     },
     {
-      "id": "943131d868f18f86",
-      "feedTitle": "Meta Engineering",
-      "feedUrl": "https://engineering.fb.com/feed/",
-      "category": "AI Infra",
-      "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
-      "url": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems/",
-      "published": "2026-05-26T16:00:01Z",
-      "author": "",
-      "summary": "We’re introducing SilverTorch, a reimagining of recommendation systems that unifies all retrieval components for user generated content under a unified architecture. SilverTorch shows up to 23.7x higher throughput compared to the state-of-the-art approaches. It’s also showing 20…",
-      "content": "We’re introducing SilverTorch, a reimagining of recommendation systems that unifies all retrieval components for user generated content under a unified architecture.\n\nSilverTorch shows up to 23.7x higher throughput compared to the state-of-the-art approaches. It’s also showing 20.9x more compute cost efficiency compared to a CPU-based solution while also improving accuracy.\n\nOur research paper, “SilverTorch: A Unified Model-based System to Democratize Large-Scale Recommendation on GPUs,” accepted to the full paper track at SIGIR 2026, contains full technical details.\n\nThe retrieval system within industry recommendation systems have consisted of microservices stitched together, with neural networks inconsistently integrated. Our recommendation can scale to serve people across multiple platforms. Retrieval is responsible for narrowing from millions of pieces of content (e.g., reels and photos) down to thousands before passing them to ranking systems, all in less than 100 milliseconds.\n\nHowever, the microservice based design had hard constraints on model complexity and the number of candidates evaluated, ultimately creating a ceiling on the quality of recommendations that people on our platforms see.\n\nTo break through this ceiling, we’ve fully reimagined our retrieval ecosystem into a unified model-based system – SilverTorch.\n\nSilverTorch operates under a new paradigm we call Index as Model. We’ve built our retrieval system as a single neural network and now express different microservices as model modules within this integrated neural network. Under Index as Model previous microservice-based item indices used for retrieval become a tensor inside the model. As a user opens up their app, one request flows through a SilverTorch model, completes all critical retrieval functions (searching for items similar to the user’s interests, filtering for eligibility, reranking and scoring engagement likelihood against multiple user engagement actions), and returns a list of high-quality content candidates to ranking. This new design effectively allows us to increase modeling complexity and the number of candidates evaluated without breaking the sub-100 milliseconds bar.\n\nSilverTorch makes retrieval significantly more efficient, runs at scale, and enables better recommendations.\n\nHigher throughput, lower total cost of ownership (TCO). In an 80M-item end-to-end evaluation, SilverTorch served 23.7× more requests per second than a strong traditional multi-service baseline built on the same model architecture, while improving estimated TCO efficiency by 20.9×.\n\nProven at scale. Results show SilverTorch can scale across a family of apps as the major retrieval system behind the feed and video content people see.\n\nBetter recommendations. By making neural reranking and multi-task scoring practical within tight latency budgets, SilverTorch has consistently enabled retrieval quality improvements that would have been impractical under a microservices architecture.\n\nMoving From Microservice Mesh to One Integrated Neural Network\n\nThe Microservice Paradigm We Replaced\n\nTraditional recommendation retrieval is built as a mesh of microservices. When a user opens a social media platform, the request hits an orchestrator, which fans out to a user-tower model service (which computes a vector representation of the user’s interests, called a “user embedding”), a combined retrieval service (which finds and filters candidate items based on similarity to the user vector and eligibility rules like language and geography), and a scoring service (which ranks the survivors). The orchestrator merges results and hands them downstream. Each service has its own codebase, often in a different programming language, with its own deployment lifecycle.\n\nThis worked well in the CPU era. But as retrieval systems grew in scale and sophistication, three problems compounded into structural limits that no component-level optimization can fix:\n\nLatency lost to data movement. Every hop between services costs network round-trip time and serialization overhead, eating into our sub-100-millisecond retrieval budget that should fund actual computation. And because filtering, search, and scoring are designed independently, they cannot be jointly optimized.\n\nVersion inconsistency. The user-tower model, the item index, and the filtering rules each update on their own cadence. When the user model ships v2 but the item index is still on v1, the system queries v1 embeddings with v2 user representations — creating quality gaps no downstream ranking can recover.\n\nSiloed development environments. Machine learning (ML) engineers write PyTorch. Infrastructure engineers write C++. Different release cycles, different testing setups, different mental models. Every retrieval improvement requires translating an idea between two environments — weeks or months per cycle.\n\nComponent-level optimizations like Faiss-GPU help by making the specific microservice faster, but they don’t resolve the underlying structural limits. The architecture is still a system of services with artifacts handed between them.\n\nThe Shift: All Components Are Model Modules\n\nSilverTorch rethinks the paradigm from the ground up. Instead of designing a microservices system and inserting neural networks into it, we start with the neural network and design outward. We call this Index as Model: Every retrieval component — the item index, eligibility filter, scoring layer and user tower — becomes a tensor or operator inside a single PyTorch model. That means one artifact to deploy, one forward pass to run and one source of truth for what’s in the system.\n\nInside the Model\n\nA diagram of the SilverTorch Index as Model architecture.\n\nInside this single neural network, different regions of the network handle different jobs. Approximate nearest neighbor (ANN) search regions find items most similar to the user’s interests without checking every item in the catalog (a librarian who has organized the books well doesn’t walk every shelf). Eligibility filtering regions check that each candidate is allowed to be shown: right language, right country, right content policy. Multi-task reranking regions predict the likelihood of multiple engagement actions (like, share, comment) at once, then combine them into a composite score. Some regions are hand-written by engineers; others are trained end-to-end via backpropagation. From the runtime’s perspective, all of them are nn.Module — the standard building block of PyTorch — and indistinguishable from each other.\n\nThe Redesign: Pure PyTorch Modules for Every Stage\n\nHow Each Component Worked Before\n\nBefore SilverTorch, every module in the production retrieval pipeline — ANN search, eligibility filtering, neural reranking, composite scoring — had a well-known classic implementation, mostly built as standalone services in C++.\n\nModule\n\nClassic implementation\n\nWhere it runs\n\nANN search\n\nFAISS\n\nCPU and GPU versions\n\nEligibility filtering\n\nInverted index\n\nCPU and GPU versions\n\nNeural reranking\n\nStandalone early stage ranking service\n\nCPU and GPU versions\n\nComposite scoring\n\nRule-based aggregation\n\nCPU only\n\nThe classic implementation of retrieval modules prior to SilverTorch.\n\nThese implementations are mature and battle-tested, but each is a standalone service with its own data structures, memory, and execution model. We can chain them — run ANN, then hand its output to filtering — but we cannot easily implement cross-module optimizations like “pick the most promising clusters first, filter only inside those clusters, then score only the survivors.” This level of co-design requires modules to share memory, an execution graph, and a compilation step.\n\nThe Pure PyTorch Decision\n\nTo enable that co-design, we made a decision that every module would be reimplemented in pure PyTorch. Under this paradigm:\n\nAll data is expressed as tensors.\n\nAll logic is tensor-in, tensor-out.\n\nEvery module is an nn.Module that conforms to PyTorch’s standard interface.\n\nAt execution time, the ANN and Bloom index filter modules are indistinguishable from a trained ML reranker — both are nn.Module, both take tensors in and produce tensors out.\n\nWith every module as an nn.Module, the boundary between ML engineering and infrastructure engineering dissolves — they live on the same layer, freely composed and jointly optimized in a single PyTorch training script. And because the whole system reduces to a single PyTorch model, we get to benefit from the broader AI industry’s work on making PyTorch models faster, like PyTorch’s own torch.compile that automatically rewrites a PyTorch model into more efficient GPU kernel code. Every advance in that ecosystem improves SilverTorch’s serving performance.\n\nThe pure PyTorch decision did not mean taking CPU-era retrieval components and wrapping them in nn.Module. It forced us to rethink retrieval primitives in forms native to GPU execution and to the model graph itself. Bloom index filter and fused Int8 ANN search are two examples. In both cases, the gain comes not from porting an old service into PyTorch, but from redesigning the underlying algorithm around GPU memory behavior, tensor layout, and execution inside the same forward pass. That is the fundamental playbook of SilverTorch: once retrieval components live inside one PyTorch model, co-design becomes possible, and that co-design is what unlocks the gains.\n\nBloom index filter is one example of how SilverTorch redesigns retrieval for GPUs. In traditional systems, filtering is usually handled by an inverted index, which is efficient on CPUs but harder to run well on GPUs. The problem is that recommendation filtering often has to check many item attributes at once, such as language, location, or eligibility rules, and posting lists can also vary dramatically in length across attributes and queries, creating intra-warp load imbalance and warp divergence on GPUs. Threads assigned short lists become inactive early, while the warp remains occupied until the lanes processing the longest lists complete.\n\nSilverTorch replaces that with a Bloom index stored directly inside the model. Each item gets a compact signature when it is published, and at serving time the model can quickly check whether an item matches the request using simple bit operations. This turns filtering into the kind of dense, parallel work GPUs are good at, and because the filter result is already inside the model, it can flow directly into ANN search without a separate service call.\n\nFused Int8 ANN search follows the same idea. General-purpose ANN libraries are built to find nearby items, but recommendation systems need more than a small nearest-neighbor lookup. They often need to pull back a much larger pool of candidates so later stages can make better relevance decisions.\n\nSilverTorch reimplements ANN search as part of the model itself. It stores item embeddings in a compact Int8 format, which cuts memory use roughly in half compared to typical 16 bits, and runs search with a fused GPU kernel. That reduces data movement and makes the retrieval stage cheap enough to return many more candidates, giving downstream models more room to find the best recommendations. Our Int8 quantized ANN search shows limited quality loss compared to brute force while significantly improving serving performance. It frees headroom for ranking more items with more sophisticated layers and improves the end-to-end retrieval accuracy, and the algorithm supports large top-k and probe counts; in practice, we observe no retrieval recall loss with 64 probes and top-2048.\n\nBenefits — What Shows Up Outside the System\n\nSilverTorch delivers concrete impact along three dimensions: compute cost efficiency, recommendation quality, and engineering velocity.\n\nCompute Cost Efficiency\n\nBy moving ANN search, eligibility filtering, and composite scoring onto the GPU and combining them through SilverTorch’s co-design, we serve far more requests per second on the same machine. More requests per second means fewer machines needed for the same workload, and fewer machines means lower compute cost per request.\n\nBelow is a comparison on a production retrieval workload of 80 million items, with real production traffic replayed against each system under the same latency budget:\n\nMetric\n\nFAISS-CPU\n\nFAISS-GPU\n\nSilverTorch\n\nCompute cost efficiency vs. CPU baseline\n\nbaseline\n\n5.9×\n\n20.9× (13.35× with reranking)\n\nMaximum top-k\n\nunlimited (slow)\n\n2,048\n\n100s of thousands\n\nNeural reranking\n\nnot supported\n\nnot supported\n\nsupported\n\nMulti-task scoring\n\nnot supported\n\nnot supported\n\nsupported\n\nPerformance metrics of SilverTorch compared to benchmarks.\n\nSilverTorch’s 13.35× cost-per-request advantage compounds from several sources: The fused Int8 ANN kernel is 2.2-14.7× faster than Faiss-GPU; the Bloom index is 291-523× faster than the CPU inverted index; the probe-then-filter co-design cuts filter compute by another 30×. Int8 quantization in the model graph cuts memory in half compared to full-precision baselines, leveraging the GPU’s dp4a instructions, with no measurable recall loss.\n\nRecommendation Quality\n\nSilverTorch improves recommendation quality by turning retrieval into a much broader and more expressive pre-ranking stage. In traditional service-based systems, retrieval is usually constrained to a relatively narrow ANN result set, scored mostly by simple embedding similarity, with richer relevance modeling deferred to late-stage ranking.\n\nSilverTorch unlocked headroom. By keeping ANN search, filtering, and scoring inside one model, it can widen the funnel substantially. Instead of handing only a small set of candidates downstream, it can bring one to two orders of magnitude more candidates through additional learned relevance layers before final ranking. That makes retrieval contribute meaningfully to recommendation quality, not just a fast pruning step.\n\nNeural reranking. SilverTorch introduces a neural network based reranking layer that goes beyond dot-product similarity and applies richer user-item interaction modeling to a much larger candidate set. These layers can take the form of multi-layer perceptrons, stacked self-attention, or more structured interaction models such as mixture of logits. Because the item representations and cross-features remain in GPU memory and are executed within the same model, SilverTorch can afford to apply these more sophisticated ranking layers earlier in the pipeline, over far more candidates than conventional retrieval systems typically can.\n\nMulti-task scoring. SilverTorch also makes retrieval natively multi-objective. A scoring layer combines predictions for different user actions into a single composite score, so retrieval is no longer optimizing around one coarse similarity signal. Instead, it can evaluate a broad candidate pool against a richer notion of user engagement before late-stage ranking begins. The result is a wider funnel with more intelligence inside it – more candidates survive early retrieval, and they are screened by more sophisticated, multi-objective scoring before being passed to the final ranking.\n\nEngineering Velocity\n\nLastly, SilverTorch accelerates how quickly the team can build and ship retrieval improvements. Because the entire pipeline lives in one PyTorch codebase, an engineer working on a new retrieval idea writes PyTorch and only PyTorch. There is no longer a need to translate an algorithm from a research notebook into a C++ service, coordinate with a separate infrastructure team, and run a multi-week integration cycle. The time required to build and publish a new innovation dropped from weeks to days.\n\nEngineering for Scale and Freshness\n\nSilverTorch is designed with scalability and index freshness in mind to ensure that it can support a massive scale recommendation system and distribute newly created content in near real time.\n\nScale Up and Scale Out\n\nOur strategy is to scale up first. We make the most of the single high-performance GPU by carefully orchestrating its memory hierarchy (on-chip SRAM, GPU-resident HBM, host DRAM, remote DRAM) so data lives close to where it’s computed. Once we’ve maximized a single GPU, we scale out within a host, taking advantage of high-bandwidth interconnects between GPU cards on the same machine.\n\nWhen the neural network exceeds a single host’s capacity, we use document sharding: split the item inventory (videos, posts, photos) across hosts, like splitting a large library’s catalog across branches.\n\nFor the very large sparse networks inside the model — embedding tables that map every item and every user feature to a learned vector — we use TorchRec, PyTorch’s library for sparse-table sharding. TorchRec spreads these tables across HBM, GPU host DRAM, and even remote CPU-host DRAM, decoupling sparse data movement from computation.\n\nIndex Freshness\n\nWith index as a model module, maintaining index freshness equates to updating the model weights of a neural network in production, at scale, without taking the model offline.\n\nSilverTorch decouples freshness from the full model publish cycle through streaming updates. As model parameters get updated based on the latest training, we periodically publish the full model as a complete snapshot. Between publishes, a continuous streaming service reads real-time signals — new items, updated engagement features, changed eligibility — and applies targeted updates in-place to the specific tensors in the in-memory model. Updates land without interrupting serving and without redeploying the model.\n\nThe result shows up in the recency of recommended content. Same-day posts now represent a significant portion of recommendations on social media platforms compared to previous systems.\n\nThe Evolution of SilverTorch and What’s Next\n\nSilverTorch is a journey from a system of microservices with neural networks bolted in to a full model-based recommendation retrieval. Two things stand out in retrospect: Full model-based retrieval is viable and efficient at production scale — the architecture breaks down the wall between infrastructure and modeling, and they become one unified practice. It also unlocks better user experience — capabilities like multi-task scoring and neural reranking that prior systems couldn’t run inside the latency budget.\n\nThe technical work went through three stages: We first reproduced every baseline retrieval module — ANN, filtering, scoring — in PyTorch. This step alone yielded benefits from high-speed GPU memory and reducing data movements. We then rethought each module in a PyTorch-native, GPU-native way. This is where SilverTorch’s fused Int8 ANN and Bloom index filter came from, designed to compose rather than to stand alone. Finally, we enabled backward propagation for select hand-written modules so they can be trained jointly with the rest of the model.\n\nLooking Ahead\n\nIndex-as-Model is the right paradigm for the next generation of recommendation systems, and it’s widely adopted within Meta across different apps. As recommendation systems increasingly incorporate large language models (LLMs) for understanding user intent and content semantics, SilverTorch’s architecture provides a natural integration point:\n\nAn LLM can be plugged into SilverTorch as just another module — the system treats it identically to any other component.\n\nLLM-based item generation and SilverTorch’s filtering use the same GPU-parallel patterns.\n\nItem knowledge can be updated in real time through the same streaming infrastructure.\n\nThe LLM and traditional scoring share the same GPU memory — no data movement between services.\n\nIn short, SilverTorch lets us integrate LLM capabilities directly inside the retrieval model, rather than orchestrating them as a separate service that sits alongside it. That tighter coupling is what raises the system ceiling for what LLM-powered recommendation can do at production scale.\n\nRead the Paper\n\nFor more technical details, see our paper accepted as a full research paper at S",
-      "readingMinutes": 15
-    },
-    {
       "id": "76c79475675d9cf8",
       "feedTitle": "TensorRT-LLM Releases",
       "feedUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
@@ -4069,32 +4095,6 @@
       "summary": "SIG-Etcd announces the availability of the first beta release of etcd v3.7.0. This new version of the popular distributed database and key Kubernetes component includes the long-requested RangeStream feature, as well as a refactoring and cleanup of multiple legacy components and…",
       "content": "SIG-Etcd announces the availability of the first beta release of etcd v3.7.0. This new version of the popular distributed database and key Kubernetes component includes the long-requested RangeStream feature, as well as a refactoring and cleanup of multiple legacy components and interfaces. v3.7 will deliver improved security, better operational reliability, and an improved experience for working with large resultsets.\n\nFirst, however, the project needs users to test the beta. You can find v3.7.0-beta.0 here:\n\nSource code\n\nBinaries\n\nOfficial container images\n\nPlease try it out and report issues in the etcd repo.\n\nThis beta also determines the EOL of version 3.4.\n\nRangeStream\n\nIn etcd v3.6 and earlier, it is challenging to work with requests that return large resultsets. The client or requesting application is forced to wait for the full result set, leading to unpredictable latency and memory usage. The RangeStream RPC lets calling applications accept result sets in chunks, reducing latency and making buffering memory usage more predictable.\n\nMuch of the work on RangeStream was done by a relatively new contributor to etcd, Jeffrey Ying, a software engineer at Google. New contributors can have a substantial impact on etcd development.\n\n\"I've always been fascinated by database internals, and building RangeStream was a great opportunity to solve a bottleneck we were hitting in production with Kubernetes. It was the perfect opportunity to collaborate across projects and improve the ecosystem as a whole. Jumping into etcd as a new contributor had a bit of a learning curve, but the community is incredibly welcoming. The leads were very receptive to my ideas and helped me iterate quickly, while maintaining the project's high bar for reliability and code quality,\" said Jeffrey.\n\nInstructions on how to use RangeStream in gRPC calls and in etcdctl can be found in the etcd documentation. Users should try it out for their own applications.\n\nRemoval of v2store\n\nThe last vestiges of etcd v2store have been removed in v3.7, making this the first release that is 100% on v3store. This includes discovery, bootstrap, v2 requests, and the v2 client. Our team has also removed multiple deprecated experimental flags.\n\nAll of these changes may create some breakage for users, particularly those who have not already updated to v3.6.11. We are interested in hearing about blockers encountered by users and dependent applications; please report anything you find that can't be remedied or needs better upgrade documentation.\n\netcd v3.7.0-beta.0 also includes bbolt v1.5.0 and raft v3.7.0.\n\n3.4 EOL\n\nAccording to our community support policy, we typically maintain only the latest two minor versions, currently v3.6 and v3.5. Etcd v3.5 will be supported for 1 year after v3.7.0 final release.\n\nAs mentioned in extended support for v3.4 in the etcd v3.6.0 release announcement, etcd v3.4 has been EOL since May 15, 2026. SIG-etcd may release one more security patch for that version at the end of May, if warranted by patched vulnerabilities. In any case, it will cease being updated after the end of May. Users on v3.4 should be planning to upgrade their clusters.\n\nFeedback and Future Betas\n\nReach the etcd contributors with your feedback about v3.7.0-beta.0 in any of the following places:\n\nGithub issues\n\n#SIG-etcd slack channel in Kubernetes Slack\n\netcd-dev mailing list\n\nSIG-etcd may release additional betas of version v3.7.0 with additional refactoring, particularly of our use of protobuf libraries. Release candidates and the final release will probably happen through June, possibly into early July.",
       "readingMinutes": 3
-    },
-    {
-      "id": "f5a5b06be6d958fc",
-      "feedTitle": "Google AI · DeepMind",
-      "feedUrl": "https://deepmind.google/blog/rss.xml",
-      "category": "AI 技术",
-      "title": "Fast-tracking genetic leads to reverse cellular aging",
-      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
-      "published": "2026-05-18T18:21:39Z",
-      "author": "",
-      "summary": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
-      "content": "Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "31fa40f0efa4b716",
-      "feedTitle": "Google AI · DeepMind",
-      "feedUrl": "https://deepmind.google/blog/rss.xml",
-      "category": "AI 技术",
-      "title": "Simulate real-world places with Project Genie and Street View",
-      "url": "https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/",
-      "published": "2026-05-17T19:53:18Z",
-      "author": "",
-      "summary": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
-      "content": "We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.",
-      "readingMinutes": 1
     }
   ]
 }
