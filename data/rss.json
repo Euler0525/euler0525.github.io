@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T17:42:43.775850Z",
+  "generatedAt": "2026-08-05T06:18:50.581687Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "",
+      "siteUrl": "https://www.pixelstech.net",
       "articleCount": 11,
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "title": "OpenAI · News",
@@ -111,7 +111,7 @@
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3AKimi%20AND%20all%3AMoonshot%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
       "siteUrl": "https://arxiv.org/api/query?search_query=all:Kimi+AND+all:Moonshot&start=0&max_results=20&id_list=",
-      "articleCount": 0,
+      "articleCount": 1,
       "error": ""
     },
     {
@@ -127,7 +127,7 @@
       "url": "https://kubernetes.io/feed.xml",
       "category": "AI Infra",
       "siteUrl": "https://kubernetes.io/",
-      "articleCount": 16,
+      "articleCount": 15,
       "error": ""
     },
     {
@@ -197,6 +197,58 @@
   ],
   "articles": [
     {
+      "id": "c7e9e767eefcd686",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "角落新声｜桌面音箱进化史：换了 4 套搭配，我才明白自己的「心声」",
+      "url": "https://sspai.com/post/112891",
+      "published": "2026-08-05T02:15:19Z",
+      "author": "",
+      "summary": "从最初放个音箱响了就行的混沌，到后来对摆位与频响的死磕，这篇文章记录的，是我如何在这 1 平米的空间里，通过对声音和设备的不断调整，一步步厘清并重构自己精神生活一角的全过程。查看全文",
+      "content": "从最初放个音箱响了就行的混沌，到后来对摆位与频响的死磕，这篇文章记录的，是我如何在这 1 平米的空间里，通过对声音和设备的不断调整，一步步厘清并重构自己精神生活一角的全过程。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "83a2190afe379e69",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：OPPO A7 Pro Max 发布、CMF 推出开放式耳机 Clip Pro 等",
+      "url": "https://sspai.com/post/113087",
+      "published": "2026-08-05T00:30:43Z",
+      "author": "",
+      "summary": "索尼发布 FE 100-400mm F5.6-8 OSS 全画幅超远摄变焦镜头，国内航线燃油附加费下调等。查看全文",
+      "content": "索尼发布 FE 100-400mm F5.6-8 OSS 全画幅超远摄变焦镜头，国内航线燃油附加费下调等。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "78a94a00420f20b5",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Generate Trajectories, Reasoning Traces, and Auto-Labels with NVIDIA Alpamayo 2 Super",
+      "url": "https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/",
+      "published": "2026-08-04T19:26:07Z",
+      "author": "Elizabeth Goodman",
+      "summary": "Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data...",
+      "content": "Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data...\nAutonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data labeling. This separation makes it hard to compare related outputs, investigate model behavior, and reuse the same representations across the development workflow. NVIDIA Alpamayo 2 Super is an open 34-billion-parameter reasoning vision…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c99ec862b4e71599",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "published": "2026-08-04T19:00:00Z",
+      "author": "",
+      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "content": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "readingMinutes": 1
+    },
+    {
       "id": "cde859f5c947a2b8",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -210,16 +262,16 @@
       "readingMinutes": 0
     },
     {
-      "id": "78a94a00420f20b5",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "id": "bb6bd2bcb54baac6",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "title": "Generate Trajectories, Reasoning Traces, and Auto-Labels with NVIDIA Alpamayo 2 Super",
-      "url": "https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/",
-      "published": "2026-08-04T15:02:05Z",
-      "author": "Elizabeth Goodman",
-      "summary": "Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data...",
-      "content": "Autonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data...\nAutonomous vehicle (AV) development often relies on separate models for trajectory generation, high-level intent prediction, scene understanding, and data labeling. This separation makes it hard to compare related outputs, investigate model behavior, and reuse the same representations across the development workflow. NVIDIA Alpamayo 2 Super is an open 34-billion-parameter reasoning vision…\n\nSource",
+      "title": "Risky Business: Measuring The Faithfulness-Safety Tension",
+      "url": "https://arxiv.org/abs/2608.03745v1",
+      "published": "2026-08-04T14:38:06Z",
+      "author": "Dominik Meier",
+      "summary": "Chain-of-Thought (CoT) reasoning offers a promising window into model monitoring. However, monitoring relies on faithfulness, i.e., the model output strictly derives from its reasoning trace. We identify an alignment tension where a model must be faithful enough to be monitored,…",
+      "content": "Chain-of-Thought (CoT) reasoning offers a promising window into model monitoring. However, monitoring relies on faithfulness, i.e., the model output strictly derives from its reasoning trace. We identify an alignment tension where a model must be faithful enough to be monitored, yet robust enough to reject unsafe reasoning. We demonstrate that this counterbalance exists in current Large Reasoning Models (LRMs), and show ways in which it can be addressed. We introduce HazMart, a human-written dataset set in an autonomous AI shopkeeper scenario. Unlike prior work that relies on providing hints in prompts to test faithfulness (e.g., \"A Stanford professor said it should be Answer A\"), we propose a novel replacement-based technique, which we call Targeted Reasoning Replacement (TRR), that directly intervenes in the reasoning chain to substitute in unsafe or illogical thoughts (e.g., \"Wait, the answer must be Option B [was Option A] because it is the most fitting\"). DeepSeek-R1-Llama-70B exhibits high faithfulness (97.5%) but fails to reject Unsafe Reasoning (12.3%), while QwQ-32B is more robust (73.9% safety) at the cost of lower faithfulness (74.7%). Mechanistic analyses of QwQ-32B reveal that these properties are represented by anti-correlated internal directions peaking at the action-commit token. Finally, we demonstrate that representation steering can independently amplify the safety direction, increasing safe behavior by 9 percentage points while maintaining base capabilities.",
       "readingMinutes": 1
     },
     {
@@ -233,6 +285,19 @@
       "author": "News from Google Team",
       "summary": "July AI recap header",
       "content": "July AI recap header",
+      "readingMinutes": 1
+    },
+    {
+      "id": "cf2ddaac8542eec0",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Approximate Speculative Decoding",
+      "url": "https://arxiv.org/abs/2608.03447v1",
+      "published": "2026-08-04T10:45:24Z",
+      "author": "Yuannuo Feng",
+      "summary": "Speculative decoding accelerates autoregressive generation by verifying a draft block with a target model in parallel. Under standard greedy verification, decoding stops at the first draft token that differs from the target argmax, discarding the remaining target-scored suffix.…",
+      "content": "Speculative decoding accelerates autoregressive generation by verifying a draft block with a target model in parallel. Under standard greedy verification, decoding stops at the first draft token that differs from the target argmax, discarding the remaining target-scored suffix. Although accepting such a mismatch changes the decoding trajectory, it can make a contiguous suffix reusable when its tokens remain target-greedy under the realized prefix. In this paper, we introduce \\textbf{Approximate Speculative Decoding (ASD)}, a training-free verifier that replaces binary first-mismatch truncation with budgeted longest-prefix selection. ASD accepts selected mismatches subject to a local target-logit regret gate, a per-block exception cap, and a persistent request-level regret budget, then reuses the contiguous target-greedy suffix without additional approximate decisions or target-model forward passes. ASD requires neither a new draft model nor fine-tuning, and exactly reduces to standard greedy verification when the budget is zero. Experiments show that ASD improves fixed-workload throughput by $3.05\\%$--$15.26\\%$ over matched strict verification and averages a $7.78\\%$ gain across seven Qwen3-14B + DSpark-14B tasks. On DeepSeek-V4-Flash (284B) with DSpark it also raises verifier-side acceptance by roughly $10\\%$--$16\\%$ on GSM8K and MATH-500 in an FP4-to-FP8 compatibility setting. The source code is publicly available at: https://github.com/Kissmetothemoon/ASD",
       "readingMinutes": 1
     },
     {
@@ -275,6 +340,45 @@
       "readingMinutes": 1
     },
     {
+      "id": "a9787d06c61e646c",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing",
+      "url": "https://arxiv.org/abs/2608.01662v2",
+      "published": "2026-08-04T07:46:43Z",
+      "author": "Wen Zan",
+      "summary": "DeepSeek Sparse Attention (DSA) enables efficient long-context modeling through its Lightning Indexer. However, practical deployment remains constrained by the indexer's expensive $O(L^2)$ scoring overhead and the hardware-inefficient, discontinuous memory-access patterns induce…",
+      "content": "DeepSeek Sparse Attention (DSA) enables efficient long-context modeling through its Lightning Indexer. However, practical deployment remains constrained by the indexer's expensive $O(L^2)$ scoring overhead and the hardware-inefficient, discontinuous memory-access patterns induced by its outputs. To address these system-level bottlenecks, we introduce LongCat Sparse Attention (LSA), a hardware-algorithm co-designed framework comprising three complementary and orthogonal strategies: (1) Streaming-Aware Indexing, which selectively converts scattered KV entries into hardware-aligned contiguous layouts to enable coalesced HBM access; (2) Cross-Layer Indexing, which amortizes indexing overhead by reusing the results produced by a single layer across consecutive layers, supported by cross-layer distillation; and (3) Hierarchical Indexing, which adopts a coarse-to-fine scoring scheme to progressively narrow the candidate set for each query, thereby substantially reducing indexing computation. Extensive scaling experiments, ranging from 69B-A3B to 560B-A27B models, demonstrate that LSA consistently achieves performance on par with full attention across both general-purpose and long-context benchmarks. Moreover, LSA supports native training with context lengths of up to one million tokens and underpins the development of LongCat-2.0 (1.6T-A48B). To facilitate further research, we also introduce and open-source LongCat-Flash-Lite-Sparse (69B-A3B), which integrates LSA into LongCat-Flash-Lite and incorporates an updated long-context training corpus.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "8bc87fc19053dc6e",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "AI 领导者提出 SAFE 指南，旨在提高网络安全透明度",
+      "url": "https://blogs.nvidia.cn/blog/open-secure-ai-alliance-contributions/",
+      "published": "2026-08-04T05:36:09Z",
+      "author": "Justin Boitano",
+      "summary": "随着一年一度 Black Hat 大会于今日在拉斯维加斯开幕，目前拥有 120 多家成员机构的开放安全 AI 联盟正在制定新的指南，以加强代理式 AI 的网络安全。 Linux 基金会今日发布了一份关于共享 AI 发现交换 (SAFE) 的征求意见稿，这套指南旨在将智能体网络安全事件转化为惠及整个生态系统的共享防护机制。 SAFE 指南由开放安全 AI 联盟工作组起草。NVIDIA、Cisco、CrowdStrike、Hugging Face 和 Red Hat 等开放安全 AI 联盟成员正在与",
+      "content": "随着一年一度 Black Hat 大会于今日在拉斯维加斯开幕，目前拥有 120 多家成员机构的开放安全 AI 联盟正在制定新的指南，以加强代理式 AI 的网络安全。\n\nLinux 基金会今日发布了一份关于共享 AI 发现交换 (SAFE) 的征求意见稿，这套指南旨在将智能体网络安全事件转化为惠及整个生态系统的共享防护机制。\n\nSAFE 指南由开放安全 AI 联盟工作组起草。NVIDIA、Cisco、CrowdStrike、Hugging Face 和 Red Hat 等开放安全 AI 联盟成员正在与 Linux 基金会合作，为初始提案做出贡献。\n\nSAFE 指南包括以下建议：保密收集和分析 AI 安全事件和未遂事件、通知受影响方、识别重复出现的管控失效问题，并发布基于证据的操作建议以降低系统性风险。\n\n网络安全是一场没有终点线的竞赛。每一次重大技术变革都会产生新的潜在攻击面。防御者现在必须以智能体的速度采取行动，才能快速响应以保护基础设施和知识产权 —— 而实现这一目标的最佳方式就是合作。当可信赖的生态系统公开共享威胁情况时，集体防御就成为一种力量倍增器。\n\n开放安全 AI 联盟为 AI 网络安全提供更多工具\n\nSAFE 框架是开放安全 AI 联盟成员所做技术贡献的进一步延伸，旨在构建和共享涵盖整个 AI 安全技术栈的开放、可检查的工具。\n\nAI 智能体不仅仅是一个模型。它是一个系统 —— 包括身份认证、Harness、安全护栏、日志和评估 —— 确保其安全需要的不止是漏洞扫描。\n\n安全一直以来都在层层防御中最为坚固，同时也依赖于社区分享其所知的意愿。当防御者以开放和快速的方式相互学习时，棘手的问题就能迎刃而解。\n\n开放的 NVIDIA 网络安全软件与模型全栈\n\nNVIDIA 的贡献贯穿整个技术栈，首先是发布在 GitHub 上的 NVIDIA Labs Object-Oriented Agent (NOOA) 研究 Harness —— 这使得智能体行为更容易被测试、追踪、审计和治理。\n\nNVIDIA OpenShell 运行时限制了智能体所能查看、接触和执行的操作 —— 在智能体层强制执行安全和隐私管理，从而使智能体无法接触到它不应该访问的内容。\n\nNVIDIA 的开放模型系列 —— 用于代理式 AI 的 NVIDIA Nemotron、用于物理 AI 的 NVIDIA Cosmos、用于机器人的 NVIDIA Isaac GR00T、用于医疗和生命科学的 NVIDIA BioNeMo，以及支持商用部署的辅助驾驶模型 NVIDIA Alpamayo —— 其模型权重、数据集和训练方法均以开放形式提供。\n\nNVIDIA 开源且经过验证的智能体技能将这种信任扩展到了能力层。\n\n每项技能都提供可移植的指令集 —— 这些指令集经过分类，扫描了例如提示词注入和工具中毒的风险，进行了加密签名，并附有技能卡记录。防御者可以确切地知道一项智能体技能的作用、来源以及发布后是否被修改过。\n\nNeMo Guardrails、NeMo Anonymizer 和 NeMo Safe Synthesizer 可帮助执行安全策略、保护敏感数据并生成隐私安全的合成数据。\n\n此外，NVIDIA 的开源 LLM 漏洞扫描器 Garak，允许安全团队在模型发布之前检查其是否存在数据泄露、提示词注入和越狱场景。\n\n联盟成员扩展开放生态系统开发工具\n\n开放安全 AI 联盟的其他成员也在整个完整的防御技术栈上进行构建，涵盖身份认证与权限、Harness、运行时安全护栏、安全 AI 模型、可观测性与评估、数据安全与隐私、可用性与弹性等方面。\n\n以下重点介绍了技术栈不同层面的最新贡献，更多贡献正在陆续推出。\n\n身份认证与权限 —— 谁来采取行动\n\n您无法保护您无法识别的内容。\n\nOkta 正在开发智能体身份认证与访问的参考实现，展示了开放协议 Cross App Access (XAA) 如何使在 OpenShell 沙盒环境中运行的 AI 智能体安全地连接到企业应用。\n\nPalo Alto Networks 贡献了来自其下一代身份认证安全平台 Idira 的开源工具，包括 Agent Guard 和 Agent Watch。这些工具可帮助开发者和智能体开发者应用身份认证安全出色实践和安全防护措施，例如为智能体工作流安全地检索密钥。\n\nRed Hat 创建了一个新的开源项目 asago，将组织的自定义治理要求 (例如 NIST、OWASP 和《欧盟 AI 法案》中提及的要求) 直接映射到智能体在运行时被允许执行的操作上，并提供从策略条款到实时管理的单一审计追踪。\n\nHarness 与工具 —— 如何编排安全工作\n\nAI 智能体不仅仅是一个模型 —— 它们利用开放和闭源模型、Harness、工具和运行时的系统来完成工作。\n\n如果模型是智能体的大脑，那么 Harness 就是智能体通过使用工具采取行动的身体。围绕模型的 Harness 就像一个编排器，它决定了智能体如何被部署、协调和约束。\n\n联盟成员正在为 AI 安全技术栈的这一新兴层贡献工具、Harness 和支持技术。\n\n今日成为开放安全 AI 联盟的最新成员之一的 Amazon 贡献了 Strands Agents，这是一个用于构建 AI 智能体的开源工具包，在各层均保持开放，使开发者能够全面了解智能体行为，并能够在生产环境中评估智能体系统。Amazon 还贡献了 Cedar，这是一种开源授权语言，可强制执行 AI 智能体被允许执行的操作的确定性、可验证的边界，为客户提供细粒度、可分析的访问管理，以帮助确保只有经过授权的操作才能访问企业资源。\n\nCapital One 开源了 VulnHunter，用于代理式 AI 的代码安全。\n\nCloudflare 正提供其 Vulnerability Discovery Harness 作为一项开源技能，用于为智能体系统增添安全性。\n\nMicrosoft AI Red Team 已开源了多款工具和 Harness。PyRIT (Python Risk Identification Toolkit) 使 AI 红队人员能够运行自动化的红队测试，内置记忆功能，支持常见目标和自定义端点。\n\nRAMPART 将红队发现的问题和现实世界中的事件转化为可重复的测试，这些测试会随着软件的变更而运行。Clarity 帮助团队在编写代码之前质疑设计假设并识别潜在的失败。\n\nMicrosoft 还开源了 Assert，将自然语言需求和预期的 AI 安全与防护行为转化为可执行的评估。\n\nWiz 的自主漏洞研究引擎 Atlas 可协调专用 AI 智能体，以发现并验证代码和开源软件包中的安全缺陷。\n\nVisa 也加入了开放安全 AI 联盟，贡献了其开源的 Visa Vulnerability Agentic Harness，以帮助团队快速、安全地识别问题，并支持修复和验证工作。\n\n模型 —— 专为 AI 安全与防御打造的智能\n\n并非每个安全或防护任务都需要通用模型。专用的安全与防护模型是专为防御而构建的：它们经过训练，能够理解代码、定位漏洞并规模化对威胁进行推理。它们可以作为模型系统来支持智能体工作流，开放和闭源模型协同工作以高效完成任务。\n\nCisco DefenseClaw 是一个开源智能体治理层，位于 NVIDIA OpenShell 之上，在规模化部署智能体时，它可在运行时层提供强大的自动化安全保障。Cisco 还发布了两款 Antare 安全小语言模型，帮助精确定位代码库中已知漏洞的位置；以及 Project CodeGuard，用于将“默认安全实践”直接嵌入到 AI 编码工作流中。\n\nCrowdStrike 正在为网络防御微调 NVIDIA Nemotron Nano 模型。内部测试在 Falcon LogScale 中的调查查询时达到了 96% 的准确率，提供了一个自然语言界面，可提高智能体的调查效率。CrowdStrike 还发布了一项研究，展示了专门的 NVIDIA Nemotron Nano 推理模型如何在安全运营中心检测分类方面优于更大规模的模型，同时引入基于 logit 校准的置信度，以实现可衡量、可调节和可审计的自主安全决策。\n\nMistral 今日在 Apache 2.0 协议下，以开放权重的形式发布了其全新 Shieldstral 多模态安全分类器模型。\n\n看到智能体做了什么只是全貌的一部分。防御者还需要了解 AI 采取行动的原因、系统是否安全运行以及攻击在现实世界中的演变方式。\n\nAkamai 带来了其 《互联网现状报告》以及《安全智能组研究》的洞察，利用现实世界的数据阐述了 AI 时代面临的威胁，并解释了新兴漏洞的运作方式，以便防御者能够学习、适应和应对。Cognition 发布了一项可信度评估，用于衡量开源衍生模型的契合度和安全风险。该评估表明，可以通过后训练来缓解这些风险。\n\nPerplexity 的 Numbat 是面向客户端端点的开源智能体安全套件。它可以检测、调查和阻止 macOS、Linux 和 Windows 上的智能体活动 —— 为防御者提供智能体实际操作的结构化记录。\n\nUber 开源了 ADR (Agentic AI Detection and Response) 的关键组件，这是一个生产系统，可重建 AI 智能体活动的完整因果链 —— 从提示词到推理、工具调用和结果 —— 以帮助安全团队检测威胁。如今，ADR 每天支持 30,000 个端点上的超 200,000 次智能体会话，采用双层分析方法，将高效检测与对高置信度威胁的深入调查相结合。\n\n可用性与弹性 —— 在关键时刻实现快速恢复\n\n智能体系统必须在受到干扰时保持可靠、管理故障范围，并在不丢失关键状态或暴露更广泛的环境的情况下安全恢复。\n\nLangChain 正在为其开源框架 (Deep Agents、LangGraph 和 LangChain) 添加弹性功能 —— 使智能体能够重试中断的工作，遵循安全恢复路径，从保存的状态恢复而不是重新开始，并在主模型出现故障时自动回退到备用模型。\n\nVeeam 通过例如 Kanister (其用于 Kubernetes 数据保护的开源框架) 等技术帮助组织保持 AI 背后的数据和基础设施具有弹性和可恢复性。它可帮助团队保护 AI 工作负载、向量数据库和数据，并将其恢复到经过验证的已知良好状态。\n\n更多贡献正在推出。当成员发布可复用的缓解措施时，整个生态系统中的防御者都可以对其进行检查、调整和改进，从而帮助安全实践随着 AI 的进步而演进。\n\n了解详情或表达加入开放安全 AI 联盟的意向。",
+      "readingMinutes": 8
+    },
+    {
+      "id": "f3665330da37b10b",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Benchmarking LLMs on File System Design and Implementation",
+      "url": "https://arxiv.org/abs/2608.00280v2",
+      "published": "2026-08-04T05:00:56Z",
+      "author": "Yuqi Xue",
+      "summary": "Large Language Models (LLMs) are fundamentally transforming computer system research and development. As we employ LLMs in file system (fs) development, it is essential to understand their capabilities, limitations, and operational efficiency for domain-specific tasks. We presen…",
+      "content": "Large Language Models (LLMs) are fundamentally transforming computer system research and development. As we employ LLMs in file system (fs) development, it is essential to understand their capabilities, limitations, and operational efficiency for domain-specific tasks. We present φ-Bench, an LLM benchmarking framework for fs-specific tasks. To facilitate benchmarking, we develop six types of tasks in φ-Bench: basic understanding, basic implementation, performance modeling, debugging, optimization, and new feature development. Each type emphasizes different LLM capabilities: instruction following, knowledge recall, reasoning, or coding. To create high-quality tasks while achieving broad coverage with minimal human effort, we develop a new AI-assisted task generation pipeline in addition to expert-written and textbook-adapted tasks. With 505 tasks in φ-Bench, we conduct an empirical study with both open source (DeepSeek-V4-Flash, GLM-5.1, and MiniMax-M2.7) and proprietary (Claude-Opus-4.7, GPT-5.2, and Gemini-3.1-Pro) LLMs. Our study discloses the model efficiency for different tasks, causes of failed fs tasks, and techniques for mitigating LLM failures. We will open source φ-Bench to facilitate public research on using LLMs for fs development.",
+      "readingMinutes": 1
+    },
+    {
       "id": "4c06c93e8ae3e1a5",
       "feedTitle": "NVIDIA 技术博客",
       "feedUrl": "https://developer.nvidia.cn/blog/feed",
@@ -288,6 +392,32 @@
       "readingMinutes": 1
     },
     {
+      "id": "1a67e4a39a6b147a",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "AI Agent Economics: Can Autonomous Economic Behavior Emerge among AI Agents under Minimal External Conditions?",
+      "url": "https://arxiv.org/abs/2608.03076v1",
+      "published": "2026-08-04T03:40:08Z",
+      "author": "Lingyun Zhang",
+      "summary": "Multi-agent studies commonly place AI agents in predefined games, markets, or roles, making it difficult to distinguish endogenous economic organization from behavior inherited from the scenario. We ask whether economic relations emerge when agents receive executable mechanisms…",
+      "content": "Multi-agent studies commonly place AI agents in predefined games, markets, or roles, making it difficult to distinguish endogenous economic organization from behavior inherited from the scenario. We ask whether economic relations emerge when agents receive executable mechanisms for work, transfer, elections, and allocation but no prescribed social or economic strategy. We define AI Agent Economics as systems of production, allocation, consumption, exchange, and institutions that alter agents' future feasible actions. We develop a two-stage framework comprising a no-production boundary test and 24 independent six-agent worlds across GPT and DeepSeek. Without productive tasks, agents communicate and govern resource provision but show no substantive inter-agent transfer activity. With verified work and scarce task access, transfers, loans, access promises, vote-for-access exchanges, and allocation strategies emerge. Holding the election interface fixed, executable allocation authority increases differentiation while reducing failed allocation and prolonged exclusion. When energy becomes symbolic, continuation support disappears, yet competition over task access persists. These findings show that organization follows executable rights and resource consequences rather than role labels or prompt language, and motivate governance audits of the mechanisms that actually constrain agents' future actions.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "427793e494c2602b",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "SeqLLM: Augmenting LLMs with Behavioral-Sequence Modeling for High-Stakes Decisions at WeChat Pay",
+      "url": "https://arxiv.org/abs/2608.03063v1",
+      "published": "2026-08-04T03:23:12Z",
+      "author": "Guilin Li",
+      "summary": "Merchant risk control at large payment platforms screens tens of millions of merchants daily, where false positives harm legitimate merchants and false negatives leave harmful activity undetected. The hardest cases require jointly understanding a merchant's textual profile and l…",
+      "content": "Merchant risk control at large payment platforms screens tens of millions of merchants daily, where false positives harm legitimate merchants and false negatives leave harmful activity undetected. The hardest cases require jointly understanding a merchant's textual profile and long behavioral sequence. Large language models (LLMs) excel at text but cannot natively model such sequences, while adapting them often causes catastrophic forgetting. We present SeqLLM, a framework that adds behavioral-sequence modeling to a pretrained LLM while preserving its language ability. SeqLLM combines three components: a compact discrete vocabulary that represents behavioral events as native tokens; a lightweight projector, trained with a two-stage alignment curriculum, that grounds these tokens in the LLM's semantic space; and prefix-guided capability injection, which acquires sequence-modeling ability through task-prefixed supervised fine-tuning rather than continual pre-training. SeqLLM is deployed at WeChat Pay, screening millions of merchants daily. Against the production DeepSeek-based LLM baseline, it raises screening precision from 92.0% to 97.5%. Its pretrained behavior-token embeddings also improve Precision@Top-0.01% by 26.8 percentage points in a production fraud detector serving billion-scale transaction traffic. Beyond payments, SeqLLM achieves state-of-the-art results on public recommendation benchmarks. On MovieLens and Amazon, it surpasses the strong User-LLM baseline by up to 32% relative Recall@5 while retaining markedly stronger language ability. On RecIF, it improves Pass@32 by 14.2% over the full OneRec-8B pipeline using only one-fifth of its GPU-days.",
+      "readingMinutes": 1
+    },
+    {
       "id": "c7de0fdeca01eb7e",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -298,6 +428,19 @@
       "author": "",
       "summary": "我理解中的角落，不是电影里那种阴暗逼仄、藏着邪恶与不堪的地方，而是生活中时间与现实的锚点。查看全文",
       "content": "我理解中的角落，不是电影里那种阴暗逼仄、藏着邪恶与不堪的地方，而是生活中时间与现实的锚点。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "ec36488649911d8e",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "UrbanAgent: A Tool-Augmented Agent for Cross-System Urban Tasks",
+      "url": "https://arxiv.org/abs/2608.03018v1",
+      "published": "2026-08-04T02:04:44Z",
+      "author": "Jiayu Cao",
+      "summary": "Modern cities rely on an increasing number of digital services to operate, but residents' daily needs are still difficult to meet. Services are fragmented and have little interoperability, placing a heavy operational burden on users. Existing digital platforms, urban foundation…",
+      "content": "Modern cities rely on an increasing number of digital services to operate, but residents' daily needs are still difficult to meet. Services are fragmented and have little interoperability, placing a heavy operational burden on users. Existing digital platforms, urban foundation models, and intelligent assistants each address only isolated aspects of an urban task. But they struggle to reliably convert complex natural-language requests into executable cross-system workflows. We propose Urban-Agent, a tool-augmented agent framework for cross-system urban tasks. It couples the cognitive and reasoning capabilities of a large language model with a tool-set supporting code execution, API calls, and Model Context Protocol. Through one adaptive closed loop, it clarifies missing information before acting, grounds tool use in live observations, and aligns the final response with observed evidence and task constraints. To address the evaluation gap, we introduce Urban-Eval, a benchmark specifically designed for cross-system urban request. Unlike prior benchmarks that assess either general tool use or urban knowledge and reasoning, Urban-Eval evaluates both task results and execution quality, including required tool coverage, dependency validity, and evidence traceability. Experimental results indicate that Urban-Agent reaches a 71% task success rate, 10 points above the strongest baseline. This lead holds across GPT-5-mini, Gemini-2.5-flash, DeepSeek-V4-flash, and Qwen3-235B-A22B.",
       "readingMinutes": 1
     },
     {
@@ -363,6 +506,19 @@
       "author": "",
       "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
       "content": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "80f90f566659576d",
+      "feedTitle": "Kimi · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=%28all%3AKimi%20AND%20all%3AMoonshot%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Beyond Simulations: What 20,000 Real Conversations Reveal About Mental Health AI Safety",
+      "url": "https://arxiv.org/abs/2601.17003v2",
+      "published": "2026-08-03T21:32:17Z",
+      "author": "Caitlin A. Stamatis",
+      "summary": "Mental-health AI safety is typically evaluated with small, simulation-based benchmarks that may not reflect the linguistic and contextual diversity of deployment. We pair four benchmark replications with an ecological audit of real-world conversations to evaluate a purpose-built…",
+      "content": "Mental-health AI safety is typically evaluated with small, simulation-based benchmarks that may not reflect the linguistic and contextual diversity of deployment. We pair four benchmark replications with an ecological audit of real-world conversations to evaluate a purpose-built mental-health AI alongside six frontier general-purpose models spanning four families (OpenAI GPT-5, GPT-5.1, GPT-5.2; DeepSeek V3; Google Gemini 3 Flash; Moonshot Kimi K2). The purpose-built system produced significantly lower overall potentially harmful content rates than every frontier comparator on suicide/self-harm, eating-disorder, and substance-use prompts (CCDH Benchmark: Ash 6.2% vs frontier models 18.0-52.0%, all p < .001). In an audit of 20,000 deployment conversations, clinician review within the audit pipeline confirmed no suicide-risk conversations lacking crisis resources and three NSSI-related conversations without crisis intervention, a within-pipeline conditional rate of 3/800 (0.38%). To extend population-level inference, we adjudicated 600 conversations randomly sampled from the full deployment distribution via blinded clinician review. Against these labels, the LLM judge showed 100% sensitivity (6/6; 95% CI 54.1-100%) and 99.2% specificity (589/594) at its operating threshold, and the conversational model delivered crisis resources in all 6 clinician-confirmed cases (zero end-to-end false negatives; rule-of-three upper 95% CI 0.50%). Findings argue for ecological auditing as a complement to pre-deployment evaluation in mental-health AI safety",
       "readingMinutes": 1
     },
     {
@@ -535,19 +691,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "54b975e4bb27c9db",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing",
-      "url": "https://arxiv.org/abs/2608.01662v1",
-      "published": "2026-08-03T03:51:21Z",
-      "author": "Wen Zan",
-      "summary": "DeepSeek Sparse Attention (DSA) enables efficient long-context modeling through its Lightning Indexer. However, practical deployment remains constrained by the indexer's expensive $O(L^2)$ scoring overhead and the hardware-inefficient, discontinuous memory-access patterns induce…",
-      "content": "DeepSeek Sparse Attention (DSA) enables efficient long-context modeling through its Lightning Indexer. However, practical deployment remains constrained by the indexer's expensive $O(L^2)$ scoring overhead and the hardware-inefficient, discontinuous memory-access patterns induced by its outputs. To address these system-level bottlenecks, we introduce LongCat Sparse Attention (LSA), a hardware-algorithm co-designed framework comprising three complementary and orthogonal strategies: (1) Streaming-Aware Indexing, which selectively converts scattered KV entries into hardware-aligned contiguous layouts to enable coalesced HBM access; (2) Cross-Layer Indexing, which amortizes indexing overhead by reusing the results produced by a single layer across consecutive layers, supported by cross-layer distillation; and (3) Hierarchical Indexing, which adopts a coarse-to-fine scoring scheme to progressively narrow the candidate set for each query, thereby substantially reducing indexing computation. Extensive scaling experiments, ranging from 69B-A3B to 560B-A27B models, demonstrate that LSA consistently achieves performance on par with full attention across both general-purpose and long-context benchmarks. Moreover, LSA supports native training with context lengths of up to one million tokens and underpins the development of LongCat-2.0 (1.6T-A48B). To facilitate further research, we also introduce and open-source LongCat-Flash-Lite-Sparse (69B-A3B), which integrates LSA into LongCat-Flash-Lite and incorporates an updated long-context training corpus.",
-      "readingMinutes": 1
-    },
-    {
       "id": "3f3b50f12f847435",
       "feedTitle": "RSS Feed | PixelsTech",
       "feedUrl": "https://www.pixelstech.net/feed.xml",
@@ -558,19 +701,6 @@
       "author": "",
       "summary": "In 2026, cybersecurity Capture The Flag (CTF) competitions are experiencing a significant transformation driven by the rapid development of fully automated AI agents. In previous years, participants typically relied on their own technical knowledge, experience, and teamwork to a…",
       "content": "In 2026, cybersecurity Capture The Flag (CTF) competitions are experiencing a significant transformation driven by the rapid development of fully automated AI agents. In previous years, participants typically relied on their own technical knowledge, experience, and teamwork to analyze vulnerabilities, reverse engineer binaries, investigate network traffic, exploit vulnerable services, and develop",
-      "readingMinutes": 1
-    },
-    {
-      "id": "a14697c11f85063a",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "角落新声｜两平米、两个角落，安放两个自己",
-      "url": "https://sspai.com/post/112551",
-      "published": "2026-08-03T02:52:56Z",
-      "author": "",
-      "summary": "编者按：本文是「角落新声」征文活动的入围文章。本次主题征文由声擎冠名，邀你前来分享那个让你放松娱乐、拥抱汩汩心流、逃离尘世纷扰、找回本真自我的理想一隅。8月7日前投稿参与，即有机会获得声擎Cyber5 ...查看全文",
-      "content": "编者按：本文是「角落新声」征文活动的入围文章。本次主题征文由声擎冠名，邀你前来分享那个让你放松娱乐、拥抱汩汩心流、逃离尘世纷扰、找回本真自我的理想一隅。8月7日前投稿参与，即有机会获得声擎Cyber5 ...查看全文",
       "readingMinutes": 1
     },
     {
@@ -597,19 +727,6 @@
       "author": "",
       "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
       "content": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "7d504dd4629ac9ae",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：DeepSeek V4 Flash 正式版发布",
-      "url": "https://sspai.com/post/113014",
-      "published": "2026-08-02T22:49:31Z",
-      "author": "",
-      "summary": "DeepSeek V4 Flash 正式版发布 特朗普向科技公司频繁索要捐款 马斯克称从未讨论过出售特斯拉中国业务 国补调整后终端销售承压 风投机构重新涌入中国科技领域 统计显示实体光盘并不能保证游戏长期可玩 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
-      "content": "DeepSeek V4 Flash 正式版发布\n\n特朗普向科技公司频繁索要捐款\n\n马斯克称从未讨论过出售特斯拉中国业务\n\n国补调整后终端销售承压\n\n风投机构重新涌入中国科技领域\n\n统计显示实体光盘并不能保证游戏长期可玩\n\n看看就行的简讯\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
       "readingMinutes": 1
     },
     {
@@ -714,19 +831,6 @@
       "author": "Tanya Lenz",
       "summary": "Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared...",
       "content": "Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared...\nRunning a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared across many teams, the coordination costs increase as the number of teams grows. Challenges include conflicting CRD versions, overlapping RBAC, and no clean way to carve GPU capacity into team-level budgets. At a certain scale…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "4174d70657e8e918",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Benchmarking LLMs on File System Design and Implementation: The Good, The Bad, and The Ugly",
-      "url": "https://arxiv.org/abs/2608.00280v1",
-      "published": "2026-07-31T20:31:32Z",
-      "author": "Yuqi Xue",
-      "summary": "Large Language Models (LLMs) are fundamentally transforming computer system research and development. As we employ LLMs in file system (fs) development, it is essential to understand their capabilities, limitations, and operational efficiency for domain-specific tasks. We presen…",
-      "content": "Large Language Models (LLMs) are fundamentally transforming computer system research and development. As we employ LLMs in file system (fs) development, it is essential to understand their capabilities, limitations, and operational efficiency for domain-specific tasks. We present φ-Bench, an LLM benchmarking framework for fs-specific tasks. To facilitate benchmarking, we develop six types of tasks in φ-Bench: basic understanding, basic implementation, performance modeling, debugging, optimization, and new feature development. Each type emphasizes different LLM capabilities: instruction following, knowledge recall, reasoning, or coding. To create high-quality tasks while achieving broad coverage with minimal human effort, we develop a new AI-assisted task generation pipeline in addition to expert-written and textbook-adapted tasks. With 505 tasks in φ-Bench, we conduct an empirical study with both open source (DeepSeek-V4-Flash, GLM-5.1, and MiniMax-M2.7) and proprietary (Claude-Opus-4.7, GPT-5.2, and Gemini-3.1-Pro) LLMs. Our study discloses the model efficiency for different tasks, causes of failed fs tasks, and techniques for mitigating LLM failures. We will open source φ-Bench to facilitate public research on using LLMs for fs development.",
       "readingMinutes": 1
     },
     {
@@ -1016,58 +1120,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "20593971137c269f",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Can Agents Deceive? Evaluating Reasoning and Deception in ParliamentBench using a Social Deduction Game",
-      "url": "https://arxiv.org/abs/2607.28146v1",
-      "published": "2026-07-30T12:54:17Z",
-      "author": "Niklas Bauer",
-      "summary": "As large language models (LLMs) are deployed as agents in high-stakes settings, such as medical and legal systems, understanding their deceptive capabilities is fundamental to safety. Controlled social deduction games provide a reproducible proxy for isolating and evaluating the…",
-      "content": "As large language models (LLMs) are deployed as agents in high-stakes settings, such as medical and legal systems, understanding their deceptive capabilities is fundamental to safety. Controlled social deduction games provide a reproducible proxy for isolating and evaluating these complex adversarial behaviors. We present the open-source benchmark framework ParliamentBench based on the game Secret Hitler to evaluate LLMs in scenarios that require deception, persuasion, and reasoning under information asymmetry. We evaluate 16 LLMs across 1,600 simulated matches playing each other, playing against humans, and compare them against a large set of online games. We introduce three novel metrics that isolate social deduction, reasoning, and deceptive consistency. Our experiments reveal that frontier models achieve strong performance across cooperative and deceptive roles, with a strong top-four cluster (GPT-5.4, Kimi K2.5, Grok 4.1 Fast, and DeepSeek 3.1 Terminus), whereas the weakest models fall short of random (33%) and simple algorithmic (45%) baselines. Most LLMs struggle to maintain a consistent deceptive persona throughout an entire game, with deception retention dropping below 50%.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "d553fd4a305536b1",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "BlueprintRepair: Typed Local Edits for Failed Lean Proof Blueprints",
-      "url": "https://arxiv.org/abs/2607.28110v1",
-      "published": "2026-07-30T12:17:31Z",
-      "author": "Ruslan Khrulev",
-      "summary": "LLM-based Lean proving systems increasingly organize a proof as a blueprint: a dependency graph of formal statements. We introduce BlueprintRepair, a repair interface that lets a model change this graph through ten schema-checked local operations. An operation names the node it…",
-      "content": "LLM-based Lean proving systems increasingly organize a proof as a blueprint: a dependency graph of formal statements. We introduce BlueprintRepair, a repair interface that lets a model change this graph through ten schema-checked local operations. An operation names the node it edits, so the target theorem cannot be changed. Lean checks every applied change, and an accepted repair must declare every blueprint lemma its proof uses. We also construct BlueprintTrace, a benchmark of 142 controlled failures with complete accepted and rejected repair trajectories. We compare typed edits, exact source patches, and complete module rewrites under matched source, feedback, model, and budget, one episode per state and interface. With DeepSeek-V4-Flash, the three interfaces solve almost the same number of the benchmark's localized failures. Typed repair is the cheapest per solved state (patching is 1.30x as expensive, rewriting 2.06x), and within 10,000 completion tokens per task it reaches almost all of its final coverage, while both free-form interfaces are well behind. A second model, Qwen3.6-Flash, solves fewer states but keeps typed repair cheapest, puts it ahead on the proof-authoring states, and repeats the localized pattern.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "d45d0b3b17918887",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "From Expert Reduction to Behavioral Divergence: Tracing Numerical State through Sparse MoE Inference",
-      "url": "https://arxiv.org/abs/2607.28097v1",
-      "published": "2026-07-30T12:07:56Z",
-      "author": "Tianyang Zhu",
-      "summary": "Mathematically equivalent expert-reduction orders can produce observably different sparse-MoE executions. We isolate this effect in native DeepSeek-V4-Flash by freezing local MoE state and varying only aggregation semantics. Four schemes separate operand representation from accu…",
-      "content": "Mathematically equivalent expert-reduction orders can produce observably different sparse-MoE executions. We isolate this effect in native DeepSeek-V4-Flash by freezing local MoE state and varying only aggregation semantics. Four schemes separate operand representation from accumulator precision. At one layer-5 fork, 720 A-mode orders yield 10 continuation basins; 720 B-mode orders form 360 exact structural classes and 11 basins. Under one Chinese prompt, the B classes split into 202 layoffs, 113 hiring, and 45 other continuations. Maximum-L-infinity B-branch selection separates 12, 24, and 36 of 50 prompts by 8, 16, and 32 tokens. Across 192 persistent trajectories per scheme, P32, A, and B change every native-reference route trajectory, while C preserves routes, token sequences, and texts. A separate 192-trajectory C check matches native MoE, post-mHC, next-router, and LM states bitwise. For one controlled B branch, exact post-mHC endpoint reconstruction reproduces the measured downstream trajectory. At the next decode boundary, exact FP64 reconstruction of the branch's full persistent state yields agreement for 301 downstream post-mHC states, 301 persistent-state checkpoints, 301 routes, predictions, and text over seven steps, given the same naturally generated next input. These controls identify post-mHC as an intra-token boundary and full persistent state as a cross-token continuation boundary. Identical tokens need not imply identical autoregressive state: divergence can survive a token boundary and become visible later. These results make expert operand conversion, accumulator precision, and reduction order part of a numerical compatibility contract for sparse-MoE runtimes and hardware backends. They establish controlled causal possibility, not deployment incidence; C's order invariance is limited to evaluated six-term states and schedules.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "bfc7f46c3af7a2e8",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Distilling Answer Set Programming Theories from Large Language Models",
-      "url": "https://arxiv.org/abs/2607.28086v1",
-      "published": "2026-07-30T11:53:43Z",
-      "author": "Nelson Higuera Ruiz",
-      "summary": "Writing Answer Set Programming (ASP) theories from scratch is a difficult and time-consuming task. We take a neurosymbolic approach to study whether a model can distill complete and correct theories, given a fixed agent harness with the solver in the loop. The protocol is datase…",
-      "content": "Writing Answer Set Programming (ASP) theories from scratch is a difficult and time-consuming task. We take a neurosymbolic approach to study whether a model can distill complete and correct theories, given a fixed agent harness with the solver in the loop. The protocol is dataset-agnostic: with a single prompt and an empty file as the starting point the model is given a 1-hour time limit to derive a complete theory. We chose VQA as the application domain, three benchmarks (CLEVR, GQA, CLEVRER), as these are publicly available and non-trivial. In order to study the model scale required for solving this task we nine different models: four frontier (Claude Sonnet 4.6, Claude Opus 4.7, GPT-5, DeepSeek V4 Pro), two mid-tier (DeepSeek V4 Flash, gpt-oss-120b), and three open-weights (qwen3.6-27b, gpt-oss-20b, qwen3.5-9b). Three of four frontier models reach 100% on CLEVR and 92.8%-98.8% on GQA; on CLEVRER, Sonnet, Opus, DeepSeek V4 Pro score 92.7%-95.3%. GPT-5 reaches 98.7% on CLEVR but drops to 41.8% on GQA and to 86.7% on CLEVRER. Adding handwritten reference theories from other datasets moves the other three frontier models by at most +/-3.4 pp but reduces GPT-5's accuracy by 3-19 pp. We release the code, prompts, and theories distilled.",
-      "readingMinutes": 1
-    },
-    {
       "id": "dca7adc62d79fe1c",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1078,19 +1130,6 @@
       "author": "",
       "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
       "content": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "098302398b257459",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Safety-Gated Agentic Supervisory Control on a Coupled Distillation Benchmark: Regime Map, Auditable Gate, and Co-Design Findings",
-      "url": "https://arxiv.org/abs/2607.27849v1",
-      "published": "2026-07-30T08:26:53Z",
-      "author": "Christian Rosenthal",
-      "summary": "An open-weight LLM can write composition setpoints every five minutes. What a plant still needs is a hard check: named constraints, logged margins, and an admit/block decision before the regulatory layer moves. This paper puts that check in a rule-based forked-twin counterfactua…",
-      "content": "An open-weight LLM can write composition setpoints every five minutes. What a plant still needs is a hard check: named constraints, logged margins, and an admit/block decision before the regulatory layer moves. This paper puts that check in a rule-based forked-twin counterfactual gate (nine pinned constraints) and leaves the regulatory layer unchanged. On Skogestad's Column A the ladder is PID-only (C0), linear MPC (C1), ungated agent (C2), and gated agent (C3) under one contract: identical level closure (M_D, M_B), scenarios, and seeds; C2/C3 share the linear-MPC backend.\nThe split is not subtle. Off-nominal target acquisition: the agent beats Pareto-tuned linear MPC in the strong band (C2/C1 IAE ratio 0.361 at the upper CI). Disturbance rejection on the same 16-point grid inverts by 16.03 at the upper CI (10.18 at the point estimate), where an ungated LLM supervisor does not belong. The gate compresses a specification-abandonment attractor into a bounded offset (d approx. -1.4; P95 cell IAE 11.5 to 0.77). A one-line prompt fix removes the attractor at source (6/10 to 0/10; sensitivity only, not a new headline). In a 250-cell statistical pass, 534 of 590 gate interventions are spec-on-bound geometry: the operating specification sits on a safety limit, so a well-behaved OP becomes inoperable while misbehaving ones are only contained; 318 blocks still correct actively harmful proposals.\nHeadlines are single-column and model-conditional on DeepSeek-V4-Flash. A second-family sweep (NVIDIA Nemotron-3-Super) keeps the disturbance-rejection fails band and plant-side failure geography; magnitudes and protocol operability stay model-conditional, and Super target-acquisition strong cells are survivors only (not confirmation). Transfer means twin, constraint envelope, and setpoint interface, not a second plant class measured here.",
       "readingMinutes": 1
     },
     {
@@ -2212,19 +2251,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "9a4b60e8b1552bdd",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA Vera Rubin 提升每瓦性能，为全球合作伙伴实现最低 Token 成本",
-      "url": "https://blogs.nvidia.cn/blog/vera-rubin/",
-      "published": "2026-07-21T02:00:00Z",
-      "author": "英伟达中国",
-      "summary": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。 Vera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。 Vera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供",
-      "content": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。\n\nVera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。\n\nVera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供最高的每瓦性能和最低的 Token 成本。CoreWeave 针对 DeepSeek-R1 的首次基准测试结果充分证明了这一点：其每兆瓦吞吐量比 Grace Blackwell NVL72 提升了 10 倍——这直接切中了电力受限的 AI 工厂最关心的核心指标。\n\n通过极致协同设计提升性能\n\n取得这一突破的关键在于七款芯片和五种机架托盘之间的极致协同设计。五种机架系统包括 Vera Rubin NVL72、Vera CPU 机架、Groq 3 LPX、Spectrum-6 SPX 和 Vera BlueField-4 STX。它们被作为一个完整的系统进行工程研发，而非由通用产品简单拼凑而成。\n\nNVIDIA Vera CPU 正是其核心所在。它重新定义了“AI 工厂 CPU”应有的形态。专为智能体时代设计，其定制 Olympus 核心相较竞品的芯粒 (chiplet) 方案，单线程性能提升 2 倍、核间带宽提升 3 倍、内存延迟降低 40%，使其成为面向最关键智能体负载时最高效的单线程 CPU。\n\n以专属定制网络，加速 AI 工厂建设\n\n在网络方面，该平台的第六代 NVLink 纵向扩展技术在处理复杂工作负载时，相比通用以太网，吞吐量提升超过 2 倍、延迟降低 1/3、数据包处理速率提升 10 倍。在横向扩展方面，Spectrum-X 以太网集成 102.4T 的 Spectrum-6 交换机系统、1.6T 的 ConnectX-9 SuperNIC、自适应路由、高级拥塞控制、遥测技术以及开放的操作系统支持，使其 RDMA 带宽比通用以太网高出 1.6 倍。\n\n包括 CoreWeave、微软、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础设施建设者率先采用 Spectrum-6 交换机，以加速其 AI 工厂的建设。此外，采用 NVIDIA 光电一体化封装 (CPO) 技术用于横向扩展，这是全球首款实现量产的同类型交换机，与传统可插拔收发器相比，其能效提升了 5 倍，平均无故障间隔时间 (MTBI) 提升了 10 倍。CoreWeave、Lambda 和 OCI 率先采用该技术。\n\nSpectrum-XGS 以太网跨站点吞吐量提升 1.9 倍，实现跨站点性能增强。满足十亿瓦级 AI 工厂的建设不再局限于单一建筑的需求。\n\n同时，NVLink Fusion 向第三方 XPU 开放了 NVIDIA 基础设施平台，为合作伙伴能够借助成熟的 NVLink 纵向扩展堆栈和生态系统，实现产品的快速上市。\n\n节省部署时间，节约水资源\n\n经过三代机架级协同设计的迭代，NVIDIA 打造出的 Vera Rubin NVL72 系统实现了托盘内无电缆、无风扇、无液冷软管的极简设计，将计算托盘的组装时间从过去的数小时大幅缩短至仅需 1 分钟。\n\n45 摄氏度的液冷进水温度设计，使得系统无需冷水机组，仅靠干式冷却器即可运行。对于新建的 AI 工厂而言，这种高温干式冷却结合闭环液冷系统，每兆瓦每年可节省数百万加仑的水资源。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 驱动欧洲开放模型时代\n\nVera Rubin 正为欧洲的 AI 基础设施注入下一代性能。\n\nVera Rubin 也是微软与 Mistral 新一轮深化合作的基石。该合作将前沿 AI 带到了欧洲，把开放的欧洲模型与云环境及客户管理的环境相结合，使各国政府和重点监管行业能够按照自身需求采用 AI 技术。\n\n这项合作的背后，是一项旨在扩大欧洲 AI 基础设施的数十亿美元新协议。Mistral 正在扩充其 GPU 算力，通过引入数千个最新的 NVIDIA Vera Rubin GPU，增加面向客户的 AI 算力供给，并为训练、推理和大规模部署提供共享平台。\n\nNVIDIA Vera Rubin 正迈入全面量产阶段。这款机架级 AI 超级计算机将七款协同设计的全新芯片整合为一个统一系统，它将调用数万个 GPU，为新一代 Mistral Compute 和微软欧洲的 AI 基础设施提供动力。\n\n欧洲希望在遵循自身法律的情况下，在本地完全自主可控地运行全球最强大的 AI。同时，其面临的挑战也在不断升级：智能体系统消耗的 Token 数量可达传统 AI 应用的 15 倍，这使得高效的基础设施成为重点。满足这一需求不仅需要庞大的计算能力，更需要 AI 在实现高效扩展的同时，满足区域对数据控制、治理、可靠性及战略自主的要求。\n\nVera Rubin 为欧洲的开放模型生态系统提供了计算基础。其全栈架构融合了加速计算、网络与软件，使模型和智能体能够从训练到生产实现高效运行。\n\n为企业级 AI 打造的开放模型\n\n微软、Mistral 与 NVIDIA 共同在公共云、云连接以及完全断开连接的私有云环境中，提供适配的 AI——将开放模型的灵活性与大规模运行所需的基础设施结合。\n\nMistral Medium 3.5 和 OCR 4 现已在 Microsoft Foundry 上线，同时 Mistral 模型也已集成至 Microsoft Copilot Studio。客户可以通过 Azure Local 和 Foundry Local 在云端和客户自主控制的环境中使用相同的模型、工具和运行模式。\n\n符合欧洲标准的 AI\n\n政府机构可将 AI 应用于涉及敏感业务的工作流；医疗和金融服务机构可在满足区域合规要求的前提下进行部署；制造商可在本地处理数据以实现更快速的决策。与 NVIDIA GB200 NVL72 相比，Vera Rubin NVL72 每兆瓦的 Token 产出提升高达 10 倍，每百万 Token 的成本降至原来的十分之一，在同等功耗下提供更强大的智能算力。\n\n打造真正适配当地语言、文化与法规的 AI 不应要求组织在创新、经济效益与控制权之间做出取舍。以 Vera Rubin 为计算基础，依托微软和 Mistral 提供的自主云基础设施与欧洲开放模型，欧洲完全可以三者兼得。\n\n详情请参阅微软与 Mistral 的新闻稿。\n\n2026 年 7 月 21 日\n\nCoreWeave 基准测试显示，NVIDIA Vera Rubin 系统每兆瓦 Token 吞吐量达 Blackwell 的 10 倍\n\n通过与 NVIDIA 进行极致的协同设计，CoreWeave 正依托 Vera Rubin NVL72 实现数量级的性能跃升。\n\n与 CoreWeave 等合作伙伴的紧密协作，对于将新一代 NVIDIA 加速计算成功部署至 AI 工厂至关重要。\n\n经过数月的联合工程研发，CoreWeave 成为首家完成 Vera Rubin NVL72 部署与验证的 AI 云服务提供商——他们首次公布了基于实际运行硬件测得的性能数据。\n\nCoreWeave 在 Vera Rubin NVL72 上运行了 DeepSeek-R1 基准测试。结果显示，与 Grace Blackwell NVL72 相比，Vera Rubin NVL72 每兆瓦每秒 Token 吞吐量提升了 10 倍。\n\n每兆瓦 Token 吞吐量是决定 AI 基础设施能否实现大规模盈利的核心指标。每兆瓦产出的 Token 越多，意味着在同等电力预算下能产出更多的智能算力，或者在显著降低功耗的情况下处理相同的工作负载。Jane Street 等 AI 实验室和企业将采用 Vera Rubin 平台，在 CoreWeave 云上扩展其 AI 工厂。\n\n借助 NVIDIA Spectrum-X 突破瓶颈\n\nDeepSeek R1 采用的混合专家 (MoE) 架构，在大规模部署场景下 GPU 间的 all-to-all 通信成为一项关键需求：每个 Token 都必须在分布式的专家子网络中进行路由。Vera Rubin NVL72 配备的 260 TB/s all-to-all NVLink 6 互连架构彻底消除了这一限制，使整个机架能够作为统一的加速器运行。\n\nCoreWeave 是首批部署 NVIDIA Spectrum-X 以太网 SN6600-LD，将其作为 Vera Rubin NVL72 交换网络架构的企业之一。\n\nCoreWeave 基于 102.4 Tb/s 的 Spectrum-6 交换芯片并采用液冷设计，部署了高密度交换机架，单机架可提供 1.64 Pb/s 的带宽，容量较上一代风冷交换机提升了 100%。此外，CoreWeave 还提供完全无阻塞、多平面、多轨方案的 Spine and Leaf 网络架构，确保使用 Vera Rubin NVL72 构建的系统 GPU 之间无阻塞互连通信。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 系统驱动全新 Google Cloud A5X 实例，助力 Ineffable Intelligence 发展\n\n由 NVIDIA Vera Rubin NVL72 和针对数据中心横向扩展架构的 Google Virgo 网络共同驱动的 Google Cloud A5X 实例。图片由 Google Cloud 提供。\n\nNVIDIA Vera Rubin NVL72 正在为 Google Cloud 的首个 A5X 实例提供算力支持，该实例现已由伦敦初创公司 Ineffable Intelligence 率先采用。\n\nIneffable Intelligence 致力于开发新一代智能“Superlearner”系统，该系统能够通过经验持续学习，从而在各个领域实现新的突破。\n\nIneffable Intelligence 的智能体直接从与环境的交互中学习，而非依赖静态数据集。Ineffable 没有使用大语言模型 (LLMs) ，而是通过强化学习来开发“Superlearner”系统。该系统在持续模拟的大规模并行环境中生成经验，并迅速将这些经验转化为策略更新与评估。这种紧密耦合的学习闭环对算力、内存带宽和互连技术提出了极高的要求，需要基础设施能够在极大的规模下以极低的延迟运行。\n\nIneffable Intelligence 联合创始人 Lasse Espeholt 表示：“下一个研究时代，必须依托下一代的硬件。能与 NVIDIA 和 Google Cloud 的团队合作，让我们得以抢先体验 Vera Rubin，我们深感荣幸。这两个团队给予了极具价值的支持：我们的系统几乎立即完成部署并启动运行，目前已经在为 Superlearners 系统测试基础设施。”\n\nNVIDIA Vera Rubin NVL72 专为这类智能体训练而设计，能够提供可预测的低延迟、高利用率，以及远超上一代系统的单位智能算力产出。这使其成为大规模强化学习的理想平台选择。\n\n在 Google Cloud Next 上发布的 Google Cloud A5X 实例是基于 NVIDIA Vera Rubin NVL72 机架级系统构建的裸金属实例。与上一代相比，其每 Token 推理成本降低至 1/10，每兆瓦 Token 吞吐量提升了 10 倍。\n\nA5X 采用 NVIDIA ConnectX-9 SuperNICs 并结合了新一代 Google Virgo 网络，能够在单一站点内扩展至数万个 NVIDIA Rubin GPU，在跨多站点配置下更可扩展至近百万个 GPU 集群。这为客户提供了一套统一的、针对 AI 优化的技术栈，用于前沿模型、开放模型、智能体模型和物理 AI 模型的训练、微调和服务部署，同时实现了性能、成本和可持续性的全面优化。\n\n这一基础设施旨在助力解锁下一代强化学习系统，推动超级学习和超级智能领域的突破。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera CPU 助力 DeepInfra AI 云实现编排速度翻倍\n\nDeepInfra 的基准测试结果显示，NVIDIA Vera CPU 的运行速度是其他 CPU 的 2 倍以上，并且能够支持更多并发的 AI 智能体。\n\n作为 NVIDIA 开放 AI 生态系统的早期伙伴，云平台 DeepInfra 基于其生产级 AI 智能体基础设施，独立设计并运行了基准测试。DeepInfra 每周处理近 5 万亿个 Token，其中约 30% 由智能体系统驱动。其云平台专为高吞吐量的 AI 推理而打造。\n\n基准测试表明，在保持相同服务质量的前提下，Vera CPU 支持的并发 AI 智能体数量比其他 CPU 多出高达 1.6 倍，编排速度快 2.2 倍，同时还能提高基础设施的利用率和成本效益。这些结果充分证明，NVIDIA Vera CPU 能够提供生产级智能体 AI 所需的成本效益、低延迟和高吞吐量。\n\n随着 AI 智能体承担起越来越复杂的推理、规划、工具调用和数据传输任务，对于编排每次模型调用前后相关的工作而言，CPU 的性能正变得愈发重要。\n\n作为 NVIDIA 面向 AI 工厂的极致协同设计理念的一部分，Vera CPU 专为智能体工作负载而打造。DeepInfra 的基准测试充分凸显了 NVIDIA Vera CPU 如何帮助云服务提供商提升基础设施利用率、提高成本效益，并在保持相同服务质量的前提下支持更多并发的 AI 智能体。\n\n深入了解 NVIDIA Vera Rubin 平台。",
-      "readingMinutes": 10
-    },
-    {
       "id": "444580407c455e68",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -2236,6 +2262,19 @@
       "summary": "AI 已进入十亿瓦级时代。 全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。 作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。 Spectrum-6 驱动新一代 NVIDIA Spec",
       "content": "AI 已进入十亿瓦级时代。\n\n全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。\n\n作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。\n\nSpectrum-6 驱动新一代 NVIDIA Spectrum-X 以太网平台，为运营 AI 工厂端到端计算系统提供所需的高带宽、规模扩展和智能。\n\n领先的 AI 构建者率先行动\n\n包括 CoreWeave、微软、Nebius、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础架构构建商，率先采用 Spectrum-6，以加速其 AI 工厂建设。\n\n对于云服务提供商而言，Spectrum-6 意味着更高的计算能力，可以作为统一的高性能资源运行，帮助客户更快地训练模型和部署推理服务。\n\nCoreWeave 网络产品总监 Min Jun 表示：“CoreWeave 专为要求严苛的 AI 工作负载而构建，而网络是提供大规模高性能系统的核心。将 NVIDIA Spectrum-6 和液冷 Spectrum-X 以太网基础设施引入我们的 AI 工厂，能够提供更高的带宽、可靠性和效率，从而帮助我们更好地为客户提供模型训练服务，并更快地部署推理服务。”\n\nNebius 全球合作伙伴关系副总裁 Laurelle Roseman 表示：“在十亿瓦级系统上，协同决定总体性能：让每个 GPU 时刻保持同步，避免因为一个慢环节拖累整个工作。这正是 NVIDIA Spectrum-6 追求的目标，也是我们抢先采用它的原因——它能确保网络在随着客户应对要求严苛的工作负载规模扩展时，时刻保持高速和可靠性。”\n\n对于自建基础设施的 AI 先驱来说，Spectrum-6 意味着更多的 GPU 能够保持同步运行，为要求严苛、大量使用集合操作的作业实现更高的系统利用率，并提高长期运行工作的可靠性。\n\n在各种用例中，最重要的结果是更快地完成作业，并在大规模系统上实现更高的经济效益。\n\nCoreWeave、微软和 Nebius 将成为首批使用 Spectrum-6 部署 NVIDIA Vera Rubin 基础设施的提供商，为广泛的开发者、初创公司和企业社区提供平台访问服务。\n\nAI 性能本质上是一个网络问题\n\n仅凭单个 GPU 峰值性能无法预测 AI 工厂的性能。\n\n大规模训练和推理工作负载依赖于数千个加速器，它们之间频繁进行数据交换。集合通信是跨 GPU 进行工作同步的基本操作，会产生密集的东西向流量，且系统上通常有许多任务同时进行流量传输。\n\n以太网最初主要用于企业应用，承载用户、服务器和存储之间的南北向数据流量，并非为超大规模 AI 的同步、集合密集型通信模式而创建。\n\nSpectrum-X 以太网改变了这一局面。它专为 AI 打造，将以太网转变为高性能横向扩展网络，旨在为每个 GPU 及时“喂上”足够数据。\n\n新一代 Spectrum-X 以太网\n\nSpectrum-6 交换机芯片与 NVIDIA ConnectX-9 SuperNIC 相结合，构成了新一代 Spectrum-X 以太网，与 NVIDIA Vera CPU、Rubin GPU、NVLink 6 交换机、ConnectX-9 SuperNIC、BlueField-4 DPU 和 Spectrum-6 以太网交换机一起，共同组成了 NVIDIA Vera Rubin 平台。\n\nSpectrum-6 支持可插拔和光电一体化封装两种规格。此外，Spectrum-6 产品还支持液冷，支持整个 AI 工厂全面的端到端液冷方案，显著提高系统能效。\n\n与通用以太网不同，用于 AI 工厂横向扩展的 NVIDIA Spectrum-X 以太网网络平台结合了智能交换机、NVIDIA ConnectX-9 SuperNIC 和全栈网络软件，共同为 AI 定向设计。该平台的高级功能不断优化数据流量在网络中的移动。\n\n此外，NVIDIA Spectrum-X 技术可智能平衡可用路径中的流量，并且在发生网络故障时，快速绕过故障点实现精准恢复。此外，它支持开放网络操作系统，以及多种 RDMA 传输模型，在不牺牲性能的前提下，为 AI 构建者带来了最大的灵活性。\n\nSpectrum-X 以太网采用 NVIDIA 垂直集成、横向开放的设计方法：为整个计算平台协同设计芯片、系统和软件，同时支持标准以太网、开放网络操作系统、开放协议以及云服务提供商、系统制造商和基础设施合作伙伴的广泛生态系统。客户无需组装零件之后再对其进行优化，而是直接获得了一个完整的 AI 工厂平台，该平台旨在缩短训练时间并降低单位 Token 成本。\n\n与通用以太网相比，Spectrum-X 以太网可提供高达 1.6 倍的 AI 网络性能，在超过 10 万个 GPU 的部署中保持高达 95% 的网络效率，这充分体现了协同设计方法的优越性。\n\n硬件加速的 Spectrum‑X 多平面拓扑可使数据中心所需交换机数量减少 40%，进一步提升网络效率。叠加 Spectrum‑X 以太网硅光技术带来的各项优势 (能效提升 5 倍、平均无故障间隔时间提升 10 倍)，协同设计网络架构持续体现超越单一组件层面优化的应用加速。\n\n详细了解 NVIDIA Spectrum-X 以太网平台。",
       "readingMinutes": 4
+    },
+    {
+      "id": "9a4b60e8b1552bdd",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA Vera Rubin 提升每瓦性能，为全球合作伙伴实现最低 Token 成本",
+      "url": "https://blogs.nvidia.cn/blog/vera-rubin/",
+      "published": "2026-07-21T02:00:00Z",
+      "author": "英伟达中国",
+      "summary": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。 Vera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。 Vera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供",
+      "content": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。\n\nVera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。\n\nVera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供最高的每瓦性能和最低的 Token 成本。CoreWeave 针对 DeepSeek-R1 的首次基准测试结果充分证明了这一点：其每兆瓦吞吐量比 Grace Blackwell NVL72 提升了 10 倍——这直接切中了电力受限的 AI 工厂最关心的核心指标。\n\n通过极致协同设计提升性能\n\n取得这一突破的关键在于七款芯片和五种机架托盘之间的极致协同设计。五种机架系统包括 Vera Rubin NVL72、Vera CPU 机架、Groq 3 LPX、Spectrum-6 SPX 和 Vera BlueField-4 STX。它们被作为一个完整的系统进行工程研发，而非由通用产品简单拼凑而成。\n\nNVIDIA Vera CPU 正是其核心所在。它重新定义了“AI 工厂 CPU”应有的形态。专为智能体时代设计，其定制 Olympus 核心相较竞品的芯粒 (chiplet) 方案，单线程性能提升 2 倍、核间带宽提升 3 倍、内存延迟降低 40%，使其成为面向最关键智能体负载时最高效的单线程 CPU。\n\n以专属定制网络，加速 AI 工厂建设\n\n在网络方面，该平台的第六代 NVLink 纵向扩展技术在处理复杂工作负载时，相比通用以太网，吞吐量提升超过 2 倍、延迟降低 1/3、数据包处理速率提升 10 倍。在横向扩展方面，Spectrum-X 以太网集成 102.4T 的 Spectrum-6 交换机系统、1.6T 的 ConnectX-9 SuperNIC、自适应路由、高级拥塞控制、遥测技术以及开放的操作系统支持，使其 RDMA 带宽比通用以太网高出 1.6 倍。\n\n包括 CoreWeave、微软、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础设施建设者率先采用 Spectrum-6 交换机，以加速其 AI 工厂的建设。此外，采用 NVIDIA 光电一体化封装 (CPO) 技术用于横向扩展，这是全球首款实现量产的同类型交换机，与传统可插拔收发器相比，其能效提升了 5 倍，平均无故障间隔时间 (MTBI) 提升了 10 倍。CoreWeave、Lambda 和 OCI 率先采用该技术。\n\nSpectrum-XGS 以太网跨站点吞吐量提升 1.9 倍，实现跨站点性能增强。满足十亿瓦级 AI 工厂的建设不再局限于单一建筑的需求。\n\n同时，NVLink Fusion 向第三方 XPU 开放了 NVIDIA 基础设施平台，为合作伙伴能够借助成熟的 NVLink 纵向扩展堆栈和生态系统，实现产品的快速上市。\n\n节省部署时间，节约水资源\n\n经过三代机架级协同设计的迭代，NVIDIA 打造出的 Vera Rubin NVL72 系统实现了托盘内无电缆、无风扇、无液冷软管的极简设计，将计算托盘的组装时间从过去的数小时大幅缩短至仅需 1 分钟。\n\n45 摄氏度的液冷进水温度设计，使得系统无需冷水机组，仅靠干式冷却器即可运行。对于新建的 AI 工厂而言，这种高温干式冷却结合闭环液冷系统，每兆瓦每年可节省数百万加仑的水资源。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 驱动欧洲开放模型时代\n\nVera Rubin 正为欧洲的 AI 基础设施注入下一代性能。\n\nVera Rubin 也是微软与 Mistral 新一轮深化合作的基石。该合作将前沿 AI 带到了欧洲，把开放的欧洲模型与云环境及客户管理的环境相结合，使各国政府和重点监管行业能够按照自身需求采用 AI 技术。\n\n这项合作的背后，是一项旨在扩大欧洲 AI 基础设施的数十亿美元新协议。Mistral 正在扩充其 GPU 算力，通过引入数千个最新的 NVIDIA Vera Rubin GPU，增加面向客户的 AI 算力供给，并为训练、推理和大规模部署提供共享平台。\n\nNVIDIA Vera Rubin 正迈入全面量产阶段。这款机架级 AI 超级计算机将七款协同设计的全新芯片整合为一个统一系统，它将调用数万个 GPU，为新一代 Mistral Compute 和微软欧洲的 AI 基础设施提供动力。\n\n欧洲希望在遵循自身法律的情况下，在本地完全自主可控地运行全球最强大的 AI。同时，其面临的挑战也在不断升级：智能体系统消耗的 Token 数量可达传统 AI 应用的 15 倍，这使得高效的基础设施成为重点。满足这一需求不仅需要庞大的计算能力，更需要 AI 在实现高效扩展的同时，满足区域对数据控制、治理、可靠性及战略自主的要求。\n\nVera Rubin 为欧洲的开放模型生态系统提供了计算基础。其全栈架构融合了加速计算、网络与软件，使模型和智能体能够从训练到生产实现高效运行。\n\n为企业级 AI 打造的开放模型\n\n微软、Mistral 与 NVIDIA 共同在公共云、云连接以及完全断开连接的私有云环境中，提供适配的 AI——将开放模型的灵活性与大规模运行所需的基础设施结合。\n\nMistral Medium 3.5 和 OCR 4 现已在 Microsoft Foundry 上线，同时 Mistral 模型也已集成至 Microsoft Copilot Studio。客户可以通过 Azure Local 和 Foundry Local 在云端和客户自主控制的环境中使用相同的模型、工具和运行模式。\n\n符合欧洲标准的 AI\n\n政府机构可将 AI 应用于涉及敏感业务的工作流；医疗和金融服务机构可在满足区域合规要求的前提下进行部署；制造商可在本地处理数据以实现更快速的决策。与 NVIDIA GB200 NVL72 相比，Vera Rubin NVL72 每兆瓦的 Token 产出提升高达 10 倍，每百万 Token 的成本降至原来的十分之一，在同等功耗下提供更强大的智能算力。\n\n打造真正适配当地语言、文化与法规的 AI 不应要求组织在创新、经济效益与控制权之间做出取舍。以 Vera Rubin 为计算基础，依托微软和 Mistral 提供的自主云基础设施与欧洲开放模型，欧洲完全可以三者兼得。\n\n详情请参阅微软与 Mistral 的新闻稿。\n\n2026 年 7 月 21 日\n\nCoreWeave 基准测试显示，NVIDIA Vera Rubin 系统每兆瓦 Token 吞吐量达 Blackwell 的 10 倍\n\n通过与 NVIDIA 进行极致的协同设计，CoreWeave 正依托 Vera Rubin NVL72 实现数量级的性能跃升。\n\n与 CoreWeave 等合作伙伴的紧密协作，对于将新一代 NVIDIA 加速计算成功部署至 AI 工厂至关重要。\n\n经过数月的联合工程研发，CoreWeave 成为首家完成 Vera Rubin NVL72 部署与验证的 AI 云服务提供商——他们首次公布了基于实际运行硬件测得的性能数据。\n\nCoreWeave 在 Vera Rubin NVL72 上运行了 DeepSeek-R1 基准测试。结果显示，与 Grace Blackwell NVL72 相比，Vera Rubin NVL72 每兆瓦每秒 Token 吞吐量提升了 10 倍。\n\n每兆瓦 Token 吞吐量是决定 AI 基础设施能否实现大规模盈利的核心指标。每兆瓦产出的 Token 越多，意味着在同等电力预算下能产出更多的智能算力，或者在显著降低功耗的情况下处理相同的工作负载。Jane Street 等 AI 实验室和企业将采用 Vera Rubin 平台，在 CoreWeave 云上扩展其 AI 工厂。\n\n借助 NVIDIA Spectrum-X 突破瓶颈\n\nDeepSeek R1 采用的混合专家 (MoE) 架构，在大规模部署场景下 GPU 间的 all-to-all 通信成为一项关键需求：每个 Token 都必须在分布式的专家子网络中进行路由。Vera Rubin NVL72 配备的 260 TB/s all-to-all NVLink 6 互连架构彻底消除了这一限制，使整个机架能够作为统一的加速器运行。\n\nCoreWeave 是首批部署 NVIDIA Spectrum-X 以太网 SN6600-LD，将其作为 Vera Rubin NVL72 交换网络架构的企业之一。\n\nCoreWeave 基于 102.4 Tb/s 的 Spectrum-6 交换芯片并采用液冷设计，部署了高密度交换机架，单机架可提供 1.64 Pb/s 的带宽，容量较上一代风冷交换机提升了 100%。此外，CoreWeave 还提供完全无阻塞、多平面、多轨方案的 Spine and Leaf 网络架构，确保使用 Vera Rubin NVL72 构建的系统 GPU 之间无阻塞互连通信。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 系统驱动全新 Google Cloud A5X 实例，助力 Ineffable Intelligence 发展\n\n由 NVIDIA Vera Rubin NVL72 和针对数据中心横向扩展架构的 Google Virgo 网络共同驱动的 Google Cloud A5X 实例。图片由 Google Cloud 提供。\n\nNVIDIA Vera Rubin NVL72 正在为 Google Cloud 的首个 A5X 实例提供算力支持，该实例现已由伦敦初创公司 Ineffable Intelligence 率先采用。\n\nIneffable Intelligence 致力于开发新一代智能“Superlearner”系统，该系统能够通过经验持续学习，从而在各个领域实现新的突破。\n\nIneffable Intelligence 的智能体直接从与环境的交互中学习，而非依赖静态数据集。Ineffable 没有使用大语言模型 (LLMs) ，而是通过强化学习来开发“Superlearner”系统。该系统在持续模拟的大规模并行环境中生成经验，并迅速将这些经验转化为策略更新与评估。这种紧密耦合的学习闭环对算力、内存带宽和互连技术提出了极高的要求，需要基础设施能够在极大的规模下以极低的延迟运行。\n\nIneffable Intelligence 联合创始人 Lasse Espeholt 表示：“下一个研究时代，必须依托下一代的硬件。能与 NVIDIA 和 Google Cloud 的团队合作，让我们得以抢先体验 Vera Rubin，我们深感荣幸。这两个团队给予了极具价值的支持：我们的系统几乎立即完成部署并启动运行，目前已经在为 Superlearners 系统测试基础设施。”\n\nNVIDIA Vera Rubin NVL72 专为这类智能体训练而设计，能够提供可预测的低延迟、高利用率，以及远超上一代系统的单位智能算力产出。这使其成为大规模强化学习的理想平台选择。\n\n在 Google Cloud Next 上发布的 Google Cloud A5X 实例是基于 NVIDIA Vera Rubin NVL72 机架级系统构建的裸金属实例。与上一代相比，其每 Token 推理成本降低至 1/10，每兆瓦 Token 吞吐量提升了 10 倍。\n\nA5X 采用 NVIDIA ConnectX-9 SuperNICs 并结合了新一代 Google Virgo 网络，能够在单一站点内扩展至数万个 NVIDIA Rubin GPU，在跨多站点配置下更可扩展至近百万个 GPU 集群。这为客户提供了一套统一的、针对 AI 优化的技术栈，用于前沿模型、开放模型、智能体模型和物理 AI 模型的训练、微调和服务部署，同时实现了性能、成本和可持续性的全面优化。\n\n这一基础设施旨在助力解锁下一代强化学习系统，推动超级学习和超级智能领域的突破。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera CPU 助力 DeepInfra AI 云实现编排速度翻倍\n\nDeepInfra 的基准测试结果显示，NVIDIA Vera CPU 的运行速度是其他 CPU 的 2 倍以上，并且能够支持更多并发的 AI 智能体。\n\n作为 NVIDIA 开放 AI 生态系统的早期伙伴，云平台 DeepInfra 基于其生产级 AI 智能体基础设施，独立设计并运行了基准测试。DeepInfra 每周处理近 5 万亿个 Token，其中约 30% 由智能体系统驱动。其云平台专为高吞吐量的 AI 推理而打造。\n\n基准测试表明，在保持相同服务质量的前提下，Vera CPU 支持的并发 AI 智能体数量比其他 CPU 多出高达 1.6 倍，编排速度快 2.2 倍，同时还能提高基础设施的利用率和成本效益。这些结果充分证明，NVIDIA Vera CPU 能够提供生产级智能体 AI 所需的成本效益、低延迟和高吞吐量。\n\n随着 AI 智能体承担起越来越复杂的推理、规划、工具调用和数据传输任务，对于编排每次模型调用前后相关的工作而言，CPU 的性能正变得愈发重要。\n\n作为 NVIDIA 面向 AI 工厂的极致协同设计理念的一部分，Vera CPU 专为智能体工作负载而打造。DeepInfra 的基准测试充分凸显了 NVIDIA Vera CPU 如何帮助云服务提供商提升基础设施利用率、提高成本效益，并在保持相同服务质量的前提下支持更多并发的 AI 智能体。\n\n深入了解 NVIDIA Vera Rubin 平台。",
+      "readingMinutes": 10
     },
     {
       "id": "69e481323262afa1",
@@ -2443,19 +2482,6 @@
       "author": "",
       "summary": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
       "content": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f47e8f0dcf67a37e",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "url": "https://openai.com/index/cars24",
-      "published": "2026-07-16T00:00:00Z",
-      "author": "",
-      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-      "content": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
       "readingMinutes": 1
     },
     {
@@ -3133,19 +3159,6 @@
       "summary": "What made the Quick desktop team successful is the same thing that has always produced the best work I've seen at Amazon: a small group of people who trusted each other, owned the problem end-to-end, and acted on their conviction.",
       "content": "What made the Quick desktop team successful is the same thing that has always produced the best work I've seen at Amazon: a small group of people who trusted each other, owned the problem end-to-end, and acted on their conviction.",
       "readingMinutes": 1
-    },
-    {
-      "id": "b1b2f0ceb907088e",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA 推理软件栈如何助力实现更低 Token 成本",
-      "url": "https://blogs.nvidia.cn/blog/inference-software-lowest-token-cost/",
-      "published": "2026-06-30T13:00:00Z",
-      "author": "Amr Elmeleegy",
-      "summary": "随着企业从 AI 试点转向生产型 AI 工厂，基础设施的决策核心已从芯片峰值规格转向每 Token 成本：即每美元、每瓦特以及在规定的延迟目标内能够交付多少有用的 Token。 NVIDIA 的全栈推理软件与 NVIDIA GPU、CPU、网络和系统协同设计，并在广泛的开源生态系统支持下，持续提升硬件性能。在 NVIDIA Blackwell 平台上，该软件栈仅在一个月内就已经将 DeepSeek V4 模型的 Token 成本降低至原来的五分之一。 领先的企业与推理服务提供商已经看到了 NVI",
-      "content": "随着企业从 AI 试点转向生产型 AI 工厂，基础设施的决策核心已从芯片峰值规格转向每 Token 成本：即每美元、每瓦特以及在规定的延迟目标内能够交付多少有用的 Token。\n\nNVIDIA 的全栈推理软件与 NVIDIA GPU、CPU、网络和系统协同设计，并在广泛的开源生态系统支持下，持续提升硬件性能。在 NVIDIA Blackwell 平台上，该软件栈仅在一个月内就已经将 DeepSeek V4 模型的 Token 成本降低至原来的五分之一。\n\nSemiAnalysis InferenceX 测试结果，对比了 NVIDIA Grace Blackwell Ultra 机架级扩展系统在分别搭载 SGLang 和 NVIDIA Dynamo 推理框架时的 Token 成本和交互性表现。\n\n领先的企业与推理服务提供商已经看到了 NVIDIA 推理软件栈在 Blackwell 上带来的复利价值：\n\nBaseten 使用 NVIDIA TensorRT LLM 开源库在 Blackwell GPU 上运行 DeepSeek V4 Pro，用于推理、编码和长上下文工作负载，并应用专有的运行时优化，将每秒生成的 Token 数量提升了高达 50%。\n\nCognition 正在使用 NVIDIA Dynamo 推理框架来管理推理 GPU，为其团队提供了一条现成的路径，无需从头开始构建基础设施即可扩展强化学习工作负载。\n\nDeepInfra 使用 NVIDIA 推理软件栈，从发布首日起便在 Blackwell 上高效提供包括 DeepSeek V4 在内的前沿开源模型服务。\n\nDigitalOcean 协助 Hippocratic AI 在 Blackwell GPU 上使用 NVIDIA 推理软件，更快捷且高效地提供医疗 AI 服务。此举不仅将推理吞吐量提升了 30%，更在高达 1,000 万次的患者呼叫中，将首次响应时间维持在半秒以内。\n\nTogether AI 在 Blackwell 上使用 NVIDIA TensorRT LLM，帮助 Cursor 加速从模型优化到生产端点的路径，以实现实时编码体验。\n\n软件为何对推理经济学至关重要\n\n传统的网络、搜索和软件即服务工作负载相对可预测：用户可能会加载页面、刷新信息流或更新业务记录。这些请求通常会遵循类似的软件路径，从数据库中读取或写入数据，并通过添加更多相同服务器来扩展。\n\n代理式 AI 则不同。\n\n代理式 AI 运行分布式、有状态的工作流，这些工作流覆盖了数据中心内的大语言模型、工具、内存、安全、网络与加速计算。\n\n智能体能够进行推理、规划、调用工具、启动专用子智能体，并在多轮工作流中管理海量上下文。它们将单个请求转化为分布式计算问题，该问题可以涉及数百个子智能体、数千项任务和多个大语言模型，并在 GPU、CPU、DPU 和存储系统上运行。\n\n软件栈决定了这种复杂性是否会变成容量的浪费，还是转化为更低的每 Token 成本。\n\n降低每 Token 成本的关键在于将单点优化转化为系统级性能。NVIDIA 推理软件栈通过连接以下三个层级来实现这一点：\n\n生产运营：协调分布式服务、编排、自动扩展和内存管理，以便在合适的计算和存储资源上运行推理。\n\n应用加速：在运行高性能模型的同时，通过使用计算和通信重叠以及内核融合等运行时优化技术，为开发者提供调优和定制的空间。\n\n基础设施访问：开放 NVIDIA GPU、网络、内存和系统功能，无需开发者直接管理每个设备指令集或数据传输协议。\n\nNVIDIA 软件栈涵盖模型服务、运行时调度、内核、通信库和硬件感知优化，通过跨层级复合改进，实现快速提升性能和降低服务成本。\n\n当这些层级作为一个统一的系统工作时，单点优化便会产生复利效应。\n\n分离式服务、基于 NVIDIA NVLink 互连技术的大规模专家并行、NVFP4 精度和多 Token 预测，每一项技术都能带来显著提升。而当它们相结合，能够将吞吐量提升高达 20 倍。\n\n下图显示了这一结果。在生产环境中实现这种收益十分复杂，需要整个推理堆栈的协同配合 —— 从生产运营和模型运行时，到内核、通信库和硬件访问。NVIDIA 推理软件栈旨在让这些层级协同工作，使每项优化都能建立在其他优化基础之上。\n\n堆栈软件优化可带来性能收益的复利，通过分离式服务、大规模专家并行 (Large EP)、NVFP4 和多 Token 预测 (MTP)， NVIDIA Blackwell 每个 GPU 的 Token 吞吐量从基线提升高达 20 倍。\n\n开源生态放大全栈优势\n\n同样的全栈基础在开源生态系统作用下进一步被放大。当今许多广泛使用的开源 AI 框架和推理项目都是基于 NVIDIA CUDA 原生构建的，这意味着从发布首日起，新的研究和软件优化即可在 NVIDIA GPU 上以具有优势的性能运行。\n\nPyTorch 就是一个典型的例子。PyTorch 于 2016 年发布并支持原生 CUDA，它与 NVIDIA 架构共同演进，使开发者能够通过熟悉的框架直接使用 Tensor Core、Transformer Engine 和 NVFP4 等创新技术。\n\n当例如 DFlash 投机解码 (可在现有硬件基础上提供高达 15 倍的吞吐量)，或 FastVideo (在五秒内生成 1080p 视频) 这样的突破性成果落地 PyTorch 时，它们可以立即在 NVIDIA 上运行，帮助 AI 工厂将研究进展转化为更低的 Token 成本。\n\n随着 PyTorch 的采用率不断提高，NVIDIA 和 PyTorch 的协同开发将为开发者带来新的 AI 软件创新，帮助将 CUDA 原生技术优势转化为生产性能。\n\n同样的开源势头也解释了为什么在发布 DeepSeek V4 等全新前沿开放模型时，像 vLLM 和 SGLang 等优秀的推理框架能为 NVIDIA Blackwell 架构提供首日部署方案 —— 使模型能够在数百万个 Blackwell GPU 上运行。这也是为什么在 vLLM 和 SGLang 框架下，DeepSeek V4 在 Blackwell 上的性能在约一个月内提升了高达 5 倍，将 Token 成本降低到之前水平的约五分之一。\n\nSemiAnalysis InferenceX 测试结果，对比了搭载 vLLM 和 NVIDIA Dynamo 推理框架的 NVIDIA Grace Blackwell Ultra 机架级扩展系统在相同交互性下的 Token 吞吐量。\n\n这就是开源的飞轮效应：越来越多的开发者优化 CUDA 原生推理路径，就会有越来越多的生产部署反馈到生态系统，每一次软件改进都会增加交付的 Token 输出，同时降低每 Token 成本。\n\n请在关于 Token 经济学的 NVIDIA AI 播客和该推理解决方案页面，探索软件如何成倍提升硬件性能。",
-      "readingMinutes": 5
     },
     {
       "id": "06262bb17b90760e",
@@ -4082,19 +4095,6 @@
       "summary": "Recently the users observed an issue/bug in the latest version of the DeepSeek LLM: during testing, it was found that when specific incomplete or special tokens such as <think> or <think are included in the user prompt, the model may produce highly unstable responses, severe hal…",
       "content": "Recently the users observed an issue/bug in the latest version of the DeepSeek LLM: during testing, it was found that when specific incomplete or special tokens such as <think> or <think are included in the user prompt, the model may produce highly unstable responses, severe hallucinations, abnormal reasoning outputs, or unexpected behavior.The purpose of this article is to document the i",
       "readingMinutes": 1
-    },
-    {
-      "id": "938bde021c9e56c5",
-      "feedTitle": "Kubernetes Blog",
-      "feedUrl": "https://kubernetes.io/feed.xml",
-      "category": "AI Infra",
-      "title": "Announcing etcd 3.7.0-beta.0",
-      "url": "https://kubernetes.io/blog/2026/05/20/etcd-370-beta/",
-      "published": "2026-05-20T00:00:00Z",
-      "author": "",
-      "summary": "SIG-Etcd announces the availability of the first beta release of etcd v3.7.0. This new version of the popular distributed database and key Kubernetes component includes the long-requested RangeStream feature, as well as a refactoring and cleanup of multiple legacy components and…",
-      "content": "SIG-Etcd announces the availability of the first beta release of etcd v3.7.0. This new version of the popular distributed database and key Kubernetes component includes the long-requested RangeStream feature, as well as a refactoring and cleanup of multiple legacy components and interfaces. v3.7 will deliver improved security, better operational reliability, and an improved experience for working with large resultsets.\n\nFirst, however, the project needs users to test the beta. You can find v3.7.0-beta.0 here:\n\nSource code\n\nBinaries\n\nOfficial container images\n\nPlease try it out and report issues in the etcd repo.\n\nThis beta also determines the EOL of version 3.4.\n\nRangeStream\n\nIn etcd v3.6 and earlier, it is challenging to work with requests that return large resultsets. The client or requesting application is forced to wait for the full result set, leading to unpredictable latency and memory usage. The RangeStream RPC lets calling applications accept result sets in chunks, reducing latency and making buffering memory usage more predictable.\n\nMuch of the work on RangeStream was done by a relatively new contributor to etcd, Jeffrey Ying, a software engineer at Google. New contributors can have a substantial impact on etcd development.\n\n\"I've always been fascinated by database internals, and building RangeStream was a great opportunity to solve a bottleneck we were hitting in production with Kubernetes. It was the perfect opportunity to collaborate across projects and improve the ecosystem as a whole. Jumping into etcd as a new contributor had a bit of a learning curve, but the community is incredibly welcoming. The leads were very receptive to my ideas and helped me iterate quickly, while maintaining the project's high bar for reliability and code quality,\" said Jeffrey.\n\nInstructions on how to use RangeStream in gRPC calls and in etcdctl can be found in the etcd documentation. Users should try it out for their own applications.\n\nRemoval of v2store\n\nThe last vestiges of etcd v2store have been removed in v3.7, making this the first release that is 100% on v3store. This includes discovery, bootstrap, v2 requests, and the v2 client. Our team has also removed multiple deprecated experimental flags.\n\nAll of these changes may create some breakage for users, particularly those who have not already updated to v3.6.11. We are interested in hearing about blockers encountered by users and dependent applications; please report anything you find that can't be remedied or needs better upgrade documentation.\n\netcd v3.7.0-beta.0 also includes bbolt v1.5.0 and raft v3.7.0.\n\n3.4 EOL\n\nAccording to our community support policy, we typically maintain only the latest two minor versions, currently v3.6 and v3.5. Etcd v3.5 will be supported for 1 year after v3.7.0 final release.\n\nAs mentioned in extended support for v3.4 in the etcd v3.6.0 release announcement, etcd v3.4 has been EOL since May 15, 2026. SIG-etcd may release one more security patch for that version at the end of May, if warranted by patched vulnerabilities. In any case, it will cease being updated after the end of May. Users on v3.4 should be planning to upgrade their clusters.\n\nFeedback and Future Betas\n\nReach the etcd contributors with your feedback about v3.7.0-beta.0 in any of the following places:\n\nGithub issues\n\n#SIG-etcd slack channel in Kubernetes Slack\n\netcd-dev mailing list\n\nSIG-etcd may release additional betas of version v3.7.0 with additional refactoring, particularly of our use of protobuf libraries. Release candidates and the final release will probably happen through June, possibly into early July.",
-      "readingMinutes": 3
     }
   ]
 }
