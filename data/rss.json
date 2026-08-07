@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T05:27:11.403057Z",
+  "generatedAt": "2026-08-07T16:50:00.454472Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -196,6 +196,58 @@
     }
   ],
   "articles": [
+    {
+      "id": "e66cc71d0943fe40",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "published": "2026-08-07T15:20:00Z",
+      "author": "",
+      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "content": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "80c9ffb4745f127d",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "本周看什么 | 最近值得一看的 10 部作品",
+      "url": "https://sspai.com/post/113191",
+      "published": "2026-08-07T09:52:38Z",
+      "author": "",
+      "summary": "📅本周新预告《生化危机：爆发夜》中字预告8月5日，电影《生化危机：爆发夜》发布了全新中字预告，将于9月18日在北美上映。扎克・克雷格（《凶器》《野蛮人》）执导，奥斯汀·艾布拉姆斯主演，一份双倍酬劳的郊 ...查看全文",
+      "content": "📅本周新预告《生化危机：爆发夜》中字预告8月5日，电影《生化危机：爆发夜》发布了全新中字预告，将于9月18日在北美上映。扎克・克雷格（《凶器》《野蛮人》）执导，奥斯汀·艾布拉姆斯主演，一份双倍酬劳的郊 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "7347f06e7c916544",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "url": "https://openai.com/index/hsp-gruppe",
+      "published": "2026-08-07T09:00:00Z",
+      "author": "",
+      "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+      "content": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "18986bc3572f2c1c",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "[限时优惠] 数据分析：用好 Excel 中的数据透视表",
+      "url": "https://sspai.com/post/113108",
+      "published": "2026-08-07T07:39:58Z",
+      "author": "",
+      "summary": "编注：本文为Microsoft365工具生值包内随附专属定制教程的免费试读内容。接上级经销商通知，微软将于本月提高Microsoft365订阅的供应成本，后续软件售价也将随之进行相应调整。为此，我们特 ...查看全文",
+      "content": "编注：本文为Microsoft365工具生值包内随附专属定制教程的免费试读内容。接上级经销商通知，微软将于本月提高Microsoft365订阅的供应成本，后续软件售价也将随之进行相应调整。为此，我们特 ...查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "cdd8d819f4855db7",
       "feedTitle": "Anthropic · News",
@@ -938,19 +990,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "c7e9e767eefcd686",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "角落新声｜桌面音箱进化史：换了 4 套搭配，我才明白自己的「心声」",
-      "url": "https://sspai.com/post/112891",
-      "published": "2026-08-05T02:15:19Z",
-      "author": "",
-      "summary": "从最初放个音箱响了就行的混沌，到后来对摆位与频响的死磕，这篇文章记录的，是我如何在这 1 平米的空间里，通过对声音和设备的不断调整，一步步厘清并重构自己精神生活一角的全过程。查看全文",
-      "content": "从最初放个音箱响了就行的混沌，到后来对摆位与频响的死磕，这篇文章记录的，是我如何在这 1 平米的空间里，通过对声音和设备的不断调整，一步步厘清并重构自己精神生活一角的全过程。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "c99ec862b4e71599",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1026,19 +1065,6 @@
       "author": "Yuannuo Feng",
       "summary": "Speculative decoding accelerates autoregressive generation by verifying a draft block with a target model in parallel. Under standard greedy verification, decoding stops at the first draft token that differs from the target argmax, discarding the remaining target-scored suffix.…",
       "content": "Speculative decoding accelerates autoregressive generation by verifying a draft block with a target model in parallel. Under standard greedy verification, decoding stops at the first draft token that differs from the target argmax, discarding the remaining target-scored suffix. Although accepting such a mismatch changes the decoding trajectory, it can make a contiguous suffix reusable when its tokens remain target-greedy under the realized prefix. In this paper, we introduce \\textbf{Approximate Speculative Decoding (ASD)}, a training-free verifier that replaces binary first-mismatch truncation with budgeted longest-prefix selection. ASD accepts selected mismatches subject to a local target-logit regret gate, a per-block exception cap, and a persistent request-level regret budget, then reuses the contiguous target-greedy suffix without additional approximate decisions or target-model forward passes. ASD requires neither a new draft model nor fine-tuning, and exactly reduces to standard greedy verification when the budget is zero. Experiments show that ASD improves fixed-workload throughput by $3.05\\%$--$15.26\\%$ over matched strict verification and averages a $7.78\\%$ gain across seven Qwen3-14B + DSpark-14B tasks. On DeepSeek-V4-Flash (284B) with DSpark it also raises verifier-side acceptance by roughly $10\\%$--$16\\%$ on GSM8K and MATH-500 in an FP4-to-FP8 compatibility setting. The source code is publicly available at: https://github.com/Kissmetothemoon/ASD",
-      "readingMinutes": 1
-    },
-    {
-      "id": "3387f39233cee582",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "敬畏热度、保持热情：如何在夏季坚持跑步",
-      "url": "https://sspai.com/post/74342",
-      "published": "2026-08-04T10:42:08Z",
-      "author": "",
-      "summary": "无论你是初跑者，还是跑步老手，相信这份「夏季跑步指南」都能帮助到你。查看全文",
-      "content": "无论你是初跑者，还是跑步老手，相信这份「夏季跑步指南」都能帮助到你。查看全文",
       "readingMinutes": 1
     },
     {
@@ -2459,19 +2485,6 @@
       "readingMinutes": 10
     },
     {
-      "id": "69e481323262afa1",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-      "published": "2026-07-21T00:00:00Z",
-      "author": "",
-      "summary": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
-      "content": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
-      "readingMinutes": 1
-    },
-    {
       "id": "413ef8ab41769726",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -2483,19 +2496,6 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
-    },
-    {
-      "id": "a5ab872c216c2f94",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "published": "2026-07-20T10:00:00Z",
-      "author": "",
-      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "content": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "readingMinutes": 1
     },
     {
       "id": "865515e2b6308280",
