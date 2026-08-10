@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T16:29:09.532325Z",
+  "generatedAt": "2026-08-10T05:15:41.958021Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -197,6 +197,32 @@
   ],
   "articles": [
     {
+      "id": "32edea8c590be13e",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "我与Pixel 10 Pro的生活：写在Pixel 11系列手机发布前夕",
+      "url": "https://sspai.com/post/113202",
+      "published": "2026-08-10T03:00:56Z",
+      "author": "",
+      "summary": "喜欢，从来没有一个明确的定义。查看全文",
+      "content": "喜欢，从来没有一个明确的定义。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "55a509a75beb4f8d",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：央视曝光酒店评级标识消费陷阱",
+      "url": "https://sspai.com/post/113268",
+      "published": "2026-08-09T23:08:03Z",
+      "author": "",
+      "summary": "央视曝光酒店评级标识消费陷阱 《时代》网站展示仅 AI 可见广告 Edge 浏览器将禁用 Manifest V2 扩展 油价上涨致美国混动车需求激增 廉价手机壳存在毒性隐患 美国调查中国 AI 企业使用海外英伟达芯片 看看就行的小道消息 少数派的近期动态 你可能错过的好文章 查看全文",
+      "content": "央视曝光酒店评级标识消费陷阱\n\n《时代》网站展示仅 AI 可见广告\n\nEdge 浏览器将禁用 Manifest V2 扩展\n\n油价上涨致美国混动车需求激增\n\n廉价手机壳存在毒性隐患\n\n美国调查中国 AI 企业使用海外英伟达芯片\n\n看看就行的小道消息\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
+      "readingMinutes": 1
+    },
+    {
       "id": "b22df650a39b00bb",
       "feedTitle": "vLLM Releases",
       "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
@@ -249,6 +275,19 @@
       "readingMinutes": 23
     },
     {
+      "id": "30a11d5980a36e93",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+      "url": "https://arxiv.org/abs/2608.07437v1",
+      "published": "2026-08-07T17:22:00Z",
+      "author": "Jiacheng Miao",
+      "summary": "Reliable hypothesis testing is the foundation of many empirical scientific claims. Large language model (LLM) agents are increasingly used to automate this process, as they can inspect datasets, generate code, and produce analyses end-to-end. However, we show that they frequentl…",
+      "content": "Reliable hypothesis testing is the foundation of many empirical scientific claims. Large language model (LLM) agents are increasingly used to automate this process, as they can inspect datasets, generate code, and produce analyses end-to-end. However, we show that they frequently make subtle inferential errors that lead to incorrect conclusions despite correctly executed analyses. Existing benchmarks fail to capture this failure mode, as they rarely assess whether a reported p-value is statistically valid given the assumptions underlying the data. We address this gap by building P-Bench, a benchmark comprising 425 open-ended, realistic hypothesis-testing tasks spanning economics, biology, and medicine. Each task requires an agent to select a statistical method, compute a p-value, and draw a conclusion given only a scientific hypothesis and a dataset. We further introduce Fisher-R1, an open-weight LLM agent trained for rigorous hypothesis testing using synthetic tasks and reinforcement learning. On P-Bench, Fisher-R1-14B substantially improves over its backbone and outperforms strong proprietary and open-source baselines, including GPT-5.4 and DeepSeekV4-Pro, achieving a 21% average relative improvement in single-trial success over DeepSeek-V4-Pro, with gains up to 26% on the most challenging tasks. Our results demonstrate that current LLM agents lack reliable statistical reasoning for hypothesis testing and that reinforcement learning on tasks with verified statistical reward substantially improves reliability.",
+      "readingMinutes": 1
+    },
+    {
       "id": "e66cc71d0943fe40",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -262,6 +301,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "e31d7fa4c4d23640",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
+      "url": "https://arxiv.org/abs/2608.07077v1",
+      "published": "2026-08-07T10:29:19Z",
+      "author": "Devin Pereira",
+      "summary": "The Tower of Hanoi is a simple planning puzzle that in prior work has proven challenging for large reasoning models (LRMs). Current models solve the standard formulation of the puzzle, but still struggle with the flat-to-flat variant (where initial and goal states are not restri…",
+      "content": "The Tower of Hanoi is a simple planning puzzle that in prior work has proven challenging for large reasoning models (LRMs). Current models solve the standard formulation of the puzzle, but still struggle with the flat-to-flat variant (where initial and goal states are not restricted to have all rings on a single peg). This paper presents an in-depth study of how both small, in-house Transformers and large, third-party LRMs solve this task. To understand the failures mechanistically, we first train small Transformers from scratch on precomputed solution traces. Using a variety of interpretability techniques, we show that these Transformers develop an emergent world model: a linearly decodable, geometrically faithful representation of the puzzle's state space (the Sierpinski triangle), that is causally involved in solving the puzzles. Second, we return to the large LLMs and apply our techniques to two frontier reasoning models, Qwen3.6-27B and DeepSeek-R1-Distill-Qwen-32B, that attempt to solve the task through extended chain-of-thought. Surprisingly, we find that both models encode the Sierpinski world model near-perfectly at the end of the prompt, and yet fail at the majority of tasks when there are more than 3 rings. We locate the source of this failure in the decaying representation of the world model. We probe for the representation at different stages during planning, and establish causality by showing that performance can be improved by injecting the prompt-time representation at inference. The failure of the models is thus one of maintenance of the required representations, not their absence, and performance is at least partially recoverable. These results thus reframe the reported collapse in performance from prior work: current Large Reasoning Models build a world model, and then lose it.",
+      "readingMinutes": 1
+    },
+    {
       "id": "80c9ffb4745f127d",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -272,6 +324,19 @@
       "author": "",
       "summary": "📅本周新预告《生化危机：爆发夜》中字预告8月5日，电影《生化危机：爆发夜》发布了全新中字预告，将于9月18日在北美上映。扎克・克雷格（《凶器》《野蛮人》）执导，奥斯汀·艾布拉姆斯主演，一份双倍酬劳的郊 ...查看全文",
       "content": "📅本周新预告《生化危机：爆发夜》中字预告8月5日，电影《生化危机：爆发夜》发布了全新中字预告，将于9月18日在北美上映。扎克・克雷格（《凶器》《野蛮人》）执导，奥斯汀·艾布拉姆斯主演，一份双倍酬劳的郊 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "1a212f3ad9cce4c9",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Benchmarking and Reasoning Distillation of Large Language Models for Feedback Controller Design in Complex Dynamical Systems",
+      "url": "https://arxiv.org/abs/2608.07004v1",
+      "published": "2026-08-07T09:19:31Z",
+      "author": "Zhongchao Zhou",
+      "summary": "Although remarkable capabilities have been demonstrated by Large Language Models (LLMs) across scientific domains, feedback controller design remains underexplored. Existing benchmarks focus mainly on linear single-Degree-of-Freedom (DoF) systems and large API-hosted models, lea…",
+      "content": "Although remarkable capabilities have been demonstrated by Large Language Models (LLMs) across scientific domains, feedback controller design remains underexplored. Existing benchmarks focus mainly on linear single-Degree-of-Freedom (DoF) systems and large API-hosted models, leaving performance on complex controller-design tasks and feasibility for edge deployment unclear. To address these limitations, we introduce the Complex Dynamics-to-Control Benchmark for Large Language Models (CoDyControlBench), comprising 132 system configurations across five evaluation dimensions: number of DoF, system type, coupling level, damping regime, and controller type. Six state-of-the-art LLMs were evaluated over three independent runs, including three commercial models (GPT, Gemini, and Claude) and three open-source models (GLM, DeepSeek, and Qwen). GPT achieved the highest design success rate at 94.8\\%, whereas Qwen showed the lowest rate at 50.0\\%. Across the benchmark dimensions, DoF and controller type exhibited the largest model-averaged variations in design success, with success-rate ranges of 36.3\\% and 17.6\\%, respectively, exceeding those associated with system type, coupling level, and damping regime. Comparison of GPT and Qwen showed that their performance gap arose mainly from the control-design knowledge, particularly gain selection and the use of transient-limiting mechanisms. For edge deployment, a specialized 1.5B-parameter model was developed through reasoning distillation. The reasoning-distilled model outperformed the answer-distilled and base model on CoDyControlBench, maintained stable performance across 1-6 DoFs, and achieved successful traget tracking in all three physical trials on a pneumatic-artificial-muscle-driven robotic arm. These results establish a benchmark baseline and highlight the potential of lightweight, edge-deployable controller-design models.",
       "readingMinutes": 1
     },
     {
@@ -301,6 +366,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "609dd947cb322403",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
+      "url": "https://arxiv.org/abs/2608.06811v1",
+      "published": "2026-08-07T05:05:05Z",
+      "author": "Jiahao Zhang",
+      "summary": "Resolving a real software issue with a large language model (LLM) agent is a long repair episode, often tens to hundreds of steps spanning exploration, hypothesis, implementation, and verification. Success depends on both the base model's local reasoning and the agent's ability…",
+      "content": "Resolving a real software issue with a large language model (LLM) agent is a long repair episode, often tens to hundreds of steps spanning exploration, hypothesis, implementation, and verification. Success depends on both the base model's local reasoning and the agent's ability to maintain an evolving plan and remember observations across phases. Existing repository-level agents typically strengthen planning or memory in isolation, leaving long trajectories vulnerable to stale evidence, repeated failed edits, and verification inferred from the agent's own claims instead of execution evidence. We present PMCoder, an issue-resolution agent that couples a hierarchical phase planner with episodic memory. The coupling is bidirectional: the current plan phase conditions memory retrieval, while memory-derived trajectory statistics inform stuck detection and replanning. When available, issue-reproduction verdicts ground verification progress in execution evidence rather than self-reported completion. On SWE-bench Verified, PMCoder resolves an average of $25$ more cases ($+5.0$pp) than a harness-matched baseline, with gains persisting even where the reproduction gate never fires. Further Verified-500 evaluations show the same positive direction across Claude Haiku 4.5, DeepSeek-V4-Flash, and an OpenHands port, with at least $14$ additional resolved cases ($+2.8$pp). Separately, evaluation on TerminalWorld's official sample suggests that the plan-memory substrate transfers beyond issue reports. Ablation and trajectory analyses show where the gains come from: coupling planning and memory outperforms either component alone and reduces repeated failed actions, empty-patch exits, and context-window exhaustion.",
+      "readingMinutes": 1
+    },
+    {
       "id": "cdd8d819f4855db7",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -314,6 +392,19 @@
       "readingMinutes": 0
     },
     {
+      "id": "a03cbe97fafd8843",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
+      "url": "https://arxiv.org/abs/2608.06735v1",
+      "published": "2026-08-07T02:59:53Z",
+      "author": "Senhao Wang",
+      "summary": "Reinforcement learning (RL) has achieved strong results in improving large language models (LLMs) on tasks with stationary, verifiable rewards, such as mathematical reasoning and code execution. In these settings, the environment follows fixed rules and does not adapt strategica…",
+      "content": "Reinforcement learning (RL) has achieved strong results in improving large language models (LLMs) on tasks with stationary, verifiable rewards, such as mathematical reasoning and code execution. In these settings, the environment follows fixed rules and does not adapt strategically to the agent. Strategic dialogue differs in this respect: the environment is another agent that adapts to the policy, and success depends on the interaction between the two sides. Despite this interactive nature, current RL approaches typically train a target agent against a fixed counterpart or simulator. We find that this training paradigm encourages the policy to exploit counterpart-specific regularities rather than learn strategies that generalize across counterparts. We call this problem the static-counterpart mismatch, which we quantify directly in our experiments. To address it, we propose Isolated Bilateral Reinforcement Learning (IB-RL), in which the two roles coevolve through joint rollouts while each role optimizes its own reward through fully independent advantages, action masks, and update paths. We evaluate frozen policies against fully independent held-out counterparts in both domains. On Vehicle TeleSales, IB-RL achieves 89.6% Success@1, compared to 84.6% for the best unilateral RL baseline. On Deal-or-NoDeal, it reaches 98.4% agreement against DeepSeek V4 Pro, compared to 86.4% for the best unilateral baseline. These results indicate that jointly training both roles with strict peragent isolation produces policies that generalize more effectively to unseen counterparts.",
+      "readingMinutes": 1
+    },
+    {
       "id": "9a2586249879b664",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -324,6 +415,32 @@
       "author": "",
       "summary": "当我坐下来，这个小角落就慢慢有了属于我的声音。查看全文",
       "content": "当我坐下来，这个小角落就慢慢有了属于我的声音。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "5c992d6d1297d438",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Recursive Synthesis for Long-Horizon Terminal Tasks",
+      "url": "https://arxiv.org/abs/2608.05466v2",
+      "published": "2026-08-07T02:05:23Z",
+      "author": "Zhongzhi Li",
+      "summary": "High-quality long-horizon training data for terminal agents is expensive to produce, often costing hundreds to thousands of dollars per task, because each task must keep the instruction, environment, reference solution, and verifier mutually consistent. Human authoring does not…",
+      "content": "High-quality long-horizon training data for terminal agents is expensive to produce, often costing hundreds to thousands of dollars per task, because each task must keep the instruction, environment, reference solution, and verifier mutually consistent. Human authoring does not scale, and direct generation with large language models (LLMs) often breaks these dependencies. We present Recursive Synthetic Terminal Tasks (RST), a recursive verified synthesis framework for constructing long-horizon terminal-agent tasks at scale. Starting from verified seed tasks, RST extends the reference solution, realigns the verifier and instruction to the new workflow, validates the result in a fresh sandbox, and reuses accepted tasks as seeds for subsequent rounds. Across fifteen recursive rounds, RST produces 37,484 synthesized terminal-agent tasks at roughly $0.05 per task. Task difficulty increases substantially over rounds: the median reference solution grows from 67 to 374 lines, the median number of executed commands grows from 40 to 244, and DeepSeek-V4-Pro pass@4 drops from 90% at R1 to 2.5% at R15. To demonstrate training utility, we collect rejection-sampled Qwen3.5 trajectories on the synthesized tasks and use them for supervised fine-tuning. Fine-tuning on these trajectories improves Qwen3.5-27B and Qwen3.5-122B-A10B by up to 10 points on Terminal-Bench 2, Terminal-Bench Hard, and Long-Horizon Terminal Bench, while agentic PPO lifts Qwen3.5-27B to 49.44%, 32.00%, and 22.07% on the three benchmarks, corresponding to relative gains of 20.0%, 41.2%, and 21.9% over the base model. Moreover, after 15 rounds, the recursion shows no ceiling: synthesis yield and validation rates remain stable as difficulty keeps climbing, indicating that the process can continue well beyond the scale reported here.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "bd148eed4ee4a4f1",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
+      "url": "https://arxiv.org/abs/2608.06690v1",
+      "published": "2026-08-07T01:39:36Z",
+      "author": "Zhuoheng Huang",
+      "summary": "Most language-model access controls regulate behavior while leaving the same computation available to every request. We study a different systems question: can trusted authorization determine which newly trained parameters are reachable by the forward pass? Policy-Masked Private…",
+      "content": "Most language-model access controls regulate behavior while leaving the same computation available to every request. We study a different systems question: can trusted authorization determine which newly trained parameters are reachable by the forward pass? Policy-Masked Private Experts freezes a pretrained sparse Mixture-of-Experts (MoE) model, trains a disjoint expert branch, and selects the public or private pool before top-k routing. The resulting claim is narrow but testable: under the declared trusted computing base (TCB), an unauthorized request executes no private expert. It does not imply that the public model lacks the same semantic capability.\nWe test this separation between execution control and task utility in Qwen3-30B-A3B and DeepSeek-V2-Lite. Three Qwen BF16 seeds update all 32 private experts while the public fingerprint remains unchanged. Across 64 adversarial scenarios and 96 deny/fail-closed events, unauthorized private execution is zero; independent hooks exactly match 11,616 routed private rows and allow-deny-allow recovery is exact. On two prospectively frozen Qwen benchmarks, the private branch improves exact tool use by 5.0 percentage points (pp) (five versus zero discordances; one-sided Holm p = 0.03125, corresponding two-sided exact p = 0.0625) and 21.3 pp (percentile-bootstrap 95% CI [13.3, 29.3], Holm p = 0.000031). Three arm-blinded model evaluators retain a positive external effect of 18.7 pp (95% CI [9.3, 28.0]). A parameter-matched Lora has similar external utility, but a post-hoc request gate leaves 1,225 adapter calls under deny; the disjoint expert branch leaves none. DeepSeek reproduces the route invariant and gains 27.0 pp. A valid sealed evaluation is near-neutral. These results support auditable, reversible control over a trained parameter path, while showing that useful transfer remains distribution dependent.",
       "readingMinutes": 1
     },
     {
@@ -756,6 +873,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "ef6fd64fdc4c9e12",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+      "url": "https://arxiv.org/abs/2608.06474v1",
+      "published": "2026-08-06T18:06:12Z",
+      "author": "Boshui Chen",
+      "summary": "Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward design. Hand-authored browser scri…",
+      "content": "Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward design. Hand-authored browser scripts are executable yet costly to write for open-ended requirements, while VLM and GUI-agent graders scale but may issue verdicts before observing the decisive state. We propose WebGrader, a self-evolving programmatic grader that autonomously derives the required interaction flows from each website request, represents each flow as an executable Flow Contract, and uses its execution outcome as an RL reward. WebGrader materializes the generated project in a live browser, grounds target actions against the source code and live DOM, and collects visual, DOM, response, and persistent-state evidence along the same browser trajectory. A residual-driven offline loop then discovers reusable verifier skills, screens them on disjoint validation pages, and freezes the promoted skill graph before policy training. By separating test planning, action grounding, evidence collection, and semantic judgment, WebGrader issues a Pass verdict only after observing the requested transition. On WebGen-Bench, WebGrader trains an 8B policy to a 52.01% functional success rate, outperforming a matched appearance-plus-script reward by 7.88 points and surpassing o4-mini and DeepSeek-v4-flash. On WG-core-250, the policy reaches a Full Score of 44.953 and surpasses Qwen3-Coder-480B.",
+      "readingMinutes": 1
+    },
+    {
       "id": "224467182540871b",
       "feedTitle": "PyTorch Blog",
       "feedUrl": "https://pytorch.org/blog/feed/",
@@ -886,19 +1016,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "291c766392704f15",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "角落新声｜音乐，刻在时光里的私人地图",
-      "url": "https://sspai.com/post/113017",
-      "published": "2026-08-06T02:14:58Z",
-      "author": "",
-      "summary": "没什么特别的，但无处不在，刚刚好。查看全文",
-      "content": "没什么特别的，但无处不在，刚刚好。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "4746e67c54d989a9",
       "feedTitle": "DeepSpeed Releases",
       "feedUrl": "https://github.com/deepspeedai/DeepSpeed/releases.atom",
@@ -912,19 +1029,6 @@
       "readingMinutes": 2
     },
     {
-      "id": "a9a502f1f86641ff",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：华为发布尊界 MPV 及多款新品等",
-      "url": "https://sspai.com/post/113110",
-      "published": "2026-08-06T00:42:08Z",
-      "author": "",
-      "summary": "英伟达宣布 Alpamayo 2 Super AI 开放商用、NVM Express 发布十一项规范集更新等。查看全文",
-      "content": "英伟达宣布 Alpamayo 2 Super AI 开放商用、NVM Express 发布十一项规范集更新等。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "3763c3e63f841c3b",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -935,19 +1039,6 @@
       "author": "",
       "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
       "content": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "2844df759baf58b6",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Recursive Synthesis for Long-Horizon Terminal Tasks",
-      "url": "https://arxiv.org/abs/2608.05466v1",
-      "published": "2026-08-05T23:24:26Z",
-      "author": "Zhongzhi Li",
-      "summary": "High-quality long-horizon training data for terminal agents is expensive to produce, often costing hundreds to thousands of dollars per task, because each task must keep the instruction, environment, reference solution, and verifier mutually consistent. Human authoring does not…",
-      "content": "High-quality long-horizon training data for terminal agents is expensive to produce, often costing hundreds to thousands of dollars per task, because each task must keep the instruction, environment, reference solution, and verifier mutually consistent. Human authoring does not scale, and direct generation with large language models (LLMs) often breaks these dependencies. We present Recursive Synthetic Terminal Tasks (RST), a recursive verified synthesis framework for constructing long-horizon terminal-agent tasks at scale. Starting from verified seed tasks, RST extends the reference solution, realigns the verifier and instruction to the new workflow, validates the result in a fresh sandbox, and reuses accepted tasks as seeds for subsequent rounds. Across fifteen recursive rounds, RST produces 37,484 synthesized terminal-agent tasks at roughly \\$0.05 per task. Task difficulty increases substantially over rounds: the median reference solution grows from 67 to 374 lines, the median number of executed commands grows from 40 to 244, and DeepSeek-V4-Pro pass@4 drops from 90\\% at $R_1$ to 2.5\\% at $R_{15}$. To demonstrate training utility, we collect rejection-sampled Qwen3.5 trajectories on the synthesized tasks and use them for supervised fine-tuning. Fine-tuning on these trajectories improves Qwen3.5-27B and Qwen3.5-122B-A10B by up to 10 points on Terminal-Bench~2, Terminal-Bench Hard, and Long-Horizon Terminal Bench, while agentic PPO lifts Qwen3.5-27B to 49.44\\%, 32.00\\%, and 22.07\\% on the three benchmarks, corresponding to relative gains of 20.0\\%, 41.2\\%, and 21.9\\% over the base model. Moreover, after 15 rounds, the recursion shows no ceiling: synthesis yield and validation rates remain stable as difficulty keeps climbing, indicating that the process can continue well beyond the scale reported here.",
       "readingMinutes": 1
     },
     {
@@ -1144,19 +1235,6 @@
       "summary": "AI 需求的激增推动了对大型数据集和上下文窗口的需求，这些需求已突破系统内存的限制。 但是，仅增加更多的存储容量并不能满足日益增长的需求。我们需要的是来自 AI 工厂、有用且有扎实的见解，以及能够实现这些见解的高效、安全的存储架构。 在本周举办的 FMS (Future of Memory and Storage) 大会上，NVIDIA 发布了存储领域的最新进展，并展示了 AI 的下一次飞跃，不仅取决于计算能力本身，同样取决于为加速计算提供支持的存储基础设施。 随着 AI 智能体消耗大量数据，基",
       "content": "AI 需求的激增推动了对大型数据集和上下文窗口的需求，这些需求已突破系统内存的限制。\n\n但是，仅增加更多的存储容量并不能满足日益增长的需求。我们需要的是来自 AI 工厂、有用且有扎实的见解，以及能够实现这些见解的高效、安全的存储架构。\n\n在本周举办的 FMS (Future of Memory and Storage) 大会上，NVIDIA 发布了存储领域的最新进展，并展示了 AI 的下一次飞跃，不仅取决于计算能力本身，同样取决于为加速计算提供支持的存储基础设施。\n\n随着 AI 智能体消耗大量数据，基础设施面临的压力越来越大，而 GPU 现在可以直接启动存储请求，从而生成数千个并发操作。\n\n为了满足这些请求，存储系统必须不断加密、压缩、验证和重建数据。当数千个智能体同时访问存储时，这些关键数据服务可能会成为瓶颈。\n\nNVIDIA 技术博客中公布的基准测试表明，NVIDIA Vera BlueField-4 STX 的 NVIDIA Vera CPU，在双阶段压缩和加密工作流中，可提供比 x86 CPU 高 3.21 倍的吞吐量。这意味着借助 Vera，存储平台可以更高效地吸收大量 AI 数据，以更少的计算基础设施提供更高的吞吐量。\n\n借助加速计算，存储不再是被动保存数据的容器，而是成为数据路径的活跃参与者。\n\n这颠覆了过去的经济学，即确定数据何时存放在内存 (应用程序可以更快地获取数据)，还是存储驱动器 (可以将数据保存在廉价而充裕的空间中)。这种性能与成本的取舍，最初始于 40 年前，当时的衡量标准是分钟级的访问速度。而在当今的 GPU 上，借助 NVIDIA 及其合作伙伴的 AI 存储解决方案，这一过程缩短至微秒级。\n\n缩小 AI 需求与内存短缺之间的差距取决于整个生态系统的极致协同设计，涵盖了从内存和存储制造商，到基于它们构建的软件。\n\n开源 NVIDIA cuFile API 实现存储解决方案的互操作性\n\n在 FMS 大会上，NVIDIA 宣布 cuFile 应用编程接口 (API) 及其下方的垂直存储软件堆栈可让 GPU，而不仅是 CPU，直接读取和写入存储。cuFile 是 NVIDIA GPUDirect Storage 的一个开源组件。\n\ncuFile 使用数十万个 GPU 线程、快速的高带宽内存和其他方法，可在短短几微秒内安全地从存储中访问数据。\n\n这代表了该行业如何基于 Linux 最佳实践统一安全优先的存储栈，实现 GPU 和数据之间的互操作性。\n\n此外，快速、安全地访问数据和存储是支持预防性和检测性网络安全措施的基本要素。公开提供 cuFile 将有助于以 AI 驱动的防御所需的速度访问安全上下文、数据和存储。此类开放技术也为开放安全 AI 联盟等新倡议提供了支持。\n\n此网站是开放 API 的新平台，由谷歌、英特尔、NVIDIA 和 Meta 创始并维护，并且可以针对各种软件和硬件平台进行优化，从而推动开发者和企业的创新并提高效率。\n\nNVIDIA 和行业领导者共同推动 AI 存储发展的新前沿\n\n此外，NVIDIA 和存储行业的领导者正在通过一项名为 Storage-Next 的计划来优化内存和存储解决方案。这一计划由 NVIDIA 主导，汇集了存储制造商、控制器供应商、散热设计、冷却和编排运营商以及标准机构，就 GPU 驱动的存储的行为方式达成共识，并将这些突破转化为可互操作的开放行业标准。\n\nStorage-Next 涵盖 40 多家领先的存储和闪存供应商，包括 DDN、铠侠和美光，各方与 NVIDIA 一起为新一代 AI 存储技术做出贡献。\n\n该计划以大型 AI 数据集的加速数据访问为基础。为此 NVIDIA 提供 SCADA，即“扩展、加速数据访问”。该框架支持大规模并行 GPU 仅将应用程序所需的数据直接从存储中拉取到自己的高速内存中。\n\n例如，DDN 正在将 SCADA 与 Infinia 集成，Infinia 是其软件定义的 AI 原生数据智能平台，专为大规模消除存储瓶颈打造。\n\nDDN 首席技术官 Sven Oehme 表示：“AI 的成功并不取决于组织拥有多少基础设施，而是取决于他们使用基础设施的效率。我们与 NVIDIA 的合作有助于在 GPU 和数据之间建立更直接、更高效的连接，从而保持高效的加速计算资源、加快获得见解的速度，并使客户能够从其 AI 投资中获得更高的业务和财务回报。”\n\nStorage-Next 和 SCADA 延续了 NVIDIA 在 AI 存储基础架构方面的长期深耕，其中就包括 NVIDIA Vera BlueField-4 STX，由 NVIDIA Vera Rubin 平台、NVIDIA Vera BlueField-4 存储处理器和 NVIDIA Spectrum-X 以太网网络提供支持的模块化机架级基础架构。\n\nNVIDIA Vera BlueField-4 STX 存储处理器\n\n在定义新型 AI 原生数据平台方面，NVIDIA STX 使用统一的 NVIDIA DOCA 安全堆栈，使企业能够在 AI 数据路径中实现持续的策略执行。\n\n此外，NVIDIA CMX 上下文记忆存储提供基于 NVIDIA STX 构建的 AI 原生上下文层，用于长上下文、多回合、智能体 AI 推理。\n\nSCADA 支持安全快速的 AI 存储\n\n提升存储层速度并非没有代价。让应用程序直接与驱动器通信虽然速度快，但如果处理不当，可能会覆盖其他进程的内存，这会带来安全漏洞而非技术优势。\n\nNVIDIA SCADA 采用了一种安全、可靠的方法，通过将工作分为两项来实现扩展的直接访问：\n\n应用程序中需要原始速度的用户部分不在可信计算基础之上。\n\n一个单独的特权组件在设置时配置用户应用程序与其获批存储之间的受保护访问，遵循标准 Linux 协议进行安全执行，同时高效保护数据。\n\n快速、大规模并行、高效、安全的 AI 存储基础设施的进步，能够为应用程序和 AI 工厂提供更优质的数据，从而大规模生成更实用、更准确、更有据可查的智能。\n\n参加 NVIDIA 在 FMS 大会上的专场会议，详细了解 NVIDIA AI 存储。FMS 于 8 月 4 日至 6 日在加利福尼亚州圣克拉拉举行。\n\n请参阅软件产品信息。",
       "readingMinutes": 5
-    },
-    {
-      "id": "a9787d06c61e646c",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "LongCat Sparse Attention: Taming the Lightning via Streaming-aware Hierarchical Cross-Layer Indexing",
-      "url": "https://arxiv.org/abs/2608.01662v2",
-      "published": "2026-08-04T07:46:43Z",
-      "author": "Wen Zan",
-      "summary": "DeepSeek Sparse Attention (DSA) enables efficient long-context modeling through its Lightning Indexer. However, practical deployment remains constrained by the indexer's expensive $O(L^2)$ scoring overhead and the hardware-inefficient, discontinuous memory-access patterns induce…",
-      "content": "DeepSeek Sparse Attention (DSA) enables efficient long-context modeling through its Lightning Indexer. However, practical deployment remains constrained by the indexer's expensive $O(L^2)$ scoring overhead and the hardware-inefficient, discontinuous memory-access patterns induced by its outputs. To address these system-level bottlenecks, we introduce LongCat Sparse Attention (LSA), a hardware-algorithm co-designed framework comprising three complementary and orthogonal strategies: (1) Streaming-Aware Indexing, which selectively converts scattered KV entries into hardware-aligned contiguous layouts to enable coalesced HBM access; (2) Cross-Layer Indexing, which amortizes indexing overhead by reusing the results produced by a single layer across consecutive layers, supported by cross-layer distillation; and (3) Hierarchical Indexing, which adopts a coarse-to-fine scoring scheme to progressively narrow the candidate set for each query, thereby substantially reducing indexing computation. Extensive scaling experiments, ranging from 69B-A3B to 560B-A27B models, demonstrate that LSA consistently achieves performance on par with full attention across both general-purpose and long-context benchmarks. Moreover, LSA supports native training with context lengths of up to one million tokens and underpins the development of LongCat-2.0 (1.6T-A48B). To facilitate further research, we also introduce and open-source LongCat-Flash-Lite-Sparse (69B-A3B), which integrates LSA into LongCat-Flash-Lite and incorporates an updated long-context training corpus.",
-      "readingMinutes": 1
     },
     {
       "id": "e437123e4c877a98",
@@ -1380,19 +1458,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "8dbd44e21e7238f9",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Decoupling semantics from vision: A framework for faithful visual-text compression evaluation",
-      "url": "https://arxiv.org/abs/2608.01848v1",
-      "published": "2026-08-03T07:56:43Z",
-      "author": "Yonghan Gao",
-      "summary": "Recent visual-text compression (VTC) methods, typified by DeepSeek-OCR, report impressive high token compression ratios for long-context modeling tasks by leveraging text-to-image rendering. However, existing evaluation protocols heavily rely on downstream task performance. Such…",
-      "content": "Recent visual-text compression (VTC) methods, typified by DeepSeek-OCR, report impressive high token compression ratios for long-context modeling tasks by leveraging text-to-image rendering. However, existing evaluation protocols heavily rely on downstream task performance. Such evaluation metrics fail to accurately measure text preservation due to the strong inherent linguistic priors of Multimodal Large Language Models (MLLMs). In this work, we introduce a new evaluation framework that decouples MLLMs' capabilities to faithfully assess VTC quality. Within this framework, we further introduce the ZeroSense Benchmark to ensure low semantic correlation of testing samples. By eliminating textual dependencies, our benchmark guarantees that the evaluation results are purely reflective of VTC quality, unaffected by the semantic inference capabilities of downstream models. Extensive experiments across multiple datasets demonstrate that VTC quality and downstream task accuracy diverge significantly, highlighting the necessity of our decoupled evaluation framework.",
-      "readingMinutes": 1
-    },
-    {
       "id": "deec56a13e2b9b57",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1403,19 +1468,6 @@
       "author": "",
       "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
       "content": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "93ba0dd98358354c",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "TCPO: Turn-Level Credit Policy Optimization",
-      "url": "https://arxiv.org/abs/2608.01667v1",
-      "published": "2026-08-03T04:01:36Z",
-      "author": "Sicong Liao",
-      "summary": "Verifier-guided reinforcement learning has become a powerful paradigm for improving LLM reasoning. In multi-turn settings, models receive a verifier score after each turn and iteratively refine their outputs. Although such scores provide dense feedback, they do not directly prov…",
-      "content": "Verifier-guided reinforcement learning has become a powerful paradigm for improving LLM reasoning. In multi-turn settings, models receive a verifier score after each turn and iteratively refine their outputs. Although such scores provide dense feedback, they do not directly provide dense credit: a score measures the quality of the current output, while credit should measure how the current turn changes the refinement trajectory. We propose TCPO, a turn-level credit assignment method for verifier-guided multi-turn RL. TCPO casts credit assignment as score-to-credit conversion and constructs turn-level advantages through reference-based comparisons: retrospective credit captures immediate progress and regression relative to the best prior state; hindsight delayed credit identifies non-improving turns with later payoff; and selective fixed-history counterfactual estimation refines high-surprisal turns under the same history. Experiments on math reasoning, code generation, and AppWorld agent tasks show that TCPO improves or matches the strongest baselines across model scales, task domains, and verifier types. TCPO achieves the best or tied-best best-turn Pass@8 on Qwen3-4B and DeepSeek-R1-Distill-Llama-8B, reduces turns to success, and improves multi-turn agent performance. These results highlight score-to-credit conversion as a central ingredient for verifier-guided multi-turn policy optimization.",
       "readingMinutes": 1
     },
     {
@@ -1432,19 +1484,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "567f2e4af89142a6",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Emergence Invariance: From Symbolized Thought to Interface Refinement",
-      "url": "https://arxiv.org/abs/2608.01548v1",
-      "published": "2026-08-03T00:04:14Z",
-      "author": "Yi Liu",
-      "summary": "Language can be viewed as a formalized subset of thought: a consequence-governed symbolic structure projected from wider situated cognition. Large language models trained at scale exhibit compensatory emergence: sparse architectural primitives support in-context learning, multi-…",
-      "content": "Language can be viewed as a formalized subset of thought: a consequence-governed symbolic structure projected from wider situated cognition. Large language models trained at scale exhibit compensatory emergence: sparse architectural primitives support in-context learning, multi-step reasoning, tool use, and chain of thought. Yet a language-first probabilistic architecture inherits substantive, substrate, and high-level incompletenesses relative to human cognition. Their coexistence makes an LLM a human-like thought-form generator that reconstructs increasingly human-like reasoning forms from an incomplete substrate. We ask whether emergence can compensate for every missing distinction. We formalize the philosophical premise as the Symbolization--Substructure Thesis and introduce emergence invariance. For a scale-indexed family acting through a shared task interface $φ$, $\\mathcal{R}_s^*=\\mathcal{R}_φ^*+C_s$: scale can reduce the compensation gap $C_s$, while a positive interface floor $\\mathcal{R}_φ^*$ persists. We prove that, under a fixed input law, one interface is universally no less informative exactly when its completed information $σ$-field refines the other, and that total compensation occurs exactly when both the interface floor and asymptotic compensation gap vanish. The framework unifies existing results on grounding, memory, position, attention, Bayesian inheritance, scientific abduction, and reasoning control. In a matched DeepSeek V4-Flash API study, thinking improves pointer chasing from $0/16$ to $14/16$ when relevant distinctions are available; exact observational twins remain at their $50\\%$ construction floor; and restoring decisive memory moves matched performance from $50\\%$ to $100\\%$. These results provide initial evidence for the predicted separation between scaling within an interface and refining the interface itself.",
-      "readingMinutes": 1
-    },
-    {
       "id": "97e92714d577da88",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1455,45 +1494,6 @@
       "author": "",
       "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
       "content": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "a146e8ff6963e834",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Why Formal Monitors Fail: Attack Distribution Entropy as a Coverage Bound for LTL-Based LLM Agent Safety",
-      "url": "https://arxiv.org/abs/2608.01388v1",
-      "published": "2026-08-02T17:08:21Z",
-      "author": "Ruiyang Zhang",
-      "summary": "Runtime safety monitors based on Linear Temporal Logic (LTL) and finite automata (FSA) are increasingly deployed to intercept unsafe tool-call sequences in LLM agents. Yet the same monitor achieves 68-75% attack coverage on some model architectures and near-zero on others, with…",
-      "content": "Runtime safety monitors based on Linear Temporal Logic (LTL) and finite automata (FSA) are increasingly deployed to intercept unsafe tool-call sequences in LLM agents. Yet the same monitor achieves 68-75% attack coverage on some model architectures and near-zero on others, with no explanation from capability scores, training data, or prompt design. We provide the missing theory. We prove that the recall of any fixed-invariant FSA monitor is bounded above by the concentration of the attack distribution: the fraction of attacks covered by the k most frequent trigger-completion patterns. When attacks concentrate (low Shannon entropy), a small fixed invariant set achieves high recall; when they disperse across many structurally distinct patterns (high entropy), no fixed invariant set of tractable size can, regardless of how the invariants were derived. We validate this entropy-coverage bound across eight frontier LLM architectures. GPT-class and DeepSeek backends yield highly concentrated attacks (H ~ 0.24 bits; one pattern covers 96%), explaining 68-75% recall; Gemini variants yield high-entropy distributions (H ~ 2.81 bits; 7 clusters each <= 7%), explaining near-zero recall (6-13%), invariant to architecture-matched retraining. Entropy accounts for 76% of variance in coverage (Pearson r = -0.87, p = 0.005, 95% CI [-0.98, -0.78]), holding under leave-one-out (r in [-0.91, -0.82]). We introduce a pre-deployment entropy test that predicts monitor coverage from a small attack sample, enabling architecture-aware monitor selection before deployment. The bound and test are architecture-agnostic and apply to any FSA-based runtime monitor over discrete action sequences.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "d991dc9eafad872b",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Claim Plane: Reliability Gains and the Limits of Selective Concurrency for Parallel Coding Agents: A 30-Pair, Three-Seed Confirmatory Study of Deterministic Pre-Write Admission",
-      "url": "https://arxiv.org/abs/2608.00947v1",
-      "published": "2026-08-02T02:56:49Z",
-      "author": "Maxim Nikolaev",
-      "summary": "Parallel coding agents can produce locally valid changes that fail when combined. Claim Plane addresses this failure mode as deterministic pre-write admission over versioned change intents. This paper reports a confirmatory study on 30 frozen CooperBench feature pairs, balanced…",
-      "content": "Parallel coding agents can produce locally valid changes that fail when combined. Claim Plane addresses this failure mode as deterministic pre-write admission over versioned change intents. This paper reports a confirmatory study on 30 frozen CooperBench feature pairs, balanced between 15 conflict and 15 clean labels, with three coder seeds, four coordination arms, and 360 completed executions. DeepSeek V4 Pro generated 60 feature-level planner declarations once; the declarations were frozen across all arms and coder seeds, while DeepSeek V4 Flash performed the coding work. Static Claim Plane raised pair pass from 23.3% under unconstrained parallel execution to 50.0%, a paired task-cluster difference of +26.7 percentage points (95% bootstrap CI 9.6 to 60.0), and raised integration success from 65.6% to 96.7%. On conflict-labeled pairs, pair pass rose from 6.7% to 60.0%. However, static admission serialized 96.7% of executions, including 93.3% of clean cases, and therefore recovered reliability largely by collapsing toward serial execution. Dynamic admission was more selective, serializing 66.7% of conflict cases and 13.3% of clean cases, but 46 of 90 executions failed closed on undeclared scope, reducing pair pass to 22.2%. Forty-five of those 46 blocks targeted files already present in the frozen declarations, indicating region undercoverage and insufficient amendment handling rather than wholly unknown files. The results support pre-write admission as a reliability mechanism, but they do not establish useful wall-clock parallel speedup: provider calls were physically sequential, and the conservative policy largely serialized the workload. The complete study artifacts, hashes, and clustered bootstrap analysis are publicly released for reproduction.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "2671ad0740db7a16",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "AI and Exchange Rate Predictability",
-      "url": "https://arxiv.org/abs/2608.00761v1",
-      "published": "2026-08-01T16:50:04Z",
-      "author": "Amin Izadyar",
-      "summary": "I revisit the exchange rate disconnect puzzle, first documented by Meese and Rogoff (1983), using generative artificial intelligence (AI) to forecast currency returns based on economic fundamentals. Using ChatGPT and DeepSeek, I analyze a comprehensive dataset of economic data r…",
-      "content": "I revisit the exchange rate disconnect puzzle, first documented by Meese and Rogoff (1983), using generative artificial intelligence (AI) to forecast currency returns based on economic fundamentals. Using ChatGPT and DeepSeek, I analyze a comprehensive dataset of economic data releases for major currency pairs and measure the fundamental strength of each currency. These AI-powered fundamentals exhibit significant cross-sectional predictive power. A simple trading strategy that goes long currencies with strong fundamentals and short currencies with weak fundamentals generates a Sharpe ratio exceeding 0.7 per annum. The excess returns of this strategy remain significant after controlling for traditional currency factors. To mitigate concerns of look-ahead bias, I run multiple exercises to ensure that predictability stems from AI reasoning rather than memorization. Finally, I explore the potential sources of predictability and find evidence that the Taylor rule framework, generally used by central banks to set interest rates, is a key mechanism connecting exchange rates to economic fundamentals.",
       "readingMinutes": 1
     },
     {
