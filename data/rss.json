@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T05:15:41.958021Z",
+  "generatedAt": "2026-08-10T16:51:12.925037Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -102,17 +102,17 @@
       "title": "DeepSeek · Research",
       "url": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "https://arxiv.org/api/query?search_query=all:DeepSeek&start=0&max_results=20&id_list=",
+      "siteUrl": "",
       "articleCount": 20,
-      "error": ""
+      "error": "The read operation timed out"
     },
     {
       "title": "Kimi · Research",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3AKimi%20AND%20all%3AMoonshot%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "https://arxiv.org/api/query?search_query=all:Kimi+AND+all:Moonshot&start=0&max_results=20&id_list=",
+      "siteUrl": "",
       "articleCount": 1,
-      "error": ""
+      "error": "HTTP Error 429: Unknown Error"
     },
     {
       "title": "Meta Engineering",
@@ -151,7 +151,7 @@
       "url": "https://github.com/sgl-project/sglang/releases.atom",
       "category": "AI Infra",
       "siteUrl": "https://github.com/sgl-project/sglang/releases",
-      "articleCount": 8,
+      "articleCount": 7,
       "error": ""
     },
     {
@@ -183,7 +183,7 @@
       "url": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
       "category": "AI Infra",
       "siteUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases",
-      "articleCount": 8,
+      "articleCount": 9,
       "error": ""
     },
     {
@@ -196,6 +196,136 @@
     }
   ],
   "articles": [
+    {
+      "id": "5367cc95a8fd9817",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "What building an AI-native finance function taught me",
+      "url": "https://openai.com/index/building-an-ai-native-finance-function",
+      "published": "2026-08-10T17:00:00Z",
+      "author": "",
+      "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+      "content": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "a55484127056e258",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
+      "url": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/",
+      "published": "2026-08-10T16:16:35Z",
+      "author": "Michelle Horton",
+      "summary": "Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI...",
+      "content": "Meta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI...\nMeta returns to the open source ecosystem with the release of Muse Glimmer, a 30B open-weight dense model with a 120K+ context window built for local AI agentic work. Optimized to run across a range of NVIDIA edge, desktop, and workstation AI platforms, Muse Glimmer delivers 20K tokens/sec on a single GPU, enabling always-on agents to process data locally and execute complex…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "6b59545a1676c64d",
+      "feedTitle": "Google AI · Blog",
+      "feedUrl": "https://blog.google/technology/ai/rss/",
+      "category": "AI 新闻",
+      "title": "Evolve your marketing with new AI tools",
+      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "published": "2026-08-10T14:30:00Z",
+      "author": "Josh Moser",
+      "summary": "Advisor UI in Google Ads and Google Analytics",
+      "content": "Advisor UI in Google Ads and Google Analytics",
+      "readingMinutes": 1
+    },
+    {
+      "id": "3d196224ab27a2df",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "published": "2026-08-10T14:00:00Z",
+      "author": "",
+      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "content": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "dc9962201d7002ce",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "不再拆机飞线：借助 ACC 实现旧手机直供电「改造」",
+      "url": "https://sspai.com/prime/story/direct-power-supply-mod",
+      "published": "2026-08-10T13:50:02Z",
+      "author": "",
+      "summary": "去年4月，我在某视频的影响下，萌生了将家里的旧安卓手机利用起来的想法。后续虽然跑起来了，但因为设备需要长期充电，电池安全又成了一个让我困扰的难题。为了解决这个问题，我在《彻底告别电池焦虑：旧手机再利用 ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "content": "去年4月，我在某视频的影响下，萌生了将家里的旧安卓手机利用起来的想法。后续虽然跑起来了，但因为设备需要长期充电，电池安全又成了一个让我困扰的难题。为了解决这个问题，我在《彻底告别电池焦虑：旧手机再利用 ...查看全文\n本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "readingMinutes": 1
+    },
+    {
+      "id": "2a31cfa30481ebb4",
+      "feedTitle": "PyTorch Blog",
+      "feedUrl": "https://pytorch.org/blog/feed/",
+      "category": "AI Infra",
+      "title": "Fast, On Device Agentic AI with Muse Glimmer on ExecuTorch",
+      "url": "https://pytorch.org/blog/fast-ondevice-agentic-ai-with-executorch/",
+      "published": "2026-08-10T13:42:54Z",
+      "author": "ExecuTorch Team at Meta",
+      "summary": "Today, Meta introduced Muse Glimmer, an open-weight, 30-billion-parameter model distilled from Meta’s Muse Spark for on-device agentic workflows. Alongside, ExecuTorch is adding end-to-end support for running Muse Glimmer on NVIDIA...",
+      "content": "Today, Meta introduced Muse Glimmer, an open-weight, 30-billion-parameter model distilled from Meta’s Muse Spark for on-device agentic workflows. Alongside, ExecuTorch is adding end-to-end support for running Muse Glimmer on NVIDIA GPUs and Macs with Apple silicon.\n\nWhy ExecuTorch?\n\nMost local AI frameworks rewrite models in other non-Python languages. That scaled well when LLMs were standard text transformers, but today’s models are becoming more complex – novel architectures, multimodal inputs and outputs, advanced decoding algorithms like DFlash (parallel diffusion-based speculative decoding) for low latency. Reimplementing these across different backends doesn’t scale.\n\nExecuTorch takes a different approach. As machine learning engineers and researchers, you implement the model (and its decoding strategy) in PyTorch. Once you’re ready for deployment, you export to ExecuTorch, and the framework handles backend-specific lowering, Triton on CUDA, MLX-native and custom Metal on Apple silicon. Ahead-of-time compilation optimizes the full execution path end-to-end, not just individual ops.\n\nThis is how we ship Muse Glimmer’s text and image inputs, direct GGUF export, native K-quant execution, 128K+-token context, and DFlash speculative decoding features. We have released prebuilt PTE artifact bundles that you can download and run on supported NVIDIA GPUs or Macs with Apple silicon using the ExecuTorch runtime.\n\nQuickstart\n\nGetting the PTEs\n\nA PTE is the serialized artifact produced ahead of time from a model’s PyTorch graph by the ExecuTorch Python stack, and optimized for a target backend.\n\nDownload (Preferred)\n\nWe have published verified PTEs on Hugging Face for NVIDIA CUDA and Apple Silicon (Metal). This includes text-only and text-plus-image artifacts, with and without DFlash speculative decoding. Download them here: link.\n\nBuild your own\n\nStarting with a prebuilt PTE is the fastest way to get running. To build your own, follow the ExecuTorch Muse Glimmer README, and select the backend, modality, context length, and whether to use DFlash. ExecuTorch exports directly from the released GGUF checkpoints through its torch.export-based ahead-of-time stack. CUDA export compiles and autotunes Triton kernels for the detected GPU architecture. For the best results, export on the same GPU architecture that will run the artifact.\n\nExecuting the PTEs\n\n1. Build the runtime\n\nExecuTorch ships CMake presets for both the CUDA and MLX backends for this model runner(s). Follow ExecuTorch installation instructions here, and then use CMake to build the runners with or without speculative decoding for the PTE you selected. Both, with and without DFlash, runners support text and image modalities and are compatible with the example llm_server in ExecuTorch for agentic use cases.\n\n### Build the runtime ###\n\n# After installing ExecuTorch, build the runners for your backend:\n\n$ cd examples/models/muse-glimmer\n$ cmake --workflow --preset muse-glimmer-cuda # use muse-glimmer-mlx for macOS\n\n# This builds solo_runner, dflash_runner, and the serving worker.\n\n2. Run the PTEs\n\nHere are some examples of how to run the PTEs, once you have built the runners.\n\n### Example 1: Standalone infereance on cmdline ###\n\n$ PROMPT='<|start|>user<|message|>Describe this image: <img><|eot|><|start|>assistant'\n\n$ cmake-out/examples/models/muse-glimmer/dflash_runner \\\n--model_path artifacts/dflash-vision/model.pte \\\n--data_path artifacts/dflash-vision/aoti_cuda_blob.ptd \\\n--tokenizer_path assets/hf/tokenizer.json \\\n--image_path image.jpg --prompt \"$PROMPT\" \\\n--block_length 4 --n_draft 3 --temperature 0 --max_new_tokens 256\n\n### Example 2, step 1/2: Start the agent server ###\n\n$ python -m executorch.examples.models.muse_glimmer.serving.serve \\\n--model-path artifacts/dflash-vision/model.pte \\\n--data-path artifacts/dflash-vision/aoti_cuda_blob.ptd \\ # only for cuda\n--tokenizer-path assets/hf/tokenizer.json --hf-tokenizer assets/hf \\\n--worker-bin cmake-out/examples/models/muse-glimmer/muse_glimmer_worker \\\n--tool-parser atem --max-context 131072\n\n# APIs at http://127.0.0.1:8000/v1\n\n### Example 2, step 2/2: Start your agent (use Pi as example) ###\n\n$ pi \\\n--provider muse-glimmer-local \\\n--model muse-glimmer \\\n--thinking high \\\n--tools read,bash,edit,write\n\n# This will automatically start your pi agent by using your local muse glimmer server.\n# Register muse_glimmer-local in ~/.pi/agent/models.json first.\n# See the README.md for more details.\n\nUse cases enabled\n\nImage understanding with Muse Glimmer, with and without speculative decoding\n\nFigure 1: Muse Glimmer text-image input experiment on M5 Pro (64 GiB). Solo achieves 21.6 tok/s, while our speculative decoding set up (DFlash) reaches 33.0 tok/s, a 52.8% performance improvement without quality regression\n\nMuse Glimmer powering Pi Coding Agent through ExecuTorch\n\nFigure 2: Muse Glimmer agent pipeline on an M5 Pro (64 GB) using the Pi coding agent. The agent creates a bird-themed game, iteratively refining details through extended reasoning, calling tools to create files, installing required packages, writing and running tests, and proactively asking the user about next steps and additional requirements\n\nPerformance\n\nFigure 3: Muse Glimmer performance on ExecuTorch using text-only input with varying context on NVIDIA A100 (as a proxy for RTX cards) and Apple Mac with an M5-max measuring prefill and decode performance in tokens/second with and without DFlash using coding prompt, which also has a good acceptance rate for this model, as seen in the decode charts\n\nUnder the Hood\n\nMuse Glimmer now runs end-to-end on ExecuTorch on both NVIDIA GPUs and Apple Silicon GPUs. Here are some of the key capabilities and optimizations we built.\n\nEnabling DFlash speculative decoding\n\nWe optimized target and draft interoperability through weight sharing, exporting both into a single PTE.\n\nThe DFlash block dimension is exported dynamically, allowing one PTE to support runtime-selectable block lengths.\n\nThe runtime supports both greedy decoding and rejection sampling.\n\nSupporting GGUF loading and k-quant\n\nWe export straight from the GGUF released with the Muse Glimmer.\n\nWe map Q4_K/Q5_K/Q6_K to packed INT4/5/6 with dp4a GEMV kernels on CUDA, and to repacked or fused Metal kernels on MLX.\n\nOn MLX, for performance, at repack time we merge adjacent sub-blocks whose scale and min are identical into a larger group size, up to 128, whenever the merge is lossless.\n\nAgentic harness and LLM serving\n\nOne model load serves multiple isolated conversations, through per-session mutable-state rebinding we added to both backends.\n\nWe added Harmony chat templating with reasoning routing.\n\nWe added a parser for the model’s XML tool-call format, including multiple calls in one turn.\n\nBackend-specific performance optimizations\n\nCUDA\n\nWe capture decode into a CUDA graph, reducing per-kernel launch overhead into one submission.\n\nPacked K-quant kernels accelerate low-batch decode, while length-aware split-K FlashDecoding++ paths optimize single-token decode and small DFlash verification blocks.\n\nMLX\n\nRMSNorm, RoPE, SDPA, KV-cache updates, and quantized linear operations are lowered to MLX-native or custom Metal implementations.\n\nGGUF K-quant weights use either repacked MLX-native operations or fused Metal kernels.\n\nSupporting long context\n\nMuse Glimmer supports a 128K+ token context, and is efficient in how its KV-cache grows: only 13 of its 52 layers are global; the other 39 are sliding-window. ExecuTorch supports this efficiently, making the long context use cases practical on edge devices.\n\nWhat’s next\n\nThis initial release supports text and image inputs; video input is not yet supported. It is a work in progress.\n\nNo cross-session prefix sharing or checkpointing or continuous batching as of now. These are all actively being worked on to make ExecuTorch even more suitable for agentic workflows.\n\nTry Muse Glimmer with ExecuTorch and let us know what you think on Discord. If you run into any issues, feel free to open a Github Issue.\n\nReferences\n\nMuse Glimmer in ExecuTorch | Muse Glimmer on Hugging Face | ExecuTorch Documentation | ExecuTorch on Github",
+      "readingMinutes": 5
+    },
+    {
+      "id": "95f74aeac90a93bb",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "url": "https://openai.com/index/model-ml",
+      "published": "2026-08-10T12:00:00Z",
+      "author": "",
+      "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "content": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "fea4ff88a109a649",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派评 | 近期值得关注的 App",
+      "url": "https://sspai.com/post/113283",
+      "published": "2026-08-10T10:00:00Z",
+      "author": "",
+      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "content": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "834c238805036409",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "写给「跑两步就喘」的你：调整跑步姿势，舒适开跑",
+      "url": "https://sspai.com/post/113115",
+      "published": "2026-08-10T07:00:00Z",
+      "author": "",
+      "summary": "从跑步姿势、呼吸节奏、运动强度入手，让跑步更舒服。查看全文",
+      "content": "从跑步姿势、呼吸节奏、运动强度入手，让跑步更舒服。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "dbf531300b29212a",
+      "feedTitle": "vLLM Releases",
+      "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
+      "category": "AI Infra",
+      "title": "v0.27.0: [Kimi][MM] disable kimi_vit's dynamic torch.compile for TPU (#51196)",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0",
+      "published": "2026-08-10T06:30:44Z",
+      "author": "lk-chen",
+      "summary": "Signed-off-by: Linkun Chen github@lkchen.net (cherry picked from commit 7f58e82)",
+      "content": "Signed-off-by: Linkun Chen github@lkchen.net\n\n(cherry picked from commit 7f58e82)",
+      "readingMinutes": 1
+    },
     {
       "id": "32edea8c590be13e",
       "feedTitle": "少数派",
@@ -210,6 +340,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "2a5c0cad5d8b2f9d",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Premium seats are coming to ChatGPT Business",
+      "url": "https://openai.com/index/premium-seats-chatgpt-business",
+      "published": "2026-08-10T00:00:00Z",
+      "author": "",
+      "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "content": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "readingMinutes": 1
+    },
+    {
       "id": "55a509a75beb4f8d",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -220,6 +363,19 @@
       "author": "",
       "summary": "央视曝光酒店评级标识消费陷阱 《时代》网站展示仅 AI 可见广告 Edge 浏览器将禁用 Manifest V2 扩展 油价上涨致美国混动车需求激增 廉价手机壳存在毒性隐患 美国调查中国 AI 企业使用海外英伟达芯片 看看就行的小道消息 少数派的近期动态 你可能错过的好文章 查看全文",
       "content": "央视曝光酒店评级标识消费陷阱\n\n《时代》网站展示仅 AI 可见广告\n\nEdge 浏览器将禁用 Manifest V2 扩展\n\n油价上涨致美国混动车需求激增\n\n廉价手机壳存在毒性隐患\n\n美国调查中国 AI 企业使用海外英伟达芯片\n\n看看就行的小道消息\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c30eb0e9e9265087",
+      "feedTitle": "TensorRT-LLM Releases",
+      "feedUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
+      "category": "AI Infra",
+      "title": "v1.3.0rc24: [None][fix] fix disagg overlap slot headroom without MTP (#17282)",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.3.0rc24",
+      "published": "2026-08-09T10:44:40Z",
+      "author": "reasonsolo",
+      "summary": "Signed-off-by: Lizhi Zhou lizhiz@oci-aga-slurm-1-login-01.cm.cluster Signed-off-by: Lizhi Zhou 1432185+reasonsolo@users.noreply.github.com Co-authored-by: Lizhi Zhou lizhiz@oci-aga-slurm-1-login-01.cm.cluster",
+      "content": "Signed-off-by: Lizhi Zhou lizhiz@oci-aga-slurm-1-login-01.cm.cluster\n\nSigned-off-by: Lizhi Zhou 1432185+reasonsolo@users.noreply.github.com\n\nCo-authored-by: Lizhi Zhou lizhiz@oci-aga-slurm-1-login-01.cm.cluster",
       "readingMinutes": 1
     },
     {
@@ -444,19 +600,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "4cd22105449dbedd",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：Bose 发布新款 QuietComfort 头戴式耳机等",
-      "url": "https://sspai.com/post/113162",
-      "published": "2026-08-07T00:51:06Z",
-      "author": "",
-      "summary": "Black Forest Labs 正式推出 FLUX 3 视频生成模型，研究人员发现 iCloud Private Relay 存在 IP 泄露风险等。查看全文",
-      "content": "Black Forest Labs 正式推出 FLUX 3 视频生成模型，研究人员发现 iCloud Private Relay 存在 IP 泄露风险等。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "710c6fb31a91a2e5",
       "feedTitle": "vLLM Releases",
       "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
@@ -480,19 +623,6 @@
       "author": "Elizabeth Goodman",
       "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
       "content": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...\nStorage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data, execute tools, and generate new results, storage systems must continuously supply and preserve the data that moves the agent reasoning loop. Each agent step can trigger multiple storage operations, and those operations can repeat across…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f71c222de176290e",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Building Faster Cryptography with Carryless Multiplication in NVIDIA CUDA 13.3",
-      "url": "https://developer.nvidia.com/blog/building-faster-cryptography-with-carryless-multiplication-in-nvidia-cuda-13-3/",
-      "published": "2026-08-06T19:09:23Z",
-      "author": "Michelle Horton",
-      "summary": "For over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that...",
-      "content": "For over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that...\nFor over fifteen years, x86 CPUs have shipped with a dedicated hardware instruction for carryless multiplication. It’s a small but stubborn primitive that sits underneath authenticated encryption, error-correcting codes, and modern zero-knowledge proofs. Until now, NVIDIA GPUs lacked native support for this operation. NVIDIA CUDA 13.3 closes that gap with , a new PTX instruction available on…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -964,32 +1094,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "1ece2f1a5c496169",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "新玩意 248｜少数派的编辑们最近买了啥？",
-      "url": "https://sspai.com/post/113139",
-      "published": "2026-08-06T09:30:00Z",
-      "author": "",
-      "summary": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ...查看全文",
-      "content": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ...查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "dcde9a4a943083a7",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "TDS REVIEW | vivo TWS 5 Pro 降噪真无线耳机体验",
-      "url": "https://sspai.com/post/112916",
-      "published": "2026-08-06T07:00:00Z",
-      "author": "",
-      "summary": "这篇文章是TDSStudio在少数派上的第27篇文章，依然是全平台首发。在去年的年度企划之一「中价位TWS横评」中，vivo/iQOO的TWS5系列表现在多个方面都有优势，尤其是降噪综合能力的表现给人 ...查看全文",
-      "content": "这篇文章是TDSStudio在少数派上的第27篇文章，依然是全平台首发。在去年的年度企划之一「中价位TWS横评」中，vivo/iQOO的TWS5系列表现在多个方面都有优势，尤其是降噪综合能力的表现给人 ...查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "0c4923a8268d927d",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1001,6 +1105,19 @@
       "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
       "content": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
       "readingMinutes": 1
+    },
+    {
+      "id": "3e9693edbe72fa24",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "洞悉 Omniverse：开放世界模型如何推动物理 AI 的前沿发展",
+      "url": "https://blogs.nvidia.cn/blog/open-world-models-physical-ai/",
+      "published": "2026-08-06T05:28:11Z",
+      "author": "Ming-Yu Liu",
+      "summary": "编者注：本文是洞悉 Omniverse 系列文章。“洞悉 Omniverse”重点介绍开发者、3D 从业者与企业如何使用 OpenUSD 以及 NVIDIA Omniverse 的最新进展深入改变他们的工作流。 今年 7 月，NVIDIA 与 200 多家公司和组织共同签署了《开放权重与美国 AI 领导地位》的公开信。这封公开信指出，衡量 AI 领导力的标准并不是任何单一的前沿模型，而是取决于开放生态系统是否覆盖到每个行业。 任何人都可以下载、检查、修改并在自己的基础设施上运行开放模型，这使上述",
+      "content": "编者注：本文是洞悉 Omniverse 系列文章。“洞悉 Omniverse”重点介绍开发者、3D 从业者与企业如何使用 OpenUSD 以及 NVIDIA Omniverse 的最新进展深入改变他们的工作流。\n\n今年 7 月，NVIDIA 与 200 多家公司和组织共同签署了《开放权重与美国 AI 领导地位》的公开信。这封公开信指出，衡量 AI 领导力的标准并不是任何单一的前沿模型，而是取决于开放生态系统是否覆盖到每个行业。\n\n任何人都可以下载、检查、修改并在自己的基础设施上运行开放模型，这使上述愿景成为可能。这一点在物理 AI 领域至关重要，在该领域每一次部署都是一个专业化问题。\n\n物理 AI 要理解和预测结果，而不仅仅是表象。\n\n为了实现这一点，世界模型需要学习物理环境的行为方式、接下来可能发生的情况以及哪些后续行动是合理的。它们能够生成物理基础世界和动作数据，模拟未来状态，并为团队提供一个其可以根据机器人、智能汽车或视觉 AI 系统进行专业化的基础。\n\n开放世界模型已被用于生成训练数据、测试策略和专业化的物理 AI 系统。NVIDIA Cosmos 3 将这些功能整合到一个开放模型系列中，在基准测试中取得了领先的结果，并在机器人、智能汽车和视觉 AI 领域获得广泛采用。\n\n此外，NVIDIA Omniverse 库作为 NVIDIA Agent Toolkit 的一部分，为构建面向仿真的世界提供预构建功能，物理 AI 团队可以在现实世界部署之前使用这些功能来训练、测试和验证系统。\n\n世界模型是物理 AI 的基础\n\n物理 AI 背后的数据很难收集且在所需规模下成本高昂。罕见事件和长尾场景尤其难以安全、反复地重现。\n\n世界模型能够实现：\n\n通过从大规模多模态场景中学习物理关系，获取更多有用数据。\n\n更具多样性的环境，包括不同的天气、光照、物体和轨迹。\n\n更好的基础，以便在此基础上进行构建和适配特定的机器人、车辆、传感器配置、任务或操作环境。\n\n通用模型并未针对特定团队的机器人、传感器或运行环境进行过训练。要缩小这一差距，需要获取模型权重、获得允许进行适配的许可证，以及后训练所需的工具。\n\nNVIDIA Cosmos 世界基础模型在 Linux 基金会的 OpenMDW 1.1 许可下可用，使团队能够在自己的数据和硬件上对模型进行后训练。专业化方面，开放性已成为一项切实的技术要求。\n\n模型专业化只是工作流的一部分。团队还需要环境来生成数据、运行仿真和测试行为。\n\nOmniverse 库可帮助开发者构建面向仿真的环境，同时 OpenUSD 为跨数字孪生、仿真和合成数据生成工作流组合、重用和交换复杂的 3D 数据提供了开放框架。Omniverse 和 OpenUSD 协同工作，减少了每次资产、传感器配置或环境条件发生变化时可能累积的重复性工作。\n\nCosmos 3：前沿模型\n\nNVIDIA Cosmos 3 是一个基于 Mixture-of-Transformers (MoT) 架构构建的前沿开放物理 AI 基础全模态模型，它结合了视觉推理、世界生成和动作预测，让开发者能够使用一个模型系列来理解场景、生成合成数据、模拟未来状态并构建专用世界行动模型。\n\n开发者可以将 Cosmos 3 用作视觉语言模型、预测未来世界状态并生成大规模合成数据的符合物理规律的世界模拟器、或是用作世界动作模型的主干网络，而无需为每种功能组装和维护单独的模型。\n\n该系列包括用于高保真世界建模的 Cosmos 3 Super (64B)、用于高效推理和后训练的 Cosmos 3 Nano (16B)，以及用于端侧视觉推理和机器人策略部署的 Cosmos 3 Edge (4B)。Cosmos 3 Edge 足够轻量，可在边缘 GPU 上运行，支持在 NVIDIA RTX GPU、NVIDIA DGX 系统以及包括 Jetson Thor 在内的 NVIDIA Jetson 平台上部署。\n\n在各项基准测试评估中，Cosmos 3 在 Artificial Analysis 的开放权重文本生成图像和图像生成视频类别、PAI-Bench 的世界生成类别以及 Physics-IQ 的图像生成视频类别中均排名第一。在机器人策略方面，它在 RoboLab 上排名第一。Cosmos 3 Super 也是 VANTAGE-Bench 视觉理解类别排名最高的开放模型。\n\n除了 Cosmos 之外，NVIDIA 物理 AI 软件栈还包括面向机器人领域的 Isaac GR00T、用于智能汽车领域的 Alpamayo 和用于视觉 AI 领域的 Metropolis。\n\n开发者如何将 Cosmos 3 投入使用\n\n各行各业的开发者正在基于 NVIDIA Cosmos 构建物理 AI 应用：机器人领域包括斗山机器人、LG 电子、三星电子和 Skild AI；智能汽车领域包括理想汽车、小米和 Afari；视觉 AI 智能体方面则有 Centific、FogSphere、Linker Vision、Milestone Systems 和 Yuan 赋能工业 AI 和智能空间应用。\n\nNVIDIA Cosmos Coalition 将世界模型构建者、AI 开发者和物理 AI 领导者聚集在一起，共同贡献模型、研究和评估方法，进一步扩展了这项工作。NVIDIA 近期将该联盟进一步拓展至日本，当地的机器人和制造业领导者计划加入该联盟，为工厂、物流、农业、建筑、医疗和交通运输等领域开发开放世界模型。\n\n这些实施和协作共同将开放世界模型作为机器人、智能汽车和视觉 AI 系统中物理 AI 的适应性基础。\n\n立即体验\n\n通过以下资源了解有关世界模型、OpenUSD 和物理 AI 开发的更多信息：\n\n在 Hugging Face 以及 GitHub 探索开放的 Cosmos 3 模型集合和数据集。\n\n阅读 Cosmos 3 技术报告，了解完整的架构细节和评估。\n\n阅读 Cosmos 3 技术博客。\n\n收听 Cosmos Labs 直播。\n\n了解 NVIDIA Cosmos Coalition。",
+      "readingMinutes": 5
     },
     {
       "id": "f01d522c734a4086",
@@ -2290,19 +2407,6 @@
       "readingMinutes": 0
     },
     {
-      "id": "839f7a51d7b587ae",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Introducing OpenAI Presence",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "published": "2026-07-22T05:30:00Z",
-      "author": "",
-      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "content": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "readingMinutes": 1
-    },
-    {
       "id": "5348a7d239028e9b",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -2407,19 +2511,6 @@
       "readingMinutes": 0
     },
     {
-      "id": "389ebd02d2834f48",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "url": "https://openai.com/index/ntt-data",
-      "published": "2026-07-22T00:00:00Z",
-      "author": "",
-      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "content": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "readingMinutes": 1
-    },
-    {
       "id": "c4a45eed67ee9087",
       "feedTitle": "Anthropic · News",
       "feedUrl": "https://www.anthropic.com/sitemap.xml",
@@ -2459,19 +2550,6 @@
       "readingMinutes": 0
     },
     {
-      "id": "3064e426d18ccd85",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Introducing the ChatGPT for small business program",
-      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "published": "2026-07-21T17:00:00Z",
-      "author": "",
-      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "content": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "readingMinutes": 1
-    },
-    {
       "id": "e38a2bc2474832f2",
       "feedTitle": "Google AI · DeepMind",
       "feedUrl": "https://deepmind.google/blog/rss.xml",
@@ -2482,19 +2560,6 @@
       "author": "",
       "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
       "content": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "d925d8c91f460a44",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "published": "2026-07-21T07:00:00Z",
-      "author": "",
-      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "content": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
       "readingMinutes": 1
     },
     {
@@ -3057,19 +3122,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "17123a4f5ea56b21",
-      "feedTitle": "PyTorch Blog",
-      "feedUrl": "https://pytorch.org/blog/feed/",
-      "category": "AI Infra",
-      "title": "PyTorch 2.13 Release Blog",
-      "url": "https://pytorch.org/blog/pytorch-2-13-release-blog/",
-      "published": "2026-07-08T17:42:23Z",
-      "author": "PyTorch Foundation",
-      "summary": "We are excited to announce the release of PyTorch® 2.13 (release notes)! The PyTorch 2.13 release features the following changes: FlexAttention lands on Apple Silicon (MPS), with up to...",
-      "content": "We are excited to announce the release of PyTorch® 2.13 (release notes)!\n\nThe PyTorch 2.13 release features the following changes:\n\nFlexAttention lands on Apple Silicon (MPS), with up to ~12x speedup over SDPA on sparse patterns, and gains a deterministic backward path on CUDA for reproducible gradient computation\n\nCuTeDSL “Native DSL” backend gives Inductor a second high-performance code path (alongside Triton) for key GPU operations, with faster compilation\n\nnn.LinearCrossEntropyLoss combines final prediction and loss computation operations to cut peak GPU memory by up to 4x for large-vocabulary language model training\n\ntorchcomms, a new communications backend for PyTorch Distributed, improves fault tolerance, scalability, and debuggability for large-cluster training\n\nFSDP2 now overlaps reduce-scatter and all-gather communications via a dedicated process group (opt-in), increasing distributed training throughput\n\nPython 3.15 wheel support for Torch on Linux via the pytorch repository index. This support includes builds compatible with free-threaded 3.15t.\n\nBroader platform support: ROCm gains AOTriton 0.12b with native HIP CMake, Arm adds Armv9-A torch.compile targeting, and Intel XPU exposes new device telemetry APIs\n\nThis release is composed of 3,328 commits from 526 contributors since PyTorch 2.12. We want to sincerely thank our dedicated community for your contributions. As always, we encourage you to try these out and report any issues as we improve 2.13. More information about how to get started with the PyTorch 2-series can be found at our Getting Started page.\n\nHave questions? Join us on July 22, 2026, at 11 a.m. PT for a live Q&A with panelists Alban Desmaison, Andrey Talman, Piotr Bialecki and moderator Chris Gottbrath. We will provide a brief overview of the release and answer your questions live. Register today.\n\nThroughout the 2.x series, PyTorch has been evolving from a research-first framework into a unified, hardware-agnostic platform for production training and inference at scale. PyTorch 2.11 introduced differentiable collectives for distributed training and FlashAttention-4 on next-generation GPUs. PyTorch 2.12 added a device-agnostic torch.accelerator.Graph API, up to 100× faster batched eigendecomposition, and Microscaling quantization export support.\n\nPyTorch 2.13 pushes performance further across platforms and scales: FlexAttention lands on Apple Silicon with up to 12× speedups, CuTeDSL brings CUTLASS-grade GEMM kernels to Inductor, and fused nn.LinearCrossEntropyLoss cuts peak memory up to 4x for large-vocabulary models. On the distributed side, a new torchcomms backend improves fault tolerance and debuggability at cluster scale, and FSDP2 unlocks communication overlap between all-gather and reduce-scatter for higher training throughput. This release also marks ExecuTorch’s integration into PyTorch Core, making on-device inference a first-class capability of the framework.\n\nPerformance Improvements\n\nDeterministic Backward for FlexAttention Flash Backend\n\nThis improvement focuses on correctness and debugging for the existing CUDA implementation of FlexAttention by making gradient computation reproducible. By default, the FlexAttention flash backend uses atomic operations in the backward pass for dQ accumulation, which introduces non-determinism — repeated runs on the same input can produce slightly different gradients. This makes debugging, regression testing, and reproducible research difficult.\n\nThe new deterministic backward path (compute_dq_write_order) replaces atomics with a pre-computed write ordering that guarantees bit-for-bit reproducible gradients without meaningful performance penalty. The measured end-to-end overhead on create_block_mask is well under 1% at longer sequence lengths (e.g., +0.2% at S=32768), making determinism effectively free for most production workloads. Users can opt in via the existing torch.use_deterministic_algorithms(True) setting with no additional code changes.\n\nAPI Unstable\n\n(PR #174813 by Driss Guessous, Meta)\n\nLarge MPS Op Migration to Native Metal\n\nPyTorch’s MPS backend previously delegated most operations to Apple’s MPSGraph framework, which adds compilation and scheduling overhead per dispatch. For high-frequency, latency-sensitive operations this overhead can dominate execution time. This release migrates a broad set of operations to hand-written Metal compute kernels — copy/cast, uniform/normal/randint, comparisons, reductions (sum/mean), cumsum/cumprod, sort (multi-block and stable), embedding backward, and scatter/gather with bounds checking.\n\nThe native Metal path eliminates MPSGraph’s per-op compilation cost and gives PyTorch direct control over thread dispatch and memory access patterns, reducing kernel launch latency across common training and inference workloads on Apple Silicon.\n\nAPI Unstable\n\n(PR #184740 by Nikita Shulga, Meta, #185609 and #185119 by Irakli Salia, EPAM.)\n\nFlexAttention on Apple Silicon (MPS)\n\nFlexAttention, PyTorch’s unified API for expressing custom attention patterns as plain Python functions compiled into fused kernels, is now available on Metal/MPS. The MPS implementation provides hand-written Metal kernels for both the sparse prefill and decode paths (including GQA and captured buffers). So instead of writing a custom CUDA kernel for every attention variant you need, FlexAttention will write a 2-line Python function, and the compiler builds a fast kernel for you automatically.\n\nThe benchmark numbers are impressive for sparse masks. On long, sparse attention patterns the speedups over SDPA are substantial — e.g. on a 1×8×32768×64 shape with a 256-element sliding window (0.8% density), FlexAttention runs in ~35 ms vs ~431 ms for SDPA (~12.3x); a smaller 8192-length / 64-window case achieves ~4.15x. Dense patterns continue to favor SDPA, as expected. API Unstable\n\n(PR #182552, #186215, and #181575 by Irakli Salia, EPAM)\n\nCore Features\n\nnn.LinearCrossEntropyLoss\n\nIn standard large-vocabulary training (e.g., language models with 100K+ token vocabularies), computing the cross-entropy loss requires materializing the entire logits matrix over the vocabulary, which can consume tens of gigabytes of GPU memory. nn.LinearCrossEntropyLoss (and the corresponding linear_cross_entropy functional) fuses the final linear projection and cross-entropy computation into a single module that processes the vocabulary dimension in chunks, never materializing the full logits matrix. This reduces peak memory by up to ~4x for large-vocabulary workloads while maintaining numerical equivalence with the unfused path. The implementation supports label smoothing, weight tying, and z-loss regularization out of the box, and integrates with torch.compile for further optimization. As a drop-in replacement for separate nn.Linear + nn.CrossEntropyLoss, adoption requires no other code changes.\n\nAPI Unstable\n\n(See #172446, #172286, and #185852 by Pearu Peterson, OpenTeams.)\n\nLoad Safetensors Directly with torch.load\n\nSafetensors has become a widely adopted format for distributing model weights (used by Hugging Face, Stability AI, and others) due to its memory-mapped loading and lack of arbitrary code execution risk. Previously, loading safetensors files required installing and importing a separate library. torch.load(“foo.safetensors”) now works natively, detecting the format automatically and returning tensors directly. This removes a dependency for common workflows and makes PyTorch a seamless drop-in for loading models distributed in safetensors format.\n\nAPI Unstable\n\n(PR #170592 by Nikita Shulga, Meta)\n\nPython 3.15 Binary Support – Release Engineering\n\nPyTorch wheels now support Python 3.15, including the experimental free-threaded 3.15t build. Important Note: Python 3.15 is currently in pre-release (beta), with the final stable release scheduled for October 2026. Support is limited to torch wheels only (torchvision is not built for 3.15 yet) and to Linux builds on x86_64 and aarch64, covering the CPU, CUDA, ROCm, and XPU variants. torch.compile is not yet supported on Python 3.15. There are no Windows or macOS 3.15 wheels for this python version in this release.\n\nPython 3.15 and 3.15t wheels are not published to PyPI — they are available to download only via download.pytorch.org, using any of the following commands:\n\n# CPU\n\npip3 install torch –index-url https://download.pytorch.org/whl/cpu\n\n# CUDA (substitute the CUDA version, e.g. cu126 / cu130)\n\npip3 install torch –index-url https://download.pytorch.org/whl/cu130\n\n# ROCm (substitute the ROCm version)\n\npip3 install torch –index-url https://download.pytorch.org/whl/rocm7.2\n\n# XPU\n\npip3 install torch –index-url https://download.pytorch.org/whl/xpu\n\nThe same commands install the free-threaded 3.15t build when run under a free-threaded interpreter.\n\nAPI Unstable. For updates See tracker issue: #184352\n\n(PR #182954 by Nikita Shulga, PR #184600 and #186244 by Andrey Talman, Meta, #186017 by Rob Timpe, OpenTeams)\n\nDistributed Training\n\ntorchcomms Backend\n\nPyTorch Distributed has historically relied on c10d’s ProcessGroup abstraction for collective communications (all-reduce, all-gather, etc.), which was designed primarily around NCCL. As distributed training grows more complex (multi-dimensional parallelism, elastic scaling, heterogeneous interconnects), the original backend’s error handling and observability limitations become bottlenecks for operations teams.\n\ntorchcomms is a new communications backend integrated into PyTorch Distributed’s CI and device-mesh paths, providing improved fault tolerance (graceful timeout and partial-group recovery), better scalability across large clusters, and richer debuggability through structured logging and collective tracing. It serves as a modern alternative to the existing c10d backends while maintaining API compatibility.\n\nAPI Unstable\n\n(PR #181662 by Tristan Rice, Meta, #178533 Pangiotis Kourdis, Intel, and #182057 by Kapil Sharma, Meta)\n\nFSDP2 Separate Reduce-Scatter Group\n\nIn fully-sharded data-parallel (FSDP) training, all-gather and reduce-scatter share a single NCCL communicator by default. Because NCCL serializes operations on the same communicator, these two collectives cannot overlap, leaving communication bandwidth underutilized. FSDPModule.set_separate_reduce_scatter_group(enable=True) gives reduce-scatter its own dedicated NCCL communicator, allowing it to progress concurrently with all-gather operations. This enables AG/RS overlap, improving training throughput for fully-sharded workloads without any changes to model code.\n\nAPI Unstable\n\n(PR #186335 by Wei Feng, Meta)\n\nCompilation and Export\n\ntorch.compiler.set_default_backend\n\nWhen using custom or out-of-tree compiler backends (e.g., for specialized hardware), users previously had to pass backend= explicitly to every torch.compile() call, making code verbose and error-prone. torch.compiler.set_default_backend mirrors the pattern established by torch.set_default_dtype and torch.set_default_device, letting backend authors or infrastructure teams set a process-wide default once. All subsequent torch.compile() calls automatically use that backend unless an explicit backend= argument overrides it. This simplifies adoption of custom backends across large codebases.\n\nAPI Unstable\n\n(PR #178944 by Angela Yi, Meta)\n\nPlatform Features and Updates\n\nCUDA\n\nCuTeDSL “Native DSL” Backend for Inductor\n\nCuTeDSL is a Python-native domain-specific language built on NVIDIA’s CuTe (CUDA Templates) library, giving developers direct control over GPU tensor layouts, tiling strategies, and memory access patterns. PyTorch’s Inductor compiler can now use CuTeDSL as an alternative code-generation backend alongside Triton — specifically for matrix multiplication (GEMM) and normalization (RMSNorm), two of the most performance-critical operations in transformer training. These Quack-derived kernel overrides produce higher-quality matrix-multiply code without requiring Triton for these workloads. Kernel compilation has also moved from the thread pool to a subprocess pool, eliminating Python’s GIL bottleneck and improving compile-time parallelism.\n\nAPI Unstable\n\n(PR #181267 by Michael Lazos, #182108 by Simon Layton, and #186310 by Driss Guessous, Meta)\n\nROCm\n\nAOTriton 0.12b, Origami GEMM Selection, Native HIP CMake\n\nThe ROCm stack gains three improvements: AOTriton advances to 0.12b with support for asymmetric head dimensions, deterministic algorithms, and new GPU targets (gfx1100/gfx1151 promoted to stable, partial FlashAttention v3 on gfx950). The Origami tool replaces brute-force autotuning with analytical GEMM-configuration selection, cutting tune time. The build system now uses CMake’s native HIP language support.\n\nAPI Unstable\n\n(PR #184288 and #172512 by Xinya Zhang and Umesh Chand, AMD)\n\nArm\n\nArmv9-A Target Support for torch.compile\n\ntorch.compile on AArch64 now recognizes Armv9-A CPUs (e.g., Neoverse V2 used in AWS Graviton4), propagating the correct target triple and feature set (128-bit and 256-bit SVE) through Inductor codegen. No behavior change for x86.\n\nAPI Unstable\n\n(PR #184555 by Zhibo Li, Arm)\n\nXPU (Intel GPUs)\n\nDevice Telemetry APIs\n\nNew query APIs for Intel GPUs expose runtime device state: memory usage (torch.xpu.device_memory_used), utilization, power draw, clock rate, and temperature, plus device-wide synchronization and hardware properties (last-level cache size, integrated-GPU detection).\n\nAPI Unstable\n\n(PR #183431, #183429, #183428, and #183427 by Guangye Yu, Intel)\n\nC++ ABI\n\ntorch::stable::Generator\n\nCustom kernel authors can now retrieve an at::Generator through the stable C++ ABI (previously always passed as null), enabling RNG support in ABI-stable extensions without recompilation against PyTorch internals.\n\nAPI Unstable\n\n(PR #186423 and #183930 by Jane Xu, Meta and Chris Leonard, Red Hat)\n\nProfiling and Debugging\n\nExperimental CUPTI Monitor Profiler\n\nPyTorch’s existing profiler collects GPU activity through CUPTI’s activity API, which requires synchronization points that can distort timing and contend with the GIL in multi-threaded workloads. The new experimental CUPTI monitor backend collects GPU metrics asynchronously (completely off the GIL), eliminating profiling-induced overhead while reusing the existing CPU profiler path. The result is merged Chrome traces that accurately reflect real-world execution timing, with GPU-side user annotations automatically recreated for record_function scopes. This makes it practical to profile production training loops without measurably perturbing their performance.\n\nAPI Unstable\n\n(PR #186037 and #186295 by Natalia Gimelshein, Meta)\n\nCUDAGraph.get_graph_data()\n\nWhen debugging performance issues in CUDA graph captures, understanding the internal structure (which kernels run, their dependencies, execution order) previously required external tools or manual inspection. CUDAGraph.get_graph_data() exposes the full graph topology programmatically: node types, kernel names, dependency edges, and IDs remapped to match CUPTI profiler output. This lets developers correlate captured graph structure with profiled kernel launches, making it straightforward to identify bottlenecks, unnecessary serialization, or suboptimal kernel fusion within a captured graph.\n\nAPI Unstable\n\n(PR #183165 by Natalia Gimelshein, Meta)\n\nDeprecations and Backwards-Incompatible Changes\n\nNamed tensors removed. The deprecated named-tensor feature (Tensor.names and associated APIs) has been hard-removed to cut overhead and code bloat. See #173895.\n\nDistributed collectives renamed to a _single scheme. all_gather_into_tensor → all_gather_single and reduce_scatter_tensor → reduce_scatter_single, aligning with torchcomms. The old names remain as thin wrappers marked deprecated via FutureWarning. See #186123.\n\nBazel build removed. The Bazel build was never broadly adopted and depended on an antiquated Bazel 6; it has been removed. See #180883.\n\nNon-Feature Updates\n\nPython support: CPython 3.13t dropped from the Linux binary matrix. (Preliminary Python 3.15 and 3.15t binary support is found above.) See #182951.\n\nCUDA: CUDA 13.0 remains the default build; small wheels are now always built for CUDA Linux and the CUDA 12.8/12.9 builds were removed; ptxas is no longer bundled in the cu13 binary. See #180612, #174716.\n\nTriton: pin advanced to 3.7.1. See #186792.\n\noneDNN: submodule upgraded to v3.12. See #181222.\n\nUpdated (7/8): Removed two instances of prototype which is a designation that we no longer use.",
-      "readingMinutes": 11
-    },
-    {
       "id": "f52a3dc504073d1d",
       "feedTitle": "Kubernetes Blog",
       "feedUrl": "https://kubernetes.io/feed.xml",
@@ -3093,32 +3145,6 @@
       "author": "",
       "summary": "Today, we're releasing the second season of the Now Go Build documentary series. Five episodes featuring technology leaders from around the world solving the hardest problems in healthcare and education.",
       "content": "Today, we're releasing the second season of the Now Go Build documentary series. Five episodes featuring technology leaders from around the world solving the hardest problems in healthcare and education.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "79195111330ad557",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "达瓦科技基于 NVIDIA DGX Spark 构建大模型驱动的智能销售辅助机器人",
-      "url": "https://blogs.nvidia.cn/blog/dawa-technology-builds-an-llm-powered-intelligent-sales-assistant-with-nvidia-dgx-spark/",
-      "published": "2026-07-08T06:09:59Z",
-      "author": "英伟达中国",
-      "summary": "案例简介 达瓦科技简介及应用背景 重庆达瓦合志影像科技有限公司广州分公司是一家专注于大模型开发和影视工业化的人工智能科技公司，依托于 120TB 专属数据集打造多模态垂直大模型，致力帮助企业实现内容工业化与客户运营提效。其核心产品 DealCat 为基于大模型的智能销售辅助机器人平台，覆盖客户触达、智能对话、意向识别、跟进提醒、内容输出等销售全链路场景，让每一次销售转化从一句话开始。 随着企业客户规模的持续扩张，平台需要同时管理大量机器人实例，并在高并发场景下实时",
-      "content": "案例简介\n\n本案例中，成交猫 (DealCat) 基于 NVIDIA DGX Spark 平台部署大语言模型推理服务，构建了具备自主行动、自我进化能力销售辅助机器人系统，并通过 Harness Engineering 保障其在业务场景下稳定可信运行，实现 AI 对话、记忆管理、自我进化与工具调用的全链路自动化，让销售转化从一句话开始。\n\n本案例主要应用到 NVIDIA DGX Spark 及其搭载的 NVIDIA Blackwell GPU。\n\n达瓦科技简介及应用背景\n\n重庆达瓦合志影像科技有限公司广州分公司是一家专注于大模型开发和影视工业化的人工智能科技公司，依托于 120TB 专属数据集打造多模态垂直大模型，致力帮助企业实现内容工业化与客户运营提效。其核心产品 DealCat 为基于大模型的智能销售辅助机器人平台，覆盖客户触达、智能对话、意向识别、跟进提醒、内容输出等销售全链路场景，让每一次销售转化从一句话开始。\n\n随着企业客户规模的持续扩张，平台需要同时管理大量机器人实例，并在高并发场景下实时完成多轮 AI 对话推理、长期记忆检索与复杂工具调用。传统 CPU 服务器在推理延迟和并发吞吐方面已难以满足业务需求。为此，DealCat 将大语言模型推理服务部署于 NVIDIA DGX Spark 平台，借助其强大的 Blackwell GPU 算力，并围绕模型构建完整的 Harness Engineering 工程体系，大幅提升了模型推理速度与系统并发能力，保障了智能销售辅助机器人在海量销售会话场景下的低延迟、稳定可信运行，为企业客户带来更流畅、更智能的销售辅助体验。\n\n挑战\n\n随着 AI 销售辅助机器人业务规模的快速扩张，DealCat 在实际运营中面临以下几大核心挑战：\n\n一是实时推理的延迟瓶颈。销售场景对响应速度极为敏感，客户发出一条消息后往往期待秒级回复。然而大语言模型的推理计算量庞大，在 CPU 环境下单次对话推理延迟高，难以满足高频销售会话的实时性要求，直接影响客户体验与成交率。\n\n二是高并发下的算力不足。平台需同时承载大量机器人实例与并发会话，每一轮对话不仅涉及模型推理，还需完成向量检索 (记忆召回)、工具调用、上下文管理等多个计算密集型操作。传统服务器架构在并发峰值时资源严重不足，系统稳定性难以保障。\n\n三是记忆与知识检索的计算压力。DealCat 为每个用户维护长期销售记忆，在用户规模增长后计算开销显著上升，对底层存储与计算资源提出了更高要求。\n\n四是多模型、多工具协同的复杂度。平台支持多端点模型降级、MCP 工具调用、直播弹幕分析等复杂业务链路，单次会话可能触发多轮模型推理与外部工具调用，整体计算链路长、资源消耗集中，急需更强的硬件算力支撑以保障端到端的低延迟响应。\n\n五是自主执行工程治理难度极高。机器人从被动回复走向自主行动，机器人从被动回复走向自主行动，易出现上下文膨胀、推理质量下降、工具调用失败、任务卡死等问题。如何构建完善的 Harness Engineering 工程体系，确保机器人在真实销售场景中稳定、持续、可信地自主运行，成为规模化落地的核心工程难题。\n\n面对上述挑战，依赖通用 CPU 服务器已无法支撑业务持续增长，DealCat 迫切需要引入高性能 GPU 计算平台，在保证推理质量的同时大幅提升系统吞吐能力与响应速度，并为完整的 Harness Engineering 工程体系提供坚实的算力底座。\n\n应用方案\n\n基于上述挑战，达瓦科技 DealCat 选择将大语言模型推理服务及 AI 计算工作负载部署于 NVIDIA DGX Spark (搭载 NVIDIA Blackwell GPU) 平台，从推理加速、并发扩展、记忆检索三个核心环节全面提升系统性能，并围绕 Harness Engineering 六层工程体系保障智能销售辅助机器人的稳定可信运行。\n\nNVIDIA DGX Spark 加速大模型推理，大幅降低对话延迟\nDealCat 将销售辅助机器人的大语言模型推理服务迁移至 NVIDIA DGX Spark 平台后，单次对话推理延迟相比 CPU 环境显著下降，端到端响应速度大幅提升，真正实现了销售场景所需的秒级 AI 回复。在高并发会话场景下，GPU 的并行计算能力使系统吞吐量得到成倍提升，有效支撑了多机器人实例同时在线运营的业务需求。\n\n支撑高并发多机器人同时在线\n借助 NVIDIA DGX Spark 强大的 GPU 算力，DealCat 平台可同时承载大规模机器人实例并发运行，每个实例独立完成多轮对话推理、工具调用与上下文管理。相比原有 CPU 架构，系统在并发峰值时的稳定性显著提升，资源利用率更高，运营成本得到有效控制。\n\n加速向量检索，提升记忆召回效率\nDealCat 为每位用户维护长期销售记忆库以及知识库，每轮对话均需实时完成向量相似度检索以召回相关记忆注入上下文，并且 AI 可以自由调取相关记忆，确保对话的连续性。部署于 NVIDIA DGX Spark 后，向量计算与检索效率大幅提升，记忆召回延迟明显降低，确保 AI 在高并发场景下仍能为每位客户提供个性化、有记忆的销售对话体验。\n\n支撑复杂业务链路的端到端低延迟响应\nDealCat 平台涵盖多模型端点、数十种 MCP 工具调用、直播弹幕 AI 分析、全自动视频剪辑等复杂业务链路，单次会话可能触发多轮推理与外部工具协同。NVIDIA DGX Spark 充沛的 GPU 算力为这一复杂链路提供了稳定的算力底座，保障了从消息接入到 AI 回复的全链路低延迟闭环，让“成交从一句话开始”成为可落地的产品体验。\n\nHarness Engineering 六层工程体系，保障机器人稳定可信运行\nDealCat 围绕 NVIDIA DGX Spark 的 GPU 算力，构建了完整的 Harness Engineering 工程体系:\n\n信息边界层：为每个销售辅助机器人独立配置 skills、角色权限，精准定义 Agent 的知识范围与行为边界，确保 Agent 的信息获取能力在权限允许之内。不同业务场景下的机器人相互隔离，访客用户、普通用户等分别适配不同的响应策略，从源头避免 Agent 越界行为，确保每个机器人实例在清晰可控的信息边界内运行，确保用户信息隐私安全。\n\n工具系统层：原生支持 MCP 协议，通过对 MCP 协议的改造和框架适配，实现了同步和异步任务兼容，并且支持热更新，让 AI 能看到任务状态，并且能够自动对齐任务记忆，平台内置搜索、记忆召回、网络获取、自媒体以及音视频创作等核心工具，并支持通过数据库动态注册其他工具与标准 MCP 工具，实现数十种外部能力的热插拔接入。工具调度器会定期更新工具信息，确保工具与业务能力始终保持同步。\n\n执行编排层：平台驱动销售辅助机器人完整走完“理解意图 → 检索记忆 → 工具调用 → 结果回调 → 结果验证 → 生成回复”的多轮自主执行轨道。依托 NVIDIA DGX Spark 足够的算力资源，支持多端点模型配置与自动降级，当主端点不可用时无缝切换至备用端点，保障推理链路不中断。长耗时工具调用自动转入异步任务队列，通过框架自动将执行结果实时推送至对话，主对话链路不因复杂工具执行而阻塞。\n\n记忆与状态层：基于 mem0 与 pgvector 向量数据库，实现多维度的跨会话长期记忆独立存储与隔离管理，为用户单独管理不同级别的对话以及私有知识库。每轮对话在推理前自动完成记忆检索，将相关历史经验注入上下文，由 AI 决定是否需要主动查找补充更多记忆，确保记忆不丢失，使销售辅助机器人对每位客户“越聊越懂”。系统维护实时会话上下文，对话历史与向量记忆双轨并行，兼顾短期连贯性与长期个性化，确保销售记忆在用户规模持续增长下仍能毫秒级完成召回。\n\n约束校验与恢复层：通过消息去重机制防止同一消息被重复处理；多端点模型降级策略在推理服务异常时自动切换，保障对话不中断；调度器持续监控任务队列，自动将超时未响应的僵死任务标记为失败并触发恢复流程；平台级异常捕获与结构化日志系统提供全链路可观测性，确保销售辅助机器人在高并发真实业务场景下始终在可信边界内稳定运行。\n\nMCP 工具渐进式披露，优化 Token 效率\n在 Harness Engineering 工具系统层的设计上，DealCat 针对 MCP 工具 Schema 注入导致的 Token 资源浪费问题提出了创新解法。传统做法将所有工具的完整 Schema 一次性注入上下文，随着平台工具数量持续增长，仅工具描述便会占用大量 Token 窗口 —— 这与 Harness Engineering 中“上下文利用率超过约 40% 时 Agent 推理质量显著下降”的规律高度吻合，直接加速销售辅助机器人进入“Dumb Zone”，影响对话质量与响应速度。\n\n为此，DealCat 设计了两级工具暴露机制：在模型上下文中仅常驻 search_tool (工具检索) 和 execute_tool (工具执行) 两个元工具，其 Schema 极为精简，对 Token 窗口几乎无感知。当销售辅助机器人判断需要使用某项外部能力时，首先调用 search_tool 按语义检索匹配工具，动态获取目标工具的完整 Schema，再通过 execute_tool 按需调用执行。工具的详细 Schema 仅在实际需要时才注入上下文，用完即释放，不在窗口中长期占用空间。\n\n这一机制与 OpenAI 团队在 Harness Engineering 实践中提出的“渐进式披露”思路高度一致 —— AGENTS.md 只做目录、详细规则按需加载 —— 本质上都是将“常驻最小信息、按需动态扩展”作为上下文管理的核心原则。在 NVIDIA DGX Spark 平台的强劲算力支撑下，这一机制使销售辅助机器人在具备数十种工具能力的同时，始终将上下文利用率保持在推理质量稳定区间内，实现了工具能力无限扩展与 Token 效率最优之间的平衡。\n\n使用效果及影响\n\n引入 NVIDIA DGX Spark 平台后，DealCat 智能销售辅助机器人系统在技术性能、产品体验与业务竞争力三个层面均取得了显著提升。\n\n在技术层面，大语言模型推理延迟大幅下降，系统并发承载能力成倍提升，平台得以稳定支撑大规模机器人实例同时在线运营。长期记忆的向量检索效率明显改善，每一轮销售对话均能在毫秒级完成记忆召回与上下文注入，确保 AI 回复的个性化与连贯性。完整的 Harness Engineering 工程体系在 NVIDIA DGX Spark 算力支撑下稳定运行，智能销售辅助机器人实现了从被动回复到自主行动的能力跃升 —— 模型决定上限，Harness 决定底线，两者协同构筑了 DealCat 的技术竞争壁垒。\n\n在产品层面，秒级 AI 响应显著改善了终端销售人员与客户的交互体验。销售辅助机器人能够在高频会话场景下保持稳定、流畅的对话质量，意向识别更加准确，跟进节奏更加智能，真正将“成交从一句话开始”从愿景落地为可感知的产品体验。\n\n在业务层面，GPU 算力的引入打破了平台规模扩张的算力瓶颈，使 DealCat 能够以更低的边际成本承接更大规模的企业客户，进一步巩固了其在 AI 销售赛道的技术领先优势。\n\n达瓦科技创始人卢琪曾提到：“AI 营销正在经历一场深刻变革，谁能率先让大模型真正跑通销售全链路，谁就掌握了下一个时代的竞争主动权。NVIDIA DGX Spark 为我们提供了坚实的算力底座，让 DealCat 基于自进化架构的智能销售辅助机器人能够在高并发、低延迟的真实业务场景中稳定可信运行。我们相信，AI 不只是效率工具，更是每一家企业的新型销售基础设施。”\n\nNVIDIA 初创加速计划\n\n达瓦科技是 NVIDIA 初创加速计划会员企业。\n\nNVIDIA 初创加速计划 (NVIDIA Inception) 为免费会员制，旨在培养颠覆行业格局的优秀创业公司。该计划联合国内外知名的风投机构、创业孵化器、创业加速器、行业合作伙伴以及科技创业媒体等，打造创业加速生态系统。能够提供产品折扣、技术支持、市场宣传、融资对接、业务推荐等一系列服务，加速创业公司的发展。",
-      "readingMinutes": 10
-    },
-    {
-      "id": "72849448607d84eb",
-      "feedTitle": "vLLM Releases",
-      "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
-      "category": "AI Infra",
-      "title": "v0.25.0rc1",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0rc1",
-      "published": "2026-07-08T01:20:30Z",
-      "author": "rahulssv-ibm",
-      "summary": "[CPU][Bugfix] Fix flaky ShortConv prefill test on ARM (uninitialized …",
-      "content": "[CPU][Bugfix] Fix flaky ShortConv prefill test on ARM (uninitialized …",
       "readingMinutes": 1
     },
     {
@@ -4006,19 +4032,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "bb4886b95744d7c7",
-      "feedTitle": "Google AI · Blog",
-      "feedUrl": "https://blog.google/technology/ai/rss/",
-      "category": "AI 新闻",
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
-      "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
-      "published": "2026-06-03T13:00:00Z",
-      "author": "Megan Stoner",
-      "summary": "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
-      "content": "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
-      "readingMinutes": 1
-    },
-    {
       "id": "de8841fe37e5cd57",
       "feedTitle": "TensorRT-LLM Releases",
       "feedUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
@@ -4081,19 +4094,6 @@
       "author": "sfc-gh-truwase",
       "summary": "What's Changed Update version post-v0.19.0 release by @loadams in #7996 Add office hours times/link on the README by @loadams in #8004 Update topkgating probability-mask test expectation by @tohtana in #8007 Optimize singleton MoE collectives by @Tianyi-Franklin-Wang in #7997 ze…",
       "content": "What's Changed\n\nUpdate version post-v0.19.0 release by @loadams in #7996\n\nAdd office hours times/link on the README by @loadams in #8004\n\nUpdate topkgating probability-mask test expectation by @tohtana in #8007\n\nOptimize singleton MoE collectives by @Tianyi-Franklin-Wang in #7997\n\nzero3: SDMA allgather via mori (sdma_allgather) by @inkcherry in #7999\n\nfix(io): close aio_fd in FastFileWriter._fini to prevent fd leak by @jg-heo in #8005\n\nAuto-detect CUTLASS for EvoformerAttention by @MaxTretikov in #8000\n\nfix: use subprocess instead of os.system in data_analyzer.py by @orbisai0security in #7994\n\nFix ZeRO-3 forward crash on modules with plain dict _parameters by @roycho96 in #8009\n\nRemove stale step() docstring from DeepSpeedCPUAdam by @lucaspirola in #8011\n\nAdd configurable torch-latest dependency versions by @tohtana in #8016\n\nRun FastFileWriter fd-close test outside pytest-forked by @tohtana in #8015\n\nMake GitHub Actions job names unique by @tohtana in #8014\n\nSupport bf16 optimizer states with CPU offload by @lucaspirola in #8010\n\n[fix] fix test_zf.py hang bug by @xbcReal in #8012\n\n[Blog] Muon Optimizer Support in DeepSpeed by @delock in #7962\n\nfix gemma4 num attention head bugs (from #7975) by @delock in #7990\n\nfix: add setup_context for torch.func compatibility by @roycho96 in #7916\n\nSort and dedupe -gencode flags emitted by op_builder.builder by @adityasingh2400 in #8021\n\nfix(zero): enable vmap on LinearFunctionForZeroStage3 by @roycho96 in #8023\n\nSupport flash-attn 2.7.0 in FPDT attention by @xbcReal in #8022\n\nFix DeepCompile AOT kwargs patching for PyTorch >= v2.11 by @tohtana in #8024\n\nNew Contributors\n\n@Tianyi-Franklin-Wang made their first contribution in #7997\n\n@jg-heo made their first contribution in #8005\n\n@MaxTretikov made their first contribution in #8000\n\n@orbisai0security made their first contribution in #7994\n\n@lucaspirola made their first contribution in #8011\n\n@xbcReal made their first contribution in #8012\n\n@adityasingh2400 made their first contribution in #8021\n\nFull Changelog: v0.19.0...v0.19.1",
-      "readingMinutes": 1
-    },
-    {
-      "id": "7d8279dd39c64329",
-      "feedTitle": "SGLang Releases",
-      "feedUrl": "https://github.com/sgl-project/sglang/releases.atom",
-      "category": "AI Infra",
-      "title": "v0.5.12.post1",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.12.post1",
-      "published": "2026-05-26T23:58:17Z",
-      "author": "Fridge003",
-      "summary": "v0.5.12.post1 is a stability patch on top of v0.5.12. It cherry-picks 12 fixes — primarily for DeepSeek V4 — onto the release branch. Bug Fixes DeepSeek V4 DSV4-Pro emits garbled text during single-token decode on B200/B300 (fix deep_gemm UE8M0 scale-packing path by ceiling acti…",
-      "content": "v0.5.12.post1 is a stability patch on top of v0.5.12. It cherry-picks 12 fixes — primarily for DeepSeek V4 — onto the release branch.\n\nBug Fixes\n\nDeepSeek V4\n\nDSV4-Pro emits garbled text during single-token decode on B200/B300 (fix deep_gemm UE8M0 scale-packing path by ceiling activation scales before packing): #25733\n\nDSV4 + EAGLE/MTP in disaggregation decode crashes around 2000 requests with a SWA allocator assertion (recycled KV pages kept stale sliding-window mappings): #25805\n\nDSV4 NSA prefill context-parallel (--enable-nsa-prefill-context-parallel --nsa-prefill-cp-mode round-robin-split) in --disaggregation-mode prefill: scheduler crash at startup: #25396\n\nDSV4 HiSparse + SGLANG_OPT_USE_COMPRESSOR_V2=1: GSM8K accuracy restored from 0.825 → 0.960: #25646\n\nDSV4 PD disaggregation now works with pipeline parallelism > 1 (removed stale pp_size=1 assertion): #25771\n\nDSV4-Flash with --load-format dummy + FlashInfer mxfp4 hits CUDA illegal memory access during CUDA-graph capture (the integer HashTopK.tid2eid lookup table was left uninitialized by dummy load): #25892\n\nDSV4 HiCache + SGLANG_OPT_CACHE_SWA_TRANSLATION=1 returns stale translation indices after a cache rebuild, causing OOB writes / wrong outputs: #25889\n\nDisaggregation\n\n[PD][NIXL] Always send aux on is_last; only expect state when truthy: #25699\n\nOther\n\nFix missing group arg in get_dp_buffer: #25585\n\nPerformance\n\nDSV4: warm MHC token-count buckets at startup (gated to SGLANG_OPT_DEEPGEMM_HC_PRENORM=1 + SGLANG_OPT_USE_TILELANG_MHC_PRE=1 + hybrid SWA) to eliminate 20–40s cold-bucket forward stalls: #25810\n\nDSV4-Pro: precompile a DeepGEMM branch for _dispatch_bf16_fp32_backend to cut runtime JIT compile cost: #25860\n\nDependencies\n\nUse [cu13] extra for nvidia-cutlass-dsl (default to CUDA 13; required for sm_103 / B300): #25576\n\nAll PRs included in this release: v0.5.12...v0.5.12.post1\n\nFull Changelog: v0.5.12...v0.5.12.post1",
       "readingMinutes": 1
     }
   ]
