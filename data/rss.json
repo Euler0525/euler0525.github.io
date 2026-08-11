@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T04:57:17.927511Z",
+  "generatedAt": "2026-08-11T16:54:20.272723Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "",
+      "siteUrl": "https://www.pixelstech.net",
       "articleCount": 11,
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "title": "OpenAI · News",
@@ -102,17 +102,17 @@
       "title": "DeepSeek · Research",
       "url": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "https://arxiv.org/api/query?search_query=all:DeepSeek&start=0&max_results=20&id_list=",
+      "siteUrl": "",
       "articleCount": 20,
-      "error": ""
+      "error": "HTTP Error 429: Unknown Error"
     },
     {
       "title": "Kimi · Research",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3AKimi%20AND%20all%3AMoonshot%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "https://arxiv.org/api/query?search_query=all:Kimi+AND+all:Moonshot&start=0&max_results=20&id_list=",
+      "siteUrl": "",
       "articleCount": 1,
-      "error": ""
+      "error": "HTTP Error 429: Unknown Error"
     },
     {
       "title": "Meta Engineering",
@@ -196,6 +196,97 @@
     }
   ],
   "articles": [
+    {
+      "id": "89483a008eb7ed3a",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
+      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/",
+      "published": "2026-08-11T16:41:40Z",
+      "author": "Tanya Lenz",
+      "summary": "Long-running AI agents spend most of their time on high-volume execution: tool calls, result validation, and subagent delegation. Using a frontier reasoning...",
+      "content": "Long-running AI agents spend most of their time on high-volume execution: tool calls, result validation, and subagent delegation. Using a frontier reasoning...\nLong-running AI agents spend most of their time on high-volume execution: tool calls, result validation, and subagent delegation. Using a frontier reasoning model for every execution step adds cost and latency. NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "2ad5fa86d9386f1e",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Route AI Agent Workloads Across Models with NVIDIA NeMo Switchyard",
+      "url": "https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard/",
+      "published": "2026-08-11T13:12:21Z",
+      "author": "Michelle Horton",
+      "summary": "Building an AI agent does not end with choosing a single model. Each model has its own strengths, weaknesses, and cost profile, which can shift from one...",
+      "content": "Building an AI agent does not end with choosing a single model. Each model has its own strengths, weaknesses, and cost profile, which can shift from one...\nBuilding an AI agent does not end with choosing a single model. Each model has its own strengths, weaknesses, and cost profile, which can shift from one workload to another—or even within the same workload. For example, an agentic task may need classification for one step, reasoning for the next, and a smaller model for routine follow-up tasks. Sending every request to the largest model can…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "79fa413a464f8b75",
+      "feedTitle": "vLLM Releases",
+      "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
+      "category": "AI Infra",
+      "title": "v0.27.1",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.1",
+      "published": "2026-08-11T10:49:10Z",
+      "author": "khluu",
+      "summary": "This is a patch release on top of v0.27.0. Support quantized DSpark Markov heads (#50424)",
+      "content": "This is a patch release on top of v0.27.0.\n\nSupport quantized DSpark Markov heads (#50424)",
+      "readingMinutes": 1
+    },
+    {
+      "id": "b19ec562c455e753",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Testing ads in ChatGPT",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt",
+      "published": "2026-08-11T10:00:00Z",
+      "author": "",
+      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "content": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "32431a0dad0c52ad",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "社区速递 153 | 派友们的吃灰工作流、太空美学复古落地灯与实用帆布钱包",
+      "url": "https://sspai.com/post/113304",
+      "published": "2026-08-11T09:00:00Z",
+      "author": "",
+      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "content": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "320df97ed0e6a821",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "走通上架流程，拥抱新兴生态：《鸿蒙应用上架指南》上线",
+      "url": "https://sspai.com/post/112887",
+      "published": "2026-08-11T05:59:27Z",
+      "author": "",
+      "summary": "随着HarmonyOSNEXT的日渐成熟，越来越多的独立开发者和小团队开始将目光投向这片新的生态。借助日益强大的AI辅助编程工具，写出能跑通的代码、画出漂亮的UI界面，门槛已经变得前所未有地低。但当你 ...查看全文",
+      "content": "随着HarmonyOSNEXT的日渐成熟，越来越多的独立开发者和小团队开始将目光投向这片新的生态。借助日益强大的AI辅助编程工具，写出能跑通的代码、画出漂亮的UI界面，门槛已经变得前所未有地低。但当你 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "77fd400b2fbf8324",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "从内容工坊到 Dot Skill，Quote/0 开始把屏幕交还给你",
+      "url": "https://sspai.com/post/113288",
+      "published": "2026-08-11T04:00:00Z",
+      "author": "",
+      "summary": "从最初的测试与共创算起，Quote/0（摘录）已经陪伴大家近一年半的时间。最初我们只想做一块安静的墨水屏：不推送、不闪烁，只把真正重要的信息留在抬眼可见的地方。后来Quote/0进入了许多我们没有预设 ...查看全文",
+      "content": "从最初的测试与共创算起，Quote/0（摘录）已经陪伴大家近一年半的时间。最初我们只想做一块安静的墨水屏：不推送、不闪烁，只把真正重要的信息留在抬眼可见的地方。后来Quote/0进入了许多我们没有预设 ...查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "b2dc5166b6e43a0c",
       "feedTitle": "SGLang Releases",
@@ -600,19 +691,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "8d148d4d06fe59ca",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "我做了一个 Quote/0 看板，把 F1 赛程、积分和结果留在桌面",
-      "url": "https://sspai.com/post/113158",
-      "published": "2026-08-09T07:00:00Z",
-      "author": "",
-      "summary": "特别声明本文的项目构思、结构设计及相关素材整理均由人工完成。在产品开发与调试过程中，使用GPT-5.6Sol模型作为辅助工具，参与方案讨论、代码编写与问题排查。文章内容基于实际开发过程中的经验与记录， ...查看全文",
-      "content": "特别声明本文的项目构思、结构设计及相关素材整理均由人工完成。在产品开发与调试过程中，使用GPT-5.6Sol模型作为辅助工具，参与方案讨论、代码编写与问题排查。文章内容基于实际开发过程中的经验与记录， ...查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "ce081363df388a9d",
       "feedTitle": "DeepSeek · Research",
       "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
@@ -662,19 +740,6 @@
       "author": "Fengrong Wan",
       "summary": "Large language model (LLM) agents that assist users over weeks of conversation must remember what is currently true, not merely what was once said. Flat RAG diaries and Markdown logs optimize needle retrieval but under-serve currency, provenance, and ordered temporal reasoning (…",
       "content": "Large language model (LLM) agents that assist users over weeks of conversation must remember what is currently true, not merely what was once said. Flat RAG diaries and Markdown logs optimize needle retrieval but under-serve currency, provenance, and ordered temporal reasoning (Maharana et al. 2024; Wu et al. 2024; Packer et al. 2023; Chhikara et al. 2025). We present SodaMem, an evidence-grounded temporal graph memory that (i) extracts typed FactEvents with mandatory provenance spans, (ii) persists mention time, occurrence time, and validity with SUPERSEDES/CONTRADICTS/UPDATES edges under hybrid lexical-dense indexing, and (iii) answers via a planner-reader loop that gathers citable evidence before composing a final response. On LongMemEval-S, our store-of-record configuration reaches 92.8% accuracy (464/500; best of N=3) at mean $0.00161/question (approximately 18.3k tokens; median $0.00111 / approximately 14.6k) with deepseek-v4-flash. We compile public systems with estimable API cost into a cost table and cost-accuracy map; under these estimates SodaMem sits near the accuracy frontier at Flash-tier spend and strictly dominates several higher-cost, lower-accuracy points. Accuracy uses the same Flash model as reader and judge (self-grading); costs exclude ingest/judge and cross-system comparisons are compiled estimates rather than a single-harness bake-off.Our code is available at https://github.com/SodaMem/SodaMem",
-      "readingMinutes": 1
-    },
-    {
-      "id": "15af9cb131e78acb",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "就内容创作而言，说话还是替代不了打字",
-      "url": "https://sspai.com/post/112901",
-      "published": "2026-08-08T05:11:00Z",
-      "author": "",
-      "summary": "创作本就不是一个「速度为先」的行为——而打字，本质上是一个思考的过程。查看全文",
-      "content": "创作本就不是一个「速度为先」的行为——而打字，本质上是一个思考的过程。查看全文",
       "readingMinutes": 1
     },
     {
@@ -753,19 +818,6 @@
       "author": "Devin Pereira",
       "summary": "The Tower of Hanoi is a simple planning puzzle that in prior work has proven challenging for large reasoning models (LRMs). Current models solve the standard formulation of the puzzle, but still struggle with the flat-to-flat variant (where initial and goal states are not restri…",
       "content": "The Tower of Hanoi is a simple planning puzzle that in prior work has proven challenging for large reasoning models (LRMs). Current models solve the standard formulation of the puzzle, but still struggle with the flat-to-flat variant (where initial and goal states are not restricted to have all rings on a single peg). This paper presents an in-depth study of how both small, in-house Transformers and large, third-party LRMs solve this task. To understand the failures mechanistically, we first train small Transformers from scratch on precomputed solution traces. Using a variety of interpretability techniques, we show that these Transformers develop an emergent world model: a linearly decodable, geometrically faithful representation of the puzzle's state space (the Sierpinski triangle), that is causally involved in solving the puzzles. Second, we return to the large LLMs and apply our techniques to two frontier reasoning models, Qwen3.6-27B and DeepSeek-R1-Distill-Qwen-32B, that attempt to solve the task through extended chain-of-thought. Surprisingly, we find that both models encode the Sierpinski world model near-perfectly at the end of the prompt, and yet fail at the majority of tasks when there are more than 3 rings. We locate the source of this failure in the decaying representation of the world model. We probe for the representation at different stages during planning, and establish causality by showing that performance can be improved by injecting the prompt-time representation at inference. The failure of the models is thus one of maintenance of the required representations, not their absence, and performance is at least partially recoverable. These results thus reframe the reported collapse in performance from prior work: current Large Reasoning Models build a world model, and then lose it.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "80c9ffb4745f127d",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "本周看什么 | 最近值得一看的 10 部作品",
-      "url": "https://sspai.com/post/113191",
-      "published": "2026-08-07T09:52:38Z",
-      "author": "",
-      "summary": "📅本周新预告《生化危机：爆发夜》中字预告8月5日，电影《生化危机：爆发夜》发布了全新中字预告，将于9月18日在北美上映。扎克・克雷格（《凶器》《野蛮人》）执导，奥斯汀·艾布拉姆斯主演，一份双倍酬劳的郊 ...查看全文",
-      "content": "📅本周新预告《生化危机：爆发夜》中字预告8月5日，电影《生化危机：爆发夜》发布了全新中字预告，将于9月18日在北美上映。扎克・克雷格（《凶器》《野蛮人》）执导，奥斯汀·艾布拉姆斯主演，一份双倍酬劳的郊 ...查看全文",
       "readingMinutes": 1
     },
     {
@@ -873,19 +925,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "f35f284920c44567",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Develop Lightweight USD Runtimes Faster with AI Agents",
-      "url": "https://developer.nvidia.com/blog/develop-lightweight-usd-runtimes-faster-with-ai-agents/",
-      "published": "2026-08-06T19:09:22Z",
-      "author": "Michelle Horton",
-      "summary": "OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation...",
-      "content": "OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation...\nOpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation assets, and real-world telemetry into a shared, physically accurate view of the world. Until now, building a USD implementation has typically required adapting a large existing codebase— even for teams that need a specific memory footprint…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "8f67b154224e3c04",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -896,19 +935,6 @@
       "author": "Michelle Horton",
       "summary": "Agentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage...",
       "content": "Agentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage...\nAgentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage accesses, and network transfers before a final answer is produced. As more agents run at once and carry context across steps, users, tools, services, and sessions, infrastructure must move, protect, retrieve, and reuse data fast enough to keep…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "a3c00a13c3fb9ba5",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Build a Multi-Camera 3D Tracking Application with NVIDIA DeepStream 9.1 Skills",
-      "url": "https://developer.nvidia.com/blog/build-a-multi-camera-3d-tracking-application-with-nvidia-deepstream-9-1-skills/",
-      "published": "2026-08-06T19:09:21Z",
-      "author": "Elizabeth Goodman",
-      "summary": "Developers building video analytics applications across large spaces must track the same object as it moves between camera views. Single-camera 2D tracking...",
-      "content": "Developers building video analytics applications across large spaces must track the same object as it moves between camera views. Single-camera 2D tracking...\nDevelopers building video analytics applications across large spaces must track the same object as it moves between camera views. Single-camera 2D tracking lacks reliable depth information and typically loses track of the object when it leaves the frame, limiting applications such as warehouse safety, retail analytics, and smart-building monitoring. Current 3D tracking methods require manual…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1337,7 +1363,7 @@
       "published": "2026-08-06T05:28:11Z",
       "author": "Ming-Yu Liu",
       "summary": "编者注：本文是洞悉 Omniverse 系列文章。“洞悉 Omniverse”重点介绍开发者、3D 从业者与企业如何使用 OpenUSD 以及 NVIDIA Omniverse 的最新进展深入改变他们的工作流。 今年 7 月，NVIDIA 与 200 多家公司和组织共同签署了《开放权重与美国 AI 领导地位》的公开信。这封公开信指出，衡量 AI 领导力的标准并不是任何单一的前沿模型，而是取决于开放生态系统是否覆盖到每个行业。 任何人都可以下载、检查、修改并在自己的基础设施上运行开放模型，这使上述",
-      "content": "编者注：本文是洞悉 Omniverse 系列文章。“洞悉 Omniverse”重点介绍开发者、3D 从业者与企业如何使用 OpenUSD 以及 NVIDIA Omniverse 的最新进展深入改变他们的工作流。\n\n今年 7 月，NVIDIA 与 200 多家公司和组织共同签署了《开放权重与美国 AI 领导地位》的公开信。这封公开信指出，衡量 AI 领导力的标准并不是任何单一的前沿模型，而是取决于开放生态系统是否覆盖到每个行业。\n\n任何人都可以下载、检查、修改并在自己的基础设施上运行开放模型，这使上述愿景成为可能。这一点在物理 AI 领域至关重要，在该领域每一次部署都是一个专业化问题。\n\n物理 AI 要理解和预测结果，而不仅仅是表象。\n\n为了实现这一点，世界模型需要学习物理环境的行为方式、接下来可能发生的情况以及哪些后续行动是合理的。它们能够生成物理基础世界和动作数据，模拟未来状态，并为团队提供一个其可以根据机器人、智能汽车或视觉 AI 系统进行专业化的基础。\n\n开放世界模型已被用于生成训练数据、测试策略和专业化的物理 AI 系统。NVIDIA Cosmos 3 将这些功能整合到一个开放模型系列中，在基准测试中取得了领先的结果，并在机器人、智能汽车和视觉 AI 领域获得广泛采用。\n\n此外，NVIDIA Omniverse 库作为 NVIDIA Agent Toolkit 的一部分，为构建面向仿真的世界提供预构建功能，物理 AI 团队可以在现实世界部署之前使用这些功能来训练、测试和验证系统。\n\n世界模型是物理 AI 的基础\n\n物理 AI 背后的数据很难收集且在所需规模下成本高昂。罕见事件和长尾场景尤其难以安全、反复地重现。\n\n世界模型能够实现：\n\n通过从大规模多模态场景中学习物理关系，获取更多有用数据。\n\n更具多样性的环境，包括不同的天气、光照、物体和轨迹。\n\n更好的基础，以便在此基础上进行构建和适配特定的机器人、车辆、传感器配置、任务或操作环境。\n\n通用模型并未针对特定团队的机器人、传感器或运行环境进行过训练。要缩小这一差距，需要获取模型权重、获得允许进行适配的许可证，以及后训练所需的工具。\n\nNVIDIA Cosmos 世界基础模型在 Linux 基金会的 OpenMDW 1.1 许可下可用，使团队能够在自己的数据和硬件上对模型进行后训练。专业化方面，开放性已成为一项切实的技术要求。\n\n模型专业化只是工作流的一部分。团队还需要环境来生成数据、运行仿真和测试行为。\n\nOmniverse 库可帮助开发者构建面向仿真的环境，同时 OpenUSD 为跨数字孪生、仿真和合成数据生成工作流组合、重用和交换复杂的 3D 数据提供了开放框架。Omniverse 和 OpenUSD 协同工作，减少了每次资产、传感器配置或环境条件发生变化时可能累积的重复性工作。\n\nCosmos 3：前沿模型\n\nNVIDIA Cosmos 3 是一个基于 Mixture-of-Transformers (MoT) 架构构建的前沿开放物理 AI 基础全模态模型，它结合了视觉推理、世界生成和动作预测，让开发者能够使用一个模型系列来理解场景、生成合成数据、模拟未来状态并构建专用世界行动模型。\n\n开发者可以将 Cosmos 3 用作视觉语言模型、预测未来世界状态并生成大规模合成数据的符合物理规律的世界模拟器、或是用作世界动作模型的主干网络，而无需为每种功能组装和维护单独的模型。\n\n该系列包括用于高保真世界建模的 Cosmos 3 Super (64B)、用于高效推理和后训练的 Cosmos 3 Nano (16B)，以及用于端侧视觉推理和机器人策略部署的 Cosmos 3 Edge (4B)。Cosmos 3 Edge 足够轻量，可在边缘 GPU 上运行，支持在 NVIDIA RTX GPU、NVIDIA DGX 系统以及包括 Jetson Thor 在内的 NVIDIA Jetson 平台上部署。\n\n在各项基准测试评估中，Cosmos 3 在 Artificial Analysis 的开放权重文本生成图像和图像生成视频类别、PAI-Bench 的世界生成类别以及 Physics-IQ 的图像生成视频类别中均排名第一。在机器人策略方面，它在 RoboLab 上排名第一。Cosmos 3 Super 也是 VANTAGE-Bench 视觉理解类别排名最高的开放模型。\n\n除了 Cosmos 之外，NVIDIA 物理 AI 软件栈还包括面向机器人领域的 Isaac GR00T、用于智能汽车领域的 Alpamayo 和用于视觉 AI 领域的 Metropolis。\n\n开发者如何将 Cosmos 3 投入使用\n\n各行各业的开发者正在基于 NVIDIA Cosmos 构建物理 AI 应用：机器人领域包括斗山机器人、LG 电子、三星电子和 Skild AI；智能汽车领域包括理想汽车、小米和 Afari；视觉 AI 智能体方面则有 Centific、FogSphere、Linker Vision、Milestone Systems 和 Yuan 赋能工业 AI 和智能空间应用。\n\nNVIDIA Cosmos Coalition 将世界模型构建者、AI 开发者和物理 AI 领导者聚集在一起，共同贡献模型、研究和评估方法，进一步扩展了这项工作。NVIDIA 近期将该联盟进一步拓展至日本，当地的机器人和制造业领导者计划加入该联盟，为工厂、物流、农业、建筑、医疗和交通运输等领域开发开放世界模型。\n\n这些实施和协作共同将开放世界模型作为机器人、智能汽车和视觉 AI 系统中物理 AI 的适应性基础。\n\n立即体验\n\n通过以下资源了解有关世界模型、OpenUSD 和物理 AI 开发的更多信息：\n\n在 Hugging Face 以及 GitHub 探索开放的 Cosmos 3 模型集合和数据集。\n\n阅读 Cosmos 3 技术报告，了解完整的架构细节和评估。\n\n阅读 Cosmos 3 技术博客。\n\n收听 Cosmos Labs 直播。\n\n了解 NVIDIA Cosmos Coalition。",
+      "content": "编者注：本文是洞悉 Omniverse 系列文章。“洞悉 Omniverse”重点介绍开发者、3D 从业者与企业如何使用 OpenUSD 以及 NVIDIA Omniverse 的最新进展深入改变他们的工作流。\n\n今年 7 月，NVIDIA 与 200 多家公司和组织共同签署了《开放权重与美国 AI 领导地位》的公开信。这封公开信指出，衡量 AI 领导力的标准并不是任何单一的前沿模型，而是取决于开放生态系统是否覆盖到每个行业。\n\n任何人都可以下载、检查、修改并在自己的基础设施上运行开放模型，这使上述愿景成为可能。这一点在物理 AI 领域至关重要，在该领域每一次部署都是一个专业化问题。\n\n物理 AI 要理解和预测结果，而不仅仅是表象。\n\n为了实现这一点，世界模型需要学习物理环境的行为方式、接下来可能发生的情况以及哪些后续行动是合理的。它们能够生成物理基础世界和动作数据，模拟未来状态，并为团队提供一个其可以根据机器人、智能汽车或视觉 AI 系统进行专业化的基础。\n\n开放世界模型已被用于生成训练数据、测试策略和专业化的物理 AI 系统。NVIDIA Cosmos 3 将这些功能整合到一个开放模型系列中，在基准测试中取得了领先的结果，并在机器人、智能汽车和视觉 AI 领域获得广泛采用。\n\n此外，NVIDIA Omniverse 库作为 NVIDIA Agent Toolkit 的一部分，为构建面向仿真的世界提供预构建功能，物理 AI 团队可以在现实世界部署之前使用这些功能来训练、测试和验证系统。\n\n世界模型是物理 AI 的基础\n\n物理 AI 背后的数据很难收集且在所需规模下成本高昂。罕见事件和长尾场景尤其难以安全、反复地重现。\n\n世界模型能够实现：\n\n通过从大规模多模态场景中学习物理关系，获取更多有用数据。\n\n更具多样性的环境，包括不同的天气、光照、物体和轨迹。\n\n更好的基础，以便在此基础上进行构建和适配特定的机器人、车辆、传感器配置、任务或操作环境。\n\n通用模型并未针对特定团队的机器人、传感器或运行环境进行过训练。要缩小这一差距，需要获取模型权重、获得允许进行适配的许可证，以及后训练所需的工具。\n\nNVIDIA Cosmos 世界基础模型在 Linux 基金会的 OpenMDW 1.1 许可下可用，使团队能够在自己的数据和硬件上对模型进行后训练。专业化方面，开放性已成为一项切实的技术要求。\n\n模型专业化只是工作流的一部分。团队还需要环境来生成数据、运行仿真和测试行为。\n\nOmniverse 库可帮助开发者构建面向仿真的环境，同时 OpenUSD 为跨数字孪生、仿真和合成数据生成工作流组合、重用和交换复杂的 3D 数据提供了开放框架。Omniverse 和 OpenUSD 协同工作，减少了每次资产、传感器配置或环境条件发生变化时可能累积的重复性工作。\n\nCosmos 3：前沿模型\n\nNVIDIA Cosmos 3 是一个基于 Mixture-of-Transformers (MoT) 架构构建的前沿开放物理 AI 基础全模态模型，它结合了视觉推理、世界生成和动作预测，让开发者能够使用一个模型系列来理解场景、生成合成数据、模拟未来状态并构建专用世界行动模型。\n\n开发者可以将 Cosmos 3 用作视觉语言模型、预测未来世界状态并生成大规模合成数据的符合物理规律的世界模拟器、或是用作世界动作模型的主干网络，而无需为每种功能组装和维护单独的模型。\n\n该系列包括用于高保真世界建模的 Cosmos 3 Super (64B)、用于高效推理和后训练的 Cosmos 3 Nano (16B)，以及用于端侧视觉推理和机器人策略部署的 Cosmos 3 Edge (4B)。Cosmos 3 Edge 足够轻量，可在边缘 GPU 上运行，支持在 NVIDIA RTX GPU、NVIDIA DGX 系统以及包括 Jetson Thor 在内的 NVIDIA Jetson 平台上部署。\n\n在各项基准测试评估中，Cosmos 3 在 Artificial Analysis 的开放权重文本生成图像和图像生成视频类别、PAI-Bench 的世界生成类别以及 Physics-IQ 的图像生成视频类别中均排名第一。在机器人策略方面，它在 RoboLab 上排名第一。Cosmos 3 Super 也是 VANTAGE-Bench 视觉理解类别排名最高的开放模型。\n\n除了 Cosmos 之外，NVIDIA 物理 AI 软件栈还包括面向机器人领域的 Isaac GR00T、用于智能汽车领域的 Alpamayo 和用于视觉 AI 领域的 Metropolis。\n\n开发者如何将 Cosmos 3 投入使用\n\n各行各业的开发者正在基于 NVIDIA Cosmos 构建物理 AI 应用：机器人领域包括斗山机器人、LG 电子、三星电子和 Skild AI；智能汽车领域包括理想汽车、小米汽车和千里科技；视觉 AI 智能体方面则有 Centific、FogSphere、Linker Vision、Milestone Systems 和 Yuan 赋能工业 AI 和智能空间应用。\n\nNVIDIA Cosmos Coalition 将世界模型构建者、AI 开发者和物理 AI 领导者聚集在一起，共同贡献模型、研究和评估方法，进一步扩展了这项工作。NVIDIA 近期将该联盟进一步拓展至日本，当地的机器人和制造业领导者计划加入该联盟，为工厂、物流、农业、建筑、医疗和交通运输等领域开发开放世界模型。\n\n这些实施和协作共同将开放世界模型作为机器人、智能汽车和视觉 AI 系统中物理 AI 的适应性基础。\n\n立即体验\n\n通过以下资源了解有关世界模型、OpenUSD 和物理 AI 开发的更多信息：\n\n在 Hugging Face 以及 GitHub 探索开放的 Cosmos 3 模型集合和数据集。\n\n阅读 Cosmos 3 技术报告，了解完整的架构细节和评估。\n\n阅读 Cosmos 3 技术博客。\n\n收听 Cosmos Labs 直播。\n\n了解 NVIDIA Cosmos Coalition。",
       "readingMinutes": 5
     },
     {
@@ -2184,19 +2210,6 @@
       "summary": "vLLM v0.26.0 Release Notes Highlights This release features 411 commits from 212 contributors (61 new)! New Inkling model family with a full support stack: base modeling (#48799), piecewise CUDA graph support (#48822), Hopper FA4 relative attention (#48858), MTP=1 speculative de…",
       "content": "vLLM v0.26.0 Release Notes\n\nHighlights\n\nThis release features 411 commits from 212 contributors (61 new)!\n\nNew Inkling model family with a full support stack: base modeling (#48799), piecewise CUDA graph support (#48822), Hopper FA4 relative attention (#48858), MTP=1 speculative decoding (#48869), LoRA (#48884), and standard ModelOpt NVFP4 quantization (#48990).\n\nDeepSeek-V4 performance push across vendors: a specialized routing kernel (2.94% E2E TPOT, #48660), fused_topk_bias (1.5–2x kernel, #47463), and redundant repeat/copy removal (1.8% E2E TPOT, #48137), plus ROCm two-stage compressor for HCA prefill (#47718), sparse decode/prefill optimizations (#48519, #48788, #46275), and DSpark speculative decoding on AMD (#47419) and XPU (#47677).\n\nfp32 lm_head for generation models via head_dtype (#48390), extended to the LoRA path (#48525) and given a ROCm torch.mm fast path (#48688), improving accuracy for generation heads.\n\nFlexible attention backends: the attention backend can now be selected per KV-cache group (#48012), and sliding-window support is now an explicit backend capability (#48011) — improving support for hybrid models.\n\nKV offloading & tiered secondary storage matured substantially: offloading metrics (#45958, #47666, #47679), tier-owned event handling (#46544, #47923), object-store secondary tier with workload identity (#47063, #47274, #48150), DP-replica-aware tiering (#47987), and encoder-cache (EC) connectors including CPU offloading (#42433, #47423).\n\nRust frontend gained multimodal video (#47959) and audio (#48554), a Seed-OSS tool parser (#47741), and a native vllm-bench port (#48107).\n\nTransformers 5.13.0 (#47867) with more models migrated to the Transformers modeling backend: Olmo/Olmo2 (#48100), MistralLarge3 (#48153), and HunyuanVL (#47872).\n\nModel Support\n\nNew models: Inkling family (#48799, #48822, #48858, #48869, #48884, #48990), BertForMaskedLM (#48463), RobertaForTokenClassification / XLMRobertaForTokenClassification (#47991), LongCat-Flash-Lite n-gram embedding (#47857), Cosmos3 Edge Reasoner (#48291) and Cosmos3-Super registration (#48211), TranslateGemma-12b-it (#41599).\n\nTransformers backend migrations: Olmo/Olmo2 (#48100), MistralLarge3 to AutoWeightsLoader (#48153), HunyuanVL native transformers processor for transformers 5.13 (#47872).\n\nGLM5.2: migrate MoE sequence-parallel support to the non-torch-compiled path (#47881).\n\nLoRA: FlashInfer MoE LoRA for BF16 models (#48632), LoRA for tower/connector in LlavaNextVideo (#48594), fp32 lm_head on the LoRA path (#48525), optimized TrtLlmLoRAExperts (#48759).\n\nMultimodal: automatic fallback to ViT data parallelism when TP is unavailable (#49046).\n\nFixes: correct pooling scores for chunked prefill under torch.compile (#48901).\n\nEngine Core\n\nfp32 lm_head for generation models via head_dtype (#48390); lower memory for capturing large CUDA graph sizes (#48483); opt-in persistence and reuse of the memory-profiling result across boots (#47388); improved InstantTensor loading (#46868).\n\nAttention: select a different attention backend per KV-cache group (#48012); sliding-window as an explicit backend capability (#48011); KV-cache layout refactor packing K/V into the content dim across backends (#44455); MRV2 virtual-batch PCP for MLA (#46570).\n\nSpeculative decoding: runtime draft weight update (#46725), hybrid (SWA + full attention) DFlash drafters (#47914), SWA support for qwen-eagle3 (#47568), Gemma4-12B DSpark draft model (#47216), DSv4 DSpark on AMD (#47419), separate kv_cache_dtype for speculative_config (#48787).\n\nKV offloading: basic offloading metrics (#45958), split CPU cache usage into read/write gauges (#47666) and tiering-lookup-delay into sync/async histograms (#47679), tier-owned event handling and BlockStored events (#46544, #47923), object-store secondary tier with workload identity (#47063, #47274, #48150), DP-replica-aware tiering (#47987), blocks_per_chunk config for heterogeneous KV groups (#48878), P2P default host/port env vars (#47636).\n\nCaching: partial prefix-cache hit for hybrid models (#46384), selective hybrid cache retention (#47782), report prefix-cache-reused blocks in full report mode (#45261).\n\nReasoning: optimize TPOT for thinking budget when used with speculative decoding (#46662).\n\nRLHF: stateful trainer-send abstractions (#48042).\n\nFixes: host memory leak from undrained new_block_ids (#44490), DSv3.2 + MTP + sequence-parallel accuracy (#48036).\n\nHardware & Performance\n\nDeepSeek-V4: specialized routing kernel (2.94% E2E TPOT, #48660), fused_topk_bias 1.5–2x (#47463), redundant repeat/copy removal (1.8% TPOT, #48137).\n\nMoE router GEMMs: BF16x3 router GEMM (#47973), FP32 router GEMV (#48335), generic CuteDSL LL BF16 router GEMM (#42562); TRTLLM BF16 MoE modular kernel (#45182); write FlashInfer combine into final output (#47156).\n\nQwen: fuse more RMSNorm + all-reduce in Qwen3.5 (#46998), replace MoE all-reduce with reduce-scatter (#47006), Qwen3.5 H20 optimization (#48350), expand Triton warmup coverage (#47546).\n\nMLA: dense MHA path for short sparse-MLA sequences (#47327); MiniMax-M3 long-context decode indexer on sm100 (#48582).\n\nKernels: CUDA kernel for ReLUSquaredActivation / relu^2 (#39058), Helion kernel lazy registration (#48264), vectorize _copy_mamba_state_block to uint64 (#48110), stop upcasting logits to fp32 in the sampler (#48641).\n\nROCm: fp32 head_dtype torch.mm fast path (#48688), DSv4 two-stage compressor kernel (#47718), sparse decode/prefill optimizations (#48519, #48788, #46275), DSv3.2 sparse MLA KV-split heuristic (#46832) and MTP CUDA-graph mode (#45149), MXFP8 GEMM for MiniMax-M3 (#46117), AITER sparse paged attention + spec decode for MiniMax-M3 (#47287, #47984), MiniMax-M2 fused QK-norm + all-reduce via AITER (#44849), HybridW4A16 linear kernel (#40977), Qwen3-30B-A3B QK-Norm+RoPE+KV runtime fusion (#42749).\n\nXPU: batch-invariant kernels (#41934), HND KV layout support (#47975), DSpark spec decode for DSv4 (#47677), nightly/release image publishing (#47880, #48126).\n\nCPU: DFlash speculative decoding for GDN models on CPU (#46090), s390x NUMA topology (#40714), native macOS arm64 CPU wheel builds (#48289); POWER VSX math function optimization (#47321) and IBM Power docker builds using prebuilt wheels (#46017).\n\nDistributed fusion: FlashInfer MNNVL all-reduce RMS quant fusion (#48064).\n\nBuild/autotune: arm64 Blackwell SM10x/SM110 image builds (#48041); skip CuTeDSL fp4_gemm autotuning by default (#48268).\n\nLarge Scale Serving & Distributed\n\nDecode Context Parallel (DCP): hybrid attention support (#40996), DCP + Eagle for Tokenspeed MLA backends (#48180).\n\nPD disaggregation: NIXL pipeline-parallel prefill in push mode (#45880).\n\nEncoder-cache connectors: EC transfer params (#42433) and CPU-offloading EC connector (#47423).\n\nQuantization\n\nHumming w[2-7]a[4,8] weight-only inference with compressed-tensors (#46390); int4 quantization for the emulation MoE backend (#48451); INT2 XPU weight-only quant linear (#47521).\n\nNVFP4/MXFP4: nvfp4_per_token online MoE quantization (#48538), CuTe-DSL FlashInfer MXFP4 quantization (#48417); bounded peak memory when repacking FP4 MoE weights for Marlin (#47851) and for NVFP4 MoE weight loading (#46276).\n\nMLA: kv_cache_dtype_skip_layers support (#47309).\n\nROCm: HybridW4A16 linear kernel (#40977).\n\nAPI & Frontend\n\nRust frontend: multimodal video (#47959) and audio (#48554), Seed-OSS tool parser (#47741), native vllm-bench port (#48107), continue_final_message handling with renderer sentinel (#47844).\n\nOpenAI compatibility: bad_words in /v1/completions (#46793), expose logprob_token_ids on Python OpenAI endpoints (#43463), include_reasoning param for non-Harmony models (#44301), populate num_cache_creation_tokens on Messages responses (#48535).\n\nEndpoint plugins framework (#47454); /abort_requests on the RLHF dev API router (#47173); Deepstream video decoding backend (#42424); overlap preprocessing and computation for pooling models in offline inference (#47699).\n\nUX: human-readable integers for more CLI args (#47608), CuTeDSL compilation progress bar (#48881), expanded GPU profiler config scope/annotations (#37524), log worker exit code when a process dies unexpectedly (#38641).\n\nStability/correctness: handle grammar compilation failures without crashing the engine (#47312), fix logprobs token-string collision from SentencePiece spaces (#48674).\n\nSecurity\n\nReplace diskcache to eliminate pickle deserialization (#44549).\n\nFix a concurrent sparse-invariant race that bypassed CVE remediation (#48583).\n\nAdd resource-bounds validation to derender endpoints (#47260); sanitize server file paths from validation error responses (#46415); bound the completion prompt list to prevent unbounded engine fan-out (#47845); guard lm-format-enforcer regex compilation with a timeout (#47595).\n\nDependencies\n\nTransformers 5.13.0 (#47867), FlashInfer 0.6.14 (#47669), NIXL 1.3.1 (#47559), tpu-inference v0.24.0 (#47835), nvidia-cutlass-dsl 4.6.0 (#47442), vllm_xpu_kernels v0.1.11.1 (#48942).\n\nFlashAttention 3 pinned to the torch stable-ABI commit (#47995); ABI-stable FlashMLA build (#48174).\n\nDeprecations & Removals\n\nModels removed: TeleChat (#47989), Persimmon and Fuyu (#48096).\n\nNew Contributors\n\n@adhi29 made their first contribution in #48262\n\n@adsridhar made their first contribution in #48291\n\n@alexxu-roblox made their first contribution in #48025\n\n@amd-ethany made their first contribution in #46117\n\n@AndyDai-nv made their first contribution in #48507\n\n@aoright made their first contribution in #47797\n\n@ap9272 made their first contribution in #43896\n\n@avalliappan-nvidia made their first contribution in #47460\n\n@brijrajk made their first contribution in #44349\n\n@Debasish-87 made their first contribution in #48878\n\n@devalshahamd made their first contribution in #37524\n\n@DiegoCao made their first contribution in #47216\n\n@drakosha made their first contribution in #46972\n\n@edwinlim0919 made their first contribution in #47495\n\n@ErenAta16 made their first contribution in #48333\n\n@Functionhx made their first contribution in #48153\n\n@gangula-karthik made their first contribution in #48594\n\n@Gavin-Morris-04 made their first contribution in #48293\n\n@giuseppegrossi made their first contribution in #48159\n\n@GongLei-HW made their first contribution in #45261\n\n@guoriyue made their first contribution in #48211\n\n@hugo-cen made their first contribution in #48330\n\n@ibondarenko1 made their first contribution in #43117\n\n@iyastreb made their first contribution in #48209\n\n@jacklin78911-collab made their first contribution in #47744\n\n@jhu960213 made their first contribution in #42749\n\n@joanvelja made their first contribution in #44371\n\n@KKothuri made their first contribution in #48390\n\n@kl527 made their first contribution in #47464\n\n@krishy91 made their first contribution in #47991\n\n@langzhao-netizen made their first contribution in #43463\n\n@lishunyang12 made their first contribution in #49015\n\n@mahadrehmann made their first contribution in #48098\n\n@ManaEstras made their first contribution in #47872\n\n@mosya415 made their first contribution in #48846\n\n@mwoodson made their first contribution in #48523\n\n@MynameFelix made their first contribution in #41811\n\n@nicklasfrahm made their first contribution in #45313\n\n@passtoor-agi made their first contribution in #48849\n\n@pierDipi made their first contribution in #47063\n\n@ruikangliu made their first contribution in #47309\n\n@Sahil170595 made their first contribution in #45207\n\n@samnordmann made their first contribution in #47156\n\n@shawntsai made their first contribution in #47801\n\n@sungbin1015 made their first contribution in #46793\n\n@tanish-malekar made their first contribution in #39058\n\n@tomerg-nvidia made their first contribution in #47021\n\n@tsvikas made their first contribution in #47296\n\n@vanshbhatia-amd made their first contribution in #47767\n\n@ViranjanPagar made their first contribution in #42424\n\n@vivek8123 made their first contribution in #46017\n\n@vx120 made their first contribution in #46725\n\n@wangxingda made their first contribution in #48829\n\n@wendadawen made their first contribution in #46213\n\n@wenpengw-nv made their first contribution in #44863\n\n@woosebastian made their first contribution in #48901\n\n@Yancey0623 made their first contribution in #40996\n\n@yushangdi made their first contribution in #48868\n\n@yuvalluria made their first contribution in #46396\n\n@zihaomu made their first contribution in #47404\n\n@zqzten made their first contribution in #44303\n\nContributors\n\n@mgoin, @yewentao256, @NickLucche, @njhill, @LucasWilkinson, @micah-wil, @khluu, @AndreasKaratzas, @WoosukKwon, @aoshen02, @BugenZhao, @vanshbhatia-amd, @jperezdealgaba, @jeejeelee, @hmellor, @tlrmchlsmth, @MatthewBonanni, @Change72, @chaojun-zhang, @gau-nernst, @gnovack, @ZJY0516, @reidliu41, @Yejing-Lai, @taneem-ibrahim, @Srinivasoo7, @Sunt-ing, @AmeenP, @zhenwei-intel, @LopezCastroRoberto, @matteso1, @yzong-rh, @stefankoncarevic, @Isotr0py, @djramic, @charlifu, @peizhang56, @giuseppegrossi, @drakosha, @NickCao, @benchislett, @Rohan138, @hickeyma, @muhammadfawaz1, @rasmith, @zixi-qi, @music-dino, @BWAAEEEK, @xianbaoqian, @wendyliu235, @atalman, @joerowell, @ErenAta16, @AlejandroParedesLT, @gcanlin, @liranschour, @omerpaz95, @Alex-ai-future, @tanpinsiang, @Fangzhou-Ai, @KKothuri, @zxd1997066, @akii96, @nemanjaudovic, @Etelis, @afierka-intel, @DaoyuanLi2816, @HDCharles, @tahsintunan, @xiaohongchen1991, @sagearc, @mikekg, @kliuae, @qli88, @arpera, @yushangdi, @edwinlim0919, @tjtanaa, @ariG23498, @lucifer1004, @netanel-haber, @kl527, @Rukhaiya2004, @ronensc, @guan404ming, @shaunkotek, @liulanze, @pierDipi, @eldarkurtic, @simon-mo, @robinguo23, @CienetStingLin, @RishabhSaini, @Sahil170595, @jasonlizhengjian, @jacklin78911-collab, @walterbm, @amd-ethany, @zqzten, @nicklasfrahm, @hongxiayang, @alexeldeib, @ManaEstras, @sungbin1015, @aoright, @Saddss, @vivek8123, @voipmonitor, @shawntsai, @almayne, @ilmarkov, @cleonard530, @kjiang249, @chaunceyjiang, @bigPYJ1151, @tsvikas, @deng451e, @tvirolai-amd, @zhewenl, @zihaomu, @ap9272, @staugust, @Yancey0623, @GongLei-HW, @albertoperdomo2, @guoriyue, @ViranjanPagar, @Functionhx, @XuZhou26, @MynameFelix, @larryli2-amd, @ashwing, @thisisjimmyfb, @robertgshaw2-redhat, @mayuyuace, @ibondarenko1, @zhejiangxiaomai, @vx120, @hugo-cen, @tanish-malekar, @zzt93, @guybd, @R3hankhan123, @mmangkad, @omera-nv, @yma11, @Gavin-Morris-04, @pavanimajety, @shanjiaz, @wenpengw-nv, @atalhens, @langzhao-netizen, @emricksini-h, @Zhenzhong1, @DanBlanaru, @mgehre-amd, @mwoodson, @wangxiyuan, @adsridhar, @hnt2601, @gangula-karthik, @tomerg-nvidia, @adhi29, @rishitdholakia13, @divakar-amd, @chaeminlim-mb, @joanvelja, @russellb, @janeyx99, @aarushjain29, @wjabbour, @mahadrehmann, @krishy91, @tzielinski-habana, @avalliappan-nvidia, @ruikangliu, @majian4work, @maxyanghu, @brijrajk, @lengrongfu, @Josephasafg, @elvircrn, @xiaguan, @ricky-chaoju, @iyastreb, @ovidiusm, @tuukkjs, @noooop, @samnordmann, @AndyDai-nv, @xiao-llm, @DiegoCao, @yuvalluria, @jhu960213, @woosebastian, @Debasish-87, @esmeetu, @hao-aaron, @zhangj1an, @wendadawen, @juliendenize, @passtoor-agi, @mosya415, @labAxiaoming, @devalshahamd, @wangxingda, @xuebwang-amd, @fuscof-ibm, @alexxu-roblox, @frida-andersson, @lishunyang12, @izhuhaoran",
       "readingMinutes": 8
-    },
-    {
-      "id": "db9d0913513df69e",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "How AI is expanding what people do at work",
-      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "published": "2026-07-27T03:30:00Z",
-      "author": "",
-      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "content": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "readingMinutes": 1
     },
     {
       "id": "a71ca38e9ac658f6",
@@ -3133,19 +3146,6 @@
       "summary": "四川慧途智联科技有限公司 (品牌 HTZL.AI) 成立于人工智能基础设施浪潮兴起之际，是国内领先的企业级私有 AI 基础设施提供商及行业赋能者。HTZL.AI 是一家 AINative 的科技公司 —— 从模型部署、RAG 知识引擎、多工具 Agent 编排、API 网关到企业级管理控制台与授权许可系统，全栈软件均为自主研发；其研发流程本身也由 AI 驱动，搭建于 NVIDIA DGX Spark 自托管 CI/CD 流水线之上，后端已沉淀 2,300+ 自动化测试，形成“用 AI 造 AI”",
       "content": "四川慧途智联科技有限公司 (品牌 HTZL.AI) 成立于人工智能基础设施浪潮兴起之际，是国内领先的企业级私有 AI 基础设施提供商及行业赋能者。HTZL.AI 是一家 AINative 的科技公司 —— 从模型部署、RAG 知识引擎、多工具 Agent 编排、API 网关到企业级管理控制台与授权许可系统，全栈软件均为自主研发；其研发流程本身也由 AI 驱动，搭建于 NVIDIA DGX Spark 自托管 CI/CD 流水线之上，后端已沉淀 2,300+ 自动化测试，形成“用 AI 造 AI”的工程闭环。HTZL.AI 主打“数据不出企业、模型不进云端”的私有化 AI 路径，已在环保咨询机构、出海企业等数据敏感行业落地。\n\n垂直企业级私有 AI 技术，攻破“120B 大模型必须上云”的核心问题\n\nHTZL.AI 自成立之初就将研发重心放在“让企业级大模型真正进入企业内部”这一核心命题上。区别于调用公有云 API 的轻量套壳方案，HTZL.AI 自研了完整的私有化技术栈：开放内核 (open-core) 架构、混合检索 RAG 引擎、基于 LangGraph 的 Agent 编排、sk-htzl-* 计费网关、多租户管理控制台。\n\n这套系统全部搭载于 NVIDIA DGX Spark (GraceBlackwell 架构、128 GB 统一内存) 单机之上，实现了在客户自有办公室/机房内对大模型推理、向量检索、业务数据与 Agent 编排的全方位自主掌控 —— 数据全程不出企业、推理结果带原文引用、每一次调用可计量可审计。\n\nHTZL.AI 智能问答控制台 —— 多租户私有知识库\n\nHTZL.AI 的企业控制台支持单台 NVIDIA DGX Spark 同时承载多个相互隔离的租户 (site_key 隔离)，每租户拥有独立的向量库 collection ({site_key}_context)、独立配额、独立审计日志，并在 PostgreSQL 层以行级安全 (RLS)，相当于把“一朵小型企业 AI 私有云”装进了客户自家的办公室。\n\n数据 AI 引擎 —— 每一次请求都是飞轮的燃料\n\nHTZL.AI 已构建企业级 AI 数据引擎：每一次交互 (对话、token 用量、模型时延、错误率、用户反馈、知识盲点) 都被完整持久化进 PostgreSQL，形成数据全流程高效闭环。在 NVIDIA DGX Spark 高容量统一内存与 NVIDIA CUDA 计算栈的加持下，海量交互数据被自动化处理 —— 这些数据今天驱动企业运营看板，明天即可驱动模型微调与检索策略迭代，让私有 AI 的智能化与自主化能力持续演进。\n\n怀揣“数据不出企业”的愿景，研发企业级私有 AI 三大产品线\n\nHTZL.AI 自成立以来，始终坚持“让 AI 真正属于企业自己 —— 可信、可控、可审计”的愿景，致力于企业级私有 AI 基础设施的研发，形成三大产品线：“物理可控的 GPU 工作站算力底座、精细可审计的 AI 基础设施中枢、以及数据绝对可信的行业 SaaS 业务平台”三大产品线，为企业交付端到端的全栈私有化 AI 闭环解决方案。\n\n企业级私有 AI 的全新挑战\n\n随着大模型在企业场景快速渗透，落地场景正由“公有云 SaaS”扩展至“客户办公室/机房内的私有化部署”。不同于公有云场景，私有化部署对系统提出了全新挑战：业务要拥抱 120B 级大模型，但律师手中的合同与诉讼材料、生物公司的专利与配方、出海企业的客户名单与跨境股权结构，任何一份外泄都意味着商业泄密甚至法律责任，绝不能在公有云大模型中被分析、缓存乃至训练。过去要在企业内部部署一个 Qwen3.6 同等水准的大模型，往往意味着购置数十张高端 GPU、搭建液冷机房、组建 MLOps 团队，初期投入数百万人民币 —— 这对绝大多数中小企业是无法承受之重。\n\n为实现安全可靠的私有化推理，HTZL.AI 需要一种单机即可承载完整 AI 栈的计算平台，用于多模型共存、向量检索与 Agent 编排的本地部署。最终团队在对比多卡工作站方案后，选择 NVIDIA DGX Spark 作为单机部署底座，提供媲美高端算力中心的高性价比方案。NVIDIA Grace Blackwell 架构提供 128 GB CPU/GPU 统一内存，提供了更大容量的模型加载能力；丰富的 NVIDIA 软件生态 (CUDA、TensorRT-LLM) 则为多模型推理与向量并行计算提供了高质量算力支持。\n\nHTZL.AI 采用的 NVIDIA 产品\n\n在选择 NVIDIA 产品生态作为底座后，HTZL.AI 充分利用了 NVIDIA 硬件与软件解决方案的多样性与强大性能，具体采用了以下 NVIDIA 产品：\n\nNVIDIA DGX Spark/Grace Blackwell 平台：128 GB 统一内存让三个模型在一台设备上稳定共存 —— Qwen3.5-122 B 主推理模型 (FP4 量化、约 65 GB，默认常驻)、Qwen3-Embedding-4 B 中英混合嵌入模型 (Q8 量化、约 5.4 GB、2560 维向量，默认常驻)、Qwen-VL-视觉理解模型 (约 14 GB，按需启用)。三模型满载约 82.9 GB，仍为系统与批处理缓存预留约 45 GB 余量。CPU 与 GPU 共享内存让单机即可完成“召回→融合→重排→生成”的全链路 RAG 推理，从架构上彻底消除了多机调度开销。\n\nNVIDIA CUDA：Milvus 向量检索、BM25 稀疏召回与嵌入模型推理全部跑在 CUDA 加速通路上。HTZL.AI 的混合检索引擎以稠密向量召回 + BM25 稀疏召回并行执行，经 RRF 倒数排名融合 (k=60) 合并，再由 Cross-encoder 重排模型 (BAAI/bge-reranker-v2-m3) 精排，输出带“源文件 + 页码 + 段落”三级引用的检索结果；单租户查询端到端 P95 控制在数百毫秒级。\n\nllama.cpp on NVIDIA CUDA 推理后端：Qwen3.5-122 B 与 Qwen3-Embedding-4 B 经 llama.cpp 的 CUDA 后端 (FlashAttention、prompt 缓存、连续批处理) 对外稳定提供 SSE 流式输出，首 token 通常在 1 秒内返回，支持企业内部数十名活跃用户同时对话与文档问答。SSE 事件流实时下发 token、工具调用状态与引用列表，让客户在浏览器上“边读边等”。\n\nNVIDIA TensorRT-LLM：视觉理解模型 Qwen-VL – 已基于 TensorRT-LLM (PyTorch 后端) 在 NVIDIA DGX Spark 上部署，作为 Agent 的 explain_image 工具，让系统能够直接读懂扫描合同、判例图表、证照影像等非结构化图像内容。后续将进一步把主模型 token 流迁移至 TensorRT-LLM 以压低首 token 延迟。\n\n标杆落地：HTZL.AI 租户 Molycure，让中国企业出海拥有“24 小时在线的合规专家”\n\nMolycure 是运行在 HTZL.AI 平台之上的旗舰垂直租户 —— 国内首批面向“中国企业出海”场景的垂直行业 AI Agent。借助 HTZL.AI 的多租户私有架构，Molycure 在一套 NVIDIA DGX Spark 上整合了东南亚、欧盟、北美、中东等高频出海目的地的法规、税务、签证、知识产权与数据合规专业文档，覆盖 18 个出海垂直领域、194+ 权威数据源、数十万向量片段，整体源召回率达到 100%。\n\n在具体业务环节中，NVIDIA 计算平台发挥了重要作用：通过 NVIDIA DGX Spark 128 GB 统一内存，Molycure 的“召回→融合→重排→中文回答”全链路在单机完成，单次跨境合规咨询从传统“对每个国家聘请一家律所、平均 3 天等回邮件”缩短至分钟级；通过 NVIDIA CUDA 加速的批量文档摄入流水线，单次客户专属知识库 (私密会议文档、合同库、董事会决议、海外注册材料) 的全量灌库时间从多机方案的数小时缩短至单机十几分钟。架构层面，molycure 前端部署在 Vercel 全球边缘，经 Cloudflare Tunnel 安全反向接入本地 NVIDIA DGX Spark，对外只暴露 HTTPS，无任何公网 IP 与入站端口 —— 这对存放着客户跨境资产与股权信息的“出海大脑”而言，是企业级数据安全的最低门槛。\n\n业务价值：把“上云才能用 AI”的旧逻辑彻底翻转\n\n依托 NVIDIA DGX Spark，HTZL.AI 为出海企业、律所、生物科技等数据敏感客户带来了显著优势。在成本与能耗方面，客户硬件投入相比多卡 GPU 工作站降低约 50%、能耗降低 90% 以上；在合规属性方面，客户首次获得“数据不出企业、推理结果带引用、所有调用可审计”的强合规能力；在交付形态方面，整机功耗与一台高端笔记本相当，可直接摆进客户办公室。以旗舰租户 Molycure 为例，出海企业的年度海外顾问费从数十万元降至单台设备的硬件摊销 + 订阅费用，实现了一个数量级的成本压缩。\n\n使用的 NVIDIA 技术包括：\n\nNVIDIA DGX Spark (Grace Blackwell)、NVIDIA CUDA、llama.cpp on CUDA (主模型/嵌入模型推理)、NVIDIA TensorRT-LLM (Qwen-VL 视觉模型，已落地)、NVIDIA CUDA 加速向量检索 (Milvus)、NVIDIA NIM (规划中)\n\n架构示意图\n\nHTZL.AI–Architecture: Vercel → Cloudflare → Office (NVIDIA DGX Spark) LLM Inference\n\nNVIDIA 初创加速计划 \n\n四川慧途智联科技有限公司是 NVIDIA 初创加速计划会员企业。\n\nNVIDIA 初创加速计划 (NVIDIA Inception) 为免费会员制，旨在培养颠覆行业格局的优秀创业公司。该计划联合国内外知名的风投机构、创业孵化器、创业加速器、行业合作伙伴以及科技创业媒体等，打造创业加速生态系统。能够提供产品折扣、技术支持、市场宣传、融资对接、业务推荐等一系列服务，加速创业公司的发展。",
       "readingMinutes": 8
-    },
-    {
-      "id": "10c6b897c2c019d5",
-      "feedTitle": "vLLM Releases",
-      "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
-      "category": "AI Infra",
-      "title": "v0.25.0rc2",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0rc2",
-      "published": "2026-07-09T04:12:19Z",
-      "author": "hmellor",
-      "summary": "Fix embed scaling + CUDA graphs in Transformers modelling backend (#4…",
-      "content": "Fix embed scaling + CUDA graphs in Transformers modelling backend (#4…",
-      "readingMinutes": 1
     },
     {
       "id": "f52a3dc504073d1d",
