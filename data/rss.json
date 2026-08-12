@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:54:20.272723Z",
+  "generatedAt": "2026-08-12T05:22:49.279877Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -102,17 +102,17 @@
       "title": "DeepSeek · Research",
       "url": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "",
+      "siteUrl": "https://arxiv.org/api/query?search_query=all:DeepSeek&start=0&max_results=20&id_list=",
       "articleCount": 20,
-      "error": "HTTP Error 429: Unknown Error"
+      "error": ""
     },
     {
       "title": "Kimi · Research",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3AKimi%20AND%20all%3AMoonshot%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "",
+      "siteUrl": "https://arxiv.org/api/query?search_query=all:Kimi+AND+all:Moonshot&start=0&max_results=20&id_list=",
       "articleCount": 1,
-      "error": "HTTP Error 429: Unknown Error"
+      "error": ""
     },
     {
       "title": "Meta Engineering",
@@ -127,7 +127,7 @@
       "url": "https://kubernetes.io/feed.xml",
       "category": "AI Infra",
       "siteUrl": "https://kubernetes.io/",
-      "articleCount": 14,
+      "articleCount": 15,
       "error": ""
     },
     {
@@ -183,7 +183,7 @@
       "url": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
       "category": "AI Infra",
       "siteUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases",
-      "articleCount": 9,
+      "articleCount": 8,
       "error": ""
     },
     {
@@ -197,16 +197,81 @@
   ],
   "articles": [
     {
+      "id": "70ea7ebf97ce40ea",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "我，与「唯一」的 iPhone Air",
+      "url": "https://sspai.com/post/112880",
+      "published": "2026-08-12T03:04:34Z",
+      "author": "",
+      "summary": "在 iPhone Air 之后才发现，有些产品存在的意义，是帮我确认我真正需要什么。查看全文",
+      "content": "在 iPhone Air 之后才发现，有些产品存在的意义，是帮我确认我真正需要什么。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "d3e7cb8d933dccbe",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：微软已上调 Windows 11 OEM 授权费用、Claude 将为所有生成内容附加隐水印等",
+      "url": "https://sspai.com/post/113343",
+      "published": "2026-08-12T00:44:13Z",
+      "author": "",
+      "summary": "雷蛇那伽梵蛇 V3 专业版无线鼠标发布，铭凡推出 Elite Mini M2 Air-304 迷你主机等。查看全文",
+      "content": "雷蛇那伽梵蛇 V3 专业版无线鼠标发布，铭凡推出 Elite Mini M2 Air-304 迷你主机等。查看全文",
+      "readingMinutes": 1
+    },
+    {
       "id": "89483a008eb7ed3a",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
       "category": "AI 技术",
       "title": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
       "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/",
-      "published": "2026-08-11T16:41:40Z",
+      "published": "2026-08-11T22:32:11Z",
       "author": "Tanya Lenz",
       "summary": "Long-running AI agents spend most of their time on high-volume execution: tool calls, result validation, and subagent delegation. Using a frontier reasoning...",
       "content": "Long-running AI agents spend most of their time on high-volume execution: tool calls, result validation, and subagent delegation. Using a frontier reasoning...\nLong-running AI agents spend most of their time on high-volume execution: tool calls, result validation, and subagent delegation. Using a frontier reasoning model for every execution step adds cost and latency. NVIDIA Nemotron 3.5 Lightning is an open 30B mixture-of-experts (MoE) model with 3B active parameters built for that execution layer of always-on agents. It is designed for harnesses…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "6ae64bcd99a19b4f",
+      "feedTitle": "Kubernetes Blog",
+      "feedUrl": "https://kubernetes.io/feed.xml",
+      "category": "AI Infra",
+      "title": "How to Pretty-Print Your Kubernetes YAML as KYAML and Why You'd Want To",
+      "url": "https://kubernetes.io/blog/2026/08/11/how-to-pretty-print-kubernetes-yaml-as-kyaml/",
+      "published": "2026-08-11T18:00:00Z",
+      "author": "",
+      "summary": "YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and configuration file you come across is written in it. The problem isn't that YAML is a bad format. It's that YAML gives you a lot of choices, and not all of them are equally good…",
+      "content": "YAML has been the standard way to write Kubernetes manifests for years. Every example, tutorial, and configuration file you come across is written in it. The problem isn't that YAML is a bad format. It's that YAML gives you a lot of choices, and not all of them are equally good for writing Kubernetes manifests. Some features make files harder to read, some are easy to misuse and others can lead to surprising behavior.\n\nThe interesting part is that Kubernetes doesn't actually need most of those features. It only relies on a small subset of YAML. This led to a simple question: if Kubernetes only needs a small part of YAML, why not standardize on that part and avoid the rest? Instead of introducing a new configuration language, SIG CLI introduced KYAML, a stricter, more consistent way to write YAML.\n\nWhat is KYAML?\n\nKYAML is a strict subset (or \"dialect\") of standard YAML, designed to be parseable by the existing ecosystem without any changes, as proposed in KEP 5295. It does not introduce a new format or a new parser. It just narrows the scope of choices you make when writing YAML, so everyone ends up making the same ones.\n\nThink of it less like a new language and more like an agreed-upon style. Everything valid in KYAML is valid YAML.\n\nHow KYAML solves it\n\nStandard YAML has a few well-known traps and JSON is not without its own.\n\nWhitespace sensitivity. Indentation defines structure in YAML, which means a wrongly indented file can remain syntactically valid while representing a different object than intended. This gets especially painful with templating tools like Helm, where you are manipulating indentation from outside the YAML context.\n\nSilent type coercion. String quoting is optional in YAML, which sounds convenient until it is not. Some values that look like strings get coerced into other types without warning. The classic example is the \"Norway Bug\".\n\ncountry: NO\n\nIn standard YAML, NO is parsed as a boolean false, not the string \"NO\" and it has caught more than a few people off guard.\n\nJSON is not the answer either. It lacks comment support, is strict about trailing commas, and requires every key to be quoted, none of which makes for a good config writing experience.\n\nKYAML addresses all of these by making structure and types explicit:\n\nDoes not depend on whitespace for structure\n\nAlways quotes value strings so no silent type coercion\n\nAlways uses {} for maps and structs\n\nAlways uses [] for lists\n\nAllows comments and trailing commas, unlike JSON\n\nIncludes a --- header to distinguish it from JSON at a glance, since both start with {\n\nYAML calls this flow style, as opposed to the conventional block style most people use. KYAML sits halfway between JSON and YAML, more explicit than default YAML, friendlier than JSON.\n\nHere is the same Pod manifest written in both formats for comparison.\n\nStandard YAML\n\napiVersion: v1\nkind: Pod\nmetadata:\nname: my-pod\nlabels:\napp: demo\nspec:\ncontainers:\n- name: nginx\nimage: nginx:1.20\n\nKYAML\n\n---\n{\napiVersion: \"v1\",\nkind: \"Pod\",\nmetadata: {\nname: \"my-pod\",\nlabels: {\napp: \"demo\",\n},\n},\nspec: {\ncontainers: [{\nname: \"nginx\",\nimage: \"nginx:1.20\",\n}],\n},\n}\n\nNotice the double-quoted string values, the braces around every mapping, the brackets around the list and the trailing commas. The additional syntax makes the document structure explicit instead of relying on indentation.\n\nHow to pretty print YAML as KYAML\n\nThere are different ways to get KYAML output.\n\nOption 1: kubectl -o kyaml\n\nSince Kubernetes 1.34, kubectl supports KYAML as a native output format.\n\n# Kubernetes 1.35+ (beta; feature enabled by default, still requires -o kyaml CLI param)\nkubectl get deployment my-app -o kyaml\n\n# Kubernetes 1.34 (alpha, opt-in)\nexport KUBECTL_KYAML=true\nkubectl get deployment my-app -o kyaml\n\nTo save the output to a file:\n\nkubectl get deployment my-app -o kyaml > my-app.yaml\n\nThere are currently no plans to make KYAML the default output format. If you prefer using KYAML by default, you can configure your preferred default with kuberc. For more details, see the kuberc documentation.\n\n# Kubernetes 1.36+\nkubectl kuberc set --section defaults --command get --option output=kyaml\n\n# Kubernetes 1.33–1.35 (alpha prefix still required)\nkubectl alpha kuberc set --section defaults --command get --option output=kyaml\n\nOption 2: Kubernetes' yamlfmt\n\nsigs.k8s.io/yaml ships a yamlfmt tool that can convert files to KYAML.\n\nInstall via Go:\n\ngo install sigs.k8s.io/yaml/yamlfmt@latest\n\nRunning it against a file prints the KYAML version to stdout. It also accepts a directory, in which case it converts and prints every file in that directory.\nSo you'll need to redirect the output to a file (or files) if you want the conversion to stick.\n\nyamlfmt -o=kyaml my-deployment.yaml\n\nIt can also show you a diff instead of a full conversion:\n\nyamlfmt -o=kyaml -d my-deployment.yaml\n\nOption 3: Google's yamlfmt\n\nFor converting existing files, Google's yamlfmt added a dedicated kyaml formatter in v0.21.0.\n\nInstall via Go, or grab a binary from the releases page:\n\ngo install github.com/google/yamlfmt/cmd/yamlfmt@latest\n\nIt is also available as a pre-commit hook and as a Docker image for CI pipelines.\n\nAdd a .yamlfmt config to your project root:\n\nformatter:\ntype: kyaml\n\nPreview the output without modifying your file:\n\nyamlfmt -dry my-deployment.yaml\n\nthen apply:\n\nyamlfmt my-deployment.yaml\n\nTo convert an entire directory:\n\nyamlfmt ./k8s/\n\nThe kyaml formatter takes no additional configuration and does not share options with the default formatter so mixing them will cause an error.\n\nFor more on the available modes and flags, check the command usage docs.\n\nIs KYAML worth adopting?\n\nEvery valid KYAML file is a valid YAML file. So whatever you write in KYAML, your existing tools, your kubectl, your CI pipelines, none of them need to change. You can even pass KYAML as input to any version of kubectl, not just 1.34+, because at the end of the day it is just YAML.\n\nKYAML is not strictly necessary. You can keep writing block-style YAML and things will work. But it is a deliberate choice to make your configs less error-prone and more consistent especially across a team or a larger repo.\n\nIt is less of a migration and more of a better habit.",
+      "readingMinutes": 5
+    },
+    {
+      "id": "012e30e2c241e587",
+      "feedTitle": "Google AI · Blog",
+      "feedUrl": "https://blog.google/technology/ai/rss/",
+      "category": "AI 新闻",
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "published": "2026-08-11T17:00:00Z",
+      "author": "Anil Palepu",
+      "summary": "AMIE promotional video",
+      "content": "AMIE promotional video",
+      "readingMinutes": 1
+    },
+    {
+      "id": "6129e9183b293cc2",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "NVIDIA JetPack 7.2.1 Adds Agentic Video Skills and T3000 Emulation",
+      "url": "https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation/",
+      "published": "2026-08-11T16:56:10Z",
+      "author": "Elizabeth Goodman",
+      "summary": "Video is a core data path across NVIDIA Jetson applications, from robotics and intelligent video analytics to industrial automation, healthcare, media...",
+      "content": "Video is a core data path across NVIDIA Jetson applications, from robotics and intelligent video analytics to industrial automation, healthcare, media...\nVideo is a core data path across NVIDIA Jetson applications, from robotics and intelligent video analytics to industrial automation, healthcare, media processing, and remote operations. A system may capture several cameras, decode network streams, run AI inference or conventional vision processing, draw results, and encode video for storage or delivery. The individual calls are…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -221,6 +286,19 @@
       "summary": "Building an AI agent does not end with choosing a single model. Each model has its own strengths, weaknesses, and cost profile, which can shift from one...",
       "content": "Building an AI agent does not end with choosing a single model. Each model has its own strengths, weaknesses, and cost profile, which can shift from one...\nBuilding an AI agent does not end with choosing a single model. Each model has its own strengths, weaknesses, and cost profile, which can shift from one workload to another—or even within the same workload. For example, an agentic task may need classification for one step, reasoning for the next, and a smaller model for routine follow-up tasks. Sending every request to the largest model can…\n\nSource",
       "readingMinutes": 1
+    },
+    {
+      "id": "3ba1f7f29a3aac5c",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA 与本地 AI 社区共同推动开源模型和智能体发展",
+      "url": "https://blogs.nvidia.cn/blog/local-ai-open-source-models-agents-nemotron/",
+      "published": "2026-08-11T13:00:00Z",
+      "author": "英伟达中国",
+      "summary": "固定导语：开源生态系统正帮助 AI 发烧友和开发者更轻松地在本地构建、定制和拥有强大运行能力的智能体。 整个 8 月，NVIDIA 将聚焦推动本地 AI 发展的合作伙伴和开源社区，以及整个生态中不断涌现的模型、应用和工具。其中包括 NVIDIA 最新推出的开放模型、软件和开发者工具，以及帮助用户快速入门的加速计算、软件库和教育资源。 这将成为智能体领域的重要月份。敬请关注本期 NVIDIA 本地 AI 特别博客系列，了解最新进展；未来几周还将有更多内容。 请关注 NVIDIA 微博、抖音及哔哩哔",
+      "content": "固定导语：开源生态系统正帮助 AI 发烧友和开发者更轻松地在本地构建、定制和拥有强大运行能力的智能体。\n\n整个 8 月，NVIDIA 将聚焦推动本地 AI 发展的合作伙伴和开源社区，以及整个生态中不断涌现的模型、应用和工具。其中包括 NVIDIA 最新推出的开放模型、软件和开发者工具，以及帮助用户快速入门的加速计算、软件库和教育资源。\n\n这将成为智能体领域的重要月份。敬请关注本期 NVIDIA 本地 AI 特别博客系列，了解最新进展；未来几周还将有更多内容。\n\n请关注 NVIDIA 微博、抖音及哔哩哔哩官方账号, 获取 NVIDIA RTX Spark 以及 NVIDIA RTX AI PC 的最新信息。\n\n北京时间 2026 年 8 月 11 日 21:00\n\nNVIDIA 推出 Nemotron 3.5 Lightning，助力打造快速且专用的智能体任务\n\n8 月 11 日，NVIDIA 推出 Nemotron 3.5 Lightning，扩展 Nemotron 3 模型系列。这是一款面向始终在线智能体、可定制的开放式 300 亿参数混合专家模型 (MoE)。\n\n与同类开放模型相比，Nemotron 3.5 Lightning 的 Token 生成速度提升高达 4 倍，任务完成速度提升 30%。\n\n此外，Nemotron 3.5 Lightning 采用开放权重，AI 发烧友和开发者可使用自己的示例对其进行微调，使其更好地匹配特定任务、兴趣和工作流。例如，用户可训练该模型以实现：\n\n指定风格写作：在撰写电子邮件、报告或其他文档时，遵循既定语气、格式和术语。\n\n掌握专业技能：更深入地理解摄影、游戏或 3D 设计等领域的语言和常见任务。\n\n遵循特定编程方式：在编写、审查或重构代码时，遵循首选的编码规范、框架和测试方法。\n\n结合对应用、文件及其他工具的访问能力，这些经过微调的模型可支持更加个性化的本地代理式 AI 体验，例如帮助管理电子邮件和日历的助手、处理日常事务的智能家居智能体，以及在本地代码库中与开发者协同工作的编程伙伴。\n\nNVIDIA 与 vLLM、Ollama、llama.cpp 以及 LM Studio 合作，为 Nemotron 3.5 Lightning 模型提供出色的本地部署体验，并为开发者提供 NVFP4 和 GGUF 格式的模型选择。Unsloth 同时也提供首日支持，可通过 Unsloth Studio 使用经过优化和量化的模型，以实现高效的本地部署。\n\nNemotron 3.5 Lightning 可在 NVIDIA RTX PC、NVIDIA DGX Spark、OEM GB10 产品和 NVIDIA Jetson 上本地运行，并可扩展至 RTX PRO 工作站、数据中心和云端环境。宏碁、华硕、戴尔、Exxact、技嘉、惠普、联想、微星和超微电脑均提供 NVIDIA Blackwell 系统，用户可从丰富的设备和外形规格中选择适合自身需求的产品。\n\n随着生成式 AI 应用加速普及，企业正寻求在不牺牲前沿智能能力的前提下，有效控制不断上涨的 Token 成本。NVIDIA NeMo Switchyard 是一个开源路由库，可根据准确性、速度和成本，将智能体工作流中的每个步骤自动路由至最合适的模型。该库还为开发者提供跨模型和提供方处理不同任务的灵活性。\n\n内部基准测试显示，NeMo Switchyard 通过在模型系统中路由每个步骤，帮助保持前沿级任务完成能力，同时将基准测试的完成成本降至单独使用 Opus 4.8 时的约三分之一。NeMo Switchyard 已在 GitHub 上提供。\n\n查看 Nemotron 3.5 Lightning 和 NeMo Switchyard 技术博客开始体验。如需在边缘端进行构建，可从 Jetson AI Lab 教程入手，并探索现实世界的 Jetson 项目。Nemotron 3.5 Lightning 还可通过 OpenRouter、 NVIDIA NIM，以及 NVIDIA 云合作伙伴、后训练平台、推理平台和云服务提供商组成的广泛生态系统获取。NeMo Switchyard 已在 GitHub 上提供。\n\n北京时间 2026 年 8 月 11 日 23:00\n\nNVIDIA Sync Cluster Assistant 让 DGX Spark 性能倍增\n\nGLM 5.2 和 DeepSeek V4 Flash 等全新开放模型正将云端级智能带到本地系统，使编程智能体和研究智能体等高级工作负载在本地运行成为可能。但运行这些更大规模的模型可能需要多个 GPU 或多台 DGX Spark 协同工作。\n\nNVIDIA Sync 应用更新让多台 DGX Spark 组建为集群，提供运行更大模型所需的内存容量、推理性能和训练吞吐量，并实现更快的运行速度。\n\nNVIDIA Sync 支持 Windows 和 macOS，可自动检测已连接的系统，通过 Tailscale 提供私密且安全的远程访问，并让开发者无需手动配置网络或复制终端命令，即可在一台或多台 DGX Spark 上启动应用。\n\nNVIDIA Sync 中的 Cluster Assistant 可自动将两台或更多台 DGX Spark 配置为高速集群。开发者通过 NVIDIA ConnectX-7 端口连接这些系统后，NVIDIA Sync 便会完成网络配置、在各节点间调度工作负载，并监控系统运行状况。\n\n如需开始在 DGX Spark 上使用代理式 AI，请查看 NemoClaw、OpenClaw、Hermes Agent 和 OpenShell Playbook。\n\n软件产品信息请查看声明。\n\n北京时间 2026 年 8 月 11 日 23:00\n\n更多 DGX Spark 更新\n\n8 月下旬，两项面向开发者的精彩新功能将推出。\n\nDGX Spark 将迎来原生 ARM64 Linux 版本的 Chrome，用户可通过 DGX Dashboard 一键安装。这意味着用户可在DGX Spark上体验账号同步、完整扩展生态系统、跨设备连续性，以及其他平台标配的功能。只需登录一次，浏览器环境即可从笔记本电脑无缝延续至 DGX Spark 。\n\n全新 NVIDIA Sync 资源监视器提供单台 DGX Spark 或整个集群中 CPU 和 GPU 使用情况的实时与历史视图，无需额外安装监控软件和复杂配置。一目了然的可视化内容可帮助用户跟踪工作负载进度、在添加作业或模型前确认可用资源容量，并快速发现瓶颈或异常行为。框选缩放功能支持用户从全局视图深入到工作负载中的特定时段，从而更快排查问题，并充分发挥系统性能。\n\n北京时间 2026 年 8 月 12 日 00:00\n\nLTX 推出 LTX-2.5\n\nLTX-2.5 是 LTX 领先研究团队推出的最新开放世界视频生成模型，为媒体与娱乐、机器人、实时生成等领域的使用场景奠定基础。该模型可生成更高质量的视频，更准确地遵循提示词，并在多次生成中保持角色、场景和声音的一致性。\n\n全新多镜头支持让创作者可生成跨越多个剪辑镜头的连续片段，且保持内容连贯性；升级后的扩散视频解码器可提升画质保真度并减少伪影。创作者还可通过生成式编辑优化现有素材，无需从头开始制作，便可更轻松地修正细节并保持精致统一的视觉效果。\n\n全新提示词增强器采用 Gemma4 E2B 和定制的 Gemma4 12B 文本编码器，可显著提升提示词遵循能力，让创作者更精准地控制导出结果。\n\n全新扩散视频解码器与变分自动编码器视频解码器相辅相成，通过提供第二条解码路径提升最终渲染视频的质量。\n\nLTX-2.5 针对 NVIDIA RTX GPU、DGX Spark 进行优化，性能提升 2 倍，内存占用降低 40%。创作者可通过开箱即用的 ComfyUI 工作流，在本地使用 NVFP4、FastVideo 和 ComfyUI 优化，进行文生视频、图生视频和视频到视频生成。\n\n查看页面了解有关 LTX-2.5 的更多详情，查看如何在 NVIDIA 硬件上进行高质量本地视频生成。\n\n北京时间 2026 年 8 月 12 日 01:00\n\nNVIDIA GPU 加速的全新开放模型\n\nNVIDIA 近期发布 Cosmos 3 Edge，这是一款面向机器人、智能汽车和视觉 AI 领域的 40 亿参数开放世界模型。其规模仅为 Cosmos 3 Nano 的四分之一，可在 NVIDIA DGX Spark 和 NVIDIA Jetson 设备端运行。\n\nMiniMax-H3 是一款拥有 330 亿参数的开放权重模型，可通过文本、图像、视频、音频或四者组合生成视频和原生同步的立体声音频。创作者可通过 ComfyUI 使用该模型，并借助针对 NVIDIA GPU 优化的 checkpoints 在本地运行。\n\nPoolside AI 推出 Laguna S 2.1，这是一款 1180 亿参数开放权重智能体编程模型，可处理持续数小时的长时任务。借助 NVFP4 checkpoint，开发者可在单台 NVIDIA DGX Spark 上以更低的计算和内存需求在本地运行该模型，同时不牺牲准确性。\n\nDeepSeek 近期更新 DeepSeek-V4-Flash，这是一款拥有 130 亿激活参数和 100 万 Token 上下文窗口的 2840 亿参数混合专家模型(MoE)。\n\nThinking Machines Lab 的 Inkling-Small 是一款前沿级的开放权重多模态模型，具备跨文本、图像和音频的原生推理能力，并支持可调节推理强度。该模型可在两台 DGX Spark 上运行。针对 NVIDIA Blackwell 优化的 NVFP4 checkpoint 已在 Hugging Face 上提供。\n\nUnsloth 将于周一推出 Unsloth Desktop。该产品将本地模型推理、图像和视频生成、微调、智能体集成、网络研究和代码执行整合到一款完全开源的桌面应用中。发布资料称，这是首款可在本地训练并运行 AI 模型的桌面应用。\n\nUnsloth Desktop 将本地 AI 训练与本地推理整合到一款完全开源的桌面应用中。\n\n这是首款可在本地训练并运行 AI 模型的桌面应用。\n\n阿里巴巴近期发布 Wan-Animate-2，这是一款 140 亿参数的开放权重模型，可将驱动视频中的动作和面部表情迁移到静态角色图像上，适用于真人、卡通人物、机器人或动物。凭借 ComfyUI 首日支持，该模型在 NVIDIA RTX PRO 5000 Blackwell (48GB) 上的生成速度最高可达 Apple M3 Ultra 的 16 倍。",
+      "readingMinutes": 8
     },
     {
       "id": "79fa413a464f8b75",
@@ -249,6 +327,32 @@
       "readingMinutes": 1
     },
     {
+      "id": "5d3aff0aba5d0b8a",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Daybreak models are now available on AWS",
+      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "published": "2026-08-11T10:00:00Z",
+      "author": "",
+      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "content": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "9163a7d7bdeb0f65",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Rethinking LLM Verification: Evidence Structure, Uncertainty, and Selective Refinement",
+      "url": "https://arxiv.org/abs/2608.10725v1",
+      "published": "2026-08-11T09:43:14Z",
+      "author": "Uma Ranjan",
+      "summary": "Large language models (LLMs) often rely on shortcuts rather than systematic reasoning, raising safety concerns in medical applications. Allowing models to abstain when uncertain improves reliability but introduces a coverage accuracy tradeoff. We propose a two-stage framework fo…",
+      "content": "Large language models (LLMs) often rely on shortcuts rather than systematic reasoning, raising safety concerns in medical applications. Allowing models to abstain when uncertain improves reliability but introduces a coverage accuracy tradeoff. We propose a two-stage framework for medical hypothesis verification in multiple-choice settings that manages this tradeoff through targeted ontology grounding, applied only when the model abstains. We show that abstention is not random but reflects genuine uncertainty, with abstained predictions associated with lower confidence. Across two frontier models (GPT-5.5, accessed via the Azure OpenAI API, and DeepSeek-R1), the proposed framework improves question-level accuracy by 9.6 percentage points (82.9% to 92.5%) and hypothesis-level accuracy by 4.2 percentage points (92.0% to 96.2%). Our experiments conducted on MedReason and MedQA show that abstention can be repurposed as a control signal for selective reasoning refinement, achieving knowledge-graph-level performance without explicit knowledge graph construction.",
+      "readingMinutes": 1
+    },
+    {
       "id": "32431a0dad0c52ad",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -259,6 +363,32 @@
       "author": "",
       "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
       "content": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "559264c6e4bb7c15",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "CausalRepair: Bridging the Causality Gap in Large Language Model-Based Automated Program Repair via Dual-Slicing",
+      "url": "https://arxiv.org/abs/2608.10613v1",
+      "published": "2026-08-11T07:56:32Z",
+      "author": "Linhao Wu",
+      "summary": "Automated Program Repair (APR) has recently benefited from Large Language Models (LLMs), yet their effectiveness heavily depends on repair context. Existing LLM-based APR methods suffer from a causality gap: test contexts can be noisy or incomplete, while source contexts derived…",
+      "content": "Automated Program Repair (APR) has recently benefited from Large Language Models (LLMs), yet their effectiveness heavily depends on repair context. Existing LLM-based APR methods suffer from a causality gap: test contexts can be noisy or incomplete, while source contexts derived from static analysis often contain irrelevant and unexecuted code, misleading LLMs from identifying the true root cause. To address this issue, we propose CausalRepair, a conversation-driven APR framework based on minimal causal context, i.e., the essential dependencies required to explain a failure. CausalRepair employs a dual-slicing strategy: context-aware static slicing purifies test semantics, while execution-trace-based dynamic slicing captures precise runtime dependencies in source code. Together, they construct compact, causally relevant contexts to guide iterative repair. We evaluate CausalRepair on Defects4J V1.2, V2.0, and Defects4J-Trans using DeepSeek-V3. CausalRepair correctly fixes 313 bugs on Defects4J, outperforming state-of-the-art approaches such as ReinFix and TSAPR, while reducing the average repair cost to $0.029 per bug.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "bc32efd0f6bf5137",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Measuring Semantic Abstractness of SAE Features via Nonlocality",
+      "url": "https://arxiv.org/abs/2608.10537v1",
+      "published": "2026-08-11T06:19:48Z",
+      "author": "Chuqiao Lin",
+      "summary": "Sparse autoencoders (SAEs) have helped uncover mechanistic explanations for LLM behaviours such as reasoning, jailbreaking etc., via understanding the corresponding task-relevant and causally effective features. To evaluate such mechanistic explanations, downstream studies must…",
+      "content": "Sparse autoencoders (SAEs) have helped uncover mechanistic explanations for LLM behaviours such as reasoning, jailbreaking etc., via understanding the corresponding task-relevant and causally effective features. To evaluate such mechanistic explanations, downstream studies must distinguish surface lexical features from genuinely high-level ones. However, neither an autointerp-based semantic description nor causal steering utility fully resolves the abstraction level of a feature. To this end, we introduce \\emph{Feature Nonlocality} (FNL), defined as the entropy of the normalized per-position influence on an SAE feature's activation. We report that FNL correlates with existing LLM-based proxy metrics of feature semantic abstractness, and successfully distinguishes context-dependent reasoning features from token-driven ones, correctly assigning the higher FNL to the contextual feature in $73$--$84\\%$ of randomly drawn pairs that consist of one contextual and one token-level feature.\nWe demonstrate two downstream applications. We audit SAE-based features used for jailbreak mitigation and find surprisingly that most effective features are positional features with low FNL rather than genuinely recognizing harmful intents.\nWe report that steering high-FNL features in DeepSeek-R1-Distill-Llama-8B improves MATH-500 accuracy by $4.6$ points over the unsteered model and outperforms steering low-FNL features, though the gains are model-specific. We conclude that FNL provides an LLM-independent, label-free, correlational witness of the abstraction level of an SAE feature, with applications in evaluating mechanistic explanations as well as selecting features for downstream interventions.",
       "readingMinutes": 1
     },
     {
@@ -273,6 +403,32 @@
       "summary": "随着HarmonyOSNEXT的日渐成熟，越来越多的独立开发者和小团队开始将目光投向这片新的生态。借助日益强大的AI辅助编程工具，写出能跑通的代码、画出漂亮的UI界面，门槛已经变得前所未有地低。但当你 ...查看全文",
       "content": "随着HarmonyOSNEXT的日渐成熟，越来越多的独立开发者和小团队开始将目光投向这片新的生态。借助日益强大的AI辅助编程工具，写出能跑通的代码、画出漂亮的UI界面，门槛已经变得前所未有地低。但当你 ...查看全文",
       "readingMinutes": 1
+    },
+    {
+      "id": "ce5c3ca29320c916",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
+      "url": "https://arxiv.org/abs/2608.10450v1",
+      "published": "2026-08-11T04:04:00Z",
+      "author": "Beichen Huang",
+      "summary": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic software systems preserve continuity through persistent sessions, memories, managers or shared context. We introduce EvoX Genesis (hereafter, Genesis), which in…",
+      "content": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic software systems preserve continuity through persistent sessions, memories, managers or shared context. We introduce EvoX Genesis (hereafter, Genesis), which instead makes the software project persistent while allowing local agents to remain finite-lived. Genesis represents software as a persistent recursive world: each local world is situated by an accepted version and a repository path, finite-lived agents propose local changes, recursive delegation moves work across paths, and only accepted consequences advance the persistent version history. We evaluate this organization across formation, continuation and redevelopment. Starting from a repository with no compiler implementation, Genesis used DeepSeek V4 Flash to build a Rust-based C compiler with about 250k tracked lines; the run lasted over 120 hours, archived over 1,000 agent episodes and incurred only US$44 in model-token charges. The compiler passed the complete c-testsuite and most LLVM and Csmith tests. In a separate compiler world generated with GLM 5.2, development continued after repeated agent replacement while retaining full test performance. Genesis also reimplemented 13 MESA modules with over 100k Fortran lines as a Rust workspace with nearly 90k Rust lines; across six numerical workloads, it achieved median speedups of 1.55--6.87x. These results show that long-horizon software development can be organized around a persistent project rather than a persistent agent.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "95643f7a95eb0f42",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA Nemotron 3.5 Lightning 和 NeMo Switchyard 助力打造更快、更智能、更高效的代理式 AI",
+      "url": "https://blogs.nvidia.cn/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "published": "2026-08-11T04:01:03Z",
+      "author": "Kari Briski",
+      "summary": "随着 AI 从聊天机器人向自主智能体演进，开放模型正在满足市场对全面掌控 AI 运行位置、部署方式和演化方式的需求。 今日，NVIDIA 宣布推出 Nemotron 3.5 Lightning，进一步扩展其 Nemotron 3 模型系列，这是同类产品中效率领先的模型，适用于长时间运行的代理式 AI 工作负载。此次发布紧随 Nemotron 3 Nano 之后，体现了 NVIDIA 对持续改进开放模型以提高准确性和速度的承诺。 Nemotron 3.5 Lightning 是一个 300 亿参数",
+      "content": "随着 AI 从聊天机器人向自主智能体演进，开放模型正在满足市场对全面掌控 AI 运行位置、部署方式和演化方式的需求。\n\n今日，NVIDIA 宣布推出 Nemotron 3.5 Lightning，进一步扩展其 Nemotron 3 模型系列，这是同类产品中效率领先的模型，适用于长时间运行的代理式 AI 工作负载。此次发布紧随 Nemotron 3 Nano 之后，体现了 NVIDIA 对持续改进开放模型以提高准确性和速度的承诺。\n\nNemotron 3.5 Lightning 是一个 300 亿参数的混合专家模型，专为大型多智能体系统中的特定任务而构建，有助于创建更智能、更高效的智能体应用。\n\n此外，NVIDIA 还发布了 NeMo Switchyard，这是一款旨在为热门智能体工具提供智能路由的开源库。企业可以根据自己的特定需求用其来构建路由器。部署后，NeMo Switchyard 能够在开发者自行组合的开放模型、专有模型以及 NVIDIA 模型之间智能地将每个请求定向到强大且高度适合该任务的模型，而无需开发者重写其应用程序。\n\nNemotron 3.5 Lightning 和 NeMo Switchyard 共同赋予了用户对 AI 部署方式、运行位置以及运行效率的更出色的掌控力 —— 无论是在 PC、工作站、数据中心还是云端。\n\nNemotron 3.5 Lightning 是一款专为高并发智能体工作流而构建的小型、可定制的开放模型，可提供前沿级智能。\n\n始终在线的智能体需要由多个模型组成的系统\n\n现代智能体系统 (始终在线的智能体) 正越来越多地作为由多个模型组成的系统或模型集合运行，其中不同的模型专门负责不同的任务。\n\nNVIDIA Nemotron 开放模型专为此架构设计。像 Nemotron 3 Ultra 或 GPT-5.6 这样的前沿推理模型可以规划和协调工作流，而像 Nemotron 3.5 Lightning 这样的小型专用模型可以执行代码审查、工具使用、安全警报监测和回答计费问题等目标任务。\n\n借助 Nemotron 3.5 Lightning 赋能高并发专用任务\n\nNVIDIA Nemotron 3.5 Lightning 是专为高并发任务而构建的完全可定制的开放模型，可为始终在线的智能体提供支持。该模型的开发得益于 Nemotron Coalition 的贡献，其成员提供了评估方法、推理软件和数据集，助力推进模型发展。\n\n与同类模型相比，该模型的输出速度至高可提升至原来的 4 倍，可将智能体任务的完成速度提升 30%。得益于 Nemotron 3.5 Lightning 开放且可定制的特点，企业可以轻松地利用 NVIDIA NeMo 结合自身的领域数据、工具和工作流对其进行后训练，以提高专用任务的准确性。\n\nPinchBench 基准测试表明，与同类模型相比，Nemotron 3.5 Lightning 更快地完成智能体任务，同时保持前沿级准确性。\n\n各行各业的 AI 领导者正在为其工作负载定制 Nemotron 3.5 Lightning，帮助提高特定领域智能体任务的准确性。例如，CrowdStrike 将其用于网络安全、Harvey with Trajectory 将其用于法律服务、CodeRabbit 结合 Baseten 将其用于代码审查。此外，Lila Sciences 正在利用它帮助提高物理和生命科学领域智能体任务的推理能力；Fastino Labs 对该模型进行了定制，在软件开发、金融和医疗工作负载方面取得了领先的准确性。\n\n企业已对 Nemotron 3.5 Lightning 进行定制，以在各自的智能体工作流中实现其专用任务的领先准确性。\n\nNemotron 3.5 Lightning 还让企业能够管理隐私和部署。它可以在本地 AI 系统上运行 —— 包括 NVIDIA RTX PC、NVIDIA DGX Spark 以及 NVIDIA Jetson，帮助用户充分利用现有的基础设施投资，或在边缘 AI 设备、NVIDIA RTX PRO 工作站、数据中心和云环境上进行扩展，以满足企业级用例需求。此外，针对需要快速响应的大量专用任务，Nemotron 3.5 Lightning 可在本地设备或企业内部运行。\n\n此外，与每次发布 Nemotron 一样，NVIDIA 会在许可允许的范围内尽可能多地发布训练数据和技术，为其他模型的可追溯性、审计和训练提供了便利。与 Lightning 一同发布的还有 Nemotron-RL-Agentic-Terminal-Pivot，这是一个智能体强化学习数据集，用于对编码智能体功能进行后训练。\n\n借助模型路由实现更高效的 AI 应用\n\n有些模型更适合编码、有些更适合推理、有些更适合轻量级任务，还有些经过优化，可在本地运行，以提高隐私性和效率。如果客户仅依赖一个默认模型，可能会导致成本超支或降低质量；如果他们手动管理路由，则会变成集成工作，从而拖慢部署速度。\n\nNVIDIA NeMo Switchyard 是一个面向 AI 智能体的开源模型路由库。该技术根据特定需求，自动将提示词路由到智能体工作流每个步骤中能力较强、效率较高的模型。智能体应用开发者可以使用不同的路由算法来调整或修改路由器，以满足他们在质量、延迟和成本方面的优先级要求。在由多个模型组成的系统中，企业可以创建具有更优的 Token 经济学的强大 AI 智能体。\n\n内部基准测试表明，NeMo Switchyard 在保持前沿级准确性的同时，将任务完成成本降低到仅为使用 Opus 4.8 的约三分之一。\n\nNVIDIA 内部基准测试表明，NeMo Switchyard 在保持前沿级准确性的同时，将任务完成成本降低到仅为使用 Opus 4.8 的约三分之一。\n\nNVIDIA 正在与 AI 生态系统中的合作伙伴共同将智能模型路由引入开发者已在使用的工具和平台。\n\nBoomi：在五项路由功能上对 Switchyard 进行了评估，实现了 100% 的域路由准确性，将 59% 的流量发送到速度提升 5 倍的微调模型，并将后续轮次延迟降低了 21%。\n\nCadence：在形式验证用例中使用 ChipStack AI Super Agent，将效率提升 9.9%。\n\nClassmethod：正在内部使用 NeMo Switchyard 运行 opencode 和 Fireworks 工作负载，初步测试显示，在保持质量的同时成本降低了 27%。\n\nCognition：将 NVIDIA NeMo Switchyard 分阶段路由器集成到 Devin Desktop 中，供 NVIDIA 内部使用，在FrontierCode Main 实现了接近前沿的性能，同时与将所有请求路由到单个底层前沿模型相比，平均成本降低了 28%。\n\nKong：通过 Kong AI Gateway 原生提供基于 NeMo Switchyard 的路由。\n\nLangChain：通过 NeMo Switchyard，在 145 个多轮 Deep Agent 任务中，仅将 7% 的调用路由到前沿模型，在 6% 的准确率妥协实现了 74% 的成本降低。\n\nLiteLLM：正在将 NeMo Switchyard 作为插件添加到其代理层中，因此，开发者无需更改现有技术栈即可获得这些优势。\n\nNous Research：将 NeMo Switchyard 集成到 Hermes 中，为开发者提供易于配置的路由系统，以提高智能体效率。\n\nRamp：在 Ramp SWE-Bench 使用 NeMo Switchyard 匹配前沿模型的性能，同时将成本降低 58%，运行时间缩短 33%。\n\n西门子：正在进行基准测试，以提高 Fuse EDA AI Agent 效率。\n\nNemotron 3.5 Lightning 现已在 Hugging Face、魔搭社区、OpenRouter 作为 NVIDIA NIM 提供。用户也可通过 NVIDIA 云合作伙伴、后训练平台、推理平台和云服务提供商等广泛的生态系统获取。NeMo Switchyard 现已在 GitHub 上提供，并即将登陆各合作伙伴平台。",
+      "readingMinutes": 6
     },
     {
       "id": "77fd400b2fbf8324",
@@ -340,6 +496,32 @@
       "readingMinutes": 1
     },
     {
+      "id": "c35079c74289f65b",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Fine-Tuning Large Language Models for Codebook-Guided Coding of Students' Mathematics Metaphor Responses",
+      "url": "https://arxiv.org/abs/2608.10276v1",
+      "published": "2026-08-10T22:18:33Z",
+      "author": "Liang Zhang",
+      "summary": "Student-generated metaphors about mathematics can reveal students' attitudes, beliefs, identities, and experiences, but human expert coding of these thematically and semantically complex open-ended responses is time-intensive and difficult to scale. This study examines whether L…",
+      "content": "Student-generated metaphors about mathematics can reveal students' attitudes, beliefs, identities, and experiences, but human expert coding of these thematically and semantically complex open-ended responses is time-intensive and difficult to scale. This study examines whether LoRA-based supervised fine-tuning of large language models (LLMs) can improve their performance on codebook-guided coding tasks for student mathematics metaphors. We used a human-coded corpus of 2,265 Grade 6-8 responses to food- and animal-based metaphor prompts and instructed the LLMs to perform two coding tasks: valence-intensity coding to capture the direction and strength of students' affective orientations toward mathematics, and thematic coding to capture students' framings of mathematics as expressed through their metaphors. We compared two proprietary models, GPT-4o mini and GPT-5 mini, under prompt-only conditions with two open-weight models, DeepSeek-R1 1.5B and Mistral 7B, evaluated before and after fine-tuning. Results show that fine-tuning substantially improved the performance and run-to-run reliability of the open-weight models across both tasks relative to their base versions. The fine-tuned compact open-weight models became competitive with, and often outperformed, the proprietary prompt-only models. These findings suggest that compact open-weight LLMs can support scalable, locally controllable, and privacy-conscious AI-assisted measurement of students' metaphor responses in mathematics education.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "88e2476cce48d7a7",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Not a Monolith: Lab-Level Divergence in the Cooperative Equilibria of Chinese Frontier LLM Agents",
+      "url": "https://arxiv.org/abs/2608.10262v1",
+      "published": "2026-08-10T21:54:13Z",
+      "author": "Francisco León Zúñiga Bolívar",
+      "summary": "Does the cooperative bias documented for Western frontier LLM agents extend to a different alignment lineage, and should the Chinese models that embody it be treated as a single bloc or as distinct laboratories? We study four frontier-tier Chinese models - DeepSeek V4 Pro, Qwen3…",
+      "content": "Does the cooperative bias documented for Western frontier LLM agents extend to a different alignment lineage, and should the Chinese models that embody it be treated as a single bloc or as distinct laboratories? We study four frontier-tier Chinese models - DeepSeek V4 Pro, Qwen3-Max, Kimi K2.5 and GLM-5.1 - in an evolutionary Iterated Prisoner's Dilemma, under a design that removes a confound present in prior work. Rather than letting each model convert its own natural-language strategies into code, which entangles strategic disposition with coding ability, we hold the converter fixed (GPT-5.4 Mini) across all labs, so every cross-lab comparison is a comparison of generation alone. We run the full protocol: all-play-all tournaments and a Moran process at n=500 runs per condition, across three prompt styles and four population regimes. Two pre-registered hypotheses are evaluated. H6 (not monolithic) is supported: the four labs differ significantly in aggressive-equilibrium proportion, P_A running from 1% for Qwen3-Max to 9% for DeepSeek V4 Pro, with four of six pairwise comparisons surviving Holm-Bonferroni. The spread across the four labs (P_A range 8pp) is larger than the difference between the Chinese and Western ecosystems' mean P_A (5.0% vs 5.0%): on this measure, within-ecosystem variation exceeds the East-West gap. H5 (cooperative-bias generality) is consistent but qualified: a cooperative plurality holds in 6 of 12 lab-prompt combinations against the 9 of 12 reported for Western models, a difference we do not treat as firm, since the count rests on Cooperative-Neutral near-ties and rises to 9/12 under an alternate converter in our pre-registered robustness check. The lab, not the ecosystem, is the unit at which cooperative disposition is set; treating \"Chinese models\" as a monolith is not supported by the evidence.",
+      "readingMinutes": 1
+    },
+    {
       "id": "dbf531300b29212a",
       "feedTitle": "vLLM Releases",
       "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
@@ -390,6 +572,19 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
+    },
+    {
+      "id": "a77bd8de413bed84",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "CHORUS: Complementary Experts for High-Coverage Testbench Stimulus Generation",
+      "url": "https://arxiv.org/abs/2608.10090v1",
+      "published": "2026-08-10T18:02:42Z",
+      "author": "Hejia Zhang",
+      "summary": "Large language models (LLMs) have advanced code generation, where executable feedback provides a more reliable learning signal than textual imitation alone. Hardware verification is an important application of code generation and accounts for a substantial fraction of modern chi…",
+      "content": "Large language models (LLMs) have advanced code generation, where executable feedback provides a more reliable learning signal than textual imitation alone. Hardware verification is an important application of code generation and accounts for a substantial fraction of modern chip design effort, with high-coverage testbench stimulus generation as a key task. We present CHORUS, a post-training framework that pushes performance beyond what a conventional supervised fine-tuning (SFT)-to-reinforcement learning (RL) pipeline achieves. CHORUS builds on two observations. First, staged SFT produces behaviorally diverse checkpoints, and dense-reward RL turns them into strong experts with comparable aggregate performance but distinct task-level strengths. Second, these complementary strengths can be exploited through either training-free model merging or further post-training to outperform the best individual expert. By consolidating the resulting specialists into a single 4B model, CHORUS achieves 88.0% Pass@1 on CVDP-ECov, outperforming DeepSeek-R1 (671B) by 13.5 percentage points.",
+      "readingMinutes": 1
     },
     {
       "id": "5367cc95a8fd9817",
@@ -522,19 +717,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "32edea8c590be13e",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "我与Pixel 10 Pro的生活：写在Pixel 11系列手机发布前夕",
-      "url": "https://sspai.com/post/113202",
-      "published": "2026-08-10T03:00:56Z",
-      "author": "",
-      "summary": "喜欢，从来没有一个明确的定义。查看全文",
-      "content": "喜欢，从来没有一个明确的定义。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "2a5c0cad5d8b2f9d",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -571,19 +753,6 @@
       "author": "",
       "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
       "content": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "55a509a75beb4f8d",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：央视曝光酒店评级标识消费陷阱",
-      "url": "https://sspai.com/post/113268",
-      "published": "2026-08-09T23:08:03Z",
-      "author": "",
-      "summary": "央视曝光酒店评级标识消费陷阱 《时代》网站展示仅 AI 可见广告 Edge 浏览器将禁用 Manifest V2 扩展 油价上涨致美国混动车需求激增 廉价手机壳存在毒性隐患 美国调查中国 AI 企业使用海外英伟达芯片 看看就行的小道消息 少数派的近期动态 你可能错过的好文章 查看全文",
-      "content": "央视曝光酒店评级标识消费陷阱\n\n《时代》网站展示仅 AI 可见广告\n\nEdge 浏览器将禁用 Manifest V2 扩展\n\n油价上涨致美国混动车需求激增\n\n廉价手机壳存在毒性隐患\n\n美国调查中国 AI 企业使用海外英伟达芯片\n\n看看就行的小道消息\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
       "readingMinutes": 1
     },
     {
@@ -795,45 +964,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "c1419407cb644a8d",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Adversarial Attacks on Deep OCR Systems",
-      "url": "https://arxiv.org/abs/2608.07636v1",
-      "published": "2026-08-07T15:05:12Z",
-      "author": "Wenbo Sun",
-      "summary": "Deep-OCR (DeepSeek-OCR) advances document recognition by treating the visual modality as an optical compression medium, enabling long-context OCR at low token cost. However, its increased complexity may introduce new security vulnerabilities. In this paper, we present, to the be…",
-      "content": "Deep-OCR (DeepSeek-OCR) advances document recognition by treating the visual modality as an optical compression medium, enabling long-context OCR at low token cost. However, its increased complexity may introduce new security vulnerabilities. In this paper, we present, to the best of our knowledge, the first pure black-box adversarial attack against a generative OCR vision-language model, where only the decoded string can be queried and no gradients, logits, or model internals are available. We recast the attack as a zeroth-order optimization problem driven by a bounded scalar loss defined directly on the string output via sequence similarity, and estimate the gradient with a random-direction finite-difference scheme whose query cost is independent of the image dimension. An Adam update with ell_infinity projection yields imperceptible perturbations for both untargeted and targeted objectives. Pilot experiments on Deep-OCR validate the string-only attack and evaluation pipeline and expose severe qualitative decoder failures, including repetition, truncation, and prompt leakage. They also show that controlled targeted rewriting remains substantially harder than untargeted degradation; we avoid claiming targeted success until the pre-registered evaluation is complete.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "e31d7fa4c4d23640",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
-      "url": "https://arxiv.org/abs/2608.07077v1",
-      "published": "2026-08-07T10:29:19Z",
-      "author": "Devin Pereira",
-      "summary": "The Tower of Hanoi is a simple planning puzzle that in prior work has proven challenging for large reasoning models (LRMs). Current models solve the standard formulation of the puzzle, but still struggle with the flat-to-flat variant (where initial and goal states are not restri…",
-      "content": "The Tower of Hanoi is a simple planning puzzle that in prior work has proven challenging for large reasoning models (LRMs). Current models solve the standard formulation of the puzzle, but still struggle with the flat-to-flat variant (where initial and goal states are not restricted to have all rings on a single peg). This paper presents an in-depth study of how both small, in-house Transformers and large, third-party LRMs solve this task. To understand the failures mechanistically, we first train small Transformers from scratch on precomputed solution traces. Using a variety of interpretability techniques, we show that these Transformers develop an emergent world model: a linearly decodable, geometrically faithful representation of the puzzle's state space (the Sierpinski triangle), that is causally involved in solving the puzzles. Second, we return to the large LLMs and apply our techniques to two frontier reasoning models, Qwen3.6-27B and DeepSeek-R1-Distill-Qwen-32B, that attempt to solve the task through extended chain-of-thought. Surprisingly, we find that both models encode the Sierpinski world model near-perfectly at the end of the prompt, and yet fail at the majority of tasks when there are more than 3 rings. We locate the source of this failure in the decaying representation of the world model. We probe for the representation at different stages during planning, and establish causality by showing that performance can be improved by injecting the prompt-time representation at inference. The failure of the models is thus one of maintenance of the required representations, not their absence, and performance is at least partially recoverable. These results thus reframe the reported collapse in performance from prior work: current Large Reasoning Models build a world model, and then lose it.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "1a212f3ad9cce4c9",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Benchmarking and Reasoning Distillation of Large Language Models for Feedback Controller Design in Complex Dynamical Systems",
-      "url": "https://arxiv.org/abs/2608.07004v1",
-      "published": "2026-08-07T09:19:31Z",
-      "author": "Zhongchao Zhou",
-      "summary": "Although remarkable capabilities have been demonstrated by Large Language Models (LLMs) across scientific domains, feedback controller design remains underexplored. Existing benchmarks focus mainly on linear single-Degree-of-Freedom (DoF) systems and large API-hosted models, lea…",
-      "content": "Although remarkable capabilities have been demonstrated by Large Language Models (LLMs) across scientific domains, feedback controller design remains underexplored. Existing benchmarks focus mainly on linear single-Degree-of-Freedom (DoF) systems and large API-hosted models, leaving performance on complex controller-design tasks and feasibility for edge deployment unclear. To address these limitations, we introduce the Complex Dynamics-to-Control Benchmark for Large Language Models (CoDyControlBench), comprising 132 system configurations across five evaluation dimensions: number of DoF, system type, coupling level, damping regime, and controller type. Six state-of-the-art LLMs were evaluated over three independent runs, including three commercial models (GPT, Gemini, and Claude) and three open-source models (GLM, DeepSeek, and Qwen). GPT achieved the highest design success rate at 94.8\\%, whereas Qwen showed the lowest rate at 50.0\\%. Across the benchmark dimensions, DoF and controller type exhibited the largest model-averaged variations in design success, with success-rate ranges of 36.3\\% and 17.6\\%, respectively, exceeding those associated with system type, coupling level, and damping regime. Comparison of GPT and Qwen showed that their performance gap arose mainly from the control-design knowledge, particularly gain selection and the use of transient-limiting mechanisms. For edge deployment, a specialized 1.5B-parameter model was developed through reasoning distillation. The reasoning-distilled model outperformed the answer-distilled and base model on CoDyControlBench, maintained stable performance across 1-6 DoFs, and achieved successful traget tracking in all three physical trials on a pneumatic-artificial-muscle-driven robotic arm. These results establish a benchmark baseline and highlight the potential of lightweight, edge-deployable controller-design models.",
-      "readingMinutes": 1
-    },
-    {
       "id": "7347f06e7c916544",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -844,19 +974,6 @@
       "author": "",
       "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
       "content": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "609dd947cb322403",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution",
-      "url": "https://arxiv.org/abs/2608.06811v1",
-      "published": "2026-08-07T05:05:05Z",
-      "author": "Jiahao Zhang",
-      "summary": "Resolving a real software issue with a large language model (LLM) agent is a long repair episode, often tens to hundreds of steps spanning exploration, hypothesis, implementation, and verification. Success depends on both the base model's local reasoning and the agent's ability…",
-      "content": "Resolving a real software issue with a large language model (LLM) agent is a long repair episode, often tens to hundreds of steps spanning exploration, hypothesis, implementation, and verification. Success depends on both the base model's local reasoning and the agent's ability to maintain an evolving plan and remember observations across phases. Existing repository-level agents typically strengthen planning or memory in isolation, leaving long trajectories vulnerable to stale evidence, repeated failed edits, and verification inferred from the agent's own claims instead of execution evidence. We present PMCoder, an issue-resolution agent that couples a hierarchical phase planner with episodic memory. The coupling is bidirectional: the current plan phase conditions memory retrieval, while memory-derived trajectory statistics inform stuck detection and replanning. When available, issue-reproduction verdicts ground verification progress in execution evidence rather than self-reported completion. On SWE-bench Verified, PMCoder resolves an average of $25$ more cases ($+5.0$pp) than a harness-matched baseline, with gains persisting even where the reproduction gate never fires. Further Verified-500 evaluations show the same positive direction across Claude Haiku 4.5, DeepSeek-V4-Flash, and an OpenHands port, with at least $14$ additional resolved cases ($+2.8$pp). Separately, evaluation on TerminalWorld's official sample suggests that the plan-memory substrate transfers beyond issue reports. Ablation and trajectory analyses show where the gains come from: coupling planning and memory outperforms either component alone and reduces repeated failed actions, empty-patch exits, and context-window exhaustion.",
       "readingMinutes": 1
     },
     {
@@ -871,32 +988,6 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
-    },
-    {
-      "id": "a03cbe97fafd8843",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents",
-      "url": "https://arxiv.org/abs/2608.06735v1",
-      "published": "2026-08-07T02:59:53Z",
-      "author": "Senhao Wang",
-      "summary": "Reinforcement learning (RL) has achieved strong results in improving large language models (LLMs) on tasks with stationary, verifiable rewards, such as mathematical reasoning and code execution. In these settings, the environment follows fixed rules and does not adapt strategica…",
-      "content": "Reinforcement learning (RL) has achieved strong results in improving large language models (LLMs) on tasks with stationary, verifiable rewards, such as mathematical reasoning and code execution. In these settings, the environment follows fixed rules and does not adapt strategically to the agent. Strategic dialogue differs in this respect: the environment is another agent that adapts to the policy, and success depends on the interaction between the two sides. Despite this interactive nature, current RL approaches typically train a target agent against a fixed counterpart or simulator. We find that this training paradigm encourages the policy to exploit counterpart-specific regularities rather than learn strategies that generalize across counterparts. We call this problem the static-counterpart mismatch, which we quantify directly in our experiments. To address it, we propose Isolated Bilateral Reinforcement Learning (IB-RL), in which the two roles coevolve through joint rollouts while each role optimizes its own reward through fully independent advantages, action masks, and update paths. We evaluate frozen policies against fully independent held-out counterparts in both domains. On Vehicle TeleSales, IB-RL achieves 89.6% Success@1, compared to 84.6% for the best unilateral RL baseline. On Deal-or-NoDeal, it reaches 98.4% agreement against DeepSeek V4 Pro, compared to 86.4% for the best unilateral baseline. These results indicate that jointly training both roles with strict peragent isolation produces policies that generalize more effectively to unseen counterparts.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "bd148eed4ee4a4f1",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Policy-Masked Private Experts: Auditable and Reversible Capability Access Control in Sparse MoE Models",
-      "url": "https://arxiv.org/abs/2608.06690v1",
-      "published": "2026-08-07T01:39:36Z",
-      "author": "Zhuoheng Huang",
-      "summary": "Most language-model access controls regulate behavior while leaving the same computation available to every request. We study a different systems question: can trusted authorization determine which newly trained parameters are reachable by the forward pass? Policy-Masked Private…",
-      "content": "Most language-model access controls regulate behavior while leaving the same computation available to every request. We study a different systems question: can trusted authorization determine which newly trained parameters are reachable by the forward pass? Policy-Masked Private Experts freezes a pretrained sparse Mixture-of-Experts (MoE) model, trains a disjoint expert branch, and selects the public or private pool before top-k routing. The resulting claim is narrow but testable: under the declared trusted computing base (TCB), an unauthorized request executes no private expert. It does not imply that the public model lacks the same semantic capability.\nWe test this separation between execution control and task utility in Qwen3-30B-A3B and DeepSeek-V2-Lite. Three Qwen BF16 seeds update all 32 private experts while the public fingerprint remains unchanged. Across 64 adversarial scenarios and 96 deny/fail-closed events, unauthorized private execution is zero; independent hooks exactly match 11,616 routed private rows and allow-deny-allow recovery is exact. On two prospectively frozen Qwen benchmarks, the private branch improves exact tool use by 5.0 percentage points (pp) (five versus zero discordances; one-sided Holm p = 0.03125, corresponding two-sided exact p = 0.0625) and 21.3 pp (percentile-bootstrap 95% CI [13.3, 29.3], Holm p = 0.000031). Three arm-blinded model evaluators retain a positive external effect of 18.7 pp (95% CI [9.3, 28.0]). A parameter-matched Lora has similar external utility, but a post-hoc request gate leaves 1,225 adapter calls under deny; the disjoint expert branch leaves none. DeepSeek reproduces the route invariant and gains 27.0 pp. A valid sealed evaluation is near-neutral. These results support auditable, reversible control over a trained parameter path, while showing that useful transfer remains distribution dependent.",
-      "readingMinutes": 1
     },
     {
       "id": "710c6fb31a91a2e5",
@@ -922,19 +1013,6 @@
       "author": "Elizabeth Goodman",
       "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
       "content": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...\nStorage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data, execute tools, and generate new results, storage systems must continuously supply and preserve the data that moves the agent reasoning loop. Each agent step can trigger multiple storage operations, and those operations can repeat across…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "8f67b154224e3c04",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField",
-      "url": "https://developer.nvidia.com/blog/scaling-agentic-ai-factories-through-extreme-co-design-with-nvidia-bluefield/",
-      "published": "2026-08-06T19:09:21Z",
-      "author": "Michelle Horton",
-      "summary": "Agentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage...",
-      "content": "Agentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage...\nAgentic AI changes the infrastructure pattern for AI factories. One request can trigger many model calls, tool calls, memory lookups, policy checks, storage accesses, and network transfers before a final answer is produced. As more agents run at once and carry context across steps, users, tools, services, and sessions, infrastructure must move, protect, retrieve, and reuse data fast enough to keep…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1273,19 +1351,6 @@
       "author": "PyTorch Foundation",
       "summary": "PyTorch Conference North America will be held in San Jose, California, on October 20–21, 2026. Featured PyTorchCon NA 2026 keynote speakers include: Mark Collier, Executive Director, PyTorch Foundation Mazin Gilbert,...",
       "content": "PyTorch Conference North America will be held in San Jose, California, on October 20–21, 2026.\n\nFeatured PyTorchCon NA 2026 keynote speakers include:\n\nMark Collier, Executive Director, PyTorch Foundation\n\nMazin Gilbert, Executive Director, Agentic AI Foundation\n\nEdward Yang, Research Engineer, Meta\n\nAlban Desmaison, Research Engineer, Meta\n\nSimon Mo, Co-Founder & CEO, Inferact\n\nBill Jia, VP of Engineering, Core ML/AI, Google Cloud\n\nBrian Stevens, SVP & AI CTO, Red Hat\n\nUjval Kapasi, VP, AI & HPC Frameworks & Libraries, NVIDIA\n\nJoelle Pineau, Chief AI Officer, Cohere\n\nMark Saroufim, Co-founder, Core Automation\n\nSara Hooker, CEO & Co-Founder, Adaption\n\nThe two-day conference will include technical sessions and community collaboration across the PyTorch ecosystem.\n\nRegister by September 4 to Save\n\nRegister by September 4 to save on your conference pass.\n\nRegister for PyTorch Conference North America\n\nSubmit a Flare Pin Design by August 14\n\nPyTorch Foundation is accepting original designs for the 2026 PyTorch Foundation flare pin through August 14, 2026, at 11:59 p.m. PT.\n\nThe winning entrant will receive one complimentary ticket to PyTorch Conference North America. PyTorch Foundation will produce the winning design as a 1-inch die-cut soft enamel pin for the conference.\n\nShare your design on LinkedIn, X, Facebook, or Bluesky using #PyTorchPin and #PyTorchCon.\n\nReview the contest requirements and submit a design\n\nBecome a Sponsor\n\nPyTorch Conference North America brings together 3,000+ members of the open source AI ecosystem.\n\nCompanies interested in visibility with the engineers and technical leaders building the next generation of AI infrastructure and applications can review the available sponsorship opportunities.\n\nView sponsorship opportunities",
-      "readingMinutes": 1
-    },
-    {
-      "id": "ef6fd64fdc4c9e12",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
-      "url": "https://arxiv.org/abs/2608.06474v1",
-      "published": "2026-08-06T18:06:12Z",
-      "author": "Boshui Chen",
-      "summary": "Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward design. Hand-authored browser scri…",
-      "content": "Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward design. Hand-authored browser scripts are executable yet costly to write for open-ended requirements, while VLM and GUI-agent graders scale but may issue verdicts before observing the decisive state. We propose WebGrader, a self-evolving programmatic grader that autonomously derives the required interaction flows from each website request, represents each flow as an executable Flow Contract, and uses its execution outcome as an RL reward. WebGrader materializes the generated project in a live browser, grounds target actions against the source code and live DOM, and collects visual, DOM, response, and persistent-state evidence along the same browser trajectory. A residual-driven offline loop then discovers reusable verifier skills, screens them on disjoint validation pages, and freezes the promoted skill graph before policy training. By separating test planning, action grounding, evidence collection, and semantic judgment, WebGrader issues a Pass verdict only after observing the requested transition. On WebGen-Bench, WebGrader trains an 8B policy to a 52.01% functional success rate, outperforming a matched appearance-plus-script reward by 7.88 points and surpassing o4-mini and DeepSeek-v4-flash. On WG-core-250, the policy reaches a Full Score of 44.953 and surpasses Qwen3-Coder-480B.",
       "readingMinutes": 1
     },
     {
@@ -2043,19 +2108,6 @@
       "readingMinutes": 5
     },
     {
-      "id": "824b5ba22f1e74f5",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Scientific computing in the age of agentic AI",
-      "url": "https://openai.com/index/scientific-computing-agentic-ai",
-      "published": "2026-07-28T17:00:00Z",
-      "author": "",
-      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "content": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "readingMinutes": 1
-    },
-    {
       "id": "55560096859ebe20",
       "feedTitle": "Google AI · Blog",
       "feedUrl": "https://blog.google/technology/ai/rss/",
@@ -2719,6 +2771,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "1c7bfd1ed441b497",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA Vera Rubin 在后训练工作负载中实现每美元智能最大化 —— 这是智能体 AI 的关键指标",
+      "url": "https://blogs.nvidia.cn/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+      "published": "2026-07-17T03:21:03Z",
+      "author": "Kirthi Develeker",
+      "summary": "想象一下职业运动员。真正让顶尖选手脱颖而出的，往往是赛场之外的功夫：他们持续打磨自己，针对新对手调整战术，并根据上一场比赛暴露出的问题来不断调整。 智能体 AI 的运作逻辑如出一辙。我们不再仅仅是向模型索要一个答案，而是给它设定一个目标，让它在环境变化、边缘情况出现以及工具更迭时，不断自我调整。与仅需对提示词做出响应的生成式模型不同，智能体模型必须学会规划、调用多种工具，并在运行过程中遇到问题时能够自我恢复。 这就是为什么后训练，即在原始数据上完成初始训练后对模型进行优化的阶段，已不再是一次性的",
+      "content": "想象一下职业运动员。真正让顶尖选手脱颖而出的，往往是赛场之外的功夫：他们持续打磨自己，针对新对手调整战术，并根据上一场比赛暴露出的问题来不断调整。\n\n智能体 AI 的运作逻辑如出一辙。我们不再仅仅是向模型索要一个答案，而是给它设定一个目标，让它在环境变化、边缘情况出现以及工具更迭时，不断自我调整。与仅需对提示词做出响应的生成式模型不同，智能体模型必须学会规划、调用多种工具，并在运行过程中遇到问题时能够自我恢复。\n\n这就是为什么后训练，即在原始数据上完成初始训练后对模型进行优化的阶段，已不再是一次性的收尾步骤，而是变成了一项持续性的工作。这是因为智能体模型所处的运行环境变化极快。智能体使用的工具可能每周都在更新；生产环境中会不断遇到测试集未曾出现过的边缘情况；而且每一次部署，都会面临各自独特的代码库、策略和环境。\n\n随着生产环境中不断出现新问题，后训练会持续接收生产反馈，并进入新一轮循环。计算需求之所以越来越大，并不是因为单次运行的规模更大，而是因为这种训练持续不断地循环执行。智能体 AI 为后训练引入了一种全新的计算模式，使其成为智能体时代的核心工作负载，也是决定每美元智能的首要驱动力。\n\n后训练的目标，是通过最大化持续学习循环中每一次前向传播和反向传播的收益，来实现每美元智能的最大化。其中，前向传播，即推理的效率是用每 Token 成本来衡量的。这意味着，每一次降低每 Token 成本，都将直接转化为每美元智能的提升。\n\n智能体后训练深度解析\n\n“智能”是在后训练阶段被真正构建出来的。在预训练阶段，模型学到的仅仅是预测下一个 Token，这赋予了它语言的流畅度，但并未赋予它真正的智能。而在后训练阶段，模型才开始学习如何编写代码、规划多步骤任务、调用搜索工具，以及在出错时进行恢复。推理则是这之后的环节：模型在实际任务中工作，其效率以每 Token 成本来计价。\n\n因为没有可供记忆的标准答案，模型只能依靠奖励信号来学习，因此模型需要通过强化学习 (RL) 技术来进行训练。当接收到一个任务时，模型会尝试生成一次尝试，这就是前向传播，其执行的工作与它在实际任务中完全相同。随后，这次尝试会被打分，并根据反馈更新模型的权重 —— 这就是反向传播。在经历了数百万次的尝试后，模型的智能得以不断成长。\n\n这其中的每一个步骤都会消耗大量算力，而要在大规模环境下运行这一循环，更是一项复杂的调度编排任务：需要数千个环境并行生成 rollouts，验证奖励信号，并将更新后的权重流回训练流程，同时还要确保加速器保持高利用率。NVIDIA NeMo 开源库 (例如用于构建训练环境的 NeMo Gym 和用于分布式后训练的 NeMo RL) 将后训练从定制化的研究代码，转变成了可重复使用的标准化基础设施。\n\n为何每美元智能是对每 Token 成本的超越与延伸\n\n如果说推理是创造收入的引擎，那么后训练就是乘数：模型的能力越强，每 Token 的价值就越高。\n\n每 Token 成本是推理工厂的核心指标，即生成 100 万个 Token 的总体成本。而每美元智能则处于更高的维度，它回答的是一个截然不同的问题：构建一个值得被部署的模型需要花费多少成本？并且，随着环境的不断变化，如何持续保持它的价值？\n\n这两者是相互嵌套，而非相互竞争的关系。能够降低每 Token 成本的 AI 基础设施，同样也会降低构建模型中每一次智能提升的成本。反过来，模型智能的每一次提升，又会提升推理工厂所交付的每 Token 价值。\n\n换句话说，每 Token 成本衡量的是运营效率；而每美元智能衡量的则是：模型智能投入，是否带来了相应的回报。\n\n最大化每美元智能：Nemotron 3 Ultra 的后训练实践\n\nNVIDIA Nemotron 3 Ultra 是一款拥有 5500 亿参数的开放权重混合专家 (MoE) 模型，它提供了可验证的基准测试，以及在 NeMo RL 上运行的完全公开的后训练方案。在标准的现实世界的编程能力基准测试 SWE-bench verified 中，它取得了 71.7% 的成绩，这意味着针对开源项目中的真实软件缺陷，模型在约七成的案例中生成了有效的修复方案，且每个方案都通过了该项目自身的测试验证。\n\n图中展示的是 200 亿个 rollout Token 的示例数据。该数据基于上一代 Nemotron 3 Super 约 120 万次 rollout、每次约 1 万个 Token 规模，并针对规模更大的 Ultra 模型进行了等比例放大。不同平台之间的每美元智能表现不受此假设的影响，其绝对值会随 Token 数量等比例相应变化。\n\nNVIDIA Blackwell 平台降低了每次训练的成本，使得智能体时代所要求的高频后训练在经济上变得切实可行。而这些被构建出来的智能，最终会在模型生成的每一个 Token 中转化为价值。\n\nNVIDIA Vera Rubin 平台则将这一优势轨迹进一步延伸，仅需 Blackwell 1/4 的 GPU 数量，即可训练超大规模模型。该平台经过了端到端的极致协同设计，旨在为智能体后训练负载最大化每美元智能：支持单次运行更多的 rollout、更多的并行环境，以及持续不断的后训练循环。\n\n后训练工作流的实际应用\n\nPrime Intellect 的 Lab 正在 NVIDIA Blackwell 上持续对前沿开放模型进行后训练，并借助 NVIDIA Dynamo 进行推理编排。借助 Vera Rubin，Prime Intellect 计划扩大强化学习环境的规模，在单次运行中生成更多的 rollout，并加速从训练到推理的迭代循环，帮助企业最大化每美元智能。\n\nPrime Intellect 已对其沙箱基础设施进行优化，使其与 NVIDIA Vera CPU 深度集成，从而实现低延迟、高能效的 强化学习。其软件栈中还集成了 NVIDIA Nemotron 和 NVIDIA NeMo Gym 等开源工具和模型。在将真实的强化学习沙箱工作负载与传统的 x86 架构进行对比测试时，Prime Intellect 发现，Vera CPU 的平均吞吐量高出 30%。\n\nPerplexity 的强化学习后训练技术栈可在数百块 NVIDIA GPU 上异步运行，其基于 RDMA 的权重传输引擎，能够在不到两秒的时间内，完成万亿参数模型在训练节点与推理计算节点之间的同步。经过后训练的 Qwen3 235B 模型随后被部署在 NVIDIA 机架级扩展系统上提供服务。\n\nTogether AI 则提供后训练即服务，涵盖监督微调、强化学习以及直接偏好优化。该服务通过功能丰富的应用程序接口和软件开发工具包交付，在其 AI 原生云平台上全面支持各种后训练。目前，该服务已运行于 NVIDIA 平台及经过优化的内核库上，未来计划进一步采用 Vera Rubin 平台。\n\n进一步了解 NVIDIA Vera Rubin 平台，帮助 AI 工厂在各类工作负载中最大化每美元智能。同时，进一步了解 NVIDIA 面向 前沿模型训练 的全栈平台。",
+      "readingMinutes": 6
+    },
+    {
       "id": "91faf2386908f764",
       "feedTitle": "KServe Releases",
       "feedUrl": "https://github.com/kserve/kserve/releases.atom",
@@ -2862,19 +2927,6 @@
       "readingMinutes": 0
     },
     {
-      "id": "69fde223a2f85790",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA 推出全新 Jetson Thor 计算机，推动主流机器人与边缘 AI 发展",
-      "url": "https://blogs.nvidia.cn/blog/jetson-thor-robotics-edge-ai-agent/",
-      "published": "2026-07-15T03:06:14Z",
-      "author": "Chen Su",
-      "summary": "通用机器人与自主机器正从研究实验室迈向现实世界，并进入规模化商业部署阶段，由此产生了对能够在边缘侧运行基础模型的紧凑型、高能效 AI 超级计算机的迫切需求。 为满足这一需求，NVIDIA 今日正式推出 T3000 与 T2000 模组。这两款基于 NVIDIA Thor 架构的全新模组，将推动机器人向规模化商业应用迈进及边缘 AI 应用的规模化落地。 Jetson AGX Thor 正为新一代人形机器人与机器人系统提供算力支持，并在多个行业获得日益广泛的采用。包括 1X、Agile",
-      "content": "通用机器人与自主机器正从研究实验室迈向现实世界，并进入规模化商业部署阶段，由此产生了对能够在边缘侧运行基础模型的紧凑型、高能效 AI 超级计算机的迫切需求。\n\n为满足这一需求，NVIDIA 今日正式推出 T3000 与 T2000 模组。这两款基于 NVIDIA Thor 架构的全新模组，将推动机器人向规模化商业应用迈进及边缘 AI 应用的规模化落地。\n\nJetson AGX Thor 正为新一代人形机器人与机器人系统提供算力支持，并在多个行业获得日益广泛的采用。包括 1X、Agile Robots、Amazon Robotics、波士顿动力、FANUC、日立及达明机器人在内的行业领先企业，正基于该平台进行开发。\n\n借助 T3000 释放人形机器人与机器人部署潜力\n\n支撑上述能力的硬件基础是 Jetson 与 IGX T3000 模组。该模组在紧凑外形下可提供 865 FP4 TFLOPS 的 AI 算力，其尺寸与功耗仅为 T5000 的一半。Jetson T3000 集成了 NVIDIA Blackwell GPU、八核 Neoverse Arm CPU、32GB LPDDR5X 内存及 273GB/s 内存带宽，并支持 25 GbE 网络连接。IGX T3000 在提供同等性能的基础上，集成功能安全机制，可无缝运行 NVIDIA Halos for Robotics 全栈安全系统，确保机器人在人机协作场景中的安全运行。\n\n尽管体积更小，T3000 在多模态负载 (包括大语言模型、视觉语言模型、视觉语言动作模型及世界基础模型) 上的推理性能仍与 T5000 相当。在当前内存价格居高不下的背景下，迁移至 T3000 有助于降低成本。\n\n借助 T2000 拓展边缘 AI 应用广度\n\nJetson T2000 将 Thor 架构引入更广泛的边缘 AI 系统。凭借 400 FP4 TFLOPS 的算力与 16GB 内存，该模组为开发者构建视觉 AI 智能体、自主移动机器人、工业机械臂及其他智能设备提供了入门级选择。\n\n随着全新 NVIDIA Jetson 模组的推出，NVIDIA 现已构建起可扩展的边缘 AI 平台，性能覆盖从 70 TOPS 到 2,000 TFLOPS 的广泛区间，使开发者能够应对几乎所有类型的边缘 AI 工作负载。\n\n全新智能体技能：实现全 Jetson 设备内存自动优化\n\nAI 智能体正通过自动化内存优化、系统配置和部署任务来提升开发者的生产力，而在过去，这些任务对人力及深厚的领域专业知识有极高的要求。\n\n借助新发布的 Jetson 智能体技能，开发者可在数天内完成整个软件栈的优化并有效节省内存，而此前这一过程往往需要数周时间。这些技能支持包括 Jetson Thor 与 Jetson Orin 在内的全系 Jetson 产品组合，使开发者能够在更低内存配置下运行更复杂的工作负载。\n\n此举不仅降低了系统成本、加快了部署速度，还赋予了开发者更大的灵活性 —— 可在同一产品层级内切换至更低内存规格的 SKU，而不影响性能表现。\n\n目前，全球各地各行业的企业已通过软件优化加速开发进程，同时大幅节省内存。\n\n优必选和 Agile Robots 等领先的人形机器人企业以及工业解决方案提供商 Connect Tech，已将内存占用最高降低 15GB，从而得以从 NVIDIA Jetson AGX Orin 64GB 模组迁移至 32GB 版本。\n\n在智慧零售领域，SandStar 将内存占用最高降低 4GB，使其能够部署于 NVIDIA Jetson Orin NX 8GB 模组，替代原有的 16GB 配置。在陪伴机器人领域，LOVOT 机器人的开发商 GROOVE X 利用 Jetson 的异构 AI 加速器优化工作负载分配，有效降低了内存占用，实现了向低内存配置的平稳迁移。\n\n在智能交通领域，NoTraffic 在 Jetson TX2 NX 上将内存占用减少了 30%，从而在不增加硬件需求的前提下，为其智能交通平台拓展更多 AI 功能预留资源空间。\n\n随着智能体技能简化开发流程，以及 NVIDIA NemoClaw 蓝图对智能体的编排调度，Jetson 已成为面向物理 AI 的智能体就绪平台，支持大规模的高级推理、自主决策与任务自动化。\n\nNVIDIA Cosmos 3 Edge 登陆 NVIDIA Thor 平台\n\nNVIDIA 今日宣布扩展其 NVIDIA Cosmos 3 前沿开放世界基础模型系列 —— 该系列作为机器人基础模型，面向具身系统打造。此次新增的轻量级模型 Cosmos 3 Edge 与 NVIDIA Thor 平台完全兼容。Cosmos 3 Edge 是一款拥有 40 亿参数的模型，能够帮助具身系统感知世界、进行实时推理，并通过端侧推理来预测和生成动作。借助开放的 Cosmos 框架，开发者仅需约一天时间，即可针对特定机器人本体与传感器对 Cosmos 3 Edge 进行后训练，有效弥合仿真与现实之间的差距；随后可将其部署于 Jetson Thor，实现实时视觉分析与端侧机器人策略执行。\n\n立即通过仿真模式开启开发\n\n得益于 NVIDIA Thor 系列共享的芯片架构与软件栈，全新模组为开发者提供了无缝衔接的开发路径。开发者现可通过渠道合作伙伴获取 Jetson AGX Thor 开发者套件，模拟 T3000 及 T2000 模组的性能表现，开始相关的开发工作。\n\n借助 NVIDIA 完整的物理 AI 软件栈 (包括用于机器人仿真与感知的 NVIDIA Isaac)，以及 NVIDIA Nemotron、Cosmos 3 和 Isaac GR00T 等开放模型，开发者可加速新一代机器人、自主机器及视觉 AI 智能体的研发进程。\n\n开发者可以在本月晚些时候通过 JetPack 7.2.1 开始使用 T3000 仿真模式。T2000 仿真模式也将在后续版本中推出。Jetson T3000 与 T2000 模组预计于 2027 年第一季度正式供货。\n\n凌华科技、研华、AAEON、安提国际、Auvidea、圆刚科技、Connect Tech、ForeCR、智微智能、NEXCOM Robotic Solutions、瑞泰新时代、矽递科技、Twowin、天准和 YUAN 等 Jetson 生态合作伙伴已率先提供基于 Thor 的解决方案。Antmicro、Neurealm、REBOTNIX 和 RidgeRun 等软件合作伙伴也将为转向新模组的客户提供仿真与迁移解决方案。\n\n随着物理 AI 与具身智能迈向主流部署，全新 NVIDIA Thor 计算机为开发者奠定了可扩展的基础，助力智能人形机器人与自主机器真正落地现实世界。\n\n前往 NVIDIA 官网选购 Jetson AGX Thor 开发者套件，开启您的开发之旅。",
-      "readingMinutes": 5
-    },
-    {
       "id": "dd73acb51779c8b9",
       "feedTitle": "KServe Releases",
       "feedUrl": "https://github.com/kserve/kserve/releases.atom",
@@ -2938,19 +2990,6 @@
       "summary": "v0.5.15.post1 includes a few patches, mostly for GLM 5.2 #30454 #30627: Fix DSA model launching on non Cuda/HIP devices #30858: Fix flashinfer dependency on Cuda 12 images #31001: Fix NaN outputs caused by flashinfer trtllm FP4 MoE kernels on long input #30839: Fix GLM 5.2 Index…",
       "content": "v0.5.15.post1 includes a few patches, mostly for GLM 5.2\n\n#30454 #30627: Fix DSA model launching on non Cuda/HIP devices\n\n#30858: Fix flashinfer dependency on Cuda 12 images\n\n#31001: Fix NaN outputs caused by flashinfer trtllm FP4 MoE kernels on long input\n\n#30839: Fix GLM 5.2 IndexShare on PD disaggregation setting\n\n#30992: Fix GLM 5.2 IndexShare on Context Parallel setting",
       "readingMinutes": 1
-    },
-    {
-      "id": "42a77ccf2d0fb15e",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "Nemotron Labs：开放模型如何为企业提供可信、可控且可定制的 AI",
-      "url": "https://blogs.nvidia.cn/blog/nemotron-open-models-ai-trust-control-customize/",
-      "published": "2026-07-14T02:49:27Z",
-      "author": "Joey Conway",
-      "summary": "编者注：本文是 Nemotron Labs 系列博客文章，探讨最新的开放模型、数据集和训练技术如何帮助企业在 NVIDIA 平台上构建专用 AI 系统和应用。每篇文章都重点介绍了在生产中使用开放软件栈来提供价值的实用方法，涵盖了从透明的研究 Copilot 到可扩展的 AI 智能体等领域。 企业有许多强大的模型可供选择。真正的考验在于企业所构建的 AI 能否特定地处理其业务需求：改进工作流、使用领域知识并超越准确性和信任度的标准。 如今，AI 领域的竞争优势越来越取决于组织如何基于现有模型进行构",
-      "content": "编者注：本文是 Nemotron Labs 系列博客文章，探讨最新的开放模型、数据集和训练技术如何帮助企业在 NVIDIA 平台上构建专用 AI 系统和应用。每篇文章都重点介绍了在生产中使用开放软件栈来提供价值的实用方法，涵盖了从透明的研究 Copilot 到可扩展的 AI 智能体等领域。\n\n企业有许多强大的模型可供选择。真正的考验在于企业所构建的 AI 能否特定地处理其业务需求：改进工作流、使用领域知识并超越准确性和信任度的标准。\n\n如今，AI 领域的竞争优势越来越取决于组织如何基于现有模型进行构建，而不仅仅是选择哪种模型。\n\n像 NVIDIA Nemotron 这样的开放模型专为定制化而构建 —— 帮助企业和国家构建可控、可信且为其需求量身定制的 AI。\n\n从使用 AI 到拥有智能\n\n譬如自主智能体和应用这样的专用 AI 都基于定制的开放模型构建。这些智能体旨在很好地完成指定任务，因为其所使用的模型已根据专有知识进行调优，并针对实际业务成果进行了评估。\n\n这需要直接访问模型本身。闭源模型拓宽了可能性的边界，并不断推动通用智能的前沿，但同时也为企业在检查、调优和改进方面设置了上限。开放模型则打破了这一壁垒 —— 提供企业完整的所有权与完全管理权。\n\n高效的智能体 AI 应用是由多个模型组成的系统，在系统中，开放模型与领先的前沿模型协同工作，各自发挥所长。高性能推理模型可以处理复杂的规划，而较小的模型则执行特定任务。这使企业能够合理调整推理成本、提高特定任务的准确性，并随工作流演进保持灵活性。\n\n值得企业信赖的定制化\n\n开放模型为企业提供了闭源模型所不能提供的能力：可根据业务需求定制、检查和改进 AI 的完全管理权。公开基准测试可衡量的是通用能力 —— 但以业务为导向的评估让团队能够根据自己的数据、工作流和准确性的定义进行测试 —— 并以此为基础进行改进。\n\n例如，在医疗和法律这样的行业，错误答案的代价很高，这些行业的团队通常处理敏感数据并对准确性有严格要求，因此这些领域的组织必须清楚了解模型训练方式和性能表现，并具备在必要时对其进行改进的能力。\n\n借助开放模型，团队可以检查其应用、根据自身标准运行私有评估，并建立针对其工作流进行调优的强化学习环境。其专有数据无需通过第三方路由传输。\n\n各行各业的公司已经在各自的领域对 Nemotron 进行专用化定制：\n\nAbridge 正在定制 Nemotron，以构建首个专为临床对话打造的基础模型。\n\nGlean 构建了 Waldo，一种智能体搜索模型，它将 Nemotron 与更大的闭源模型结合，以显著降低延迟并减少 Token 消耗，从而提供企业级搜索。\n\nH Company 基于专有计算机使用数据对 Nemotron 3 Nano Omni 进行后训练，构建了 Holotron 3 Nano。该模型在 OSWorld-Verified —— 一项计算机任务基准测试 —— 上面实现了高于 76% 的准确率，并且成本远低于其他领先的前沿模型。\n\nHarvey 在其法律基准上对 Nemotron 3 Ultra 进行了后训练并达到了前沿级准确性 —— 在复杂法律任务上能够与领先的闭源模型相媲美，并且每次运行成本至多是原来的十分之一。\n\nHeidi Health 在无需前沿规模计算的情况下，在临床文档记录方面实现了前沿质量的成果。\n\nYTL AI Labs 针对马来西亚语对 Nemotron 模型进行了后训练，以本地定制 AI 赋能马来西亚开发者社区，以进一步提升其 AI 能力。\n\n微调环境与优化运行成本\n\n定制化可提高准确性。当模型针对特定 Harness 或领域进行调优时，其运行效率也会更高。\n\nNVIDIA NeMo 开放库套件不仅支持智能体优化和治理，还能加速模型定制和评估。\n\nPrime Intellect 和 Unsloth 等合作伙伴已开始为在 Nemotron 上构建后训练管线的企业提供 AI 定制支持，使规模化运行专用 AI 变得切实可行。\n\nLangChain 为 Nemotron 3 Ultra 调优其 Deep Agents Harness —— 在无需重新训练模型的情况下调整提示词、工具和中间件 —— 并在开放模型中实现了更高的智能体准确性，而每次运行成本约为其他领先闭源替代方案的十分之一。\n\n这些成本优势扩展到了基础设施，以实现出色的可扩展性。通过在 NVIDIA Blackwell 平台上对 Nemotron 进行后训练，Arcee AI 实现了每百万输出 Token 约 90 美分的推理成本 —— 比同类闭源前沿模型低约 20 倍 (成本仅为后者的二十分之一左右) —— 同时在 PinchBench 上排名第二，并保持完全开放的权重。\n\n节省的成本有助于实现更广泛的实验、更多部署和更快的迭代。\n\n基于开放基础的生态系统构建\n\n从采用 AI 到拥有 AI 的转变正在全面展开。NVIDIA Nemotron Coalition 正在帮助将开放模型开发转化为一项生态系统工程，将模型构建者和开发者聚集在一起，通过共享数据、评估和领域专业知识来改进 Nemotron。此外，黑客松的提交成果和社区贡献也跨行业生成了可复用证明资产。\n\n构建者们正在将 Nemotron 整合到其 AI 系统中，证明其价值并分享有效经验。这一切的基础是完全开放的。\n\n详细了解 NVIDIA Nemotron 开放模型并在 NVIDIA 官网上体验。",
-      "readingMinutes": 4
     },
     {
       "id": "3bec5ca69d709adf",
@@ -3133,19 +3172,6 @@
       "summary": "[P/D][Bugfix] Fix PD async KV load lookahead handling for MTP spec de…",
       "content": "[P/D][Bugfix] Fix PD async KV load lookahead handling for MTP spec de…",
       "readingMinutes": 1
-    },
-    {
-      "id": "1b102ef7997b6224",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "AI 赋能私有化大模型，HTZL.AI 实现 NVIDIA DGX Spark 全栈标准化落地",
-      "url": "https://blogs.nvidia.cn/blog/ai-powered-private-llms-htzl-ai-delivers-a-standardized-full-stack-deployment-on-nvidia-dgx-spark/",
-      "published": "2026-07-09T05:27:37Z",
-      "author": "英伟达中国",
-      "summary": "四川慧途智联科技有限公司 (品牌 HTZL.AI) 成立于人工智能基础设施浪潮兴起之际，是国内领先的企业级私有 AI 基础设施提供商及行业赋能者。HTZL.AI 是一家 AINative 的科技公司 —— 从模型部署、RAG 知识引擎、多工具 Agent 编排、API 网关到企业级管理控制台与授权许可系统，全栈软件均为自主研发；其研发流程本身也由 AI 驱动，搭建于 NVIDIA DGX Spark 自托管 CI/CD 流水线之上，后端已沉淀 2,300+ 自动化测试，形成“用 AI 造 AI”",
-      "content": "四川慧途智联科技有限公司 (品牌 HTZL.AI) 成立于人工智能基础设施浪潮兴起之际，是国内领先的企业级私有 AI 基础设施提供商及行业赋能者。HTZL.AI 是一家 AINative 的科技公司 —— 从模型部署、RAG 知识引擎、多工具 Agent 编排、API 网关到企业级管理控制台与授权许可系统，全栈软件均为自主研发；其研发流程本身也由 AI 驱动，搭建于 NVIDIA DGX Spark 自托管 CI/CD 流水线之上，后端已沉淀 2,300+ 自动化测试，形成“用 AI 造 AI”的工程闭环。HTZL.AI 主打“数据不出企业、模型不进云端”的私有化 AI 路径，已在环保咨询机构、出海企业等数据敏感行业落地。\n\n垂直企业级私有 AI 技术，攻破“120B 大模型必须上云”的核心问题\n\nHTZL.AI 自成立之初就将研发重心放在“让企业级大模型真正进入企业内部”这一核心命题上。区别于调用公有云 API 的轻量套壳方案，HTZL.AI 自研了完整的私有化技术栈：开放内核 (open-core) 架构、混合检索 RAG 引擎、基于 LangGraph 的 Agent 编排、sk-htzl-* 计费网关、多租户管理控制台。\n\n这套系统全部搭载于 NVIDIA DGX Spark (GraceBlackwell 架构、128 GB 统一内存) 单机之上，实现了在客户自有办公室/机房内对大模型推理、向量检索、业务数据与 Agent 编排的全方位自主掌控 —— 数据全程不出企业、推理结果带原文引用、每一次调用可计量可审计。\n\nHTZL.AI 智能问答控制台 —— 多租户私有知识库\n\nHTZL.AI 的企业控制台支持单台 NVIDIA DGX Spark 同时承载多个相互隔离的租户 (site_key 隔离)，每租户拥有独立的向量库 collection ({site_key}_context)、独立配额、独立审计日志，并在 PostgreSQL 层以行级安全 (RLS)，相当于把“一朵小型企业 AI 私有云”装进了客户自家的办公室。\n\n数据 AI 引擎 —— 每一次请求都是飞轮的燃料\n\nHTZL.AI 已构建企业级 AI 数据引擎：每一次交互 (对话、token 用量、模型时延、错误率、用户反馈、知识盲点) 都被完整持久化进 PostgreSQL，形成数据全流程高效闭环。在 NVIDIA DGX Spark 高容量统一内存与 NVIDIA CUDA 计算栈的加持下，海量交互数据被自动化处理 —— 这些数据今天驱动企业运营看板，明天即可驱动模型微调与检索策略迭代，让私有 AI 的智能化与自主化能力持续演进。\n\n怀揣“数据不出企业”的愿景，研发企业级私有 AI 三大产品线\n\nHTZL.AI 自成立以来，始终坚持“让 AI 真正属于企业自己 —— 可信、可控、可审计”的愿景，致力于企业级私有 AI 基础设施的研发，形成三大产品线：“物理可控的 GPU 工作站算力底座、精细可审计的 AI 基础设施中枢、以及数据绝对可信的行业 SaaS 业务平台”三大产品线，为企业交付端到端的全栈私有化 AI 闭环解决方案。\n\n企业级私有 AI 的全新挑战\n\n随着大模型在企业场景快速渗透，落地场景正由“公有云 SaaS”扩展至“客户办公室/机房内的私有化部署”。不同于公有云场景，私有化部署对系统提出了全新挑战：业务要拥抱 120B 级大模型，但律师手中的合同与诉讼材料、生物公司的专利与配方、出海企业的客户名单与跨境股权结构，任何一份外泄都意味着商业泄密甚至法律责任，绝不能在公有云大模型中被分析、缓存乃至训练。过去要在企业内部部署一个 Qwen3.6 同等水准的大模型，往往意味着购置数十张高端 GPU、搭建液冷机房、组建 MLOps 团队，初期投入数百万人民币 —— 这对绝大多数中小企业是无法承受之重。\n\n为实现安全可靠的私有化推理，HTZL.AI 需要一种单机即可承载完整 AI 栈的计算平台，用于多模型共存、向量检索与 Agent 编排的本地部署。最终团队在对比多卡工作站方案后，选择 NVIDIA DGX Spark 作为单机部署底座，提供媲美高端算力中心的高性价比方案。NVIDIA Grace Blackwell 架构提供 128 GB CPU/GPU 统一内存，提供了更大容量的模型加载能力；丰富的 NVIDIA 软件生态 (CUDA、TensorRT-LLM) 则为多模型推理与向量并行计算提供了高质量算力支持。\n\nHTZL.AI 采用的 NVIDIA 产品\n\n在选择 NVIDIA 产品生态作为底座后，HTZL.AI 充分利用了 NVIDIA 硬件与软件解决方案的多样性与强大性能，具体采用了以下 NVIDIA 产品：\n\nNVIDIA DGX Spark/Grace Blackwell 平台：128 GB 统一内存让三个模型在一台设备上稳定共存 —— Qwen3.5-122 B 主推理模型 (FP4 量化、约 65 GB，默认常驻)、Qwen3-Embedding-4 B 中英混合嵌入模型 (Q8 量化、约 5.4 GB、2560 维向量，默认常驻)、Qwen-VL-视觉理解模型 (约 14 GB，按需启用)。三模型满载约 82.9 GB，仍为系统与批处理缓存预留约 45 GB 余量。CPU 与 GPU 共享内存让单机即可完成“召回→融合→重排→生成”的全链路 RAG 推理，从架构上彻底消除了多机调度开销。\n\nNVIDIA CUDA：Milvus 向量检索、BM25 稀疏召回与嵌入模型推理全部跑在 CUDA 加速通路上。HTZL.AI 的混合检索引擎以稠密向量召回 + BM25 稀疏召回并行执行，经 RRF 倒数排名融合 (k=60) 合并，再由 Cross-encoder 重排模型 (BAAI/bge-reranker-v2-m3) 精排，输出带“源文件 + 页码 + 段落”三级引用的检索结果；单租户查询端到端 P95 控制在数百毫秒级。\n\nllama.cpp on NVIDIA CUDA 推理后端：Qwen3.5-122 B 与 Qwen3-Embedding-4 B 经 llama.cpp 的 CUDA 后端 (FlashAttention、prompt 缓存、连续批处理) 对外稳定提供 SSE 流式输出，首 token 通常在 1 秒内返回，支持企业内部数十名活跃用户同时对话与文档问答。SSE 事件流实时下发 token、工具调用状态与引用列表，让客户在浏览器上“边读边等”。\n\nNVIDIA TensorRT-LLM：视觉理解模型 Qwen-VL – 已基于 TensorRT-LLM (PyTorch 后端) 在 NVIDIA DGX Spark 上部署，作为 Agent 的 explain_image 工具，让系统能够直接读懂扫描合同、判例图表、证照影像等非结构化图像内容。后续将进一步把主模型 token 流迁移至 TensorRT-LLM 以压低首 token 延迟。\n\n标杆落地：HTZL.AI 租户 Molycure，让中国企业出海拥有“24 小时在线的合规专家”\n\nMolycure 是运行在 HTZL.AI 平台之上的旗舰垂直租户 —— 国内首批面向“中国企业出海”场景的垂直行业 AI Agent。借助 HTZL.AI 的多租户私有架构，Molycure 在一套 NVIDIA DGX Spark 上整合了东南亚、欧盟、北美、中东等高频出海目的地的法规、税务、签证、知识产权与数据合规专业文档，覆盖 18 个出海垂直领域、194+ 权威数据源、数十万向量片段，整体源召回率达到 100%。\n\n在具体业务环节中，NVIDIA 计算平台发挥了重要作用：通过 NVIDIA DGX Spark 128 GB 统一内存，Molycure 的“召回→融合→重排→中文回答”全链路在单机完成，单次跨境合规咨询从传统“对每个国家聘请一家律所、平均 3 天等回邮件”缩短至分钟级；通过 NVIDIA CUDA 加速的批量文档摄入流水线，单次客户专属知识库 (私密会议文档、合同库、董事会决议、海外注册材料) 的全量灌库时间从多机方案的数小时缩短至单机十几分钟。架构层面，molycure 前端部署在 Vercel 全球边缘，经 Cloudflare Tunnel 安全反向接入本地 NVIDIA DGX Spark，对外只暴露 HTTPS，无任何公网 IP 与入站端口 —— 这对存放着客户跨境资产与股权信息的“出海大脑”而言，是企业级数据安全的最低门槛。\n\n业务价值：把“上云才能用 AI”的旧逻辑彻底翻转\n\n依托 NVIDIA DGX Spark，HTZL.AI 为出海企业、律所、生物科技等数据敏感客户带来了显著优势。在成本与能耗方面，客户硬件投入相比多卡 GPU 工作站降低约 50%、能耗降低 90% 以上；在合规属性方面，客户首次获得“数据不出企业、推理结果带引用、所有调用可审计”的强合规能力；在交付形态方面，整机功耗与一台高端笔记本相当，可直接摆进客户办公室。以旗舰租户 Molycure 为例，出海企业的年度海外顾问费从数十万元降至单台设备的硬件摊销 + 订阅费用，实现了一个数量级的成本压缩。\n\n使用的 NVIDIA 技术包括：\n\nNVIDIA DGX Spark (Grace Blackwell)、NVIDIA CUDA、llama.cpp on CUDA (主模型/嵌入模型推理)、NVIDIA TensorRT-LLM (Qwen-VL 视觉模型，已落地)、NVIDIA CUDA 加速向量检索 (Milvus)、NVIDIA NIM (规划中)\n\n架构示意图\n\nHTZL.AI–Architecture: Vercel → Cloudflare → Office (NVIDIA DGX Spark) LLM Inference\n\nNVIDIA 初创加速计划 \n\n四川慧途智联科技有限公司是 NVIDIA 初创加速计划会员企业。\n\nNVIDIA 初创加速计划 (NVIDIA Inception) 为免费会员制，旨在培养颠覆行业格局的优秀创业公司。该计划联合国内外知名的风投机构、创业孵化器、创业加速器、行业合作伙伴以及科技创业媒体等，打造创业加速生态系统。能够提供产品折扣、技术支持、市场宣传、融资对接、业务推荐等一系列服务，加速创业公司的发展。",
-      "readingMinutes": 8
     },
     {
       "id": "f52a3dc504073d1d",
@@ -4045,19 +4071,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "d8951679a130c7d5",
-      "feedTitle": "Google AI · Blog",
-      "feedUrl": "https://blog.google/technology/ai/rss/",
-      "category": "AI 新闻",
-      "title": "The latest AI news we announced in May 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
-      "published": "2026-06-05T14:45:00Z",
-      "author": "Blog Team",
-      "summary": "May AI recap",
-      "content": "May AI recap",
-      "readingMinutes": 1
-    },
-    {
       "id": "de8841fe37e5cd57",
       "feedTitle": "TensorRT-LLM Releases",
       "feedUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
@@ -4082,19 +4095,6 @@
       "summary": "For many people, Kubernetes Dashboard was their first window into Kubernetes. It offered a simple visual way to see what was running in a cluster, inspect resources, and build confidence without relying on the command line. For years, it helped developers, students, and operator…",
       "content": "For many people, Kubernetes Dashboard was their first window into Kubernetes. It offered a simple visual way to see what was running in a cluster, inspect resources, and build confidence without relying on the command line. For years, it helped developers, students, and operators make sense of Kubernetes, and it served as an important onramp into the ecosystem.\n\nThe Kubernetes Dashboard project has now been archived. We deeply respect the work the team did and the role Dashboard played in making Kubernetes more approachable for so many users.\n\nHeadlamp builds on that foundation and carries it forward. It keeps the clarity of a visual interface while adding capabilities that match how Kubernetes is used today. This includes multi-cluster visibility, application-centric views, extensibility through plugins, and flexible deployment options that work both in-cluster and on the desktop.\n\nThis guide is meant to help you navigate that transition with confidence. Before diving into the mechanics of migration, we start with familiar ground by looking at how common Kubernetes Dashboard workflows map to Headlamp. We also cover what stays the same and what improves after the switch. The goal is not just to replace a tool, but to honor a user-centered legacy and help you land in a UI that can grow with you as your Kubernetes usage evolves.\n\nMapping Kubernetes Dashboard workloads to Headlamp\n\nIf you have used Kubernetes Dashboard before, many workflows in Headlamp will feel familiar. Headlamp does not introduce a new way of thinking. Instead, it builds on workloads users already know and extends them in practical ways. The focus is continuity. What worked before still works, with more room to grow.\n\nViewing workloads and resources\n\nIn Kubernetes Dashboard, most users started by browsing workloads like pods, deployments, services, and namespaces. Headlamp keeps this same starting point. Workloads are easy to find and inspect, and moving between namespaces and clusters is simpler. Resources are still organized in familiar ways, and navigation feels smoother, especially when you work across multiple environments.\n\nEditing and interacting with resources\n\nLike Kubernetes Dashboard, Headlamp lets you view and edit manifests directly in the UI based on your permissions. You can delete resources, scale workloads, or update configurations from the interface. All actions follow standard Kubernetes RBAC. If you could perform an action in Dashboard, you will find the same capability in Headlamp, with the same respect for access controls.\n\nUnderstanding relationships\n\nWhere Headlamp begins to expand the experience is in how it presents relationships between resources. In addition to list views, Headlamp offers visual ways to see how workloads, services, and configurations connect. This helps provide context without changing the underlying workloads users already rely on.\n\nAt a high level, the tasks you performed in Kubernetes Dashboard are still there. Headlamp keeps familiar workflows while making it easier to scale as clusters, teams, and applications grow.\n\nWhere Headlamp goes beyond Kubernetes Dashboard\n\nExpanding from single cluster to multi-cluster workflows\n\nKubernetes Dashboard was designed to work with one cluster at a time. That model worked well for simple setups, but it became limiting as teams adopted multiple environments. Headlamp expands this view by letting you work with multiple clusters from a single interface without switching tools or losing context. This makes it easier to manage development, staging, and production environments side by side.\n\nFor teams running Kubernetes in more than one place, this shift reduces friction. You can stay oriented and move between clusters with confidence.\n\nFrom resource lists to application context with Projects\n\nProjects give you an application-centered way to view Kubernetes. Instead of jumping between lists, you can group related workloads, services, and supporting resources in one place. This makes applications easier to understand. You can see what belongs together, track changes in context, and troubleshoot without scanning the cluster piece by piece.\n\nProjects are built on native Kubernetes concepts. Namespaces, labels, and RBAC continue to work the same way they always have. Headlamp adds a visual layer that brings related resources together.\n\nProjects are optional. You can still work at the individual resource level when that fits your task. When you need more context, Projects help you step back and see the bigger picture.\n\nExtend the Headlamp UI with plugins\n\nHeadlamp can be extended through plugins that bring common workflows directly into the UI. Instead of switching tools, you work in one place with the same context.\n\nFor example, the Flux plugin brings GitOps workflows into Headlamp. It allows teams to view application state alongside the Kubernetes resources that Flux manages, making it easier to understand how changes in Git relate to what is running in the cluster.\n\nThe AI Assistant follows a similar pattern. It adds a conversational layer to the UI that helps users understand what they are seeing, troubleshoot issues, or take action. All of this happens in the same screen where the problem appears.\n\nBuilding your own plugins\n\nPlugins are optional and not limited to community-built extensions. Platform and project teams can also create their own plugins. This allows organizations to add custom integrations that match their specific workflows and internal tooling, while keeping the user experience consistent.\n\nChoosing how and where Headlamp runs\n\nHeadlamp gives teams flexibility in how they use a Kubernetes UI. You can run it directly in a cluster, use it as a desktop application, or combine both approaches based on your needs.\n\nRunning Headlamp in-cluster works well for shared environments. It provides a centrally managed UI with controlled access and fits naturally into Kubernetes setups, following the same authentication and RBAC rules as other in-cluster components.\n\nThe desktop application is often a better fit for local development and onboarding. It also works well when you need to manage multiple clusters from one place. Users can connect using their existing kubeconfig without deploying anything into the cluster.\n\nThese options are not mutually exclusive. Many teams use the desktop app for day-to-day work, while relying on an in-cluster deployment for shared or production environments.\n\nPreparing for the Migration\n\nBefore moving from Kubernetes Dashboard to Headlamp, it can be helpful to pause and take stock of how you use the Dashboard today. A little reflection up front can go a long way toward making the transition feel smooth and familiar.\n\nStart by noting which clusters and namespaces you access and how authentication works. Headlamp relies on standard Kubernetes authentication and RBAC. In most cases, existing access models carry over without change. If users already connect using kubeconfig files or service accounts, they will be able to access the same resources in Headlamp.\n\nIt is also useful to think about the workflows that matter most to your team. Some users rely on Dashboard for quick inspection or troubleshooting, while others use it for lightweight edits or validation. Headlamp supports these same workflows and adds optional capabilities on top. Knowing what you rely on today helps the transition feel predictable and confidence building.\n\nIf you would like to explore Headlamp or try it out before migrating, you can learn more at headlamp.dev.\n\nThis blog focused on understanding the transition and what to expect. A step by step migration guide is coming soon and will walk through installation and migration in detail.",
       "readingMinutes": 5
-    },
-    {
-      "id": "d72796303eb13d41",
-      "feedTitle": "TensorRT-LLM Releases",
-      "feedUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
-      "category": "AI Infra",
-      "title": "v1.3.0rc15.post1: [None][infra] Fix release sanity config compatibility",
-      "url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.3.0rc15.post1",
-      "published": "2026-05-31T16:31:44Z",
-      "author": "niukuo",
-      "summary": "Signed-off-by: Yiteng Niu 6831097+niukuo@users.noreply.github.com",
-      "content": "Signed-off-by: Yiteng Niu 6831097+niukuo@users.noreply.github.com",
-      "readingMinutes": 1
     }
   ]
 }
