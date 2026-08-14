@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T16:53:00.838886Z",
+  "generatedAt": "2026-08-14T05:24:23.999041Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -87,7 +87,7 @@
       "url": "https://deepmind.google/blog/rss.xml",
       "category": "AI 技术",
       "siteUrl": "https://deepmind.google/blog/",
-      "articleCount": 21,
+      "articleCount": 22,
       "error": ""
     },
     {
@@ -183,7 +183,7 @@
       "url": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
       "category": "AI Infra",
       "siteUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases",
-      "articleCount": 8,
+      "articleCount": 7,
       "error": ""
     },
     {
@@ -196,6 +196,71 @@
     }
   ],
   "articles": [
+    {
+      "id": "40892d1f85e594ff",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "声擎×少数派｜「角落新声」征文活动获奖结果公布",
+      "url": "https://sspai.com/post/111709",
+      "published": "2026-08-14T03:44:03Z",
+      "author": "",
+      "summary": "那个让你放松娱乐、拥抱汩汩心流、逃离尘世纷扰、找回本真自我的理想一隅，是如何被你切片、重排并注入新生的？查看全文",
+      "content": "那个让你放松娱乐、拥抱汩汩心流、逃离尘世纷扰、找回本真自我的理想一隅，是如何被你切片、重排并注入新生的？查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "dc85078408cd929f",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "App+1 | 把图标收进格子，DeskBox 让桌面整洁有序",
+      "url": "https://sspai.com/post/112279",
+      "published": "2026-08-14T02:54:21Z",
+      "author": "",
+      "summary": "DeskBox 让 Windows 桌面上散落的文件、待办和临时信息，都有一个顺手的位置。查看全文",
+      "content": "DeskBox 让 Windows 桌面上散落的文件、待办和临时信息，都有一个顺手的位置。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "519955c6c9e88723",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：深度求索推出开源 Agent 框架 DeepSeek Harness 及配套插件生态",
+      "url": "https://sspai.com/post/113434",
+      "published": "2026-08-14T00:52:24Z",
+      "author": "",
+      "summary": "阿里千问开放平台上线菜鸟智能体，Brave 和 Firefox 浏览器宣布将继续支持 uBlock Origin 扩展程序等。查看全文",
+      "content": "阿里千问开放平台上线菜鸟智能体，Brave 和 Firefox 浏览器宣布将继续支持 uBlock Origin 扩展程序等。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "43643a3dd841363b",
+      "feedTitle": "Google AI · DeepMind",
+      "feedUrl": "https://deepmind.google/blog/rss.xml",
+      "category": "AI 技术",
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "published": "2026-08-13T17:04:18Z",
+      "author": "",
+      "summary": "",
+      "content": "",
+      "readingMinutes": 1
+    },
+    {
+      "id": "d00944e12348f9f2",
+      "feedTitle": "Google AI · Blog",
+      "feedUrl": "https://blog.google/technology/ai/rss/",
+      "category": "AI 新闻",
+      "title": "Bring your spreadsheet data to life with Sheets canvas",
+      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "published": "2026-08-13T16:45:00Z",
+      "author": "Eric Birnbaum",
+      "summary": "The video shows Sheets canvas in action.",
+      "content": "The video shows Sheets canvas in action.",
+      "readingMinutes": 1
+    },
     {
       "id": "2f89913925491efd",
       "feedTitle": "PyTorch Blog",
@@ -220,6 +285,71 @@
       "author": "wnger",
       "summary": "一、veOmniverse 集成 Isaac 套件，打通具身模型云端全流程闭环 火山引擎 veOmn … Continued",
       "content": "火山引擎 veOmniverse 深度整合 NVIDIA 在具身智能方向的核心能力，围绕“数据采集—数据扩增—VLA+RL 后训练—仿真评测”构建起一条云端研发链路：前端通过 Isaac Teleop 完成遥操作数据采集，结合 NVIDIA Cosmos 提升数据丰富度与场景覆盖度；在训练侧，将 NVIDIA Isaac GR00T 融入 veRL pipeline，并结合 NVIDIA Isaac 仿真与评测体系，支持模型持续迭代与效果验证。整体来看，开发者无需自建复杂环境，即可在统一云平台上完成从数据生产到模型优化验证的整套流程，更高效地推进具身智能研发。 在具身智能数据生产中，遥操作采集往往是投入最重、组织最复杂的环节之一。火山引擎将字节 PICO 硬件能力与 Isaac Teleop 结合，把传统依赖真机、场地和专业人员的采集流程，升级为更轻量、\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "6f8368ac763b7373",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "The builder’s guide to GPT‑5.6",
+      "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "published": "2026-08-13T11:00:00Z",
+      "author": "",
+      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "content": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "b0ddeec1ee2b1312",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes",
+      "url": "https://arxiv.org/abs/2608.13057v1",
+      "published": "2026-08-13T10:21:11Z",
+      "author": "Jie Li",
+      "summary": "In expert-parallel (EP) MoE serving, every layer synchronizes at the slowest GPU. Dispatchers balance token counts (EPLB, LPLB, UltraEP) or activated-expert counts (METRO), assuming expert time is linear in one. Measurements on two datacenter GPU generations show it is neither:…",
+      "content": "In expert-parallel (EP) MoE serving, every layer synchronizes at the slowest GPU. Dispatchers balance token counts (EPLB, LPLB, UltraEP) or activated-expert counts (METRO), assuming expert time is linear in one. Measurements on two datacenter GPU generations show it is neither: below $\\nstar\\!\\approx\\!156$--$168$ tokens, HBM weight streaming dominates---cost attaches to \\emph{activated replicas}, not tokens; above it, grouped GEMM rounds tokens to 128-tile $M$-tiles, so \\emph{splitting} an expert adds padded compute. A max-affine profile $t=\\max(a+bG,\\,c+βN)$ captures both regimes. Realistic decode batches hold hot experts in the linear regime and cold in the flat \\emph{simultaneously}; recorded batches show proxy dispatches differ by $1.4$--$1.6\\times$ in modeled block time (p95 up to $1.7\\times$), and \\emph{which} proxy wins flips with the regime. We formalize per-batch dispatch as a fixed-charge makespan problem---NP-hard on two fully replicated GPUs, polynomial in degenerate limits---and present \\sys{}, a makespan-aware dispatcher solving it in milliseconds off the critical path; its SGLang integration runs out-of-process and fuses dispatch with count collection into one in-graph kernel. Anchored by an 8-GPU Testbed~A microbenchmark, \\sys{} stays within 1\\% of the best fixed baseline everywhere and wins by up to $15.5\\%$ where regimes mix. End-to-end on Testbed~B, Qwen3-235B (inside the win region) gains $4$--$6\\%$ throughput and cuts p99 latency by ${\\sim}15.6\\%$; DeepSeek-V3 (outside, communication-dominated) shows only mechanism cost. A phase diagram, not a universal win, is the claim: it predicts both outcomes before deployment.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c0986f6628d189a1",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "url": "https://openai.com/index/previewing-ultrafast",
+      "published": "2026-08-13T10:00:00Z",
+      "author": "",
+      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "content": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "4ce14f763be8d3a2",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Why Do Prefetchers Fail? Let Agents Answer",
+      "url": "https://arxiv.org/abs/2608.13027v1",
+      "published": "2026-08-13T09:54:38Z",
+      "author": "Xiangfeng Sun",
+      "summary": "Hardware prefetchers are crucial to processor performance, yet their design remains labor-intensive and expert-driven. Architects inspect execution and memory-access traces, identify patterns, translate them into online hardware heuristics, and evaluate them in simulation, often…",
+      "content": "Hardware prefetchers are crucial to processor performance, yet their design remains labor-intensive and expert-driven. Architects inspect execution and memory-access traces, identify patterns, translate them into online hardware heuristics, and evaluate them in simulation, often with no guarantee of improvement. Human experts cannot systematically inspect billion-instruction traces across diverse real-world workloads.\nWe present a performance-anomaly-driven autoresearch flow that repeatedly asks why a deployed prefetcher fails and uses the diagnoses to construct the Mixture of Prefetchers (MoP). Each iteration localizes high-impact unexplained misses to program counters, gives agents hardware logs, source code, and sliced traces, validates diagnoses through runnable minimal cases, and synthesizes specialized sub-prefetchers for recurring pattern families. Measured performance and remaining anomalies feed subsequent iterations, enabling simulator-in-the-loop discovery beyond model priors.\nThe campaign consumes 1.91 billion DeepSeek V4 Pro tokens. On SPEC CPU2006 and SPEC CPU2017, MoP achieves a 61.1% geomean IPC speedup over no prefetching, outperforming the human-designed Alecto, Berti, and Pythia prefetchers by 14.5%, 21.6%, and 23.6%, respectively. RTL synthesis in a 6nm library reports 110 KB of on-chip storage and 0.0347 mm^2 area. To our knowledge, this is the first empirical demonstration that an agent-driven hardware-design process can produce an RTL-practical prefetcher that outperforms state-of-the-art human designs on unseen workloads.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c7d75b08364118d7",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "How LLMs Respond to Escalating Delusions: Four Longitudinal Trajectories of Model Behavior",
+      "url": "https://arxiv.org/abs/2608.13017v1",
+      "published": "2026-08-13T09:36:40Z",
+      "author": "Anna Sterna",
+      "summary": "The widespread use of LLMs among psychiatric populations has raised concerns regarding their safety and potential iatrogenic impact in the context of AI psychosis. While growing literature conceptualizes AI psychosis and documents case studies, empirical evidence tracing AI-exac…",
+      "content": "The widespread use of LLMs among psychiatric populations has raised concerns regarding their safety and potential iatrogenic impact in the context of AI psychosis. While growing literature conceptualizes AI psychosis and documents case studies, empirical evidence tracing AI-exacerbated psychotic processes remains scarce. We propose and test a longitudinal qualitative evaluation design, supported by automated metrics, to assess mainstream LLMs' potential to exacerbate psychosis. Fifteen widely used LLMs were prompted across 30 days using the same 30-message script, simulating progression from mild anomalous experiences to psychotic ideation. Four trained evaluators independently rated 449 model-days, assessing (1) recognition stage (from naive engagement to stabilized clinical framing), (2) interpretative confidence, and (3) intervention profile (from education to treatment recommendation). Two computational metrics-entrainment and modality-were devised to increase evaluation reliability. Direct recommendations to disengage from the LLM were flagged and re-coded via adjudication using a strict two-level definition. Across model generations and vendors, we identified four response trajectories: (1) premature medicalization and disengagement (Claude Haiku 4.5); (2) recognition without safeguarding, marked by LLM self-sufficiency in offering help (GPT Instant/Thinking); (3) delayed and unstable recognition, marked by late, non-progressive conceptualization (Claude Opus 3/4/4.1, Claude Haiku 3.5, GPT-4o, Gemini 3.1 Pro); and (4) delusion co-construction through active engagement with delusional content (Gemini 2.5 Pro/Flash, DeepSeek-V3, Claude Sonnet 4). Our findings indicate that LLMs' potential to exacerbate AI psychosis should be operationalized as a combination of recognition timing, stability, and intervention accuracy and evaluated longitudinally, focusing on temporal dynamics.",
       "readingMinutes": 1
     },
     {
@@ -285,6 +415,19 @@
       "author": "",
       "summary": "如果你也想骑一次独库，希望这份来自普通骑行爱好者的实战记录，能让你出发前少踩一点坑。查看全文",
       "content": "如果你也想骑一次独库，希望这份来自普通骑行爱好者的实战记录，能让你出发前少踩一点坑。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "8d3f571ae54f4b1a",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "ARIES-Mission2: A Zero-Shot Vision-Language-Action Framework for Fast Large-Scale Aerial Mission Generation",
+      "url": "https://arxiv.org/abs/2608.12763v1",
+      "published": "2026-08-13T03:12:50Z",
+      "author": "Junhao Wei",
+      "summary": "Multimodal Large Language Models (MLLMs) have shown strong semantic understanding capabilities, but their direct use in low-altitude Unmanned Aerial Vehicle (UAV) mission generation remains limited by weak spatial optimization and inefficient route planning. To address this issu…",
+      "content": "Multimodal Large Language Models (MLLMs) have shown strong semantic understanding capabilities, but their direct use in low-altitude Unmanned Aerial Vehicle (UAV) mission generation remains limited by weak spatial optimization and inefficient route planning. To address this issue, we propose ARIES-Mission2, a zero-shot Vision-Language-Action (VLA) framework that decouples visual-semantic perception from physical route optimization. Given natural-language instructions and satellite imagery, ARIES-Mission2 first uses DeepSeek-V3 for task parsing and Molmo-7B for zero-shot target grounding, and then converts detected pixel locations into GPS waypoints through geospatial interpolation. To reduce the redundant backtracking caused by raw VLM-generated visiting orders, the back end formulates multi-target UAV traversal as a Traveling Salesperson Problem (TSP) and compares four candidate routes, including the raw VLM order and the routes optimized by PSO, GPSO, and IPSO. The minimum-cost closed-loop route is then selected for mission generation. Experiments on the UAV-VLPA-nano-30 benchmark show that ARIES-Mission2 achieves a total flight distance of 62.43 km, reducing the route length by 21.6% compared with the unoptimized VLA baseline (79.66 km) and by 9.5% compared with manual human planning (69.00 km). The complete 30-task workflow takes 575.40 s, averaging 19.18 s per task, which is approximately 3.6 times faster than human expert planning. Component-level timing shows that VLM inference dominates the runtime with 19.02 s per task, while the TSP solver requires only 0.16 s per task. Scalability analysis further indicates that the TSP module maintains lower growth in computation time as the number of targets increases.",
       "readingMinutes": 1
     },
     {
@@ -535,32 +678,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "70ea7ebf97ce40ea",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "我，与「唯一」的 iPhone Air",
-      "url": "https://sspai.com/post/112880",
-      "published": "2026-08-12T03:04:34Z",
-      "author": "",
-      "summary": "在 iPhone Air 之后才发现，有些产品存在的意义，是帮我确认我真正需要什么。查看全文",
-      "content": "在 iPhone Air 之后才发现，有些产品存在的意义，是帮我确认我真正需要什么。查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "d3e7cb8d933dccbe",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：微软已上调 Windows 11 OEM 授权费用、Claude 将为所有生成内容附加隐水印等",
-      "url": "https://sspai.com/post/113343",
-      "published": "2026-08-12T00:44:13Z",
-      "author": "",
-      "summary": "雷蛇那伽梵蛇 V3 专业版无线鼠标发布，铭凡推出 Elite Mini M2 Air-304 迷你主机等。查看全文",
-      "content": "雷蛇那伽梵蛇 V3 专业版无线鼠标发布，铭凡推出 Elite Mini M2 Air-304 迷你主机等。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "9bafa93fe08b847d",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -675,19 +792,6 @@
       "author": "Uma Ranjan",
       "summary": "Large language models (LLMs) often rely on shortcuts rather than systematic reasoning, raising safety concerns in medical applications. Allowing models to abstain when uncertain improves reliability but introduces a coverage accuracy tradeoff. We propose a two-stage framework fo…",
       "content": "Large language models (LLMs) often rely on shortcuts rather than systematic reasoning, raising safety concerns in medical applications. Allowing models to abstain when uncertain improves reliability but introduces a coverage accuracy tradeoff. We propose a two-stage framework for medical hypothesis verification in multiple-choice settings that manages this tradeoff through targeted ontology grounding, applied only when the model abstains. We show that abstention is not random but reflects genuine uncertainty, with abstained predictions associated with lower confidence. Across two frontier models (GPT-5.5, accessed via the Azure OpenAI API, and DeepSeek-R1), the proposed framework improves question-level accuracy by 9.6 percentage points (82.9% to 92.5%) and hypothesis-level accuracy by 4.2 percentage points (92.0% to 96.2%). Our experiments conducted on MedReason and MedQA show that abstention can be repurposed as a control signal for selective reasoning refinement, achieving knowledge-graph-level performance without explicit knowledge graph construction.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "32431a0dad0c52ad",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "社区速递 153 | 派友们的吃灰工作流、太空美学复古落地灯与实用帆布钱包",
-      "url": "https://sspai.com/post/113304",
-      "published": "2026-08-11T09:00:00Z",
-      "author": "",
-      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
-      "content": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
       "readingMinutes": 1
     },
     {
@@ -1065,58 +1169,6 @@
       "author": "Jiayi Li",
       "summary": "The scaling-up of large language models (LLMs) necessitates computing systems to have multi-processor-chip architectures, elevating the importance of chip-to-chip (C2C) communication. However, designing efficient C2C hardware architectures for LLM workloads faces three key chall…",
       "content": "The scaling-up of large language models (LLMs) necessitates computing systems to have multi-processor-chip architectures, elevating the importance of chip-to-chip (C2C) communication. However, designing efficient C2C hardware architectures for LLM workloads faces three key challenges: generating realistic LLM-specific C2C traffic, accurately simulating hardware-level communication at scale, and efficiently exploring the exponentially large C2C design space. We propose C2C-Explorer, an adaptive Bayesian DSE framework that integrates a LLM-workload-driven traffic generator, a scalable interconnect simulator (switch/full-mesh, up to 512 chips), and a metric-guided evaluator into a workload-to-hardware optimization pipeline, enabling systematic C2C architectural co-design under realistic LLM workloads. Validated against FPGA-based C2C prototypes, the C2C simulator achieves 2.46-8.23% end-to-end timing error across diverse traffic patterns. Its hybrid cycle and event model further accelerates large-scale simulation by up to 7.8$\\times$ over a pure cycle-accurate baseline. Applied to a 32-XPU DeepSeek-R1-671B inference workload, C2C-Explorer identifies configurations that improve goodput by 44.1% and reduce memory by 98.4%. C2C-Explorer is open-source and available at https://github.com/Selinaee/C2C-Explorer.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "ce081363df388a9d",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "FlashBoot: Sub-Second Weight Loading for Large Models at Rack Scale",
-      "url": "https://arxiv.org/abs/2608.08482v1",
-      "published": "2026-08-09T04:56:59Z",
-      "author": "Issac Zhu",
-      "summary": "Flagship Mixture-of-Experts (MoE) models are growing fast along two axes at once: total parameter count and the number of experts. In elastic deployment scenarios, many GPUs across many nodes must become serving-ready quickly, and this growth makes weight loading a noticeable pa…",
-      "content": "Flagship Mixture-of-Experts (MoE) models are growing fast along two axes at once: total parameter count and the number of experts. In elastic deployment scenarios, many GPUs across many nodes must become serving-ready quickly, and this growth makes weight loading a noticeable part of the latency budget. Even on NVIDIA's GB300 NVL72, today's state-of-the-art loaders leave most of that bandwidth unused. The losses are structural: (C1) weight memory is fragmented into tens of thousands of per-tensor objects, so transfers run far below link bandwidth; (C2) cross-node replication is gated by NCCL communicator setup, which costs 10-110 s before a single weight byte moves; and (C3) the existing cross-node GPU->GPU clone path is serial and scales poorly to concurrent multi-node bring-up. We present FlashBoot, a hardware-friendly, framework-workflow co-designed weight-loading subsystem built on SGLang. At its core is FabricArena, a contiguous, exportable and inter-node addressable tensor memory layout. On top of it, FlashLoad loads from CPU as a single bulk, zero-copy transfer, and FlashClone replicates a resident model from a remote GPU via a remote-mapping mechanism that removes NCCL setup. In experiments on NVL72 with DeepSeek-V4-Pro and DeepSeek-V4-Flash, FlashClone maps remote weight memory in ~10 ms (versus 10-110 s for NCCL) and sustains >=700 GB/s per clone. Against the state of the art, FlashBoot accelerates single-node weight loading by up to 50x (from 20.1 s to 0.4 s) and concurrent rack-level weight loading by >270x (from 87 s to 0.32 s). Our code will be made publicly available.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "300e92e0a9920306",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
-      "url": "https://arxiv.org/abs/2608.08466v1",
-      "published": "2026-08-09T04:17:11Z",
-      "author": "Tailin Zhou",
-      "summary": "Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold surrounding the model---the \\emph{harness}---is typically treated as a fixed artifact after deployment. This work studies an alternative where the harness is \\e…",
-      "content": "Modern LLM agents are often improved by modifying prompts, tools, or workflows manually, while the executable scaffold surrounding the model---the \\emph{harness}---is typically treated as a fixed artifact after deployment. This work studies an alternative where the harness is \\emph{task-specific and continuously evolvable}: each task family maintains its own harness, which is hot-swapped across iterations through a fixed task-injection seam and rewritten using environment feedback. We introduce \\textbf{Hierarchical Self-Improvement (HSI)}, a framework in which a single frozen LLM $M$ operates across three hierarchical scopes: a task harness $H$ that executes tasks, an evolver that rewrites $H$, and a meta-evolver that rewrites the evolver's strategy code under a frozen outer anchor. A thinking-on/off design isolates the contribution of harness evolution by disabling reasoning during task execution while enabling it during self-modification. HSI is bounded by two factors: a \\emph{feedback-fidelity bound}, since evolution requires informative reward signals to guide selection, and a \\emph{backbone capability bound}, since harness redesign cannot overcome limitations of the frozen model. On BALROG with DeepSeek-V4-Flash-Preview as the frozen backbone, HSI achieves consistent gains over the initial harness on moderate-difficulty tasks ($+39.3$ on BabyAI, $+33.0$ on Crafter, $+25.0$ on TextWorld, and $+15.0$ on MiniHack, all in raw \\% Progress), while obtaining strong held-out generalization on BabaIsAI sub-suites ($0.98$ best-test on BreakStop and $1.00$ on GoTo from a $20\\%$ unseen split). On tasks beyond the backbone's capability (NLE), harness evolution provides no improvement. These results demonstrate task-specific harness evolution as a viable axis for improving frozen LLM agents under clear empirical limits. Code is available at https://github.com/TailinZhou/hsi.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "aa9516914617fea0",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Thinking vs. NoThinking: Towards Interpreting Reasoning Mechanisms of Large Language Models via Sparse Autoencoders",
-      "url": "https://arxiv.org/abs/2608.08168v1",
-      "published": "2026-08-08T14:54:13Z",
-      "author": "Bo Cheng",
-      "summary": "While Large Language Models (LLMs) employing Chain-of-Thought (CoT) exhibit superior reasoning capabilities, the neural mechanisms distinguishing this explicit Thinking mode from direct answer generation (NoThinking mode) remain poorly understood. To deconstruct this cognitive p…",
-      "content": "While Large Language Models (LLMs) employing Chain-of-Thought (CoT) exhibit superior reasoning capabilities, the neural mechanisms distinguishing this explicit Thinking mode from direct answer generation (NoThinking mode) remain poorly understood. To deconstruct this cognitive process, we apply Top-K Sparse Autoencoders (SAEs) to the intermediate representations of DeepSeek-R1-Distill-Qwen-7B and examine the model's divergent behaviors across math-solving tasks of three distinct difficulty levels. Observationally, we identify a clear distinction in how the model functions under two reasoning modes: Thinking mode relies on sparse and high-intensity feature activations driving verbal deduction independent of problem complexity, whereas NoThinking mode exhibits an adaptive and diffuse pattern prioritizing symbolic manipulation. Causally, suppressing the three most active sparse features by Total Activation Volume reveals three principles: (i) reasoning and syntactic structure are tightly coupled, as interventions consistently degrade \\LaTeX{} and boxed-solution formatting; (ii) Thinking responds to disruption with compensatory over-generation marked by increased metacognitive cues and repetitive, low-information continuations; and (iii) coherent CoT behavior depends on a fragile coordination among specialized features, yielding distinct failure modes under perturbation but a consistently impaired output structure.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "48eae5e6c471e4e9",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "SodaMem: Evidence-Grounded Temporal Graph Memory for LLM Agents",
-      "url": "https://arxiv.org/abs/2608.08055v1",
-      "published": "2026-08-08T10:42:31Z",
-      "author": "Fengrong Wan",
-      "summary": "Large language model (LLM) agents that assist users over weeks of conversation must remember what is currently true, not merely what was once said. Flat RAG diaries and Markdown logs optimize needle retrieval but under-serve currency, provenance, and ordered temporal reasoning (…",
-      "content": "Large language model (LLM) agents that assist users over weeks of conversation must remember what is currently true, not merely what was once said. Flat RAG diaries and Markdown logs optimize needle retrieval but under-serve currency, provenance, and ordered temporal reasoning (Maharana et al. 2024; Wu et al. 2024; Packer et al. 2023; Chhikara et al. 2025). We present SodaMem, an evidence-grounded temporal graph memory that (i) extracts typed FactEvents with mandatory provenance spans, (ii) persists mention time, occurrence time, and validity with SUPERSEDES/CONTRADICTS/UPDATES edges under hybrid lexical-dense indexing, and (iii) answers via a planner-reader loop that gathers citable evidence before composing a final response. On LongMemEval-S, our store-of-record configuration reaches 92.8% accuracy (464/500; best of N=3) at mean $0.00161/question (approximately 18.3k tokens; median $0.00111 / approximately 14.6k) with deepseek-v4-flash. We compile public systems with estimable API cost into a cost table and cost-accuracy map; under these estimates SodaMem sits near the accuracy frontier at Flash-tier spend and strictly dominates several higher-cost, lower-accuracy points. Accuracy uses the same Flash model as reader and judge (self-grading); costs exclude ingest/judge and cross-system comparisons are compiled estimates rather than a single-harness bake-off.Our code is available at https://github.com/SodaMem/SodaMem",
       "readingMinutes": 1
     },
     {
@@ -2095,19 +2147,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "dca7adc62d79fe1c",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "published": "2026-07-30T10:00:00Z",
-      "author": "",
-      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-      "content": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-      "readingMinutes": 1
-    },
-    {
       "id": "ed4c05e97614a18c",
       "feedTitle": "NVIDIA 技术博客",
       "feedUrl": "https://developer.nvidia.cn/blog/feed",
@@ -2118,19 +2157,6 @@
       "author": "wnger",
       "summary": "由相同的 NVIDIA H100、GB200 NVL72 或 GB300 NVL72 系统构建的两个 AI 计 … Continued",
       "content": "由相同的 NVIDIA H100、GB200 NVL72 或 GB300 NVL72 系统构建的两个 AI 计算集群可以提供截然不同的训练吞吐量。在相同的工作负载、相同的模型、相同的全球批量大小上，我们通常会发现合作伙伴部署与相应的 NVIDIA 参考架构 (RA) 之间存在 8% 到 12% 的差距。 其原因通常是内核、hypervisor、BIOS 和 NVIDIA 集合通信库 (NCCL) 设置中的一系列配置选择，每项选择的成本仅为百分之几，而且这一差距足以错过 NVIDIA Exemplar Cloud 验证所需的 95% 值。 本文将介绍来自实际合作伙伴集群的四项调试调查。每次诊断都会隔离堆栈的不同层：NVIDIA Grace CPU 上的系统内存管理单元 (SMMU) 和分页表行为；基于 x86 的 CPU 上的电源管理和非统一内存访问 (NUMA) 放置；1.6…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "da425c76a8c018d0",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-      "url": "https://openai.com/index/avatarin",
-      "published": "2026-07-30T00:00:00Z",
-      "author": "",
-      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-      "content": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
       "readingMinutes": 1
     },
     {
@@ -2732,19 +2758,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "444580407c455e68",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA Spectrum-6 专为 Vera Rubin 打造，登陆十亿瓦级 AI 工厂",
-      "url": "https://blogs.nvidia.cn/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
-      "published": "2026-07-21T02:00:00Z",
-      "author": "Scot Schultz",
-      "summary": "AI 已进入十亿瓦级时代。 全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。 作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。 Spectrum-6 驱动新一代 NVIDIA Spec",
-      "content": "AI 已进入十亿瓦级时代。\n\n全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。\n\n作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。\n\nSpectrum-6 驱动新一代 NVIDIA Spectrum-X 以太网平台，为运营 AI 工厂端到端计算系统提供所需的高带宽、规模扩展和智能。\n\n领先的 AI 构建者率先行动\n\n包括 CoreWeave、微软、Nebius、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础架构构建商，率先采用 Spectrum-6，以加速其 AI 工厂建设。\n\n对于云服务提供商而言，Spectrum-6 意味着更高的计算能力，可以作为统一的高性能资源运行，帮助客户更快地训练模型和部署推理服务。\n\nCoreWeave 网络产品总监 Min Jun 表示：“CoreWeave 专为要求严苛的 AI 工作负载而构建，而网络是提供大规模高性能系统的核心。将 NVIDIA Spectrum-6 和液冷 Spectrum-X 以太网基础设施引入我们的 AI 工厂，能够提供更高的带宽、可靠性和效率，从而帮助我们更好地为客户提供模型训练服务，并更快地部署推理服务。”\n\nNebius 全球合作伙伴关系副总裁 Laurelle Roseman 表示：“在十亿瓦级系统上，协同决定总体性能：让每个 GPU 时刻保持同步，避免因为一个慢环节拖累整个工作。这正是 NVIDIA Spectrum-6 追求的目标，也是我们抢先采用它的原因——它能确保网络在随着客户应对要求严苛的工作负载规模扩展时，时刻保持高速和可靠性。”\n\n对于自建基础设施的 AI 先驱来说，Spectrum-6 意味着更多的 GPU 能够保持同步运行，为要求严苛、大量使用集合操作的作业实现更高的系统利用率，并提高长期运行工作的可靠性。\n\n在各种用例中，最重要的结果是更快地完成作业，并在大规模系统上实现更高的经济效益。\n\nCoreWeave、微软和 Nebius 将成为首批使用 Spectrum-6 部署 NVIDIA Vera Rubin 基础设施的提供商，为广泛的开发者、初创公司和企业社区提供平台访问服务。\n\nAI 性能本质上是一个网络问题\n\n仅凭单个 GPU 峰值性能无法预测 AI 工厂的性能。\n\n大规模训练和推理工作负载依赖于数千个加速器，它们之间频繁进行数据交换。集合通信是跨 GPU 进行工作同步的基本操作，会产生密集的东西向流量，且系统上通常有许多任务同时进行流量传输。\n\n以太网最初主要用于企业应用，承载用户、服务器和存储之间的南北向数据流量，并非为超大规模 AI 的同步、集合密集型通信模式而创建。\n\nSpectrum-X 以太网改变了这一局面。它专为 AI 打造，将以太网转变为高性能横向扩展网络，旨在为每个 GPU 及时“喂上”足够数据。\n\n新一代 Spectrum-X 以太网\n\nSpectrum-6 交换机芯片与 NVIDIA ConnectX-9 SuperNIC 相结合，构成了新一代 Spectrum-X 以太网，与 NVIDIA Vera CPU、Rubin GPU、NVLink 6 交换机、ConnectX-9 SuperNIC、BlueField-4 DPU 和 Spectrum-6 以太网交换机一起，共同组成了 NVIDIA Vera Rubin 平台。\n\nSpectrum-6 支持可插拔和光电一体化封装两种规格。此外，Spectrum-6 产品还支持液冷，支持整个 AI 工厂全面的端到端液冷方案，显著提高系统能效。\n\n与通用以太网不同，用于 AI 工厂横向扩展的 NVIDIA Spectrum-X 以太网网络平台结合了智能交换机、NVIDIA ConnectX-9 SuperNIC 和全栈网络软件，共同为 AI 定向设计。该平台的高级功能不断优化数据流量在网络中的移动。\n\n此外，NVIDIA Spectrum-X 技术可智能平衡可用路径中的流量，并且在发生网络故障时，快速绕过故障点实现精准恢复。此外，它支持开放网络操作系统，以及多种 RDMA 传输模型，在不牺牲性能的前提下，为 AI 构建者带来了最大的灵活性。\n\nSpectrum-X 以太网采用 NVIDIA 垂直集成、横向开放的设计方法：为整个计算平台协同设计芯片、系统和软件，同时支持标准以太网、开放网络操作系统、开放协议以及云服务提供商、系统制造商和基础设施合作伙伴的广泛生态系统。客户无需组装零件之后再对其进行优化，而是直接获得了一个完整的 AI 工厂平台，该平台旨在缩短训练时间并降低单位 Token 成本。\n\n与通用以太网相比，Spectrum-X 以太网可提供高达 1.6 倍的 AI 网络性能，在超过 10 万个 GPU 的部署中保持高达 95% 的网络效率，这充分体现了协同设计方法的优越性。\n\n硬件加速的 Spectrum‑X 多平面拓扑可使数据中心所需交换机数量减少 40%，进一步提升网络效率。叠加 Spectrum‑X 以太网硅光技术带来的各项优势 (能效提升 5 倍、平均无故障间隔时间提升 10 倍)，协同设计网络架构持续体现超越单一组件层面优化的应用加速。\n\n详细了解 NVIDIA Spectrum-X 以太网平台。",
-      "readingMinutes": 4
-    },
-    {
       "id": "9a4b60e8b1552bdd",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -2756,6 +2769,19 @@
       "summary": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。 Vera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。 Vera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供",
       "content": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。\n\nVera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。\n\nVera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供最高的每瓦性能和最低的 Token 成本。CoreWeave 针对 DeepSeek-R1 的首次基准测试结果充分证明了这一点：其每兆瓦吞吐量比 Grace Blackwell NVL72 提升了 10 倍——这直接切中了电力受限的 AI 工厂最关心的核心指标。\n\n通过极致协同设计提升性能\n\n取得这一突破的关键在于七款芯片和五种机架托盘之间的极致协同设计。五种机架系统包括 Vera Rubin NVL72、Vera CPU 机架、Groq 3 LPX、Spectrum-6 SPX 和 Vera BlueField-4 STX。它们被作为一个完整的系统进行工程研发，而非由通用产品简单拼凑而成。\n\nNVIDIA Vera CPU 正是其核心所在。它重新定义了“AI 工厂 CPU”应有的形态。专为智能体时代设计，其定制 Olympus 核心相较竞品的芯粒 (chiplet) 方案，单线程性能提升 2 倍、核间带宽提升 3 倍、内存延迟降低 40%，使其成为面向最关键智能体负载时最高效的单线程 CPU。\n\n以专属定制网络，加速 AI 工厂建设\n\n在网络方面，该平台的第六代 NVLink 纵向扩展技术在处理复杂工作负载时，相比通用以太网，吞吐量提升超过 2 倍、延迟降低 1/3、数据包处理速率提升 10 倍。在横向扩展方面，Spectrum-X 以太网集成 102.4T 的 Spectrum-6 交换机系统、1.6T 的 ConnectX-9 SuperNIC、自适应路由、高级拥塞控制、遥测技术以及开放的操作系统支持，使其 RDMA 带宽比通用以太网高出 1.6 倍。\n\n包括 CoreWeave、微软、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础设施建设者率先采用 Spectrum-6 交换机，以加速其 AI 工厂的建设。此外，采用 NVIDIA 光电一体化封装 (CPO) 技术用于横向扩展，这是全球首款实现量产的同类型交换机，与传统可插拔收发器相比，其能效提升了 5 倍，平均无故障间隔时间 (MTBI) 提升了 10 倍。CoreWeave、Lambda 和 OCI 率先采用该技术。\n\nSpectrum-XGS 以太网跨站点吞吐量提升 1.9 倍，实现跨站点性能增强。满足十亿瓦级 AI 工厂的建设不再局限于单一建筑的需求。\n\n同时，NVLink Fusion 向第三方 XPU 开放了 NVIDIA 基础设施平台，为合作伙伴能够借助成熟的 NVLink 纵向扩展堆栈和生态系统，实现产品的快速上市。\n\n节省部署时间，节约水资源\n\n经过三代机架级协同设计的迭代，NVIDIA 打造出的 Vera Rubin NVL72 系统实现了托盘内无电缆、无风扇、无液冷软管的极简设计，将计算托盘的组装时间从过去的数小时大幅缩短至仅需 1 分钟。\n\n45 摄氏度的液冷进水温度设计，使得系统无需冷水机组，仅靠干式冷却器即可运行。对于新建的 AI 工厂而言，这种高温干式冷却结合闭环液冷系统，每兆瓦每年可节省数百万加仑的水资源。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 驱动欧洲开放模型时代\n\nVera Rubin 正为欧洲的 AI 基础设施注入下一代性能。\n\nVera Rubin 也是微软与 Mistral 新一轮深化合作的基石。该合作将前沿 AI 带到了欧洲，把开放的欧洲模型与云环境及客户管理的环境相结合，使各国政府和重点监管行业能够按照自身需求采用 AI 技术。\n\n这项合作的背后，是一项旨在扩大欧洲 AI 基础设施的数十亿美元新协议。Mistral 正在扩充其 GPU 算力，通过引入数千个最新的 NVIDIA Vera Rubin GPU，增加面向客户的 AI 算力供给，并为训练、推理和大规模部署提供共享平台。\n\nNVIDIA Vera Rubin 正迈入全面量产阶段。这款机架级 AI 超级计算机将七款协同设计的全新芯片整合为一个统一系统，它将调用数万个 GPU，为新一代 Mistral Compute 和微软欧洲的 AI 基础设施提供动力。\n\n欧洲希望在遵循自身法律的情况下，在本地完全自主可控地运行全球最强大的 AI。同时，其面临的挑战也在不断升级：智能体系统消耗的 Token 数量可达传统 AI 应用的 15 倍，这使得高效的基础设施成为重点。满足这一需求不仅需要庞大的计算能力，更需要 AI 在实现高效扩展的同时，满足区域对数据控制、治理、可靠性及战略自主的要求。\n\nVera Rubin 为欧洲的开放模型生态系统提供了计算基础。其全栈架构融合了加速计算、网络与软件，使模型和智能体能够从训练到生产实现高效运行。\n\n为企业级 AI 打造的开放模型\n\n微软、Mistral 与 NVIDIA 共同在公共云、云连接以及完全断开连接的私有云环境中，提供适配的 AI——将开放模型的灵活性与大规模运行所需的基础设施结合。\n\nMistral Medium 3.5 和 OCR 4 现已在 Microsoft Foundry 上线，同时 Mistral 模型也已集成至 Microsoft Copilot Studio。客户可以通过 Azure Local 和 Foundry Local 在云端和客户自主控制的环境中使用相同的模型、工具和运行模式。\n\n符合欧洲标准的 AI\n\n政府机构可将 AI 应用于涉及敏感业务的工作流；医疗和金融服务机构可在满足区域合规要求的前提下进行部署；制造商可在本地处理数据以实现更快速的决策。与 NVIDIA GB200 NVL72 相比，Vera Rubin NVL72 每兆瓦的 Token 产出提升高达 10 倍，每百万 Token 的成本降至原来的十分之一，在同等功耗下提供更强大的智能算力。\n\n打造真正适配当地语言、文化与法规的 AI 不应要求组织在创新、经济效益与控制权之间做出取舍。以 Vera Rubin 为计算基础，依托微软和 Mistral 提供的自主云基础设施与欧洲开放模型，欧洲完全可以三者兼得。\n\n详情请参阅微软与 Mistral 的新闻稿。\n\n2026 年 7 月 21 日\n\nCoreWeave 基准测试显示，NVIDIA Vera Rubin 系统每兆瓦 Token 吞吐量达 Blackwell 的 10 倍\n\n通过与 NVIDIA 进行极致的协同设计，CoreWeave 正依托 Vera Rubin NVL72 实现数量级的性能跃升。\n\n与 CoreWeave 等合作伙伴的紧密协作，对于将新一代 NVIDIA 加速计算成功部署至 AI 工厂至关重要。\n\n经过数月的联合工程研发，CoreWeave 成为首家完成 Vera Rubin NVL72 部署与验证的 AI 云服务提供商——他们首次公布了基于实际运行硬件测得的性能数据。\n\nCoreWeave 在 Vera Rubin NVL72 上运行了 DeepSeek-R1 基准测试。结果显示，与 Grace Blackwell NVL72 相比，Vera Rubin NVL72 每兆瓦每秒 Token 吞吐量提升了 10 倍。\n\n每兆瓦 Token 吞吐量是决定 AI 基础设施能否实现大规模盈利的核心指标。每兆瓦产出的 Token 越多，意味着在同等电力预算下能产出更多的智能算力，或者在显著降低功耗的情况下处理相同的工作负载。Jane Street 等 AI 实验室和企业将采用 Vera Rubin 平台，在 CoreWeave 云上扩展其 AI 工厂。\n\n借助 NVIDIA Spectrum-X 突破瓶颈\n\nDeepSeek R1 采用的混合专家 (MoE) 架构，在大规模部署场景下 GPU 间的 all-to-all 通信成为一项关键需求：每个 Token 都必须在分布式的专家子网络中进行路由。Vera Rubin NVL72 配备的 260 TB/s all-to-all NVLink 6 互连架构彻底消除了这一限制，使整个机架能够作为统一的加速器运行。\n\nCoreWeave 是首批部署 NVIDIA Spectrum-X 以太网 SN6600-LD，将其作为 Vera Rubin NVL72 交换网络架构的企业之一。\n\nCoreWeave 基于 102.4 Tb/s 的 Spectrum-6 交换芯片并采用液冷设计，部署了高密度交换机架，单机架可提供 1.64 Pb/s 的带宽，容量较上一代风冷交换机提升了 100%。此外，CoreWeave 还提供完全无阻塞、多平面、多轨方案的 Spine and Leaf 网络架构，确保使用 Vera Rubin NVL72 构建的系统 GPU 之间无阻塞互连通信。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 系统驱动全新 Google Cloud A5X 实例，助力 Ineffable Intelligence 发展\n\n由 NVIDIA Vera Rubin NVL72 和针对数据中心横向扩展架构的 Google Virgo 网络共同驱动的 Google Cloud A5X 实例。图片由 Google Cloud 提供。\n\nNVIDIA Vera Rubin NVL72 正在为 Google Cloud 的首个 A5X 实例提供算力支持，该实例现已由伦敦初创公司 Ineffable Intelligence 率先采用。\n\nIneffable Intelligence 致力于开发新一代智能“Superlearner”系统，该系统能够通过经验持续学习，从而在各个领域实现新的突破。\n\nIneffable Intelligence 的智能体直接从与环境的交互中学习，而非依赖静态数据集。Ineffable 没有使用大语言模型 (LLMs) ，而是通过强化学习来开发“Superlearner”系统。该系统在持续模拟的大规模并行环境中生成经验，并迅速将这些经验转化为策略更新与评估。这种紧密耦合的学习闭环对算力、内存带宽和互连技术提出了极高的要求，需要基础设施能够在极大的规模下以极低的延迟运行。\n\nIneffable Intelligence 联合创始人 Lasse Espeholt 表示：“下一个研究时代，必须依托下一代的硬件。能与 NVIDIA 和 Google Cloud 的团队合作，让我们得以抢先体验 Vera Rubin，我们深感荣幸。这两个团队给予了极具价值的支持：我们的系统几乎立即完成部署并启动运行，目前已经在为 Superlearners 系统测试基础设施。”\n\nNVIDIA Vera Rubin NVL72 专为这类智能体训练而设计，能够提供可预测的低延迟、高利用率，以及远超上一代系统的单位智能算力产出。这使其成为大规模强化学习的理想平台选择。\n\n在 Google Cloud Next 上发布的 Google Cloud A5X 实例是基于 NVIDIA Vera Rubin NVL72 机架级系统构建的裸金属实例。与上一代相比，其每 Token 推理成本降低至 1/10，每兆瓦 Token 吞吐量提升了 10 倍。\n\nA5X 采用 NVIDIA ConnectX-9 SuperNICs 并结合了新一代 Google Virgo 网络，能够在单一站点内扩展至数万个 NVIDIA Rubin GPU，在跨多站点配置下更可扩展至近百万个 GPU 集群。这为客户提供了一套统一的、针对 AI 优化的技术栈，用于前沿模型、开放模型、智能体模型和物理 AI 模型的训练、微调和服务部署，同时实现了性能、成本和可持续性的全面优化。\n\n这一基础设施旨在助力解锁下一代强化学习系统，推动超级学习和超级智能领域的突破。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera CPU 助力 DeepInfra AI 云实现编排速度翻倍\n\nDeepInfra 的基准测试结果显示，NVIDIA Vera CPU 的运行速度是其他 CPU 的 2 倍以上，并且能够支持更多并发的 AI 智能体。\n\n作为 NVIDIA 开放 AI 生态系统的早期伙伴，云平台 DeepInfra 基于其生产级 AI 智能体基础设施，独立设计并运行了基准测试。DeepInfra 每周处理近 5 万亿个 Token，其中约 30% 由智能体系统驱动。其云平台专为高吞吐量的 AI 推理而打造。\n\n基准测试表明，在保持相同服务质量的前提下，Vera CPU 支持的并发 AI 智能体数量比其他 CPU 多出高达 1.6 倍，编排速度快 2.2 倍，同时还能提高基础设施的利用率和成本效益。这些结果充分证明，NVIDIA Vera CPU 能够提供生产级智能体 AI 所需的成本效益、低延迟和高吞吐量。\n\n随着 AI 智能体承担起越来越复杂的推理、规划、工具调用和数据传输任务，对于编排每次模型调用前后相关的工作而言，CPU 的性能正变得愈发重要。\n\n作为 NVIDIA 面向 AI 工厂的极致协同设计理念的一部分，Vera CPU 专为智能体工作负载而打造。DeepInfra 的基准测试充分凸显了 NVIDIA Vera CPU 如何帮助云服务提供商提升基础设施利用率、提高成本效益，并在保持相同服务质量的前提下支持更多并发的 AI 智能体。\n\n深入了解 NVIDIA Vera Rubin 平台。",
       "readingMinutes": 10
+    },
+    {
+      "id": "444580407c455e68",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA Spectrum-6 专为 Vera Rubin 打造，登陆十亿瓦级 AI 工厂",
+      "url": "https://blogs.nvidia.cn/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+      "published": "2026-07-21T02:00:00Z",
+      "author": "Scot Schultz",
+      "summary": "AI 已进入十亿瓦级时代。 全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。 作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。 Spectrum-6 驱动新一代 NVIDIA Spec",
+      "content": "AI 已进入十亿瓦级时代。\n\n全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。\n\n作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。\n\nSpectrum-6 驱动新一代 NVIDIA Spectrum-X 以太网平台，为运营 AI 工厂端到端计算系统提供所需的高带宽、规模扩展和智能。\n\n领先的 AI 构建者率先行动\n\n包括 CoreWeave、微软、Nebius、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础架构构建商，率先采用 Spectrum-6，以加速其 AI 工厂建设。\n\n对于云服务提供商而言，Spectrum-6 意味着更高的计算能力，可以作为统一的高性能资源运行，帮助客户更快地训练模型和部署推理服务。\n\nCoreWeave 网络产品总监 Min Jun 表示：“CoreWeave 专为要求严苛的 AI 工作负载而构建，而网络是提供大规模高性能系统的核心。将 NVIDIA Spectrum-6 和液冷 Spectrum-X 以太网基础设施引入我们的 AI 工厂，能够提供更高的带宽、可靠性和效率，从而帮助我们更好地为客户提供模型训练服务，并更快地部署推理服务。”\n\nNebius 全球合作伙伴关系副总裁 Laurelle Roseman 表示：“在十亿瓦级系统上，协同决定总体性能：让每个 GPU 时刻保持同步，避免因为一个慢环节拖累整个工作。这正是 NVIDIA Spectrum-6 追求的目标，也是我们抢先采用它的原因——它能确保网络在随着客户应对要求严苛的工作负载规模扩展时，时刻保持高速和可靠性。”\n\n对于自建基础设施的 AI 先驱来说，Spectrum-6 意味着更多的 GPU 能够保持同步运行，为要求严苛、大量使用集合操作的作业实现更高的系统利用率，并提高长期运行工作的可靠性。\n\n在各种用例中，最重要的结果是更快地完成作业，并在大规模系统上实现更高的经济效益。\n\nCoreWeave、微软和 Nebius 将成为首批使用 Spectrum-6 部署 NVIDIA Vera Rubin 基础设施的提供商，为广泛的开发者、初创公司和企业社区提供平台访问服务。\n\nAI 性能本质上是一个网络问题\n\n仅凭单个 GPU 峰值性能无法预测 AI 工厂的性能。\n\n大规模训练和推理工作负载依赖于数千个加速器，它们之间频繁进行数据交换。集合通信是跨 GPU 进行工作同步的基本操作，会产生密集的东西向流量，且系统上通常有许多任务同时进行流量传输。\n\n以太网最初主要用于企业应用，承载用户、服务器和存储之间的南北向数据流量，并非为超大规模 AI 的同步、集合密集型通信模式而创建。\n\nSpectrum-X 以太网改变了这一局面。它专为 AI 打造，将以太网转变为高性能横向扩展网络，旨在为每个 GPU 及时“喂上”足够数据。\n\n新一代 Spectrum-X 以太网\n\nSpectrum-6 交换机芯片与 NVIDIA ConnectX-9 SuperNIC 相结合，构成了新一代 Spectrum-X 以太网，与 NVIDIA Vera CPU、Rubin GPU、NVLink 6 交换机、ConnectX-9 SuperNIC、BlueField-4 DPU 和 Spectrum-6 以太网交换机一起，共同组成了 NVIDIA Vera Rubin 平台。\n\nSpectrum-6 支持可插拔和光电一体化封装两种规格。此外，Spectrum-6 产品还支持液冷，支持整个 AI 工厂全面的端到端液冷方案，显著提高系统能效。\n\n与通用以太网不同，用于 AI 工厂横向扩展的 NVIDIA Spectrum-X 以太网网络平台结合了智能交换机、NVIDIA ConnectX-9 SuperNIC 和全栈网络软件，共同为 AI 定向设计。该平台的高级功能不断优化数据流量在网络中的移动。\n\n此外，NVIDIA Spectrum-X 技术可智能平衡可用路径中的流量，并且在发生网络故障时，快速绕过故障点实现精准恢复。此外，它支持开放网络操作系统，以及多种 RDMA 传输模型，在不牺牲性能的前提下，为 AI 构建者带来了最大的灵活性。\n\nSpectrum-X 以太网采用 NVIDIA 垂直集成、横向开放的设计方法：为整个计算平台协同设计芯片、系统和软件，同时支持标准以太网、开放网络操作系统、开放协议以及云服务提供商、系统制造商和基础设施合作伙伴的广泛生态系统。客户无需组装零件之后再对其进行优化，而是直接获得了一个完整的 AI 工厂平台，该平台旨在缩短训练时间并降低单位 Token 成本。\n\n与通用以太网相比，Spectrum-X 以太网可提供高达 1.6 倍的 AI 网络性能，在超过 10 万个 GPU 的部署中保持高达 95% 的网络效率，这充分体现了协同设计方法的优越性。\n\n硬件加速的 Spectrum‑X 多平面拓扑可使数据中心所需交换机数量减少 40%，进一步提升网络效率。叠加 Spectrum‑X 以太网硅光技术带来的各项优势 (能效提升 5 倍、平均无故障间隔时间提升 10 倍)，协同设计网络架构持续体现超越单一组件层面优化的应用加速。\n\n详细了解 NVIDIA Spectrum-X 以太网平台。",
+      "readingMinutes": 4
     },
     {
       "id": "413ef8ab41769726",
@@ -3967,19 +3993,6 @@
       "readingMinutes": 8
     },
     {
-      "id": "d20d2186d5e0c63f",
-      "feedTitle": "Google AI · Blog",
-      "feedUrl": "https://blog.google/technology/ai/rss/",
-      "category": "AI 新闻",
-      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-      "published": "2026-06-11T20:00:00Z",
-      "author": "",
-      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
-      "content": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
-      "readingMinutes": 1
-    },
-    {
       "id": "e424724a1fa2a12d",
       "feedTitle": "Google AI · DeepMind",
       "feedUrl": "https://deepmind.google/blog/rss.xml",
@@ -4082,19 +4095,6 @@
       "summary": "Python Virtual RTU/IIoT Simulator with IEC-20922 MQTT Communication ProtocolProject Design Purpose : In this project, I did extend my previous Python-based virtual PLC/RTU simulator library (which interfaced to SCADA systems via Modbus-TCP and S7Comm, related link: https://www.l…",
       "content": "Python Virtual RTU/IIoT Simulator with IEC-20922 MQTT Communication ProtocolProject Design Purpose : In this project, I did extend my previous Python-based virtual PLC/RTU simulator library (which interfaced to SCADA systems via Modbus-TCP and S7Comm, related link: https://www.linkedin.com/pulse/python-virtual-plc-rtu-simulator-yuancheng-liu-elkgc) by adding the support function for IEC-20922 Mess",
       "readingMinutes": 1
-    },
-    {
-      "id": "de8841fe37e5cd57",
-      "feedTitle": "TensorRT-LLM Releases",
-      "feedUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
-      "category": "AI Infra",
-      "title": "v1.3.0rc17",
-      "url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.3.0rc17",
-      "published": "2026-06-02T18:50:51Z",
-      "author": "mikeiovine",
-      "summary": "Highlights Known Issues DeepSeek V3.2 will crash with an illegal memory access during long-running performance tests under various agg/disagg configurations. Model Support Add MoT World Model support (#14012) Enable multi-node tensor parallelism for MiniMax-M2 (#14314) Restore M…",
-      "content": "Highlights\n\nKnown Issues\n\nDeepSeek V3.2 will crash with an illegal memory access during long-running performance tests under various agg/disagg configurations.\n\nModel Support\n\nAdd MoT World Model support (#14012)\n\nEnable multi-node tensor parallelism for MiniMax-M2 (#14314)\n\nRestore Mistral Large 3 text-only processor (#14248)\n\nSupport Gemma4 multi-head_dim pools and host-side slicing for SWA Triton kernels (#13745)\n\nAdd a reasoning parser for Qwen3.5 (#14659)\n\nAdd LTX-2 Ulysses cross-attention for v2a with audio padding (#14044)\n\nAdd Poolside Laguna tool parser (#14638)\n\nReplace Parakeet audio encoder with native TensorRT-LLM layers (#14474)\n\nSet Mamba SSM cache to fp32 for NemotronV2 (#14448)\n\nAPI\n\nAllow content: null in CustomChatCompletionMessageParam (#14368)\n\nEnforce trust_remote_code flag (#13527)\n\nAdd thinking token budget control (#14665)\n\nExpose host/GPU per-iter time and clarify iter labeling in /metrics (#14127)\n\nMake attention backend case-insensitive (#14635)\n\nFeature\n\nAdd FlashInfer NVFP4 MoE backend (SM120/SM121) for Nemotron (#13773)\n\nIntegrate the FlashInfer GDN prefill kernel for Qwen3.5 (#13644)\n\nAdd LoRA support to LLMAPI Triton backend (#14079)\n\nLog KV cache utilization and context tokens per iteration (#14206)\n\nRemove one-warp-per-token policy from MoE A2A kernels (#14550)\n\nSupport non-divisible expert parallelism in MoE all-to-all and Slurm benchmark (#13888)\n\nAdd CuTe DSL attention via exported binaries in VisualGen (#13721)\n\nEnable NVFP4 KV cache support in trtllm-gen attention (#12544)\n\nAdd GMS-only weight sharing support (#13926)\n\nAdd VisualGen tensor parallelism support (#13614)\n\nEnable NCCL symmetric zero-copy by default (#14472)\n\nImprove disaggregated TTFT (#14719)\n\nFix\n\nRestore K2.5 multimodal dep8 accuracy test on Transformers 5.5.x (#14392)\n\nRemove sync after FlashInfer attention plan() (#14634)\n\nAdd a compatibility shim in load_hf_tokenizer for bytes_to_unicode (#14090)\n\nRoute trtllm-bench and trtllm-serve tokenizer load through TransformersTokenizer (#14452)\n\nFix crash in deep_ep.pyby falling back to the pre-quant dispatch path when hidden_states_sf is missing (#14404)\n\nFix gpt-oss accuracy issue by moving TinyGEMM PDL release after reduction (#14537)\n\nFix Mistral-Large-3 weight loading crash (#14033)\n\nBypass FlashInfer SSD prefill to fix state dtype precision (#14600)\n\nFix qwen3 hang on SM120/121 (#14424)\n\nFix NVFP4 engine size estimation and attention DP batch size in trtllm-bench (#13498)\n\nCatch OSError in config_file_lock for NFS compatibility (#11960)\n\nFix MoE DeepGEMM workspace size with attention DP (#13310)\n\nFix inf/NaN issues in Triton Mamba softplus (#14652)\n\nCap per-rank max_num_active_requests by max_num_tokens under attention DP (#14481)\n\nPropagate external SWA window to FMHA kernel in V2 KV cache (#13719)\n\nResolve NVML device index mismatch in get_numa_aware_cpu_affinity when CUDA_VISIBLE_DEVICES is set (#12985)\n\nReplace fixed disagg fill throttle with slow-start ramp (#14475)\n\nReuse batch_indices_cuda across CUDA graph captures in EAGLE3 (#14381)\n\nMake FA4 a proper pip dependency (#13788)\n\nFix GSM8K accuracy tests for LagunaXS on B200/GB200/B300 (#14580)\n\nDocumentation\n\nAdd CUTLASS DSL uninstall step to installation guide (#14621)\n\nAdd deprecation notice to legacy support-matrix.md (#14495)\n\nFix incorrect auto sampler behavior description for beam search (#14487)\n\nAdd VisualGen context to AGENTS.md (#14732)\n\nTest & Infra\n\nUpdate flashinfer-python from 0.6.11.post1 to 0.6.12rc2 (#14512, #14607)\n\nAdd disagg local one-step run script for CI submit (#14557)\n\nUpdate model path definitions in test_perf.py and clean up waives.txt (#14393)\n\nDedup executor unit tests on H100/B200 (#14556)\n\nAdd disagg cancellation stress-test harness skeleton (#14375)\n\nAdd UCX TLS env in disagg-related tests (#14626)\n\nReplace ONNX spec with onnx>=1.21.0 in requirements.txt (#14577)\n\nAdd test lists with multi-GPU tests to CI multi-GPU test trigger files (#14087)\n\nAdd offline equivalence test for sharding IR (#13963)\n\nEnable kv_cache_manager_v2 test for A10 (#12885)\n\nRemove two-model EAGLE3 spec-decoding tests (#14735)\n\nAdd TLLM_SPEC_DECODE_FORCE_NUM_ACCEPTED_TOKENS in spec decoding perf test (#14438)\n\nWhat's Changed\n\n[https://nvbugs/6182617][fix] Restore K2.5 multimodal dep8 accuracy test on transformers 5.5.x by @tianyuxbear in #14392\n\n[None][feat] FlashInfer NVFP4 MoE backend (SM120/SM121) for Nemotron … by @farazkh80 in #13773\n\n[None][perf] Integrate the flashinfer gdn prefill kernel for qwen3.5 by @nv-guomingz in #13644\n\n[None][chore] Update flashinfer-python from 0.6.11.post1 to 0.6.12rc1 by @yihwang-nv in #14512\n\n[https://nvbugs/6162328][fix] Add a tiny compat shim in load_hf_tokenizer that, when bytes_to_unicode is m by @tensorrt-cicd in #14090\n\n[https://nvbugs/6114610][test] unwaive disagg tests fixed by UCX_TLS setter by @xwang233 in #14440\n\n[None][fix] Route trtllm-bench and trtllm-serve tokenizer load through TransformersTokenizer by @dc3671 in #14452\n\n[https://nvbugs/6184914][test] Unwaive related tests by @yuxianq in #14523\n\n[https://nvbugs/6186880][fix] In deep_ep.py, fall back to the pre-quant dispatch path when hidden_states_sf is by @tensorrt-cicd in #14404\n\n[None][infra] Waive 2 failed cases for main in post-merge 2734 by @ZhanruiSunCh in #14526\n\n[None][infra] Waive 1 failed cases for main in post-merge 2735 by @ZhanruiSunCh in #14542\n\n[#11257][feat] Add LoRA support to llmapi triton backend by @karljang in #14079\n\n[None][chore] Include layer_idx in MoE backend fallback warnings by @dc3671 in #13409\n\n[None][chore] Add disagg local one-step run script for CI submit by @fredricz-20070104 in #14557\n\n[https://nvbugs/5974335][refactor] Update model path definitions in test_perf.py and clean up waives.txt by @yufeiwu-nv in #14393\n\n[TRTLLM-12968][ci] Dedup executor unit tests on H100/B200 by @YihuiLu512 in #14556\n\n[TRTLLM-12949][refactor] visual_gen: unify fused QK-norm+rope dispatch by @luyiyun1021 in #14529\n\n[https://nvbugs/6143579][fix] Allow content: null in CustomChatCompletionMessageParam by @tijyojwad in #14368\n\n[None][chore] log KV cache utilization and context tokens per iter by @pcicotti in #14206\n\n[https://nvbugs/6168859][fix] move tinygemm PDL release after reduction by @dongfengy in #14537\n\n[None][chore] Unwaive test_cp_tp_broadcast_object by @brb-nv in #14328\n\n[https://nvbugs/6211185][fix] Fix failed GSM8K accuracy tests for LagunaXS on B200/GB200/B300 by @DomBrown in #14580\n\n[TRTLLMINF-106][infra] Use B300 frontend platforms by @mlefeb01 in #14581\n\n[None] [refactor] Unify compressed-tensors quant config parsing by @DomBrown in #14468\n\n[None][feat] AutoDeploy push the rope buffer to later stage by @nvchenghaoz in #13859\n\n[https://nvbugs/6215736][infra] Unwaive test_fp8_blockscale[throughput_mtp] by @bobboli in #14541\n\n[https://nvbugs/6175923][test] Revert gpt_oss_20b perf MoE-backend pin by @ruodil in #14612\n\n[https://nvbugs/6221621][test] Update trust_remote to nemotron and phi4 models by @yufeiwu-nv in #14570\n\n[None][chore] update VisualGen codeowner settings by @zhenhuaw-me in #14530\n\n[None][infra] Waive 8 failed cases for main in post-merge 2738 by @ZhanruiSunCh in #14615\n\n[None][perf] Fuse FlashInfer GDN prefill state I/O into Triton kernels by @nv-guomingz in #14548\n\n[https://nvbugs/6164924][fix] Lower free_gpu_memory_fraction for Exaone tests by @tensorrt-cicd in #14486\n\n[https://nvbugs/6163033][fix] Guard q_a_proj.weight dict access behind nvfp4_fused_a; update test to `chec by @tensorrt-cicd in #14033\n\n[None][fix] Bypass FlashInfer SSD prefill to fix state dtype precision by @tijyojwad in #14600\n\n[None][fix] Exclude Qwen3 VL vision model from quantization by @2ez4bz in #12851\n\n[https://nvbugs/6162860][fix] Set free_gpu_memory_fraction=0.6 only when torch_compile=True for test_bfloat16_ by @tensorrt-cicd in #14109\n\n[None][chore] Remove one-warp-per-token policy from MoE A2A kernels by @bobboli in #14550\n\n[None][test] Waive 7 failed cases for main in QA CI by @xinhe-nv in #14498\n\n[None][doc] Add CUTLASS DSL uninstall step to installation guide by @yihwang-nv in #14621\n\n[https://nvbugs/6099723][fix] Gate supports_mnnvl() False on SM120/121 in _mnnvl_utils.py and add the same Mnn by @tensorrt-cicd in #14424\n\n[https://nvbugs/6114464][fix] Add kv_cache_config to TestQwen3VL_MOE::test_auto_dtype by @tensorrt-cicd in #13668\n\n[None][chore] Update flashinfer-python from 0.6.12rc1 to 0.6.12rc2 by @yihwang-nv in #14607\n\n[https://nvbugs/6109750][test] Unwaive passing GPTOSS tests by @dongfengy in #14596\n\n[https://nvbugs/6215690][fix] AutoDeploy: FlashInfer 128-byte alignment for Mamba inputs (also addresses nvbugs/6162114) by @galagam in #14535\n\n[None][docs] Add deprecation notice to legacy support-matrix.md by @fuergaosi233 in #14495\n\n[None][fix] make FA4 proper pip dependency by @o-stoner in #13788\n\n[TRTLLM-12648][test] add disagg cancellation stress-test harness skeleton by @chienchunhung in #14375\n\n[None][feat] support non-divisible EP in MoE alltoall and slurm benchmark by @JacobHu-NV in #13888\n\n[https://nvbugs/6094100][fix] add ucx tls env in disagg related tests by @chuangz0 in #14626\n\n[None][test] Update stress tests by @xinhe-nv in #14454\n\n[None][chore] Bump version to 1.3.0rc17 by @VALLIS-NERIA in #14657\n\n[None][infra] Fix hang when generating report by @EmmaQiaoCh in #14625\n\n[None][infra] Update blossom-ci allowlist: add nv-anants, guqiqi, jonghyunchoe, belgarten-nv by @yiqingy0 in #14662\n\n[https://nvbugs/6115560][fix] catch OSError in config_file_lock for NFS compatibility by @sara4dev in #11960\n\n[None][fix] Fix OSRB source header and provenance issues in AutoDeploy modeling code by @bmarimuthu-nv in #14670\n\n[https://nvbugs/6185173][fix] Set mamba ssm cache to fp32 for NemotronV2 by @tensorrt-cicd in #14448\n\n[https://nvbugs/5800725][fix] Restore Mistral Large 3 text-only processor by @byshiue in #14248\n\n[None][test] Unwaive fp8 blockscale baseline mtp1 by @sunnyqgg in #14666\n\n[None][docs] fix incorrect auto sampler behavior description for beam search by @fuergaosi233 in #14487\n\n[None][feat] Expose host/GPU per-iter time and clarify iter labeling in /metrics by @eopXD in #14127\n\n[None][chore] Add test lists with multi-gpu test to CI multi-gpu test trigger files by @pengbowang-nv in #14087\n\n[None][refactor] Add derived properties for the thop.attention call site by @yuxianq in #14279\n\n[https://nvbugs/6160085][fix] At tensorrt_llm/tokenizer/tokenizer.py import time, re-export `bytes_to_unicod by @tensorrt-cicd in #14116\n\n[None][infra] Waive 1 failed cases for main in post-merge 2740 by @ZhanruiSunCh in #14688\n\n[https://nvbugs/6221483][fix] Revert auto_deploy _mamba_ssm_prepare_metadata to pre-#13566 state by @greg-kwasniewski1 in #14640\n\n[TRTLLM-12762][fix] Enable multi-node TP for MiniMax-M2 by @pcicotti in #14314\n\n[https://nvbugs/6043248][fix] Validate tensor payload size on deserialization by @yibinl-nvidia in #14648\n\n[None][perf] Add AutoDeploy NVFP4 RMSNorm quant fusion by @tcherckez-nvidia in #14361\n\n[None][feat] Support Gemma4 multi-head_dim pools and host-side slicing to provide local view to Triton kernels for SWA by @eopXD in #13745\n\n[TRTLLM-13960][test] Offline equivalence test for sharding IR by @greg-kwasniewski1 in #13963\n\n[TRTLLM-11410][feat] MoT World Model Support by @NVShreyas in #14012\n\n[https://nvbugs/6115036][fix] Fix NVFP4 engine size estimation and attention DP batch size in trtllm-bench by @hyukn in #13498\n\n[https://nvbugs/5972776][fix] Pass IPC HMAC key through file descriptor by @yibinl-nvidia in #14378\n\n[https://nvbugs/5911594][fix] Restrict HTTP cluster storage to loopback by @yibinl-nvidia in #14161\n\n[None][fix] Exclude post-merge stages from CBTS force-keep filters by @achartier in #14594\n\n[TRTLLMINF-67][infra] use pre-configured idle GPU exemption by @tburt-nv in #14587\n\n[https://nvbugs/6207749][fix] Replace the spec with onnx>=1.21.0 in requirements.txt; mirror in `security_ by @tensorrt-cicd in #14577\n\n[https://nvbugs/6185480][fix] Autodeploy skip the GLM accuracy test for pre-hopper by @nvchenghaoz in #14656\n\n[https://nvbugs/6165866][infra] Waive 1 failed cases for main in pre-merge 40081 by @taylor-yb-lee in #14653\n\n[https://nvbugs/6187185][fix] Apply the existing low_memory_overrides() helper in `TestNemotronV2.test_auto_ by @tensorrt-cicd in #14584\n\n[https://nvbugs/6192201][fix] AutoDeploy: unwaive llama perf test and increase its concurrency to 256 by @MrGeva in #14691\n\n[TRTLLM-12982][feat] improve attention backend selection by @ixlmar in #14635\n\n[None][test] Enable test for kv_cache_manager_v2 for A10 by @lowsfer in #12885\n\n[None][infra] Generate json with cmake fetched contents in build stage by @yuanjingx87 in #13607\n\n[TRTLLM-12436][feat] visual_gen: add CuTe DSL attention via exported binaries by @xrq-phys in #13721\n\n[https://nvbugs/6229221][fix] Add a reasoning parser for qwen3_5 by @moraxu in #14659\n\n[None][fix] Reuse batch_indices_cuda across CUDA graph captures in EAGLE3 by @achartier in #14381\n\n[https://nvbugs/6084447][fix] Fix MoE DeepGEMM workspace size with attention_dp by @tensorrt-cicd in #13310\n\n[https://nvbugs/6189416][fix] Add a Blackwell-specific reference entry (extra_acc_spec=sm100_fp8, accuracy=46. by @tensorrt-cicd in #14484\n\n[#14619][perf] AutoDeploy: tune Llama-3.1-8B-Instruct-FP8 TP=2/4 config and handle CG max bs when it is unset in the yaml by @MrGeva in #14622\n\n[#13561][feat] AutoDeploy: enable MLIR elementwise fusion and trtllm_gen MoE on Nano NVFP4 by @MrGeva in #14554\n\n[https://nvbugs/6221841][fix] Detect via the raw config_dict whether the user actually set a top-level rope_th by @tensorrt-cicd in #14624\n\n[None][perf] Replace Parakeet audio encoder with native trtllm layers by @aswinvisva in #14474\n\n[https://nvbugs/6194552][fix] stabilize Triton Mamba softplus by @hnover-nv in #14652\n\n[TRTLLM-13043][chroe] add VisualGen context to AGENTS.md by @zhenhuaw-me in #14732\n\n[None][feature] Add thinking token budget control by @tijyojwad in #14665\n\n[TRTLLM-13050][test] Remove two-model eagle3 spec-decoding tests by @QiJune in #14735\n\n[TRTLLM-12653][feat] LTX-2 Ulysses cross-attention for v2a with audio padding by @luyiyun1021 in #14044\n\n[None][refactor] Flatten thop.attention sequence kwargs + rename rotary_embedding_* to rope_* by @yuxianq in #14569\n\n[https://nvbugs/6162857][fix] Use generation metrics for VisualGen perf sanity by @taianz-nv in #14176\n\n[https://nvbugs/6045177][fix] resolve mypy error by @ixlmar in #14689\n\n[None][feat] add Poolside Laguna tool parser by @DomBrown in #14638\n\n[TRTLLM-10004][chore] Enable NCCL symmetric zero-copy by default by @nv-lschneider in #14472\n\n[None][infra] Fix cbts tokenmacro b64 by @crazydemo in #14718\n\n[TRTLLM-12982][perf] remove sync after FlashInfer attention plan() by @ixlmar in #14634\n\n[https://nvbugs/6156233][test] unwaive GPT-OSS dflash test since bug has been closed as fix unknown by @dongfengy in #14713\n\n[TRTLLM-12901][fix] cap per-rank max_num_active_requests by max_num_tokens under attention DP by @xwang233 in #14481\n\n[None][feat] Enable NVFP4 KV cache support in trtllm-gen attention by @yihwang-nv in #12544\n\n[https://nvbugs/6185480][fix] autodeploy unwaive the test by @nvchenghaoz in #14716\n\n[https://nvbugs/6136737][fix] Propagate external SWA window to FMHA kernel in V2 KV cache by @tensorrt-cicd in #13719\n\n[https://nvbugs/5996024][fix] Enforce trust_remote_code flag by @yibinl-nvidia in #13527\n\n[https://nvbugs/5979710][fix] Bound transfer destinations by @yibinl-nvidia in #13525\n\n[None][fix] Resolve NVML device index mismatch in get_numa_aware_cpu_affinity when CUDA_VISIBLE_DEVICES is set by @YPxHolic in #12985\n\n[None][infra] revert #13607 by @tburt-nv in #14757\n\n[TRTLLM-12535][chore] Refactor fast path (token ID space) preprocessing logic out to the input preprocessor methods only by @moraxu in #14370\n\n[None][infra] Waive 2 failed cases for main in post-merge 2741 by @ZhanruiSunCh in #14737\n\n[None][infra] Waive 1 failed cases for main in pre-merge 40562 by @ZhanruiSunCh in #14776\n\n[TRTLLM-12440][feat] Add GMS-only weight sharing support by @chienchunhung in #13926\n\n[None][test] Unwaive some Perf Tests by @chenfeiz0326 in #14664\n\n[https://nvbugs/6204488][fix] Replace fixed disagg fill throttle with slow-start ramp by @chienchunhung in #14475\n\n[None][chore] Waive failing multi-gpu test by @brb-nv in #14788\n\n[TRTLLM-11408][feat] Add VisualGen TP Support by @belgarten-nv in #13614\n\n[None][test] Add TLLM_SPEC_DECODE_FORCE_NUM_ACCEPTED_TOKENS in Spec Decoding Perf Test by @chenfeiz0326 in #14438\n\n[https://nvbugs/6165866][infra] Waive 1 failed cases for main in pre-merge 40081 - Fix prefix by @taylor-yb-lee in #14756\n\n[https://nvbugs/6196391][fix] Carryover disagg TTFT improvements by @brb-nv in #14719\n\n[https://nvbugs/6244695][fix] Revert Pass IPC HMAC key through file descriptor by @chenfeiz0326 in #14782\n\nNew Contributors\n\n@fuergaosi233 made their first contribution in #14495\n\n@sara4dev made their first contribution in #11960\n\n@YPxHolic made their first contribution in #12985\n\n@belgarten-nv made their first contribution in #13614\n\nFull Changelog: v1.3.0rc16...v1.3.0rc17",
-      "readingMinutes": 11
     }
   ]
 }
