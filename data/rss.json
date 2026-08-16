@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T04:24:45.557753Z",
+  "generatedAt": "2026-08-16T16:19:09.943464Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "",
+      "siteUrl": "https://www.pixelstech.net",
       "articleCount": 11,
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "title": "OpenAI · News",
@@ -196,6 +196,19 @@
     }
   ],
   "articles": [
+    {
+      "id": "160e7a4da950c999",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "浏览器扩展合集： 我们为你找到了这 6 款实用、 有趣的「新玩意」",
+      "url": "https://sspai.com/post/113495",
+      "published": "2026-08-16T04:48:21Z",
+      "author": "",
+      "summary": "在浏览器扩展这边，近期又有哪些好用、有趣的「新玩意」呢？查看全文",
+      "content": "在浏览器扩展这边，近期又有哪些好用、有趣的「新玩意」呢？查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "0ebfd6a95cf03d1a",
       "feedTitle": "少数派",
@@ -467,19 +480,6 @@
       "author": "",
       "summary": "SQ1TW2NC 的声音素质、编码配置和降噪综合能力，应该都算是在国内同价位甚至更低价位主流新产品面前不太拿得出手的水平，没有特别明显的功能层面的长板，但你会发现即使如此，它依然有一些点值得国内品牌学习。查看全文",
       "content": "SQ1TW2NC 的声音素质、编码配置和降噪综合能力，应该都算是在国内同价位甚至更低价位主流新产品面前不太拿得出手的水平，没有特别明显的功能层面的长板，但你会发现即使如此，它依然有一些点值得国内品牌学习。查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "27c16480ecd6903c",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "6 天时间丈量独库公路：我的平安骑行指南",
-      "url": "https://sspai.com/post/112873",
-      "published": "2026-08-13T03:18:09Z",
-      "author": "",
-      "summary": "如果你也想骑一次独库，希望这份来自普通骑行爱好者的实战记录，能让你出发前少踩一点坑。查看全文",
-      "content": "如果你也想骑一次独库，希望这份来自普通骑行爱好者的实战记录，能让你出发前少踩一点坑。查看全文",
       "readingMinutes": 1
     },
     {
