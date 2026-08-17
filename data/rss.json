@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T16:19:09.943464Z",
+  "generatedAt": "2026-08-17T04:30:59.698698Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "https://www.pixelstech.net",
+      "siteUrl": "",
       "articleCount": 11,
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "title": "OpenAI · News",
@@ -197,6 +197,45 @@
   ],
   "articles": [
     {
+      "id": "78870e4e0b9faffe",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "借助 NVIDIA DGX Spark 加速 3D 视觉全流程，及拓科技构建面向物理 AI 开发与落地的本地化平台",
+      "url": "https://blogs.nvidia.cn/blog/accelerating-3d-vision-for-physical-ai-with-nvidia-dgx-spark/",
+      "published": "2026-08-17T03:12:40Z",
+      "author": "英伟达中国",
+      "summary": "案例简介 客户简介及应用背景 及拓科技是一家专注于大规模实时 3D 数据基础设施、空间计算与物理 AI 工作流的科技公司，围绕物理世界数据的采集、传输、渲染、标注、训练和感知推理，构建面向机器人、智能空间、工业场景应用的产品与解决方案。 及拓科技的产品方向包括 DetermVoxel 感算一体智能前端、FlowbitEngine 三维数据处理与实时渲染引擎、FlowbitSpatialSeg 空间智能分割模块，以及 FlowbitSpatialTag 空间语义标注服务。这些能力共同帮助企业将物理",
+      "content": "案例简介\n\n本案例展示及拓科技基于 NVIDIA DGX Spark，本地运行 Flowbit Engine、Flowbit SpatialSeg 与 Flowbit SpatialTag，打通多相机空间感知、3D 数据串流、智能分割、开放词汇语义标注与现场部署，形成面向物理 AI 的工作流。\n\n本案例采用 NVIDIA DGX Spark、GB10 Grace Blackwell Superchip、GPU 架构及 CUDA AI 软件栈，为本地物理 AI 开发与实施提供算力支撑。\n\n客户简介及应用背景\n\n及拓科技是一家专注于大规模实时 3D 数据基础设施、空间计算与物理 AI 工作流的科技公司，围绕物理世界数据的采集、传输、渲染、标注、训练和感知推理，构建面向机器人、智能空间、工业场景应用的产品与解决方案。\n\n及拓科技的产品方向包括 DetermVoxel 感算一体智能前端、FlowbitEngine 三维数据处理与实时渲染引擎、FlowbitSpatialSeg 空间智能分割模块，以及 FlowbitSpatialTag 空间语义标注服务。这些能力共同帮助企业将物理世界数据转化为可使用的 3D 数据集、语义标注、感知输出和可落地的空间智能能力。\n\n随着机器人、空间智能和物理 AI 应用从实验室原型走向真实场景，企业需要处理的不再只是 2D 图像和视频，还包括实时高密度点云、3D 语义标注、开放词汇目标检测和实时空间定位。物理 AI 的开发需要形成完整闭环：采集真实世界数据，完成 3D 标注与场景理解，训练或验证感知模型，并将结果部署到可实时运行的业务管线中。\n\n客户挑战\n\n在构建面向物理 AI 的 3D 视觉平台时，及拓科技主要面对以下四类工程挑战。\n\n3D 数据规模大\n点云场景通常包含数百万级点位，需要支持最高 2 GB 的实时串流和最高 1,000 万点的场景处理，并在同一工作流中完成几何处理、模型推理和交互式可视化。\n\n多模型链路复杂\n3D 语义标注与空间感知并非单一模型任务，而是需要结合几何处理、交互式分割、自动标注、开放词汇语义理解和多相机检测等能力。及拓科技在产品化过程中结合自研技术与完成授权或许可证合规评估的组件，避免因模型切换、内存容量、数据搬移和服务冷启动等因素影响迭代效率。\n\n需要本地化部署与可控成本\n物理 AI 项目经常涉及客户现场、工厂、实验室、商业空间等敏感环境。3D 扫描、相机画面和空间布局数据不适合频繁上传到云端处理。同时，云端 GPU 推理通常按算力实例、运行时长或调用量计费，并可能涉及数据上传下载、存储和网络传输成本；在反复实验、标注、验证和现场部署调试过程中，整体费用较难提前准确预测。\n\n3D 感知需要 CPU/GPU 协同\n3D 感知管线不仅包含神经网络推理，也包含法线估计、体素下采样、离群点过滤、DBSCAN 聚类和跨视角 3D 融合等大量几何计算。如果 CPU 与 GPU 之间的数据交互效率不足，整体系统难以满足快速迭代和现场实施所需的响应效率。\n\n应用方案\n\n基于以上挑战，及拓科技采用 NVIDIA DGX Spark 作为本地 3D 视觉与物理 AI 开发环境的核心算力基础。NVIDIADGX Spark 基于 NVIDIA Grace Blackwell 架构，集成 GPU 与 CPU 资源，配备 20 核 Arm 处理器，并提供 128 GB 统一寻址内存 (显存)，使及拓科技能够在桌面级设备上运行多模型、多服务、多相机的 3D 视觉工作负载。\n\n支撑大规模点云与多模型常驻\nFlowbitEngine 面向大规模点云文件和最高 1,000 万点场景处理而设计。借助 NVIDIADGX Spark 的统一内存架构，点云数据、几何处理模块和 AI 模型能够在同一系统中协同运行，减少传统离散 CPU/GPU 架构中频繁数据搬移和显存容量限制带来的工程复杂度。\n\nFlowbitSpatialSeg 可支持提示式分割、自动标注、语义检索和 3D 场景理解，让及拓科技能够将 3D 标注从高度依赖人工的流程，转向更适合物理 AI 数据集开发的机器学习辅助工作流。\n\n面向 Blackwell 架构优化推理链路\n及拓科技在 FlowbitSpatialSeg 后端围绕 NVIDIADGX Spark 的软硬件环境进行推理链路优化，包括合理配置 TF32、混合精度、cuDNNautotuning 与 CUDA AI 软件栈等能力，并结合本地部署场景对模型加载、批处理和服务调用流程进行调优。上述优化重点在于提升平台在 NVIDIADGX Spark 环境下的运行稳定性、资源利用效率和交互响应能力，从而更好支持交互式点击、自动标注、语义定位等数据准备与模型验证任务。\n\n在单机上并行运行标注与检测服务\nNVIDIADGX Spark 支持及拓科技在一台本地系统上同时运行 FlowbitSpatialSeg 与 FlowbitSpatialTag。FlowbitSpatialSeg 负责点云与 3D 场景数据的空间智能分割；FlowbitSpatialTag 基于多种模型的开放词汇检测能力，可返回多相机 2D 检测结果，并由 FlowbitEngine 进一步回投影为具备空间位置的 3D 对象。\n\n这意味着数据标注、模型推理、空间定位和业务管线验证可以在同一个开发环境中完成。对于物理 AI 落地而言，价值不仅来自单个模型，而是来自把数据采集、模型输出、3D 推理和部署验证连接成可重复的工程闭环。\n\n支持本地化实施与数据可控\nNVIDIADGX Spark 的桌面级形态让及拓科技能够在办公室、实验室或客户现场高效便捷地运行关键 3D 视觉任务。敏感的 3D 扫描数据和相机流可以保留在本地处理，降低云端传输、数据留存和合规风险。同时，本地算力使团队能够以固定设备成本反复进行模型实验、标注修正、检测验证和现场调试，而不是为每次推理调用承担额外边际成本。\n\n使用效果及影响\n\n通过使用 NVIDIA DGX Spark，及拓科技将核心 3D 视觉能力集中到本地 AI 超算环境中，形成面向物理 AI 的开发、验证和实施闭环。该平台不仅提升了 FlowbitSpatialSeg 和 FlowbitSpatialTag 的工程部署效率，也让点云标注、多相机开放词汇检测和 3D 对象定位能够在更可控的本地环境中协同运行。\n\n对于及拓科技的产品体系而言，NVIDIADGX Spark 带来的价值不只是更快的模型推理，而是让物理 AI 所需的关键环节更加一体化：真实世界数据可以被高效处理和标注；语义模型可以在本地持续迭代；检测结果可以进入 FlowbitEngine 并转化为空间对象；客户现场数据可以在不离开本地环境的前提下完成验证。\n\n这种本地化、统一内存、多模型并行的开发方式，使及拓科技能够更高效地构建面向机器人、智能空间、工业应用的 3D 数据基础设施，并为客户提供从数据采集、数据标注到感知部署和现场验证的端到端物理 AI 能力。\n\n“物理 AI 的核心挑战不只是训练模型，而是把真实世界数据、3D 物理标注、空间感知和现场部署连接成可持续迭代的工程闭环。NVIDIA DGX Spark 为我们提供了一个本地化、统一内存且面向 AI 工作负载优化的计算基础，使 FlowbitEngine、FlowbitSpatialSeg 与 FlowbitSpatialTag 能够在同一设备上协同运行，帮助我们更快地验证产品能力，并把 3D 视觉技术落地到真实场景。”\n\n—— 及拓科技[高磊，CTO]",
+      "readingMinutes": 6
+    },
+    {
+      "id": "fc1926e72d0ecb71",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "成年人包里的唯一一支笔：模块笔入门导购",
+      "url": "https://sspai.com/post/113445",
+      "published": "2026-08-17T03:00:00Z",
+      "author": "",
+      "summary": "如果你的包里想带一支笔以备不时之需，这支笔应该就是你想要的。查看全文",
+      "content": "如果你的包里想带一支笔以备不时之需，这支笔应该就是你想要的。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "62f4a4fd0a9a158b",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：😭（放声大哭）成为最流行 emoji",
+      "url": "https://sspai.com/post/113524",
+      "published": "2026-08-16T22:54:56Z",
+      "author": "",
+      "summary": "😭（放声大哭）成为最流行 emoji 美国要求合作方在中美 AI 竞赛中「选边站」 ChatGPT 上线使用历史记录功能 美国政府敦促苹果不要购买中国内存芯片 uBlock Origin 放弃维护 Facebook 广告规则 索尼加速向娱乐业务转型 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+      "content": "😭（放声大哭）成为最流行 emoji\n\n美国要求合作方在中美 AI 竞赛中「选边站」\n\nChatGPT 上线使用历史记录功能\n\n美国政府敦促苹果不要购买中国内存芯片\n\nuBlock Origin 放弃维护 Facebook 广告规则\n\n索尼加速向娱乐业务转型\n\n看看就行的简讯\n\n少数派的近期动态\n\n你可能错过的好文章\n查看全文",
+      "readingMinutes": 1
+    },
+    {
       "id": "160e7a4da950c999",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -249,6 +288,32 @@
       "readingMinutes": 1
     },
     {
+      "id": "a4341278928385a6",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "DeaMoE: Efficient MoE Structure for Fast Small-Batch Decoding",
+      "url": "https://arxiv.org/abs/2608.14385v1",
+      "published": "2026-08-14T15:25:32Z",
+      "author": "Zewen Jin",
+      "summary": "Mixture-of-Experts (MoE) models have been widely adopted in real-time interactive applications such as coding assistants, real-time audio-video interaction systems. To meet the extremely low response latency requirements of these scenarios, practitioners commonly employ small-ba…",
+      "content": "Mixture-of-Experts (MoE) models have been widely adopted in real-time interactive applications such as coding assistants, real-time audio-video interaction systems. To meet the extremely low response latency requirements of these scenarios, practitioners commonly employ small-batch decoding, under which MoE inference becomes memory-bound and is severely bottlenecked by expert weight loading. However, this bottleneck has received limited attention, and existing solutions such as post-training weight compression or fine-grained expert design during pre-training either degrade model accuracy or introduce additional computation and communication overhead. To tackle this issue, we propose DeaMoE, a decoding-efficient MoE architecture, in which the experts are grouped into several departments, and the experts belonging to the same department share most parameters since they come from the same professional field, and additionally each expert contains a few private parameters to reflect its uniqueness. Moreover, we design customized two-stage routing strategy for DeaMoE to avoid redundant loading, under which DeaMoE greatly improves the efficiency during LLM decoding. Compared with vanilla MoE, DeaMoE reduces per-step loaded weights by up to 50.9% and achieves up to 1.33 end-to-end TPOT speedup for the pre-trained 7B model on A40, and up to 2.00x and 1.97x peak speedup for DeepSeek-V3 on A40 and H100 in microbenchmarks.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "923f278c365154cb",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "CoRun: Padding is Simple and Efficient for Deterministic LLM Inference",
+      "url": "https://arxiv.org/abs/2608.14376v1",
+      "published": "2026-08-14T15:17:14Z",
+      "author": "Shiju Zhao",
+      "summary": "Despite fixed sampling parameters and random seeds, Large Language Model (LLM) inference exhibits output inconsistency, which undermines downstream tasks such as model evaluation and reinforcement learning. A major source of this nondeterminism is batch-dependent GPU execution:…",
+      "content": "Despite fixed sampling parameters and random seeds, Large Language Model (LLM) inference exhibits output inconsistency, which undermines downstream tasks such as model evaluation and reinforcement learning. A major source of this nondeterminism is batch-dependent GPU execution: dynamic input shapes change kernel tiling and floating-point reduction orders. Existing systems address this problem with batch-invariant kernels, but these kernels restrict optimized tiling and split reductions, increasing more than 2$\\times$ latency and reducing serving throughput by up to 74 %. This paper observes that although most kernels are not batch-invariant, they are position-invariant. Leveraging this property, we present CoRun, a scheduling-based system that achieves deterministic inference without requiring batch invariance. CoRun employs isolated prefill and fixed-shape batched decode to handle the two stages of LLM inference, respectively, leveraging CUDA graphs for efficient execution and simplified implementation. Experiments on LLMs with diverse architectures, including Qwen and DeepSeek, show that CoRun ensures determinism while improving throughput by 15-324 % over batch-invariant approaches, reducing time-to-first-token by 51.8 % and time-per-output-token by 48.6 % on average.",
+      "readingMinutes": 1
+    },
+    {
       "id": "f3fe60adbf44247d",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -262,6 +327,32 @@
       "readingMinutes": 1
     },
     {
+      "id": "03f52a626a338824",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Rethinking Automated Program Repair: The Impact of Bug Complexity, Fault Localization, and LLM Cost-efficiency",
+      "url": "https://arxiv.org/abs/2608.14065v1",
+      "published": "2026-08-14T08:23:25Z",
+      "author": "Junchi Liu",
+      "summary": "Background: Software bugs remain a critical challenge in development, necessitating effective Automated Program Repair (APR) techniques. While Large Language Model (LLM)-based APR systems have shown promise, prior studies primarily focus on overall repair effectiveness. The effe…",
+      "content": "Background: Software bugs remain a critical challenge in development, necessitating effective Automated Program Repair (APR) techniques. While Large Language Model (LLM)-based APR systems have shown promise, prior studies primarily focus on overall repair effectiveness. The effects of bug complexity, fault localization, reasoning settings, and repair cost-effectiveness remain insufficiently explored.\nAims: This study presents a comprehensive empirical analysis of LLM-based APR, focusing on how repair performance is shaped by bug complexity, fault localization, reasoning settings, and costs.\nMethod: We evaluate two APR techniques (ChatRepair and CodeCorrector) using three LLMs (DeepSeek, GPT, and Llama), and examine their performance across diverse levels of bug complexity and localization strategies through a multi-dimensional empirical framework and statistical analysis.\nResults: Although structurally complex bugs and imprecise fault localization make repair more challenging, LLM-based APR techniques still achieve competitive repair effectiveness. Imprecise fault localization can substantially enlarge the performance gap between APR techniques. Furthermore, higher-cost LLMs and stronger reasoning settings do not consistently yield better cost-efficiency, revealing a nontrivial trade-off between repair effectiveness and computational cost.\nConclusions: Over 50% of moderately complex bugs can be repaired by low-cost LLM-based APR techniques. The repair effectiveness gap between APR techniques becomes larger as fault localization becomes less precise. GPT-5 repairs 7 and 39 more complex bugs than DeepSeek-V4-pro and DeepSeek-V3.2, respectively; whereas the total repair cost of DeepSeek-V3.2 shows the best cost-efficiency performance.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "a033a7a503aaa804",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes",
+      "url": "https://arxiv.org/abs/2608.13057v2",
+      "published": "2026-08-14T07:00:29Z",
+      "author": "Jie Li",
+      "summary": "In expert-parallel (EP) MoE serving, every layer synchronizes at the slowest GPU. Dispatchers balance token counts (EPLB, LPLB, UltraEP) or activated-expert counts (METRO), assuming expert time is linear in one. Measurements on two datacenter GPU generations show it is neither:…",
+      "content": "In expert-parallel (EP) MoE serving, every layer synchronizes at the slowest GPU. Dispatchers balance token counts (EPLB, LPLB, UltraEP) or activated-expert counts (METRO), assuming expert time is linear in one. Measurements on two datacenter GPU generations show it is neither: below $n^* \\approx 156$--$168$ tokens, HBM weight streaming dominates---cost attaches to $activated replicas$, not tokens; above it, grouped GEMM rounds tokens to 128-tile $M$-tiles, so $splitting$ an expert adds padded compute. A max-affine profile $t=\\max(a+bG,\\,c+βN)$ captures both regimes. Realistic decode batches hold hot experts in the linear regime and cold in the flat $simultaneously$; recorded batches show proxy dispatches differ by $1.4$--$1.6\\times$ in modeled block time (p95 up to $1.7\\times$), and $which$ proxy wins flips with the regime. We formalize per-batch dispatch as a fixed-charge makespan problem---NP-hard on two fully replicated GPUs, polynomial in degenerate limits---and present TEMPO, a makespan-aware dispatcher solving it in milliseconds off the critical path; its SGLang integration runs out-of-process and fuses dispatch with count collection into one in-graph kernel. Anchored by an 8-GPU Testbed A microbenchmark, TEMPO stays within $1\\%$ of the best fixed baseline everywhere and wins by up to $15.5\\%$ where regimes mix. End-to-end on Testbed B, Qwen3-235B (inside the win region) gains $4$--$6\\%$ throughput and cuts p99 latency by $\\sim 15.6\\%$; DeepSeek-V3 (outside, communication-dominated) shows only mechanism cost. A phase diagram, not a universal win, is the claim: it predicts both outcomes before deployment.",
+      "readingMinutes": 1
+    },
+    {
       "id": "ceb571bbec7d9ffd",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -272,6 +363,19 @@
       "author": "",
       "summary": "纪念并且感谢他为我们留下的推理世界。查看全文",
       "content": "纪念并且感谢他为我们留下的推理世界。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c3330a2d1c9b65a0",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Batch-wise Adaptive Pruning: Periodic Neuron Activation-Aware Weight Pruning for Language Reasoning Model",
+      "url": "https://arxiv.org/abs/2608.14003v1",
+      "published": "2026-08-14T06:46:02Z",
+      "author": "Yongmin Kim",
+      "summary": "Large Reasoning Models (LRMs) achieve strong performance on complex tasks through extended chain-of-thought generation, but incur substantial computational costs during inference. In production settings, batched inference is essential for high throughput, yet the existing traini…",
+      "content": "Large Reasoning Models (LRMs) achieve strong performance on complex tasks through extended chain-of-thought generation, but incur substantial computational costs during inference. In production settings, batched inference is essential for high throughput, yet the existing training-free adaptive pruning methods we evaluate severely degrade in this regime. Because a batch must share a single pruning mask, these methods aggregate activations across samples and then apply threshold-based selection; the threshold, calibrated offline on unaggregated activations, no longer matches the aggregated distribution, so the realized sparsity ratio drifts and accuracy on reasoning tasks collapses under batched inference.\nIn this work, we propose a training-free adaptive pruning method designed specifically for batched inference in LRMs, built on two components. First, we replace threshold-based selection with periodic top-k selection over the aggregated importance scores, which is unaffected by the shift that aggregation induces in the activation distribution, and which runs selection once per update period rather than at every token, preserving the speedup. Second, based on the observation that important neurons re-fire periodically during long reasoning generation, we introduce an activation memory that accumulates importance across update phases so that recurring neurons are retained.\nExperiments on diverse reasoning benchmarks demonstrate that our method outperforms the previous state-of-the-art adaptive pruning method by 39.7 percentage points in average accuracy at batch size 4 with 50% target sparsity on DeepSeek-R1-Distill-Qwen-7B, and reaches 1.40x speedup over dense inference at 50% actual sparsity.",
       "readingMinutes": 1
     },
     {
@@ -379,19 +483,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "b0ddeec1ee2b1312",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes",
-      "url": "https://arxiv.org/abs/2608.13057v1",
-      "published": "2026-08-13T10:21:11Z",
-      "author": "Jie Li",
-      "summary": "In expert-parallel (EP) MoE serving, every layer synchronizes at the slowest GPU. Dispatchers balance token counts (EPLB, LPLB, UltraEP) or activated-expert counts (METRO), assuming expert time is linear in one. Measurements on two datacenter GPU generations show it is neither:…",
-      "content": "In expert-parallel (EP) MoE serving, every layer synchronizes at the slowest GPU. Dispatchers balance token counts (EPLB, LPLB, UltraEP) or activated-expert counts (METRO), assuming expert time is linear in one. Measurements on two datacenter GPU generations show it is neither: below $\\nstar\\!\\approx\\!156$--$168$ tokens, HBM weight streaming dominates---cost attaches to \\emph{activated replicas}, not tokens; above it, grouped GEMM rounds tokens to 128-tile $M$-tiles, so \\emph{splitting} an expert adds padded compute. A max-affine profile $t=\\max(a+bG,\\,c+βN)$ captures both regimes. Realistic decode batches hold hot experts in the linear regime and cold in the flat \\emph{simultaneously}; recorded batches show proxy dispatches differ by $1.4$--$1.6\\times$ in modeled block time (p95 up to $1.7\\times$), and \\emph{which} proxy wins flips with the regime. We formalize per-batch dispatch as a fixed-charge makespan problem---NP-hard on two fully replicated GPUs, polynomial in degenerate limits---and present \\sys{}, a makespan-aware dispatcher solving it in milliseconds off the critical path; its SGLang integration runs out-of-process and fuses dispatch with count collection into one in-graph kernel. Anchored by an 8-GPU Testbed~A microbenchmark, \\sys{} stays within 1\\% of the best fixed baseline everywhere and wins by up to $15.5\\%$ where regimes mix. End-to-end on Testbed~B, Qwen3-235B (inside the win region) gains $4$--$6\\%$ throughput and cuts p99 latency by ${\\sim}15.6\\%$; DeepSeek-V3 (outside, communication-dominated) shows only mechanism cost. A phase diagram, not a universal win, is the claim: it predicts both outcomes before deployment.",
-      "readingMinutes": 1
-    },
-    {
       "id": "c0986f6628d189a1",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -454,32 +545,6 @@
       "author": "",
       "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
       "content": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "c48f39c24118edf4",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "从原理出发，高效搞定夏日营养冷食",
-      "url": "https://sspai.com/prime/story/summer-cold-meal-guide",
-      "published": "2026-08-13T08:01:56Z",
-      "author": "",
-      "summary": "不知道多少人和我一样，夏天吃饭的纠结项往往从「今晚到底吃什么」，变成了「太热了到底要不要吃呢」。天气太闷太热、厨房又没有空调，在想到开火的那一刻又心生畏惧，最后还是点外卖或者随便吃点东西凑合了事。但也 ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
-      "content": "不知道多少人和我一样，夏天吃饭的纠结项往往从「今晚到底吃什么」，变成了「太热了到底要不要吃呢」。天气太闷太热、厨房又没有空调，在想到开火的那一刻又心生畏惧，最后还是点外卖或者随便吃点东西凑合了事。但也 ...查看全文\n本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
-      "readingMinutes": 1
-    },
-    {
-      "id": "bf5b9187292c261d",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "TDS REVIEW | 铁三角 ATH-SQ1TW2NC 降噪真无线耳机体验",
-      "url": "https://sspai.com/post/113338",
-      "published": "2026-08-13T07:01:08Z",
-      "author": "",
-      "summary": "SQ1TW2NC 的声音素质、编码配置和降噪综合能力，应该都算是在国内同价位甚至更低价位主流新产品面前不太拿得出手的水平，没有特别明显的功能层面的长板，但你会发现即使如此，它依然有一些点值得国内品牌学习。查看全文",
-      "content": "SQ1TW2NC 的声音素质、编码配置和降噪综合能力，应该都算是在国内同价位甚至更低价位主流新产品面前不太拿得出手的水平，没有特别明显的功能层面的长板，但你会发现即使如此，它依然有一些点值得国内品牌学习。查看全文",
       "readingMinutes": 1
     },
     {
@@ -691,6 +756,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "a50bae60f8e0d8c2",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA CEO 黄仁勋荣登 Glassdoor 2026 年“最佳 CEO”榜首",
+      "url": "https://blogs.nvidia.cn/blog/nvidia-life-glassdoor-best-ceo-2026/",
+      "published": "2026-08-12T01:24:45Z",
+      "author": "Febe Punsalan",
+      "summary": "NVIDIA 创始人兼首席执行官黄仁勋在 2026 年 Glassdoor“最佳 CEO”榜单中位列榜首。 该榜单的评选直接来自最了解候选人领导才能的人 —— 他们的员工。黄仁勋以 99% 的员工认可率在榜单中位列榜首。 Glassdoor 表示：“随着 AI 发展和不断变化的期望重新定义了现代工作场所，卓越的领导力变得比以往任何时候都更加重要。榜单前 50 名的 CEO 不仅负责日常运营，还为员工赋能并推动真正的企业文化发展。” 时隔五年，Glassdoor 于今年重新推出了“最佳 CEO”榜",
+      "content": "NVIDIA 创始人兼首席执行官黄仁勋在 2026 年 Glassdoor“最佳 CEO”榜单中位列榜首。\n\n该榜单的评选直接来自最了解候选人领导才能的人 —— 他们的员工。黄仁勋以 99% 的员工认可率在榜单中位列榜首。\n\nGlassdoor 表示：“随着 AI 发展和不断变化的期望重新定义了现代工作场所，卓越的领导力变得比以往任何时候都更加重要。榜单前 50 名的 CEO 不仅负责日常运营，还为员工赋能并推动真正的企业文化发展。”\n\n时隔五年，Glassdoor 于今年重新推出了“最佳 CEO”榜单，取代此前的“最佳领导公司奖”榜单。后者曾于 2025 年将 NVIDIA 评为第一名。此次调整将进一步聚焦 CEO 和高管的领导力，及其对员工体验和公司声誉的影响。\n\nGlassdoor 还于 1 月发布了“科技与 AI 领域最佳工作场所”，NVIDIA 在该榜单荣获第一名。在 2026 年“最佳 CEO”榜单的 50 位获奖者中，约有 28 位所在公司同时入选 Glassdoor 2026 年“最佳工作场所”榜单，再次印证了 CEO 的卓越领导力和优秀的企业文化是相辅相成的。\n\n聚焦领导力\n\nGlassdoor 表示，该奖项旨在表彰那些在就业市场充满不确定的当下，仍然“富有同理心、清晰度高且目标明确的 CEO”。Glassdoor 通过分析员工的评分和评论，重点考察了员工对 CEO 的认可度和信任度。\n\nGlassdoor 首席经济师 Daniel Zhao 在一份声明中表示：“当下正值员工最需要信任领导层的时候，可是他们对领导层的信任却出现了动摇。我们的数据显示，高层领导获得的员工评分达到了近十年来的最低点。在此背景下，这份名单上的 CEO 的做法恰恰相反：他们沟通清晰、坚守公司使命，并赢得了员工真正的信任。”\n\n科技公司在榜单中名列前茅\n\n“最佳领导公司”50 强榜单涵盖多个行业，而科技公司在榜单中占据主导地位。\n\n今年，Glassdoor 的“最佳 CEO”50 强榜单上有 9 位科技公司 CEO 上榜，这使得科技成为最具代表性的行业，由 NVIDIA 领衔，其后依次是房地产、金融服务和制造业领域的领导者。\n\n员工在提交企业评价时，需要对与其工作体验相关的几个维度进行评分，包括对 CEO 和高级管理层的工作表现。员工还可以通过 Glassdoor 的匿名评论分享对企业文化的看法。\n\n以下是近期对 NVIDIA 领导层的一些评价：\n\n“黄仁勋是一位充满活力且真诚的领导者 (NVIDIA) 同事都很友好、乐于助人。在这里工作很有意义。”\n\n“CEO 富有远见，是真正的领导者。”\n\n“黄仁勋为 NVIDIA 制定了极具前瞻性的企业愿景。”\n\n“CEO 就像一位明星人物，公司鼓励协作。”\n\n员工对 NVIDIA 企业文化的评价：\n\n“这是我工作过的最好的公司。工程文化、以人为本的领导方式、充分尊重个人工作方式的自由，这些都是其他任何地方难以实现的。”\n\n“这是一家真正鼓励跨团队协作的公司。高层鼓励第一性原理。”\n\n“作为新技术变革的中坚力量，你有机会参与前沿的 AI 技术的研发。”\n\n“在这里我有机会可以根据自己的兴趣和才能规划职业发展道路，而且公司十分支持员工，提供的福利也是首屈一指的。”\n\nGlassdoor 的“最佳 CEO”榜单是依据 2025 年 5 月 16 日至 2026 年 5 月 15 日期间美国企业员工进行的公司评价统计得出。\n\n进一步了解 NVIDIA 的生活、文化和职业。",
+      "readingMinutes": 3
+    },
+    {
       "id": "9bafa93fe08b847d",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -845,6 +923,19 @@
       "summary": "随着 AI 从聊天机器人向自主智能体演进，开放模型正在满足市场对全面掌控 AI 运行位置、部署方式和演化方式的需求。 今日，NVIDIA 宣布推出 Nemotron 3.5 Lightning，进一步扩展其 Nemotron 3 模型系列，这是同类产品中效率领先的模型，适用于长时间运行的代理式 AI 工作负载。此次发布紧随 Nemotron 3 Nano 之后，体现了 NVIDIA 对持续改进开放模型以提高准确性和速度的承诺。 Nemotron 3.5 Lightning 是一个 300 亿参数",
       "content": "随着 AI 从聊天机器人向自主智能体演进，开放模型正在满足市场对全面掌控 AI 运行位置、部署方式和演化方式的需求。\n\n今日，NVIDIA 宣布推出 Nemotron 3.5 Lightning，进一步扩展其 Nemotron 3 模型系列，这是同类产品中效率领先的模型，适用于长时间运行的代理式 AI 工作负载。此次发布紧随 Nemotron 3 Nano 之后，体现了 NVIDIA 对持续改进开放模型以提高准确性和速度的承诺。\n\nNemotron 3.5 Lightning 是一个 300 亿参数的混合专家模型，专为大型多智能体系统中的特定任务而构建，有助于创建更智能、更高效的智能体应用。\n\n此外，NVIDIA 还发布了 NeMo Switchyard，这是一款旨在为热门智能体工具提供智能路由的开源库。企业可以根据自己的特定需求用其来构建路由器。部署后，NeMo Switchyard 能够在开发者自行组合的开放模型、专有模型以及 NVIDIA 模型之间智能地将每个请求定向到强大且高度适合该任务的模型，而无需开发者重写其应用程序。\n\nNemotron 3.5 Lightning 和 NeMo Switchyard 共同赋予了用户对 AI 部署方式、运行位置以及运行效率的更出色的掌控力 —— 无论是在 PC、工作站、数据中心还是云端。\n\nNemotron 3.5 Lightning 是一款专为高并发智能体工作流而构建的小型、可定制的开放模型，可提供前沿级智能。\n\n始终在线的智能体需要由多个模型组成的系统\n\n现代智能体系统 (始终在线的智能体) 正越来越多地作为由多个模型组成的系统或模型集合运行，其中不同的模型专门负责不同的任务。\n\nNVIDIA Nemotron 开放模型专为此架构设计。像 Nemotron 3 Ultra 或 GPT-5.6 这样的前沿推理模型可以规划和协调工作流，而像 Nemotron 3.5 Lightning 这样的小型专用模型可以执行代码审查、工具使用、安全警报监测和回答计费问题等目标任务。\n\n借助 Nemotron 3.5 Lightning 赋能高并发专用任务\n\nNVIDIA Nemotron 3.5 Lightning 是专为高并发任务而构建的完全可定制的开放模型，可为始终在线的智能体提供支持。该模型的开发得益于 Nemotron Coalition 的贡献，其成员提供了评估方法、推理软件和数据集，助力推进模型发展。\n\n与同类模型相比，该模型的输出速度至高可提升至原来的 4 倍，可将智能体任务的完成速度提升 30%。得益于 Nemotron 3.5 Lightning 开放且可定制的特点，企业可以轻松地利用 NVIDIA NeMo 结合自身的领域数据、工具和工作流对其进行后训练，以提高专用任务的准确性。\n\nPinchBench 基准测试表明，与同类模型相比，Nemotron 3.5 Lightning 更快地完成智能体任务，同时保持前沿级准确性。\n\n各行各业的 AI 领导者正在为其工作负载定制 Nemotron 3.5 Lightning，帮助提高特定领域智能体任务的准确性。例如，CrowdStrike 将其用于网络安全、Harvey with Trajectory 将其用于法律服务、CodeRabbit 结合 Baseten 将其用于代码审查。此外，Lila Sciences 正在利用它帮助提高物理和生命科学领域智能体任务的推理能力；Fastino Labs 对该模型进行了定制，在软件开发、金融和医疗工作负载方面取得了领先的准确性。\n\n企业已对 Nemotron 3.5 Lightning 进行定制，以在各自的智能体工作流中实现其专用任务的领先准确性。\n\nNemotron 3.5 Lightning 还让企业能够管理隐私和部署。它可以在本地 AI 系统上运行 —— 包括 NVIDIA RTX PC、NVIDIA DGX Spark 以及 NVIDIA Jetson，帮助用户充分利用现有的基础设施投资，或在边缘 AI 设备、NVIDIA RTX PRO 工作站、数据中心和云环境上进行扩展，以满足企业级用例需求。此外，针对需要快速响应的大量专用任务，Nemotron 3.5 Lightning 可在本地设备或企业内部运行。\n\n此外，与每次发布 Nemotron 一样，NVIDIA 会在许可允许的范围内尽可能多地发布训练数据和技术，为其他模型的可追溯性、审计和训练提供了便利。与 Lightning 一同发布的还有 Nemotron-RL-Agentic-Terminal-Pivot，这是一个智能体强化学习数据集，用于对编码智能体功能进行后训练。\n\n借助模型路由实现更高效的 AI 应用\n\n有些模型更适合编码、有些更适合推理、有些更适合轻量级任务，还有些经过优化，可在本地运行，以提高隐私性和效率。如果客户仅依赖一个默认模型，可能会导致成本超支或降低质量；如果他们手动管理路由，则会变成集成工作，从而拖慢部署速度。\n\nNVIDIA NeMo Switchyard 是一个面向 AI 智能体的开源模型路由库。该技术根据特定需求，自动将提示词路由到智能体工作流每个步骤中能力较强、效率较高的模型。智能体应用开发者可以使用不同的路由算法来调整或修改路由器，以满足他们在质量、延迟和成本方面的优先级要求。在由多个模型组成的系统中，企业可以创建具有更优的 Token 经济学的强大 AI 智能体。\n\n内部基准测试表明，NeMo Switchyard 在保持前沿级准确性的同时，将任务完成成本降低到仅为使用 Opus 4.8 的约三分之一。\n\nNVIDIA 内部基准测试表明，NeMo Switchyard 在保持前沿级准确性的同时，将任务完成成本降低到仅为使用 Opus 4.8 的约三分之一。\n\nNVIDIA 正在与 AI 生态系统中的合作伙伴共同将智能模型路由引入开发者已在使用的工具和平台。\n\nBoomi：在五项路由功能上对 Switchyard 进行了评估，实现了 100% 的域路由准确性，将 59% 的流量发送到速度提升 5 倍的微调模型，并将后续轮次延迟降低了 21%。\n\nCadence：在形式验证用例中使用 ChipStack AI Super Agent，将效率提升 9.9%。\n\nClassmethod：正在内部使用 NeMo Switchyard 运行 opencode 和 Fireworks 工作负载，初步测试显示，在保持质量的同时成本降低了 27%。\n\nCognition：将 NVIDIA NeMo Switchyard 分阶段路由器集成到 Devin Desktop 中，供 NVIDIA 内部使用，在 FrontierCode Main 实现了接近前沿的性能，同时与将所有请求路由到单个底层前沿模型相比，平均成本降低了 28%。\n\nKong：通过 Kong AI Gateway 原生提供基于 NeMo Switchyard 的路由。\n\nLangChain：通过 NeMo Switchyard，在 145 个多轮 Deep Agent 任务中，仅将 7% 的调用路由到前沿模型，在 6% 的准确率妥协实现了 74% 的成本降低。\n\nLiteLLM：正在将 NeMo Switchyard 作为插件添加到其代理层中，因此，开发者无需更改现有技术栈即可获得这些优势。\n\nNous Research：将 NeMo Switchyard 集成到 Hermes 中，为开发者提供易于配置的路由系统，以提高智能体效率。\n\nRamp：在 Ramp SWE-Bench 使用 NeMo Switchyard 匹配前沿模型的性能，同时将成本降低 58%，运行时间缩短 33%。\n\n西门子：正在进行基准测试，以提高 Fuse EDA AI Agent 效率。\n\nNemotron 3.5 Lightning 现已在 Hugging Face、魔搭社区、OpenRouter 作为 NVIDIA NIM 提供。用户也可通过 NVIDIA 云合作伙伴、后训练平台、推理平台和云服务提供商等广泛的生态系统获取。NeMo Switchyard 现已在 GitHub 上提供，并即将登陆各合作伙伴平台。",
       "readingMinutes": 6
+    },
+    {
+      "id": "2cb3dc2e3b4d9b37",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA AI 工厂计算正成为可投资资产类别",
+      "url": "https://blogs.nvidia.cn/blog/nvidia-ai-factory-compute/",
+      "published": "2026-08-11T03:35:18Z",
+      "author": "Jensen Huang",
+      "summary": "我们宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 和 KKR 建立合作伙伴关系，创建独立的融资平台，计划逐步调动超过 5000 亿美元的第三方资本，用于 AI 基础设施的建设。 这对 NVIDIA 和 AI 行业来说都是一个重要的里程碑。我们已经从过去企业逐项目购买芯片，建立数据中心的时代，迈向了一个新的阶段。依托可复制的平台、长期机构资本支持，以及通过计算创造收入的多元化客户群体，AI 工厂可以作为生产性基础设施获得融资。 A",
+      "content": "我们宣布与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 和 KKR 建立合作伙伴关系，创建独立的融资平台，计划逐步调动超过 5000 亿美元的第三方资本，用于 AI 基础设施的建设。\n\n这对 NVIDIA 和 AI 行业来说都是一个重要的里程碑。我们已经从过去企业逐项目购买芯片，建立数据中心的时代，迈向了一个新的阶段。依托可复制的平台、长期机构资本支持，以及通过计算创造收入的多元化客户群体，AI 工厂可以作为生产性基础设施获得融资。\n\nAI 已达到转折点，正在从研究转向生产。AI 正在创造真正的价值，其背后的基础设施正在成为全球最具生产力的资产之一。在 AI 领域，计算就是收入。\n\n一种全新的基础设施资产\n\nNVIDIA 计算不仅仅是一颗芯片，而是一个完整的 AI 工厂平台，包括加速计算、网络、系统软件、AI 框架以及全球开发者生态系统。\n\nNVIDIA DSX AI 工厂可以运行种类广泛的 AI 模型、模态和算法，包括语言、视觉、语音、生物学、物理 AI 和机器人。一个 NVIDIA AI 工厂可为众多客户和多种工作负载提供服务，因此具备灵活性，可以实现交换。\n\n它还建立在全球通用的架构之上，这一架构被全球主要的云、系统制造商和企业广泛使用。当需求发生变化时，工厂可快速服务于其他客户、云或运营商。这种广泛的生态系统为 NVIDIA 计算提供了一个由潜在用户和承购商组成的深厚的市场，有助于保护残值。\n\n随着时间的推移，CUDA 会持续优化工厂。每一代 NVIDIA 软件都能进一步提升已部署基础设施的性能、效率和总体拥有成本。硬件不会停滞不前，而软件层面的创新，能让 AI 工厂在其整个生命周期中以更低的成本生产更多的智能，从而延长其经济价值。\n\n这正是 NVIDIA AI 工厂与众不同之处，价值并非在部署时就固定不变。CUDA 持续提高其输出能力；已部署设备在初始折旧期结束后仍可以保持高产出；统一标准的架构服务于深厚且不断增长的全球 AI 工作负载市场。\n\n这正是可投资基础设施资产的特征：它能创收、服务于广阔的市场、性能随着时间的推移而提高，并且可以重新部署。\n\n为 AI 工厂引入资本\n\nAI 基础架构的需求庞大，但获得资本的机会并不均衡。许多优秀的 AI 公司、企业和 AI 云对计算都有需求，但尚未获得能够支撑其快速构建所需规模或成本的融资。\n\n这就是我们与世界领先的长期资本提供商合作的原因。\n\nApollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 和 KKR 是全球领先的基础设施投资者，在承销长期、具备生产能力的资产方面拥有深厚的专业知识。我们正在共同创建可复制的融资平台，帮助 AI 生态系统建设所需的工厂。\n\n这些平台旨在帮助符合条件的 AI 实验室、企业和 AI 云，大规模访问 AI 工厂基础设施。超过 5000 亿美元的数字代表这些平台计划在未来逐步调动的第三方资本总额，并不是 NVIDIA 的收入、单个基金或对单个客户的承诺。\n\n金融机构将独立评估每个机会，包括客户、需求、利用率、现金流和残值。NVIDIA 提供 AI 工厂平台，金融机构则提供长期的资本和融资方面的专业知识。\n\n关键的问题\n\n这是循环融资吗？\n\n此次合作正是回应这一担忧。我们正在将独立、长期的机构资本引入 AI 基础设施市场。\n\n市场需求是真实的，来自前沿 AI 实验室、AI 原生初创公司、企业、云服务提供商和正在构建 AI 服务的国家及地区。资本提供商将对每个项目进行单独的承销，包括客户、需求、利用率、现金流和残值。NVIDIA 提供平台，投资者则负责做出独立的融资决策。\n\n这是 AI 基础设施开放资本市场的开端。\n\nNVIDIA 为何支持融资？\n\n在某些具体情况下，NVIDIA 可能会为项目提供最高 25% 的残值支持机制，并逐个项目进行仔细评估。这种支持基于残值基础上且规模有限，旨在补充而不是取代独立承销。\n\n相比其他计算融资模式，这一支持比例要低得多。NVIDIA 之所以能够提供此类支持，是因为 NVIDIA 的计算具有独特优势：它可以被交换、被全球广泛采用、能够通过软件升级，并且可以在庞大的客户生态系统中进行部署。\n\n我们的职责是帮助释放庞大的独立资本池，同时保持严格的风险敞口。\n\n市场能否消化这些规模？\n\n真正的问题，并不在于我们是否正在构建数据中心。而是我们是否正在构建具有生产能力的 AI 工厂。\n\nAI 工厂将能源和数据转化为有价值的智能。其客户非常广泛，包括前沿 AI 实验室、AI 云、企业和国家和地区。他们正在构建 AI，因为它变得越来越有用，在各行各业创造实际价值。\n\n整个融资模式具有严格的约束。每个融资合作伙伴将独立评估需求、利用率、现金流和残值。计算能力将围绕真正的客户经济效益来构建。\n\n投资回报来自哪里？\n\n回报在于 AI 所创造的价值。\n\n企业正在使用 AI 来编写软件、研发药物、设计产品、服务客户、实现运营自动化以及打造新服务。AI 工厂使这一切成为可能。更多的计算会创造更好的 AI；更好的 AI 会带来更多应用；更多的应用会创造更多的收入；更多的收入会推动更多的计算量投入。\n\n这是 AI 产业变革的良性循环。\n\n智能基础设施\n\n每一次工业变革都建立在电力、交通、通信和计算等基础设施之上，而这些建设都曾由外部融资实现。\n\nAI 工厂是智能时代的基础设施。\n\n借助此次合作，NVIDIA 和全球领先的金融机构共同开创一种全新的基础设施融资方式，这将为这场工业变革提供动力。我们将帮助正在创造未来的企业、行业，国家和地区，更便捷地部署 AI 工厂。\n\nAI 时代已经到来。我们将共同构建驱动这一时代发展的基础设施。",
+      "readingMinutes": 5
     },
     {
       "id": "b2dc5166b6e43a0c",
@@ -1120,45 +1211,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "239d7fd5a4a619f8",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Beyond Routing: Decoupling Expert Dispatch and Aggregation in Sparse Mixture-of-Experts",
-      "url": "https://arxiv.org/abs/2608.08853v1",
-      "published": "2026-08-09T18:31:16Z",
-      "author": "Zongfei Li",
-      "summary": "Sparse Mixture-of-Experts (MoE) routers commonly use the same scores both to select experts and to weight their already-computed outputs. We study whether these two roles, dispatch and aggregation, should be coupled. On pretrained OLMoE-1B-7B, we keep selected Top-8 expert IDs,…",
-      "content": "Sparse Mixture-of-Experts (MoE) routers commonly use the same scores both to select experts and to weight their already-computed outputs. We study whether these two roles, dispatch and aggregation, should be coupled. On pretrained OLMoE-1B-7B, we keep selected Top-8 expert IDs, expert computation, and total selected router mass fixed and change only within-set aggregation. A structured oracle improves full-horizon cross-entropy by 0.0160 +/- 0.0039 across three seeds; the router's top-scored expert is the counterfactual-best vertex only 17.2% of the time, with router-utility Spearman 0.030. We therefore train Fixed-Dispatch Adaptive Aggregation (FDAA), a 301K-parameter post-compute head optimized directly with the language-modeling objective while freezing the backbone, router, and experts. On OLMoE, FDAA improves fresh WikiText-103 test by Delta CE = -0.1523 +/- 0.0031 across three seeds, and mixed-domain training gives robust gains on WikiText-103, C4, and held-out Penn Treebank under frozen confirmatory evaluation. We also replicate the fixed-dispatch audit on DeepSeek-V2-Lite, which uses Top-6 routed experts plus shared experts. Best-vertex headroom remains significant on WikiText and C4, while router Top1 identifies the best selected expert in only 12.5% and 16.7% of audited examples. In a one-seed mixed-domain replication, FDAA improves locked WikiText and PTB, while C4 is statistically neutral. These results support a cross-architecture distinction between expert selection and expert commitment.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "fddbb8caa9974ade",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Automated Generation of Complexity-Validated Decision Scenarios Using Large Language Models",
-      "url": "https://arxiv.org/abs/2608.08822v1",
-      "published": "2026-08-09T17:12:48Z",
-      "author": "Abdalla Doleh",
-      "summary": "Cognitive decision-making research depends on diverse scenarios with carefully controlled complexity, yet manual production is slow, inconsistent, and biased. We developed an automated pipeline that uses LLms to generate structured decision scenarios and validates their complexi…",
-      "content": "Cognitive decision-making research depends on diverse scenarios with carefully controlled complexity, yet manual production is slow, inconsistent, and biased. We developed an automated pipeline that uses LLms to generate structured decision scenarios and validates their complexity through a composite framework rooted in established task-complexity theory. We evaluated 4,238 scenarios across multiple domains and complexity tiers. Measurement validation met rigorous psychometric standards. Agreement among five independent model families was nearly perfect, with an intraclass correlation coefficient of 0.997 and a kappa of 0.971. Known-groups validity demonstrated large separation between tiers, with an eta-squared of 0.587 and all pairwise comparisons significant at p less than .001. Factor analysis revealed a dominant complexity construct, with loadings between 0.87 and 0.96 across three frameworks, while interactivity formed a weaker secondary dimension at 0.34. Discriminant validity was limited by a strong relationship between complexity and text length that persisted after controlling for tier, yielding a partial correlation of 0.86. This constrains construct purity but does not undermine the instrument's tier-grading function. Model analyses showed a negative association between throughput and schema pass rate (r = -0.967, p = .007, n = 5), suggesting a speed-quality trade-off, though largely driven by one high-throughput model. Llama 4 Maverick generated scenarios fastest at 134 per minute versus 25 for DeepSeek Chat V3.2, but underproduced complex-tier scenarios, whereas DeepSeek Chat V3.2 balanced domain coverage with high schema compliance. The system demonstrated strong psychometric properties, enabling reliable classification into Simple, Moderate, and Complex tiers and providing the measurement infrastructure needed for downstream cognitive assessment of AI systems",
-      "readingMinutes": 1
-    },
-    {
-      "id": "4d476d6ad78d2036",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Can Open-Weight Models Compete on Financial Text Comprehension?",
-      "url": "https://arxiv.org/abs/2608.08634v1",
-      "published": "2026-08-09T10:51:52Z",
-      "author": "Jan Spörer",
-      "summary": "Open-weight language models from Chinese AI labs caught up on benchmarks relative to proprietary frontier models in recent months. Yet their reliability on real-world financial tasks remains largely untested. We updated the Financial Touchstone benchmark, which now has 2,967 que…",
-      "content": "Open-weight language models from Chinese AI labs caught up on benchmarks relative to proprietary frontier models in recent months. Yet their reliability on real-world financial tasks remains largely untested. We updated the Financial Touchstone benchmark, which now has 2,967 question context-answer triplets across 495 international annual reports. We also apply a new set of models on the benchmark, expanding coverage from eleven to twenty models across ten providers, including recent open-weight models such as GLM 4.7, GLM 5, Kimi K2.6, and DeepSeek V3.2, as well as Alibaba's proprietary flagship Qwen3-Max. Anthropic's Claude Opus 4.6 achieves the highest accuracy (88.4%), while Google's Gemini 2.5 Pro maintains the lowest hallucination rate (0.08%). Notably, the open-weight Kimi K2.6 ranks third in accuracy, and the non-reasoning models GLM 5 and Mistral 3 rank fourth and fifth, challenging the assumption that reasoning architectures or proprietary weights are a prerequisite for strong financial comprehension. Information retrieval remains the primary bottleneck, accounting for 48.9% of all failures. We also document a new finding: geopolitical content filters in Chinese models refuse legitimate financial questions (0.08% of attempts), sometimes without clear reason, and the refusal behavior depends on the access route as much as on the model. The complete dataset and evaluation framework are publicly available.",
-      "readingMinutes": 1
-    },
-    {
       "id": "b22df650a39b00bb",
       "feedTitle": "vLLM Releases",
       "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
@@ -1169,19 +1221,6 @@
       "author": "khluu",
       "summary": "v0.27.0rc2",
       "content": "v0.27.0rc2",
-      "readingMinutes": 1
-    },
-    {
-      "id": "760e04e282c6dcf6",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "C2C-Explorer: An Exploration Framework for Chip-to-Chip Interconnect Architectures in LLM Cloud Computing Systems",
-      "url": "https://arxiv.org/abs/2608.08611v1",
-      "published": "2026-08-09T09:49:40Z",
-      "author": "Jiayi Li",
-      "summary": "The scaling-up of large language models (LLMs) necessitates computing systems to have multi-processor-chip architectures, elevating the importance of chip-to-chip (C2C) communication. However, designing efficient C2C hardware architectures for LLM workloads faces three key chall…",
-      "content": "The scaling-up of large language models (LLMs) necessitates computing systems to have multi-processor-chip architectures, elevating the importance of chip-to-chip (C2C) communication. However, designing efficient C2C hardware architectures for LLM workloads faces three key challenges: generating realistic LLM-specific C2C traffic, accurately simulating hardware-level communication at scale, and efficiently exploring the exponentially large C2C design space. We propose C2C-Explorer, an adaptive Bayesian DSE framework that integrates a LLM-workload-driven traffic generator, a scalable interconnect simulator (switch/full-mesh, up to 512 chips), and a metric-guided evaluator into a workload-to-hardware optimization pipeline, enabling systematic C2C architectural co-design under realistic LLM workloads. Validated against FPGA-based C2C prototypes, the C2C simulator achieves 2.46-8.23% end-to-end timing error across diverse traffic patterns. Its hybrid cycle and event model further accelerates large-scale simulation by up to 7.8$\\times$ over a pure cycle-accurate baseline. Applied to a 32-XPU DeepSeek-R1-671B inference workload, C2C-Explorer identifies configurations that improve goodput by 44.1% and reduce memory by 98.4%. C2C-Explorer is open-source and available at https://github.com/Selinaee/C2C-Explorer.",
       "readingMinutes": 1
     },
     {
@@ -2836,32 +2875,6 @@
       "readingMinutes": 18
     },
     {
-      "id": "bfed89f2bcb02506",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA Agent Toolkit 扩展全新 Omniverse 库，赋能 AI 智能体构建“仿真就绪”世界",
-      "url": "https://blogs.nvidia.cn/blog/nvidia-agent-toolkit-expands-with-new-omniverse-libraries-putting-ai-agents-to-work-building-simulation-ready-worlds/",
-      "published": "2026-07-20T02:44:39Z",
-      "author": "英伟达中国",
-      "summary": "新闻摘要： NVIDIA 今日宣布，NVIDIA Agent Toolkit 现已包含 NVIDIA Omniverse™ 库 —— 这是一套软件组件集合，为 AI 智能体提供各种工具和技能，从而为现有应用添加物理 AI 功能并为仿真准备 3D 内容。 机器人、工厂和自主系统在进入现实世界运行之前，需要先在仿真环境中进行设计、测试和训练。为仿真准备 3D 内容不仅需要逼真的视觉效果 —— 资产还需要具备正确的结构、材质、规模、标签、传感器和物理属性。借助 NVIDIA Agent Toolkit",
-      "content": "新闻摘要：\n\nNVIDIA Agent Toolkit 现已包含 NVIDIA Omniverse 库，为 AI 智能体提供多种工具和技能，以帮助软件开发者将物理 AI 功能集成到现有应用中。\n\n适用于 NVIDIA RTX 传感器仿真、GPU 加速物理仿真和支持仿真资产验证的全新 Omniverse 库现已在 GitHub 上公开发布。\n\nSideFX 和 PTC 正在将 Omniverse 库集成到用于物理 AI 的 3D 应用中，支持从 NVIDIA RTX Spark 到 NVIDIA DGX Station 的云端和本地 AI 系统。\n\nNVIDIA 推出用于在 Blender 中集成 Omniverse 库的全新蓝图。\n\nNVIDIA 今日宣布，NVIDIA Agent Toolkit 现已包含 NVIDIA Omniverse 库 —— 这是一套软件组件集合，为 AI 智能体提供各种工具和技能，从而为现有应用添加物理 AI 功能并为仿真准备 3D 内容。\n\n机器人、工厂和自主系统在进入现实世界运行之前，需要先在仿真环境中进行设计、测试和训练。为仿真准备 3D 内容不仅需要逼真的视觉效果 —— 资产还需要具备正确的结构、材质、规模、标签、传感器和物理属性。借助 NVIDIA Agent Toolkit 中的 NVIDIA Omniverse 库，AI 智能体具备了构建工作流、检查场景、标记问题和准备资产的工具和技能，帮助开发者更快地将 3D 内容转换为可直接用于仿真的环境。\n\nNVIDIA 创始人兼首席执行官黄仁勋表示：“物理 AI 时代将始于在仿真中构建。结合 Omniverse 库的 NVIDIA Agent Toolkit 将 AI 智能体引入开发者已在使用的 3D 工具中，帮助构建可直接用于仿真的世界，让机器人、工厂和自主系统在进入现实世界之前，早在其中进行训练和测试。”\n\n包括 SideFX 和 PTC 在内的软件制造商正在集成 Omniverse 库，以实现面向智能体的传感器仿真、物理仿真和资产验证，从而帮助将代理式 AI 引入开发者和技术美术已经用于准备 3D 内容的应用和工作流中。\n\nOmniverse 库将物理 AI 技能引入 NVIDIA Agent Toolkit\n\nNVIDIA Agent Toolkit 帮助软件制造商构建连接工具、技能和数据源的 AI 智能体。Omniverse 库通过在现有应用中提供用于传感器仿真、GPU 加速物理仿真以及可直接用于仿真资产验证的可调用工具，将这些智能体扩展到 3D 和物理 AI 工作流中。\n\n全新 Omniverse 库 —— 包括 ovrtx、ovphysx 和 CAD-to-SimReady 技能 —— 已在 GitHub 上公开发布，为 AI 智能体提供了构建工作流的工具，以检查场景、测试更改并为仿真准备 3D 资产。用于在 Blender 中集成 Omniverse 库的全新蓝图现也可在 GitHub 上获取。\n\n这些库的主要功能包括：\n\nNVIDIA RTX 传感器仿真：ovrtx 帮助应用从 3D 场景生成摄像头、激光雷达、雷达和其他传感器输出，以便开发者和 AI 智能体可以测试物理 AI 系统如何感知虚拟环境。\n\n物理行为：ovphysx 使用 GPU 加速物理仿真，通过碰撞、质量、摩擦和运动等属性为 3D 场景带来逼真的行为，因此团队可以先在仿真中测试物体和系统之间的交互。\n\n面向仿真的 3D 对象：CAD-to-SimReady 技能有助于将计算机辅助设计 (CAD) 数据转换为基于 OpenUSD 构建的 SimReady 资产，赋予 3D 内容物理 AI 仿真和虚拟测试所需的属性。\n\n软件制造商使用 Omniverse 库进行构建\n\n包括 SideFX 和 PTC 在内的软件制造商，以及 ForgeCAD、光轮智能、Moonlake AI 和 Palatial 等初创公司均率先采用 Omniverse 库 (现已成为 NVIDIA Agent Toolkit 的一部分) 进行构建。\n\nSideFX 正在使用 OpenUSD 工作流以及 ovrtx 和 ovphysx 库，探索智能体如何帮助将 Omniverse 库集成到其 Houdini 程序化 3D 内容创作工作流中，为技术美术提供生成、测试物理仿真效果和准备仿真内容的途径。\n\nSideFX 总裁兼首席执行官 Kim Davidson 表示：“程序化 3D 创作对于构建仿真、机器人和工业 AI 所需的复杂、可控世界至关重要。借助 NVIDIA Omniverse 库和 OpenUSD，SideFX 正在探索面向智能体的工具如何支持 Houdini 工作流，帮助技术美术在保持对创作过程的把控的同时，审核、测试并为仿真准备程序化内容。”\n\nPTC Onshape CAD 和产品数据管理 (PDM) 平台正在使用 OpenUSD 和 ovrtx 将云原生设计工作流与物理仿真相连接，帮助产品设计内容与 CAD、PDM、协作和仿真工作流保持连接。\n\nPTC 总裁兼首席执行官 Neil Barua 表示：“工程团队正在寻求在整个开发过程中以更具连接性的方式进行设计、协作和仿真。PTC 与 NVIDIA 的协作支持了这一更广泛的愿景，而 NVIDIA Omniverse 库有助于实现可直接用于仿真的工作流，使验证和测试更接近产品设计的环节。”\n\n在 SIGGRAPH 上展示的 “SimReady” Blender 是一个在 Blender 中借助 NVIDIA Omniverse 库和 NVIDIA NemoClaw 构建的示例工作流。它展示了软件制造商如何将面向智能体的仿真功能 —— 包括 NVIDIA RTX 传感器仿真、物理仿真和验证 —— 添加到现有 3D 应用中，同时保持创作者的把控权。该蓝图现已作为在 Blender 中集成 Omniverse 库的蓝图公开发布。\n\n该演示还预览了这些基于 Omniverse 库、作为 NVIDIA Agent Toolkit 一部分的工作流如何在本地运行，支持的设备从搭载 NVIDIA RTX Spark 超级芯片的笔记本电脑和紧凑型桌面主机，到搭载 NVIDIA Grace Blackwell Ultra 的 NVIDIA DGX Station 系统。RTX Spark 笔记本电脑将于今年秋季由华硕、戴尔、惠普、联想、微软 Surface 和微星推出，宏碁和技嘉的相关产品也将随后推出。DGX Station 系统可通过华硕、戴尔、技嘉、惠普、微星、Supermicro 和 Exxact 进行订购。\n\n包括 NVIDIA 初创加速计划成员在内初创公司，也正在使用 Omniverse 库和技能来添加智能体辅助资产和场景准备工作流。Palatial 正在使用 Omniverse CAD-to-SimReady 技能，从 CAD 输入大规模自动创建和验证 SimReady 资产。光轮智能在其 SimReadyGen 技术中使用由 OpenUSD 提供支持的 Omniverse Content Agent，根据文本提示生成物理精确的 SimReady 资产。\n\nForgeCAD 和 Moonlake AI 正在探索由智能体驱动的 3D 内容工作流，这些工作流使用 Omniverse 功能来帮助生成、增强并为物理 AI 仿真准备资产。\n\n观看 SIGGRAPH 大会上的 NVIDIA 主题演讲。详细了解 NVIDIA Omniverse 库并探索可用的示例和文档。",
-      "readingMinutes": 5
-    },
-    {
-      "id": "869861e8def0021f",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "Paper2Gal 基于 NVIDIA DGX Spark，打造论文视觉小说式学习体验",
-      "url": "https://blogs.nvidia.cn/blog/paper2gal-built-on-nvidia-dgx-spark-for-paper-visual-novel-learning/",
-      "published": "2026-07-18T08:45:39Z",
-      "author": "英伟达中国",
-      "summary": "案例简介 客户简介及应用背景 Paper2Gal 是一款面向论文阅读、文档学习和 AI 教育场景的应用，能够将论文和文档转换为视觉小说式学习内容，产品能力覆盖 AI 分析、剧情生成、文档解析、云存档和 TTS。用户上传论文后，可通过角色对话、章节讲解、互动问答和语音播报等方式理解文献内容。 随着 AI 学习工具进入更专业的知识场景，论文与长文档的结构化解析成为 Paper2Gal 产品体验的核心基础。学术论文常包含多栏排版、公式、表格、图片、图注和扫描 OCR 内容，一旦解析结果出现顺序错乱、公",
-      "content": "案例简介\n\n本案例中，Paper2Gal 基于 NVIDIA DGX Spark 与 NVIDIA CUDA 加速平台构建本地 AI 应用部署与验证环境，并在其上验证 TTS 推理与语音生成流程，将论文解析、AI 分析、剧情生成、互动问答和语音讲解串联为视觉小说式学习体验。\n\n客户简介及应用背景\n\nPaper2Gal 是一款面向论文阅读、文档学习和 AI 教育场景的应用，能够将论文和文档转换为视觉小说式学习内容，产品能力覆盖 AI 分析、剧情生成、文档解析、云存档和 TTS。用户上传论文后，可通过角色对话、章节讲解、互动问答和语音播报等方式理解文献内容。\n\n随着 AI 学习工具进入更专业的知识场景，论文与长文档的结构化解析成为 Paper2Gal 产品体验的核心基础。学术论文常包含多栏排版、公式、表格、图片、图注和扫描 OCR 内容，一旦解析结果出现顺序错乱、公式丢失或表格破坏，后续 AI 分析与剧情生成的质量都会受到影响。\n\n为提升复杂文档处理和本地 AI 验证能力，Paper2Gal 在文档解析环节接入专用解析组件，并以 NVIDIA DGX Spark 作为本地 AI 推理、流程调试和产品验证环境，同时在该环境中验证 TTS 推理、语音讲解和角色配音等流程，为多模态学习体验打下本地验证基础。\n\n客户挑战\n\nPaper2Gal 在将论文转化为互动学习内容的过程中，主要面临三方面挑战。\n\n首先是文档解析质量。传统 PDF 文本抽取难以稳定处理扫描件、多栏论文、复杂公式和跨页表格，容易造成章节顺序混乱、关键信息遗漏和正文噪声过多。\n\n其次是处理链路稳定性。用户上传的真实论文与文档来源复杂、版式不统一，单纯依赖浏览器前端或基础 PDF 解析器，在大文件、损坏图片、复杂压缩内容和长文档场景下容易失败。\n\n第三是生成质量。视觉小说式学习内容依赖准确的章节、方法、实验和结论输入；如果解析阶段无法保留公式、表格、图文关系和文档结构，AI 角色讲解就难以保持专业性和连贯性。\n\n因此，Paper2Gal 需要一套可与现有 Web 产品和后端任务系统集成的本地 AI 计算与部署环境，在保证用户体验的同时，支撑复杂论文处理、模型推理、AI 分析、剧情生成、互动问答和 TTS 等多阶段流程。\n\n应用方案\n\n基于以上挑战，Paper2Gal 选择 NVIDIA DGX Spark 构建本地 AI 应用部署与验证环境，将论文解析、模型推理、AI 分析、视觉小说式内容生成和语音讲解整合到可控的本地计算体系中，用于应用验证、推理链路调优和语音生成流程验证。\n\n对 Paper2Gal 而言，这套流程对计算环境的要求是综合性的：既要有充足的 GPU 算力与大容量内存承载长文本推理和 TTS 生成，又要与 CUDA 生态下的主流模型和推理框架保持兼容，还要让数据、调试链路和迭代过程完整留在本地，并以桌面级设备的形态融入团队的日常开发环境。NVIDIA DGX Spark 将 NVIDIA Blackwell 架构 GPU、128 GB 统一内存与完整的 NVIDIA AI 软件栈集成于一台桌面级设备，使单台设备即可覆盖从文档解析、模型推理到语音生成的完整链路，无需拼装多套硬件或依赖外部算力 —— 这正是 Paper2Gal 在评估多种方案后选择 NVIDIA DGX Spark 的核心原因。\n\nNVIDIA DGX Spark 支撑本地 AI 推理与应用验证\nPaper2Gal 在 NVIDIA DGX Spark 上部署和测试本地推理服务，将论文内容分析、章节理解、角色对白生成、互动问答生成等 AI 流程放在本地验证。相比完全依赖外部云端推理，本地部署缩短了调试链路，提升了模型、提示词和产品流程的迭代效率。\n\nNVIDIA GPU/CUDA 加速多阶段 AI 工作负载\nPaper2Gal 的核心流程涵盖文档解析、长文本理解、内容生成、交互问答和语音处理等多个计算密集环节。NVIDIA DGX Spark 依托 NVIDIA GPU 与 CUDA 软件生态，为这些任务提供加速基础，支撑复杂论文和教学文档场景下的处理能力验证。\n\nNVIDIA DGX Spark 支撑 TTS 推理与语音生成验证\nTTS 是视觉小说式学习体验的重要组成部分。Paper2Gal 在 NVIDIA DGX Spark 环境中验证 TTS 推理、语音讲解和角色配音流程，覆盖语音生成链路、任务排队和并发处理机制，为音频体验提供可控的本地验证条件。\n\n构建从文档输入到互动学习的闭环\n在本地验证能力支持下，Paper2Gal 将“论文上传 — 文档解析 — AI 分析 — 剧情生成 — 互动问答 — 语音讲解 — 学习复盘”串联为完整闭环。用户上传论文后，系统即可将专业内容转化为更易理解的视觉小说式学习体验，降低复杂知识的阅读门槛。\n\n构建稳定的本地部署与容错机制\n针对任务超时、模型服务异常、文件解析失败、语音生成失败、生成结果不完整等情况，Paper2Gal 建立了错误提示和降级处理机制。当某一环节暂不可用时，系统会明确提示用户重试、重新上传文件或切换处理方式，减少复杂论文处理过程中的体验中断。\n\n通过该方案，Paper2Gal 将本地 AI 应用验证、文档解析、剧情生成和 TTS 推理整合为完整的技术闭环，为长文档学习、论文解读、课程材料转化和 AI 教育内容生产提供了本地验证与迭代基础。\n\n使用效果及影响\n\n部署 NVIDIA DGX Spark 后，Paper2Gal 将论文解析、AI 分析和视觉小说式内容生成等关键流程整合到本地 AI 计算环境中，在本地即可完成文档处理、模型推理和多步骤内容生成，降低了对外部算力资源的依赖。\n\n在产品体验上，用户上传论文或文档即可进入视觉小说式学习流程，系统将论文内容转化为角色对白、章节讲解、互动问答和语音讲解等形式。本地环境中的 TTS 推理验证，帮助 Paper2Gal 持续优化音频生成稳定性和整体使用流畅度。\n\n在技术架构上，NVIDIA DGX Spark 让 Paper2Gal 构建起更完整的本地 AI 开发与验证环境，便于后续的扩展、监控和调度，支撑产品面向更复杂论文和教学文档场景的持续迭代。\n\n“Paper2Gal 的目标不是简单总结论文，而是把论文变成用户愿意读、读得懂、还能互动复盘的学习体验。NVIDIA DGX Spark 为我们提供了本地部署 AI 应用所需的算力基础，帮助我们完整验证论文理解、内容生成、语音讲解和交互式学习体验。”Paper2Gal 项目负责人塔米基表示。\n\nNVIDIA 初创加速计划\n\n上海米拉可科技有限公司是 NVIDIA 初创加速计划 (NVIDIA Inception) 会员企业。NVIDIA 初创加速计划为免费会员制、旨在培养颠覆行业格局的优秀创业公司。该计划联合国内外知名的风投机构、创业孵化器、创业加速器、行业合作伙伴以及科技创业媒体等，打造创业加速生态系统，能够提供产品折扣、技术支持、市场宣传、融资对接、业务推荐等一系列服务，加速创业公司的发展。",
-      "readingMinutes": 6
-    },
-    {
       "id": "b5de177ccc831b45",
       "feedTitle": "Google AI · DeepMind",
       "feedUrl": "https://deepmind.google/blog/rss.xml",
@@ -2873,19 +2886,6 @@
       "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
       "content": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
       "readingMinutes": 1
-    },
-    {
-      "id": "1c7bfd1ed441b497",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA Vera Rubin 在后训练工作负载中实现每美元智能最大化 —— 这是智能体 AI 的关键指标",
-      "url": "https://blogs.nvidia.cn/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
-      "published": "2026-07-17T03:21:03Z",
-      "author": "Kirthi Develeker",
-      "summary": "想象一下职业运动员。真正让顶尖选手脱颖而出的，往往是赛场之外的功夫：他们持续打磨自己，针对新对手调整战术，并根据上一场比赛暴露出的问题来不断调整。 智能体 AI 的运作逻辑如出一辙。我们不再仅仅是向模型索要一个答案，而是给它设定一个目标，让它在环境变化、边缘情况出现以及工具更迭时，不断自我调整。与仅需对提示词做出响应的生成式模型不同，智能体模型必须学会规划、调用多种工具，并在运行过程中遇到问题时能够自我恢复。 这就是为什么后训练，即在原始数据上完成初始训练后对模型进行优化的阶段，已不再是一次性的",
-      "content": "想象一下职业运动员。真正让顶尖选手脱颖而出的，往往是赛场之外的功夫：他们持续打磨自己，针对新对手调整战术，并根据上一场比赛暴露出的问题来不断调整。\n\n智能体 AI 的运作逻辑如出一辙。我们不再仅仅是向模型索要一个答案，而是给它设定一个目标，让它在环境变化、边缘情况出现以及工具更迭时，不断自我调整。与仅需对提示词做出响应的生成式模型不同，智能体模型必须学会规划、调用多种工具，并在运行过程中遇到问题时能够自我恢复。\n\n这就是为什么后训练，即在原始数据上完成初始训练后对模型进行优化的阶段，已不再是一次性的收尾步骤，而是变成了一项持续性的工作。这是因为智能体模型所处的运行环境变化极快。智能体使用的工具可能每周都在更新；生产环境中会不断遇到测试集未曾出现过的边缘情况；而且每一次部署，都会面临各自独特的代码库、策略和环境。\n\n随着生产环境中不断出现新问题，后训练会持续接收生产反馈，并进入新一轮循环。计算需求之所以越来越大，并不是因为单次运行的规模更大，而是因为这种训练持续不断地循环执行。智能体 AI 为后训练引入了一种全新的计算模式，使其成为智能体时代的核心工作负载，也是决定每美元智能的首要驱动力。\n\n后训练的目标，是通过最大化持续学习循环中每一次前向传播和反向传播的收益，来实现每美元智能的最大化。其中，前向传播，即推理的效率是用每 Token 成本来衡量的。这意味着，每一次降低每 Token 成本，都将直接转化为每美元智能的提升。\n\n智能体后训练深度解析\n\n“智能”是在后训练阶段被真正构建出来的。在预训练阶段，模型学到的仅仅是预测下一个 Token，这赋予了它语言的流畅度，但并未赋予它真正的智能。而在后训练阶段，模型才开始学习如何编写代码、规划多步骤任务、调用搜索工具，以及在出错时进行恢复。推理则是这之后的环节：模型在实际任务中工作，其效率以每 Token 成本来计价。\n\n因为没有可供记忆的标准答案，模型只能依靠奖励信号来学习，因此模型需要通过强化学习 (RL) 技术来进行训练。当接收到一个任务时，模型会尝试生成一次尝试，这就是前向传播，其执行的工作与它在实际任务中完全相同。随后，这次尝试会被打分，并根据反馈更新模型的权重 —— 这就是反向传播。在经历了数百万次的尝试后，模型的智能得以不断成长。\n\n这其中的每一个步骤都会消耗大量算力，而要在大规模环境下运行这一循环，更是一项复杂的调度编排任务：需要数千个环境并行生成 rollouts，验证奖励信号，并将更新后的权重流回训练流程，同时还要确保加速器保持高利用率。NVIDIA NeMo 开源库 (例如用于构建训练环境的 NeMo Gym 和用于分布式后训练的 NeMo RL) 将后训练从定制化的研究代码，转变成了可重复使用的标准化基础设施。\n\n为何每美元智能是对每 Token 成本的超越与延伸\n\n如果说推理是创造收入的引擎，那么后训练就是乘数：模型的能力越强，每 Token 的价值就越高。\n\n每 Token 成本是推理工厂的核心指标，即生成 100 万个 Token 的总体成本。而每美元智能则处于更高的维度，它回答的是一个截然不同的问题：构建一个值得被部署的模型需要花费多少成本？并且，随着环境的不断变化，如何持续保持它的价值？\n\n这两者是相互嵌套，而非相互竞争的关系。能够降低每 Token 成本的 AI 基础设施，同样也会降低构建模型中每一次智能提升的成本。反过来，模型智能的每一次提升，又会提升推理工厂所交付的每 Token 价值。\n\n换句话说，每 Token 成本衡量的是运营效率；而每美元智能衡量的则是：模型智能投入，是否带来了相应的回报。\n\n最大化每美元智能：Nemotron 3 Ultra 的后训练实践\n\nNVIDIA Nemotron 3 Ultra 是一款拥有 5500 亿参数的开放权重混合专家 (MoE) 模型，它提供了可验证的基准测试，以及在 NeMo RL 上运行的完全公开的后训练方案。在标准的现实世界的编程能力基准测试 SWE-bench verified 中，它取得了 71.7% 的成绩，这意味着针对开源项目中的真实软件缺陷，模型在约七成的案例中生成了有效的修复方案，且每个方案都通过了该项目自身的测试验证。\n\n图中展示的是 200 亿个 rollout Token 的示例数据。该数据基于上一代 Nemotron 3 Super 约 120 万次 rollout、每次约 1 万个 Token 规模，并针对规模更大的 Ultra 模型进行了等比例放大。不同平台之间的每美元智能表现不受此假设的影响，其绝对值会随 Token 数量等比例相应变化。\n\nNVIDIA Blackwell 平台降低了每次训练的成本，使得智能体时代所要求的高频后训练在经济上变得切实可行。而这些被构建出来的智能，最终会在模型生成的每一个 Token 中转化为价值。\n\nNVIDIA Vera Rubin 平台则将这一优势轨迹进一步延伸，仅需 Blackwell 1/4 的 GPU 数量，即可训练超大规模模型。该平台经过了端到端的极致协同设计，旨在为智能体后训练负载最大化每美元智能：支持单次运行更多的 rollout、更多的并行环境，以及持续不断的后训练循环。\n\n后训练工作流的实际应用\n\nPrime Intellect 的 Lab 正在 NVIDIA Blackwell 上持续对前沿开放模型进行后训练，并借助 NVIDIA Dynamo 进行推理编排。借助 Vera Rubin，Prime Intellect 计划扩大强化学习环境的规模，在单次运行中生成更多的 rollout，并加速从训练到推理的迭代循环，帮助企业最大化每美元智能。\n\nPrime Intellect 已对其沙箱基础设施进行优化，使其与 NVIDIA Vera CPU 深度集成，从而实现低延迟、高能效的强化学习。其软件栈中还集成了 NVIDIA Nemotron 和 NVIDIA NeMo Gym 等开源工具和模型。在将真实的强化学习沙箱工作负载与传统的 x86 架构进行对比测试时，Prime Intellect 发现，Vera CPU 的平均吞吐量高出 30%。\n\nPerplexity 的强化学习后训练技术栈可在数百块 NVIDIA GPU 上异步运行，其基于 RDMA 的权重传输引擎，能够在不到两秒的时间内，完成万亿参数模型在训练节点与推理计算节点之间的同步。经过后训练的 Qwen3 235B 模型随后被部署在 NVIDIA 机架级扩展系统上提供服务。\n\nTogether AI 则提供后训练即服务，涵盖监督微调、强化学习以及直接偏好优化。该服务通过功能丰富的应用程序接口和软件开发工具包交付，在其 AI 原生云平台上全面支持各种后训练。目前，该服务已运行于 NVIDIA 平台及经过优化的内核库上，未来计划进一步采用 Vera Rubin 平台。\n\nNVIDIA Vera Rubin 平台帮助 AI 工厂在各类工作负载中最大化每美元智能。同时，进一步了解 NVIDIA 面向前沿模型训练的全栈平台。",
-      "readingMinutes": 6
     },
     {
       "id": "91faf2386908f764",
