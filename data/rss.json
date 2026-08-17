@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T04:30:59.698698Z",
+  "generatedAt": "2026-08-17T16:21:56.945744Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -197,6 +197,97 @@
   ],
   "articles": [
     {
+      "id": "6f5136259d44ae6b",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派评 | 近期值得关注的 App",
+      "url": "https://sspai.com/post/113544",
+      "published": "2026-08-17T10:14:56Z",
+      "author": "",
+      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "content": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "4001c007c7b53144",
+      "feedTitle": "Google AI · Blog",
+      "feedUrl": "https://blog.google/technology/ai/rss/",
+      "category": "AI 新闻",
+      "title": "Get closer to the game with Gemini and Pixel",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "published": "2026-08-17T08:00:00Z",
+      "author": "Eileen Mannion",
+      "summary": "Low-angle view of a soccer player kicking a ball mid-air against a bright blue sky, with grass flying from their cleats.",
+      "content": "Low-angle view of a soccer player kicking a ball mid-air against a bright blue sky, with grass flying from their cleats.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "e3f51528cda5a0a7",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "分享我知识管理 12 年来最重要的经验：INL 结构",
+      "url": "https://sspai.com/post/113368",
+      "published": "2026-08-17T07:00:00Z",
+      "author": "",
+      "summary": "你是不是有几百个笔记，超级乱，都懒得打开？今天我们介绍一个方法，可以让你不怎么整理，就能快速找到重点。查看全文",
+      "content": "你是不是有几百个笔记，超级乱，都懒得打开？今天我们介绍一个方法，可以让你不怎么整理，就能快速找到重点。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "847f1a3e05075f69",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "当陶瓷水杯遇上像素屏：PixelMug 体验",
+      "url": "https://sspai.com/post/113448",
+      "published": "2026-08-17T05:55:17Z",
+      "author": "",
+      "summary": "如今，伴随着科技和生产力的发展，许多曾经只存在于科幻作品里的创意都逐渐变成了现实。各种新奇酷炫的产品，也开始在人们的刚需之外提供不一样的解法。尤其是那些无关「生产力」、单纯为了让生活变得更有意思的产品 ...查看全文",
+      "content": "如今，伴随着科技和生产力的发展，许多曾经只存在于科幻作品里的创意都逐渐变成了现实。各种新奇酷炫的产品，也开始在人们的刚需之外提供不一样的解法。尤其是那些无关「生产力」、单纯为了让生活变得更有意思的产品 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "1380f7766171a5a6",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "The Defender’s Window",
+      "url": "https://openai.com/index/the-defenders-window",
+      "published": "2026-08-17T05:30:00Z",
+      "author": "",
+      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "content": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "22405ea1e27b33a1",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "OpenAI joins PORTS-Pike project",
+      "url": "https://openai.com/index/openai-joins-ports-pike-project",
+      "published": "2026-08-17T05:00:00Z",
+      "author": "",
+      "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "content": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "readingMinutes": 1
+    },
+    {
+      "id": "3ff02964da6b7f4f",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "New policy ideas for the Intelligence Age",
+      "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "published": "2026-08-17T03:15:00Z",
+      "author": "",
+      "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "content": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "readingMinutes": 1
+    },
+    {
       "id": "78870e4e0b9faffe",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -205,8 +296,8 @@
       "url": "https://blogs.nvidia.cn/blog/accelerating-3d-vision-for-physical-ai-with-nvidia-dgx-spark/",
       "published": "2026-08-17T03:12:40Z",
       "author": "英伟达中国",
-      "summary": "案例简介 客户简介及应用背景 及拓科技是一家专注于大规模实时 3D 数据基础设施、空间计算与物理 AI 工作流的科技公司，围绕物理世界数据的采集、传输、渲染、标注、训练和感知推理，构建面向机器人、智能空间、工业场景应用的产品与解决方案。 及拓科技的产品方向包括 DetermVoxel 感算一体智能前端、FlowbitEngine 三维数据处理与实时渲染引擎、FlowbitSpatialSeg 空间智能分割模块，以及 FlowbitSpatialTag 空间语义标注服务。这些能力共同帮助企业将物理",
-      "content": "案例简介\n\n本案例展示及拓科技基于 NVIDIA DGX Spark，本地运行 Flowbit Engine、Flowbit SpatialSeg 与 Flowbit SpatialTag，打通多相机空间感知、3D 数据串流、智能分割、开放词汇语义标注与现场部署，形成面向物理 AI 的工作流。\n\n本案例采用 NVIDIA DGX Spark、GB10 Grace Blackwell Superchip、GPU 架构及 CUDA AI 软件栈，为本地物理 AI 开发与实施提供算力支撑。\n\n客户简介及应用背景\n\n及拓科技是一家专注于大规模实时 3D 数据基础设施、空间计算与物理 AI 工作流的科技公司，围绕物理世界数据的采集、传输、渲染、标注、训练和感知推理，构建面向机器人、智能空间、工业场景应用的产品与解决方案。\n\n及拓科技的产品方向包括 DetermVoxel 感算一体智能前端、FlowbitEngine 三维数据处理与实时渲染引擎、FlowbitSpatialSeg 空间智能分割模块，以及 FlowbitSpatialTag 空间语义标注服务。这些能力共同帮助企业将物理世界数据转化为可使用的 3D 数据集、语义标注、感知输出和可落地的空间智能能力。\n\n随着机器人、空间智能和物理 AI 应用从实验室原型走向真实场景，企业需要处理的不再只是 2D 图像和视频，还包括实时高密度点云、3D 语义标注、开放词汇目标检测和实时空间定位。物理 AI 的开发需要形成完整闭环：采集真实世界数据，完成 3D 标注与场景理解，训练或验证感知模型，并将结果部署到可实时运行的业务管线中。\n\n客户挑战\n\n在构建面向物理 AI 的 3D 视觉平台时，及拓科技主要面对以下四类工程挑战。\n\n3D 数据规模大\n点云场景通常包含数百万级点位，需要支持最高 2 GB 的实时串流和最高 1,000 万点的场景处理，并在同一工作流中完成几何处理、模型推理和交互式可视化。\n\n多模型链路复杂\n3D 语义标注与空间感知并非单一模型任务，而是需要结合几何处理、交互式分割、自动标注、开放词汇语义理解和多相机检测等能力。及拓科技在产品化过程中结合自研技术与完成授权或许可证合规评估的组件，避免因模型切换、内存容量、数据搬移和服务冷启动等因素影响迭代效率。\n\n需要本地化部署与可控成本\n物理 AI 项目经常涉及客户现场、工厂、实验室、商业空间等敏感环境。3D 扫描、相机画面和空间布局数据不适合频繁上传到云端处理。同时，云端 GPU 推理通常按算力实例、运行时长或调用量计费，并可能涉及数据上传下载、存储和网络传输成本；在反复实验、标注、验证和现场部署调试过程中，整体费用较难提前准确预测。\n\n3D 感知需要 CPU/GPU 协同\n3D 感知管线不仅包含神经网络推理，也包含法线估计、体素下采样、离群点过滤、DBSCAN 聚类和跨视角 3D 融合等大量几何计算。如果 CPU 与 GPU 之间的数据交互效率不足，整体系统难以满足快速迭代和现场实施所需的响应效率。\n\n应用方案\n\n基于以上挑战，及拓科技采用 NVIDIA DGX Spark 作为本地 3D 视觉与物理 AI 开发环境的核心算力基础。NVIDIADGX Spark 基于 NVIDIA Grace Blackwell 架构，集成 GPU 与 CPU 资源，配备 20 核 Arm 处理器，并提供 128 GB 统一寻址内存 (显存)，使及拓科技能够在桌面级设备上运行多模型、多服务、多相机的 3D 视觉工作负载。\n\n支撑大规模点云与多模型常驻\nFlowbitEngine 面向大规模点云文件和最高 1,000 万点场景处理而设计。借助 NVIDIADGX Spark 的统一内存架构，点云数据、几何处理模块和 AI 模型能够在同一系统中协同运行，减少传统离散 CPU/GPU 架构中频繁数据搬移和显存容量限制带来的工程复杂度。\n\nFlowbitSpatialSeg 可支持提示式分割、自动标注、语义检索和 3D 场景理解，让及拓科技能够将 3D 标注从高度依赖人工的流程，转向更适合物理 AI 数据集开发的机器学习辅助工作流。\n\n面向 Blackwell 架构优化推理链路\n及拓科技在 FlowbitSpatialSeg 后端围绕 NVIDIADGX Spark 的软硬件环境进行推理链路优化，包括合理配置 TF32、混合精度、cuDNNautotuning 与 CUDA AI 软件栈等能力，并结合本地部署场景对模型加载、批处理和服务调用流程进行调优。上述优化重点在于提升平台在 NVIDIADGX Spark 环境下的运行稳定性、资源利用效率和交互响应能力，从而更好支持交互式点击、自动标注、语义定位等数据准备与模型验证任务。\n\n在单机上并行运行标注与检测服务\nNVIDIADGX Spark 支持及拓科技在一台本地系统上同时运行 FlowbitSpatialSeg 与 FlowbitSpatialTag。FlowbitSpatialSeg 负责点云与 3D 场景数据的空间智能分割；FlowbitSpatialTag 基于多种模型的开放词汇检测能力，可返回多相机 2D 检测结果，并由 FlowbitEngine 进一步回投影为具备空间位置的 3D 对象。\n\n这意味着数据标注、模型推理、空间定位和业务管线验证可以在同一个开发环境中完成。对于物理 AI 落地而言，价值不仅来自单个模型，而是来自把数据采集、模型输出、3D 推理和部署验证连接成可重复的工程闭环。\n\n支持本地化实施与数据可控\nNVIDIADGX Spark 的桌面级形态让及拓科技能够在办公室、实验室或客户现场高效便捷地运行关键 3D 视觉任务。敏感的 3D 扫描数据和相机流可以保留在本地处理，降低云端传输、数据留存和合规风险。同时，本地算力使团队能够以固定设备成本反复进行模型实验、标注修正、检测验证和现场调试，而不是为每次推理调用承担额外边际成本。\n\n使用效果及影响\n\n通过使用 NVIDIA DGX Spark，及拓科技将核心 3D 视觉能力集中到本地 AI 超算环境中，形成面向物理 AI 的开发、验证和实施闭环。该平台不仅提升了 FlowbitSpatialSeg 和 FlowbitSpatialTag 的工程部署效率，也让点云标注、多相机开放词汇检测和 3D 对象定位能够在更可控的本地环境中协同运行。\n\n对于及拓科技的产品体系而言，NVIDIADGX Spark 带来的价值不只是更快的模型推理，而是让物理 AI 所需的关键环节更加一体化：真实世界数据可以被高效处理和标注；语义模型可以在本地持续迭代；检测结果可以进入 FlowbitEngine 并转化为空间对象；客户现场数据可以在不离开本地环境的前提下完成验证。\n\n这种本地化、统一内存、多模型并行的开发方式，使及拓科技能够更高效地构建面向机器人、智能空间、工业应用的 3D 数据基础设施，并为客户提供从数据采集、数据标注到感知部署和现场验证的端到端物理 AI 能力。\n\n“物理 AI 的核心挑战不只是训练模型，而是把真实世界数据、3D 物理标注、空间感知和现场部署连接成可持续迭代的工程闭环。NVIDIA DGX Spark 为我们提供了一个本地化、统一内存且面向 AI 工作负载优化的计算基础，使 FlowbitEngine、FlowbitSpatialSeg 与 FlowbitSpatialTag 能够在同一设备上协同运行，帮助我们更快地验证产品能力，并把 3D 视觉技术落地到真实场景。”\n\n—— 及拓科技[高磊，CTO]",
+      "summary": "案例简介 客户简介及应用背景 及拓科技是一家专注于大规模实时 3D 数据基础设施、空间计算与物理 AI 工作流的科技公司，围绕物理世界数据的采集、传输、渲染、标注、训练和感知推理，构建面向机器人、智能空间、工业场景应用的产品与解决方案。 及拓科技的产品方向包括 Determ Voxel 感算一体智能前端、FlowbitEngine 三维数据处理与实时渲染引擎、Flowbit SpatialSeg 空间智能分割模块，以及 Flowbit SpatialTag 空间语义标注服务。这些能力共同帮助企业",
+      "content": "案例简介\n\n本案例展示及拓科技基于 NVIDIA DGX Spark，本地运行 Flowbit Engine、Flowbit SpatialSeg 与 Flowbit SpatialTag，打通多相机空间感知、3D 数据串流、智能分割、开放词汇语义标注与现场部署，形成面向物理 AI 的工作流。\n\n本案例采用 NVIDIA DGX Spark、GB10 Grace Blackwell Superchip、GPU 架构及 CUDA AI 软件栈，为本地物理 AI 开发与实施提供算力支撑。\n\n客户简介及应用背景\n\n及拓科技是一家专注于大规模实时 3D 数据基础设施、空间计算与物理 AI 工作流的科技公司，围绕物理世界数据的采集、传输、渲染、标注、训练和感知推理，构建面向机器人、智能空间、工业场景应用的产品与解决方案。\n\n及拓科技的产品方向包括 Determ Voxel 感算一体智能前端、FlowbitEngine 三维数据处理与实时渲染引擎、Flowbit SpatialSeg 空间智能分割模块，以及 Flowbit SpatialTag 空间语义标注服务。这些能力共同帮助企业将物理世界数据转化为可使用的 3D 数据集、语义标注、感知输出和可落地的空间智能能力。\n\n随着机器人、空间智能和物理 AI 应用从实验室原型走向真实场景，企业需要处理的不再只是 2D 图像和视频，还包括实时高密度点云、3D 语义标注、开放词汇目标检测和实时空间定位。物理 AI 的开发需要形成完整闭环：采集真实世界数据，完成 3D 标注与场景理解，训练或验证感知模型，并将结果部署到可实时运行的业务管线中。\n\n客户挑战\n\n在构建面向物理 AI 的 3D 视觉平台时，及拓科技主要面对以下四类工程挑战。\n\n3D 数据规模大\n点云场景通常包含数百万级点位，需要支持最高 2 GB 的实时串流和最高 1,000 万点的场景处理，并在同一工作流中完成几何处理、模型推理和交互式可视化。\n\n多模型链路复杂\n3D 语义标注与空间感知并非单一模型任务，而是需要结合几何处理、交互式分割、自动标注、开放词汇语义理解和多相机检测等能力。及拓科技在产品化过程中结合自研技术与完成授权或许可证合规评估的组件，避免因模型切换、内存容量、数据搬移和服务冷启动等因素影响迭代效率。\n\n需要本地化部署与可控成本\n物理 AI 项目经常涉及客户现场、工厂、实验室、商业空间等敏感环境。3D 扫描、相机画面和空间布局数据不适合频繁上传到云端处理。同时，云端 GPU 推理通常按算力实例、运行时长或调用量计费，并可能涉及数据上传下载、存储和网络传输成本；在反复实验、标注、验证和现场部署调试过程中，整体费用较难提前准确预测。\n\n3D 感知需要 CPU/GPU 协同\n3D 感知管线不仅包含神经网络推理，也包含法线估计、体素下采样、离群点过滤、DBSCAN 聚类和跨视角 3D 融合等大量几何计算。如果 CPU 与 GPU 之间的数据交互效率不足，整体系统难以满足快速迭代和现场实施所需的响应效率。\n\n应用方案\n\n基于以上挑战，及拓科技采用 NVIDIA DGX Spark 作为本地 3D 视觉与物理 AI 开发环境的核心算力基础。NVIDIA DGX Spark 基于 NVIDIA Grace Blackwell 架构，集成 GPU 与 CPU 资源，配备 20 核 Arm 处理器，并提供 128 GB 统一寻址内存 (显存)，使及拓科技能够在桌面级设备上运行多模型、多服务、多相机的 3D 视觉工作负载。\n\n支撑大规模点云与多模型常驻\nFlowbit Engine 面向大规模点云文件和最高 1,000 万点场景处理而设计。借助 NVIDIA DGX Spark 的统一内存架构，点云数据、几何处理模块和 AI 模型能够在同一系统中协同运行，减少传统离散 CPU/GPU 架构中频繁数据搬移和显存容量限制带来的工程复杂度。Flowbit SpatialSeg 可支持提示式分割、自动标注、语义检索和 3D 场景理解，让及拓科技能够将 3D 标注从高度依赖人工的流程，转向更适合物理 AI 数据集开发的机器学习辅助工作流。\n\n面向 Blackwell 架构优化推理链路\n及拓科技在 Flowbit SpatialSeg 后端围绕 NVIDIA DGX Spark 的软硬件环境进行推理链路优化，包括合理配置 TF32、混合精度、cuDNN autotuning 与 CUDA AI 软件栈等能力，并结合本地部署场景对模型加载、批处理和服务调用流程进行调优。上述优化重点在于提升平台在 NVIDIA DGX Spark 环境下的运行稳定性、资源利用效率和交互响应能力，从而更好支持交互式点击、自动标注、语义定位等数据准备与模型验证任务。\n\n在单机上并行运行标注与检测服务\nNVIDIA DGX Spark 支持及拓科技在一台本地系统上同时运行 Flowbit SpatialSeg 与 Flowbit SpatialTag。Flowbit SpatialSeg 负责点云与 3D 场景数据的空间智能分割；Flowbit SpatialTag 基于多种模型的开放词汇检测能力，可返回多相机 2D 检测结果，并由 Flowbit Engine 进一步回投影为具备空间位置的 3D 对象。这意味着数据标注、模型推理、空间定位和业务管线验证可以在同一个开发环境中完成。对于物理 AI 落地而言，价值不仅来自单个模型，而是来自把数据采集、模型输出、3D 推理和部署验证连接成可重复的工程闭环。\n\n支持本地化实施与数据可控\nNVIDIA DGX Spark 的桌面级形态让及拓科技能够在办公室、实验室或客户现场高效便捷地运行关键 3D 视觉任务。敏感的 3D 扫描数据和相机流可以保留在本地处理，降低云端传输、数据留存和合规风险。同时，本地算力使团队能够以固定设备成本反复进行模型实验、标注修正、检测验证和现场调试，而不是为每次推理调用承担额外边际成本。\n\n使用效果及影响\n\n通过使用 NVIDIA DGX Spark，及拓科技将核心 3D 视觉能力集中到本地 AI 超算环境中，形成面向物理 AI 的开发、验证和实施闭环。该平台不仅提升了 Flowbit SpatialSeg 和 Flowbit SpatialTag 的工程部署效率，也让点云标注、多相机开放词汇检测和 3D 对象定位能够在更可控的本地环境中协同运行。\n\n对于及拓科技的产品体系而言，NVIDIA DGX Spark 带来的价值不只是更快的模型推理，而是让物理 AI 所需的关键环节更加一体化：真实世界数据可以被高效处理和标注；语义模型可以在本地持续迭代；检测结果可以进入 Flowbit Engine 并转化为空间对象；客户现场数据可以在不离开本地环境的前提下完成验证。\n\n这种本地化、统一内存、多模型并行的开发方式，使及拓科技能够更高效地构建面向机器人、智能空间、工业应用的 3D 数据基础设施，并为客户提供从数据采集、数据标注到感知部署和现场验证的端到端物理 AI 能力。\n\n“物理 AI 的核心挑战不只是训练模型，而是把真实世界数据、3D 物理标注、空间感知和现场部署连接成可持续迭代的工程闭环。NVIDIA DGX Spark 为我们提供了一个本地化、统一内存且面向 AI 工作负载优化的计算基础，使 Flowbit Engine、Flowbit SpatialSeg 与 Flowbit SpatialTag 能够在同一设备上协同运行，帮助我们更快地验证产品能力，并把 3D 视觉技术落地到真实场景。”\n\n—— 及拓科技 [高磊，CTO]",
       "readingMinutes": 6
     },
     {
@@ -392,32 +483,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "dc85078408cd929f",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "App+1 | 把图标收进格子，DeskBox 让桌面整洁有序",
-      "url": "https://sspai.com/post/112279",
-      "published": "2026-08-14T02:54:21Z",
-      "author": "",
-      "summary": "DeskBox 让 Windows 桌面上散落的文件、待办和临时信息，都有一个顺手的位置。查看全文",
-      "content": "DeskBox 让 Windows 桌面上散落的文件、待办和临时信息，都有一个顺手的位置。查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "519955c6c9e88723",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：深度求索推出开源 Agent 框架 DeepSeek Harness 及配套插件生态",
-      "url": "https://sspai.com/post/113434",
-      "published": "2026-08-14T00:52:24Z",
-      "author": "",
-      "summary": "阿里千问开放平台上线菜鸟智能体，Brave 和 Firefox 浏览器宣布将继续支持 uBlock Origin 扩展程序等。查看全文",
-      "content": "阿里千问开放平台上线菜鸟智能体，Brave 和 Firefox 浏览器宣布将继续支持 uBlock Origin 扩展程序等。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "43643a3dd841363b",
       "feedTitle": "Google AI · DeepMind",
       "feedUrl": "https://deepmind.google/blog/rss.xml",
@@ -519,19 +584,6 @@
       "author": "Anna Sterna",
       "summary": "The widespread use of LLMs among psychiatric populations has raised concerns regarding their safety and potential iatrogenic impact in the context of AI psychosis. While growing literature conceptualizes AI psychosis and documents case studies, empirical evidence tracing AI-exac…",
       "content": "The widespread use of LLMs among psychiatric populations has raised concerns regarding their safety and potential iatrogenic impact in the context of AI psychosis. While growing literature conceptualizes AI psychosis and documents case studies, empirical evidence tracing AI-exacerbated psychotic processes remains scarce. We propose and test a longitudinal qualitative evaluation design, supported by automated metrics, to assess mainstream LLMs' potential to exacerbate psychosis. Fifteen widely used LLMs were prompted across 30 days using the same 30-message script, simulating progression from mild anomalous experiences to psychotic ideation. Four trained evaluators independently rated 449 model-days, assessing (1) recognition stage (from naive engagement to stabilized clinical framing), (2) interpretative confidence, and (3) intervention profile (from education to treatment recommendation). Two computational metrics-entrainment and modality-were devised to increase evaluation reliability. Direct recommendations to disengage from the LLM were flagged and re-coded via adjudication using a strict two-level definition. Across model generations and vendors, we identified four response trajectories: (1) premature medicalization and disengagement (Claude Haiku 4.5); (2) recognition without safeguarding, marked by LLM self-sufficiency in offering help (GPT Instant/Thinking); (3) delayed and unstable recognition, marked by late, non-progressive conceptualization (Claude Opus 3/4/4.1, Claude Haiku 3.5, GPT-4o, Gemini 3.1 Pro); and (4) delusion co-construction through active engagement with delusional content (Gemini 2.5 Pro/Flash, DeepSeek-V3, Claude Sonnet 4). Our findings indicate that LLMs' potential to exacerbate AI psychosis should be operationalized as a combination of recognition timing, stability, and intervention accuracy and evaluated longitudinally, focusing on temporal dynamics.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "4cde6446430163ba",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "不用改签名，给 Mac 微信聊天记录「搬个家」",
-      "url": "https://sspai.com/post/113225",
-      "published": "2026-08-13T09:30:00Z",
-      "author": "",
-      "summary": "对长期把 Mac 放在固定位置、外置硬盘常年连接的用户来说，它可以让体积庞大的聊天记录不再挤占有限的内置存储。查看全文",
-      "content": "对长期把 Mac 放在固定位置、外置硬盘常年连接的用户来说，它可以让体积庞大的聊天记录不再挤占有限的内置存储。查看全文",
       "readingMinutes": 1
     },
     {
@@ -2095,19 +2147,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "966cd163f8692d8c",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Building abundant intelligence",
-      "url": "https://openai.com/index/building-abundant-intelligence",
-      "published": "2026-07-31T15:00:00Z",
-      "author": "",
-      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
-      "content": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
-      "readingMinutes": 1
-    },
-    {
       "id": "5d30e1f4485f91c5",
       "feedTitle": "NVIDIA 技术博客",
       "feedUrl": "https://developer.nvidia.cn/blog/feed",
@@ -2118,32 +2157,6 @@
       "author": "wnger",
       "summary": "各行各业对高质量视频的需求持续加速，为从沉浸式串流体验到远程协作、生成式 AI 媒体工具和大规模内容交付等各个 … Continued",
       "content": "各行各业对高质量视频的需求持续加速，为从沉浸式串流体验到远程协作、生成式 AI 媒体工具和大规模内容交付等各个方面提供支持。 这些体验的背后是对更快、更高效且能够处理日益复杂的格式和工作负载的视频管线的需求日益增长。NVIDIA Video Codec SDK 通过 NVIDIA 专用硬件视频引擎提供对 GPU 加速视频编码和解码的访问，帮助开发者应对这一挑战。 NVIDIA Video Codec SDK 13.1 现已推出。我们鼓励开发者在其视频工作流中探索新功能，利用重新设计的示例应用，并通过 NVIDIA 开发者论坛分享反馈。 编码功能： 解码功能： 寻求特定帧 转码功能： 其他特性： 使用 B 帧作为参考可提高编码质量。分层参考模式通过将 B 帧安排在树状参考结构中进一步改进：叶节点是非参考 B 帧，根是中间的 B 帧。\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "cd88270c00622daf",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Univé builds an AI-ready workforce",
-      "url": "https://openai.com/index/unive",
-      "published": "2026-07-31T07:00:00Z",
-      "author": "",
-      "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-      "content": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "ff7c1653ce2eb767",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Disrupting a Criminal Scam Operation",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "published": "2026-07-31T00:00:00Z",
-      "author": "",
-      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-      "content": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
       "readingMinutes": 1
     },
     {
@@ -3899,19 +3912,6 @@
       "author": "",
       "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
       "content": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "08b81d0f1eb9581b",
-      "feedTitle": "Google AI · Blog",
-      "feedUrl": "https://blog.google/technology/ai/rss/",
-      "category": "AI 新闻",
-      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-      "published": "2026-06-15T15:00:00Z",
-      "author": "",
-      "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
-      "content": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
       "readingMinutes": 1
     },
     {
