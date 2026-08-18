@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T04:24:19.503384Z",
+  "generatedAt": "2026-08-18T16:26:14.019689Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "https://www.pixelstech.net",
+      "siteUrl": "",
       "articleCount": 11,
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "title": "OpenAI · News",
@@ -87,7 +87,7 @@
       "url": "https://deepmind.google/blog/rss.xml",
       "category": "AI 技术",
       "siteUrl": "https://deepmind.google/blog/",
-      "articleCount": 22,
+      "articleCount": 21,
       "error": ""
     },
     {
@@ -102,17 +102,17 @@
       "title": "DeepSeek · Research",
       "url": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "https://arxiv.org/api/query?search_query=all:DeepSeek&start=0&max_results=20&id_list=",
+      "siteUrl": "",
       "articleCount": 20,
-      "error": ""
+      "error": "The read operation timed out"
     },
     {
       "title": "Kimi · Research",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3AKimi%20AND%20all%3AMoonshot%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "https://arxiv.org/api/query?search_query=all:Kimi+AND+all:Moonshot&start=0&max_results=20&id_list=",
+      "siteUrl": "",
       "articleCount": 1,
-      "error": ""
+      "error": "HTTP Error 429: Unknown Error"
     },
     {
       "title": "Meta Engineering",
@@ -183,7 +183,7 @@
       "url": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
       "category": "AI Infra",
       "siteUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases",
-      "articleCount": 7,
+      "articleCount": 8,
       "error": ""
     },
     {
@@ -197,11 +197,89 @@
   ],
   "articles": [
     {
+      "id": "6d4ec902c728a021",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "published": "2026-08-18T11:00:00Z",
+      "author": "",
+      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "content": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c3b0ed374d416807",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "published": "2026-08-18T11:00:00Z",
+      "author": "",
+      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "content": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "01895218faea4024",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "社区速递 154 | AI 代码助手大乱斗、租房电钻组合与神奇实体卡片故事机",
+      "url": "https://sspai.com/post/113593",
+      "published": "2026-08-18T09:01:31Z",
+      "author": "",
+      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "content": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "8fe035c5f48b9481",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "线下活动 | 爵士律动唤醒动漫回忆：炒饭 Fried Rice 音乐分享签售会",
+      "url": "https://sspai.com/post/113564",
+      "published": "2026-08-18T07:05:05Z",
+      "author": "",
+      "summary": "二次元加爵士，你说有没有搞头？音乐人介绍炒饭（B站），本职是常驻波士顿的程序员社畜，同时也是多乐器演奏音乐人、B站UP主。炒饭没有专业科班学习经历，却凭兴趣及自学掌握了多种音乐技能，专辑音乐均为自己在 ...查看全文",
+      "content": "二次元加爵士，你说有没有搞头？音乐人介绍炒饭（B站），本职是常驻波士顿的程序员社畜，同时也是多乐器演奏音乐人、B站UP主。炒饭没有专业科班学习经历，却凭兴趣及自学掌握了多种音乐技能，专辑音乐均为自己在 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "a348d32e461eceb0",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "App+1 | 让任务栏更有用：WindowSill",
+      "url": "https://sspai.com/post/113438",
+      "published": "2026-08-18T06:30:00Z",
+      "author": "",
+      "summary": "屏幕不是注意力中心的地方可以塞下多少有用的东西呢？查看全文",
+      "content": "屏幕不是注意力中心的地方可以塞下多少有用的东西呢？查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "0246d397b61e130e",
+      "feedTitle": "TensorRT-LLM Releases",
+      "feedUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
+      "category": "AI Infra",
+      "title": "v1.3.0rc22.post1: [None][chore] Bump version to 1.3.0rc22.post1",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.3.0rc22.post1",
+      "published": "2026-08-18T05:26:53Z",
+      "author": "chzblych",
+      "summary": "Signed-off-by: Yanchao Lu yanchaol@nvidia.com",
+      "content": "Signed-off-by: Yanchao Lu yanchaol@nvidia.com",
+      "readingMinutes": 1
+    },
+    {
       "id": "2182be1a33b64978",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
       "category": "默认分类",
-      "title": "7月音乐精选：夏天赠予我们的 9张专辑",
+      "title": "7月音乐精选：夏天赠予我们的 9 张专辑",
       "url": "https://sspai.com/post/113454",
       "published": "2026-08-18T02:52:11Z",
       "author": "",
@@ -444,19 +522,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "160e7a4da950c999",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "浏览器扩展合集： 我们为你找到了这 6 款实用、 有趣的「新玩意」",
-      "url": "https://sspai.com/post/113495",
-      "published": "2026-08-16T04:48:21Z",
-      "author": "",
-      "summary": "在浏览器扩展这边，近期又有哪些好用、有趣的「新玩意」呢？查看全文",
-      "content": "在浏览器扩展这边，近期又有哪些好用、有趣的「新玩意」呢？查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "8855c44ffe12fad3",
       "feedTitle": "DeepSeek · Research",
       "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
@@ -493,19 +558,6 @@
       "author": "Ziheng Qin",
       "summary": "Long-horizon agents can fail even when their underlying models can solve the constituent steps. They may lose track of mutable state, fail to reactivate lessons from earlier executions, skip known procedures, or stop prematurely. We bet on harness scaling to improve the executio…",
       "content": "Long-horizon agents can fail even when their underlying models can solve the constituent steps. They may lose track of mutable state, fail to reactivate lessons from earlier executions, skip known procedures, or stop prematurely. We bet on harness scaling to improve the execution system around an agent without changing its model weights. We introduce StateM, an agent-native runtime that organizes execution around durable states, phase-local context, checked transitions, recoverable runbooks, and versioned procedural practices that agents and users can inspect together.\nOn Terminal-Bench 2.1, StateM raises GPT-5.5 xhigh to 92.1\\%, versus 83.1\\% reference and GPT-5.6 Sol Ultra at 91.9\\%. The runbook transfers unchanged to GPT-5.6. With GPT-5.6 Sol xhigh, StateM reaches 95.3\\% raw accuracy across 445 trials and succeeds on all 89 tasks at least once. The frozen profile raises GPT-5.6 Luna from 76.7 to 85.4\\%, above the 84.9\\% Sol xhigh reference.\nUsing the same runtime, runbook structure, and golden rules, less than \\$38 of adaptation raises DeepSeek-V4 Flash from 82.7 to 88.1\\% under standard timeouts and to 89.1\\% on an 88-task common core. Extending only the remaining latency-sensitive task matches the reported 88.8\\% GPT-5.6 Sol max result. Final-score API usage is about \\$15 versus \\$574.68 for the GPT reference; total DeepSeek expenditure is \\$52.22.\nOn BusinessBench, family-specific runbooks built on development sets yield held-out gains of 0.55 macro and 1.34 micro points; two mechanism-matched families improve by 10.04 points. Concrete rules generalize when tasks share execution structure, while the control methodology applies broadly. StateM turns selected postmortem findings into persistent, executable preconditions and practices, making learned controls explicit and enforceable through stateful controls. Code at github.com/henryqin1997/statem.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "0ebfd6a95cf03d1a",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "有毒职场正在炼成：OKR 变成 KPI，敏捷开发变成切碎的瀑布",
-      "url": "https://sspai.com/post/111974",
-      "published": "2026-08-15T07:07:54Z",
-      "author": "",
-      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
-      "content": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
       "readingMinutes": 1
     },
     {
@@ -558,19 +610,6 @@
       "author": "Shiju Zhao",
       "summary": "Despite fixed sampling parameters and random seeds, Large Language Model (LLM) inference exhibits output inconsistency, which undermines downstream tasks such as model evaluation and reinforcement learning. A major source of this nondeterminism is batch-dependent GPU execution:…",
       "content": "Despite fixed sampling parameters and random seeds, Large Language Model (LLM) inference exhibits output inconsistency, which undermines downstream tasks such as model evaluation and reinforcement learning. A major source of this nondeterminism is batch-dependent GPU execution: dynamic input shapes change kernel tiling and floating-point reduction orders. Existing systems address this problem with batch-invariant kernels, but these kernels restrict optimized tiling and split reductions, increasing more than 2$\\times$ latency and reducing serving throughput by up to 74 %. This paper observes that although most kernels are not batch-invariant, they are position-invariant. Leveraging this property, we present CoRun, a scheduling-based system that achieves deterministic inference without requiring batch invariance. CoRun employs isolated prefill and fixed-shape batched decode to handle the two stages of LLM inference, respectively, leveraging CUDA graphs for efficient execution and simplified implementation. Experiments on LLMs with diverse architectures, including Qwen and DeepSeek, show that CoRun ensures determinism while improving throughput by 15-324 % over batch-invariant approaches, reducing time-to-first-token by 51.8 % and time-per-output-token by 48.6 % on average.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f3fe60adbf44247d",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "本周看什么 | 最近值得一看的 9 部作品",
-      "url": "https://sspai.com/post/113459",
-      "published": "2026-08-14T09:50:02Z",
-      "author": "",
-      "summary": "📅本周新预告《不存在的罪人》正式预告8月11日，电影《不存在的罪人》发布了正式预告，将于10月2日在北美上映。迈克尔·肖沃特执导，安妮·海瑟薇、达科塔·约翰逊、乔什·哈奈特主演，当红小说家留下未竟手稿 ...查看全文",
-      "content": "📅本周新预告《不存在的罪人》正式预告8月11日，电影《不存在的罪人》发布了正式预告，将于10月2日在北美上映。迈克尔·肖沃特执导，安妮·海瑟薇、达科塔·约翰逊、乔什·哈奈特主演，当红小说家留下未竟手稿 ...查看全文",
       "readingMinutes": 1
     },
     {
@@ -767,19 +806,6 @@
       "summary": "Highlights Ray Data: We added fixes for several to_pandas regressions introduced in 2.56: an opt-out flag (RAY_DATA_ENABLE_ARROW_BACKED_PANDAS_CONVERSION) for Arrow-backed conversion, an int64/double[pyarrow] overflow crash on concatenation, and a TensorDtype.__from_arrow__ cras…",
       "content": "Highlights\n\nRay Data: We added fixes for several to_pandas regressions introduced in 2.56: an opt-out flag (RAY_DATA_ENABLE_ARROW_BACKED_PANDAS_CONVERSION) for Arrow-backed conversion, an int64/double[pyarrow] overflow crash on concatenation, and a TensorDtype.__from_arrow__ crash on empty tensor columns (#64793, #64794).\n\nRay Core: We added early detection for system-slice memory pressure: the memory monitor now snapshots the user and system cgroup slices together and logs an error when the system slice exceeds reserved system memory, warning users to raise --system-reserved-memory before it causes node deaths (#64492).\n\nRay Serve: We added protobuf 7 compatibility and a routing fix for LLM direct streaming, so body-aware routers like PrefixCacheAffinityRouter no longer hang when RAY_SERVE_LLM_ENABLE_DIRECT_STREAMING=1 (#64592, #64488).\n\nRay Data\n\n🔨 Fixes\n\nFixed two Arrow-backed to_pandas regressions: added DataContext.enable_arrow_backed_pandas_conversion as an opt-out, and reconciled divergent numeric column types before concatenation to avoid int64/double[pyarrow] overflow crashes (#64793, #64768).\n\nFixed a TensorDtype.__from_arrow__ crash on zero-size tensor elements by using an explicit row count instead of numpy's -1 dimension inference (#64794, #64767).\n\nFixed a crash in hash partition caused by read-only hash arrays (#64584, #64552, #64559).\n\nNullified _input_dependencies in _get_args so exporting operator args no longer triggers an exponential sanitize_for_struct call chain over fused operators (#64412, #64316).\n\nRay Serve\n\n🔨 Fixes\n\nAdded protobuf >=7 compatibility to _proto_to_dict by binding to FieldDescriptor.is_repeated when the deprecated label attribute is absent (#64592, #64362).\n\nRay LLM\n\n🔨 Fixes\n\nFixed direct-streaming routing for body-aware routers: the ingress now parses the raw request body into a SimpleNamespace over routing-key fields (messages, prompt) so choose_replica receives the message body instead of raw bytes (#64488, #64328, #64326).\n\nRay RLlib\n\n🔨 Fixes\n\nUpgraded the ONNX example from the retired MobileNet v1 to MobileNet v3 via torchvision and pinned onnxscript in the GPU/ml-build CI dep locks, fixing ONNX export failures (#64591, #64028, #64031, #64590, #64033).\n\nRay Core\n\n💫 Enhancements\n\nThe threshold memory monitor now snapshots both the user and system cgroup slices and logs an error when system-slice usage exceeds the reserved system memory, prompting users to raise --system-reserved-memory (#64492).\n\n🔨 Fixes\n\nDisabled NCCL cuMem host buffer registration in CI pytests to stabilize GPU test runs (#64580, #64146).\n\nDocumentation\n\n📖 Documentation\n\nRepointed the ASHA Tune example links to the renamed README document, fixing the fail_on_warning ReadTheDocs build on the release line (#64761, #64630).\n\nUpdated the Python 3.10 CPU pip freeze dependency list for the Ray 2.56.0 release (#64447, #64357).\n\nThanks\n\nMany thanks to all those who contributed to this release!\n\n@eicherseiji, @ryankert01, @bveeramani, @elliot-barn, @iamjustinhsu, @Sparks0219, @owenowenisme, @dstrodtman, @marwan116",
       "readingMinutes": 2
-    },
-    {
-      "id": "3384a0cdb944b570",
-      "feedTitle": "vLLM Releases",
-      "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
-      "category": "AI Infra",
-      "title": "v0.27.2rc0: [Spec Decode] DSpark confidence-scheduled verification (#47808)",
-      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.2rc0",
-      "published": "2026-08-12T19:27:48Z",
-      "author": "LucasWilkinson",
-      "summary": "Signed-off-by: Lucas Wilkinson lwilkins@redhat.com Signed-off-by: Lucas Wilkinson LucasWilkinson@users.noreply.github.com Signed-off-by: Benjamin Chislett chislett.ben@gmail.com Signed-off-by: Lucas Wilkinson wilkinson.lucas@gmail.com Signed-off-by: Nick Hill nickhill123@gmail.c…",
-      "content": "Signed-off-by: Lucas Wilkinson lwilkins@redhat.com\n\nSigned-off-by: Lucas Wilkinson LucasWilkinson@users.noreply.github.com\n\nSigned-off-by: Benjamin Chislett chislett.ben@gmail.com\n\nSigned-off-by: Lucas Wilkinson wilkinson.lucas@gmail.com\n\nSigned-off-by: Nick Hill nickhill123@gmail.com\n\nCo-authored-by: OpenAI Codex codex@openai.com\n\nCo-authored-by: Claude Opus 5 (1M context) noreply@anthropic.com\n\nCo-authored-by: Benjamin Chislett chislett.ben@gmail.com\n\nCo-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>\n\nCo-authored-by: Nick Hill nickhill123@gmail.com\n\nCo-authored-by: OpenAI Codex noreply@openai.com",
-      "readingMinutes": 1
     },
     {
       "id": "70a7529723cd7697",
@@ -986,8 +1012,21 @@
       "published": "2026-08-11T13:00:00Z",
       "author": "英伟达中国",
       "summary": "开源生态系统正帮助 AI 发烧友和开发者更轻松地在本地构建、定制和拥有强大运行能力的智能体。 整个 8 月，NVIDIA 将聚焦推动本地 AI 发展的合作伙伴和开源社区，以及整个生态中不断涌现的模型、应用和工具。其中包括 NVIDIA 最新推出的开放模型、软件和开发者工具，以及帮助用户快速入门的加速计算、软件库和教育资源。 这将成为智能体领域的重要月份。敬请关注本期 NVIDIA 本地 AI 特别博客系列，了解最新进展；未来几周还将有更多内容。 请关注 NVIDIA 微博、抖音及哔哩哔哩官方账号",
-      "content": "开源生态系统正帮助 AI 发烧友和开发者更轻松地在本地构建、定制和拥有强大运行能力的智能体。\n\n整个 8 月，NVIDIA 将聚焦推动本地 AI 发展的合作伙伴和开源社区，以及整个生态中不断涌现的模型、应用和工具。其中包括 NVIDIA 最新推出的开放模型、软件和开发者工具，以及帮助用户快速入门的加速计算、软件库和教育资源。\n\n这将成为智能体领域的重要月份。敬请关注本期 NVIDIA 本地 AI 特别博客系列，了解最新进展；未来几周还将有更多内容。\n\n请关注 NVIDIA 微博、抖音及哔哩哔哩官方账号，获取 NVIDIA RTX Spark 以及 NVIDIA RTX AI PC 的最新信息。\n\n北京时间 2026 年 8 月 11 日 21:00\n\nNVIDIA 推出 Nemotron 3.5 Lightning，助力打造快速且专用的智能体任务\n\n8 月 11 日，NVIDIA 推出 Nemotron 3.5 Lightning，扩展 Nemotron 3 模型系列。这是一款面向始终在线智能体、可定制的开放式 300 亿参数混合专家模型 (MoE)。\n\n与同类开放模型相比，Nemotron 3.5 Lightning 的 Token 生成速度提升高达 4 倍，任务完成速度提升 30%。\n\n此外，Nemotron 3.5 Lightning 采用开放权重，AI 发烧友和开发者可使用自己的示例对其进行微调，使其更好地匹配特定任务、兴趣和工作流。例如，用户可训练该模型以实现：\n\n指定风格写作：在撰写电子邮件、报告或其他文档时，遵循既定语气、格式和术语。\n\n掌握专业技能：更深入地理解摄影、游戏或 3D 设计等领域的语言和常见任务。\n\n遵循特定编程方式：在编写、审查或重构代码时，遵循首选的编码规范、框架和测试方法。\n\n结合对应用、文件及其他工具的访问能力，这些经过微调的模型可支持更加个性化的本地代理式 AI 体验，例如帮助管理电子邮件和日历的助手、处理日常事务的智能家居智能体，以及在本地代码库中与开发者协同工作的编程伙伴。\n\nNVIDIA 与 vLLM、Ollama、llama.cpp 以及 LM Studio 合作，为 Nemotron 3.5 Lightning 模型提供出色的本地部署体验，并为开发者提供 NVFP4 和 GGUF 格式的模型选择。Unsloth 同时也提供首日支持，可通过 Unsloth Studio 使用经过优化和量化的模型，以实现高效的本地部署。\n\nNemotron 3.5 Lightning 可在 NVIDIA RTX PC、NVIDIA DGX Spark、OEM GB10 产品和 NVIDIA Jetson 上本地运行，并可扩展至 RTX PRO 工作站、数据中心和云端环境。宏碁、华硕、戴尔、Exxact、技嘉、惠普、联想、微星和超微电脑均提供 NVIDIA Blackwell 系统，用户可从丰富的设备和外形规格中选择适合自身需求的产品。\n\n随着生成式 AI 应用加速普及，企业正寻求在不牺牲前沿智能能力的前提下，有效控制不断上涨的 Token 成本。NVIDIA NeMo Switchyard 是一个开源路由库，可根据准确性、速度和成本，将智能体工作流中的每个步骤自动路由至最合适的模型。该库还为开发者提供跨模型和提供方处理不同任务的灵活性。\n\n内部基准测试显示，NeMo Switchyard 通过在模型系统中路由每个步骤，帮助保持前沿级任务完成能力，同时将基准测试的完成成本降至单独使用 Opus 4.8 时的约三分之一。NeMo Switchyard 已在 GitHub 上提供。\n\n查看 Nemotron 3.5 Lightning 和 NeMo Switchyard 技术博客开始体验。如需在边缘端进行构建，可从 Jetson AI Lab 教程入手，并探索现实世界的 Jetson 项目。Nemotron 3.5 Lightning 还可通过 OpenRouter、 NVIDIA NIM，以及 NVIDIA 云合作伙伴、后训练平台、推理平台和云服务提供商组成的广泛生态系统获取。NeMo Switchyard 已在 GitHub 上提供。\n\n北京时间 2026 年 8 月 11 日 23:00\n\nNVIDIA Sync Cluster Assistant 让 DGX Spark 性能倍增\n\nGLM 5.2 和 DeepSeek V4 Flash 等全新开放模型正将云端级智能带到本地系统，使编程智能体和研究智能体等高级工作负载在本地运行成为可能。但运行这些更大规模的模型可能需要多个 GPU 或多台 DGX Spark 协同工作。\n\nNVIDIA Sync 应用更新让多台 DGX Spark 组建为集群，提供运行更大模型所需的内存容量、推理性能和训练吞吐量，并实现更快的运行速度。\n\nNVIDIA Sync 支持 Windows 和 macOS，可自动检测已连接的系统，通过 Tailscale 提供私密且安全的远程访问，并让开发者无需手动配置网络或复制终端命令，即可在一台或多台 DGX Spark 上启动应用。\n\nNVIDIA Sync 中的 Cluster Assistant 可自动将两台或更多台 DGX Spark 配置为高速集群。开发者通过 NVIDIA ConnectX-7 端口连接这些系统后，NVIDIA Sync 便会完成网络配置、在各节点间调度工作负载，并监控系统运行状况。\n\n如需开始在 DGX Spark 上使用代理式 AI，请查看 NemoClaw、OpenClaw、Hermes Agent 和 OpenShell Playbook。\n\n软件产品信息请查看声明。\n\n北京时间 2026 年 8 月 11 日 23:00\n\n更多 DGX Spark 更新\n\n8 月下旬，两项面向开发者的精彩新功能将推出。\n\nDGX Spark 将迎来原生 ARM64 Linux 版本的 Chrome，用户可通过 DGX Dashboard 一键安装。这意味着用户可在 DGX Spark 上体验账号同步、完整扩展生态系统、跨设备连续性，以及其他平台标配的功能。只需登录一次，浏览器环境即可从笔记本电脑无缝延续至 DGX Spark。\n\n全新 NVIDIA Sync 资源监视器提供单台 DGX Spark 或整个集群中 CPU 和 GPU 使用情况的实时与历史视图，无需额外安装监控软件和复杂配置。一目了然的可视化内容可帮助用户跟踪工作负载进度、在添加作业或模型前确认可用资源容量，并快速发现瓶颈或异常行为。框选缩放功能支持用户从全局视图深入到工作负载中的特定时段，从而更快排查问题，并充分发挥系统性能。\n\n北京时间 2026 年 8 月 12 日 00:00\n\nLTX 推出 LTX-2.5\n\nLTX-2.5 是 LTX 领先研究团队推出的最新开放世界视频生成模型，为媒体与娱乐、机器人、实时生成等领域的使用场景奠定基础。该模型可生成更高质量的视频，更准确地遵循提示词，并在多次生成中保持角色、场景和声音的一致性。\n\n全新多镜头支持让创作者可生成跨越多个剪辑镜头的连续片段，且保持内容连贯性；升级后的扩散视频解码器可提升画质保真度并减少伪影。创作者还可通过生成式编辑优化现有素材，无需从头开始制作，便可更轻松地修正细节并保持精致统一的视觉效果。\n\n全新提示词增强器采用全新模型和文本编码器，可显著提升提示词遵循能力，让创作者更精准地控制导出结果。\n\n全新扩散视频解码器与变分自动编码器视频解码器相辅相成，通过提供第二条解码路径提升最终渲染视频的质量。\n\nLTX-2.5 针对 NVIDIA RTX GPU、DGX Spark 进行优化，性能提升 2 倍，内存占用降低 40%。创作者可通过开箱即用的 ComfyUI 工作流，在本地使用 NVFP4、FastVideo 和 ComfyUI 优化，进行文生视频、图生视频和视频到视频生成。\n\n查看页面了解有关 LTX-2.5 的更多详情，查看如何在 NVIDIA 硬件上进行高质量本地视频生成。\n\n北京时间 2026 年 8 月 12 日 01:00\n\nNVIDIA GPU 加速的全新开放模型\n\nNVIDIA 近期发布 Cosmos 3 Edge，这是一款面向机器人、智能汽车和视觉 AI 领域的 40 亿参数开放世界模型。其规模仅为 Cosmos 3 Nano 的四分之一，可在 NVIDIA DGX Spark 和 NVIDIA Jetson 设备端运行。\n\nMiniMax-H3 是一款拥有 330 亿参数的开放权重模型，可通过文本、图像、视频、音频或四者组合生成视频和原生同步的立体声音频。创作者可通过 ComfyUI 使用该模型，并借助针对 NVIDIA GPU 优化的 checkpoints 在本地运行。\n\nPoolside AI 推出 Laguna S 2.1，这是一款 1180 亿参数开放权重智能体编程模型，可处理持续数小时的长时任务。借助 NVFP4 checkpoint，开发者可在单台 NVIDIA DGX Spark 上以更低的计算和内存需求在本地运行该模型，同时不牺牲准确性。\n\nDeepSeek 近期更新 DeepSeek-V4-Flash，这是一款拥有 130 亿激活参数和 100 万 Token 上下文窗口的 2840 亿参数混合专家模型(MoE)。\n\nThinking Machines Lab 的 Inkling-Small 是一款前沿级的开放权重多模态模型，具备跨文本、图像和音频的原生推理能力，并支持可调节推理强度。该模型可在两台 DGX Spark 上运行。针对 NVIDIA Blackwell 优化的 NVFP4 checkpoint 已在 Hugging Face 上提供。\n\nUnsloth 将于周一推出 Unsloth Desktop。该产品将本地模型推理、图像和视频生成、微调、智能体集成、网络研究和代码执行整合到一款完全开源的桌面应用中。发布资料称，这是首款可在本地训练并运行 AI 模型的桌面应用。\n\nUnsloth Desktop 将本地 AI 训练与本地推理整合到一款完全开源的桌面应用中。\n\n这是首款可在本地训练并运行 AI 模型的桌面应用。\n\n阿里巴巴近期发布 Wan-Animate-2，这是一款 140 亿参数的开放权重模型，可将驱动视频中的动作和面部表情迁移到静态角色图像上，适用于真人、卡通人物、机器人或动物。凭借 ComfyUI 首日支持，该模型在 NVIDIA RTX PRO 5000 Blackwell (48GB) 上的生成速度最高可达 Apple M3 Ultra 的 16 倍。",
-      "readingMinutes": 8
+      "content": "开源生态系统正帮助 AI 发烧友和开发者更轻松地在本地构建、定制和拥有强大运行能力的智能体。\n\n整个 8 月，NVIDIA 将聚焦推动本地 AI 发展的合作伙伴和开源社区，以及整个生态中不断涌现的模型、应用和工具。其中包括 NVIDIA 最新推出的开放模型、软件和开发者工具，以及帮助用户快速入门的加速计算、软件库和教育资源。\n\n这将成为智能体领域的重要月份。敬请关注本期 NVIDIA 本地 AI 特别博客系列，了解最新进展；未来几周还将有更多内容。\n\n请关注 NVIDIA 微博、抖音及哔哩哔哩官方账号，获取 NVIDIA RTX Spark 以及 NVIDIA RTX AI PC 的最新信息。\n\n北京时间 2026 年 8 月 15 日 1:00\n\nNVIDIA RTX GPU 将前沿水准的 Qwen3.8-27B 编程智能体带到本地 AI 平台\n\nNVIDIA RTX GPU 为开发者提供高性能解决方案，借助 Qwen3.8-27B，在本地运行前沿水准的编程智能体。\n\n作为 Qwen3.8-Max 的本地搭档，这款 270 亿参数开放模型可在单个 GPU 上运行，专为需要调用本地文件、工具和项目上下文信息的快速响应式编程工作流打造。开发者可将敏感代码、专有数据和项目上下文信息保留在自己的系统中，同时在整个开发过程中获得强大的 AI 辅助。\n\nNVIDIA RTX GPU 为该模型提供首日支持，包括 NVIDIA RTX PRO GPU 和 NVIDIA GeForce RTX 5080。经多 Token 预测优化后，Qwen3.8-27B 借助 MTP 可在单个 GeForce RTX GPU 上，为智能体编程、工具调用和长时开发任务提供高速的本地推理能力。\n\n开发者现在即可在 llama.cpp、Ollama、Unsloth 和 LM Studio Bionic 上部署。这些工具均支持在 NVIDIA RTX GPU 上运行 Qwen3.8-27B。NVIDIA RTX 的高性能、CUDA 软件生态和开发者熟悉的开源工具协同配合，为新模型提供广泛支持，并为高响应速度的本地智能体编程工作流奠定坚实基础。\n\n该模型还支持 DGX Spark ，更多优化即将推出，包括为所有 NVIDIA 本地 AI 设备提供 NVFP4 支持。Qwen3.8-27B 将前沿水准的本地编程智能体带到 NVIDIA 全天候运行的个人 AI 系统中。\n\n除 PC 和个人 AI 系统外，NVIDIA Jetson 为边缘端侧 Qwen3.8-27B 提供首日支持。NVIDIA 发现该模型能力出众，具备强大的推理和智能体能力，而通过 MTP 实现的推测解码则可在边缘端提供快速、高速响应的本地推理。\n\n北京时间 2026 年 8 月 11 日 21:00\n\nNVIDIA 推出 Nemotron 3.5 Lightning，助力打造快速且专用的智能体任务\n\n8 月 11 日，NVIDIA 推出 Nemotron 3.5 Lightning，扩展 Nemotron 3 模型系列。这是一款面向始终在线智能体、可定制的开放式 300 亿参数混合专家模型 (MoE)。\n\n与同类开放模型相比，Nemotron 3.5 Lightning 的 Token 生成速度提升高达 4 倍，任务完成速度提升 30%。\n\n此外，Nemotron 3.5 Lightning 采用开放权重，AI 发烧友和开发者可使用自己的示例对其进行微调，使其更好地匹配特定任务、兴趣和工作流。例如，用户可训练该模型以实现：\n\n指定风格写作：在撰写电子邮件、报告或其他文档时，遵循既定语气、格式和术语。\n\n掌握专业技能：更深入地理解摄影、游戏或 3D 设计等领域的语言和常见任务。\n\n遵循特定编程方式：在编写、审查或重构代码时，遵循首选的编码规范、框架和测试方法。\n\n结合对应用、文件及其他工具的访问能力，这些经过微调的模型可支持更加个性化的本地代理式 AI 体验，例如帮助管理电子邮件和日历的助手、处理日常事务的智能家居智能体，以及在本地代码库中与开发者协同工作的编程伙伴。\n\nNVIDIA 与 vLLM、Ollama、llama.cpp 以及 LM Studio 合作，为 Nemotron 3.5 Lightning 模型提供出色的本地部署体验，并为开发者提供 NVFP4 和 GGUF 格式的模型选择。Unsloth 同时也提供首日支持，可通过 Unsloth Studio 使用经过优化和量化的模型，以实现高效的本地部署。\n\nNemotron 3.5 Lightning 可在 NVIDIA RTX PC、NVIDIA DGX Spark、OEM GB10 产品和 NVIDIA Jetson 上本地运行，并可扩展至 RTX PRO 工作站、数据中心和云端环境。宏碁、华硕、戴尔、Exxact、技嘉、惠普、联想、微星和超微电脑均提供 NVIDIA Blackwell 系统，用户可从丰富的设备和外形规格中选择适合自身需求的产品。\n\n随着生成式 AI 应用加速普及，企业正寻求在不牺牲前沿智能能力的前提下，有效控制不断上涨的 Token 成本。NVIDIA NeMo Switchyard 是一个开源路由库，可根据准确性、速度和成本，将智能体工作流中的每个步骤自动路由至最合适的模型。该库还为开发者提供跨模型和提供方处理不同任务的灵活性。\n\n内部基准测试显示，NeMo Switchyard 通过在模型系统中路由每个步骤，帮助保持前沿级任务完成能力，同时将基准测试的完成成本降至单独使用 Opus 4.8 时的约三分之一。NeMo Switchyard 已在 GitHub 上提供。\n\n查看 Nemotron 3.5 Lightning 和 NeMo Switchyard 技术博客开始体验。如需在边缘端进行构建，可从 Jetson AI Lab 教程入手，并探索现实世界的 Jetson 项目。Nemotron 3.5 Lightning 还可通过 OpenRouter、 NVIDIA NIM，以及 NVIDIA 云合作伙伴、后训练平台、推理平台和云服务提供商组成的广泛生态系统获取。NeMo Switchyard 已在 GitHub 上提供。\n\n北京时间 2026 年 8 月 11 日 23:00\n\nNVIDIA Sync Cluster Assistant 让 DGX Spark 性能倍增\n\nGLM 5.2 和 DeepSeek V4 Flash 等全新开放模型正将云端级智能带到本地系统，使编程智能体和研究智能体等高级工作负载在本地运行成为可能。但运行这些更大规模的模型可能需要多个 GPU 或多台 DGX Spark 协同工作。\n\nNVIDIA Sync 应用更新让多台 DGX Spark 组建为集群，提供运行更大模型所需的内存容量、推理性能和训练吞吐量，并实现更快的运行速度。\n\nNVIDIA Sync 支持 Windows 和 macOS，可自动检测已连接的系统，通过 Tailscale 提供私密且安全的远程访问，并让开发者无需手动配置网络或复制终端命令，即可在一台或多台 DGX Spark 上启动应用。\n\nNVIDIA Sync 中的 Cluster Assistant 可自动将两台或更多台 DGX Spark 配置为高速集群。开发者通过 NVIDIA ConnectX-7 端口连接这些系统后，NVIDIA Sync 便会完成网络配置、在各节点间调度工作负载，并监控系统运行状况。\n\n如需开始在 DGX Spark 上使用代理式 AI，请查看 NemoClaw、OpenClaw、Hermes Agent 和 OpenShell Playbook。\n\n软件产品信息请查看声明。\n\n北京时间 2026 年 8 月 11 日 23:00\n\n更多 DGX Spark 更新\n\n8 月下旬，两项面向开发者的精彩新功能将推出。\n\nDGX Spark 将迎来原生 ARM64 Linux 版本的 Chrome，用户可通过 DGX Dashboard 一键安装。这意味着用户可在 DGX Spark 上体验账号同步、完整扩展生态系统、跨设备连续性，以及其他平台标配的功能。只需登录一次，浏览器环境即可从笔记本电脑无缝延续至 DGX Spark。\n\n全新 NVIDIA Sync 资源监视器提供单台 DGX Spark 或整个集群中 CPU 和 GPU 使用情况的实时与历史视图，无需额外安装监控软件和复杂配置。一目了然的可视化内容可帮助用户跟踪工作负载进度、在添加作业或模型前确认可用资源容量，并快速发现瓶颈或异常行为。框选缩放功能支持用户从全局视图深入到工作负载中的特定时段，从而更快排查问题，并充分发挥系统性能。\n\n北京时间 2026 年 8 月 12 日 00:00\n\nLTX 推出 LTX-2.5\n\nLTX-2.5 是 LTX 领先研究团队推出的最新开放世界视频生成模型，为媒体与娱乐、机器人、实时生成等领域的使用场景奠定基础。该模型可生成更高质量的视频，更准确地遵循提示词，并在多次生成中保持角色、场景和声音的一致性。\n\n全新多镜头支持让创作者可生成跨越多个剪辑镜头的连续片段，且保持内容连贯性；升级后的扩散视频解码器可提升画质保真度并减少伪影。创作者还可通过生成式编辑优化现有素材，无需从头开始制作，便可更轻松地修正细节并保持精致统一的视觉效果。\n\n全新提示词增强器采用全新模型和文本编码器，可显著提升提示词遵循能力，让创作者更精准地控制导出结果。\n\n全新扩散视频解码器与变分自动编码器视频解码器相辅相成，通过提供第二条解码路径提升最终渲染视频的质量。\n\nLTX-2.5 针对 NVIDIA RTX GPU、DGX Spark 进行优化，性能提升 2 倍，内存占用降低 40%。创作者可通过开箱即用的 ComfyUI 工作流，在本地使用 NVFP4、FastVideo 和 ComfyUI 优化，进行文生视频、图生视频和视频到视频生成。\n\n查看页面了解有关 LTX-2.5 的更多详情，查看如何在 NVIDIA 硬件上进行高质量本地视频生成。\n\n北京时间 2026 年 8 月 12 日 01:00\n\nNVIDIA GPU 加速的全新开放模型\n\nNVIDIA 近期发布 Cosmos 3 Edge，这是一款面向机器人、智能汽车和视觉 AI 领域的 40 亿参数开放世界模型。其规模仅为 Cosmos 3 Nano 的四分之一，可在 NVIDIA DGX Spark 和 NVIDIA Jetson 设备端运行。\n\nMiniMax-H3 是一款拥有 330 亿参数的开放权重模型，可通过文本、图像、视频、音频或四者组合生成视频和原生同步的立体声音频。创作者可通过 ComfyUI 使用该模型，并借助针对 NVIDIA GPU 优化的 checkpoints 在本地运行。\n\nPoolside AI 推出 Laguna S 2.1，这是一款 1180 亿参数开放权重智能体编程模型，可处理持续数小时的长时任务。借助 NVFP4 checkpoint，开发者可在单台 NVIDIA DGX Spark 上以更低的计算和内存需求在本地运行该模型，同时不牺牲准确性。\n\nDeepSeek 近期更新 DeepSeek-V4-Flash，这是一款拥有 130 亿激活参数和 100 万 Token 上下文窗口的 2840 亿参数混合专家模型(MoE)。\n\nThinking Machines Lab 的 Inkling-Small 是一款前沿级的开放权重多模态模型，具备跨文本、图像和音频的原生推理能力，并支持可调节推理强度。该模型可在两台 DGX Spark 上运行。针对 NVIDIA Blackwell 优化的 NVFP4 checkpoint 已在 Hugging Face 上提供。\n\nUnsloth 将于周一推出 Unsloth Desktop。该产品将本地模型推理、图像和视频生成、微调、智能体集成、网络研究和代码执行整合到一款完全开源的桌面应用中。发布资料称，这是首款可在本地训练并运行 AI 模型的桌面应用。\n\nUnsloth Desktop 将本地 AI 训练与本地推理整合到一款完全开源的桌面应用中。\n\n这是首款可在本地训练并运行 AI 模型的桌面应用。\n\n阿里巴巴近期发布 Wan-Animate-2，这是一款 140 亿参数的开放权重模型，可将驱动视频中的动作和面部表情迁移到静态角色图像上，适用于真人、卡通人物、机器人或动物。凭借 ComfyUI 首日支持，该模型在 NVIDIA RTX PRO 5000 Blackwell (48GB) 上的生成速度最高可达 Apple M3 Ultra 的 16 倍。",
+      "readingMinutes": 10
+    },
+    {
+      "id": "c68474d4472e1586",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "为何扩展 AI 计算性能需要一种全新的电源架构",
+      "url": "https://blogs.nvidia.cn/blog/800-vdc-power-architecture-ai-factory/",
+      "published": "2026-08-11T11:17:01Z",
+      "author": "Harry Petty",
+      "summary": "每一代加速计算技术的迭代，都对其底层基础设施提出了更高的要求 —— 包括更强的计算性能、更高的机架密度，以及更高效、更具扩展性的配电能力。真正的瓶颈并不单纯在于功率水平，而在于电力如何从电网传输到 GPU。 在传统的配电模式中，电力以交流电 (AC) 的形式从电网输入，并经过多次转换。随着机架密度的不断提升，每一次转换都会增加额外的损耗与复杂性。对于下一代 AI 计算所需的极高功率水平而言，即便是微小的效率损耗，也会迅速累积放大。 800 VDC 简化了这一传输路径。通过以更高的电压进行直流 (",
+      "content": "每一代加速计算技术的迭代，都对其底层基础设施提出了更高的要求 —— 包括更强的计算性能、更高的机架密度，以及更高效、更具扩展性的配电能力。真正的瓶颈并不单纯在于功率水平，而在于电力如何从电网传输到 GPU。\n\n在传统的配电模式中，电力以交流电 (AC) 的形式从电网输入，并经过多次转换。随着机架密度的不断提升，每一次转换都会增加额外的损耗与复杂性。对于下一代 AI 计算所需的极高功率水平而言，即便是微小的效率损耗，也会迅速累积放大。\n\n800 VDC 简化了这一传输路径。通过以更高的电压进行直流 (DC) 配电，大幅减少电网与加速器之间的转换 —— 这意味着有更多的可用电力能够真正应用于计算。NVIDIA DSX 参考设计旨在为 AI 工厂提供指引，协助其平稳完成从现有交流电基础设施，经由混合架构，最终迈向完全原生 800 VDC 设施。\n\nNVIDIA、谷歌和微软正通过开放计算项目 (OCP) 共同推进 800 VDC 架构的研发，并分别于 2026 年 3 月和 2026 年 7 月联合发布了白皮书以及《LVDC 固态变压器规范 v0.3》。目前，已有 80 多家设备制造商和基础设施企业正基于该规范打造相关产品。\n\n现有设施无需等待\n\n目前大多数 AI 工厂都是基于交流电配电模式设计的。兼容 NVIDIA MGX 的 800 VDC 电源机架将于 2026 年下半年推出，它提供了一种混合架构，使那些已经建成并投入运营的设施也能获得下一代机架级计算性能。该设计可直接无缝接入现有交流电基础设施，在机架列内为计算机架提供 800 VDC 供电，无需对建筑物现有的电气系统进行任何改造。\n\nNVIDIA 数据中心基础设施副总裁 Vladimir Troy 表示：“800 VDC 释放了大规模 AI 所需的计算性能和功率密度。通过 OCP，NVIDIA 正与 80 多家生态伙伴合作，为 AI 工厂提供一条切实可行的落地路径，而不仅仅是描绘未来的愿景。”\n\n对数据中心所有者而言，这一点至关重要，因为他们前期的投资不会变成沉没成本。这种混合架构不仅保全了土地、电力接入权、建筑基础设施等既有资产，还为提升算力密度创造了条件。\n\n为各发展阶段提供路线图\n\n800 VDC 为 AI 工厂提供了规模化扩展的路线图，在其各个阶段都设有相应的接入点。\n\n电源机架 (Power Rack) 将是大多数运营商的起步选择 —— 这是一条在近期即可落地、且兼容混合架构的高密度计算升级路径。对于正在构建专属 AI 工厂环境的运营商而言，整列电源中心 (Row Power Center)，即为整列机架集中供电的枢纽，可通过架空 800 VDC 母线槽，实现跨多列机架的配电扩展，单列支持高达 2 兆瓦 (MW) 的功率，该产品预计将于 2027 年推出。而对于正处于规划阶段的全新设施，直流电源模块 (DC Power Block) 是一种设施级的单元。该模块能够将电网电力直接转换为 800 VDC，实现大规模的中压直流转换：这正是为未来十年 AI 基础设施的规划架构。\n\n开放标准铸就真实供应链\n\n800 VDC 架构规范定义了通用接口，确保来自不同供应商的电源硬件能够在同一个 800 VDC 设施内协同工作。随着 80 多家企业基于该规范进行产品研发，一条围绕开放标准的供应链正在加速成型。\n\n这些基础构建模块已被纳入 NVIDIA DSX 参考设计中。这为运营商提供了一套系统级的蓝图，使其在扩展 AI 工厂时，能够将电源架构、机架级计算与设施基础设施连接起来。\n\nWood Mackenzie 预计，到 2040 年，全球 AI 及数据基础设施的投资规模将达到 9 万亿美元。能够充分吸纳这些投资的设施，将是那些在算力需求超越现有基础设施交付能力之前，就已提前解决电源架构瓶颈的数据中心。NVIDIA、谷歌和微软正与更广泛的生态合作伙伴展开合作，以确保 800 VDC 架构能在运营商需要时及时就绪 —— 同时也为现有设施提供一条即刻可行的升级路径。\n\n阅读 800 VDC OCP 博客及 NVIDIA 800 VDC 白皮书，深入了解 NVIDIA DSX 参考架构指南。",
+      "readingMinutes": 4
     },
     {
       "id": "79fa413a464f8b75",
@@ -2095,19 +2134,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "e299630b866e2d7e",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "url": "https://openai.com/index/ten-advances-in-mathematics",
-      "published": "2026-08-01T00:00:00Z",
-      "author": "",
-      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-      "content": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-      "readingMinutes": 1
-    },
-    {
       "id": "a0aac223fd2998c2",
       "feedTitle": "TensorRT-LLM Releases",
       "feedUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
@@ -2144,19 +2170,6 @@
       "author": "wnger",
       "summary": "随着代理式和长上下文工作负载变得常见，上下文长度增加，注意力消耗更大比例的推理时间 (图 1) 。由于注意力现 … Continued",
       "content": "随着代理式和长上下文工作负载变得常见，上下文长度增加，注意力消耗更大比例的推理时间 (图 1) 。由于注意力现在主宰了成本，因此模型的设计方式 (而不仅仅是实现方式) 越来越多地决定了模型的推理性能。围绕 GPU 的执行方式塑造模型架构是 AI 模型协同设计的前提。有关模型设计选择如何在不牺牲准确性的情况下影响吞吐量和交互性的讨论，请参阅上一篇文章《 AI 模型协同设计：硬件友好型 LLM 设计》。 本文将探讨组大小 (每个 KV 头的查询头) 、头维度和序列长度如何影响密集注意力的性能，其中每个查询都会关注序列长度上的所有键和值。蒸馏的分析以及注意力在 GPU 上的并行性，形成了四个实用指南：共同设计检查清单，帮助模型开发者提高 NVIDIA GPU 上的推理吞吐量和交互性。敬请关注有关稀疏注意力的博文。 每次分析都基于两个来源：来自 GEMM 形状算法的分析公式，\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f8ec64126bdac17b",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Advancing responsible AI across Europe",
-      "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "published": "2026-07-31T15:00:00Z",
-      "author": "",
-      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-      "content": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
       "readingMinutes": 1
     },
     {
@@ -2836,19 +2849,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "9a4b60e8b1552bdd",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA Vera Rubin 提升每瓦性能，为全球合作伙伴实现最低 Token 成本",
-      "url": "https://blogs.nvidia.cn/blog/vera-rubin/",
-      "published": "2026-07-21T02:00:00Z",
-      "author": "英伟达中国",
-      "summary": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。 Vera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。 Vera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供",
-      "content": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。\n\nVera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。\n\nVera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供最高的每瓦性能和最低的 Token 成本。CoreWeave 针对 DeepSeek-R1 的首次基准测试结果充分证明了这一点：其每兆瓦吞吐量比 Grace Blackwell NVL72 提升了 10 倍——这直接切中了电力受限的 AI 工厂最关心的核心指标。\n\n通过极致协同设计提升性能\n\n取得这一突破的关键在于七款芯片和五种机架托盘之间的极致协同设计。五种机架系统包括 Vera Rubin NVL72、Vera CPU 机架、Groq 3 LPX、Spectrum-6 SPX 和 Vera BlueField-4 STX。它们被作为一个完整的系统进行工程研发，而非由通用产品简单拼凑而成。\n\nNVIDIA Vera CPU 正是其核心所在。它重新定义了“AI 工厂 CPU”应有的形态。专为智能体时代设计，其定制 Olympus 核心相较竞品的芯粒 (chiplet) 方案，单线程性能提升 2 倍、核间带宽提升 3 倍、内存延迟降低 40%，使其成为面向最关键智能体负载时最高效的单线程 CPU。\n\n以专属定制网络，加速 AI 工厂建设\n\n在网络方面，该平台的第六代 NVLink 纵向扩展技术在处理复杂工作负载时，相比通用以太网，吞吐量提升超过 2 倍、延迟降低 1/3、数据包处理速率提升 10 倍。在横向扩展方面，Spectrum-X 以太网集成 102.4T 的 Spectrum-6 交换机系统、1.6T 的 ConnectX-9 SuperNIC、自适应路由、高级拥塞控制、遥测技术以及开放的操作系统支持，使其 RDMA 带宽比通用以太网高出 1.6 倍。\n\n包括 CoreWeave、微软、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础设施建设者率先采用 Spectrum-6 交换机，以加速其 AI 工厂的建设。此外，采用 NVIDIA 光电一体化封装 (CPO) 技术用于横向扩展，这是全球首款实现量产的同类型交换机，与传统可插拔收发器相比，其能效提升了 5 倍，平均无故障间隔时间 (MTBI) 提升了 10 倍。CoreWeave、Lambda 和 OCI 率先采用该技术。\n\nSpectrum-XGS 以太网跨站点吞吐量提升 1.9 倍，实现跨站点性能增强。满足十亿瓦级 AI 工厂的建设不再局限于单一建筑的需求。\n\n同时，NVLink Fusion 向第三方 XPU 开放了 NVIDIA 基础设施平台，为合作伙伴能够借助成熟的 NVLink 纵向扩展堆栈和生态系统，实现产品的快速上市。\n\n节省部署时间，节约水资源\n\n经过三代机架级协同设计的迭代，NVIDIA 打造出的 Vera Rubin NVL72 系统实现了托盘内无电缆、无风扇、无液冷软管的极简设计，将计算托盘的组装时间从过去的数小时大幅缩短至仅需 1 分钟。\n\n45 摄氏度的液冷进水温度设计，使得系统无需冷水机组，仅靠干式冷却器即可运行。对于新建的 AI 工厂而言，这种高温干式冷却结合闭环液冷系统，每兆瓦每年可节省数百万加仑的水资源。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 驱动欧洲开放模型时代\n\nVera Rubin 正为欧洲的 AI 基础设施注入下一代性能。\n\nVera Rubin 也是微软与 Mistral 新一轮深化合作的基石。该合作将前沿 AI 带到了欧洲，把开放的欧洲模型与云环境及客户管理的环境相结合，使各国政府和重点监管行业能够按照自身需求采用 AI 技术。\n\n这项合作的背后，是一项旨在扩大欧洲 AI 基础设施的数十亿美元新协议。Mistral 正在扩充其 GPU 算力，通过引入数千个最新的 NVIDIA Vera Rubin GPU，增加面向客户的 AI 算力供给，并为训练、推理和大规模部署提供共享平台。\n\nNVIDIA Vera Rubin 正迈入全面量产阶段。这款机架级 AI 超级计算机将七款协同设计的全新芯片整合为一个统一系统，它将调用数万个 GPU，为新一代 Mistral Compute 和微软欧洲的 AI 基础设施提供动力。\n\n欧洲希望在遵循自身法律的情况下，在本地完全自主可控地运行全球最强大的 AI。同时，其面临的挑战也在不断升级：智能体系统消耗的 Token 数量可达传统 AI 应用的 15 倍，这使得高效的基础设施成为重点。满足这一需求不仅需要庞大的计算能力，更需要 AI 在实现高效扩展的同时，满足区域对数据控制、治理、可靠性及战略自主的要求。\n\nVera Rubin 为欧洲的开放模型生态系统提供了计算基础。其全栈架构融合了加速计算、网络与软件，使模型和智能体能够从训练到生产实现高效运行。\n\n为企业级 AI 打造的开放模型\n\n微软、Mistral 与 NVIDIA 共同在公共云、云连接以及完全断开连接的私有云环境中，提供适配的 AI——将开放模型的灵活性与大规模运行所需的基础设施结合。\n\nMistral Medium 3.5 和 OCR 4 现已在 Microsoft Foundry 上线，同时 Mistral 模型也已集成至 Microsoft Copilot Studio。客户可以通过 Azure Local 和 Foundry Local 在云端和客户自主控制的环境中使用相同的模型、工具和运行模式。\n\n符合欧洲标准的 AI\n\n政府机构可将 AI 应用于涉及敏感业务的工作流；医疗和金融服务机构可在满足区域合规要求的前提下进行部署；制造商可在本地处理数据以实现更快速的决策。与 NVIDIA GB200 NVL72 相比，Vera Rubin NVL72 每兆瓦的 Token 产出提升高达 10 倍，每百万 Token 的成本降至原来的十分之一，在同等功耗下提供更强大的智能算力。\n\n打造真正适配当地语言、文化与法规的 AI 不应要求组织在创新、经济效益与控制权之间做出取舍。以 Vera Rubin 为计算基础，依托微软和 Mistral 提供的自主云基础设施与欧洲开放模型，欧洲完全可以三者兼得。\n\n详情请参阅微软与 Mistral 的新闻稿。\n\n2026 年 7 月 21 日\n\nCoreWeave 基准测试显示，NVIDIA Vera Rubin 系统每兆瓦 Token 吞吐量达 Blackwell 的 10 倍\n\n通过与 NVIDIA 进行极致的协同设计，CoreWeave 正依托 Vera Rubin NVL72 实现数量级的性能跃升。\n\n与 CoreWeave 等合作伙伴的紧密协作，对于将新一代 NVIDIA 加速计算成功部署至 AI 工厂至关重要。\n\n经过数月的联合工程研发，CoreWeave 成为首家完成 Vera Rubin NVL72 部署与验证的 AI 云服务提供商——他们首次公布了基于实际运行硬件测得的性能数据。\n\nCoreWeave 在 Vera Rubin NVL72 上运行了 DeepSeek-R1 基准测试。结果显示，与 Grace Blackwell NVL72 相比，Vera Rubin NVL72 每兆瓦每秒 Token 吞吐量提升了 10 倍。\n\n每兆瓦 Token 吞吐量是决定 AI 基础设施能否实现大规模盈利的核心指标。每兆瓦产出的 Token 越多，意味着在同等电力预算下能产出更多的智能算力，或者在显著降低功耗的情况下处理相同的工作负载。Jane Street 等 AI 实验室和企业将采用 Vera Rubin 平台，在 CoreWeave 云上扩展其 AI 工厂。\n\n借助 NVIDIA Spectrum-X 突破瓶颈\n\nDeepSeek R1 采用的混合专家 (MoE) 架构，在大规模部署场景下 GPU 间的 all-to-all 通信成为一项关键需求：每个 Token 都必须在分布式的专家子网络中进行路由。Vera Rubin NVL72 配备的 260 TB/s all-to-all NVLink 6 互连架构彻底消除了这一限制，使整个机架能够作为统一的加速器运行。\n\nCoreWeave 是首批部署 NVIDIA Spectrum-X 以太网 SN6600-LD，将其作为 Vera Rubin NVL72 交换网络架构的企业之一。\n\nCoreWeave 基于 102.4 Tb/s 的 Spectrum-6 交换芯片并采用液冷设计，部署了高密度交换机架，单机架可提供 1.64 Pb/s 的带宽，容量较上一代风冷交换机提升了 100%。此外，CoreWeave 还提供完全无阻塞、多平面、多轨方案的 Spine and Leaf 网络架构，确保使用 Vera Rubin NVL72 构建的系统 GPU 之间无阻塞互连通信。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 系统驱动全新 Google Cloud A5X 实例，助力 Ineffable Intelligence 发展\n\n由 NVIDIA Vera Rubin NVL72 和针对数据中心横向扩展架构的 Google Virgo 网络共同驱动的 Google Cloud A5X 实例。图片由 Google Cloud 提供。\n\nNVIDIA Vera Rubin NVL72 正在为 Google Cloud 的首个 A5X 实例提供算力支持，该实例现已由伦敦初创公司 Ineffable Intelligence 率先采用。\n\nIneffable Intelligence 致力于开发新一代智能“Superlearner”系统，该系统能够通过经验持续学习，从而在各个领域实现新的突破。\n\nIneffable Intelligence 的智能体直接从与环境的交互中学习，而非依赖静态数据集。Ineffable 没有使用大语言模型 (LLMs) ，而是通过强化学习来开发“Superlearner”系统。该系统在持续模拟的大规模并行环境中生成经验，并迅速将这些经验转化为策略更新与评估。这种紧密耦合的学习闭环对算力、内存带宽和互连技术提出了极高的要求，需要基础设施能够在极大的规模下以极低的延迟运行。\n\nIneffable Intelligence 联合创始人 Lasse Espeholt 表示：“下一个研究时代，必须依托下一代的硬件。能与 NVIDIA 和 Google Cloud 的团队合作，让我们得以抢先体验 Vera Rubin，我们深感荣幸。这两个团队给予了极具价值的支持：我们的系统几乎立即完成部署并启动运行，目前已经在为 Superlearners 系统测试基础设施。”\n\nNVIDIA Vera Rubin NVL72 专为这类智能体训练而设计，能够提供可预测的低延迟、高利用率，以及远超上一代系统的单位智能算力产出。这使其成为大规模强化学习的理想平台选择。\n\n在 Google Cloud Next 上发布的 Google Cloud A5X 实例是基于 NVIDIA Vera Rubin NVL72 机架级系统构建的裸金属实例。与上一代相比，其每 Token 推理成本降低至 1/10，每兆瓦 Token 吞吐量提升了 10 倍。\n\nA5X 采用 NVIDIA ConnectX-9 SuperNICs 并结合了新一代 Google Virgo 网络，能够在单一站点内扩展至数万个 NVIDIA Rubin GPU，在跨多站点配置下更可扩展至近百万个 GPU 集群。这为客户提供了一套统一的、针对 AI 优化的技术栈，用于前沿模型、开放模型、智能体模型和物理 AI 模型的训练、微调和服务部署，同时实现了性能、成本和可持续性的全面优化。\n\n这一基础设施旨在助力解锁下一代强化学习系统，推动超级学习和超级智能领域的突破。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera CPU 助力 DeepInfra AI 云实现编排速度翻倍\n\nDeepInfra 的基准测试结果显示，NVIDIA Vera CPU 的运行速度是其他 CPU 的 2 倍以上，并且能够支持更多并发的 AI 智能体。\n\n作为 NVIDIA 开放 AI 生态系统的早期伙伴，云平台 DeepInfra 基于其生产级 AI 智能体基础设施，独立设计并运行了基准测试。DeepInfra 每周处理近 5 万亿个 Token，其中约 30% 由智能体系统驱动。其云平台专为高吞吐量的 AI 推理而打造。\n\n基准测试表明，在保持相同服务质量的前提下，Vera CPU 支持的并发 AI 智能体数量比其他 CPU 多出高达 1.6 倍，编排速度快 2.2 倍，同时还能提高基础设施的利用率和成本效益。这些结果充分证明，NVIDIA Vera CPU 能够提供生产级智能体 AI 所需的成本效益、低延迟和高吞吐量。\n\n随着 AI 智能体承担起越来越复杂的推理、规划、工具调用和数据传输任务，对于编排每次模型调用前后相关的工作而言，CPU 的性能正变得愈发重要。\n\n作为 NVIDIA 面向 AI 工厂的极致协同设计理念的一部分，Vera CPU 专为智能体工作负载而打造。DeepInfra 的基准测试充分凸显了 NVIDIA Vera CPU 如何帮助云服务提供商提升基础设施利用率、提高成本效益，并在保持相同服务质量的前提下支持更多并发的 AI 智能体。\n\n深入了解 NVIDIA Vera Rubin 平台。",
-      "readingMinutes": 10
-    },
-    {
       "id": "444580407c455e68",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -2860,6 +2860,19 @@
       "summary": "AI 已进入十亿瓦级时代。 全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。 作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。 Spectrum-6 驱动新一代 NVIDIA Spec",
       "content": "AI 已进入十亿瓦级时代。\n\n全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。\n\n作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。\n\nSpectrum-6 驱动新一代 NVIDIA Spectrum-X 以太网平台，为运营 AI 工厂端到端计算系统提供所需的高带宽、规模扩展和智能。\n\n领先的 AI 构建者率先行动\n\n包括 CoreWeave、微软、Nebius、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础架构构建商，率先采用 Spectrum-6，以加速其 AI 工厂建设。\n\n对于云服务提供商而言，Spectrum-6 意味着更高的计算能力，可以作为统一的高性能资源运行，帮助客户更快地训练模型和部署推理服务。\n\nCoreWeave 网络产品总监 Min Jun 表示：“CoreWeave 专为要求严苛的 AI 工作负载而构建，而网络是提供大规模高性能系统的核心。将 NVIDIA Spectrum-6 和液冷 Spectrum-X 以太网基础设施引入我们的 AI 工厂，能够提供更高的带宽、可靠性和效率，从而帮助我们更好地为客户提供模型训练服务，并更快地部署推理服务。”\n\nNebius 全球合作伙伴关系副总裁 Laurelle Roseman 表示：“在十亿瓦级系统上，协同决定总体性能：让每个 GPU 时刻保持同步，避免因为一个慢环节拖累整个工作。这正是 NVIDIA Spectrum-6 追求的目标，也是我们抢先采用它的原因——它能确保网络在随着客户应对要求严苛的工作负载规模扩展时，时刻保持高速和可靠性。”\n\n对于自建基础设施的 AI 先驱来说，Spectrum-6 意味着更多的 GPU 能够保持同步运行，为要求严苛、大量使用集合操作的作业实现更高的系统利用率，并提高长期运行工作的可靠性。\n\n在各种用例中，最重要的结果是更快地完成作业，并在大规模系统上实现更高的经济效益。\n\nCoreWeave、微软和 Nebius 将成为首批使用 Spectrum-6 部署 NVIDIA Vera Rubin 基础设施的提供商，为广泛的开发者、初创公司和企业社区提供平台访问服务。\n\nAI 性能本质上是一个网络问题\n\n仅凭单个 GPU 峰值性能无法预测 AI 工厂的性能。\n\n大规模训练和推理工作负载依赖于数千个加速器，它们之间频繁进行数据交换。集合通信是跨 GPU 进行工作同步的基本操作，会产生密集的东西向流量，且系统上通常有许多任务同时进行流量传输。\n\n以太网最初主要用于企业应用，承载用户、服务器和存储之间的南北向数据流量，并非为超大规模 AI 的同步、集合密集型通信模式而创建。\n\nSpectrum-X 以太网改变了这一局面。它专为 AI 打造，将以太网转变为高性能横向扩展网络，旨在为每个 GPU 及时“喂上”足够数据。\n\n新一代 Spectrum-X 以太网\n\nSpectrum-6 交换机芯片与 NVIDIA ConnectX-9 SuperNIC 相结合，构成了新一代 Spectrum-X 以太网，与 NVIDIA Vera CPU、Rubin GPU、NVLink 6 交换机、ConnectX-9 SuperNIC、BlueField-4 DPU 和 Spectrum-6 以太网交换机一起，共同组成了 NVIDIA Vera Rubin 平台。\n\nSpectrum-6 支持可插拔和光电一体化封装两种规格。此外，Spectrum-6 产品还支持液冷，支持整个 AI 工厂全面的端到端液冷方案，显著提高系统能效。\n\n与通用以太网不同，用于 AI 工厂横向扩展的 NVIDIA Spectrum-X 以太网网络平台结合了智能交换机、NVIDIA ConnectX-9 SuperNIC 和全栈网络软件，共同为 AI 定向设计。该平台的高级功能不断优化数据流量在网络中的移动。\n\n此外，NVIDIA Spectrum-X 技术可智能平衡可用路径中的流量，并且在发生网络故障时，快速绕过故障点实现精准恢复。此外，它支持开放网络操作系统，以及多种 RDMA 传输模型，在不牺牲性能的前提下，为 AI 构建者带来了最大的灵活性。\n\nSpectrum-X 以太网采用 NVIDIA 垂直集成、横向开放的设计方法：为整个计算平台协同设计芯片、系统和软件，同时支持标准以太网、开放网络操作系统、开放协议以及云服务提供商、系统制造商和基础设施合作伙伴的广泛生态系统。客户无需组装零件之后再对其进行优化，而是直接获得了一个完整的 AI 工厂平台，该平台旨在缩短训练时间并降低单位 Token 成本。\n\n与通用以太网相比，Spectrum-X 以太网可提供高达 1.6 倍的 AI 网络性能，在超过 10 万个 GPU 的部署中保持高达 95% 的网络效率，这充分体现了协同设计方法的优越性。\n\n硬件加速的 Spectrum‑X 多平面拓扑可使数据中心所需交换机数量减少 40%，进一步提升网络效率。叠加 Spectrum‑X 以太网硅光技术带来的各项优势 (能效提升 5 倍、平均无故障间隔时间提升 10 倍)，协同设计网络架构持续体现超越单一组件层面优化的应用加速。\n\n详细了解 NVIDIA Spectrum-X 以太网平台。",
       "readingMinutes": 4
+    },
+    {
+      "id": "9a4b60e8b1552bdd",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA Vera Rubin 提升每瓦性能，为全球合作伙伴实现最低 Token 成本",
+      "url": "https://blogs.nvidia.cn/blog/vera-rubin/",
+      "published": "2026-07-21T02:00:00Z",
+      "author": "英伟达中国",
+      "summary": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。 Vera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。 Vera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供",
+      "content": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。\n\nVera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。\n\nVera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供最高的每瓦性能和最低的 Token 成本。CoreWeave 针对 DeepSeek-R1 的首次基准测试结果充分证明了这一点：其每兆瓦吞吐量比 Grace Blackwell NVL72 提升了 10 倍——这直接切中了电力受限的 AI 工厂最关心的核心指标。\n\n通过极致协同设计提升性能\n\n取得这一突破的关键在于七款芯片和五种机架托盘之间的极致协同设计。五种机架系统包括 Vera Rubin NVL72、Vera CPU 机架、Groq 3 LPX、Spectrum-6 SPX 和 Vera BlueField-4 STX。它们被作为一个完整的系统进行工程研发，而非由通用产品简单拼凑而成。\n\nNVIDIA Vera CPU 正是其核心所在。它重新定义了“AI 工厂 CPU”应有的形态。专为智能体时代设计，其定制 Olympus 核心相较竞品的芯粒 (chiplet) 方案，单线程性能提升 2 倍、核间带宽提升 3 倍、内存延迟降低 40%，使其成为面向最关键智能体负载时最高效的单线程 CPU。\n\n以专属定制网络，加速 AI 工厂建设\n\n在网络方面，该平台的第六代 NVLink 纵向扩展技术在处理复杂工作负载时，相比通用以太网，吞吐量提升超过 2 倍、延迟降低 1/3、数据包处理速率提升 10 倍。在横向扩展方面，Spectrum-X 以太网集成 102.4T 的 Spectrum-6 交换机系统、1.6T 的 ConnectX-9 SuperNIC、自适应路由、高级拥塞控制、遥测技术以及开放的操作系统支持，使其 RDMA 带宽比通用以太网高出 1.6 倍。\n\n包括 CoreWeave、微软、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础设施建设者率先采用 Spectrum-6 交换机，以加速其 AI 工厂的建设。此外，采用 NVIDIA 光电一体化封装 (CPO) 技术用于横向扩展，这是全球首款实现量产的同类型交换机，与传统可插拔收发器相比，其能效提升了 5 倍，平均无故障间隔时间 (MTBI) 提升了 10 倍。CoreWeave、Lambda 和 OCI 率先采用该技术。\n\nSpectrum-XGS 以太网跨站点吞吐量提升 1.9 倍，实现跨站点性能增强。满足十亿瓦级 AI 工厂的建设不再局限于单一建筑的需求。\n\n同时，NVLink Fusion 向第三方 XPU 开放了 NVIDIA 基础设施平台，为合作伙伴能够借助成熟的 NVLink 纵向扩展堆栈和生态系统，实现产品的快速上市。\n\n节省部署时间，节约水资源\n\n经过三代机架级协同设计的迭代，NVIDIA 打造出的 Vera Rubin NVL72 系统实现了托盘内无电缆、无风扇、无液冷软管的极简设计，将计算托盘的组装时间从过去的数小时大幅缩短至仅需 1 分钟。\n\n45 摄氏度的液冷进水温度设计，使得系统无需冷水机组，仅靠干式冷却器即可运行。对于新建的 AI 工厂而言，这种高温干式冷却结合闭环液冷系统，每兆瓦每年可节省数百万加仑的水资源。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 驱动欧洲开放模型时代\n\nVera Rubin 正为欧洲的 AI 基础设施注入下一代性能。\n\nVera Rubin 也是微软与 Mistral 新一轮深化合作的基石。该合作将前沿 AI 带到了欧洲，把开放的欧洲模型与云环境及客户管理的环境相结合，使各国政府和重点监管行业能够按照自身需求采用 AI 技术。\n\n这项合作的背后，是一项旨在扩大欧洲 AI 基础设施的数十亿美元新协议。Mistral 正在扩充其 GPU 算力，通过引入数千个最新的 NVIDIA Vera Rubin GPU，增加面向客户的 AI 算力供给，并为训练、推理和大规模部署提供共享平台。\n\nNVIDIA Vera Rubin 正迈入全面量产阶段。这款机架级 AI 超级计算机将七款协同设计的全新芯片整合为一个统一系统，它将调用数万个 GPU，为新一代 Mistral Compute 和微软欧洲的 AI 基础设施提供动力。\n\n欧洲希望在遵循自身法律的情况下，在本地完全自主可控地运行全球最强大的 AI。同时，其面临的挑战也在不断升级：智能体系统消耗的 Token 数量可达传统 AI 应用的 15 倍，这使得高效的基础设施成为重点。满足这一需求不仅需要庞大的计算能力，更需要 AI 在实现高效扩展的同时，满足区域对数据控制、治理、可靠性及战略自主的要求。\n\nVera Rubin 为欧洲的开放模型生态系统提供了计算基础。其全栈架构融合了加速计算、网络与软件，使模型和智能体能够从训练到生产实现高效运行。\n\n为企业级 AI 打造的开放模型\n\n微软、Mistral 与 NVIDIA 共同在公共云、云连接以及完全断开连接的私有云环境中，提供适配的 AI——将开放模型的灵活性与大规模运行所需的基础设施结合。\n\nMistral Medium 3.5 和 OCR 4 现已在 Microsoft Foundry 上线，同时 Mistral 模型也已集成至 Microsoft Copilot Studio。客户可以通过 Azure Local 和 Foundry Local 在云端和客户自主控制的环境中使用相同的模型、工具和运行模式。\n\n符合欧洲标准的 AI\n\n政府机构可将 AI 应用于涉及敏感业务的工作流；医疗和金融服务机构可在满足区域合规要求的前提下进行部署；制造商可在本地处理数据以实现更快速的决策。与 NVIDIA GB200 NVL72 相比，Vera Rubin NVL72 每兆瓦的 Token 产出提升高达 10 倍，每百万 Token 的成本降至原来的十分之一，在同等功耗下提供更强大的智能算力。\n\n打造真正适配当地语言、文化与法规的 AI 不应要求组织在创新、经济效益与控制权之间做出取舍。以 Vera Rubin 为计算基础，依托微软和 Mistral 提供的自主云基础设施与欧洲开放模型，欧洲完全可以三者兼得。\n\n详情请参阅微软与 Mistral 的新闻稿。\n\n2026 年 7 月 21 日\n\nCoreWeave 基准测试显示，NVIDIA Vera Rubin 系统每兆瓦 Token 吞吐量达 Blackwell 的 10 倍\n\n通过与 NVIDIA 进行极致的协同设计，CoreWeave 正依托 Vera Rubin NVL72 实现数量级的性能跃升。\n\n与 CoreWeave 等合作伙伴的紧密协作，对于将新一代 NVIDIA 加速计算成功部署至 AI 工厂至关重要。\n\n经过数月的联合工程研发，CoreWeave 成为首家完成 Vera Rubin NVL72 部署与验证的 AI 云服务提供商——他们首次公布了基于实际运行硬件测得的性能数据。\n\nCoreWeave 在 Vera Rubin NVL72 上运行了 DeepSeek-R1 基准测试。结果显示，与 Grace Blackwell NVL72 相比，Vera Rubin NVL72 每兆瓦每秒 Token 吞吐量提升了 10 倍。\n\n每兆瓦 Token 吞吐量是决定 AI 基础设施能否实现大规模盈利的核心指标。每兆瓦产出的 Token 越多，意味着在同等电力预算下能产出更多的智能算力，或者在显著降低功耗的情况下处理相同的工作负载。Jane Street 等 AI 实验室和企业将采用 Vera Rubin 平台，在 CoreWeave 云上扩展其 AI 工厂。\n\n借助 NVIDIA Spectrum-X 突破瓶颈\n\nDeepSeek R1 采用的混合专家 (MoE) 架构，在大规模部署场景下 GPU 间的 all-to-all 通信成为一项关键需求：每个 Token 都必须在分布式的专家子网络中进行路由。Vera Rubin NVL72 配备的 260 TB/s all-to-all NVLink 6 互连架构彻底消除了这一限制，使整个机架能够作为统一的加速器运行。\n\nCoreWeave 是首批部署 NVIDIA Spectrum-X 以太网 SN6600-LD，将其作为 Vera Rubin NVL72 交换网络架构的企业之一。\n\nCoreWeave 基于 102.4 Tb/s 的 Spectrum-6 交换芯片并采用液冷设计，部署了高密度交换机架，单机架可提供 1.64 Pb/s 的带宽，容量较上一代风冷交换机提升了 100%。此外，CoreWeave 还提供完全无阻塞、多平面、多轨方案的 Spine and Leaf 网络架构，确保使用 Vera Rubin NVL72 构建的系统 GPU 之间无阻塞互连通信。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 系统驱动全新 Google Cloud A5X 实例，助力 Ineffable Intelligence 发展\n\n由 NVIDIA Vera Rubin NVL72 和针对数据中心横向扩展架构的 Google Virgo 网络共同驱动的 Google Cloud A5X 实例。图片由 Google Cloud 提供。\n\nNVIDIA Vera Rubin NVL72 正在为 Google Cloud 的首个 A5X 实例提供算力支持，该实例现已由伦敦初创公司 Ineffable Intelligence 率先采用。\n\nIneffable Intelligence 致力于开发新一代智能“Superlearner”系统，该系统能够通过经验持续学习，从而在各个领域实现新的突破。\n\nIneffable Intelligence 的智能体直接从与环境的交互中学习，而非依赖静态数据集。Ineffable 没有使用大语言模型 (LLMs) ，而是通过强化学习来开发“Superlearner”系统。该系统在持续模拟的大规模并行环境中生成经验，并迅速将这些经验转化为策略更新与评估。这种紧密耦合的学习闭环对算力、内存带宽和互连技术提出了极高的要求，需要基础设施能够在极大的规模下以极低的延迟运行。\n\nIneffable Intelligence 联合创始人 Lasse Espeholt 表示：“下一个研究时代，必须依托下一代的硬件。能与 NVIDIA 和 Google Cloud 的团队合作，让我们得以抢先体验 Vera Rubin，我们深感荣幸。这两个团队给予了极具价值的支持：我们的系统几乎立即完成部署并启动运行，目前已经在为 Superlearners 系统测试基础设施。”\n\nNVIDIA Vera Rubin NVL72 专为这类智能体训练而设计，能够提供可预测的低延迟、高利用率，以及远超上一代系统的单位智能算力产出。这使其成为大规模强化学习的理想平台选择。\n\n在 Google Cloud Next 上发布的 Google Cloud A5X 实例是基于 NVIDIA Vera Rubin NVL72 机架级系统构建的裸金属实例。与上一代相比，其每 Token 推理成本降低至 1/10，每兆瓦 Token 吞吐量提升了 10 倍。\n\nA5X 采用 NVIDIA ConnectX-9 SuperNICs 并结合了新一代 Google Virgo 网络，能够在单一站点内扩展至数万个 NVIDIA Rubin GPU，在跨多站点配置下更可扩展至近百万个 GPU 集群。这为客户提供了一套统一的、针对 AI 优化的技术栈，用于前沿模型、开放模型、智能体模型和物理 AI 模型的训练、微调和服务部署，同时实现了性能、成本和可持续性的全面优化。\n\n这一基础设施旨在助力解锁下一代强化学习系统，推动超级学习和超级智能领域的突破。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera CPU 助力 DeepInfra AI 云实现编排速度翻倍\n\nDeepInfra 的基准测试结果显示，NVIDIA Vera CPU 的运行速度是其他 CPU 的 2 倍以上，并且能够支持更多并发的 AI 智能体。\n\n作为 NVIDIA 开放 AI 生态系统的早期伙伴，云平台 DeepInfra 基于其生产级 AI 智能体基础设施，独立设计并运行了基准测试。DeepInfra 每周处理近 5 万亿个 Token，其中约 30% 由智能体系统驱动。其云平台专为高吞吐量的 AI 推理而打造。\n\n基准测试表明，在保持相同服务质量的前提下，Vera CPU 支持的并发 AI 智能体数量比其他 CPU 多出高达 1.6 倍，编排速度快 2.2 倍，同时还能提高基础设施的利用率和成本效益。这些结果充分证明，NVIDIA Vera CPU 能够提供生产级智能体 AI 所需的成本效益、低延迟和高吞吐量。\n\n随着 AI 智能体承担起越来越复杂的推理、规划、工具调用和数据传输任务，对于编排每次模型调用前后相关的工作而言，CPU 的性能正变得愈发重要。\n\n作为 NVIDIA 面向 AI 工厂的极致协同设计理念的一部分，Vera CPU 专为智能体工作负载而打造。DeepInfra 的基准测试充分凸显了 NVIDIA Vera CPU 如何帮助云服务提供商提升基础设施利用率、提高成本效益，并在保持相同服务质量的前提下支持更多并发的 AI 智能体。\n\n深入了解 NVIDIA Vera Rubin 平台。",
+      "readingMinutes": 10
     },
     {
       "id": "413ef8ab41769726",
@@ -2886,19 +2899,6 @@
       "summary": "In the previous article \"Cluster User Emulation System (CUE Agent) for Automated Blue Team and Red Team Activities in Cyber Exercises\" , I introduced the Cluster User Emulation System (CUE) and how to use this agent framework to automatically generate realistic Blue Team and Red…",
       "content": "In the previous article \"Cluster User Emulation System (CUE Agent) for Automated Blue Team and Red Team Activities in Cyber Exercises\" , I introduced the Cluster User Emulation System (CUE) and how to use this agent framework to automatically generate realistic Blue Team and Red Team user activities for cyber exercises. Such as emulating the daily behavior of legitimate users as well as attacker o",
       "readingMinutes": 1
-    },
-    {
-      "id": "bdaa22229fcb5ef7",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA 在 SIGGRAPH 上展示代理式 AI 与物理 AI 成果，推动图形与仿真技术进步",
-      "url": "https://blogs.nvidia.cn/blog/siggraph-news-2026/",
-      "published": "2026-07-20T04:49:10Z",
-      "author": "英伟达中国",
-      "summary": "今年的 SIGGRAPH 大会将持续到 7 月 23 日 (星期四) 在洛杉矶举行，参会者可以了解领先的图形研究、神经渲染、仿真和 AI 如何改变人们和机器创造和理解世界的方式。 NVIDIA 主题演讲于太平洋时间 7 月 20 日 15:45 举行，NVIDIA AI 研究和工程团队负责人 Neil Ashton、Edward Liu 和 Ming-Yu Liu 讨论了由 AI 构建的神经渲染技术、世界模型和 AI 仿真方法。 请继续阅读，了解 SIGGRAPH 大会的最新动态，NVIDIA",
-      "content": "今年的 SIGGRAPH 大会将持续到 7 月 23 日 (星期四) 在洛杉矶举行，参会者可以了解领先的图形研究、神经渲染、仿真和 AI 如何改变人们和机器创造和理解世界的方式。\n\nNVIDIA 主题演讲于太平洋时间 7 月 20 日 15:45 举行，NVIDIA AI 研究和工程团队负责人 Neil Ashton、Edward Liu 和 Ming-Yu Liu 讨论了由 AI 构建的神经渲染技术、世界模型和 AI 仿真方法。\n\n请继续阅读，了解 SIGGRAPH 大会的最新动态，NVIDIA 和合作伙伴将展示：\n\nNVIDIA 主题演讲回顾\n\n模型上下文协议连接将代理式 AI 引入内容创建\n\n全新 NIM 合成视频检测器\n\n适用于本地物理 AI 的 Cosmos 3 Edge 开放世界模型\n\n在 DGX Station 上基于 NVIDIA Agent Toolkit 运行 NVIDIA NemoClaw\n\nSIGGRAPH 主题演讲：NVIDIA 勾勒图形与物理 AI 的新时代蓝图\n\nNVIDIA Cosmos 实验室副总裁 Ming -Yu Liu 在 SIGGRAPH 2026 发表演讲。\n\nNVIDIA AI 研究与工程团队负责人今天在 SIGGRAPH 大会上登台，分享了神经渲染、世界模型和仿真方面的最新进展。这些技术正在改变各个领域创建和使用数字世界的方式，并可应用于创意工具、工业设计、机器人和自主系统。\n\nNVIDIA 创始人兼首席执行官黄仁勋在开场视频中表示：“创作者和设计师需要足够强大的工具来拓展他们的想象力，需要足够灵活的工具来自由地塑造想法，也需要足够精确以实现他们的愿景。无论是用于游戏、电影、机器人还是工厂数字孪生，目标始终一致：打造具备与现实物理世界同等保真度和真实感的虚拟世界。”\n\nNVIDIA 应用深度学习研究主管 Edward Liu 首先展示了 3D 引导神经网络渲染。\n\n他分享了 NVIDIA 在神经渲染方面的最新进展，以及这些技术如何解决三大关键研究挑战：保留艺术创作的意图、确保输出在帧与帧之间的时间稳定性，以及实现 4K 内容实时渲染。\n\nEdward Liu 表示：“控制艺术创作方向对我们来说是一个非常令人兴奋的研究方向。仿真定义了世界，生成丰富了它的外观，而艺术家则主导最终的结果。AI 正在扩展图形学，就像可编程着色器和光线追踪曾经扩展图形学的方式。”\n\nNVIDIA 杰出工程师 Neil Ashton 介绍了 AI 物理领域的创新，包括天气预报、汽车空气动力学、散热设计等方面的应用。\n\n在气候和天气研究中 NVIDIA Earth-2 开放模型系列使科学家能够利用基于模拟数据训练的 AI 模型，将模拟分辨率提升到新的水平，同时实现与传统方法相同或更高的准确性。\n\nNVIDIA 杰出工程师 Neil Ashton 在 SIGGRAPH 2026 上介绍 NVIDIA Earth-2。\n\nAshton 说：“我们面临的挑战是如何将这些 AI 模型在天气和气候领域取得的成功应用到我们生活的世界中，从而能够设计出未来的飞机、汽车和数据中心。NVIDIA 关注的事情之一就是帮助实现这一愿景。”\n\nAshton 分享了 NVIDIA 研究中心及其合作伙伴开发的最新模型架构如何将模型 Checkpoint 压缩至数百 MB，这种百万倍量级的压缩能够在一秒内完成符合物理规律的精准可视化。\n\nNVIDIA Cosmos 实验室副总裁 Ming-Yu Liu 分享了 NVIDIA Cosmos，这是一个用于加速物理 AI 系统开发的世界基础模型平台。\n\n他说：“基础模型之所以被称为基础模型，关键在于它能够处理大量不同的数据。我们使用数据训练 Cosmos 执行各种物理任务，包括理解世界、预测、模拟和行动。我们使用一个主干网络解决所有不同的任务。”\n\nMing-Yu Liu 还介绍了用于帮助 NVIDIA Cosmos 3 实现全局理解的 Mixture-of-Transformers 模型架构。这种能力可实现符合物理规律的结果，适用于人形机器人、抓手或智能汽车等不同具身形态。\n\n他说：“每个具身都有不同的语言，而我们的解决方案是建立一种通用的体系。”\n\nNVIDIA Cosmos 包含一系列不同规模的开放模型，可支持开发者在各种部署用例下使用。今天发布的最新版本是 Cosmos 3 Edge，这是一个拥有 40 亿参数的模型，可在设备上实时运行。\n\nMing-Yu Liu 还宣布推出了 Cosmos-Dreams，这是一个闭环模拟器的集合，现场他和同事演示了一个专为智能汽车构建的模拟器，该模拟器可在单帧上生成整个世界，并在单张 NVIDIA RTX PRO GPU 上运行。\n\n开发者可以使用 Cosmos-Dreams 验证其模型的准确性，然后再将其部署到实际车队中，或者使用它在现实世界中难以创建的 AI 生成场景中训练模型，从而在节省运营成本的同时加速开发。\n\n观看完整主题演讲并详细了解 Cosmos 3 Edge。\n\nAI 智能体将创意工具扩展到数百万用户\n\n图片由 Epic Games 提供。\n\n领先的创意应用正在开启模型上下文协议 (MCP) 连接，让 AI 智能体在场景、镜头、时间线、资产和剪辑工具中开展工作 —— 同时让创作者始终保持掌控力。\n\n二十多年来，从 GPU 加速的视口和 CUDA 驱动的特效，到 NVIDIA RTX PRO 光线追踪、AI 降噪、神经渲染和实时仿真，NVIDIA 技术帮助加速艺术家、工作室和开发者用于构建全球游戏、电影、电视节目和广告内容的数字内容创作 (DCC) 工具。\n\n从加速到行动\n\nMCP 正开启加速创意的新篇章：应用程序不仅变得更快。它们正在成为面向智能体的产品。\n\n借助 MCP 连接的工具，艺术家或技术总监可以要求智能体检查场景中缺少的纹理、标记不一致的色彩管理、准备导出变体、为每日样片生成播放预览或根据工作流规则验证镜头，同时将创意决策权保留在人类手中。\n\n曾经加速视口、渲染、仿真和 AI 效果的 NVIDIA 平台，现在还可为专业创作者设计的系统上的本地智能体、模型推理和多应用工作流提供动力。\n\nNVIDIA RTX PRO 工作站、DGX Spark 和 DGX Station 系统旨在为艺术家、开发者和工作室的工作流带来经加速的 AI 性能。在本地运行模型和智能体有助于提升响应速度、减少对外部服务的依赖，并确保敏感的创意数据保存在可控环境之中。\n\nNVIDIA Agent Toolkit 还支持 MCP 集成，包括用于连接到远程 MCP 服务器的 MCP 客户端和用于向任何 MCP 客户端发布工具的 MCP 服务器。\n\n创意生态系统实现面向智能体\n\n在整个创意生态系统中，创意应用和平台正在暴露 MCP 连接或面向 MCP 的工作流，赋予 AI 智能体更深入、更具有依据的方式来访问实际生产环境。\n\nAdobe 正在将其创意智能体扩展到 Firefly、Express 和 Creative Cloud，为 AI 助手体验提供支持。创作者只需要描述他们想要的结果，助手便会协调多步骤工作流来实现。Adobe 还通过 Adobe 连接器将其专业级创意工具引入第三方 AI 平台，从而在人们创作和工作的任何地方扩展其创意能力。对于开发者，Adobe 提供了 Adobe Express Developer MCP Server，使 AI 编程助手能够使用官方文档和应用程序编程接口 (API) 构建 Adobe Express 附加组件。\n\nCanva 的 Affinity 推出了针对 Claude 的 AI 连接器，使用 MCP 将自然语言自动化直接引入 Affinity。设计师可以要求 Claude 处理重复性的生产任务，例如重命名图层和画板、为多渠道调整资产大小和格式、应用批量编辑、优化矢量路径以及准备交付文件。除了单项任务，Claude 还能帮助用户构建可复用的脚本和为其工作流量身定制的自定义功能，从而降低生产开销，让创意专业人士有更多时间专注于设计本身。\n\nBlender 通过 Blender Lab 提供了一个轻量级 MCP 服务器，为 Blender 的 Python API、文档和复杂设置提供自然语言接口。对于独立艺术家和工作室来说，Blender 提供了一个很好的范例，展示了如何让开放的创意工具在不改变创意重心的情况下，实现智能体访问。\n\nBoris FX Silhouette 现在包含一个 MCP 服务器，可让 AI 助手直接在您的项目中工作。通过使用 Silhouette 的 FX Scripting API 作为一流的 MCP 工具，助手可以检查项目、构建节点树、编辑形状和关键帧，以及渲染帧。全新的首选项面板通过安装 MCP 包、生成可直接粘贴的客户端配置以及测试连接，简化了设置过程。交互式在线模式可连接到您的活动会话，而离线模式则可运行无头实例，用于自动化、批量处理和大规模工作流。\n\nFoundry Griptape 原生支持 MCP，提供专为专业视觉特效 (VFX) 工作流设计的 AI 编排。这种集成使工作室能够安全地管理多个 AI 模型和智能体，同时保持必要的可追溯性和创意把控力。通过与 Blender 和 Foundry Nuke 等工具集成，Griptape 可自动执行重复性生产任务，例如清理、数字绘景和质量控制，同时确保艺术家始终掌握对创作过程的最终决定权。\n\nSideFX 正通过其全新的 APEX Script 工作流为 Houdini 22 引入 MCP 支持。AI 助手可以访问经过精心整理的 APEX Script 语法、函数、文档和示例集合，帮助艺术家生成和优化程序化角色绑定的代码。SideFX 的初始实现侧重于 APEX Script 和角色绑定，而社区开发的 MCP 服务器为智能体与 Houdini 的交互提供了更广泛的方式。\n\n虚幻引擎 (Unreal Engine) 近期宣布，能够通过 MCP 将 AI 客户端连接至虚幻编辑器 (Unreal Editor)，从而实现可通过标准化协议与编辑器功能进行交互的 AI 工作流。对于游戏开发者、虚拟制作团队和实时艺术家而言，这为能够对场景、资产和项目状态进行推理的 AI 助手敞开了大门。\n\n欢迎在 SIGGRAPH 大会上了解 NVIDIA RTX PRO 和 DGX 系统如何将本地 AI 智能体更紧密地融入创意工作。\n\nNVIDIA AI for Media 助力新闻编辑室检测合成视频\n\n每天，视频都会将重大新闻事件呈现在我们眼前 —— 从横跨各大洲的突发新闻，到重塑整个社区的事件，再到将全球各地的人们团结在一起的时刻。在全天候滚动更新的新闻周期中，值得信赖的视频是人们了解正在发生的事情、理解其重要性并保持信息同步的媒介。\n\n因此，公众对视频的信任比以往任何时候都更加重要。在 SIGGRAPH 大会上，NVIDIA 推出合成视频检测器 (Synthetic Video Detector) 的 NVIDIA NIM，作为 NVIDIA AI for Media 平台的一部分，将 AI 辅助的检测信号引入编辑和媒体工作流。\n\n该 NIM 能够逐帧分析视频，并生成一个分类器评分，以判断是否包含合成内容。编辑团队可以使用该评分来确定审核片段的优先级、标记或隔离可疑素材，或将其升级以进行更深入的分析。\n\n该 NIM 不会取代现有的验证习惯，而是为时间敏感型决策提供额外的信号 —— 帮助团队在快速行动的同时，保障编辑标准和确保公众信任。\n\n合成视频检测器在新闻编辑室和社交视频工作流中常见的压缩、调整大小、裁剪和重新编码步骤后仍然能保持有效性。在 NVIDIA 的测试中，该模型在未压缩视频上的准确率高达 92%，在 15% 压缩率下的准确率为 87%，在 50% 压缩率下的准确率为 82%。\n\n在 NVIDIA RTX 系统上，该 NIM 处理 1080p 视频仅需 22 毫秒，在 NVIDIA L40 GPU 上大约需要 30 毫秒。\n\n于视频所在之处部署检测\n\n组织可以将该 NIM 部署到更靠近敏感视频采集、存储或分发的位置，包括本地、边缘、混合和经批准的物理隔离环境。这种灵活性有助于团队保持对视频数据、访问权限和运营的把控。\n\n合作伙伴的采用已经帮助合成视频检测器从模型功能转变为可部署的媒体基础设施。Wowza 正在通过 Wowza Video Intelligence Framework 嵌入该 NIM，将实时合成视频检测引入其直播工作流中，该工作流已在 170 多个国家/地区完成了超过 35,000 次部署。\n\n这种规模化部署至关重要，因为许多易受合成媒体风险影响的组织 (包括广播公司、政府机构、金融机构和关键基础设施运营商)，在数据驻留、安全性和运营把控方面也面临严格要求。\n\n通过将合成视频检测器与客户现有的视频基础设施层相结合，Wowza 可以在更靠近摄取和流媒体传输操作的地方提供 AI 辅助验证，使团队能够实时标记可疑视频，同时将敏感素材保存在自己的环境中。\n\n请参阅软件产品信息的注意事项。\n\nNVIDIA Cosmos 3 Edge 现已推出，将前沿世界模型引入边缘 GPU 以实现本地物理 AI\n\n物理 AI 系统依赖世界模型来感知、推理和预测物理环境。但现实世界十分广阔、无法预测且瞬息万变。\n\n无论是导航仓库的机器人，还是观测工厂车间的摄像头网络，物理 AI 系统都需要理解当前状况，推断接下来可能发生的事情，并迅速采取行动以产生影响。到目前为止，在边缘端交付此类前沿 AI 通常意味着需要牺牲模型能力来换取部署效率。\n\n现已推出的 NVIDIA Cosmos 3 Edge 有助于消除这种权衡。这款拥有 40 亿参数的全模态模型已进行优化，可在 NVIDIA Jetson、NVIDIA RTX PRO 和 NVIDIA DGX 系统，以及 GeForce RTX GPU 上实现内存高效部署和高吞吐量。\n\n作为 NVIDIA Cosmos 3 的扩展，这款紧凑型世界基础模型能够理解并生成文本、图像、视频、环境声音和动作。其 Mixture-of-Transformers (MoT) 架构支持在设备上使得基于物理基础的实时视觉分析和机器人动作成为可能。\n\nCosmos 3 Edge 在边缘端提供前沿物理 AI —— 在同级别参数模型中，其视觉分析成功率在 VANTAGE-Bench 中排名第一，并通过后训练实现了先进的机器人学习。\n\n跨机器人、智能汽车和智能基础设施的设备端物理 AI\n\n开发者可以使用 NVIDIA DGX Station 台式 AI 超级计算机，利用专有机器人和传感器数据对 Cosmos 3 Edge 进行后训练，从而构建专用世界动作模型，然后将其部署在 NVIDIA Jetson Thor 上，以实现包括操作或移动在内的实时机器人管理策略。Agile Robots、斗山机器人、西门子和 Skild AI 等合作伙伴正在评估 Cosmos 3 Edge 在机器人工作流中的应用。\n\n对于智能汽车，Cosmos 3 Edge 可在资源受限的硬件上实现道路场景理解、交通推理、物体意图预测和策略模型蒸馏。该模型可用作学生主干网络，适用于汽车策略模型蒸馏，可与 NVIDIA Alpamayo 视觉语言动作模型结合使用。\n\n在智能基础设施领域，Cosmos 3 Edge 凭借在 Jetson Thor 上进行的实时推理，为视觉智能体提供了业界领先的吞吐量和准确性。这些智能体能够跨实时视频流进行推理，用于交通监测、公共安全、物流和工业检测。开发者还可以在 NVIDIA Jetson Orin 8GB 上独立运行由 NVIDIA Nemotron 驱动的 20 亿参数推理模块。Centific、Vaidio 和 YUAN 正在评估 Cosmos 3 Edge，以加速在边缘运行的视觉智能体。\n\nCosmos 平台现已开放获取\n\nCosmos 3 Edge 是用于开发物理 AI 世界模型的更广泛的 NVIDIA Cosmos 平台的一部分。随着 Cosmos 3 推出 Edge (4B)、Nano (16B) 和 Super (64B) 三种规模，开发者可以为从边缘部署到高保真生成的开发的各个阶段选择合适的模型。\n\nCosmos 3 Edge、Cosmos 3 Nano 和 Cosmos 3 Super 现已在 Hugging Face 上发布，其推理和后训练框架及方法已在 GitHub 上提供。\n\n简化 AI 智能体：使用 NVIDIA Agent Toolkit 在 DGX Station 上本地构建和运行个人 AI 智能体\n\n超级智能体已经登陆桌面端。NVIDIA DGX Station 是 AI 时代的台式超级计算机，借助 NVIDIA Agent Toolkit，只需三个步骤即可完成设置，系统大约在 30 分钟内即可投入运行。\n\n在 DGX Station 上，NVIDIA Agent Toolkit 将 NVIDIA NemoClaw、NVIDIA Nemotron 3 Ultra 开放模型、作为智能体可访问工具和技能的 NVIDIA Omniverse 库，以及一个安全运行时集成于单个本地系统中 —— 而无需互联网连接。随着工作负载的扩展，开发者可以将多个系统连接在一起，为并发用户、更多智能体和更大的模型提供服务。\n\n这使创意者和工程师能够自主拥有专属的智能能力，并通过一套随时可在本地运行的系统。全栈的模型、智能体和工具 —— 为创建和运行特定领域的“超级智能体”提供了一个平台，这些智能体可根据用户自己的数据和知识进行定制。\n\nDGX Station 上开放的 NVIDIA Agent Toolkit 软件栈包括：\n\nNVIDIA NemoClaw：用于构建自定义自主智能体的开放蓝图，将模型、Harness 和运行时打包在一起，作为团队构建专用、特定领域智能体起点。\n\nNVIDIA Nemotron 3 Ultra：一款拥有 5,500 亿参数的开放模型，经过优化可在 DGX Station Grace Blackwell Ultra 系统上运行，并作为模型层供团队根据自身领域进行定制。\n\nNVIDIA Omniverse 库：将智能体技能扩展至物理仿真和 3D 资产工作流中，为创意和工程专业人员提供远超通用智能体功能的工具。\n\nNVIDIA OpenShell：这是一个开源安全运行时，它将智能体置于沙盒中，并根据既定策略对智能体与工具、系统和数据的交互方式进行管理。\n\nNVIDIA Grace Blackwell Ultra 桌面超级芯片：可在 DGX Station 上提供数据中心级桌面性能，具备高达 20 PFLOPS 的 FP4 AI 计算能力和 748GB 的一致性内存，可运行像 Nemotron Ultra 这样的大型模型。\n\nNVIDIA ConnectX-8 SuperNIC 在 DGX Station 中提供高达 800GB/s 的带宽，可提供极速、高效的网络连接，并支持连接至多两台 DGX Station，以进一步扩展模型容量和性能。\n\n规模化发挥 Harness 能效\n\n对于大规模运行智能体的团队来说，DGX Station 从根本上改变了经济效益。Nemotron 3 Ultra 针对开放 Harness 提供了领先的性能，且在购买硬件后无需支付每 Token 成本，因此用户只需构建一次，即可按需运行。\n\nNVIDIA 已发布在 Blender 中集成 NVIDIA Omniverse 库的蓝图 —— 为 NemoClaw 智能体提供了可调用的 RTX 传感器仿真和物理工具，从而为物理 AI 工作流准备 3D 场景。\n\n在 DGX Station 上，设计师和工程师可以在一台设备中运行该工作流的核心组件 —— 前沿模型、开放 Harness、安全运行时、3D 工具 —— 所有这些组件都相互链接，并通过开放蓝图连接和部署。\n\n前沿模型可将 NemoClaw 作为专用子智能体进行编排，将特定领域的工作委托给在 DGX Station 上本地运行的智能体，并直接访问 Omniverse 工具和 Blender。\n\nLangChain 针对 Nemotron 3 Ultra 对其 Deep Agents Harness 进行了微调，为设计师和工程师提供了面向生产的路径，以较低的成本实现基准测试领先的智能体性能。\n\nNous Research 针对其 Hermes Agent Harness 对 Nemotron 3 Ultra 进行了微调，并将其应用于生产工作负载 —— 直接证明了拥有专属智能的价值。针对开发者技术栈调优模型，可打造出在特定领域中速度更快、能力更强的智能体。Hermes Agent 还将 Blender 添加到其模型上下文协议 (MCP) 目录中，使团队能够直接从其智能体中激活 Blender —— 这是一个可以在 DGX Station 上运行且能够使用工具的 NemoClaw 智能体的生动示例。\n\n对于运行 OpenClaw 的团队来说，这一技术栈扩展了可能性 —— 它将 Nemotron 3 Ultra、Omniverse 工具和 DGX Station 上的本地推理整合至一个环境中，让 OpenClaw 中持久且长时间运行的智能体可以持续对其进行操作。\n\nNVIDIA 将图形研究领域的突破引入仿真与物理 AI\n\n在今年的 SIGGRAPH 大会上，NVIDIA 的研究重心不仅是打造视觉逼真的虚拟世界，更致力于让虚拟世界能够真实运作并实时响应。\n\n这一理念的转变贯穿了 NVIDIA 本届入选的 21 篇技术论文 —— 它们正成为实时系统的基石，使这些系统既能生成虚拟世界，又能驱动现实世界中的机器训练。\n\n无论是用于游戏、电影、机器人还是工厂数字孪生，其最终目标始终如一：利用以 3D 为基础、遵循物理规律且由创作者主导的 AI 生成世界，来拓展创意的边界。\n\n最直观的例证便是 MotionBricks：这是一个实时动作模型，基于超过 35 万个动作片段训练而成，能够以游戏引擎级的速度运行，让创作者能够灵活控制和衔接角色的动作。驱动屏幕上动画角色的同一个模型，还能同步控制现场的宇树 G1 人形机器人，通过计算机图形学 (CG) 和仿真技术来加速物理 AI 的发展。\n\nGPC (生成式预训练控制器) 框架则进一步延伸了这一理念，它用于在大规模动作数据集上训练生成式控制器。NVIDIA 利用大规模人体动作数据对单一控制器进行预训练，使其掌握可迁移的运动能力，并能够泛化到全新的任务中。这标志着运动控制基础模型的起步。\n\n为了构建可用于测试这些运动能力的虚拟世界，ArtiFixer 将粗糙、存在缺失的现实世界 3D 数据，重建为高质量且完整的虚拟场景。它还引入了一种全新的方法，能够仅凭场景几何结构信息，预测出照片级真实感的全局光照 —— 且无需追踪任何光线。\n\n为了让这些虚拟世界的表现与现实世界一致，NVIDIA Newton 物理引擎中采用了全新的求解器，使雪、沙子和弹性固体等难以模拟的材质变得栩栩如生。\n\n同时，为了确保创作者始终掌握创作控制权，VideoNeuMat 流程使他们能够从生成式视频模型中提取出可复用、可重新打光的材质；而 ARDY 自回归扩散模型，则允许创作者通过文本提示词实时引导 3D 角色的动作。\n\n上述论文均已公开发布，相关代码和模型均可免费下载。想要了解更多详情，敬请关注 NVIDIA 在 SIGGRAPH 上的最新展示。",
-      "readingMinutes": 18
     },
     {
       "id": "b5de177ccc831b45",
@@ -3250,6 +3250,19 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
+    },
+    {
+      "id": "6b2c42e23122a331",
+      "feedTitle": "vLLM Releases",
+      "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
+      "category": "AI Infra",
+      "title": "v0.25.0rc3",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.25.0rc3",
+      "published": "2026-07-09T10:24:39Z",
+      "author": "chaunceyjiang",
+      "summary": "[P/D][Bugfix] Fix PD async KV load lookahead handling for MTP spec de…",
+      "content": "[P/D][Bugfix] Fix PD async KV load lookahead handling for MTP spec de…",
+      "readingMinutes": 1
     },
     {
       "id": "f52a3dc504073d1d",
@@ -4081,19 +4094,6 @@
       "author": "",
       "summary": "",
       "content": "",
-      "readingMinutes": 1
-    },
-    {
-      "id": "3d5aa39d0e80ce2a",
-      "feedTitle": "Google AI · DeepMind",
-      "feedUrl": "https://deepmind.google/blog/rss.xml",
-      "category": "AI 技术",
-      "title": "Measuring the impact of learning with AI in Sierra Leone and beyond",
-      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
-      "published": "2026-06-08T13:04:59Z",
-      "author": "",
-      "summary": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
-      "content": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
       "readingMinutes": 1
     }
   ]
