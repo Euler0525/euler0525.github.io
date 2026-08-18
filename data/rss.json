@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T16:21:56.945744Z",
+  "generatedAt": "2026-08-18T04:24:19.503384Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "",
+      "siteUrl": "https://www.pixelstech.net",
       "articleCount": 11,
-      "error": "HTTP Error 403: Forbidden"
+      "error": ""
     },
     {
       "title": "OpenAI · News",
@@ -197,6 +197,71 @@
   ],
   "articles": [
     {
+      "id": "2182be1a33b64978",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "7月音乐精选：夏天赠予我们的 9张专辑",
+      "url": "https://sspai.com/post/113454",
+      "published": "2026-08-18T02:52:11Z",
+      "author": "",
+      "summary": "编者注：2026年我们将重启少数派音乐推荐栏目FM3.14，特邀资深音乐从业者及爱好者为大家推荐优质的华语独立、流行音乐，今年我们也很荣幸邀请到老朋友飞傲，为本栏目冠名。飞傲目前拥有品牌以音乐发烧友为 ...查看全文",
+      "content": "编者注：2026年我们将重启少数派音乐推荐栏目FM3.14，特邀资深音乐从业者及爱好者为大家推荐优质的华语独立、流行音乐，今年我们也很荣幸邀请到老朋友飞傲，为本栏目冠名。飞傲目前拥有品牌以音乐发烧友为 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "3802abd7aeeea505",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：阿里巴巴出售灵犀互娱，Linux 7.2 内核稳定版发布等",
+      "url": "https://sspai.com/post/113566",
+      "published": "2026-08-18T00:04:07Z",
+      "author": "",
+      "summary": "少数派的近期动态新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡。点击了解能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线。点击了解你可能错过的文章成 ...查看全文",
+      "content": "少数派的近期动态新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡。点击了解能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线。点击了解你可能错过的文章成 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "2ebc253c8004a824",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Developing Nemotron 3.5 Lightning NVFP4 with QAD Using NVIDIA Model Optimizer",
+      "url": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer/",
+      "published": "2026-08-17T18:13:08Z",
+      "author": "Tanya Lenz",
+      "summary": "Teams customize their models to hit their targets for latency, speed, memory, and compute. With the open NVIDIA Nemotron family of models, developers can find...",
+      "content": "Teams customize their models to hit their targets for latency, speed, memory, and compute. With the open NVIDIA Nemotron family of models, developers can find...\nTeams customize their models to hit their targets for latency, speed, memory, and compute. With the open NVIDIA Nemotron family of models, developers can find the right-sized model for their needs. The new Nemotron 3.5 Lightning NVFP4 checkpoint, for example, preserves accuracy while unlocking up to 4x faster throughput. It’s compressed down to 22 GB from the 66 GB full precision checkpoint…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "7f10af74d3220204",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection",
+      "url": "https://arxiv.org/abs/2608.16393v1",
+      "published": "2026-08-17T10:43:07Z",
+      "author": "Zonghao Ying",
+      "summary": "We assess indirect prompt injection in DeepSeek Harness (DSH), using AI-Infra-Guard (A.I.G) to construct tests, deliver controlled taint, execute DSH, collect traces, and judge outcomes. The study covers 14,560 controlled executions over 16 indirect-content channels, text and fi…",
+      "content": "We assess indirect prompt injection in DeepSeek Harness (DSH), using AI-Infra-Guard (A.I.G) to construct tests, deliver controlled taint, execute DSH, collect traces, and judge outcomes. The study covers 14,560 controlled executions over 16 indirect-content channels, text and file carrier modes, 35 payload objectives, one unmodified baseline, and 12 attack methods. The experiment preserves DSH's agent loop, tool registry, model adapter, and session-event path; source tools and sensitive sinks are local fixtures, so attempted actions are recorded without external side effects. We evaluate each trace with a deterministic rule-based judge, \\JudgeR{} (RuleJudge), and a semantic LLM-based judge, \\JudgeL{} (LLMJudge). The strongest observed attack success rates are 17.0% under \\JudgeL{} for fake-completion attack in text mode, 25.5% under \\JudgeR{} for hidden Unicode in file mode, and 16.0% under \\JudgeR{} for the skills channel in file mode. \\JudgeL{} also assigns partial compliance more often than \\JudgeR{} (7.3% versus 2.0%). We relate these results to DSH's treatment of tool results, additional contexts, and tool-call policy hooks, then identify controls that should sit between untrusted content and sensitive actions. Our code is available at https://github.com/Tencent/AI-Infra-Guard.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "94fac1bf5405d38d",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "What Does Context Compression Cost an Agent? Interaction Costs Unrevealed by Task-Completion Metrics",
+      "url": "https://arxiv.org/abs/2608.16370v1",
+      "published": "2026-08-17T10:21:36Z",
+      "author": "Shuyu Liu",
+      "summary": "Task completion is the standard metric for evaluating context compression, yet it is incomplete: compression can increase an agent's interaction cost by forcing it to reacquire dropped state while leaving completion statistically unchanged. We introduce a controlled runtime meas…",
+      "content": "Task completion is the standard metric for evaluating context compression, yet it is incomplete: compression can increase an agent's interaction cost by forcing it to reacquire dropped state while leaving completion statistically unchanged.\nWe introduce a controlled runtime measurement protocol for reacquisition cost in a bounded-horizon tool-using agent. The agent acts in a deterministic planning environment under a fixed 24-turn horizon. We vary compression severity, compare a dropping operator with a fact-preserving operator, restore dropped state through controlled oracle interventions, and decompose tool calls into retrieval and execution. We evaluate three models across two task regimes.\nRetrieval calls increase in all six model-regime comparisons and account for almost all added interaction; five of six remain significant after Holm correction. At the prespecified 5x comparison point, completion changes are not significant in any cell. DeepSeek shows a significant completion drop only at 10x compression. GPT-5.5 is the clearest case: completion changes from 80% to 85% (p = 1.0) while retrieval increases from 21.0 to 63.9 calls (p = .002).\nRetention interventions further separate state quantity, state type, and content validity. Random selection is comparable to an offline hindsight oracle, while replacing retained D-state with semantically irrelevant content increases retrieval by 57% (p < .001) without a significant completion change. In a second environment, ALFWorld, sliding compression produces no retrieval surge, showing that the reacquisition signature is environment-dependent rather than intrinsic to shortening context.\nOverall, compression can impose hidden interaction costs when execution-relevant state becomes absent and must be reacquired, while completion alone may not expose those costs.",
+      "readingMinutes": 1
+    },
+    {
       "id": "6f5136259d44ae6b",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -207,6 +272,19 @@
       "author": "",
       "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
       "content": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "409d7968adba2cee",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Revisiting the Performance of Generative Artificial Intelligence on Introductory Object-Oriented Programming Assessments: Insights from 2026",
+      "url": "https://arxiv.org/abs/2608.16318v1",
+      "published": "2026-08-17T09:24:28Z",
+      "author": "Marina Lepp",
+      "summary": "Recent advances in Generative Artificial Intelligence (GenAI) have substantially improved the ability of large language models (LLMs) to generate and explain source code. However, their performance on authentic object-oriented programming (OOP) assessments remains insufficiently…",
+      "content": "Recent advances in Generative Artificial Intelligence (GenAI) have substantially improved the ability of large language models (LLMs) to generate and explain source code. However, their performance on authentic object-oriented programming (OOP) assessments remains insufficiently understood. This study evaluates five widely used GenAI systems, ChatGPT-5.2, DeepSeek-V3, Gemini 2.5 Flash, Claude Sonnet 4.5, and M365 Copilot, using programming tests and examination tasks from an introductory university OOP course. The generated solutions were assessed using the same grading criteria applied to students and compared with historical student results from the same course, as well as findings from the previous year. Common errors were also analyzed to identify recurring limitations across models. All evaluated GenAI systems achieved higher scores than the average student cohort and frequently obtained full marks on longer programming tasks. Nevertheless, they occasionally produced non-compiling code and continued to struggle with advanced OOP concepts, particularly interfaces, abstract classes, and certain inheritance-related tasks. Performance was also limited on graphics-related questions involving image interpretation. Compared with the previous year, the evaluated systems demonstrated noticeable improvements across most assessments while exhibiting several recurring error patterns. The findings provide an updated evaluation of the capabilities and limitations of contemporary GenAI systems on authentic introductory OOP assessments. They also offer evidence that can inform the design of programming assessments, the responsible integration of GenAI tools into software engineering education, and future studies evaluating the evolution of AI-assisted programming.",
       "readingMinutes": 1
     },
     {
@@ -233,6 +311,19 @@
       "author": "",
       "summary": "你是不是有几百个笔记，超级乱，都懒得打开？今天我们介绍一个方法，可以让你不怎么整理，就能快速找到重点。查看全文",
       "content": "你是不是有几百个笔记，超级乱，都懒得打开？今天我们介绍一个方法，可以让你不怎么整理，就能快速找到重点。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "4399811bfc9a8155",
+      "feedTitle": "RSS Feed | PixelsTech",
+      "feedUrl": "https://www.pixelstech.net/feed.xml",
+      "category": "默认分类",
+      "title": "Python Virtual RTU Simulator With IEEE 1815-2021 DNP3.0 Communication Protocol",
+      "url": "https://www.pixelstech.net/article/1786946174-Python-Virtual-RTU-Simulator-With-IEEE-1815-2021-DNP3-0-Communication-Protocol",
+      "published": "2026-08-17T06:13:06Z",
+      "author": "",
+      "summary": "Project Design Purpose : In this project, I did extend my previous Python-based virtual PLC/RTU/MU/IED simulator library (which interfaced to SCADA systems via Modbus-TCP and S7Comm, related link: https://www.linkedin.com/pulse/python-virtual-plc-rtu-simulator-yuancheng-liu-elkg…",
+      "content": "Project Design Purpose : In this project, I did extend my previous Python-based virtual PLC/RTU/MU/IED simulator library (which interfaced to SCADA systems via Modbus-TCP and S7Comm, related link: https://www.linkedin.com/pulse/python-virtual-plc-rtu-simulator-yuancheng-liu-elkgc) by adding the support function for IEEE 1815-2021 Distributed Network Protocol 3 (DNP3) protocol. The new implementati",
       "readingMinutes": 1
     },
     {
@@ -314,6 +405,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "e495cc04110de222",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Rethinking Automated Program Repair: The Impact of Bug Complexity, Fault Localization, and LLM Cost-efficiency",
+      "url": "https://arxiv.org/abs/2608.14065v2",
+      "published": "2026-08-17T01:36:36Z",
+      "author": "Junchi Liu",
+      "summary": "Background: Software bugs remain a critical challenge in development, necessitating effective Automated Program Repair (APR) techniques. While Large Language Model (LLM)-based APR systems have shown promise, prior studies primarily focus on overall repair effectiveness. The effe…",
+      "content": "Background: Software bugs remain a critical challenge in development, necessitating effective Automated Program Repair (APR) techniques. While Large Language Model (LLM)-based APR systems have shown promise, prior studies primarily focus on overall repair effectiveness. The effects of bug complexity, fault localization, reasoning settings, and repair cost-effectiveness remain insufficiently explored.\nAims: This study presents a comprehensive empirical analysis of LLM-based APR, focusing on how repair performance is shaped by bug complexity, fault localization, reasoning settings, and costs.\nMethod: We evaluate two APR techniques (ChatRepair and CodeCorrector) using three LLMs (DeepSeek, GPT, and Llama), and examine their performance across diverse levels of bug complexity and localization strategies through a multi-dimensional empirical framework and statistical analysis.\nResults: Although structurally complex bugs and imprecise fault localization make repair more challenging, LLM-based APR techniques still achieve competitive repair effectiveness. Imprecise fault localization can substantially enlarge the performance gap between APR techniques. Furthermore, higher-cost LLMs and stronger reasoning settings do not consistently yield better cost-efficiency, revealing a nontrivial trade-off between repair effectiveness and computational cost.\nConclusions: Over 50% of moderately complex bugs can be repaired by low-cost LLM-based APR techniques. The repair effectiveness gap between APR techniques becomes larger as fault localization becomes less precise. GPT-5 repairs 7 and 39 more complex bugs than DeepSeek-V4-pro and DeepSeek-V3.2, respectively; whereas the total repair cost of DeepSeek-V3.2 shows the best cost-efficiency performance.",
+      "readingMinutes": 1
+    },
+    {
       "id": "62f4a4fd0a9a158b",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -327,6 +431,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "cf191c60d679ab6a",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "HyMem: Hierarchical Context Management for Long-Horizon Agents via Information Isolation",
+      "url": "https://arxiv.org/abs/2608.15703v1",
+      "published": "2026-08-16T12:15:01Z",
+      "author": "XinQi Wang",
+      "summary": "Large language model (LLM) agents often perform poorly on complex, long-horizon tasks because their context becomes increasingly cluttered over time. As interactions accumulate, detailed execution traces and intermediate outputs dominate the context, making it difficult for the…",
+      "content": "Large language model (LLM) agents often perform poorly on complex, long-horizon tasks because their context becomes increasingly cluttered over time. As interactions accumulate, detailed execution traces and intermediate outputs dominate the context, making it difficult for the model to retain and use high-level planning information. Most existing methods address this issue through compression or retrieval applied to a single, flat context, which does not clearly separate different types of context information and often leads to degraded reasoning. To address this challenge, we propose HyMem, a hierarchical framework that explicitly separates the agent's context into distinct functional layers. HyMem organizes context by function to separate high-level planning from execution and complex analysis. Its isolated reasoning module handles complex subtasks without adding intermediate reasoning traces to the persistent planning context, while its memory management module preserves task progress across context refreshes through structured summaries. These components reduce redundant context accumulation, retain task-critical information, and support coherent long-horizon reasoning within a limited context window. Experiments on GAIA and Browsecomp-plus show that, with DeepSeek-V4, HyMem achieves average Pass@1 scores of 66.7% and 61.3%, outperforming the strongest baseline by 6.1 and 4.7 percentage points, respectively. Further analysis indicates that HyMem effectively controls the growth of the reasoning context, allowing the model to maintain focus and accuracy across complex, long-horizon tasks.",
+      "readingMinutes": 1
+    },
+    {
       "id": "160e7a4da950c999",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -337,6 +454,45 @@
       "author": "",
       "summary": "在浏览器扩展这边，近期又有哪些好用、有趣的「新玩意」呢？查看全文",
       "content": "在浏览器扩展这边，近期又有哪些好用、有趣的「新玩意」呢？查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "8855c44ffe12fad3",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "Agentic-SQL Revisited: Autonomy-Based Taxonomy and Empirical Benchmark Analysis for LLM Text-to-SQL",
+      "url": "https://arxiv.org/abs/2608.15389v1",
+      "published": "2026-08-15T19:40:05Z",
+      "author": "Changruo Zhao",
+      "summary": "LLM-based Text-to-SQL progress is reported across heterogeneous benchmarks, backbones, and inference protocols, making cross-system comparison fragile. We reframe the field as a leaderboard aggregation: we collect the metrics authors themselves report and organize them along an…",
+      "content": "LLM-based Text-to-SQL progress is reported across heterogeneous benchmarks, backbones, and inference protocols, making cross-system comparison fragile. We reframe the field as a leaderboard aggregation: we collect the metrics authors themselves report and organize them along an inference-autonomy axis spanning constrained, in-context, iterative, agentic, and reasoning-internalized generation, with traceable provenance for every cell. To anchor the aggregation empirically, we run a focused case study on Spider, comparing 8B open-source backbones with and without chain-of-thought (CoT) supervision against few-shot DeepSeek~V3 and GLM-4 baselines. Four patterns emerge: Spider gains transfer unevenly to BIRD and Spider~2.0; autonomy buys robustness at non-trivial cost; reasoning internalization sits between answer-only decoding and externally orchestrated agents; and CoT gains concentrate on Hard and Extra-Hard queries. We release a Python harness mirroring the autonomy axis so that future methods can be added directly to the leaderboard.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "ea2f67839870f466",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "MAPLE: MoE Adaptive Plug-and-play Layer-wise Expert allocation",
+      "url": "https://arxiv.org/abs/2608.15299v1",
+      "published": "2026-08-15T16:10:28Z",
+      "author": "Lie Li",
+      "summary": "Sparsely-activated Mixture-of-Experts (MoE) Transformers universally fix the same number of routed experts across all layers, a convention that ignores the well-documented heterogeneity in layer-wise redundancy. We demonstrate that this uniformity is systematically suboptimal an…",
+      "content": "Sparsely-activated Mixture-of-Experts (MoE) Transformers universally fix the same number of routed experts across all layers, a convention that ignores the well-documented heterogeneity in layer-wise redundancy. We demonstrate that this uniformity is systematically suboptimal and propose MAPLE, a plug-and-play framework that reallocates the routed-expert budget heterogeneously across layers of any pretrained MoE LLM, without modifying weights or requiring retraining. Our core contribution is a closed-form sensitivity-guided allocation: we probe each layer's response to variation in expert count, quantify sensitivity using three measures, and derive an analytically optimal budget assignment that directs capacity towards sensitive layers and absorbs reductions in redundant layers. This closed-form solution is further refined by a sensitivity-constrained genetic search that uses layer-wise sensitivity as a prior to guide exploration, yielding faster convergence and superior allocation quality. On four MoE models spanning different scales and architectures, MAPLE outperforms uniform and pruning-based baselines under a 75% routed-expert budget. Notably, on DeepSeek-MoE-16B, MAPLE uses only 75% of the experts yet surpasses the original 100% expert-uniform baseline on ARC-E, ARC-C, and BoolQ, improving accuracy from 65.09 to 71.40, 48.49 to 51.50, and 80.03 to 82.38, respectively. These accuracy gains translate into measured deployment efficiency: implementing MAPLE in SGLang reduces single-GPU end-to-end serving latency by 32.2% and improves throughput by 47.4%. These results show that well-designed heterogeneous allocation can be more effective than simply activating more experts, establishing it as a principled and practical axis for improving MoE efficiency.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "69af0f345e00feea",
+      "feedTitle": "DeepSeek · Research",
+      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
+      "category": "AI 技术",
+      "title": "StateM: Reaching 95.3% Raw Accuracy, or a \\$15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling",
+      "url": "https://arxiv.org/abs/2608.15089v1",
+      "published": "2026-08-15T07:16:28Z",
+      "author": "Ziheng Qin",
+      "summary": "Long-horizon agents can fail even when their underlying models can solve the constituent steps. They may lose track of mutable state, fail to reactivate lessons from earlier executions, skip known procedures, or stop prematurely. We bet on harness scaling to improve the executio…",
+      "content": "Long-horizon agents can fail even when their underlying models can solve the constituent steps. They may lose track of mutable state, fail to reactivate lessons from earlier executions, skip known procedures, or stop prematurely. We bet on harness scaling to improve the execution system around an agent without changing its model weights. We introduce StateM, an agent-native runtime that organizes execution around durable states, phase-local context, checked transitions, recoverable runbooks, and versioned procedural practices that agents and users can inspect together.\nOn Terminal-Bench 2.1, StateM raises GPT-5.5 xhigh to 92.1\\%, versus 83.1\\% reference and GPT-5.6 Sol Ultra at 91.9\\%. The runbook transfers unchanged to GPT-5.6. With GPT-5.6 Sol xhigh, StateM reaches 95.3\\% raw accuracy across 445 trials and succeeds on all 89 tasks at least once. The frozen profile raises GPT-5.6 Luna from 76.7 to 85.4\\%, above the 84.9\\% Sol xhigh reference.\nUsing the same runtime, runbook structure, and golden rules, less than \\$38 of adaptation raises DeepSeek-V4 Flash from 82.7 to 88.1\\% under standard timeouts and to 89.1\\% on an 88-task common core. Extending only the remaining latency-sensitive task matches the reported 88.8\\% GPT-5.6 Sol max result. Final-score API usage is about \\$15 versus \\$574.68 for the GPT reference; total DeepSeek expenditure is \\$52.22.\nOn BusinessBench, family-specific runbooks built on development sets yield held-out gains of 0.55 macro and 1.34 micro points; two mechanism-matched families improve by 10.04 points. Concrete rules generalize when tasks share execution structure, while the control methodology applies broadly. StateM turns selected postmortem findings into persistent, executable preconditions and practices, making learned controls explicit and enforceable through stateful controls. Code at github.com/henryqin1997/statem.",
       "readingMinutes": 1
     },
     {
@@ -418,19 +574,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "03f52a626a338824",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Rethinking Automated Program Repair: The Impact of Bug Complexity, Fault Localization, and LLM Cost-efficiency",
-      "url": "https://arxiv.org/abs/2608.14065v1",
-      "published": "2026-08-14T08:23:25Z",
-      "author": "Junchi Liu",
-      "summary": "Background: Software bugs remain a critical challenge in development, necessitating effective Automated Program Repair (APR) techniques. While Large Language Model (LLM)-based APR systems have shown promise, prior studies primarily focus on overall repair effectiveness. The effe…",
-      "content": "Background: Software bugs remain a critical challenge in development, necessitating effective Automated Program Repair (APR) techniques. While Large Language Model (LLM)-based APR systems have shown promise, prior studies primarily focus on overall repair effectiveness. The effects of bug complexity, fault localization, reasoning settings, and repair cost-effectiveness remain insufficiently explored.\nAims: This study presents a comprehensive empirical analysis of LLM-based APR, focusing on how repair performance is shaped by bug complexity, fault localization, reasoning settings, and costs.\nMethod: We evaluate two APR techniques (ChatRepair and CodeCorrector) using three LLMs (DeepSeek, GPT, and Llama), and examine their performance across diverse levels of bug complexity and localization strategies through a multi-dimensional empirical framework and statistical analysis.\nResults: Although structurally complex bugs and imprecise fault localization make repair more challenging, LLM-based APR techniques still achieve competitive repair effectiveness. Imprecise fault localization can substantially enlarge the performance gap between APR techniques. Furthermore, higher-cost LLMs and stronger reasoning settings do not consistently yield better cost-efficiency, revealing a nontrivial trade-off between repair effectiveness and computational cost.\nConclusions: Over 50% of moderately complex bugs can be repaired by low-cost LLM-based APR techniques. The repair effectiveness gap between APR techniques becomes larger as fault localization becomes less precise. GPT-5 repairs 7 and 39 more complex bugs than DeepSeek-V4-pro and DeepSeek-V3.2, respectively; whereas the total repair cost of DeepSeek-V3.2 shows the best cost-efficiency performance.",
-      "readingMinutes": 1
-    },
-    {
       "id": "a033a7a503aaa804",
       "feedTitle": "DeepSeek · Research",
       "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
@@ -444,19 +587,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "ceb571bbec7d9ffd",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "你初高中时的书单里，总有本「东野圭吾」吧？",
-      "url": "https://sspai.com/post/113416",
-      "published": "2026-08-14T07:00:00Z",
-      "author": "",
-      "summary": "纪念并且感谢他为我们留下的推理世界。查看全文",
-      "content": "纪念并且感谢他为我们留下的推理世界。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "c3330a2d1c9b65a0",
       "feedTitle": "DeepSeek · Research",
       "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
@@ -467,19 +597,6 @@
       "author": "Yongmin Kim",
       "summary": "Large Reasoning Models (LRMs) achieve strong performance on complex tasks through extended chain-of-thought generation, but incur substantial computational costs during inference. In production settings, batched inference is essential for high throughput, yet the existing traini…",
       "content": "Large Reasoning Models (LRMs) achieve strong performance on complex tasks through extended chain-of-thought generation, but incur substantial computational costs during inference. In production settings, batched inference is essential for high throughput, yet the existing training-free adaptive pruning methods we evaluate severely degrade in this regime. Because a batch must share a single pruning mask, these methods aggregate activations across samples and then apply threshold-based selection; the threshold, calibrated offline on unaggregated activations, no longer matches the aggregated distribution, so the realized sparsity ratio drifts and accuracy on reasoning tasks collapses under batched inference.\nIn this work, we propose a training-free adaptive pruning method designed specifically for batched inference in LRMs, built on two components. First, we replace threshold-based selection with periodic top-k selection over the aggregated importance scores, which is unaffected by the shift that aggregation induces in the activation distribution, and which runs selection once per update period rather than at every token, preserving the speedup. Second, based on the observation that important neurons re-fire periodically during long reasoning generation, we introduce an activation memory that accumulates importance across update phases so that recurring neurons are retained.\nExperiments on diverse reasoning benchmarks demonstrate that our method outperforms the previous state-of-the-art adaptive pruning method by 39.7 percentage points in average accuracy at batch size 4 with 50% target sparsity on DeepSeek-R1-Distill-Qwen-7B, and reaches 1.40x speedup over dense inference at 50% actual sparsity.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "40892d1f85e594ff",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "声擎×少数派｜「角落新声」征文活动获奖结果公布",
-      "url": "https://sspai.com/post/111709",
-      "published": "2026-08-14T03:44:03Z",
-      "author": "",
-      "summary": "那个让你放松娱乐、拥抱汩汩心流、逃离尘世纷扰、找回本真自我的理想一隅，是如何被你切片、重排并注入新生的？查看全文",
-      "content": "那个让你放松娱乐、拥抱汩汩心流、逃离尘世纷扰、找回本真自我的理想一隅，是如何被你切片、重排并注入新生的？查看全文",
       "readingMinutes": 1
     },
     {
@@ -782,19 +899,6 @@
       "readingMinutes": 25
     },
     {
-      "id": "b11343d34a964c72",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Persistent Recursive Worlds Enable Autonomous Software Evolution",
-      "url": "https://arxiv.org/abs/2608.10450v2",
-      "published": "2026-08-12T08:44:05Z",
-      "author": "Beichen Huang",
-      "summary": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic software systems preserve continuity through persistent sessions, memories, managers or shared context. We introduce EvoX Genesis (hereafter, Genesis), which in…",
-      "content": "Complex software systems develop over timescales that exceed the lifespan of any individual coding agent. Most agentic software systems preserve continuity through persistent sessions, memories, managers or shared context. We introduce EvoX Genesis (hereafter, Genesis), which instead makes the software project persistent while allowing local agents to remain finite-lived. Genesis represents software as a persistent recursive world: each local world is situated by an accepted version and a repository path, finite-lived agents propose local changes, recursive delegation moves work across paths, and only accepted consequences advance the persistent version history. We evaluate this organization across formation, continuation and redevelopment. Starting from a repository with no compiler implementation, Genesis used DeepSeek V4 Flash to build a Rust-based C compiler with about 250k tracked lines; the run lasted over 120 hours, archived over 1,000 agent episodes and incurred only US$44 in model-token charges. The compiler passed the complete c-testsuite and most LLVM and Csmith tests. In a separate compiler world generated with GLM 5.2, development continued after repeated agent replacement while retaining full test performance. Genesis also reimplemented 13 MESA modules with over 100k Fortran lines as a Rust workspace with nearly 90k Rust lines; across six numerical workloads, it achieved median speedups of 1.55--6.87x. These results show that long-horizon software development can be organized around a persistent project rather than a persistent agent.",
-      "readingMinutes": 1
-    },
-    {
       "id": "e063daae6225e156",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -951,19 +1055,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "bc32efd0f6bf5137",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Measuring Semantic Abstractness of SAE Features via Nonlocality",
-      "url": "https://arxiv.org/abs/2608.10537v1",
-      "published": "2026-08-11T06:19:48Z",
-      "author": "Chuqiao Lin",
-      "summary": "Sparse autoencoders (SAEs) have helped uncover mechanistic explanations for LLM behaviours such as reasoning, jailbreaking etc., via understanding the corresponding task-relevant and causally effective features. To evaluate such mechanistic explanations, downstream studies must…",
-      "content": "Sparse autoencoders (SAEs) have helped uncover mechanistic explanations for LLM behaviours such as reasoning, jailbreaking etc., via understanding the corresponding task-relevant and causally effective features. To evaluate such mechanistic explanations, downstream studies must distinguish surface lexical features from genuinely high-level ones. However, neither an autointerp-based semantic description nor causal steering utility fully resolves the abstraction level of a feature. To this end, we introduce \\emph{Feature Nonlocality} (FNL), defined as the entropy of the normalized per-position influence on an SAE feature's activation. We report that FNL correlates with existing LLM-based proxy metrics of feature semantic abstractness, and successfully distinguishes context-dependent reasoning features from token-driven ones, correctly assigning the higher FNL to the contextual feature in $73$--$84\\%$ of randomly drawn pairs that consist of one contextual and one token-level feature.\nWe demonstrate two downstream applications. We audit SAE-based features used for jailbreak mitigation and find surprisingly that most effective features are positional features with low FNL rather than genuinely recognizing harmful intents.\nWe report that steering high-FNL features in DeepSeek-R1-Distill-Llama-8B improves MATH-500 accuracy by $4.6$ points over the unsteered model and outperforms steering low-FNL features, though the gains are model-specific. We conclude that FNL provides an LLM-independent, label-free, correlational witness of the abstraction level of an SAE feature, with applications in evaluating mechanistic explanations as well as selecting features for downstream interventions.",
-      "readingMinutes": 1
-    },
-    {
       "id": "95643f7a95eb0f42",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -1001,32 +1092,6 @@
       "summary": "Highlights 582 PRs from 194 contributors. Kimi K3 day-0 support: A 2.8T-parameter multimodal LatentMoE (896 experts, top-16, routed in a 3584-dim latent space) with a 1M-token context, 69 KDA linear-attention layers interleaved with 24 MLA layers, and a MoonViT3d vision tower, s…",
       "content": "Highlights\n\n582 PRs from 194 contributors.\n\nKimi K3 day-0 support: A 2.8T-parameter multimodal LatentMoE (896 experts, top-16, routed in a 3584-dim latent space) with a 1M-token context, 69 KDA linear-attention layers interleaved with 24 MLA layers, and a MoonViT3d vision tower, shipping as a native MXFP4 checkpoint. SGLang serves it from day 0 with DCP, DSpark speculative decoding, chunked-prefill PP with TP decode, KDA-aware prefix caching, HiCache L2 over DCP, LoRA on the quantized weights, and reasoning, tool-call and OpenAI-compatible serving, verified on NVIDIA GB300 and AMD MI35x (#32541, #32828, #32890, #33025, #33112, blog, cookbook, roadmap).\n\nMiniMax-H3 day-0 support: MiniMax's video generation model that produces a video and a synchronized stereo audio track in one request, served natively on SGLang-Diffusion across all three public task profiles: text-to-video-and-audio (t2va), first/last-frame conditioning (fl2va), and image/video/audio reference conditioning (ref2va, which also covers video-to-video). Verified on B200 (TP2 + Ulysses4), H100 (TP2 + Ulysses2), AMD MI300X and MI355X (Ulysses1/2/4/8), and 2x RTX 5090 with layerwise offload (#33275, cookbook).\n\nOther new models added: EmbeddingGemma and LFM2.5 embedding models, nvidia/MiniMax-M3-NVFP4, plus cookbook recipes for Poolside's Laguna-S-2.1 family and Inkling-Small.\n\nInitial support for the Rust frontend: Migrates the front half of the server, everything from network ingress up to the point a tokenized request is handed to the GPU scheduler, from Python to a multi-threaded Rust implementation (#29799).\n\nDCP communication backends and q-replicate (Helix): The DeepSeek-MLA decode context-parallel path gains pluggable comm backends. a2a exchanges packed attention output plus fp32 LSE in a single NCCL collective per layer, with fp8 KV carried as uint8 byte transport; fi_a2a delegates the cross-rank exchange to the FlashInfer MNNVL kernel on GB200. --dcp-replicate-q-proj projects full-head Q locally and skips the per-layer Q head-dim all-gather. Select with --dcp-comm-backend {ag_rs, a2a, fi_a2a} (#21637).\n\nDWDP for MoE prefill: A new prefill parallelism strategy that prefetches peer expert weights over NVLink P2P and computes all experts locally, removing EP all-to-all token dispatch. On 4x B200 with gpt-oss-120b, prefill-only, DWDP4 reaches 1.92x over DEP4 at MNT 32K / ISL 32K, and 506K vs 329K tok/s (1.54x) at saturation (CONC=128, ISL=8K). Enable with --dwdp-size; the authors mark it early-development (#29778).\n\nSession-reference-aware Unified Radix Cache: For agentic and RL-rollout workloads, requests can carry a stable session_id so eviction knows which prefixes an active session still references, instead of evicting purely by cache policy. Release the references with /close_session. Opt in with --enable-session-radix-cache (#29173).\n\nSM90 FP8 MegaMoE for DeepSeek-V4: Adds the DeepGEMM MegaMoE A2A path on SM90 for DeepSeek-V4-Flash/Pro FP8, including the pre-dispatch JIT kernel and FP8 expert weight preparation. Guarded behind SGLANG_OPT_USE_DEEPGEMM_MEGA_MOE=1 (#29016).\n\nFaster large-MoE model loading: Oversized or non-contiguous CPU weight views were driving pathological H2D transfers, with DeepSeek-V4-Pro TP8 spending 27 to 32 minutes in H2D on some ranks. Copying those views into contiguous storage before H2D cuts full model loading from about 35 minutes to 6m20s (5.6x), and GPT-OSS-20B BF16 from 545s to 70s (7.8x), with Qwen3.5-397B measured at 1.93x to 2.3x. Opt in with SGLANG_MOE_COPY_WEIGHT_VIEWS_BEFORE_H2D, off by default (#32315).\n\nLower DeepSeek-V4 memory on AMD: Removing unnecessary expert padding drops MI355X FP4 MoE model weights from 159.07 GB to 112.36 GB, and bringing the HIP compress-state pool into the memory_saver KV_CACHE region lets colocated RL reclaim it, cutting the measured training-phase footprint from about 143 GiB to 87 GiB per GPU (#31450, #31747).\n\nFaster engine recovery: Large-model restarts cost 3 to 6+ minutes today, about 6.5 minutes for Qwen3-235B FP8 on 4 GPUs, because weights reload from storage and CUDA graphs recapture. A weight-cache daemon holds weights per GPU so a restarting engine can recover from cache instead (#27139).\n\nLower host overhead in hybrid-linear MTP decode: Under spec-v2 overlap scheduling each decode step runs draft, verify and extend CUDA graphs, and the eager seams between them become GPU idle time at low concurrency. This trims that host work so the host stays off the critical path (#32219).\n\nDependencies: flashinfer 0.6.15.post1 (#31927), sgl-deep-gemm 0.1.5.post1 (#32345, #33143), helion 1.4 (#32562), mooncake 0.3.12.post1 (#32302), dynamo-tokenizers 1.7.0 (#32981). PyTorch stays at 2.11.0 and the CUDA base image at 13.0.1.\n\nFull release notes by category below; breaking changes and known issues are at the end.\n\nNew Model Support\n\nModel\n\nType\n\nPRs\n\nCookbook\n\nKimi K3\n\nAutoregressive (Multimodal)\n\n#32541, #32828, #32890, #33025\n\nlink\n\nMiniMax-H3\n\nDiffusion\n\n#33275\n\nlink\n\nMiniMax-M3-NVFP4\n\nAutoregressive\n\n#31989\n\nEmbeddingGemma\n\nAutoregressive (Embedding)\n\n#32375, #32383\n\nlink\n\nLFM2.5\n\nAutoregressive (Embedding)\n\n#28691\n\nlink\n\nKimi K3\n\n[Kimi] Support kimi-k3: #32541 ⭐\n\n[Kimi] Support DCP + DSpark (ported from kimi-k3 branch): #32828\n\n[Kimi K3] Add reasoning, tool-call, and OpenAI serving support: #33025\n\nfeat(kernels): port standalone Kimi K3 kernels: #32890\n\n[Feat] DCP + HiCache L2 Support (ported from kimi-k3): #33112\n\nReplace Kimi K3 DeepGEMM patch with 0.1.5.post1: #33143\n\ndocker: add Kimi K3 images: #32760\n\nRust Server\n\nA native Rust serving layer: tokenizer manager, ingress validation and egress, an OpenAI-compatible API server, and PD disaggregation support, shipped as prebuilt release artifacts.\n\nsupport rust sglang server: #29799\n\ncreate rust workspace: #32014\n\ninit sglang rust server project: #32256\n\nadd the rust server tokenizer, detokenizer, and egress modules: #32872\n\nadd the rust server ingress request validation and api server common types: #32873\n\nadd the rust server ingress tests, guard, and submit modules: #32874\n\nadd the rust server api frame codec and http server entry: #32875\n\nadd the rust server native api handlers and runtime threads: #32876\n\nwire the rust server modules into lib, runtime, and tokenizer manager: #32877\n\nsglang rust server tokenizer manager, ring and runtime: #32358\n\nfeat: rust sglang server openai apis: #33103\n\n[rust-server] PD disaggregation support: #33125\n\n[rust-server] Reland: fix TCP-layer TTFT stalls (#33026): #33269\n\nrust server build release artifacts: #33096\n\nSpeculative Decoding\n\n[MTP] Cut spec-v2 host-seam overhead in hybrid-linear MTP decode: #32219 ⭐\n\n[KDA] Add target_verify support for speculative decoding: #26888\n\n[DSPARK] Grammar-constrained decoding, incl. tool_choice=auto: #31753\n\n[DFLASH] Support grammar-constrained decoding in speculative verify: #30096\n\n[Spec] Enable grammar overlap scheduling for STANDALONE speculative decoding: #32110\n\nOverlap grammar (constrained decoding) with speculative decode verify: #31488\n\n[Spec] Support sampling in the DSPARK graph-folded draft proposal: #33298\n\n[Spec] Add trtllm_mha support for Gemma 4 MTP draft attention backend: #25545\n\n[Perf] Fast-path chain-style draft token organization in multi-layer EAGLE: #32887\n\n[Perf] Skip the target-verify tree mask fill when the backend never reads it: #32886\n\n[Spec] Compact the target-verify mask when nothing reads it: #32920\n\n[Perf] Fold dspark dense draft embedding into the draft graph via forward_embed: #31985\n\n[Perf] Stack dspark dense draft per-layer ctx KV projection into one GEMM: #31986\n\n[Mamba] Support speculative decoding with extra_buffer_lazy: #30437\n\n[gdn] fused replayssm ring write into flashinfer gdn mtp verify kernel: #33102\n\n[gdn] support replayssm with extra buffer: #32692\n\n[6/6][kimi-deterministic] Use deterministic seeded coins for EAGLE rejection sampling: #30822\n\n[Speculative Decoding] Fix GPT-OSS EAGLE3 hidden states: #32334\n\n[EAGLE] Handle NaNs in fused top-k=1: #32396\n\nPack aux hidden states into a preallocated buffer: #28956\n\nSupport SGLANG_SIMULATE_ACC_LEN for DFLASH: #32595\n\nFix stop boundaries for grammar-constrained speculative decoding: #31738\n\nFix DSpark loading for hybrid DSV4 NVFP4: #33276\n\nFix DSpark and DP/EP: #33098\n\n[Fix] Clamp degenerate all-sentinel draft rows to token 0 in dspark _online_combine_kernel: #32277\n\n[Fix] Bound FULL_MASK verify-mask reuse by the captured max_bs: #33127\n\nPiecewise & Breakable CUDA Graph\n\nTurn on breakable prefill cuda graph for dp attention by default: #31682\n\n[FullCG] Support chunked cached-prefix prefill: #30825\n\n[FullCG] Preserve attention LSE through the custom-op boundary: #31050\n\n[BCG][3/N] Enable bcg on dsa & deepep a2a backend: #31987\n\n[BCG][4/N] Enable bcg on megamoe & flashinfer a2a backend: #33150\n\n[CUDA Graph] Allow custom decode graph runners: #33553\n\n[cuda_graph] Gate breakable-CG capture_inputs retention to DP-gather paths: #32678\n\nEnable multimodal prefill BCG for VL and audio models: #30872\n\nEnable post-capture KV sizing with DP attention: #33427\n\nfix(server): capture legal multi-request prefill CUDA graph batches: #30206\n\nFix BCG circular import during server startup: #33371\n\nAttention Backends\n\n[Attention Backend] Add HPC-Ops attention backend: #30540 (blog)\n\n[Attention Backend] Extend hpc_ops dynamic-scheduled decode to bf16: #32304\n\n[DSA] Q8KV8 FP8 Sparse Prefill on GLM-5.2 & DeepSeek-V3.2: Q8-Path & Shared-Path Optimizations: #31888\n\n[unified-memory] Support MLA-hybrid-Mamba (Kimi-Linear) on the Triton backend: #32971\n\n[unified-memory] Let Kimi-Linear use the paged MLA attention backends: #32972\n\n[unified-memory] Support fa3, the default MLA backend on pre-Blackwell hosts: #33046\n\nfeat(inkling): migrate short convs onto the ShortConv attention backend: #33023\n\n[GDN] Support FlashInfer GDN prefill with extra-buffer radix cache: #29735\n\nfix(gdn): skip the -1 padding sentinel in the chunked extend kernel: #33810\n\n[Kernel] Fuse KV-cache writes for asymmetric K/V (head_dim != v_head_dim): #32813\n\n[Perf][DSA] Pass topk_length to flash_mla_sparse_fwd in the sparse attention path: #31128\n\n[Perf] Skip page-table columns past kv length in DSA draft-extend metadata kernel: #31981\n\n[Perf] Skip blocks past per-request live length in full-width Triton kernels: #32109\n\nSupport a same-size mixed q dtype in the fused RoPE kernels: #31834\n\nAvoid TRTLLM prefill output copy: #33306\n\nFix attention backends for models with per-layer head counts (num_attention_heads_per_layer): #32625\n\n[Fix] Route asymmetric-KV models to fa4 on SM100 and pin MiMoV2 FP8 MoE to flashinfer_trtllm: #32818\n\n[Fix] Fix trtllm_mla backend + fp8 kv cache without rope: #32181\n\n[Fix] Support ENCODER_ONLY target-verify in the trtllm_mha backend: #32178\n\n[Fix] missing max_context_len on HybridAttnBackend: #32690\n\nfix(dsa): correct packed FlashInfer top-k and backend selection semantics: #32490\n\nfix(dsa): fail fast on fp8_e4m3 KV with tilelang DSA backend on CUDA: #31346\n\n[KDA] Fix mixed exponent bases in Triton chunk prefill: #31904\n\n[FIX] Prevent Lightning Attention extra-buffer mamba state corruption: #29973\n\nAdd configurable FlashInfer autotune skips: #31389\n\nFix FlashInfer MNNVL workspace size check: #32318\n\nMoE & Expert Parallelism\n\n[Feature] Add DWDP (Distributed Weight Data Parallelism) for MoE prefill: #29778 ⭐\n\nAdd SM90 FP8 MegaMoE support for DeepSeek-V4: #29016 ⭐\n\n[MoE Backend] Add HPC-Ops FP8 MoE runner backend: #30541 (blog)\n\nIntegrate pplx a2a backend: #30756\n\nSupport DeepGEMM for standard MoE dispatch: #33128\n\n[DSV4] Support megamoe for CP: #29569\n\n[MoE] Make DeepEP auto serve flashinfer_cutedsl FP4 (coerce to low_latency) + guard: #29523\n\n[2/N] elastic-ep: Enable EPLB after scale-up: #30553\n\n[Elastic EP] Centralize Mooncake PG configuration: #31708\n\n[Elastic EP] Fix recovery lifecycle and add manual coverage: #31744\n\nperf: speed up marlin moe with occupancy-aware launch specialization: #31552\n\nMigrate CompressedTensorsW4A4Nvfp4MoE TRT-LLM path onto MoeRunner: #32248\n\nLoad initial expert location metadata on CPU: #32435\n\nFix silently wrong EPLB output with --moe-a2a-backend none (rank-invariant dispatch): #32962\n\nFix MoE reduce-scatterv eligibility check: #32663\n\nFix pad-row top-k masking with custom_routing_function under DP attention: #31838\n\nAdd DeepSeek-reference 1e-20 epsilon to top-k renormalization to prevent 0/0 NaN: #31017\n\n[Fix] Clear stale FlashInfer BF16 MoE index cache: #33016\n\nOptimize LongCat-Flash router GEMM with the HPC-Ops bf16xfp32 kernel: #30247\n\n[Fix] Reject online weight updates while the HPC-Ops router GEMM split cache is active: #31943\n\nQuantization\n\nSupport CuteDSL GEMM BF16 on SM100 on by default when allowed by heuristic: #30567\n\n[Quant] Support NVFP4_AWQ checkpoints in ModelOpt FP4 path: #31825\n\n[Quant] Keep the flashinfer_deepgemm FP8 GEMM to 1 <= M < 32: #32843\n\nQwen3.5-MoE: support modelopt_fp4 checkpoints that quantize attention (+ load baked FP8 KV scales): #31220\n\n[Qwen3.5][MTP] Support FlashInfer CuTe DSL for online NVFP4 draft MoE: #31382\n\nFixing MXFP8 online quantization pipeline: #31510\n\n[Fix] Restore online MXFP8 quantization for linear layers: #32953\n\n[Bugfix] compressed-tensors: mixed-precision checkpoints silently load unquantized: #32736\n\nFix compressed-tensors NVFP4 MoE W13 layout: #32430\n\nfix(marlin_nvfp4): only apply routed_scaling_factor in moe_sum_reduce: #31762\n\n[Perf] Halve the non-finite sanitization overhead in per_token_group_quant: #32296\n\n[JIT] Trait-driven per_token_group_quant: unify the quant kernel family (flat + masked): #30924\n\n[JIT] Restore the previous division behavior in per-token group quantization: #32616\n\nFix FP8 Triton dtype selection on A100: #31340\n\nParallelism & Disaggregation\n\n[Feature] DCP: A2A + FlashInfer-MNNVL comm backends and q-replicate (Helix): #21637 ⭐\n\n[DeepSeek V4] CP decode opt: slice repeat attention weights to local TP partition: #27657 ⭐\n\n[4/N][CP] Support interleave strategy for cp v2: #30482\n\n[CP] Fuse zigzag attention into a single call: #33137\n\n[CP] Support breakable CUDA graphs for zigzag strategy: #33136\n\n[CP]: FIx some issue for glm5.2 cp v2: #33100\n\nSupport DCP for Kimi Linear model: #32612\n\nfeat: support Kimi Linear PD disaggregation with DCP: #32837\n\n[Bugfix] Fix Kimi-Linear state transfer across heterogeneous TP: #32262\n\n[DCP] Match the replicated draft KV pool's page granularity to its allocator: #33348\n\n[DCP] Bound a request by the aggregate KV pool, not one rank's share: #33448\n\n[Fix] Honor FlashMLA natural-log LSE in DCP reduction: #33065\n\nfix(mem_cache): state the MLA KV bound in the DCP index space: #33432\n\n[comm] Enable multi-node custom-AR v2 on a single NVLink clique: #32339\n\n[Fix] Enable graph capture and MSCCL++ for attention TP groups: #31629\n\nDisable extra NCCL CUDA event synchronization with symm mem: #27089\n\n[PD] NIXL connector: shard by destination: #32025\n\n[PD] pool decode bootstrap HTTP sessions: #31543\n\n[PD] Handle abort requests in PP mode: #32797\n\n[PD+PP] Honor PP consensus for bootstrap and prealloc: #31869\n\n[PD] Prevent decode scheduler from blocking on ZMQ sends to a stalled prefill peer: #31144\n\n[PD] Fix false health-503 during decode retraction re-admission: #33118\n\n[PD] Drain NIXL completion notifications before enforcing the WaitingForInput timeout: #32267\n\n[Disagg][NIXL] Fix heterogeneous attn-TP KV transfer for replicated GQA heads (NIXL_ERR_NOT_FOUND): #31968\n\n[Disagg][StagingBuffer][1/2] Robustness and failure handling: #31217\n\nfix(disagg): support pipeline-parallel hybrid-linear transfer: #32270\n\n[BugFix][EPD] Harden zmq_to_scheduler receiver failures; sync error info across TP: #31592\n\n[EPD] Fix HTTP dispatch lock blocking cross-request encoder batching: #31275\n\n[EPD] Make encoder register/unregister health-check robust: #31576\n\n[BugFix][EPD] Fix Mooncake source-MR lifecycle for multi-TP /send: #32071\n\n[BugFix][EPD] Early-release mooncake GPU embeddings; fix gpu_id via scheduler.ps: #31591\n\n[HiSparse]Fix DeepSeek V4 HiSparse PD Transfers with Separate Host and Device KV Indices: #31901\n\nsupport dp attn with client lb: #33105\n\nFix token count localization for replicated attention-TP forwards: #32411\n\nScheduler & Runtime\n\n[FEAT] Support fast engine recovery through weight cache: #27139 ⭐\n\nfeat(grpc): add generation request semantics: #32588\n\n[Scheduler] Enable decode retraction ordering under speculative decoding: #32023\n\nAllow optimistic prefill with L2 hierarchical cache and write-back policy: #33545\n\nBound prefill delayer all-branch delay and decay the max_prefill_bs high-watermark: #32880\n\nNegotiate PrefillDelayer only after KV-budget admission checks: #31835\n\n[Bugfix] Fix prefill suspension caused by delayed negotiate_should_allow_prefill invocation: #32389\n\nFix SWA admission livelock on cached-prefix resumes: #32379\n\n[core/loader] Add presharded load format: #24256\n\nSupport fastsafetensors no-GDS loading and page-cache release: #31859\n\nFix async loading of RunAI-streamed tensors: #32896\n\nFix DeepSeek V4 loading with RunAI Model Streamer.: #30240\n\n[Fix] Fail fast when a safetensors index references missing shard files: #32279\n\nAutoWeightLoader support Sglang native models 1: demo: #28671\n\nFix reward/classification models broken by load_weights v2 dispatch (#28671): #31988\n\nperf(startup): skip unused PyTorch headers for KV VMM allocator stub: #33126\n\nReduce startup log noise and fix Dynamo / CUDA-graph edge cases: #33428\n\n[Feature] Add leveled invariant-check primitive for nan/inf/oob validity checks: #32308\n\n[Observability] Add startup, memory, and hybrid SWA diagnostics: #33375\n\n[metrics] Split tokenizer request metrics by stream: #32734\n\nAdd stream label to TTFT metrics: #32363\n\nfix(metrics): clear forward occupancy on idle: #33562\n\nReport accelerator type in /v1/loads: #32348\n\n[Router] Report accelerator count in /v1/loads: #33548\n\nAdd prefill and decode load counters to LoadSnapshot: #32245\n\n[PD] Add a queues.prealloc_ready counter to the load snapshot: #33133\n\n[Fix] Include disagg prefill waiting queue in FPM: #32122\n\nfix: prevent ReqTimeStats from being dropped during IPC serialization: #31339\n\nconfig: make ServerArgs read-only with a single audited mutation entry: #31811\n\nruntime_context: per-role namespace enforcement behind SGLANG_ROLE_NAMESPACES: #33172\n\n[misc] Deep-merge nested config overrides and parse request bodies with orjson: #33351\n\n[Perf] Free KV pages by segment in the paged allocator without a device sync: #32701\n\n[mem_cache] Build empty-prefix last_loc sentinel on-device to avoid per-call H2D sync: #32575\n\n[Kernel] Skip KV writes to reserved padding slots: #32477\n\nSkip dist_init/nccl port prechecks when the dist init method is overridden: #31410\n\n[BugFix] Prevent TBO crash when return_logprob is enabled: #32180\n\n[BugFix] Fix DS/Kimi crash on non-first PP ranks when resolving input length: #31752\n\n[Fix] Two root causes of the H100 deepep TBO CI break: scale-tensor use-after-free + missing non-finite quant sanitization: #32188\n\nHiCache & Radix Cache\n\nfeat: Session-reference-aware Unified Radix Cache for agentic multi-turn workloads: #29173 ⭐\n\nRadix Cache Split: Spin off TreeCore: #29901\n\n[Hicache][1/2]Support Mamba branching in Unified Radix Cache with HiCache: #31181\n\nfeat(hicache): Add shared memory allocator for host KV cache: #29326\n\n[HiCache] Add model-aware key isolation to Mooncake Store: #31920\n\nAdd Mooncake tenant id support: #30256\n\nEliminate redundant DSA state transfers (Mooncake): #32620\n\n[HiCache] Merge HiCache event checks to reduce decode overhead: #30511\n\n[HiCache]: Optimize hybrid/DSA L3 prefetch result sync and usable-prefix clamping: #31443\n\nfix(hicache): support staged write-back for asymmetric MHA: #30981\n\nWrite-back policy fix for unified tree: #31845\n\nFix --hicache-size allocating ~2x host memory on hybrid SWA: #32373\n\nFix --hicache-size allocating ~2x host memory on hybrid Mamba: #32915\n\n[UnifiedTree] fix: drop prefetched host refill under an un-backed-up parent: #31902\n\n[UnifiedRadixCache][mamba] Fix mamba state corr",
       "readingMinutes": 23
-    },
-    {
-      "id": "c35079c74289f65b",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Fine-Tuning Large Language Models for Codebook-Guided Coding of Students' Mathematics Metaphor Responses",
-      "url": "https://arxiv.org/abs/2608.10276v1",
-      "published": "2026-08-10T22:18:33Z",
-      "author": "Liang Zhang",
-      "summary": "Student-generated metaphors about mathematics can reveal students' attitudes, beliefs, identities, and experiences, but human expert coding of these thematically and semantically complex open-ended responses is time-intensive and difficult to scale. This study examines whether L…",
-      "content": "Student-generated metaphors about mathematics can reveal students' attitudes, beliefs, identities, and experiences, but human expert coding of these thematically and semantically complex open-ended responses is time-intensive and difficult to scale. This study examines whether LoRA-based supervised fine-tuning of large language models (LLMs) can improve their performance on codebook-guided coding tasks for student mathematics metaphors. We used a human-coded corpus of 2,265 Grade 6-8 responses to food- and animal-based metaphor prompts and instructed the LLMs to perform two coding tasks: valence-intensity coding to capture the direction and strength of students' affective orientations toward mathematics, and thematic coding to capture students' framings of mathematics as expressed through their metaphors. We compared two proprietary models, GPT-4o mini and GPT-5 mini, under prompt-only conditions with two open-weight models, DeepSeek-R1 1.5B and Mistral 7B, evaluated before and after fine-tuning. Results show that fine-tuning substantially improved the performance and run-to-run reliability of the open-weight models across both tasks relative to their base versions. The fine-tuned compact open-weight models became competitive with, and often outperformed, the proprietary prompt-only models. These findings suggest that compact open-weight LLMs can support scalable, locally controllable, and privacy-conscious AI-assisted measurement of students' metaphor responses in mathematics education.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "88e2476cce48d7a7",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Not a Monolith: Lab-Level Divergence in the Cooperative Equilibria of Chinese Frontier LLM Agents",
-      "url": "https://arxiv.org/abs/2608.10262v1",
-      "published": "2026-08-10T21:54:13Z",
-      "author": "Francisco León Zúñiga Bolívar",
-      "summary": "Does the cooperative bias documented for Western frontier LLM agents extend to a different alignment lineage, and should the Chinese models that embody it be treated as a single bloc or as distinct laboratories? We study four frontier-tier Chinese models - DeepSeek V4 Pro, Qwen3…",
-      "content": "Does the cooperative bias documented for Western frontier LLM agents extend to a different alignment lineage, and should the Chinese models that embody it be treated as a single bloc or as distinct laboratories? We study four frontier-tier Chinese models - DeepSeek V4 Pro, Qwen3-Max, Kimi K2.5 and GLM-5.1 - in an evolutionary Iterated Prisoner's Dilemma, under a design that removes a confound present in prior work. Rather than letting each model convert its own natural-language strategies into code, which entangles strategic disposition with coding ability, we hold the converter fixed (GPT-5.4 Mini) across all labs, so every cross-lab comparison is a comparison of generation alone. We run the full protocol: all-play-all tournaments and a Moran process at n=500 runs per condition, across three prompt styles and four population regimes. Two pre-registered hypotheses are evaluated. H6 (not monolithic) is supported: the four labs differ significantly in aggressive-equilibrium proportion, P_A running from 1% for Qwen3-Max to 9% for DeepSeek V4 Pro, with four of six pairwise comparisons surviving Holm-Bonferroni. The spread across the four labs (P_A range 8pp) is larger than the difference between the Chinese and Western ecosystems' mean P_A (5.0% vs 5.0%): on this measure, within-ecosystem variation exceeds the East-West gap. H5 (cooperative-bias generality) is consistent but qualified: a cooperative plurality holds in 6 of 12 lab-prompt combinations against the 9 of 12 reported for Western models, a difference we do not treat as firm, since the count rests on Cooperative-Neutral near-ties and rises to 9/12 under an alternate converter in our pre-registered robustness check. The lab, not the ecosystem, is the unit at which cooperative disposition is set; treating \"Chinese models\" as a monolith is not supported by the evidence.",
-      "readingMinutes": 1
     },
     {
       "id": "dbf531300b29212a",
@@ -1079,19 +1144,6 @@
       "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
       "content": "",
       "readingMinutes": 0
-    },
-    {
-      "id": "a77bd8de413bed84",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "CHORUS: Complementary Experts for High-Coverage Testbench Stimulus Generation",
-      "url": "https://arxiv.org/abs/2608.10090v1",
-      "published": "2026-08-10T18:02:42Z",
-      "author": "Hejia Zhang",
-      "summary": "Large language models (LLMs) have advanced code generation, where executable feedback provides a more reliable learning signal than textual imitation alone. Hardware verification is an important application of code generation and accounts for a substantial fraction of modern chi…",
-      "content": "Large language models (LLMs) have advanced code generation, where executable feedback provides a more reliable learning signal than textual imitation alone. Hardware verification is an important application of code generation and accounts for a substantial fraction of modern chip design effort, with high-coverage testbench stimulus generation as a key task. We present CHORUS, a post-training framework that pushes performance beyond what a conventional supervised fine-tuning (SFT)-to-reinforcement learning (RL) pipeline achieves. CHORUS builds on two observations. First, staged SFT produces behaviorally diverse checkpoints, and dense-reward RL turns them into strong experts with comparable aggregate performance but distinct task-level strengths. Second, these complementary strengths can be exploited through either training-free model merging or further post-training to outperform the best individual expert. By consolidating the resulting specialists into a single 4B model, CHORUS achieves 88.0% Pass@1 on CVDP-ECov, outperforming DeepSeek-R1 (671B) by 13.5 percentage points.",
-      "readingMinutes": 1
     },
     {
       "id": "5367cc95a8fd9817",
@@ -1237,32 +1289,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "2ecc56b10b9e0c52",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Tied Trit-Planes: Constraining PTQTP to a Uniform Nine-Level Quantizer, with a Persistent Folded Format for Disk-Streamed Mixture-of-Experts Serving",
-      "url": "https://arxiv.org/abs/2608.08910v1",
-      "published": "2026-08-09T20:53:47Z",
-      "author": "Matteo Grella",
-      "summary": "PTQTP decomposes LLM weight matrices into two ternary (trit) planes with two free per-group scales. Tying the scales to a fixed ratio of three collapses the decomposition into a single uniform nine-level quantizer, a known balanced-ternary identity. To our knowledge, at the time…",
-      "content": "PTQTP decomposes LLM weight matrices into two ternary (trit) planes with two free per-group scales. Tying the scales to a fixed ratio of three collapses the decomposition into a single uniform nine-level quantizer, a known balanced-ternary identity. To our knowledge, at the time of writing, this work is the first to impose that identity as a constraint inside PTQTP's solver. The two trit planes then fold losslessly into one 4-bit code plane that we make the persistent serving representation: disk bytes, expert-cache bytes, and kernel input are the same 4.0625-bits/weight blocks, consumed in one integer dot pass. For this conjunction (ratio-3 nine-level code, CPU-SIMD kernels, SSD expert streaming, identical persistent bytes) we likewise found no precedent. We apply this to the routed experts of DeepSeek-V4-Flash-0731, a 284B-A13B mixture-of-experts model, quantizing in one shot from the released MXFP4 expert weights and streaming experts from SSD on a 64 GB laptop. Against a 4.5-bit Q4_K baseline, measured one process per fixture with an expert-lossless anchor arm as reference control, the tied model matches the official serving API on 5/5 fixtures at step 0 (Q4_K: 4/5) and 12/14 captured continuation steps (11/14), scores 86 vs. 84 on a 100-item MMLU subset, decodes 6.7% faster in decode phase, and ships 9% smaller files: no detected fidelity difference at these small evaluation sizes, and every fixture-level difference between the arms traces to a single measured near-tie cell. The tied fit nevertheless shows higher weight-reconstruction error and worse perplexity, a measured dissociation between proxy metrics and reference fidelity. A cumulative trunk-ternarization ladder and bitwise-pinned aarch64/x86-64 kernels complete the report. All code, formats, and evaluation artifacts are open source in the fucina inference stack.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "25e94a517a52230d",
-      "feedTitle": "DeepSeek · Research",
-      "feedUrl": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
-      "category": "AI 技术",
-      "title": "Theory-Guided Deception Detection: A RAG-Based Artificial Intelligence Exploration",
-      "url": "https://arxiv.org/abs/2608.08881v1",
-      "published": "2026-08-09T19:39:19Z",
-      "author": "David M. Markowitz",
-      "summary": "The current work developed seven Retrieval-Augmented Generation (RAG) models based on leading deception theories and compared how deception judgments were made relative to baseline models. Across 700 statements drawn from five published deception datasets, four large language mo…",
-      "content": "The current work developed seven Retrieval-Augmented Generation (RAG) models based on leading deception theories and compared how deception judgments were made relative to baseline models. Across 700 statements drawn from five published deception datasets, four large language models (gpt-4o, claude-sonnet-4-6, ollama/llama3, deepseek-v4-flash), and two run-types (RAG vs. baseline), a total of 39,200 deception judgments were rendered. Detection accuracies were consistent with typical human accuracies and not statistically different across RAG (54.5%) and baseline models (54.6%). RAG-based models (57.0%) were less truth-biased than baseline models (59.7%), but the effect size was quite small. Theoretical perspective mattered little for accuracy yet mattered substantially for response bias, which ranged from highly lie-biased (the verifiability approach, 32.2%) to highly truth-biased (truth-default theory, 88.1%). Content effects and model effects further moderated the results. Theory-guided AI judgments are unreliable with current parameters, yet they might show promise with additional datasets, model testing, and theory-to-data matching.",
-      "readingMinutes": 1
-    },
-    {
       "id": "b22df650a39b00bb",
       "feedTitle": "vLLM Releases",
       "feedUrl": "https://github.com/vllm-project/vllm/releases.atom",
@@ -1338,19 +1364,6 @@
       "author": "Elizabeth Goodman",
       "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
       "content": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...\nStorage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data, execute tools, and generate new results, storage systems must continuously supply and preserve the data that moves the agent reasoning loop. Each agent step can trigger multiple storage operations, and those operations can repeat across…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "8b329c67f68e7d24",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Integrate NVIDIA Omniverse RTX Sensor Simulation Into Existing Apps",
-      "url": "https://developer.nvidia.com/blog/integrate-nvidia-omniverse-rtx-sensor-simulation-into-existing-apps/",
-      "published": "2026-08-06T19:09:18Z",
-      "author": "Tanya Lenz",
-      "summary": "Developers building 3D, design, simulation, robotics, and industrial digital twin applications need ways to bring physical AI capabilities into the tools and...",
-      "content": "Developers building 3D, design, simulation, robotics, and industrial digital twin applications need ways to bring physical AI capabilities into the tools and...\nDevelopers building 3D, design, simulation, robotics, and industrial digital twin applications need ways to bring physical AI capabilities into the tools and services they already use. Many of these workflows already depend on OpenUSD scenes, simulation-ready (SimReady) assets, Blender-based workflows, CAD pipelines, or domain-specific app stacks. The challenge is how to provide applications and…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -2823,19 +2836,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "444580407c455e68",
-      "feedTitle": "NVIDIA 英伟达博客",
-      "feedUrl": "https://blogs.nvidia.cn/feed/",
-      "category": "默认分类",
-      "title": "NVIDIA Spectrum-6 专为 Vera Rubin 打造，登陆十亿瓦级 AI 工厂",
-      "url": "https://blogs.nvidia.cn/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
-      "published": "2026-07-21T02:00:00Z",
-      "author": "Scot Schultz",
-      "summary": "AI 已进入十亿瓦级时代。 全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。 作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。 Spectrum-6 驱动新一代 NVIDIA Spec",
-      "content": "AI 已进入十亿瓦级时代。\n\n全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。\n\n作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。\n\nSpectrum-6 驱动新一代 NVIDIA Spectrum-X 以太网平台，为运营 AI 工厂端到端计算系统提供所需的高带宽、规模扩展和智能。\n\n领先的 AI 构建者率先行动\n\n包括 CoreWeave、微软、Nebius、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础架构构建商，率先采用 Spectrum-6，以加速其 AI 工厂建设。\n\n对于云服务提供商而言，Spectrum-6 意味着更高的计算能力，可以作为统一的高性能资源运行，帮助客户更快地训练模型和部署推理服务。\n\nCoreWeave 网络产品总监 Min Jun 表示：“CoreWeave 专为要求严苛的 AI 工作负载而构建，而网络是提供大规模高性能系统的核心。将 NVIDIA Spectrum-6 和液冷 Spectrum-X 以太网基础设施引入我们的 AI 工厂，能够提供更高的带宽、可靠性和效率，从而帮助我们更好地为客户提供模型训练服务，并更快地部署推理服务。”\n\nNebius 全球合作伙伴关系副总裁 Laurelle Roseman 表示：“在十亿瓦级系统上，协同决定总体性能：让每个 GPU 时刻保持同步，避免因为一个慢环节拖累整个工作。这正是 NVIDIA Spectrum-6 追求的目标，也是我们抢先采用它的原因——它能确保网络在随着客户应对要求严苛的工作负载规模扩展时，时刻保持高速和可靠性。”\n\n对于自建基础设施的 AI 先驱来说，Spectrum-6 意味着更多的 GPU 能够保持同步运行，为要求严苛、大量使用集合操作的作业实现更高的系统利用率，并提高长期运行工作的可靠性。\n\n在各种用例中，最重要的结果是更快地完成作业，并在大规模系统上实现更高的经济效益。\n\nCoreWeave、微软和 Nebius 将成为首批使用 Spectrum-6 部署 NVIDIA Vera Rubin 基础设施的提供商，为广泛的开发者、初创公司和企业社区提供平台访问服务。\n\nAI 性能本质上是一个网络问题\n\n仅凭单个 GPU 峰值性能无法预测 AI 工厂的性能。\n\n大规模训练和推理工作负载依赖于数千个加速器，它们之间频繁进行数据交换。集合通信是跨 GPU 进行工作同步的基本操作，会产生密集的东西向流量，且系统上通常有许多任务同时进行流量传输。\n\n以太网最初主要用于企业应用，承载用户、服务器和存储之间的南北向数据流量，并非为超大规模 AI 的同步、集合密集型通信模式而创建。\n\nSpectrum-X 以太网改变了这一局面。它专为 AI 打造，将以太网转变为高性能横向扩展网络，旨在为每个 GPU 及时“喂上”足够数据。\n\n新一代 Spectrum-X 以太网\n\nSpectrum-6 交换机芯片与 NVIDIA ConnectX-9 SuperNIC 相结合，构成了新一代 Spectrum-X 以太网，与 NVIDIA Vera CPU、Rubin GPU、NVLink 6 交换机、ConnectX-9 SuperNIC、BlueField-4 DPU 和 Spectrum-6 以太网交换机一起，共同组成了 NVIDIA Vera Rubin 平台。\n\nSpectrum-6 支持可插拔和光电一体化封装两种规格。此外，Spectrum-6 产品还支持液冷，支持整个 AI 工厂全面的端到端液冷方案，显著提高系统能效。\n\n与通用以太网不同，用于 AI 工厂横向扩展的 NVIDIA Spectrum-X 以太网网络平台结合了智能交换机、NVIDIA ConnectX-9 SuperNIC 和全栈网络软件，共同为 AI 定向设计。该平台的高级功能不断优化数据流量在网络中的移动。\n\n此外，NVIDIA Spectrum-X 技术可智能平衡可用路径中的流量，并且在发生网络故障时，快速绕过故障点实现精准恢复。此外，它支持开放网络操作系统，以及多种 RDMA 传输模型，在不牺牲性能的前提下，为 AI 构建者带来了最大的灵活性。\n\nSpectrum-X 以太网采用 NVIDIA 垂直集成、横向开放的设计方法：为整个计算平台协同设计芯片、系统和软件，同时支持标准以太网、开放网络操作系统、开放协议以及云服务提供商、系统制造商和基础设施合作伙伴的广泛生态系统。客户无需组装零件之后再对其进行优化，而是直接获得了一个完整的 AI 工厂平台，该平台旨在缩短训练时间并降低单位 Token 成本。\n\n与通用以太网相比，Spectrum-X 以太网可提供高达 1.6 倍的 AI 网络性能，在超过 10 万个 GPU 的部署中保持高达 95% 的网络效率，这充分体现了协同设计方法的优越性。\n\n硬件加速的 Spectrum‑X 多平面拓扑可使数据中心所需交换机数量减少 40%，进一步提升网络效率。叠加 Spectrum‑X 以太网硅光技术带来的各项优势 (能效提升 5 倍、平均无故障间隔时间提升 10 倍)，协同设计网络架构持续体现超越单一组件层面优化的应用加速。\n\n详细了解 NVIDIA Spectrum-X 以太网平台。",
-      "readingMinutes": 4
-    },
-    {
       "id": "9a4b60e8b1552bdd",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -2847,6 +2847,19 @@
       "summary": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。 Vera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。 Vera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供",
       "content": "NVIDIA Vera Rubin 正式登场，正迈向十亿瓦级规模部署。\n\nVera Rubin NVL72 的量产正全面加速，CoreWeave、Google Cloud、Microsoft Azure 和 Oracle Cloud Infrastructure 等合作伙伴的机架已投入运行。Vera Rubin 的供应链覆盖 30 个国家的 350 多家工厂，拥有迄今为止规模最大、最成熟的机架级供应链，旨在全面满足客户的算力需求。\n\nVera Rubin 平台从芯片到电网进行了全栈协同设计，旨在提供最高的每瓦性能和最低的 Token 成本。CoreWeave 针对 DeepSeek-R1 的首次基准测试结果充分证明了这一点：其每兆瓦吞吐量比 Grace Blackwell NVL72 提升了 10 倍——这直接切中了电力受限的 AI 工厂最关心的核心指标。\n\n通过极致协同设计提升性能\n\n取得这一突破的关键在于七款芯片和五种机架托盘之间的极致协同设计。五种机架系统包括 Vera Rubin NVL72、Vera CPU 机架、Groq 3 LPX、Spectrum-6 SPX 和 Vera BlueField-4 STX。它们被作为一个完整的系统进行工程研发，而非由通用产品简单拼凑而成。\n\nNVIDIA Vera CPU 正是其核心所在。它重新定义了“AI 工厂 CPU”应有的形态。专为智能体时代设计，其定制 Olympus 核心相较竞品的芯粒 (chiplet) 方案，单线程性能提升 2 倍、核间带宽提升 3 倍、内存延迟降低 40%，使其成为面向最关键智能体负载时最高效的单线程 CPU。\n\n以专属定制网络，加速 AI 工厂建设\n\n在网络方面，该平台的第六代 NVLink 纵向扩展技术在处理复杂工作负载时，相比通用以太网，吞吐量提升超过 2 倍、延迟降低 1/3、数据包处理速率提升 10 倍。在横向扩展方面，Spectrum-X 以太网集成 102.4T 的 Spectrum-6 交换机系统、1.6T 的 ConnectX-9 SuperNIC、自适应路由、高级拥塞控制、遥测技术以及开放的操作系统支持，使其 RDMA 带宽比通用以太网高出 1.6 倍。\n\n包括 CoreWeave、微软、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础设施建设者率先采用 Spectrum-6 交换机，以加速其 AI 工厂的建设。此外，采用 NVIDIA 光电一体化封装 (CPO) 技术用于横向扩展，这是全球首款实现量产的同类型交换机，与传统可插拔收发器相比，其能效提升了 5 倍，平均无故障间隔时间 (MTBI) 提升了 10 倍。CoreWeave、Lambda 和 OCI 率先采用该技术。\n\nSpectrum-XGS 以太网跨站点吞吐量提升 1.9 倍，实现跨站点性能增强。满足十亿瓦级 AI 工厂的建设不再局限于单一建筑的需求。\n\n同时，NVLink Fusion 向第三方 XPU 开放了 NVIDIA 基础设施平台，为合作伙伴能够借助成熟的 NVLink 纵向扩展堆栈和生态系统，实现产品的快速上市。\n\n节省部署时间，节约水资源\n\n经过三代机架级协同设计的迭代，NVIDIA 打造出的 Vera Rubin NVL72 系统实现了托盘内无电缆、无风扇、无液冷软管的极简设计，将计算托盘的组装时间从过去的数小时大幅缩短至仅需 1 分钟。\n\n45 摄氏度的液冷进水温度设计，使得系统无需冷水机组，仅靠干式冷却器即可运行。对于新建的 AI 工厂而言，这种高温干式冷却结合闭环液冷系统，每兆瓦每年可节省数百万加仑的水资源。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 驱动欧洲开放模型时代\n\nVera Rubin 正为欧洲的 AI 基础设施注入下一代性能。\n\nVera Rubin 也是微软与 Mistral 新一轮深化合作的基石。该合作将前沿 AI 带到了欧洲，把开放的欧洲模型与云环境及客户管理的环境相结合，使各国政府和重点监管行业能够按照自身需求采用 AI 技术。\n\n这项合作的背后，是一项旨在扩大欧洲 AI 基础设施的数十亿美元新协议。Mistral 正在扩充其 GPU 算力，通过引入数千个最新的 NVIDIA Vera Rubin GPU，增加面向客户的 AI 算力供给，并为训练、推理和大规模部署提供共享平台。\n\nNVIDIA Vera Rubin 正迈入全面量产阶段。这款机架级 AI 超级计算机将七款协同设计的全新芯片整合为一个统一系统，它将调用数万个 GPU，为新一代 Mistral Compute 和微软欧洲的 AI 基础设施提供动力。\n\n欧洲希望在遵循自身法律的情况下，在本地完全自主可控地运行全球最强大的 AI。同时，其面临的挑战也在不断升级：智能体系统消耗的 Token 数量可达传统 AI 应用的 15 倍，这使得高效的基础设施成为重点。满足这一需求不仅需要庞大的计算能力，更需要 AI 在实现高效扩展的同时，满足区域对数据控制、治理、可靠性及战略自主的要求。\n\nVera Rubin 为欧洲的开放模型生态系统提供了计算基础。其全栈架构融合了加速计算、网络与软件，使模型和智能体能够从训练到生产实现高效运行。\n\n为企业级 AI 打造的开放模型\n\n微软、Mistral 与 NVIDIA 共同在公共云、云连接以及完全断开连接的私有云环境中，提供适配的 AI——将开放模型的灵活性与大规模运行所需的基础设施结合。\n\nMistral Medium 3.5 和 OCR 4 现已在 Microsoft Foundry 上线，同时 Mistral 模型也已集成至 Microsoft Copilot Studio。客户可以通过 Azure Local 和 Foundry Local 在云端和客户自主控制的环境中使用相同的模型、工具和运行模式。\n\n符合欧洲标准的 AI\n\n政府机构可将 AI 应用于涉及敏感业务的工作流；医疗和金融服务机构可在满足区域合规要求的前提下进行部署；制造商可在本地处理数据以实现更快速的决策。与 NVIDIA GB200 NVL72 相比，Vera Rubin NVL72 每兆瓦的 Token 产出提升高达 10 倍，每百万 Token 的成本降至原来的十分之一，在同等功耗下提供更强大的智能算力。\n\n打造真正适配当地语言、文化与法规的 AI 不应要求组织在创新、经济效益与控制权之间做出取舍。以 Vera Rubin 为计算基础，依托微软和 Mistral 提供的自主云基础设施与欧洲开放模型，欧洲完全可以三者兼得。\n\n详情请参阅微软与 Mistral 的新闻稿。\n\n2026 年 7 月 21 日\n\nCoreWeave 基准测试显示，NVIDIA Vera Rubin 系统每兆瓦 Token 吞吐量达 Blackwell 的 10 倍\n\n通过与 NVIDIA 进行极致的协同设计，CoreWeave 正依托 Vera Rubin NVL72 实现数量级的性能跃升。\n\n与 CoreWeave 等合作伙伴的紧密协作，对于将新一代 NVIDIA 加速计算成功部署至 AI 工厂至关重要。\n\n经过数月的联合工程研发，CoreWeave 成为首家完成 Vera Rubin NVL72 部署与验证的 AI 云服务提供商——他们首次公布了基于实际运行硬件测得的性能数据。\n\nCoreWeave 在 Vera Rubin NVL72 上运行了 DeepSeek-R1 基准测试。结果显示，与 Grace Blackwell NVL72 相比，Vera Rubin NVL72 每兆瓦每秒 Token 吞吐量提升了 10 倍。\n\n每兆瓦 Token 吞吐量是决定 AI 基础设施能否实现大规模盈利的核心指标。每兆瓦产出的 Token 越多，意味着在同等电力预算下能产出更多的智能算力，或者在显著降低功耗的情况下处理相同的工作负载。Jane Street 等 AI 实验室和企业将采用 Vera Rubin 平台，在 CoreWeave 云上扩展其 AI 工厂。\n\n借助 NVIDIA Spectrum-X 突破瓶颈\n\nDeepSeek R1 采用的混合专家 (MoE) 架构，在大规模部署场景下 GPU 间的 all-to-all 通信成为一项关键需求：每个 Token 都必须在分布式的专家子网络中进行路由。Vera Rubin NVL72 配备的 260 TB/s all-to-all NVLink 6 互连架构彻底消除了这一限制，使整个机架能够作为统一的加速器运行。\n\nCoreWeave 是首批部署 NVIDIA Spectrum-X 以太网 SN6600-LD，将其作为 Vera Rubin NVL72 交换网络架构的企业之一。\n\nCoreWeave 基于 102.4 Tb/s 的 Spectrum-6 交换芯片并采用液冷设计，部署了高密度交换机架，单机架可提供 1.64 Pb/s 的带宽，容量较上一代风冷交换机提升了 100%。此外，CoreWeave 还提供完全无阻塞、多平面、多轨方案的 Spine and Leaf 网络架构，确保使用 Vera Rubin NVL72 构建的系统 GPU 之间无阻塞互连通信。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera Rubin 系统驱动全新 Google Cloud A5X 实例，助力 Ineffable Intelligence 发展\n\n由 NVIDIA Vera Rubin NVL72 和针对数据中心横向扩展架构的 Google Virgo 网络共同驱动的 Google Cloud A5X 实例。图片由 Google Cloud 提供。\n\nNVIDIA Vera Rubin NVL72 正在为 Google Cloud 的首个 A5X 实例提供算力支持，该实例现已由伦敦初创公司 Ineffable Intelligence 率先采用。\n\nIneffable Intelligence 致力于开发新一代智能“Superlearner”系统，该系统能够通过经验持续学习，从而在各个领域实现新的突破。\n\nIneffable Intelligence 的智能体直接从与环境的交互中学习，而非依赖静态数据集。Ineffable 没有使用大语言模型 (LLMs) ，而是通过强化学习来开发“Superlearner”系统。该系统在持续模拟的大规模并行环境中生成经验，并迅速将这些经验转化为策略更新与评估。这种紧密耦合的学习闭环对算力、内存带宽和互连技术提出了极高的要求，需要基础设施能够在极大的规模下以极低的延迟运行。\n\nIneffable Intelligence 联合创始人 Lasse Espeholt 表示：“下一个研究时代，必须依托下一代的硬件。能与 NVIDIA 和 Google Cloud 的团队合作，让我们得以抢先体验 Vera Rubin，我们深感荣幸。这两个团队给予了极具价值的支持：我们的系统几乎立即完成部署并启动运行，目前已经在为 Superlearners 系统测试基础设施。”\n\nNVIDIA Vera Rubin NVL72 专为这类智能体训练而设计，能够提供可预测的低延迟、高利用率，以及远超上一代系统的单位智能算力产出。这使其成为大规模强化学习的理想平台选择。\n\n在 Google Cloud Next 上发布的 Google Cloud A5X 实例是基于 NVIDIA Vera Rubin NVL72 机架级系统构建的裸金属实例。与上一代相比，其每 Token 推理成本降低至 1/10，每兆瓦 Token 吞吐量提升了 10 倍。\n\nA5X 采用 NVIDIA ConnectX-9 SuperNICs 并结合了新一代 Google Virgo 网络，能够在单一站点内扩展至数万个 NVIDIA Rubin GPU，在跨多站点配置下更可扩展至近百万个 GPU 集群。这为客户提供了一套统一的、针对 AI 优化的技术栈，用于前沿模型、开放模型、智能体模型和物理 AI 模型的训练、微调和服务部署，同时实现了性能、成本和可持续性的全面优化。\n\n这一基础设施旨在助力解锁下一代强化学习系统，推动超级学习和超级智能领域的突破。\n\n2026 年 7 月 21 日\n\nNVIDIA Vera CPU 助力 DeepInfra AI 云实现编排速度翻倍\n\nDeepInfra 的基准测试结果显示，NVIDIA Vera CPU 的运行速度是其他 CPU 的 2 倍以上，并且能够支持更多并发的 AI 智能体。\n\n作为 NVIDIA 开放 AI 生态系统的早期伙伴，云平台 DeepInfra 基于其生产级 AI 智能体基础设施，独立设计并运行了基准测试。DeepInfra 每周处理近 5 万亿个 Token，其中约 30% 由智能体系统驱动。其云平台专为高吞吐量的 AI 推理而打造。\n\n基准测试表明，在保持相同服务质量的前提下，Vera CPU 支持的并发 AI 智能体数量比其他 CPU 多出高达 1.6 倍，编排速度快 2.2 倍，同时还能提高基础设施的利用率和成本效益。这些结果充分证明，NVIDIA Vera CPU 能够提供生产级智能体 AI 所需的成本效益、低延迟和高吞吐量。\n\n随着 AI 智能体承担起越来越复杂的推理、规划、工具调用和数据传输任务，对于编排每次模型调用前后相关的工作而言，CPU 的性能正变得愈发重要。\n\n作为 NVIDIA 面向 AI 工厂的极致协同设计理念的一部分，Vera CPU 专为智能体工作负载而打造。DeepInfra 的基准测试充分凸显了 NVIDIA Vera CPU 如何帮助云服务提供商提升基础设施利用率、提高成本效益，并在保持相同服务质量的前提下支持更多并发的 AI 智能体。\n\n深入了解 NVIDIA Vera Rubin 平台。",
       "readingMinutes": 10
+    },
+    {
+      "id": "444580407c455e68",
+      "feedTitle": "NVIDIA 英伟达博客",
+      "feedUrl": "https://blogs.nvidia.cn/feed/",
+      "category": "默认分类",
+      "title": "NVIDIA Spectrum-6 专为 Vera Rubin 打造，登陆十亿瓦级 AI 工厂",
+      "url": "https://blogs.nvidia.cn/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+      "published": "2026-07-21T02:00:00Z",
+      "author": "Scot Schultz",
+      "summary": "AI 已进入十亿瓦级时代。 全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。 作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。 Spectrum-6 驱动新一代 NVIDIA Spec",
+      "content": "AI 已进入十亿瓦级时代。\n\n全球最先进的 AI 工厂将数十万个 GPU 和 CPU 汇集在一起，赋能前沿模型训练与代理式 AI 驱动，并以前所未有的规模生成智能。在这个层面，网络成为推动 Token 生成的关键计算能力倍增器。\n\n作为新的网络里程碑产品，NVIDIA Spectrum-6 是一款 102.4T 的以太网交换机，其容量是上一代的 2 倍，为 NVIDIA Vera Rubin 平台构建，即将在全球的十亿瓦级 AI 工厂中落地。\n\nSpectrum-6 驱动新一代 NVIDIA Spectrum-X 以太网平台，为运营 AI 工厂端到端计算系统提供所需的高带宽、规模扩展和智能。\n\n领先的 AI 构建者率先行动\n\n包括 CoreWeave、微软、Nebius、SpaceXAI 和 Tesla 在内的全球领先的 AI 基础架构构建商，率先采用 Spectrum-6，以加速其 AI 工厂建设。\n\n对于云服务提供商而言，Spectrum-6 意味着更高的计算能力，可以作为统一的高性能资源运行，帮助客户更快地训练模型和部署推理服务。\n\nCoreWeave 网络产品总监 Min Jun 表示：“CoreWeave 专为要求严苛的 AI 工作负载而构建，而网络是提供大规模高性能系统的核心。将 NVIDIA Spectrum-6 和液冷 Spectrum-X 以太网基础设施引入我们的 AI 工厂，能够提供更高的带宽、可靠性和效率，从而帮助我们更好地为客户提供模型训练服务，并更快地部署推理服务。”\n\nNebius 全球合作伙伴关系副总裁 Laurelle Roseman 表示：“在十亿瓦级系统上，协同决定总体性能：让每个 GPU 时刻保持同步，避免因为一个慢环节拖累整个工作。这正是 NVIDIA Spectrum-6 追求的目标，也是我们抢先采用它的原因——它能确保网络在随着客户应对要求严苛的工作负载规模扩展时，时刻保持高速和可靠性。”\n\n对于自建基础设施的 AI 先驱来说，Spectrum-6 意味着更多的 GPU 能够保持同步运行，为要求严苛、大量使用集合操作的作业实现更高的系统利用率，并提高长期运行工作的可靠性。\n\n在各种用例中，最重要的结果是更快地完成作业，并在大规模系统上实现更高的经济效益。\n\nCoreWeave、微软和 Nebius 将成为首批使用 Spectrum-6 部署 NVIDIA Vera Rubin 基础设施的提供商，为广泛的开发者、初创公司和企业社区提供平台访问服务。\n\nAI 性能本质上是一个网络问题\n\n仅凭单个 GPU 峰值性能无法预测 AI 工厂的性能。\n\n大规模训练和推理工作负载依赖于数千个加速器，它们之间频繁进行数据交换。集合通信是跨 GPU 进行工作同步的基本操作，会产生密集的东西向流量，且系统上通常有许多任务同时进行流量传输。\n\n以太网最初主要用于企业应用，承载用户、服务器和存储之间的南北向数据流量，并非为超大规模 AI 的同步、集合密集型通信模式而创建。\n\nSpectrum-X 以太网改变了这一局面。它专为 AI 打造，将以太网转变为高性能横向扩展网络，旨在为每个 GPU 及时“喂上”足够数据。\n\n新一代 Spectrum-X 以太网\n\nSpectrum-6 交换机芯片与 NVIDIA ConnectX-9 SuperNIC 相结合，构成了新一代 Spectrum-X 以太网，与 NVIDIA Vera CPU、Rubin GPU、NVLink 6 交换机、ConnectX-9 SuperNIC、BlueField-4 DPU 和 Spectrum-6 以太网交换机一起，共同组成了 NVIDIA Vera Rubin 平台。\n\nSpectrum-6 支持可插拔和光电一体化封装两种规格。此外，Spectrum-6 产品还支持液冷，支持整个 AI 工厂全面的端到端液冷方案，显著提高系统能效。\n\n与通用以太网不同，用于 AI 工厂横向扩展的 NVIDIA Spectrum-X 以太网网络平台结合了智能交换机、NVIDIA ConnectX-9 SuperNIC 和全栈网络软件，共同为 AI 定向设计。该平台的高级功能不断优化数据流量在网络中的移动。\n\n此外，NVIDIA Spectrum-X 技术可智能平衡可用路径中的流量，并且在发生网络故障时，快速绕过故障点实现精准恢复。此外，它支持开放网络操作系统，以及多种 RDMA 传输模型，在不牺牲性能的前提下，为 AI 构建者带来了最大的灵活性。\n\nSpectrum-X 以太网采用 NVIDIA 垂直集成、横向开放的设计方法：为整个计算平台协同设计芯片、系统和软件，同时支持标准以太网、开放网络操作系统、开放协议以及云服务提供商、系统制造商和基础设施合作伙伴的广泛生态系统。客户无需组装零件之后再对其进行优化，而是直接获得了一个完整的 AI 工厂平台，该平台旨在缩短训练时间并降低单位 Token 成本。\n\n与通用以太网相比，Spectrum-X 以太网可提供高达 1.6 倍的 AI 网络性能，在超过 10 万个 GPU 的部署中保持高达 95% 的网络效率，这充分体现了协同设计方法的优越性。\n\n硬件加速的 Spectrum‑X 多平面拓扑可使数据中心所需交换机数量减少 40%，进一步提升网络效率。叠加 Spectrum‑X 以太网硅光技术带来的各项优势 (能效提升 5 倍、平均无故障间隔时间提升 10 倍)，协同设计网络架构持续体现超越单一组件层面优化的应用加速。\n\n详细了解 NVIDIA Spectrum-X 以太网平台。",
+      "readingMinutes": 4
     },
     {
       "id": "413ef8ab41769726",
@@ -4081,19 +4094,6 @@
       "author": "",
       "summary": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
       "content": "Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "a73d9ae8f0877856",
-      "feedTitle": "RSS Feed | PixelsTech",
-      "feedUrl": "https://www.pixelstech.net/feed.xml",
-      "category": "默认分类",
-      "title": "Python Virtual RTU/IIoT Simulator with IEC-20922 MQTT Communication Protocol",
-      "url": "https://www.pixelstech.net/article/1780900827-Python-Virtual-RTU-IIoT-Simulator-with-IEC-20922-MQTT-Communication-Protocol",
-      "published": "2026-06-08T06:49:48Z",
-      "author": "",
-      "summary": "Python Virtual RTU/IIoT Simulator with IEC-20922 MQTT Communication ProtocolProject Design Purpose : In this project, I did extend my previous Python-based virtual PLC/RTU simulator library (which interfaced to SCADA systems via Modbus-TCP and S7Comm, related link: https://www.l…",
-      "content": "Python Virtual RTU/IIoT Simulator with IEC-20922 MQTT Communication ProtocolProject Design Purpose : In this project, I did extend my previous Python-based virtual PLC/RTU simulator library (which interfaced to SCADA systems via Modbus-TCP and S7Comm, related link: https://www.linkedin.com/pulse/python-virtual-plc-rtu-simulator-yuancheng-liu-elkgc) by adding the support function for IEC-20922 Mess",
       "readingMinutes": 1
     }
   ]
