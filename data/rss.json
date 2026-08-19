@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T04:25:53.349137Z",
+  "generatedAt": "2026-08-19T16:26:05.419686Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -54,9 +54,9 @@
       "title": "RSS Feed | PixelsTech",
       "url": "https://www.pixelstech.net/feed.xml",
       "category": "默认分类",
-      "siteUrl": "https://www.pixelstech.net",
+      "siteUrl": "",
       "articleCount": 11,
-      "error": ""
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "title": "OpenAI · News",
@@ -197,6 +197,45 @@
   ],
   "articles": [
     {
+      "id": "945aaca8c99f839c",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "iOS 27 测试版近期动向，还有 Apple 产品新消息",
+      "url": "https://sspai.com/post/113618",
+      "published": "2026-08-19T09:39:05Z",
+      "author": "",
+      "summary": "7月20日至今，Apple陆续发布了iOS27的DeveloperBeta4、5、6三个测试版本。随着9月秋季发布会的渐进，iOS27距离正式版的发布越来越近。今天，我们就来一起看看这三个Beta版本 ...查看全文",
+      "content": "7月20日至今，Apple陆续发布了iOS27的DeveloperBeta4、5、6三个测试版本。随着9月秋季发布会的渐进，iOS27距离正式版的发布越来越近。今天，我们就来一起看看这三个Beta版本 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "7bc0da4b768e4bf0",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "《控制》新作体验：新怪谈游戏的祖师爷，又杀回来了",
+      "url": "https://sspai.com/post/113588",
+      "published": "2026-08-19T07:20:08Z",
+      "author": "",
+      "summary": "本文首发于「游研社」，作者@亚锌，少数派经授权转载，仅对排版略作调整。阅读原文在ChinaJoy期间，我参与了Remedy举办的《控制：共振》闭门试玩会。其实在开始前，我除了战斗部分之外，还非常期待本 ...查看全文",
+      "content": "本文首发于「游研社」，作者@亚锌，少数派经授权转载，仅对排版略作调整。阅读原文在ChinaJoy期间，我参与了Remedy举办的《控制：共振》闭门试玩会。其实在开始前，我除了战斗部分之外，还非常期待本 ...查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "2f00013902a29bc1",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "url": "https://openai.com/index/replit",
+      "published": "2026-08-19T07:00:00Z",
+      "author": "",
+      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "content": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "readingMinutes": 1
+    },
+    {
       "id": "c64f6c4a9eaf5f58",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -233,6 +272,32 @@
       "author": "",
       "summary": "Spotify 上线「播放列表备注」功能、Windows Server 2022 即将结束主流更新等。查看全文",
       "content": "Spotify 上线「播放列表备注」功能、Windows Server 2022 即将结束主流更新等。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "8393c843a171d723",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "ChatGPT Ads expands across Europe",
+      "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "published": "2026-08-18T22:00:00Z",
+      "author": "",
+      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "content": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c214da9bf821ee75",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
+      "url": "https://developer.nvidia.com/blog/post-train-nvidia-cosmos-3-edge-for-on-device-robot-control/",
+      "published": "2026-08-18T21:11:04Z",
+      "author": "Michelle Horton",
+      "summary": "Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...",
+      "content": "Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...\nRobots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for learning physical interactions, but their size can make on-device deployment difficult. This changes with the new NVIDIA Cosmos 3 Edge. Cosmos 3 Edge is a 4B omni-model (with a 2B NVIDIA Nemotron-based reasoner) in the Cosmos 3 family.\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -314,6 +379,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "7509276ec6a68bf4",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "AI 编码智能体如何借助 NVIDIA ALCHEMI 工具包解锁材质模拟",
+      "url": "https://developer.nvidia.cn/blog/how-ai-coding-agents-can-unlock-materials-simulation-with-nvidia-alchemi-toolkit/",
+      "published": "2026-08-18T11:00:00Z",
+      "author": "wnger",
+      "summary": "原子模拟需要三件事：科学知识、模拟的计算高效实现，以及模拟堆栈的可访问接口。 第一个领域仍然是研究人员的研究领 … Continued",
+      "content": "原子模拟需要三件事：科学知识、模拟的计算高效实现，以及模拟堆栈的可访问接口。 第一个领域仍然是研究人员的研究领域，因为没有任何工具可以替代知道要模拟什么或识别有物理意义的结果。今年早些时候推出的 NVIDIA ALCHEMI 工具包借助可组合的 PyTorch 原生构建块，在启用动态批处理的情况下构建 GPU 加速的模拟工作流程，显著降低了机器学习原子间电势 (MLIP) 的第二个障碍。 第三个障碍依然存在。与经典力场不同，MLIP 生态系统仍处于芽阶段，用于经典模拟的可访问接口非常有限。与许多计算化学家习惯使用新的数据结构、合成模式和依赖项的工具相比，它们在不同的软件堆栈上运行。 AI 编码智能体提供了一种解决方法：它们根据研究人员在日常技术讨论中使用的术语编写的自然语言描述生成并执行代码。但是，通用智能体可能不了解 ALCHEMI Toolkit API，\n\nSource",
+      "readingMinutes": 1
+    },
+    {
       "id": "6d4ec902c728a021",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -350,6 +428,19 @@
       "author": "",
       "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
       "content": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "7cec6b240622fb7b",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "使用多个 GPU 在几分钟内运行大规模 UMAP，且不会降低准确性",
+      "url": "https://developer.nvidia.cn/blog/run-massive-scale-umap-in-minutes-using-multiple-gpus-without-losing-accuracy/",
+      "published": "2026-08-18T09:48:08Z",
+      "author": "wnger",
+      "summary": "统一流形近似与投影 (UMAP) 是一种广泛用于可视化和特征提取的降维技术。其应用范围涵盖探索性数据分析、主题 … Continued",
+      "content": "统一流形近似与投影 (UMAP) 是一种广泛用于可视化和特征提取的降维技术。其应用范围涵盖探索性数据分析、主题建模和单细胞分析。其中许多工作流程是迭代和探索性的，需要在用户分析数据或调整参数时重复运行 UMAP。随着数据集的增长，每个 UMAP 的运行成本都会大幅增加，这使得交互式探索和迭代分析变得越来越困难。 UMAP 算法的关键步骤是在数据集上构建全邻 kNN 图，该图可为数据集中的每个向量查找 k – 最近邻点。随着数据集扩展到数千万或数亿个向量，全邻图构建的成本变得越来越高。 上一篇文章 (借助 NVIDIA cuML 在 GPU 上实现更快、更可扩展的 UMAP) 展示了如何使用核外方法扩展 UMAP，从而能够在以前对于单个 GPU 来说过大的数据集上拟合 UMAP。但是，训练阶段仍然局限于单个 GPU，并且只有 步骤能够使用多个 GPU。\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -561,19 +652,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "e3f51528cda5a0a7",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "分享我知识管理 12 年来最重要的经验：INL 结构",
-      "url": "https://sspai.com/post/113368",
-      "published": "2026-08-17T07:00:00Z",
-      "author": "",
-      "summary": "你是不是有几百个笔记，超级乱，都懒得打开？今天我们介绍一个方法，可以让你不怎么整理，就能快速找到重点。查看全文",
-      "content": "你是不是有几百个笔记，超级乱，都懒得打开？今天我们介绍一个方法，可以让你不怎么整理，就能快速找到重点。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "4399811bfc9a8155",
       "feedTitle": "RSS Feed | PixelsTech",
       "feedUrl": "https://www.pixelstech.net/feed.xml",
@@ -584,19 +662,6 @@
       "author": "",
       "summary": "Project Design Purpose : In this project, I did extend my previous Python-based virtual PLC/RTU/MU/IED simulator library (which interfaced to SCADA systems via Modbus-TCP and S7Comm, related link: https://www.linkedin.com/pulse/python-virtual-plc-rtu-simulator-yuancheng-liu-elkg…",
       "content": "Project Design Purpose : In this project, I did extend my previous Python-based virtual PLC/RTU/MU/IED simulator library (which interfaced to SCADA systems via Modbus-TCP and S7Comm, related link: https://www.linkedin.com/pulse/python-virtual-plc-rtu-simulator-yuancheng-liu-elkgc) by adding the support function for IEEE 1815-2021 Distributed Network Protocol 3 (DNP3) protocol. The new implementati",
-      "readingMinutes": 1
-    },
-    {
-      "id": "847f1a3e05075f69",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "当陶瓷水杯遇上像素屏：PixelMug 体验",
-      "url": "https://sspai.com/post/113448",
-      "published": "2026-08-17T05:55:17Z",
-      "author": "",
-      "summary": "如今，伴随着科技和生产力的发展，许多曾经只存在于科幻作品里的创意都逐渐变成了现实。各种新奇酷炫的产品，也开始在人们的刚需之外提供不一样的解法。尤其是那些无关「生产力」、单纯为了让生活变得更有意思的产品 ...查看全文",
-      "content": "如今，伴随着科技和生产力的发展，许多曾经只存在于科幻作品里的创意都逐渐变成了现实。各种新奇酷炫的产品，也开始在人们的刚需之外提供不一样的解法。尤其是那些无关「生产力」、单纯为了让生活变得更有意思的产品 ...查看全文",
       "readingMinutes": 1
     },
     {
@@ -1055,6 +1120,19 @@
       "readingMinutes": 1
     },
     {
+      "id": "bae4401316a894eb",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "如何为 NVIDIA AI 工厂选择全栈可观察性",
+      "url": "https://developer.nvidia.cn/blog/how-to-choose-full-stack-observability-for-nvidia-ai-factories/",
+      "published": "2026-08-12T09:13:47Z",
+      "author": "wnger",
+      "summary": "AI 基础架构跨越多个层，从计算和网络到存储、编排和应用。当性能下降时，识别来源可能很困难，因为在某一层观察到 … Continued",
+      "content": "AI 基础架构跨越多个层，从计算和网络到存储、编排和应用。当性能下降时，识别来源可能很困难，因为在某一层观察到的症状可能源于堆栈中的其他地方。 全栈可观察性策略将这些层中的遥测连接起来，帮助基础设施和运营团队检测问题、找出问题原因并维护可靠的 AI 工作负载。本文将介绍适用于 NVIDIA AI 基础架构的实用可观测性框架，以及如何将其应用于常见的监控和故障排除场景。 假设分布式训练作业的执行时间为三天。GPU 利用率和队列等待时间保持正常。在吞吐量降低 6 小时后，团队发现单个 InfiniBand 链路漂移到更高的误码率的原因。 这是典型的灰色故障。硬件降级，但系统不会将其报告为“停机”。AI 训练遵循批量同步并行 (BSP) 模型。这些紧密合的系统很容易受到掉队者的影响：一个慢秩会阻碍作业。在同步集合通信库 (NCCL) all-reduce 等运算期间，\n\nSource",
+      "readingMinutes": 1
+    },
+    {
       "id": "c30eb0e9e9265087",
       "feedTitle": "TensorRT-LLM Releases",
       "feedUrl": "https://github.com/NVIDIA/TensorRT-LLM/releases.atom",
@@ -1159,6 +1237,19 @@
       "readingMinutes": 10
     },
     {
+      "id": "546e010929ada300",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "NVIDIA JetPack 7.2.1 新增代理式视频技能和 T3000 仿真",
+      "url": "https://developer.nvidia.cn/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation/",
+      "published": "2026-08-11T12:00:00Z",
+      "author": "wnger",
+      "summary": "从机器人和智能视频分析到工业自动化、医疗健康、媒体处理和远程操作，视频是 NVIDIA Jetson 应用的核 … Continued",
+      "content": "从机器人和智能视频分析到工业自动化、医疗健康、媒体处理和远程操作，视频是 NVIDIA Jetson 应用的核心数据路径。系统可以捕获多个摄像头、解码网络流、运行 AI 推理或传统视觉处理、绘制结果，以及对视频进行编码以进行存储或传输。 单次调用简单易懂；工程工作在于为 Jetson 设备选择合适的接口、编解码器、像素格式、内存路径、速率控制和缓冲，并证明完整路径符合延迟、吞吐量和质量目标。 NVIDIA JetPack 7.1 在 Jetson Thor 上引入了 NVIDIA 视频编解码器 SDK 支持，使 C 和 C++ 开发者能够直接、精细地访问 NVIDIA 视频编码器 (NVENC) 和 NVIDIA 视频解码器 (NVDEC) 。 JetPack 7.2.1 首次在 Jetson 上增加了对 PyNvVideoCodec 2.2 的支持，\n\nSource",
+      "readingMinutes": 1
+    },
+    {
       "id": "c68474d4472e1586",
       "feedTitle": "NVIDIA 英伟达博客",
       "feedUrl": "https://blogs.nvidia.cn/feed/",
@@ -1208,6 +1299,32 @@
       "author": "",
       "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
       "content": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f92597f23feb2cfa",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "NVIDIA Nemotron 3.5 Lightning 为长期运行的智能体提供快速、准确的专业任务执行",
+      "url": "https://developer.nvidia.cn/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/",
+      "published": "2026-08-11T06:01:07Z",
+      "author": "wnger",
+      "summary": "长期运行的 AI 智能体将大部分时间用于大量执行：工具调用、结果验证和子智能体委托。在每个执行步骤中使用前沿推 … Continued",
+      "content": "长期运行的 AI 智能体将大部分时间用于大量执行：工具调用、结果验证和子智能体委托。在每个执行步骤中使用前沿推理模型会增加成本和延迟。 NVIDIA Nemotron 3.5 Lightning 是一个开放的 300B 混合专家 (MoE) 模型，具有 30B 活跃参数，专为始终开启的智能体执行层构建。它专为 OpenClaw 和 Hermes Agent 等工具而设计，这些工具均由 NVIDIA NemoClaw 开源安全和管理堆栈提供支持，用于运行始终在线的 AI 智能体。 NVIDIA Nemotron 开放模型系列就像一个软件库，每个版本都在不断提高准确性和速度。随着这些模型的发展，模型路由和编排也在快速成熟。 这一点很重要，因为开发者越来越多地使用模型系统构建应用程序。前沿推理模型 (例如 Nemotron 3 Ultra) 处理编排和复杂规划，而更小、\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "a93314c35a445ee8",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "借助 NVIDIA NeMo 交换机，跨模型路由 AI 智能体工作负载",
+      "url": "https://developer.nvidia.cn/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard/",
+      "published": "2026-08-11T06:00:00Z",
+      "author": "wnger",
+      "summary": "构建 AI 智能体 并非以选择单个模型为终点。每个模型都有自己的长处、短处和成本曲线，这可能会从一种工作负载转 … Continued",
+      "content": "构建 AI 智能体 并非以选择单个模型为终点。每个模型都有自己的长处、短处和成本曲线，这可能会从一种工作负载转移到另一种工作负载，甚至在相同的工作负载中。例如，代理式任务可能需要对一个步骤进行分类，对下一步进行推理，并为常规后续任务创建一个较小的模型。将每个请求发送到最大的模型会增加成本和延迟，而将每个请求发送到较小的模型会降低复杂任务的质量。 模型路由通过编排专业模型和前沿模型来解决这一挑战，以便每个任务使用最适合每个任务的模型。NVIDIA NeMo Switchyard 使这种复杂的工程问题能够实际应用于智能体工作负载，因此开发者可以跨模型规划工作路线，而无需围绕每个提供商或模型选择重建应用。 在运行时，路由器会评估每个请求及其可用的上下文，然后将工作发送到最适合任务要求、约束和策略的模型。根据工作负载，与针对每个请求使用功能更强的模型相比，此模型系统可以提高准确性并降低成本。\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1406,6 +1523,19 @@
       "readingMinutes": 4
     },
     {
+      "id": "8a6473d9c56f14a3",
+      "feedTitle": "NVIDIA 技术博客",
+      "feedUrl": "https://developer.nvidia.cn/blog/feed",
+      "category": "默认分类",
+      "title": "在 NVIDIA 上使用 Meta 的运行本地代理式 AI",
+      "url": "https://developer.nvidia.cn/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/",
+      "published": "2026-08-10T06:27:19Z",
+      "author": "wnger",
+      "summary": "随着 Muse Glimmer 的发布，Meta 回归开源生态系统。Muse Glimmer 是一个 3000 … Continued",
+      "content": "随着 Muse Glimmer 的发布，Meta 回归开源生态系统。Muse Glimmer 是一个 3000 亿开放权重密集型模型，具有 12 万多个上下文窗口，专为本地 AI 代理式工作构建。 经过优化，可在一系列 NVIDIA 边缘、桌面和工作站 AI 平台上运行，在单个 GPU 上每秒可提供 2 万个 token，使始终在线的智能体能够在本地处理数据并执行复杂的多步骤工作流程。 大多数 LLM 都针对聊天进行了优化，优先考虑单轮交互和快速获得第一个 token，但代理式工作负载需要不同的方法。支撑软件项目、修改文档或管理知识库的智能体可能会在单个会话中执行多次连续工具调用，同时需要一定程度的可靠性、一致性、长上下文一致性和持续吞吐量，而聊天优先模型无法满足这些需求。 因此，它在代理式工作负载方面表现出色，这些工作负载需要可靠的指令遵循、长上下文一致性、\n\nSource",
+      "readingMinutes": 1
+    },
+    {
       "id": "2a5c0cad5d8b2f9d",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -1520,19 +1650,6 @@
       "author": "Elizabeth Goodman",
       "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
       "content": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...\nStorage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data, execute tools, and generate new results, storage systems must continuously supply and preserve the data that moves the agent reasoning loop. Each agent step can trigger multiple storage operations, and those operations can repeat across…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "0ba76ef22f287366",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Inside NVIDIA Rubin GPU Architecture: Powering the Era of Agentic AI",
-      "url": "https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/",
-      "published": "2026-08-06T19:09:16Z",
-      "author": "Eduardo Alvarez",
-      "summary": "What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale....",
-      "content": "What began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale....\nWhat began as discrete AI model training and human-facing chat interfaces has evolved into always-on AI factories dedicated to producing intelligence at scale. These factories are now tasked with powering agentic workflows that reason, plan, use tools, verify intermediate results, and execute complex multistep tasks across vast contexts. Agentic workloads are not defined by a single prompt…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1887,19 +2004,6 @@
       "readingMinutes": 2
     },
     {
-      "id": "3763c3e63f841c3b",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "From asking to doing: How the world is putting ChatGPT to work",
-      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "published": "2026-08-06T00:00:00Z",
-      "author": "",
-      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-      "content": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-      "readingMinutes": 1
-    },
-    {
       "id": "00d36ce223a09480",
       "feedTitle": "Meta Engineering",
       "feedUrl": "https://engineering.fb.com/feed/",
@@ -1923,19 +2027,6 @@
       "author": "",
       "summary": "I've been building browser extensions for a few years now: PageSaver, which turns a web page into a PDF or an image, and a handful of others. Every one of them shipped without a single automated test. Not because I didn't want tests, but because the tools I already knew couldn't…",
       "content": "I've been building browser extensions for a few years now: PageSaver, which turns a web page into a PDF or an image, and a handful of others. Every one of them shipped without a single automated test. Not because I didn't want tests, but because the tools I already knew couldn't reach the parts that actually break.The loop was always the same. Change a file, open chrome://extensions, hit reload, c",
-      "readingMinutes": 1
-    },
-    {
-      "id": "c99ec862b4e71599",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "published": "2026-08-04T19:00:00Z",
-      "author": "",
-      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "content": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
       "readingMinutes": 1
     },
     {
@@ -2147,19 +2238,6 @@
       "readingMinutes": 0
     },
     {
-      "id": "8103c32837170038",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "如何在共享 GPU 基础架构上运行隔离的租户 Kubernetes 集群",
-      "url": "https://developer.nvidia.cn/blog/how-to-run-isolated-tenant-kubernetes-clusters-on-shared-gpu-infrastructure/",
-      "published": "2026-08-03T09:00:00Z",
-      "author": "wnger",
-      "summary": "每个团队运行专用的 Kubernetes 集群通常会导致隔离程度超出组织所需的程度。虽然一个集群可以在多个团队 … Continued",
-      "content": "每个团队运行专用的 Kubernetes 集群通常会导致隔离程度超出组织所需的程度。虽然一个集群可以在多个团队之间成功共享，但协调成本会随着团队数量的增加而增加。挑战包括 CRD 版本冲突、RBAC 重叠，以及没有明确的方法将 GPU 容量划分到团队级别的预算。在一定程度上，团队可能会开始要求自己的集群来重新获得自主性。 本文提供了一种模式，即在不分割硬件的情况下保持团队自主性。此解决方案涉及具有 GPU 池的单个控制平面集群、按团队配额共享的 GPU，以及每个团队隔离的 Kubernetes 控制平面，包括 API 服务器、控制器、数据存储、同步器和调度程序。这可以使用两种开源工具来实现：KAI Scheduler 和 vCluster。 按照教程步骤操作，您将有三个团队在自己的租户集群中运行真实的 GPU Kubernetes Pod，并且都共享一个物理 GPU。\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "5a91ad11205f080c",
       "feedTitle": "NVIDIA 技术博客",
       "feedUrl": "https://developer.nvidia.cn/blog/feed",
@@ -2212,45 +2290,6 @@
       "readingMinutes": 6
     },
     {
-      "id": "f2fac89beb1cb061",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "共同设计 AI 模型注意力，实现快速的交互式长上下文推理",
-      "url": "https://developer.nvidia.cn/blog/co-designing-ai-model-attention-for-fast-interactive-long-context-inference/",
-      "published": "2026-07-31T15:16:17Z",
-      "author": "wnger",
-      "summary": "随着代理式和长上下文工作负载变得常见，上下文长度增加，注意力消耗更大比例的推理时间 (图 1) 。由于注意力现 … Continued",
-      "content": "随着代理式和长上下文工作负载变得常见，上下文长度增加，注意力消耗更大比例的推理时间 (图 1) 。由于注意力现在主宰了成本，因此模型的设计方式 (而不仅仅是实现方式) 越来越多地决定了模型的推理性能。围绕 GPU 的执行方式塑造模型架构是 AI 模型协同设计的前提。有关模型设计选择如何在不牺牲准确性的情况下影响吞吐量和交互性的讨论，请参阅上一篇文章《 AI 模型协同设计：硬件友好型 LLM 设计》。 本文将探讨组大小 (每个 KV 头的查询头) 、头维度和序列长度如何影响密集注意力的性能，其中每个查询都会关注序列长度上的所有键和值。蒸馏的分析以及注意力在 GPU 上的并行性，形成了四个实用指南：共同设计检查清单，帮助模型开发者提高 NVIDIA GPU 上的推理吞吐量和交互性。敬请关注有关稀疏注意力的博文。 每次分析都基于两个来源：来自 GEMM 形状算法的分析公式，\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "5d30e1f4485f91c5",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "NVIDIA 视频编解码器 SDK 13.1：零拷贝转码、AV1 B 帧和帧精确搜索",
-      "url": "https://developer.nvidia.cn/blog/nvidia-video-codec-sdk-13-1-zero-copy-transcode-av1-b-frames-and-frame-accurate-seek/",
-      "published": "2026-07-31T08:13:02Z",
-      "author": "wnger",
-      "summary": "各行各业对高质量视频的需求持续加速，为从沉浸式串流体验到远程协作、生成式 AI 媒体工具和大规模内容交付等各个 … Continued",
-      "content": "各行各业对高质量视频的需求持续加速，为从沉浸式串流体验到远程协作、生成式 AI 媒体工具和大规模内容交付等各个方面提供支持。 这些体验的背后是对更快、更高效且能够处理日益复杂的格式和工作负载的视频管线的需求日益增长。NVIDIA Video Codec SDK 通过 NVIDIA 专用硬件视频引擎提供对 GPU 加速视频编码和解码的访问，帮助开发者应对这一挑战。 NVIDIA Video Codec SDK 13.1 现已推出。我们鼓励开发者在其视频工作流中探索新功能，利用重新设计的示例应用，并通过 NVIDIA 开发者论坛分享反馈。 编码功能： 解码功能： 寻求特定帧 转码功能： 其他特性： 使用 B 帧作为参考可提高编码质量。分层参考模式通过将 B 帧安排在树状参考结构中进一步改进：叶节点是非参考 B 帧，根是中间的 B 帧。\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "13c0eee2b8a3a095",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "使用 NVIDIA nvmath-python 大规模运行高性能核心数学运算",
-      "url": "https://developer.nvidia.cn/blog/run-high-performance-core-math-at-scale-with-nvidia-nvmath-python/",
-      "published": "2026-07-30T15:43:04Z",
-      "author": "wnger",
-      "summary": "NVIDIA nvmath-python 是一个库，旨在弥合 Python 科学社区与 NVIDIA CUDA … Continued",
-      "content": "NVIDIA nvmath-python 是一个库，旨在弥合 Python 科学社区与 NVIDIA CUDA-X 数学库之间的差距。它使 Python 用户能够在不中断现有工作流程的情况下，使用 CUDA-X 性能执行常见的数学运算。根据 API，操作可以在 CPU、支持 CUDA 的 GPU 或分布式多 GPU、多节点系统上运行。 随着 nvmath-python v1.0 的全面推出，本文将探讨该库的设计和用于加速从 CPU 或单个 GPU 到多 GPU、多节点规模的数学运算的独特功能。nvmath-python 是 CUDA 和 NVPL 数学库 (例如 cuFFT、cuBLASLt、cuDSS、cuSPARSE、cuTENSOR、cuBLASMp 等) 上的 Python 抽象层。通用稀疏张量 (UST) 是一种新型稀疏方法，\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "f5a39066724b45ad",
       "feedTitle": "PyTorch Blog",
       "feedUrl": "https://pytorch.org/blog/feed/",
@@ -2274,32 +2313,6 @@
       "author": "",
       "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
       "content": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "5ae322156ad66ade",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "部署更安全的 AI 智能体的四种方法",
-      "url": "https://developer.nvidia.cn/blog/four-ways-to-deploy-more-secure-ai-agents/",
-      "published": "2026-07-30T14:09:59Z",
-      "author": "wnger",
-      "summary": "知识工作者正越来越多地将 AI 智能体集成到其工作流中。作为“数字同事”的智能体具有明显的优势。例如，他们可以 … Continued",
-      "content": "知识工作者正越来越多地将 AI 智能体集成到其工作流中。作为“数字同事”的智能体具有明显的优势。例如，他们可以查看错误报告、实施和测试修复程序、推送补丁程序，以及与人工沟通以供审查。通过处理日常任务，智能体有望大幅提高工作效率。另一方面，通过智能体将大语言模型 (LLM) 连接到实时工具和企业数据，则有可能将实用助手转变为具有特权的软件，使其面临难以理解的攻击面。 在过去六个月中，NVIDIA AI Red Team 评估了多个 AI 智能体，从简单的交互式编码工具到始终开启的自主数字助理，不一而足。当一个智能体被证明是可利用的时，无论使用何种框架或工具，我们通常都会看到相同的关键故障模式，包括： 在本文中，我们将研究这些故障模式，并描述在对抗压力下取得成功的控制。虽然我们的示例侧重于聊天连接的智能体 (我们在评估中遇到的大多数智能体) ，但这些模式适用于任何智能体。\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "ed4c05e97614a18c",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "NVIDIA 示例云：释放 AI 基础设施全部性能的经验教训",
-      "url": "https://developer.nvidia.cn/blog/nvidia-exemplar-cloud-lessons-for-unlocking-full-performance-on-ai-infrastructure/",
-      "published": "2026-07-30T09:00:00Z",
-      "author": "wnger",
-      "summary": "由相同的 NVIDIA H100、GB200 NVL72 或 GB300 NVL72 系统构建的两个 AI 计 … Continued",
-      "content": "由相同的 NVIDIA H100、GB200 NVL72 或 GB300 NVL72 系统构建的两个 AI 计算集群可以提供截然不同的训练吞吐量。在相同的工作负载、相同的模型、相同的全球批量大小上，我们通常会发现合作伙伴部署与相应的 NVIDIA 参考架构 (RA) 之间存在 8% 到 12% 的差距。 其原因通常是内核、hypervisor、BIOS 和 NVIDIA 集合通信库 (NCCL) 设置中的一系列配置选择，每项选择的成本仅为百分之几，而且这一差距足以错过 NVIDIA Exemplar Cloud 验证所需的 95% 值。 本文将介绍来自实际合作伙伴集群的四项调试调查。每次诊断都会隔离堆栈的不同层：NVIDIA Grace CPU 上的系统内存管理单元 (SMMU) 和分页表行为；基于 x86 的 CPU 上的电源管理和非统一内存访问 (NUMA) 放置；1.6…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -2339,19 +2352,6 @@
       "author": "",
       "summary": "",
       "content": "",
-      "readingMinutes": 1
-    },
-    {
-      "id": "da3375a87694c70b",
-      "feedTitle": "NVIDIA 技术博客",
-      "feedUrl": "https://developer.nvidia.cn/blog/feed",
-      "category": "默认分类",
-      "title": "如何使用 NVIDIA NeMo Guardrails 自行托管经过验证的 AI 编码助手",
-      "url": "https://developer.nvidia.cn/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/",
-      "published": "2026-07-29T09:46:45Z",
-      "author": "wnger",
-      "summary": "在受监管、主权或源敏感型环境中部署 AI 编码助手通常会面临挑战。三个常见问题是：来源无法离开网络；助手偶尔会 … Continued",
-      "content": "在受监管、主权或源敏感型环境中部署 AI 编码助手通常会面临挑战。三个常见问题是：来源无法离开网络；助手偶尔会发明引入供应链风险的软件包名称；当生成的更改交付缺陷时，没有审计跟踪。 本教程将带您了解如何在 NVIDIA 基础架构上自行托管经过验证的编码助手，从而解决上述所有三个问题。最后，您将拥有一个 StarCoder2-7B NIM 端点，通过您自己的 GPU 完成代码；面前有一个 NVIDIA NeMo Guardrails 策略，可拒绝您标记为仅限人类访问的文件的请求；一个 CI 验证阶段，可在审查前捕获具有幻觉的软件包；具有提交级可追溯性；还有一个最小指标循环，可告知您 AI 辅助的补丁程序是在改善还是损害您的体验 要按照教程操作，您需要： StarCoder2-7B 在 BF16 中运行。NVIDIA H100 和 H200 GPU…\n\nSource",
       "readingMinutes": 1
     },
     {
