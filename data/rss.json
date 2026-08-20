@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T16:26:05.419686Z",
+  "generatedAt": "2026-08-20T04:25:50.465398Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -197,6 +197,84 @@
   ],
   "articles": [
     {
+      "id": "00cf538a23587ba4",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "「务实且高效」的日系次旗舰：夏普 AQUOS R9 评测",
+      "url": "https://sspai.com/post/113497",
+      "published": "2026-08-20T02:41:31Z",
+      "author": "",
+      "summary": "在 R9 身上，我竟依稀能感到夏普正在谋求一种仰望星空和脚踏实地间的精妙平衡。查看全文",
+      "content": "在 R9 身上，我竟依稀能感到夏普正在谋求一种仰望星空和脚踏实地间的精妙平衡。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "12caf3b954241f9d",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派早报：石头发布 A30 Pro Steam 3.0 洗地机、Framework 升级 Laptop 12 笔记本",
+      "url": "https://sspai.com/post/113638",
+      "published": "2026-08-20T00:46:04Z",
+      "author": "",
+      "summary": "哈浮 VERSA 飞行口袋云台相机发布，OpenAI 回应少量 Codex 用户调用 GPT-5.6 系列 AI 模型误删文件问题等。查看全文",
+      "content": "哈浮 VERSA 飞行口袋云台相机发布，OpenAI 回应少量 Codex 用户调用 GPT-5.6 系列 AI 模型误删文件问题等。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "c50f0291d188d6c3",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents",
+      "url": "https://developer.nvidia.com/blog/developing-nvidia-holoscan-applications-with-cli-skills-and-ai-coding-agents/",
+      "published": "2026-08-19T22:54:36Z",
+      "author": "Elizabeth Goodman",
+      "summary": "NVIDIA Holoscan is a platform for building real-time AI applications at the edge, from medical imaging to robotics. HoloHub is its companion repository: a...",
+      "content": "NVIDIA Holoscan is a platform for building real-time AI applications at the edge, from medical imaging to robotics. HoloHub is its companion repository: a...\nNVIDIA Holoscan is a platform for building real-time AI applications at the edge, from medical imaging to robotics. HoloHub is its companion repository: a growing collection of reference applications and components that demonstrate what’s possible. We wanted to explore how a general-purpose coding agent could use the same examples, documentation, and development tools available to an engineer…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "df8f12302a5b421a",
+      "feedTitle": "OpenAI · News",
+      "feedUrl": "https://openai.com/news/rss.xml",
+      "category": "AI 新闻",
+      "title": "Offering Zero Data Retention for frontier models",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "published": "2026-08-19T19:00:00Z",
+      "author": "",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "content": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "readingMinutes": 1
+    },
+    {
+      "id": "abaed39cbc9c9b42",
+      "feedTitle": "Google AI · Blog",
+      "feedUrl": "https://blog.google/technology/ai/rss/",
+      "category": "AI 新闻",
+      "title": "5 new ways to level up your learning with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "published": "2026-08-19T19:00:00Z",
+      "author": "Awaneesh Verma",
+      "summary": "an illustrated image with icons and phrasing like \"Add Notebook\" and \"Ask Google\"",
+      "content": "an illustrated image with icons and phrasing like \"Add Notebook\" and \"Ask Google\"",
+      "readingMinutes": 1
+    },
+    {
+      "id": "dea69fc30f390e72",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Building Federated Multimodal AI Workflows with NVIDIA FLARE",
+      "url": "https://developer.nvidia.com/blog/building-federated-multimodal-ai-workflows-with-nvidia-flare/",
+      "published": "2026-08-19T17:51:06Z",
+      "author": "Tanya Lenz",
+      "summary": "Modern vision-language models (VLMs) can support tasks such as visual question answering, captioning, and image-text reasoning. In practice, however, the data...",
+      "content": "Modern vision-language models (VLMs) can support tasks such as visual question answering, captioning, and image-text reasoning. In practice, however, the data...\nModern vision-language models (VLMs) can support tasks such as visual question answering, captioning, and image-text reasoning. In practice, however, the data needed to adapt these models may be distributed across institutions or organizations that cannot centralize their raw records. Federated learning provides a way to coordinate training across these data-local sites. For VLMs…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
       "id": "945aaca8c99f839c",
       "feedTitle": "少数派",
       "feedUrl": "https://sspai.com/feed",
@@ -272,6 +350,19 @@
       "author": "",
       "summary": "Spotify 上线「播放列表备注」功能、Windows Server 2022 即将结束主流更新等。查看全文",
       "content": "Spotify 上线「播放列表备注」功能、Windows Server 2022 即将结束主流更新等。查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "05ad60094d4a6993",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Evaluating AI Agent Skill Performance with NVIDIA SkillEvaluator",
+      "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator/",
+      "published": "2026-08-18T23:41:42Z",
+      "author": "Michelle Horton",
+      "summary": "AI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA libraries, agents can spend extra steps finding...",
+      "content": "AI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA libraries, agents can spend extra steps finding...\nAI agents are only as effective as the context they receive. Even with capable models and well-documented NVIDIA libraries, agents can spend extra steps finding the right tools, burn tokens on dead ends, or struggle with specialized tasks. Skills package the instructions, examples, and tool guidance for agents to move faster from intent to solution. To measure whether these skills improve agent…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -535,19 +626,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "3802abd7aeeea505",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：阿里巴巴出售灵犀互娱，Linux 7.2 内核稳定版发布等",
-      "url": "https://sspai.com/post/113566",
-      "published": "2026-08-18T00:04:07Z",
-      "author": "",
-      "summary": "少数派的近期动态新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡。点击了解能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线。点击了解你可能错过的文章成 ...查看全文",
-      "content": "少数派的近期动态新一季少数派会员启航，更新权益，更多惊喜，还有实体纪念卡。点击了解能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线。点击了解你可能错过的文章成 ...查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "baf07daff59f271b",
       "feedTitle": "OpenAI · News",
       "feedUrl": "https://openai.com/news/rss.xml",
@@ -610,19 +688,6 @@
       "author": "Shuyu Liu",
       "summary": "Task completion is the standard metric for evaluating context compression, yet it is incomplete: compression can increase an agent's interaction cost by forcing it to reacquire dropped state while leaving completion statistically unchanged. We introduce a controlled runtime meas…",
       "content": "Task completion is the standard metric for evaluating context compression, yet it is incomplete: compression can increase an agent's interaction cost by forcing it to reacquire dropped state while leaving completion statistically unchanged.\nWe introduce a controlled runtime measurement protocol for reacquisition cost in a bounded-horizon tool-using agent. The agent acts in a deterministic planning environment under a fixed 24-turn horizon. We vary compression severity, compare a dropping operator with a fact-preserving operator, restore dropped state through controlled oracle interventions, and decompose tool calls into retrieval and execution. We evaluate three models across two task regimes.\nRetrieval calls increase in all six model-regime comparisons and account for almost all added interaction; five of six remain significant after Holm correction. At the prespecified 5x comparison point, completion changes are not significant in any cell. DeepSeek shows a significant completion drop only at 10x compression. GPT-5.5 is the clearest case: completion changes from 80% to 85% (p = 1.0) while retrieval increases from 21.0 to 63.9 calls (p = .002).\nRetention interventions further separate state quantity, state type, and content validity. Random selection is comparable to an offline hindsight oracle, while replacing retained D-state with semantically irrelevant content increases retrieval by 57% (p < .001) without a significant completion change. In a second environment, ALFWorld, sliding compression produces no retrieval surge, showing that the reacquisition signature is environment-dependent rather than intrinsic to shortening context.\nOverall, compression can impose hidden interaction costs when execution-relevant state becomes absent and must be reacquired, while completion alone may not expose those costs.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "6f5136259d44ae6b",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派评 | 近期值得关注的 App",
-      "url": "https://sspai.com/post/113544",
-      "published": "2026-08-17T10:14:56Z",
-      "author": "",
-      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
-      "content": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
       "readingMinutes": 1
     },
     {
@@ -1653,32 +1718,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "65bf464271412d72",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Make Long-Running NVIDIA TensorRT Engine Builds Observable and Cancelable in Python or C++",
-      "url": "https://developer.nvidia.com/blog/make-long-running-nvidia-tensorrt-engine-builds-observable-and-cancelable-in-python-or-c/",
-      "published": "2026-08-06T19:09:15Z",
-      "author": "Michelle Horton",
-      "summary": "A TensorRT engine build can take seconds to many minutes. Large strongly typed models, deep tactic search, and a cold timing cache on a brand-new GPU SKU can...",
-      "content": "A TensorRT engine build can take seconds to many minutes. Large strongly typed models, deep tactic search, and a cold timing cache on a brand-new GPU SKU can...\nA TensorRT engine build can take seconds to many minutes. Large strongly typed models, deep tactic search, and a cold timing cache on a brand-new GPU SKU can leave developers, end users, or AI agents staring at a frozen terminal with no idea whether to wait, retry, or kill the process. Most NVIDIA TensorRT integrations report nothing during a build or provide no way to abort early.\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "257096175e5ecc53",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Setting a World Record for MoE Pre-Training on NVIDIA GB300 NVL72",
-      "url": "https://developer.nvidia.com/blog/setting-a-world-record-for-moe-pre-training-on-nvidia-gb300-nvl72/",
-      "published": "2026-08-06T19:09:15Z",
-      "author": "Kirthi Devleker",
-      "summary": "Frontier model pre-training has converged on mixture of experts (MoE), which is fundamentally changing what limits large-scale AI training. As compute per token...",
-      "content": "Frontier model pre-training has converged on mixture of experts (MoE), which is fundamentally changing what limits large-scale AI training. As compute per token...\nFrontier model pre-training has converged on mixture of experts (MoE), which is fundamentally changing what limits large-scale AI training. As compute per token falls, communication increasingly determines how efficiently models scale across thousands of GPUs. NVIDIA GB300 NVL72 set a world record for pre-training DeepSeek-V3 671B at 1,648 TFLOPs per GPU, showing how advances across the entire AI…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "ca65f33f82d5d7a5",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -1689,19 +1728,6 @@
       "author": "Tanya Lenz",
       "summary": "NVIDIA OptiX ray tracing engine is an application framework for achieving optimal ray tracing performance on the GPU. Applications using OptiX can fail in ways...",
       "content": "NVIDIA OptiX ray tracing engine is an application framework for achieving optimal ray tracing performance on the GPU. Applications using OptiX can fail in ways...\nNVIDIA OptiX ray tracing engine is an application framework for achieving optimal ray tracing performance on the GPU. Applications using OptiX can fail in ways that are difficult to diagnose: an invalid API argument, a black frame, or a GPU-side bug buried under thousands of concurrent threads. Debugging facilities in the NVIDIA OptiX Toolkit (OTK) can help. OTK is a GitHub repository…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "b1f5ef077af3fc0a",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Start Customizing NVIDIA Nemotron 3 Nano with Prime Intellect Lab in Minutes",
-      "url": "https://developer.nvidia.com/blog/start-customizing-nvidia-nemotron-3-nano-with-prime-intellect-lab-in-minutes/",
-      "published": "2026-08-06T19:09:14Z",
-      "author": "Chris Alexiuk",
-      "summary": "Customization is what enables developers to take a general model and tailor it to use cases, domains, languages, and more. However, customization comes with a...",
-      "content": "Customization is what enables developers to take a general model and tailor it to use cases, domains, languages, and more. However, customization comes with a...\nCustomization is what enables developers to take a general model and tailor it to use cases, domains, languages, and more. However, customization comes with a few challenges. It requires infrastructure, technical expertise, and software specific to the workflow, as well as resources such as GPUs and the ability to use them effectively. It also depends on specialized domain knowledge: What…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -1962,19 +1988,6 @@
       "author": "",
       "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
       "content": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-      "readingMinutes": 1
-    },
-    {
-      "id": "0c4923a8268d927d",
-      "feedTitle": "OpenAI · News",
-      "feedUrl": "https://openai.com/news/rss.xml",
-      "category": "AI 新闻",
-      "title": "Working with the American Psychological Association on youth mental health and AI",
-      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-      "published": "2026-08-06T06:00:00Z",
-      "author": "",
-      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
-      "content": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
       "readingMinutes": 1
     },
     {
@@ -3900,19 +3913,6 @@
       "summary": "人在一个到处要求意义的世界里，如果活得毫无意义感，就会被当成一种罪孽。",
       "content": "局外人到底在讲什么，如果只能用一句话说清楚，大概就是：\n人在一个到处要求意义的世界里，如果活得毫无意义感，就会被当成一种罪。小说前半部分写的是默尔索怎么活在一个没有意义需求的状态里，后半部分写的则是社会怎么用意义把他压碎。前半段写的是他不需要意义，后半段则写的是世界不能接受一个不需要意义的人。整部小说中的葬礼、杀人、审判与神父争执，其实是同一件事的四个阶段：日常意义的缺席，道德意义的崩塌，集体意义的判决，终极意义的诱惑。加缪用近乎冷淡的语言把这个过程一点一点剥开，让你看到，意义是怎么被集体发明出来、怎么被用来判断、清洗和处决一个人。\n\n首先要说的一点，作者笔下所谓的意义，不是哲学课本里的抽象概念，而是非常具体的几类东西：母亲去世时你应该表现出来的悲伤，恋爱时你应该说出口的我爱你，职场里你应该拥有的上进心，法律面前你应该展现的悔恨，面对宗教你应该有的敬畏和渴望拯救。社会不是去打开你的内心检查你是不是真这么想，而是检查你有没有按时说出这些话、摆出这些表情。只要你愿意演，哪怕演得很拙劣，大家也会把你当作好人阵营里的一个普通成员。一旦你拒绝演，哪怕你没有做过比别人更坏的事，你也会立刻显得不正常、危险、甚至不配被当成人看。\n\n在小说里，默尔索的根本问题，就是他不肯演这个戏，更准确地说，他不会演，也不懂为什么要演。他不是那种有强烈反叛意识的英雄，他不打旗号，不写宣言，不喊反抗口号，他只是非常顽固地忠于当下的感受：困了就睡，热了就出汗，想抽烟就抽烟，想上床就上床，不想哭就不哭。他没有给自己装配一套可以拿出来给别人看的内心戏，他也懒得在行为和行为之间为自己编出一个自洽的故事。对他来说，生活只是不断出现的此时此刻，只有感受，没有解释。而对社会来说，这种人本身就是空白，是没有意义的空洞，是怎么也无法归档的异物。\n\n母亲葬礼这一段是小说第一次把意义摆到台面上。对一个已经习惯于社会剧本的读者来说，这一段让人看得最刺眼也最容易让人生气。在常识里，母亲之死是一个极其有意义的事件，是人生的一大节点，是必须被隆重对待的时刻。作为儿子应该悲痛，应该通宵守灵，应该泣不成声，应该通过一系列认得出来的姿态告诉世界：这段亲情在我心里是沉重而不可替代的。哪怕你内心并没有那么强烈的悲伤，人们也会默认你至少要演出这套程式，算是一种集体礼节。\n\n结果默尔索做了什么？他在灵堂里困得直打盹，跟养老院的人闲聊，抽烟，喝咖啡，第二天回到城里很快就去海边游泳，晚上看喜剧片，和玛丽快乐上床。但是做出这些种种的他不是刻意要挑衅世界，而是真的只感觉到那些东西：疲倦、烈日、身体在水里放松下来的快感，他没有多想这与母亲的死亡来说是否合适，也没有想到要对周围人的目光负责。在加缪笔下，他既没有故意冷漠，也没有故意残忍，他只是没有那套在人生大事面前该怎样表现的内建程序。\n\n但是在别人眼里，他的拒绝表演本身就是一种罪。守灵的老人盯着他，养老院工作人员默默观察他，甚至后来出现在法庭的几个证人，也都是从这一刻开始在心里给他做了记号：这个儿子不正常。对他们来说，判断一个人有没有感情，正不正常，不是去问他的真实感受，而是看他有没有在正确的场合说出正确的话，摆出正确的姿态。默尔索在小说里的第一个姿态错了，于是他在意义账本上留下了巨额亏空。等到后来他真的开枪杀了人，这笔旧账就会被检察官翻出来，和枪声叠加在一起，从而构成一个完整的道德故事。\n\n也就是说，母亲葬礼表面上是送别亲人的仪式，实际上已经是一场隐性的预审：他有没有符合人们对于有意义生活的最低期待。这个预审的结果是：没有。他没有在最该充满意义的时刻表现出意义感，于是他整个人被归类到了一个危险区域。\n\n小说在这里几乎没有做任何公开的评判，却通过细节，让你看到意义是如何成为一种无形的权力，默默地、无声地给人贴上像个人或不像人的标签。\n\n海滩上的杀人，是意义机制与现实偶然性的第二次正面冲撞。按道德课本的说法，杀人必然要有一个能说得出口的动机：仇恨、利益、嫉妒、疯狂、冷血，总得有一个。人们习惯把一条生命终结这样的大事放进一个厚重的故事里，认为只有放进去，这件事才说得通。但加缪在小说里故意把这一枪写得极端轻飘，轻到令人不安。几个男人在海滩上发生冲突，阿拉伯人来回晃，阳光炽烈，汗水刺眼，海水反光，默尔索握着那把枪，整个意识被强烈的光和热推到一个几乎失去区分能力的状态。他说自己是在太阳的压力下走向那个人，身体里只剩下一种被灼烧的感觉，接着就扣动了扳机。\n\n读者本能上会想：这不是真的，他内心一定还有什么复杂又黑暗的东西，只是作者没写出来或者他自己没说出口。我们急切地想替他补上一个合理的恶意，因为杀人如果只是出于饥渴、疲惫、头晕、光线太强，就会动摇我们对道德世界的基本理解。我们希望恶行背后有一套可以分析的心理结构，这样我们就能用既有的意义系统来处理它。\n\n然而，默尔索不给，小说也不给。加缪把杀人的瞬间尽量压扁成一种身体经验，让这件事在当事者的意识里几乎没有意义感，只留下刺眼的光、灼烧的皮肤、枪声在午后空气中的回响。\n\n问题在于，社会无法容忍一桩杀人案不携带意义。法律需要的是动机，舆论需要的是故事，道德需要的是善恶的明确界线。大家都急切地想把这一枪放进一个叙事框架里，而默尔索却坚持用那句太阳太刺眼来回答。这句话在法庭上反复被人引用，几乎被当成一种挑衅。\n\n检察官、法官、陪审团都拒绝承认：世界上真的可能有这样一种杀戮，它并不是某种长期仇恨或罪恶心性的爆发，而只是人类在荒诞处境中的一次失控。因为一旦承认了，就等于承认我们的道德和法律意义系统不足以囊括现实发生的一切，而这一点恰恰是秩序最害怕面对的。\n\n于是案件进入司法流程之后，很快就从调查事实变成了拼装意义。检察官几乎不在真正的物理情境上做文章，反而在道德叙事里大做文章。他一遍遍把葬礼那天没哭、守灵时抽烟、第二天去游泳、当天晚上看喜剧、跟女人上床这些细节搬出来，像堆积一个人格画像一样堆在一起，向陪审员暗示：杀人这件事在他人生里并不是突发事故，而是整个价值结构长期扭曲的自然结果。这一整套说辞逻辑虽然未必严密，却极度符合观众的直觉——大家都愿意相信，真正凶恶的行为必然来自一颗早就坏掉了的心，这样世界才显得有因有果。\n\n这里真正被审判的，并不是开枪这一瞬，而是整个有无意义的人生。最终，检察官和辩护律师争论的焦点，是默尔索到底算不算一个正常的人，一个懂情义的人，一个值得怜悯的人，一个还可以拯救的人。\n\n换句话说，他们在争夺的是对他人生意义解释权。检察官要证明的是，他从一开始就是一个没有人性的人，葬礼上不哭只是冰山一角。辩方则试图替他补上一些人情味，强调他其实是个普通的小职员，只是一瞬间误入歧途。双方都在努力给他造一个可以被社会接受的叙事外壳。只有默尔索本人始终保持一种奇特的空白，他既不愿把自己打扮成恶魔，也不愿把自己粉饰成好人，他只承认一个事实：是我开了枪。\n\n这就出现了小说最核心的背离：在道德和法律上，他无疑有罪，因为他杀了一个人，夺走了一条生命。但在哲学意义上，他拒绝参与那场虚假的意义游戏，因此反而站在了某种无罪的位置上。所谓道德上有罪，指的是他必须承担行为的后果，没有任何辩解能抹掉这件事。所谓哲学上无罪，指的是他没有像世界期望的那样，用谎言和自我欺骗给自己的行为套上一层漂亮的意义。这两种罪互不相消：承认前者，并不必然意味着你要接受后者。\n\n更具体一点来说，社会道德要求他承认我杀了人，而社会和宗教要求他进一步承认我过去的人生是错误的，我现在已经明白什么才是有意义的人生，我愿意在死前服从这套意义。默尔索只接受第一层，绝对不接受后两层。他不否认杀人，他不推托责任，他也没有说那一枪是别人逼他的或者完全出于正当防卫。但当世界逼问他你是否后悔、你是否现在懂得了母亲的好、你是否愿意回到上帝怀抱、你是否承认过去的你是一团糟，他拒绝配合这种台词。\n\n他不是没有后悔这种能力，而是拒绝在他并不真正感到后悔的时候，为了迎合对方的期待而虚构一份情绪。\n\n这种拒绝，在审判阶段已经让他显得极其冷酷，而到了监狱里与神父的对话，则把冲突推到了极点。神父代表的是一切终极意义的总和：世界从哪里来，人生为了什么，人死后去哪里，为何要忏悔，如何获得救赎。这些答案对于绝大部分人来说的确可以带来安慰，尤其是在死刑犯这样的极端境遇里，它们能给一个人最后的心理支撑。照通行的剧本，默尔索应该在死前崩溃、哭泣、为自己的一生感到羞愧，并在神父面前承认自己孤立于意义之外是一种错，重新把人世间所谓的信仰、大爱、永恒这些词请回心里，让自己死得像个有意义的人。\n\n可默尔索再次拒绝。他反复说自己不相信上帝，不需要祈祷，不希望有人替他向某个看不见的存在解释自己的一生。神父几次三番地试图通过温情、威胁、劝说让他开口说出那句：我相信，说出那句：我后悔，在逻辑层面，神父是在给他一个机会，用宗教意义来弥补他这一生在世俗意义上的欠账。在存在层面，这其实是在逼迫他否认自己的全部经验，把自己过去的诚实和冷静打上罪人的盲目这个标签。只要他肯承认自己错了，肯承认世界其实一直有意义，只是他以前没有看见，那么他的一生就可以被收编进一个宏大的叙事里，变成误入歧途的灵魂最终回到真理怀抱的感人故事。\n\n默尔索最后一次爆发性的愤怒，就是在这一刻。他推开神父，大吼大叫，不是因为突然恐惧死亡，而是在绝望地抵抗这最后一波意义攻势。他宁愿自己带着一生的空白和荒诞去死，也不愿在最后一刻屈服，承认自己曾经的清醒是一个错误。对加缪来说，这才是他的哲学无罪：他对自己一直坚持的体验没有背叛。世界在逼他承认：你这辈子活得没有意义，现在给你一个机会，通过宗教获得最终意义；而他用最后的力气回绝了，这是一场对虚假意义的拒绝。\n\n也正是在这一拒绝之后，他才真正开始平静地回顾自己的人生。他能够想到母亲、想到海水、想到阳光、想到身体在水里漂浮的感觉、想到玛丽在身边呼吸的温度、想到街道上傍晚的光线、想到咖啡的香气和烟雾。过去那些被别人视为没意义的小事，在这一刻像一条条清晰的线条浮现出来，并没有因为没有被装进宏大叙事就变得微不足道。\n\n相反，正因为没有被事后加工，它们保留了作为经验本身的重量。默尔索在此刻突然明白：人生不必有一个总的意义，不必有一套统一的解释，不必被放进某个伟大的故事里才算不枉此生。它可以只是由无数个当下的感受组成，而这些感受本身就是存在的全部内容。\n\n他甚至在行刑前感到一种奇妙的宁静。他说自己感到世界温柔地冷漠，夜空高悬，星辰遥远，而他不过是这巨大的、毫无目的的宇宙中的一个暂时的存在。宇宙没有为他设计道路，没有为他准备裁决，也没有为他储备祝福。一切所谓的意义只是人类自己加上去的。承认这一点，不代表人生就必须陷入虚无主义，相反，恰恰是在放弃寻找那种虚构的终极意义之后，一个人才真正有可能对每个具体时刻负责，不再用宏大的词语替自己开脱，也不再用空洞的故事给自己壮胆。\n\n讲到这里，如果这时候我们再回到局外人这个书名本身，就能有更加不同的理解。所谓局外人，首先当然是说他在人群中的孤立姿态，他不合群，不会说人们期待的语言。但更深的层面，是说他始终站在意义系统的外面。他没有进入孝子的剧本，没有进入热恋男友的剧本，没有进入好员工的剧本，没有进入罪犯悔恨的剧本，也没有进入病入膏肓的灵魂回归信仰的剧本。所有这些剧本随时向他招手，他都没有踏进去一部。他站在外面，用一种近乎迟钝却极其固执的方式，只说自己确实感受到的，只做自己当时能承担的。\n\n他因此被所有剧本联手判了死刑。\n\n从这个角度看，小说讲透的不是单个角色的命运，而是现代社会如何靠意义运转。我们凭什么觉得某种人生是正当的、值得的和人性的，某种人生是失败的、偏离的或者是不配的？标准不在云端，就在日常的眼神、词语和仪式里。我们用葬礼上的哭声来判断一个人是否有爱，用婚姻里的誓言来判断一个人是否真心，用工作上的表态来判断一个人是否积极，用舆论场中的发言来判断一个人是否站在正确的一边，用宗教或意识形态的语言来判断一个人是否终于懂得了人生的意义。在这一切时刻，人们真正审查的往往不是事实，而是你是否愿意沿用他们那一套意义的语言。\n\n局外人残忍之处在于，它不给读者一个舒适的立场。你很难单纯站在默尔索这一边，因为他确实杀了人，也确实没有对这条被夺去的生命表现出太多情感。同样，你也很难心安理得地站在法庭、神父、旁观者一边，因为他们用意义把一个人压碎的过程，又是如此熟悉，以至于你会联想到自己生活中无数次参与这种操作的瞬间。你是否有过替别人总结人生，是否有过替别人断定这才叫活得有意义，替别人判决那样的人生不值得，替别人设计应该怎么忏悔、怎么改变、怎么觉醒。这些行为在日常层面看起来都是好心和正常、价值引导，但在加缪笔下提供的冷视角下，它们都带着一种难以察觉的暴力。\n\n如果说这本书在意义层面真正动摇的，是我们对有意义人生这四个字的盲目信仰。我们习惯认为，一个人总得为了点什么而活：为了所谓的家人、为了事业、为了爱情、为了信仰、为了国家、为了真理。我们相信必须有一个总目标，其他一切才不至于显得空虚和荒诞。\n\n加缪写局外人这部小说并不是要否定这些具体的内容，而是要问：当这些词变成固定答案，被人用来要求所有人都这么说、这么想的时候，到底是谁在为谁服务？是人生在使用这些词，还是这些词在支配人生？一个人能不能只承认自己真实能承受的那一点点意义，拒绝剩下所有空洞的宏大叙事？\n\n默尔索给出的回答是：可以，但要付出极高的代价。这个代价不是哲学上的，而是实打实的生命本身。他为拒绝虚假意义付出的代价，是被现实的意义机器碾碎。这就是为什么可以说他在道德审判中有罪，在哲学辩护中无罪：他确实踏过了行为上的底线，但他又确实没有参与那场集体自欺。他用自己的死亡证明了一件事：在一个只承认有意义的人生的社会里，一个不肯假装有意义的自然人，会被当成一种威胁清除掉。\n\n理解了这一点，局外人就不再是一本看不懂的小说，而是一面极其难以直视的镜子。它逼你看清自己在日常生活中究竟是如何乖乖接过意义剧本，背熟台词，然后在该哭的时候哭、该愤怒的时候愤怒、该感动的时候感动、该忏悔的时候忏悔，好让自己看起来像个合格的人。它不鼓励你学默尔索那样说话行事，那样做在现实中往往换来的只会是毁灭。它只是让你承认：在我们一遍遍谈论人生意义的时候，背后其实有一条很粗糙、很残忍、却被我们习以为常的线，是靠意义在筛选人、定义人、奖赏人、惩罚人。\n\n当你也有一天在某个时刻觉得我好像活得没有意义，也许你可以想到默尔索。所谓没有意义，究竟是你真的对一切都毫无感受，还是你只是暂时无法把自己的经验塞进别人提供的那套故事里？你到底缺的是生命本身的重量，还是缺的是一套让别人安心的自欺欺人般的说法？局外人并不会替你回答这些问题，但它已经把问题本身讲得足够透：意义不是天上掉下来的，它是人造的。人造的东西可以安慰人，也可以杀人。人生真正困难的也许不是去找到意义，而是在不自欺的前提下，承认自己在多大程度上是在为意义而活，又在多大程度上只是让意义来给别人一个交代。\n\n最后还要说一句，加缪写下这部小说的时候只有二十六岁。",
       "readingMinutes": 15
-    },
-    {
-      "id": "866972b9be74b221",
-      "feedTitle": "Google AI · Blog",
-      "feedUrl": "https://blog.google/technology/ai/rss/",
-      "category": "AI 新闻",
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "published": "2026-06-17T15:00:00Z",
-      "author": "Mike Schaekermann",
-      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "content": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "readingMinutes": 1
     },
     {
       "id": "334cabed9c982aa6",
