@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T16:18:36.190484Z",
+  "generatedAt": "2026-08-23T04:26:52.550464Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -196,6 +196,19 @@
     }
   ],
   "articles": [
+    {
+      "id": "8dd6dd4251e446bd",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "让 PC 与 HomePod 互联：音频串流工具 WinAirCast",
+      "url": "https://sspai.com/post/113002",
+      "published": "2026-08-23T03:00:00Z",
+      "author": "",
+      "summary": "打破生态壁垒，让好的设备发挥出它应有的价值，这就是 WinAirCast 的初衷。我们希望为 Windows 用户提供一款稳定、低延迟且现代化的音频串流工具。查看全文",
+      "content": "打破生态壁垒，让好的设备发挥出它应有的价值，这就是 WinAirCast 的初衷。我们希望为 Windows 用户提供一款稳定、低延迟且现代化的音频串流工具。查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "c6de64b1b72c4b4d",
       "feedTitle": "少数派",
@@ -896,19 +909,6 @@
       "author": "",
       "summary": "Ask what Meta Quest 4 will do and most answers reach for pixel counts and a launch window. Both are guesses. For people who write software rather than read spec sheets, a better question is narrower: which capabilities have real technical evidence behind them, and how strong is…",
       "content": "Ask what Meta Quest 4 will do and most answers reach for pixel counts and a launch window. Both are guesses. For people who write software rather than read spec sheets, a better question is narrower: which capabilities have real technical evidence behind them, and how strong is it?Meta itself has confirmed almost nothing. What exists instead are scattered harder signals: a chipset launch from Meta",
-      "readingMinutes": 1
-    },
-    {
-      "id": "7bc0da4b768e4bf0",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "《控制》新作体验：新怪谈游戏的祖师爷，又杀回来了",
-      "url": "https://sspai.com/post/113588",
-      "published": "2026-08-19T07:20:08Z",
-      "author": "",
-      "summary": "本文首发于「游研社」，作者@亚锌，少数派经授权转载，仅对排版略作调整。阅读原文在ChinaJoy期间，我参与了Remedy举办的《控制：共振》闭门试玩会。其实在开始前，我除了战斗部分之外，还非常期待本 ...查看全文",
-      "content": "本文首发于「游研社」，作者@亚锌，少数派经授权转载，仅对排版略作调整。阅读原文在ChinaJoy期间，我参与了Remedy举办的《控制：共振》闭门试玩会。其实在开始前，我除了战斗部分之外，还非常期待本 ...查看全文",
       "readingMinutes": 1
     },
     {
