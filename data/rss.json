@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T04:34:36.703750Z",
+  "generatedAt": "2026-08-24T16:31:37.771868Z",
   "maxArticles": 300,
   "feeds": [
     {
@@ -102,17 +102,17 @@
       "title": "DeepSeek · Research",
       "url": "https://export.arxiv.org/api/query?search_query=all%3ADeepSeek&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "https://arxiv.org/api/query?search_query=all:DeepSeek&start=0&max_results=20&id_list=",
+      "siteUrl": "",
       "articleCount": 20,
-      "error": ""
+      "error": "HTTP Error 429: Unknown Error"
     },
     {
       "title": "Kimi · Research",
       "url": "https://export.arxiv.org/api/query?search_query=%28all%3AKimi%20AND%20all%3AMoonshot%29&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending",
       "category": "AI 技术",
-      "siteUrl": "https://arxiv.org/api/query?search_query=all:Kimi+AND+all:Moonshot&start=0&max_results=20&id_list=",
+      "siteUrl": "",
       "articleCount": 1,
-      "error": ""
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "title": "Meta Engineering",
@@ -196,6 +196,149 @@
     }
   ],
   "articles": [
+    {
+      "id": "cdd8d819f4855db7",
+      "feedTitle": "Anthropic · News",
+      "feedUrl": "https://www.anthropic.com/sitemap.xml",
+      "category": "AI 新闻",
+      "title": "Improving fable 5 s biology safeguards",
+      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "published": "2026-08-24T15:42:06Z",
+      "author": "Anthropic",
+      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
+      "content": "",
+      "readingMinutes": 0
+    },
+    {
+      "id": "e68246067eeddf6e",
+      "feedTitle": "Anthropic · News",
+      "feedUrl": "https://www.anthropic.com/sitemap.xml",
+      "category": "AI 新闻",
+      "title": "Claude text watermark",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "published": "2026-08-24T15:41:58Z",
+      "author": "Anthropic",
+      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
+      "content": "",
+      "readingMinutes": 0
+    },
+    {
+      "id": "7606d2313168061b",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "NVIDIA Vera Rubin and Blackwell Set a New Standard for Agentic AI Performance per Watt",
+      "url": "https://developer.nvidia.com/blog/nvidia-vera-rubin-and-blackwell-set-a-new-standard-for-agentic-ai-performance-per-watt/",
+      "published": "2026-08-24T15:23:55Z",
+      "author": "Elizabeth Goodman",
+      "summary": "AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing...",
+      "content": "AI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing...\nAI agents have expanded inference from single-turn interactions into multi-step workflows that reason, invoke tools, coordinate subagents, and carry growing context from one turn to the next. The scale of this shift is now visible in raw consumption: across 100 trillion tokens of real-world usage, OpenRouter’s State of AI report found that average prompt tokens per request grew roughly fourfold…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "5227686c5dc7b8b7",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Giga-Scale AI and the Ethernet Evolution: How Spectrum-X Ethernet Rewrites the Rules",
+      "url": "https://developer.nvidia.com/blog/giga-scale-ai-ethernet-evolution-spectrum-x-ethernet-rewrites-rules/",
+      "published": "2026-08-24T15:08:58Z",
+      "author": "Elizabeth Goodman",
+      "summary": "The massive growth of generative AI has fundamentally altered data center design. As distributed model training scales to span hundreds of thousands of GPUs,...",
+      "content": "The massive growth of generative AI has fundamentally altered data center design. As distributed model training scales to span hundreds of thousands of GPUs,...\nThe massive growth of generative AI has fundamentally altered data center design. As distributed model training scales to span hundreds of thousands of GPUs, the scale-out network connecting these nodes has emerged as a first-order performance bottleneck. For decades, traditional off-the-shelf Ethernet has been the undisputed king of enterprise and cloud networking. It is cheap, standardized…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "0603aa23910f03a7",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories",
+      "url": "https://developer.nvidia.com/blog/nvidia-bluefield-4-powers-new-scale-in-network-infrastructure-for-agentic-ai-factories/",
+      "published": "2026-08-24T15:01:04Z",
+      "author": "Michelle Horton",
+      "summary": "Traditional cloud infrastructure was designed for predictable, general-purpose workloads and standard interfaces. Agentic AI factories connect diverse users,...",
+      "content": "Traditional cloud infrastructure was designed for predictable, general-purpose workloads and standard interfaces. Agentic AI factories connect diverse users,...\nTraditional cloud infrastructure was designed for predictable, general-purpose workloads and standard interfaces. Agentic AI factories connect diverse users, agents, applications, data sources, and storage systems to massively accelerated compute at multi-terabit bandwidth per server, making dedicated DPU processing essential for line-rate networking, storage, and security.\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "4914182f6bf7de24",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
+      "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
+      "published": "2026-08-24T15:00:46Z",
+      "author": "Tanya Lenz",
+      "summary": "AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available...",
+      "content": "AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available...\nAI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available megawatt can deliver. For AI inference workloads, this makes application-level performance per watt the key metric for measuring AI factory efficiency. Not every megawatt translates to revenue-generating compute. Power distribution, cooling…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f918b7edfc34f988",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "How NVIDIA Groq 3 LPX Unlocks Ultrafast Interactivity at Long Context on NVIDIA Vera Rubin",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-unlocks-ultrafast-interactivity-at-long-context-on-nvidia-vera-rubin/",
+      "published": "2026-08-24T14:34:10Z",
+      "author": "Tanya Lenz",
+      "summary": "NVIDIA Groq 3 LPX is the interactive AI inference accelerator for the NVIDIA Vera Rubin platform. At the core of the platform is NVIDIA Vera Rubin NVL72, the...",
+      "content": "NVIDIA Groq 3 LPX is the interactive AI inference accelerator for the NVIDIA Vera Rubin platform. At the core of the platform is NVIDIA Vera Rubin NVL72, the...\nNVIDIA Groq 3 LPX is the interactive AI inference accelerator for the NVIDIA Vera Rubin platform. At the core of the platform is NVIDIA Vera Rubin NVL72, the most versatile machine ever built, delivering high throughput and interactivity across the widest range of AI workloads—from small to large models, both open and closed. Groq 3 LPX, when paired with Vera Rubin NVL72, extends the platform’s…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "f7006ecba1a62a40",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "派评 | 近期值得关注的 App",
+      "url": "https://sspai.com/post/113795",
+      "published": "2026-08-24T09:52:01Z",
+      "author": "",
+      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "content": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "readingMinutes": 1
+    },
+    {
+      "id": "5d599219db412c28",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "Windows On ARM 原生应用少？你可以试试这些改造方法",
+      "url": "https://sspai.com/prime/story/create-your-own-windows-apps",
+      "published": "2026-08-24T08:28:26Z",
+      "author": "",
+      "summary": "相比大家熟知的基于Intel或AMD处理器的传统x86架构Windows，不少人以为WindowsonARM是近几年的新产物。事实上，微软早在2012年就曾通过WindowsRT尝试探索ARM设备，但 ...查看全文 本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "content": "相比大家熟知的基于Intel或AMD处理器的传统x86架构Windows，不少人以为WindowsonARM是近几年的新产物。事实上，微软早在2012年就曾通过WindowsRT尝试探索ARM设备，但 ...查看全文\n本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "readingMinutes": 1
+    },
+    {
+      "id": "8e7bdd03010036f8",
+      "feedTitle": "SGLang Releases",
+      "feedUrl": "https://github.com/sgl-project/sglang/releases.atom",
+      "category": "AI Infra",
+      "title": "v0.5.18",
+      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.18",
+      "published": "2026-08-24T07:42:37Z",
+      "author": "Fridge003",
+      "summary": "Highlights 710 PRs from 212 contributors. New models in this release (see the cookbook for all supported models): Model Type PRs Cookbook Muse Glimmer Autoregressive (Multimodal) #34262 link Intern-S2-Mobius Autoregressive #33691 link SANA-Video Diffusion #32921 link LingBot-Vid…",
+      "content": "Highlights\n\n710 PRs from 212 contributors.\n\nNew models in this release (see the cookbook for all supported models):\n\nModel\n\nType\n\nPRs\n\nCookbook\n\nMuse Glimmer\n\nAutoregressive (Multimodal)\n\n#34262\n\nlink\n\nIntern-S2-Mobius\n\nAutoregressive\n\n#33691\n\nlink\n\nSANA-Video\n\nDiffusion\n\n#32921\n\nlink\n\nLingBot-Video-MoE\n\nDiffusion\n\n#32341\n\nlink\n\nLTX-2.5\n\nDiffusion\n\n#34471\n\nlink\n\nCosmos3 Edge & Distilled\n\nDiffusion\n\n#31590\n\nlink\n\nLongCat-Image\n\nDiffusion\n\n#23274\n\nPlus cookbook recipes for the Qwen3.8 family, Ling-3.0, Nemotron 3.5 Lightning, Dots3-Note, and DeepSeek-V4-Pro-0813 (#34809).\n\nOverlapped checkpoint staging at startup: Checkpoint pages now stage from storage while CUDA graphs capture. Qwen3-32B on H100 starts 8.6-11.7% faster than serial with prefetch, and 2.38x faster (35.6s vs 84.8s) than the plain default. Opt in with --startup-weight-load-mode overlap (#32017).\n\nTP LMHead with All-to-All: The TP LMHead's allgather + scatter becomes a single all-to-all for pure-DP dp-attention. On DeepSeek-V4-Pro B200 decode, LMHead time drops 320us to 169us and TPOT improves 36.97ms to 35.67ms (#32313).\n\nFlashInfer MNNVL for pure allreduce: Non-fused allreduce sites now reuse the FlashInfer MNNVL workspace instead of falling back to NCCL. DeepSeek-V4-Flash TP4 decode on Blackwell gains up to +6.9% at small batches. Auto-enabled for DeepSeek-V3/V3.2/V4; elsewhere --enable-flashinfer-pure-allreduce (#30700).\n\nOne compiled-kernel cache directory: Triton, FlashInfer, Inductor, DeepGEMM, and CUDA driver caches all move under SGLANG_CACHE_DIR. The first launch after upgrading recompiles once; see Breaking Changes (#32434).\n\nDependencies: torch 2.13.0 with triton 3.7.1 (#28836), flashinfer 0.6.17 (#33997), CuTeDSL 4.6.2, fixing an FA4 startup regression on Blackwell (#34372), DeepEP now installed from released sgl-deep-ep wheels (#33932), and sgl-kernel 0.4.6.post1 (#33842).\n\nAMD Support\n\n• Kimi K3 tuned for MI355X — a grouped-head MLA verify kernel replaces the MHA-shaped split-KV kernel that re-read the shared latent once per head (1.37×–1.77× throughput, 1.45×–2.42× ITL at concurrency 2–32), the AITER MLA prefill kernel now accepts K3's 12-head shape (TTFT up to −14.9%), and a gfx950-tuned decode stage-1 geometry adds 46–73% ITL improvement at 68k input when enabled with SGLANG_MLA_DECODE_TUNE=1. GSM8K holds at 0.951–0.957. #33981 #34261 #34837 #34580 #35499\n\n• Qwen3.5 decode acceleration on MI355X — fused the GatedDeltaNet QKVZBA split/reshape/cat chain into one Triton kernel, cutting that region 73.5% and saving 862 µs per decode iteration. Grouped-head shared-KV verification adds up to +11% throughput under EAGLE. #34421 #34517 #28666\n\n• GLM-5.2 on gfx950 — fp8 MLA absorbed bmm (+14% throughput, −12.5% TPOT), skipping the DSA decode indexer when sparse top-k would select everything (+2.4–5.2% throughput), and a dense-MHA short-context prefill fallback (TTFT −22% to −43%). #30519 #31324 #30808\n\n• DeepSeek-V4 MI355X throughput — shared-experts fusion for the top-6 routing shape gives +8–11% output throughput at low concurrency, MTP target-verify moves onto the decode kernel with a fused qk-norm-rope pair, and CK bpreshuffle fp8-scale relayout copies are eliminated in dense w8a8 linear and the MoE-down / MLA o_proj producers. #32340 #34597 #34973 #33165 #33166\n\n• NVFP4 checkpoints run on AMD via online MXFP4 requantization — --quantization quark_mxfp4 dequantizes ModelOpt/Quark NVFP4 weights and requantizes to MXFP4 at load, so no full-precision copy is ever held. 97.5%–100.2% accuracy retention vs the NVFP4 reference across MiniMax-M2.7, GLM-5.1, Kimi-K2.6, Qwen3.5-397B and DeepSeek-R1. #29328\n\n• Faster ROCm collectives and KV gather — cache-bypassed peer traffic in the ROCm custom all-reduce cuts latency 14–33% across 64 KB–12 MB while staying bitwise deterministic at TP 2/4/8; raising the MLA page-first KV gather block_quota to 16 on HIP lowers prefill forward time 27.6% and end-to-end TTFT 21% on Kimi-K2.6. #32832 #30024\n\n• ROCm 7.2.4 toolchain refresh — new image flavors on Ubuntu 24.04 with Python 3.12, PyTorch 2.11 and AITER's pinned Triton 3.7, now the default for the ROCm 7.2 PR gate, with both 7.2.4 and 7.2.0 exercised nightly. #30984 #35602 #35603 #34364\n\nAMD model coverage\n\n• Kimi K3 — 8-GPU MI35x nightly accuracy and perf, plus cookbook updates for the fp8 KV cache and the tuned decode path. #32568 #34985 #33825 #35263\n\n• GLM-5.2 MXFP4 — AMD cookbook recipe plus MI35x nightly accuracy and perf coverage. #34379 #32570\n\n• Qwen3.5 MXFP4 — MI355X recipe with an fp8_e4m3 KV cache, plus an MI35x nightly accuracy job. #35445\n\n• Kimi-K2.7-code-mxfp4 — mixed mxfp4 MoE + fp8 per-channel attention now runs on gfx950, lifting accuracy from crashes / 79.9% to 94.7–95.3% against a 94.4% reference. #31105\n\n• DeepSeek-V4 DSpark — speculative decoding on HIP, MI355X TP8 total throughput 1.6×–2.7× depending on concurrency, nightly GSM8K 0.9515 at accept length 3.730. #30964 #34147\n\n• GPT-OSS — perf benchmarks added to the MI30x and MI35x nightlies. #34645\n\nFull release notes by category below; breaking changes and known issues are at the end.\n\nRust Server\n\n[mm] rust-server: native multimodal processing for Qwen VL (integrate sglang-mm, e2e): #32365\n\nrefactor error responses into shared utils::response helpers: #33894\n\nmove the PD bootstrap registry under api_server::disaggregation: #33895\n\nBuild Rust extensions on demand in source checkouts: #34994\n\nSpeculative Decoding\n\n[spec decoding] support inkling dspark: #31847\n\n[Spec] Support logprobs with DSpark speculative decoding: #34696\n\n[Spec] Support output logprobs with DSpark: #34478\n\n[Spec] Support logprobs with DFlash: #33459\n\n[Spec] Wire DFLASH aux-hidden capture into the Qwen3.5 text-only wrapper: #34771\n\n[Spec] Support mamba-radix-cache-strategy extra_buffer_lazy with DFLASH: #34763\n\n[Spec] Support MegaMoE for DSpark under dp attention: #34844\n\n[unified memory] Support DSPARK speculative decoding + fix two NaN root causes (page hand-out zeroing, CuTe int32 slot-stride wrap): #33974\n\n[GDN] Honor configured linear-attn verify backend in the kernel dispatcher: #34592\n\n[Spec] Relay ngram accept tokens through the FutureMap: #35198\n\n[Spec] Reduce host-side overhead in ngram draft prep: #35207\n\n[Spec] Point multi-layer eagle's last shared-read runner at the draft runner: #35057\n\nFix DFlash sliding attention causality defaults: #34524\n\n[Spec] Budget the DFLASH draft KV pool from its own attention geometry: #34234\n\nfix(dflash): account for DCP in draft KV pool sizing: #33912\n\n[DSV4] Fix silent KV corruption when speculative draft tokens > 4: #34189\n\n[Fix] Speculative decoding crashes with DP-Attention: #33892\n\n[bugfix] Stop/EOS inside a spec accept run beats the max_new_tokens finish: #33758\n\n[DSpark] Fix EP1 decode performance regression: #34759\n\n[Fix: RL] Snapshot async state-capture outputs before overlap: #34319\n\nPiecewise & Breakable CUDA Graph\n\n[BCG][5/N] MLA Fully Support: #33661\n\n[BCG][6/N] Allow prefill breakable CUDA graph for the Kimi archs: #34245\n\nfix: always capture default prefill CUDA graph: #33352\n\nFix padded positions in breakable CUDA Graph attention: #33253\n\nfix: avoid piecewise prefill graph for trtllm_mla: #32785\n\nReenable breakable CUDA graph for NemotronH: #34538\n\nFix prefill CP graph overflow with larger bucket search: #33906\n\nFix stale track rows corrupting conv checkpoints under the prefill graph: #34184\n\nFix sconv track refresh on graph capture: #35042\n\nIncrease post-capture decode memory reserve: #34996\n\nAttention Backends\n\nfeat(attention): add architecture-owned SM12x FA4 kernels: #32991\n\nfix: support FA4 backend for GLM4.7-flash: #33436\n\nfeat: Add flashinfer mHC fusion for DSV4: #33616\n\n[DSV4] Turn on mhc post pre fusion by default: #35214\n\n[SM12x] Default the fused MHC post+pre path on: #34019\n\n[trtllm_mha] perf: Stop allocating per-layer scratch inside the decode CUDA graph: #33063\n\nSelect DeepGEMM standard layouts by memory budget: #33474\n\n[NVIDIA] Enable CuTe DSL BF16 GEMM on SM107: #33617\n\nadd flashinfer cute-dsl backend for mxfp8 gemm: #34042\n\n[BugFix] Fix race in c128 prefill plan kernel on ragged extend: #32467\n\n[JIT Kernel][DSv4] Optimize epilogue of c128: #26671\n\nfix(dsa): use FlashInfer fused top-k for packed PAGED rows: #33006\n\n[DSA] Fix top-k v2 dropping non-primary ranks' output on CUDA 13.1+ (root cause for #33835): #34167\n\n[DSA] Skip indexer KV cache for skip-topk layers: #30531\n\n[Perf] Skip trivial DSV4 nonpaged indexer logits: #33857\n\n[Fix] Restore layer-level DSV4 RoPE policy: #34788\n\nFix _pa_swa_prefill_lens off-by-one in FlashAttentionBackend: #33379\n\nSupport unified SWA page mapping in attention metadata: #35000\n\nMoE & Expert Parallelism\n\n[MoE] Fuse swiglu moe up gemm epilogue: #32944\n\nEnable MoE deferred finalize by default and drop its expert_weights dtype workaround: #33618\n\n[kernel] add triton moe TMA up support: #33559\n\n[MoE] Single-launch moe_align for tiny batches with many experts: #32395\n\n[MiniMax-M3] Overlap shared and routed experts: #34542\n\n[MoE] Route every trtllm-gen MoE call site through one PDL guard: #34789\n\nfix(qwen3): support DeepEP-class backends and early EPLB state: #34810\n\nAdd explicit EPLB balancedness reporting modes: #34998\n\nFix the router GEMM inaccuracy when using _front_w in Kimi-K3: #33764\n\n[Kimi-K3] Use explicit SiTU activation for MegaMoE: #34883\n\nFix Qwen3-MoE producing garbage with the mori a2a backend: #34006\n\n[Fix][Qwen]: fused shared-expert detection PP-safe protection: #34447\n\n[FlashInfer v0.6.16] Support FlashInfer CuTe DSL NVFP4 MoE quantization: #28354\n\n[Fix] Correct W4AFP8 DeepEP scaling and mode-specific dtypes: #33669\n\n[Fix] Support 128-aligned hidden sizes in the W4AFP8 DeepEP low-latency requant kernel: #35593\n\nperf: add H200 Triton MoE configs for E256 N512: #34150\n\nQuantization\n\nSupport ModelOpt MXFP8 checkpoints: #32538\n\n[ModelOpt FP4] Support online MoE weight quantization: #33115\n\n[Feature] Support NVFP4 token embedding in ModelOpt mixed-precision checkpoints: #34222\n\n[MXFP8] Use FlashInfer CUTLASS for dense GEMM on SM120, delete Triton path: #33208\n\n[Quantization] Route per-tensor FP8 checkpoints to FlashInfer on SM90: #33148\n\nOptimize FP32 LM head for bf16/fp16: #32370\n\nPin online NVFP4 4over6 quantization settings: #33621\n\n[Fix] Support Kimi-K3 ModelOpt mixed NVFP4/FP8 checkpoint: #35077\n\n[Quantization] Fix GPTQ scheme attachment broken by LinearBase.scheme default: #34962\n\n[quantization] Add tuned Triton tile configs for channelwise FP8 GEMM…: #34331\n\n[Fix] Correct dense FP8 Marlin bias ordering: #35020\n\nRemove the torchao integration (--torchao-config): #34304\n\nParallelism & Disaggregation\n\n[Feature] Optimize TP LMHead with All-to-All: #32313 ⭐\n\n[NVIDIA] Add flashinfer MNNVL backend for allreduce only: #30700 ⭐\n\n[CP]: Support CP V2 Strategy for dsv4: #33532\n\nfix: preserve GQA head mapping in Triton DCP prefill: #34161\n\nFix DCP KV head mapping for GQA models: #32858\n\n[DCP] Reuse partial output in natural-log LSE merge: #34213\n\n[DCP] Drop two per-layer launches from the MLA target-verify path: #34240\n\n[DCP] Fuse the a2a pack/unpack copies in the MLA LSE reduce: #34614\n\n[DCP] Share one pack kernel between both a2a backends: #34651\n\n[DCP] Drop the prefill index-selection syncs by taking each rank's rows by stride: #35084\n\n[Fix] DCP: advertise the logical KV-event block size: #35298\n\nFix DeepSeek-V4/DeepSeek-V4-Pro DP-attention gather semantics: #31700\n\n[perf] Collapse the DP attention scheduler sync to a single D2H copy: #34338\n\nMultiple flexibility fixes for DP attention: #33537\n\nFix world-size-one aliasing in MLP batch sync: #34997\n\n[PD] Add the missing Prefill bootstrap timeout for NIXL: #34692\n\n[PD] Support pipeline-parallel prefill with Mooncake staging buffer: #33807\n\n[PD] Support --enable-unified-memory with PD disaggregation (kimi-linear MLA hybrid-Mamba): #33362\n\n[PD] Skip speculative verify scratch on prefill servers (saves num_draft_tokens x mamba pool per rank): #34191\n\n[PD] Avoid unused PREBUILT prompt tensor transfer: #35070\n\nfeat(grpc): expose KV event discovery metadata: #35714\n\nScheduler & Runtime\n\n[Model Loading] Overlap checkpoint staging with CUDA graph capture during startup: #32017 ⭐\n\n[core] Consolidate compiled-kernel caches under SGLANG_CACHE_DIR: #32434 ⭐\n\n[Engine] Freeze GC after server warmup: #34999\n\nfeat: add cache salt support to KV cache events: #30827\n\nperf(kv-events): coalesce cache events: #31479\n\n[Scheduler] Honor explicit min-free-slots thresholds: #33403\n\n[Scheduler] Gate SWA eviction on accumulated tokens: #33404\n\n[Scheduler] Fix to restrict the SWA chunk-cap escape hatch to true head-of-line livelock: #32700\n\n[srt] Batch scheduler cache frees: #33475\n\nO(1) slot allocation in ReqToTokenPool.alloc(): #32208\n\nfix(scheduler): track max prefill batch size over recent real admissions: #34284\n\nfix tpot by adjusting the sliding max-prefill-size window size: #34856\n\nfix: route scheduler aborts to multi-tokenizer workers: #33940\n\n[tracing] sglang tracing v2: support exporting tracing data asynchronously: #30023\n\nProfiling Enhancements [1/3]: cuda graph profile traces: #24370\n\n[metrics] Fix prefill FLOPs estimate to count prefix and per-request causal pairs: #34316\n\nFix default dtype restoration after model loader errors: #34440\n\nfix: honor explicit model loader classes: #34880\n\nfeat(cli): add extensible serve backend plugins: #34753\n\nClean up environ.py: remove dead env vars, unify deprecation handling, move examples to a unit test: #35060\n\nfix: make automatic NUMA binding configurable: #30394\n\nRaise PD zmq per-context socket cap via SGLANG_DISAGGREGATION_ZMQ_MAX_SOCKETS: #34450\n\nDeterministic Inference\n\nFix deterministic inference for Inkling: #33417\n\nFix deterministic inference all-reduce for tp>1: #34159\n\nDeterministic gumbel sampling: clamp u=1 so masked tokens can't be sampled: #33423\n\nfeat: support deterministic FA4 for GLM-4.7-Flash: #33945\n\nFix NaN logits from deterministic Triton extend on the unified memory pool: #33517\n\nAdd bit-exact class for MTP: #35143\n\nAdd bit-exact unified radix cache KL test for hybrid SWA + mamba: #34607\n\nAdd bit-exact hicache logprob-consistency test: #34356\n\nAdd bit-exact guard for extra_buffer_lazy: #35030\n\nSkip inkling sheared bias under batch invariance: #35161\n\nHiCache & Radix Cache\n\n[HiCache] Support packed and sidecar draft caches for MTP/EAGLE/DSpark: #30393\n\n[Hicache][2/2]Support Mamba branching in Unified Radix Cache with HiCache: #33639\n\n[HiCache] Support DCP with DSpark: #35221\n\nEnable unified cache out-of-window slot freeing by default: #34653\n\nSkip oow slot freeing under eagle: #34823\n\n[HiCache] write_back: reclaim duplicated host copy first under host pressure: #33777\n\n[HiCache] Optimize LogicalHostPool free-list release: #33998\n\nrefactor(hicache): flatten L2 transfer execution: #34793\n\n[PD] Preserve decode KV across retraction in HiCache: #34801\n\nfix(hicache/umbp): support DeepSeek-V4 hybrid HostPoolGroup (multi-po…: #30762\n\n[Unified Radix Cache] Complete the tree-core interface boundary: #33580\n\n[Fix] Snapshot req.prefix_indices when the prefix cache is disabled: #34644\n\nFix swa eviction frontier for bigram keys: #34870\n\nRetain SWA down to the last state checkpoint: #34729\n\nFix mamba checkpoint depth under dcp: #34808\n\nHiSparse: shared-index (IndexShare) plan-then-IO swap-in prefetch: #34329\n\nObservability enhancement for HiCache: #32388\n\nMultimodal\n\n[VLM] split multimodal scheduling from mm_utils: #32415\n\n[VLM] add content-addressed preprocessing cache infrastructure: #34398\n\nAdd CUDA VMM multimodal feature transport: #33899\n\nfeat(vlm): auto-select cuda vmm on multi-node mnnvl: #33936\n\nFix CUDA 13.0 VMM handle type compatibility: #34431\n\nGate multimodal feature transport by model capability: #33653\n\nReserve multimodal runtime allocations and keep padded inputs aligned: #34141\n\n[VLM] Avoid synchronizing multimodal placeholder counts: #34995\n\nfix(vlm): stream-order cuda-ipc feature pool lifecycle and streamline multimodal transport module: #33949\n\n[EPD] feat: pipeline owner-only multimodal preprocessing: #34206\n\n[FEAT] Decouple multimodal global cache from Mooncake: #30392\n\n[Kimi K3] optimize: preprocess cpu-transport images on the vision owner: #33921\n\nfix(vlm): preserve Kimi-K3 GPU JPEG accuracy: #34163\n\nvlm: cache kimi-k3 per-image processor artifacts: #34404\n\n[Fix] Carry the backend on Kimi-K3 deferred preprocessing configs: #34766\n\nFix Whisper transcription for audio over 30 seconds: #33604\n\nfix: preserve priority for batched embedding requests: #32977\n\nModel Support & Optimizations\n\nfix(muse-glimmer): parse required/named tool calls natively: #34781\n\nResponses support: #32689\n\n[Frontend] Apply request header overrides to chat completions: #35001\n\nStop losing Kimi-K3 tool calls to reasoning, constraint conflicts, and truncation: #34881\n\n[Fix] Work around xgrammar 0.2.1 negative integer minimum in Kimi-K3 structural tags: #34778\n\n[Fix] Make DeepSeek-V4 reasoning and tool-call streaming parsing chunk-invariant: #34458\n\n[Fix] Require JSON booleans for response_format json_schema.strict: #34777\n\nSupport thinking budget for Inkling: #33146\n\n[inkling] Let Anthropic thinking=disabled map to reasoning effort \"none\": #33913\n\n[inkling] Render tool-result media instead of coercing content to str: #33898\n\n[DSV4] Add official DSV4 reasoning effort support: #33140\n\n[feat] Add language_model_only parameter support for Qwen35: #22867\n\nSupport model-defined prefill input embedding width: #35002\n\nFix rope config compatibility and VL/transformers-fallback weight loading: #31575\n\n[LoRA] Laguna: per-layer LoRA hidden-dim resolution for packed attention: #30298\n\n[Laguna] fix YaRN mscale double-application in rope config: #33558\n\nenable TRT-LLM for MiniMax M3 by preserving SwiGLU params: #33962\n\nfix(minimax): use routed TRT-LLM for NVFP4 MoE auto on SM100: #32229\n\nfix(glm5.2): restrict MoE weights to local PP layers: #33793\n\n[Fix] Fix Qwen3.5 MTP startup with HiCache: #34560\n\nFix DeepSeek-OCR batching crash on variable local-crop counts: #33214\n\nKernel Library\n\n[jit_kernel] Move JIT kernels into namespace sglang: #33400\n\n[kernel] Content-addressed JIT build cache, generated from our own ninja: #34274\n\n[JIT Kernel] Migrate per-token FP8 quantization from AOT to JIT: #34257\n\n[JIT Kernel] Migrate moe_topk_softmax from AOT to JIT: #34509\n\n[JIT Kernel] Migrate causal_conv1d_fwd and causal_conv1d_update from AOT to JIT: #35031\n\nkernels: scalar scale A support for fp8_gemm: #33469\n\n[Kernel] Unify BaseFusedOp and MultiPlatformOp dispatch: #33205\n\n[Kernel] Enable Helion backend for Kimi Delta-Attention: #32593\n\n[Kernel] cutedsl_bf16_gemm: trailing cluster barrier for 2-CTA TGV kernel exit (#32907): #32954\n\nConfiguration System\n\nconfig: retire ServerArgs.derive; per-runner values are constructor arguments: #33887\n\nconfig: business code no longer reads the published ServerArgs: #34081\n\nconfig: the runner and scheduler read resolved config from the bags: #34095\n\nconfig: the KV-cache configurator reads the bags: #34096\n\nconfig: pin that resolution is reproducible from the raw input: #34094\n\nconfig: one control-plane log for the process: #35028\n\nconfig: make ServerArgs read-only with a single audited mutation entry: continues in this release across the runner, scheduler, spec, and DCP surfaces (#33925, #34133, #35022, #35025)\n\nSGLang-Diffusion\n\n[diffusion] feat: data-parallel serving (--dp-size): #33725\n\n[diffusion] feat: cross-node sequence parallelism (Ulysses x Ring): #33327\n\n[diffusion] feat: support K/V-gather style sequence parallel (CP-like) attention: #32667\n\n[diffusion] feat: support sol-attn sparse attention backend for h3: #33702\n\n[MiniMax-H3] SubBlock: training-free block-sparse attention for the DiT: #34148\n\n[diffusion] feat: add SageAttention packed varlen path for minimax-h3: #33703\n\nfix: make Cache-DiT actually cache on MiniMax-H3: #33827\n\n[diffusion] feat: load quantized H3 text encoder checkpoints: #34986\n\n[diffusion] feat: support native and peft minimax h3 loras: #34359\n\n[diffusion] Per-section LoRA adapters on fused linear ",
+      "readingMinutes": 20
+    },
+    {
+      "id": "b5769753d8e5be8c",
+      "feedTitle": "少数派",
+      "feedUrl": "https://sspai.com/feed",
+      "category": "默认分类",
+      "title": "AI 助力改造非智能升降桌：智能升降、语音控制、多端联动……",
+      "url": "https://sspai.com/post/113563",
+      "published": "2026-08-24T07:14:08Z",
+      "author": "",
+      "summary": "把非智能的双电机升降桌，改成我梦想中的智能升降中枢。查看全文",
+      "content": "把非智能的双电机升降桌，改成我梦想中的智能升降中枢。查看全文",
+      "readingMinutes": 1
+    },
     {
       "id": "b45c94ae30cfead6",
       "feedTitle": "少数派",
@@ -288,17 +431,17 @@
       "readingMinutes": 1
     },
     {
-      "id": "8e7bdd03010036f8",
-      "feedTitle": "SGLang Releases",
-      "feedUrl": "https://github.com/sgl-project/sglang/releases.atom",
-      "category": "AI Infra",
-      "title": "v0.5.18",
-      "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.18",
-      "published": "2026-08-22T00:09:15Z",
-      "author": "Fridge003",
-      "summary": "Highlights 710 PRs from 212 contributors. New models in this release (see the cookbook for all supported models): Model Type PRs Cookbook Muse Glimmer Autoregressive (Multimodal) #34262 link Intern-S2-Mobius Autoregressive #33691 link SANA-Video Diffusion #32921 link LingBot-Vid…",
-      "content": "Highlights\n\n710 PRs from 212 contributors.\n\nNew models in this release (see the cookbook for all supported models):\n\nModel\n\nType\n\nPRs\n\nCookbook\n\nMuse Glimmer\n\nAutoregressive (Multimodal)\n\n#34262\n\nlink\n\nIntern-S2-Mobius\n\nAutoregressive\n\n#33691\n\nlink\n\nSANA-Video\n\nDiffusion\n\n#32921\n\nlink\n\nLingBot-Video-MoE\n\nDiffusion\n\n#32341\n\nlink\n\nLTX-2.5\n\nDiffusion\n\n#34471\n\nlink\n\nCosmos3 Edge & Distilled\n\nDiffusion\n\n#31590\n\nlink\n\nLongCat-Image\n\nDiffusion\n\n#23274\n\nPlus cookbook recipes for the Qwen3.8 family, Ling-3.0, Nemotron 3.5 Lightning, Dots3-Note, and DeepSeek-V4-Pro-0813 (#34809).\n\nOverlapped checkpoint staging at startup: Checkpoint pages now stage from storage while CUDA graphs capture. Qwen3-32B on H100 starts 8.6-11.7% faster than serial with prefetch, and 2.38x faster (35.6s vs 84.8s) than the plain default. Opt in with --startup-weight-load-mode overlap (#32017).\n\nTP LMHead with All-to-All: The TP LMHead's allgather + scatter becomes a single all-to-all for pure-DP dp-attention. On DeepSeek-V4-Pro B200 decode, LMHead time drops 320us to 169us and TPOT improves 36.97ms to 35.67ms (#32313).\n\nFlashInfer MNNVL for pure allreduce: Non-fused allreduce sites now reuse the FlashInfer MNNVL workspace instead of falling back to NCCL. DeepSeek-V4-Flash TP4 decode on Blackwell gains up to +6.9% at small batches. Auto-enabled for DeepSeek-V3/V3.2/V4; elsewhere --enable-flashinfer-pure-allreduce (#30700).\n\nOne compiled-kernel cache directory: Triton, FlashInfer, Inductor, DeepGEMM, and CUDA driver caches all move under SGLANG_CACHE_DIR. The first launch after upgrading recompiles once; see Breaking Changes (#32434).\n\nDependencies: torch 2.13.0 with triton 3.7.1 (#28836), flashinfer 0.6.17 (#33997), CuTeDSL 4.6.2, fixing an FA4 startup regression on Blackwell (#34372), DeepEP now installed from released sgl-deep-ep wheels (#33932), and sgl-kernel 0.4.6.post1 (#33842).\n\nFull release notes by category below; breaking changes and known issues are at the end.\n\nRust Server\n\n[mm] rust-server: native multimodal processing for Qwen VL (integrate sglang-mm, e2e): #32365\n\nrefactor error responses into shared utils::response helpers: #33894\n\nmove the PD bootstrap registry under api_server::disaggregation: #33895\n\nBuild Rust extensions on demand in source checkouts: #34994\n\nSpeculative Decoding\n\n[spec decoding] support inkling dspark: #31847\n\n[Spec] Support logprobs with DSpark speculative decoding: #34696\n\n[Spec] Support output logprobs with DSpark: #34478\n\n[Spec] Support logprobs with DFlash: #33459\n\n[Spec] Wire DFLASH aux-hidden capture into the Qwen3.5 text-only wrapper: #34771\n\n[Spec] Support mamba-radix-cache-strategy extra_buffer_lazy with DFLASH: #34763\n\n[Spec] Support MegaMoE for DSpark under dp attention: #34844\n\n[unified memory] Support DSPARK speculative decoding + fix two NaN root causes (page hand-out zeroing, CuTe int32 slot-stride wrap): #33974\n\n[GDN] Honor configured linear-attn verify backend in the kernel dispatcher: #34592\n\n[Spec] Relay ngram accept tokens through the FutureMap: #35198\n\n[Spec] Reduce host-side overhead in ngram draft prep: #35207\n\n[Spec] Point multi-layer eagle's last shared-read runner at the draft runner: #35057\n\nFix DFlash sliding attention causality defaults: #34524\n\n[Spec] Budget the DFLASH draft KV pool from its own attention geometry: #34234\n\nfix(dflash): account for DCP in draft KV pool sizing: #33912\n\n[DSV4] Fix silent KV corruption when speculative draft tokens > 4: #34189\n\n[Fix] Speculative decoding crashes with DP-Attention: #33892\n\n[bugfix] Stop/EOS inside a spec accept run beats the max_new_tokens finish: #33758\n\n[DSpark] Fix EP1 decode performance regression: #34759\n\n[Fix: RL] Snapshot async state-capture outputs before overlap: #34319\n\nPiecewise & Breakable CUDA Graph\n\n[BCG][5/N] MLA Fully Support: #33661\n\n[BCG][6/N] Allow prefill breakable CUDA graph for the Kimi archs: #34245\n\nfix: always capture default prefill CUDA graph: #33352\n\nFix padded positions in breakable CUDA Graph attention: #33253\n\nfix: avoid piecewise prefill graph for trtllm_mla: #32785\n\nReenable breakable CUDA graph for NemotronH: #34538\n\nFix prefill CP graph overflow with larger bucket search: #33906\n\nFix stale track rows corrupting conv checkpoints under the prefill graph: #34184\n\nFix sconv track refresh on graph capture: #35042\n\nIncrease post-capture decode memory reserve: #34996\n\nAttention Backends\n\nfeat(attention): add architecture-owned SM12x FA4 kernels: #32991\n\nfix: support FA4 backend for GLM4.7-flash: #33436\n\nfeat: Add flashinfer mHC fusion for DSV4: #33616\n\n[DSV4] Turn on mhc post pre fusion by default: #35214\n\n[SM12x] Default the fused MHC post+pre path on: #34019\n\n[trtllm_mha] perf: Stop allocating per-layer scratch inside the decode CUDA graph: #33063\n\nSelect DeepGEMM standard layouts by memory budget: #33474\n\n[NVIDIA] Enable CuTe DSL BF16 GEMM on SM107: #33617\n\nadd flashinfer cute-dsl backend for mxfp8 gemm: #34042\n\n[BugFix] Fix race in c128 prefill plan kernel on ragged extend: #32467\n\n[JIT Kernel][DSv4] Optimize epilogue of c128: #26671\n\nfix(dsa): use FlashInfer fused top-k for packed PAGED rows: #33006\n\n[DSA] Fix top-k v2 dropping non-primary ranks' output on CUDA 13.1+ (root cause for #33835): #34167\n\n[DSA] Skip indexer KV cache for skip-topk layers: #30531\n\n[Perf] Skip trivial DSV4 nonpaged indexer logits: #33857\n\n[Fix] Restore layer-level DSV4 RoPE policy: #34788\n\nFix _pa_swa_prefill_lens off-by-one in FlashAttentionBackend: #33379\n\nSupport unified SWA page mapping in attention metadata: #35000\n\nMoE & Expert Parallelism\n\n[MoE] Fuse swiglu moe up gemm epilogue: #32944\n\nEnable MoE deferred finalize by default and drop its expert_weights dtype workaround: #33618\n\n[kernel] add triton moe TMA up support: #33559\n\n[MoE] Single-launch moe_align for tiny batches with many experts: #32395\n\n[MiniMax-M3] Overlap shared and routed experts: #34542\n\n[MoE] Route every trtllm-gen MoE call site through one PDL guard: #34789\n\nfix(qwen3): support DeepEP-class backends and early EPLB state: #34810\n\nAdd explicit EPLB balancedness reporting modes: #34998\n\nFix the router GEMM inaccuracy when using _front_w in Kimi-K3: #33764\n\n[Kimi-K3] Use explicit SiTU activation for MegaMoE: #34883\n\nFix Qwen3-MoE producing garbage with the mori a2a backend: #34006\n\n[Fix][Qwen]: fused shared-expert detection PP-safe protection: #34447\n\n[FlashInfer v0.6.16] Support FlashInfer CuTe DSL NVFP4 MoE quantization: #28354\n\n[Fix] Correct W4AFP8 DeepEP scaling and mode-specific dtypes: #33669\n\n[Fix] Support 128-aligned hidden sizes in the W4AFP8 DeepEP low-latency requant kernel: #35593\n\nperf: add H200 Triton MoE configs for E256 N512: #34150\n\nQuantization\n\nSupport ModelOpt MXFP8 checkpoints: #32538\n\n[ModelOpt FP4] Support online MoE weight quantization: #33115\n\n[Feature] Support NVFP4 token embedding in ModelOpt mixed-precision checkpoints: #34222\n\n[MXFP8] Use FlashInfer CUTLASS for dense GEMM on SM120, delete Triton path: #33208\n\n[Quantization] Route per-tensor FP8 checkpoints to FlashInfer on SM90: #33148\n\nOptimize FP32 LM head for bf16/fp16: #32370\n\nPin online NVFP4 4over6 quantization settings: #33621\n\n[Fix] Support Kimi-K3 ModelOpt mixed NVFP4/FP8 checkpoint: #35077\n\n[Quantization] Fix GPTQ scheme attachment broken by LinearBase.scheme default: #34962\n\n[quantization] Add tuned Triton tile configs for channelwise FP8 GEMM…: #34331\n\n[Fix] Correct dense FP8 Marlin bias ordering: #35020\n\nRemove the torchao integration (--torchao-config): #34304\n\nParallelism & Disaggregation\n\n[Feature] Optimize TP LMHead with All-to-All: #32313 ⭐\n\n[NVIDIA] Add flashinfer MNNVL backend for allreduce only: #30700 ⭐\n\n[CP]: Support CP V2 Strategy for dsv4: #33532\n\nfix: preserve GQA head mapping in Triton DCP prefill: #34161\n\nFix DCP KV head mapping for GQA models: #32858\n\n[DCP] Reuse partial output in natural-log LSE merge: #34213\n\n[DCP] Drop two per-layer launches from the MLA target-verify path: #34240\n\n[DCP] Fuse the a2a pack/unpack copies in the MLA LSE reduce: #34614\n\n[DCP] Share one pack kernel between both a2a backends: #34651\n\n[DCP] Drop the prefill index-selection syncs by taking each rank's rows by stride: #35084\n\n[Fix] DCP: advertise the logical KV-event block size: #35298\n\nFix DeepSeek-V4/DeepSeek-V4-Pro DP-attention gather semantics: #31700\n\n[perf] Collapse the DP attention scheduler sync to a single D2H copy: #34338\n\nMultiple flexibility fixes for DP attention: #33537\n\nFix world-size-one aliasing in MLP batch sync: #34997\n\n[PD] Add the missing Prefill bootstrap timeout for NIXL: #34692\n\n[PD] Support pipeline-parallel prefill with Mooncake staging buffer: #33807\n\n[PD] Support --enable-unified-memory with PD disaggregation (kimi-linear MLA hybrid-Mamba): #33362\n\n[PD] Skip speculative verify scratch on prefill servers (saves num_draft_tokens x mamba pool per rank): #34191\n\n[PD] Avoid unused PREBUILT prompt tensor transfer: #35070\n\nfeat(grpc): expose KV event discovery metadata: #35714\n\nScheduler & Runtime\n\n[Model Loading] Overlap checkpoint staging with CUDA graph capture during startup: #32017 ⭐\n\n[core] Consolidate compiled-kernel caches under SGLANG_CACHE_DIR: #32434 ⭐\n\n[Engine] Freeze GC after server warmup: #34999\n\nfeat: add cache salt support to KV cache events: #30827\n\nperf(kv-events): coalesce cache events: #31479\n\n[Scheduler] Honor explicit min-free-slots thresholds: #33403\n\n[Scheduler] Gate SWA eviction on accumulated tokens: #33404\n\n[Scheduler] Fix to restrict the SWA chunk-cap escape hatch to true head-of-line livelock: #32700\n\n[srt] Batch scheduler cache frees: #33475\n\nO(1) slot allocation in ReqToTokenPool.alloc(): #32208\n\nfix(scheduler): track max prefill batch size over recent real admissions: #34284\n\nfix tpot by adjusting the sliding max-prefill-size window size: #34856\n\nfix: route scheduler aborts to multi-tokenizer workers: #33940\n\n[tracing] sglang tracing v2: support exporting tracing data asynchronously: #30023\n\nProfiling Enhancements [1/3]: cuda graph profile traces: #24370\n\n[metrics] Fix prefill FLOPs estimate to count prefix and per-request causal pairs: #34316\n\nFix default dtype restoration after model loader errors: #34440\n\nfix: honor explicit model loader classes: #34880\n\nfeat(cli): add extensible serve backend plugins: #34753\n\nClean up environ.py: remove dead env vars, unify deprecation handling, move examples to a unit test: #35060\n\nfix: make automatic NUMA binding configurable: #30394\n\nRaise PD zmq per-context socket cap via SGLANG_DISAGGREGATION_ZMQ_MAX_SOCKETS: #34450\n\nDeterministic Inference\n\nFix deterministic inference for Inkling: #33417\n\nFix deterministic inference all-reduce for tp>1: #34159\n\nDeterministic gumbel sampling: clamp u=1 so masked tokens can't be sampled: #33423\n\nfeat: support deterministic FA4 for GLM-4.7-Flash: #33945\n\nFix NaN logits from deterministic Triton extend on the unified memory pool: #33517\n\nAdd bit-exact class for MTP: #35143\n\nAdd bit-exact unified radix cache KL test for hybrid SWA + mamba: #34607\n\nAdd bit-exact hicache logprob-consistency test: #34356\n\nAdd bit-exact guard for extra_buffer_lazy: #35030\n\nSkip inkling sheared bias under batch invariance: #35161\n\nHiCache & Radix Cache\n\n[HiCache] Support packed and sidecar draft caches for MTP/EAGLE/DSpark: #30393\n\n[Hicache][2/2]Support Mamba branching in Unified Radix Cache with HiCache: #33639\n\n[HiCache] Support DCP with DSpark: #35221\n\nEnable unified cache out-of-window slot freeing by default: #34653\n\nSkip oow slot freeing under eagle: #34823\n\n[HiCache] write_back: reclaim duplicated host copy first under host pressure: #33777\n\n[HiCache] Optimize LogicalHostPool free-list release: #33998\n\nrefactor(hicache): flatten L2 transfer execution: #34793\n\n[PD] Preserve decode KV across retraction in HiCache: #34801\n\nfix(hicache/umbp): support DeepSeek-V4 hybrid HostPoolGroup (multi-po…: #30762\n\n[Unified Radix Cache] Complete the tree-core interface boundary: #33580\n\n[Fix] Snapshot req.prefix_indices when the prefix cache is disabled: #34644\n\nFix swa eviction frontier for bigram keys: #34870\n\nRetain SWA down to the last state checkpoint: #34729\n\nFix mamba checkpoint depth under dcp: #34808\n\nHiSparse: shared-index (IndexShare) plan-then-IO swap-in prefetch: #34329\n\nObservability enhancement for HiCache: #32388\n\nMultimodal\n\n[VLM] split multimodal scheduling from mm_utils: #32415\n\n[VLM] add content-addressed preprocessing cache infrastructure: #34398\n\nAdd CUDA VMM multimodal feature transport: #33899\n\nfeat(vlm): auto-select cuda vmm on multi-node mnnvl: #33936\n\nFix CUDA 13.0 VMM handle type compatibility: #34431\n\nGate multimodal feature transport by model capability: #33653\n\nReserve multimodal runtime allocations and keep padded inputs aligned: #34141\n\n[VLM] Avoid synchronizing multimodal placeholder counts: #34995\n\nfix(vlm): stream-order cuda-ipc feature pool lifecycle and streamline multimodal transport module: #33949\n\n[EPD] feat: pipeline owner-only multimodal preprocessing: #34206\n\n[FEAT] Decouple multimodal global cache from Mooncake: #30392\n\n[Kimi K3] optimize: preprocess cpu-transport images on the vision owner: #33921\n\nfix(vlm): preserve Kimi-K3 GPU JPEG accuracy: #34163\n\nvlm: cache kimi-k3 per-image processor artifacts: #34404\n\n[Fix] Carry the backend on Kimi-K3 deferred preprocessing configs: #34766\n\nFix Whisper transcription for audio over 30 seconds: #33604\n\nfix: preserve priority for batched embedding requests: #32977\n\nModel Support & Optimizations\n\nfix(muse-glimmer): parse required/named tool calls natively: #34781\n\nResponses support: #32689\n\n[Frontend] Apply request header overrides to chat completions: #35001\n\nStop losing Kimi-K3 tool calls to reasoning, constraint conflicts, and truncation: #34881\n\n[Fix] Work around xgrammar 0.2.1 negative integer minimum in Kimi-K3 structural tags: #34778\n\n[Fix] Make DeepSeek-V4 reasoning and tool-call streaming parsing chunk-invariant: #34458\n\n[Fix] Require JSON booleans for response_format json_schema.strict: #34777\n\nSupport thinking budget for Inkling: #33146\n\n[inkling] Let Anthropic thinking=disabled map to reasoning effort \"none\": #33913\n\n[inkling] Render tool-result media instead of coercing content to str: #33898\n\n[DSV4] Add official DSV4 reasoning effort support: #33140\n\n[feat] Add language_model_only parameter support for Qwen35: #22867\n\nSupport model-defined prefill input embedding width: #35002\n\nFix rope config compatibility and VL/transformers-fallback weight loading: #31575\n\n[LoRA] Laguna: per-layer LoRA hidden-dim resolution for packed attention: #30298\n\n[Laguna] fix YaRN mscale double-application in rope config: #33558\n\nenable TRT-LLM for MiniMax M3 by preserving SwiGLU params: #33962\n\nfix(minimax): use routed TRT-LLM for NVFP4 MoE auto on SM100: #32229\n\nfix(glm5.2): restrict MoE weights to local PP layers: #33793\n\n[Fix] Fix Qwen3.5 MTP startup with HiCache: #34560\n\nFix DeepSeek-OCR batching crash on variable local-crop counts: #33214\n\nKernel Library\n\n[jit_kernel] Move JIT kernels into namespace sglang: #33400\n\n[kernel] Content-addressed JIT build cache, generated from our own ninja: #34274\n\n[JIT Kernel] Migrate per-token FP8 quantization from AOT to JIT: #34257\n\n[JIT Kernel] Migrate moe_topk_softmax from AOT to JIT: #34509\n\n[JIT Kernel] Migrate causal_conv1d_fwd and causal_conv1d_update from AOT to JIT: #35031\n\nkernels: scalar scale A support for fp8_gemm: #33469\n\n[Kernel] Unify BaseFusedOp and MultiPlatformOp dispatch: #33205\n\n[Kernel] Enable Helion backend for Kimi Delta-Attention: #32593\n\n[Kernel] cutedsl_bf16_gemm: trailing cluster barrier for 2-CTA TGV kernel exit (#32907): #32954\n\nConfiguration System\n\nconfig: retire ServerArgs.derive; per-runner values are constructor arguments: #33887\n\nconfig: business code no longer reads the published ServerArgs: #34081\n\nconfig: the runner and scheduler read resolved config from the bags: #34095\n\nconfig: the KV-cache configurator reads the bags: #34096\n\nconfig: pin that resolution is reproducible from the raw input: #34094\n\nconfig: one control-plane log for the process: #35028\n\nconfig: make ServerArgs read-only with a single audited mutation entry: continues in this release across the runner, scheduler, spec, and DCP surfaces (#33925, #34133, #35022, #35025)\n\nSGLang-Diffusion\n\n[diffusion] feat: data-parallel serving (--dp-size): #33725\n\n[diffusion] feat: cross-node sequence parallelism (Ulysses x Ring): #33327\n\n[diffusion] feat: support K/V-gather style sequence parallel (CP-like) attention: #32667\n\n[diffusion] feat: support sol-attn sparse attention backend for h3: #33702\n\n[MiniMax-H3] SubBlock: training-free block-sparse attention for the DiT: #34148\n\n[diffusion] feat: add SageAttention packed varlen path for minimax-h3: #33703\n\nfix: make Cache-DiT actually cache on MiniMax-H3: #33827\n\n[diffusion] feat: load quantized H3 text encoder checkpoints: #34986\n\n[diffusion] feat: support native and peft minimax h3 loras: #34359\n\n[diffusion] Per-section LoRA adapters on fused linear layers: #34933\n\n[diffusion] feat: support quant-videogen prq kv-cache quantization (memory-saving) for causal-dit: #32581\n\n[diffusion] Enable breakable CUDA graph for LTX-2 (H200 two-stage e2e 10.75 s -> 6.90 s, 1.56x): #33885\n\n[diffusion] Enable breakable CUDA graph for SANA (H200 1024px e2e -26%, bit-exact): #33989\n\n[diffusion] Enable breakable CUDA graphs for LTX-2.3: #34929\n\n[diffusion] Z-Image single-GPU BCG: fix the replay crash and make output bit-exact vs eager (#34183): #34210\n\n[diffusion] BCG: auto-capture the default warmup resolution instead of hard-requiring --warmup-resolutions (H200 SANA denoise 0.73->0.457 s with a single flag): #34174\n\n[diffusion] weight-only FP8: dequantize linear weights once at first use (Ideogram-4 denoise -18.8% H200 / -7.8% H100, bit-exact): #34305\n\n[diffusion] Bit-exact data-movement elimination for the Wan causal VAE decoder (H200 LongLive2 704x1280x61f: decode 2.80->2.32 s lossless / 2.12->1.67 s quality=high, e2e -10.7%): #34125\n\n[diffusion] FLUX.1 fused adaLN modulate (bit-exact) + RoPE cache hoist, LN-affine folding behind quality=high (H200 e2e -3.5% lossless / -6.9% high): #34004\n\n[diffusion] Ideogram-4: fuse Qwen3-style RoPE and SwiGLU silu-mul (denoise -5.1% H100 / -4.7% H200, bit-exact): #34314\n\n[diffusion] ERNIE-Image: fuse rotate-half RoPE + GELU-mul and hoist rope cos/sin (denoise -16.2% H100 / -12.7% H200, bit-exact): #34306\n\n[diffusion] Wan2.2-TI2V: fuse per-token adaLN table add into contiguous slices + hoist rope cache (denoise -13.1% H100 / -12.6% H200, bit-exact; eager beats compile): #34584\n\n[diffusion] Z-Image bit-exact fused qk-norm (H200 Turbo 1024px e2e -6.4%): #33886\n\n[diffusion] Add --dit-layerwise-residency-policy for strided DiT residency: #34534\n\n[diffusion] feat: support dynamically cpu offload components: #34391\n\n[diffusion] feat: gate /health and /health_generate on warmup completion and add liveness endpoint: #33787\n\n[diffusion] feat: support --served-model-name in sglang serve: #34228\n\n[Diffusion] Add online FP8 support for Krea-2: #34136\n\n[diffusion] feat: expose cosmos3 policies through the Action API: #34243\n\nLocal & Desktop AI\n\n[MLX] Support gpt-oss: sliding-window attention, attention sinks, sm_scale: #30050\n\n[MLX] Window-bounded SWA KV storage and in-graph sampling: #34166\n\nfeat(dgx-spark): add inkling-small MoE support for sm_121: #33108\n\n[misc] Pass FP8 scales in FlashInfer SWA prefill, autotune fp8 on SM120, and tighten is_image_understandable_model: #34217\n\nAMD / ROCm\n\n[AMD] Support prefill context parallel two batch overlap for DeepSeek V4: #33480\n\n[AMD] Support DeepSeek V4 DSpark on AMD HIP platform: #30964\n\n[AMD] Optimize KIMI-K3 with Triton MLA decode kernel by tuning the stage-1 geometry for gfx950: #34580\n\n[AMD] Add concat_and_cast_mha_k_pad_kernel to support 12-head and enable K3 aiter prefill kernel: #34837\n\n[AMD] Add K3 verified mla kernel for DSpark on triton backend: #33981\n\n[AMD] Restore K3 MLA verify kernel path blocked by can_handle() guard: #34261\n\n[AMD] perf: compact Triton extend-attention for ragged prefill (AMD/HIP-only): #29677\n\n[AMD] Accelerate AITER unified-attention decode with",
-      "readingMinutes": 18
+      "id": "caf5e64df9edf2e5",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "Solving Agentic AI Fleet Challenges with NVIDIA Vera CPU",
+      "url": "https://developer.nvidia.com/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu/",
+      "published": "2026-08-21T23:09:15Z",
+      "author": "Michelle Horton",
+      "summary": "AI factories are interconnected systems where fleet economics depend on how efficiently the entire stack converts power and capital into completed agent tasks....",
+      "content": "AI factories are interconnected systems where fleet economics depend on how efficiently the entire stack converts power and capital into completed agent tasks....\nAI factories are interconnected systems where fleet economics depend on how efficiently the entire stack converts power and capital into completed agent tasks. While GPUs run the models, CPUs handle orchestration, tool execution, and sandboxed computation. Unlike conventional computing with stable runtime profiles, agentic workloads are unpredictable and highly variable. Based on telemetry from…\n\nSource",
+      "readingMinutes": 1
     },
     {
       "id": "7193d3c3ad63f0f8",
@@ -444,19 +587,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "c5162ad308c0b11b",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "派早报：华为发布 Pura X View、享界 G9 等多款新品",
-      "url": "https://sspai.com/post/113666",
-      "published": "2026-08-20T23:00:00Z",
-      "author": "",
-      "summary": "影石推出竖拍云台相机 Luna Pro，森海塞尔发布 MOMENTUM True Wireless 5 真无线耳机等。查看全文",
-      "content": "影石推出竖拍云台相机 Luna Pro，森海塞尔发布 MOMENTUM True Wireless 5 真无线耳机等。查看全文",
-      "readingMinutes": 1
-    },
-    {
       "id": "89483a008eb7ed3a",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -483,71 +613,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "4914182f6bf7de24",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Maximizing AI Factory Performance per Watt with NVIDIA DSX MaxLPS",
-      "url": "https://developer.nvidia.com/blog/maximizing-ai-factory-performance-per-watt-with-nvidia-dsx-maxlps/",
-      "published": "2026-08-20T19:44:38Z",
-      "author": "Tanya Lenz",
-      "summary": "AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available...",
-      "content": "AI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available...\nAI factories are power-constrained industrial systems. The question is no longer how many GPUs fit in a data center, but how much AI output each available megawatt can deliver. For AI inference workloads, this makes application-level performance per watt the key metric for measuring AI factory efficiency. Not every megawatt translates to revenue-generating compute. Power distribution, cooling…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "0ffe97ba29ad4b4a",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
-      "url": "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation/",
-      "published": "2026-08-20T18:15:35Z",
-      "author": "Michelle Horton",
-      "summary": "Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....",
-      "content": "Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....\nUnlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation. Every demonstration requires specialized equipment, clinical expertise, and access to patients or laboratory environments. This creates three fundamental challenges for developers. First is the data gap. Training modern robotic policies…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "bc04202d666568e9",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "NVIDIA Ising Enables Fully Automated Quantum Computer Calibration with Enhanced In-Context Learning",
-      "url": "https://developer.nvidia.com/blog/nvidia-ising-enables-fully-automated-quantum-computer-calibration-with-enhanced-in-context-learning/",
-      "published": "2026-08-20T18:15:35Z",
-      "author": "Tanya Lenz",
-      "summary": "NVIDIA Ising Calibration is an open source vision language model (VLM) designed to interpret diagnostic outputs from quantum processors and determine how they...",
-      "content": "NVIDIA Ising Calibration is an open source vision language model (VLM) designed to interpret diagnostic outputs from quantum processors and determine how they...\nNVIDIA Ising Calibration is an open source vision language model (VLM) designed to interpret diagnostic outputs from quantum processors and determine how they should be tuned to continue operating. This post introduces the latest model release, NVIDIA Ising Calibration 1.5, which advances AI-based QPU calibration by analyzing unfamiliar diagnostic results without prior training examples.\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "cdf65826678a4f8e",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "NVIDIA Exemplar Cloud: Lessons for Unlocking Full Performance on AI Infrastructure",
-      "url": "https://developer.nvidia.com/blog/nvidia-exemplar-cloud-lessons-for-unlocking-full-performance-on-ai-infrastructure/",
-      "published": "2026-08-20T18:15:34Z",
-      "author": "Elizabeth Goodman",
-      "summary": "Two AI computing clusters built from identical NVIDIA H100, GB200 NVL72, or GB300 NVL72 systems can deliver materially different training throughput. We...",
-      "content": "Two AI computing clusters built from identical NVIDIA H100, GB200 NVL72, or GB300 NVL72 systems can deliver materially different training throughput. We...\nTwo AI computing clusters built from identical NVIDIA H100, GB200 NVL72, or GB300 NVL72 systems can deliver materially different training throughput. We routinely see 8% to 12% gaps between partner deployments and the corresponding NVIDIA reference architecture (RA) on the same workload, same model, same global batch size. The cause is often a stack of configuration choices in the kernel…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "af0f4d36615d964d",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "How to Self-Host a Validated AI Coding Assistant with NVIDIA NeMo Guardrails",
-      "url": "https://developer.nvidia.com/blog/how-to-self-host-a-validated-ai-coding-assistant-with-nvidia-nemo-guardrails/",
-      "published": "2026-08-20T18:15:34Z",
-      "author": "Tanya Lenz",
-      "summary": "Deploying an AI coding assistant in a regulated, sovereign, or source-sensitive environment, often comes with challenges. Three common issues are: the source...",
-      "content": "Deploying an AI coding assistant in a regulated, sovereign, or source-sensitive environment, often comes with challenges. Three common issues are: the source...\nDeploying an AI coding assistant in a regulated, sovereign, or source-sensitive environment, often comes with challenges. Three common issues are: the source cannot leave the network, the assistant occasionally invents package names that introduce supply-chain risk, and there is no audit trail when a generated change ships a defect. This tutorial walks you through how to self-host a validated…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "fa0f8504b8a9bc0a",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -558,19 +623,6 @@
       "author": "Michelle Horton",
       "summary": "NVIDIA nvmath-python is a library designed to bridge the gap between the Python scientific community and NVIDIA CUDA-X math libraries. It gives Python users...",
       "content": "NVIDIA nvmath-python is a library designed to bridge the gap between the Python scientific community and NVIDIA CUDA-X math libraries. It gives Python users...\nNVIDIA nvmath-python is a library designed to bridge the gap between the Python scientific community and NVIDIA CUDA-X math libraries. It gives Python users access to CUDA-X performance for common math operations without disrupting existing workflows. Depending on the API, operations can run on a CPU, CUDA-enabled GPU, or distributed multi-GPU, multi-node systems.\n\nSource",
-      "readingMinutes": 1
-    },
-    {
-      "id": "f6b746c5ca0a1534",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "Four Ways to Deploy More Secure AI Agents",
-      "url": "https://developer.nvidia.com/blog/four-ways-to-deploy-more-secure-ai-agents/",
-      "published": "2026-08-20T18:15:33Z",
-      "author": "Michelle Horton",
-      "summary": "Knowledge workers are increasingly integrating AI agents into their workflows. Agents that function as \"digital coworkers\" offer clear benefits. For example,...",
-      "content": "Knowledge workers are increasingly integrating AI agents into their workflows. Agents that function as \"digital coworkers\" offer clear benefits. For example,...\nKnowledge workers are increasingly integrating AI agents into their workflows. Agents that function as “digital coworkers” offer clear benefits. For example, they can review a bug report, implement and test a fix, push a patch, and ping a human for review. By handling routine tasks, agents have the potential to deliver large productivity gains. On the other hand, connecting a large language model…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -600,19 +652,6 @@
       "readingMinutes": 1
     },
     {
-      "id": "ad9ae4b80831c53b",
-      "feedTitle": "NVIDIA AI · Technical Blog",
-      "feedUrl": "https://developer.nvidia.com/blog/feed/",
-      "category": "AI 技术",
-      "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
-      "url": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/",
-      "published": "2026-08-20T18:15:31Z",
-      "author": "Elizabeth Goodman",
-      "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
-      "content": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...\nStorage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data, execute tools, and generate new results, storage systems must continuously supply and preserve the data that moves the agent reasoning loop. Each agent step can trigger multiple storage operations, and those operations can repeat across…\n\nSource",
-      "readingMinutes": 1
-    },
-    {
       "id": "7ad276c6d6cb0638",
       "feedTitle": "NVIDIA AI · Technical Blog",
       "feedUrl": "https://developer.nvidia.com/blog/feed/",
@@ -623,6 +662,19 @@
       "author": "Tanya Lenz",
       "summary": "Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared...",
       "content": "Running a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared...\nRunning a dedicated Kubernetes cluster per team often results in more isolation than an organization requires. While one cluster can be successfully shared across many teams, the coordination costs increase as the number of teams grows. Challenges include conflicting CRD versions, overlapping RBAC, and no clean way to carve GPU capacity into team-level budgets. At a certain scale…\n\nSource",
+      "readingMinutes": 1
+    },
+    {
+      "id": "ad9ae4b80831c53b",
+      "feedTitle": "NVIDIA AI · Technical Blog",
+      "feedUrl": "https://developer.nvidia.com/blog/feed/",
+      "category": "AI 技术",
+      "title": "NVIDIA Vera Storage Benchmarks: Faster Encryption, Compression, Integrity Checking, and Recovery for AI-Native Storage",
+      "url": "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/",
+      "published": "2026-08-20T18:15:31Z",
+      "author": "Elizabeth Goodman",
+      "summary": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...",
+      "content": "Storage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data,...\nStorage is an active part of every agentic AI workflow. As agents retrieve enterprise knowledge, access persistent memory, reuse key-value (KV) cache data, execute tools, and generate new results, storage systems must continuously supply and preserve the data that moves the agent reasoning loop. Each agent step can trigger multiple storage operations, and those operations can repeat across…\n\nSource",
       "readingMinutes": 1
     },
     {
@@ -870,32 +922,6 @@
       "author": "jperezdealgaba",
       "summary": "[Bugfix][Security] Guard _load_ov2_processor with resolve_trust_remot…",
       "content": "[Bugfix][Security] Guard _load_ov2_processor with resolve_trust_remot…",
-      "readingMinutes": 1
-    },
-    {
-      "id": "157eeb58a1f76523",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "新玩意 249｜少数派的编辑们最近买了啥？",
-      "url": "https://sspai.com/post/113650",
-      "published": "2026-08-20T09:30:00Z",
-      "author": "",
-      "summary": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ...查看全文",
-      "content": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ...查看全文",
-      "readingMinutes": 1
-    },
-    {
-      "id": "553cc1163450ff80",
-      "feedTitle": "少数派",
-      "feedUrl": "https://sspai.com/feed",
-      "category": "默认分类",
-      "title": "十年阅读历程，这是我的阅读工具推荐",
-      "url": "https://sspai.com/post/113567",
-      "published": "2026-08-20T07:25:47Z",
-      "author": "",
-      "summary": "从2017年开始，我养成了读书的习惯，到今年年底刚好完成十年的阅读之旅。在这十年里，我累计阅读的书籍有六百余本。在阅读的过程中，我使用了/曾经使用非常多的应用和服务，来辅助阅读、记录书单、整理笔记等。 ...查看全文",
-      "content": "从2017年开始，我养成了读书的习惯，到今年年底刚好完成十年的阅读之旅。在这十年里，我累计阅读的书籍有六百余本。在阅读的过程中，我使用了/曾经使用非常多的应用和服务，来辅助阅读、记录书单、整理笔记等。 ...查看全文",
       "readingMinutes": 1
     },
     {
@@ -1378,19 +1404,6 @@
       "summary": "Long-horizon agents can fail even when their underlying models can solve the constituent steps. They may lose track of mutable state, fail to reactivate lessons from earlier executions, skip known procedures, or stop prematurely. We bet on harness scaling to improve the executio…",
       "content": "Long-horizon agents can fail even when their underlying models can solve the constituent steps. They may lose track of mutable state, fail to reactivate lessons from earlier executions, skip known procedures, or stop prematurely. We bet on harness scaling to improve the execution system around an agent without changing its model weights. We introduce StateM, an agent-native runtime that organizes execution around durable states, phase-local context, checked transitions, recoverable runbooks, and versioned procedural practices that agents and users can inspect together.\nOn Terminal-Bench 2.1, StateM raises GPT-5.5 xhigh to 92.1\\%, versus 83.1\\% reference and GPT-5.6 Sol Ultra at 91.9\\%. The runbook transfers unchanged to GPT-5.6. With GPT-5.6 Sol xhigh, StateM reaches 95.3\\% raw accuracy across 445 trials and succeeds on all 89 tasks at least once. The frozen profile raises GPT-5.6 Luna from 76.7 to 85.4\\%, above the 84.9\\% Sol xhigh reference.\nUsing the same runtime, runbook structure, and golden rules, less than \\$38 of adaptation raises DeepSeek-V4 Flash from 82.7 to 88.1\\% under standard timeouts and to 89.1\\% on an 88-task common core. Extending only the remaining latency-sensitive task matches the reported 88.8\\% GPT-5.6 Sol max result. Final-score API usage is about \\$15 versus \\$574.68 for the GPT reference; total DeepSeek expenditure is \\$52.22.\nOn BusinessBench, family-specific runbooks built on development sets yield held-out gains of 0.55 macro and 1.34 micro points; two mechanism-matched families improve by 10.04 points. Concrete rules generalize when tasks share execution structure, while the control methodology applies broadly. StateM turns selected postmortem findings into persistent, executable preconditions and practices, making learned controls explicit and enforceable through stateful controls. Code at github.com/henryqin1997/statem.",
       "readingMinutes": 1
-    },
-    {
-      "id": "e68246067eeddf6e",
-      "feedTitle": "Anthropic · News",
-      "feedUrl": "https://www.anthropic.com/sitemap.xml",
-      "category": "AI 新闻",
-      "title": "Claude text watermark",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "published": "2026-08-15T05:53:01Z",
-      "author": "Anthropic",
-      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
-      "content": "",
-      "readingMinutes": 0
     },
     {
       "id": "a4341278928385a6",
@@ -2028,19 +2041,6 @@
       "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
       "content": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
       "readingMinutes": 1
-    },
-    {
-      "id": "cdd8d819f4855db7",
-      "feedTitle": "Anthropic · News",
-      "feedUrl": "https://www.anthropic.com/sitemap.xml",
-      "category": "AI 新闻",
-      "title": "Improving fable 5 s biology safeguards",
-      "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "published": "2026-08-07T03:05:42Z",
-      "author": "Anthropic",
-      "summary": "Anthropic 官方发布，点击前往原网站阅读完整内容。",
-      "content": "",
-      "readingMinutes": 0
     },
     {
       "id": "710c6fb31a91a2e5",
