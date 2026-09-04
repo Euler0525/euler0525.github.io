@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>订阅导航</title>
+<style>
+    :root {
+      color-scheme: light;
+      --bg: #ffffff;
+      --ink: #202823;
+      --sub: #69736d;
+      --line: #e6eae6;
+      --accent: #23775f;
+      --control: #fcfdfb;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 14px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container { max-width: 980px; margin: 0 auto; padding: 70px 28px 90px; }
+    h1 { font-size: clamp(28px, 4vw, 36px); line-height: 1.25; letter-spacing: -0.04em; margin: 0 0 10px; font-weight: 720; }
+    .subtitle { margin: 0; color: var(--sub); font-size: 14px; }
+    .controls { display: flex; gap: 10px; margin: 34px 0 10px; }
+    input {
+      appearance: none;
+      background: var(--control);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      font: inherit;
+      height: 42px;
+      outline: none;
+    }
+    input { flex: 1; min-width: 0; padding: 0 14px; }
+    input::placeholder { color: #929b95; }
+    input:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .status { margin: 0; color: var(--sub); font-size: 12px; }
+    .group { margin-top: 38px; }
+    .group h2 { margin: 0; padding-bottom: 10px; border-bottom: 1px solid var(--line); font-size: 16px; font-weight: 680; }
+    .items { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; }
+    .item { min-width: 0; border-bottom: 1px solid var(--line); }
+    .item a { display: flex; flex-direction: column; gap: 6px; padding: 19px 2px 20px; height: 100%; text-decoration: none; color: inherit; }
+    .item-title { font-size: 16px; font-weight: 650; line-height: 1.4; overflow-wrap: anywhere; }
+    .arrow { color: var(--accent); font-weight: 400; font-size: 14px; }
+    .item-description { color: var(--sub); font-size: 13px; line-height: 1.75; }
+    .item-topics { color: var(--accent); font-size: 12px; margin-top: 2px; }
+    .item a:hover .item-title { color: var(--accent); }
+    .empty { margin-top: 44px; color: var(--sub); text-align: center; }
+    [hidden] { display: none !important; }
+    @media (max-width: 680px) {
+      .container { padding: 40px 20px 60px; }
+      .controls { flex-wrap: wrap; gap: 9px; margin-top: 25px; }
+      input { flex: 1 0 100%; }
+      .items { grid-template-columns: 1fr; }
+      .group { margin-top: 30px; }
+      .item a { padding: 17px 1px 18px; }
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { color-scheme: dark; --bg: #151916; --ink: #e9ede9; --sub: #a2aea6; --line: #303a33; --accent: #81caaa; --control: #1d241e; }
+      input::placeholder { color: #89968d; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+<main class="container">
+<header>
+<h1>内容导航</h1>
+</header>
+<div aria-label="查找内容源" class="controls" role="search">
+<input aria-label="搜索内容源" id="search" placeholder="搜索名称、主题或关键词…" type="search"/>
+
+
+</div>
+<p aria-live="polite" class="status" id="status" role="status">共 15 个内容源</p><section aria-labelledby="heading-articles" class="group" id="articles"><h2 id="heading-articles">文章</h2><div class="items"><article class="item">
+<a href="https://zhishifenzi.com/" rel="noopener noreferrer" target="_blank">
+<span class="item-title">知识分子 <span aria-hidden="true" class="arrow">↗</span></span>
+<span class="item-description">关注重要科学发现、科研争议、人工智能与科学政策。不只解释知识点，也帮助理解科学共同体真正关心什么。</span>
+<span class="item-topics">科学研究 / 生命科学 / 学术生态</span>
+</a>
+</article><article class="item">
+<a href="https://www.quantamagazine.org/" rel="noopener noreferrer" target="_blank">
+<span class="item-title">Quanta Magazine <span aria-hidden="true" class="arrow">↗</span></span>
+<span class="item-description">深入报道基础科学的重要进展，解释一个问题为什么困难，以及研究者如何逐步取得突破。科学深度与可读性兼具。</span>
+<span class="item-topics">数学 / 物理 / 计算机 / 生物</span>
+</a>
+</article><article class="item">
+<a href="https://aeon.co/essays" rel="noopener noreferrer" target="_blank">
+<span class="item-title">Aeon <span aria-hidden="true" class="arrow">↗</span></span>
+<span class="item-description">适合慢读的思想长文，讨论意识、自由意志、道德、死亡、文化与社会。强调论证，而非只输出观点。</span>
+<span class="item-topics">哲学 / 心理学 / 人类学 / 文化史</span>
+</a>
+</article><article class="item">
+<a href="https://worksinprogress.co/" rel="noopener noreferrer" target="_blank">
+<span class="item-title">Works in Progress <span aria-hidden="true" class="arrow">↗</span></span>
+<span class="item-description">用经济学、工程与历史视角审视现实难题：住房、铁路、能源、创新与增长。观点值得比较，论证过程尤其值得读。</span>
+<span class="item-topics">技术进步 / 经济 / 城市 / 制度</span>
+</a>
+</article><article class="item">
+<a href="https://www.noemamag.com/" rel="noopener noreferrer" target="_blank">
+<span class="item-title">NOEMA <span aria-hidden="true" class="arrow">↗</span></span>
+<span class="item-description">跨学科观察技术与人类社会的关系，深入讨论人工智能、政治经济结构、文明和未来治理。</span>
+<span class="item-topics">技术与社会 / AI / 哲学 / 国际秩序</span>
+</a>
+</article><article class="item">
+<a href="https://plato.stanford.edu/" rel="noopener noreferrer" target="_blank">
+<span class="item-title">Stanford Encyclopedia of Philosophy <span aria-hidden="true" class="arrow">↗</span></span>
+<span class="item-description">由学术研究者撰写、持续维护的哲学参考资料。适合对某个概念产生好奇后专题查阅，不必逐篇通读。</span>
+<span class="item-topics">哲学百科 / 逻辑 / 认识论 / 伦理学</span>
+</a>
+</article></div></section><section aria-labelledby="heading-videos" class="group" id="videos"><h2 id="heading-videos">视频</h2><div class="items"><article class="item">
+<a href="https://yixi.tv/" rel="noopener noreferrer" target="_blank">
+<span class="item-title">一席 <span aria-hidden="true" class="arrow">↗</span></span>
+<span class="item-description">由不同领域的研究者与实践者分享真实经历和专业洞见。选题跨度大，适合轻松打开新领域。</span>
+<span class="item-topics">社会观察 / 人文 / 历史 / 实践</span>
+</a>
+</article></div></section>
+
+
+
+
+<p class="empty" hidden="" id="empty">没有匹配的内容源，请调整关键词或筛选条件。</p>
+</main>
+<script>
+    (() => {
+      const search = document.querySelector('#search');
+      const status = document.querySelector('#status');
+      const empty = document.querySelector('#empty');
+      const groups = [...document.querySelectorAll('.group')];
+      const items = [...document.querySelectorAll('.item')];
+      const norm = value => value.toLocaleLowerCase('zh-CN').replace(/\s+/g, ' ').trim();
+
+      function update() {
+        const query = norm(search.value);
+        let shown = 0;
+        items.forEach(item => {
+          const match = norm(item.textContent).includes(query);
+          item.hidden = !match;
+          if (match) shown++;
+        });
+        groups.forEach(group => {
+          group.hidden = !group.querySelector('.item:not([hidden])');
+        });
+        status.textContent = query
+          ? `显示 ${shown} / ${items.length} 个内容源`
+          : `共 ${items.length} 个内容源`;
+        empty.hidden = shown !== 0;
+      }
+
+      search.addEventListener('input', update);
+      update();
+    })();
+  </script>
+</body>
+</html>
