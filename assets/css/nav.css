@@ -65,3 +65,120 @@
 .img-circle {
     padding: 7px 0;
 }
+
+/* Personal site shortcuts in the homepage header */
+.page-container .main-content .navbar.user-info-navbar.home-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    padding: 24px 30px;
+}
+
+.home-navbar::before,
+.home-navbar::after {
+    display: none;
+}
+
+.home-navbar .user-info-menu.left-links {
+    display: flex;
+    align-items: center;
+    flex: 0 1 460px;
+    min-width: 0;
+    float: none;
+}
+
+.home-navbar .user-info-menu > li {
+    float: none;
+    /* The legacy navbar script sets a fixed minimum height on each item. */
+    min-height: 0 !important;
+}
+
+.home-navbar .language-switcher {
+    flex: 1;
+    min-width: 0;
+}
+
+.page-container .main-content .home-navbar .user-info-menu > li > form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    border: 0;
+}
+
+.home-navbar .search-input {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+}
+
+.home-navbar .search-button {
+    margin-left: 0;
+}
+
+.personal-sites {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.personal-site-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 44px;
+    padding: 10px 18px;
+    border: 1px solid;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    white-space: nowrap;
+    transition: box-shadow 160ms ease;
+}
+
+.personal-site-blog,
+.personal-site-blog:hover,
+.personal-site-blog:focus {
+    color: #22634e;
+    background-color: #edf8f2;
+    border-color: #c5e4d3;
+}
+
+.personal-site-wiki,
+.personal-site-wiki:hover,
+.personal-site-wiki:focus {
+    color: #3e55a0;
+    background-color: #eef2ff;
+    border-color: #d1daf5;
+}
+
+.personal-site-link:hover {
+    text-decoration: none;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.personal-site-link:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+}
+
+.personal-site-arrow {
+    margin-left: 4px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .page-container .main-content .navbar.user-info-navbar.home-navbar {
+        padding: 16px 20px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .personal-site-link {
+        transition: none;
+    }
+}

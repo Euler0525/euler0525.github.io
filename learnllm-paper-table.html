@@ -1,0 +1,965 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LLM 经典论文与技术里程碑，收录 2017 年至今的重要研究工作。">
+  <meta name="color-scheme" content="dark">
+  <title>LLM 论文精选</title>
+  <style>
+    :root {
+      --bg: #090d0c;
+      --surface: #111715;
+      --surface-strong: #151d1a;
+      --line: rgba(221, 255, 235, .12);
+      --line-strong: rgba(91, 230, 151, .38);
+      --text: #f2f8f4;
+      --muted: #9aaba2;
+      --green: #4ee68c;
+      --green-dark: #142c20;
+      --gold: #e8c777;
+      --radius: 12px;
+      font-family: Inter, "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { background: var(--bg); }
+    body {
+      margin: 0;
+      min-width: 320px;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 14% -10%, rgba(44, 185, 105, .12), transparent 31rem),
+        radial-gradient(circle at 88% 0%, rgba(89, 116, 239, .07), transparent 28rem),
+        var(--bg);
+      font-size: 16px;
+      overflow: hidden;
+    }
+
+    button, a { font: inherit; }
+    button { color: inherit; }
+
+    .app {
+      height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    .topbar {
+      min-height: 72px;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      background: rgba(8, 13, 11, .94);
+      border-bottom: 1px solid var(--line);
+      box-shadow: 0 14px 35px rgba(0, 0, 0, .24);
+      z-index: 40;
+    }
+
+    .brand {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-mark {
+      width: 42px;
+      height: 42px;
+      flex: 0 0 42px;
+      display: grid;
+      place-items: center;
+      color: #07110b;
+      background: linear-gradient(145deg, #65f09e, #25af64);
+      border-radius: 10px 4px 10px 4px;
+      box-shadow: 0 0 28px rgba(78, 230, 140, .2);
+      font-weight: 900;
+      letter-spacing: -.08em;
+    }
+
+    .brand-copy { min-width: 0; }
+    .brand-name {
+      margin: 0;
+      font-size: 1.2rem;
+      line-height: 1.15;
+      letter-spacing: .01em;
+      white-space: nowrap;
+    }
+    .brand-name span { color: var(--muted); font-weight: 450; }
+    .brand-note {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: .8rem;
+    }
+
+    .stats {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: .82rem;
+      white-space: nowrap;
+    }
+    .stat {
+      padding: 7px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .025);
+    }
+    .stat strong { color: var(--text); font-weight: 700; }
+
+    .contextbar {
+      min-height: 44px;
+      padding: 8px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      color: var(--muted);
+      background: rgba(13, 19, 17, .92);
+      border-bottom: 1px solid var(--line);
+      font-size: .82rem;
+    }
+    .view-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #dce8e1;
+      font-weight: 650;
+    }
+    .view-label::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 12px var(--green);
+    }
+
+    .table-shell {
+      position: relative;
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow: auto;
+      scrollbar-color: #3e6150 #101613;
+      scrollbar-width: thin;
+      overscroll-behavior: contain;
+    }
+    .table-shell:focus-visible {
+      outline: 2px solid var(--green);
+      outline-offset: -2px;
+    }
+
+    table {
+      width: max-content;
+      min-width: 100%;
+      border-spacing: 0;
+      border-collapse: separate;
+      table-layout: fixed;
+    }
+
+    thead th {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      width: 164px;
+      min-width: 164px;
+      height: 58px;
+      padding: 9px 12px;
+      color: #e4ede7;
+      background: rgba(14, 20, 18, .98);
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid rgba(95, 230, 153, .26);
+      text-align: left;
+      font-size: .84rem;
+      line-height: 1.25;
+      font-weight: 700;
+    }
+
+    thead .year-head {
+      left: 0;
+      z-index: 30;
+      width: 88px;
+      min-width: 88px;
+      color: var(--green);
+    }
+
+    tbody tr { --row-bg: #18201d; --row-accent: var(--green); }
+    tbody th, tbody td {
+      background: var(--row-bg);
+      border-right: 1px solid rgba(255, 255, 255, .055);
+      border-bottom: 1px solid rgba(255, 255, 255, .07);
+    }
+
+    tbody th.year {
+      position: sticky;
+      left: 0;
+      z-index: 10;
+      width: 88px;
+      min-width: 88px;
+      padding: 16px 12px;
+      vertical-align: top;
+      text-align: left;
+      box-shadow: inset 3px 0 var(--row-accent), 14px 0 24px rgba(0, 0, 0, .1);
+    }
+    .year strong {
+      display: block;
+      color: var(--row-accent);
+      font-size: 1rem;
+    }
+    .year span {
+      display: block;
+      margin-top: 5px;
+      color: rgba(238, 246, 241, .62);
+      font-size: .72rem;
+      font-weight: 500;
+    }
+
+    tbody td {
+      width: 164px;
+      min-width: 164px;
+      padding: 8px;
+      vertical-align: top;
+    }
+
+    .cell-stack { display: grid; gap: 6px; }
+    .milestone {
+      width: 100%;
+      min-height: 58px;
+      padding: 9px 10px 10px;
+      display: block;
+      text-align: left;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      background: rgba(6, 10, 8, .17);
+      cursor: pointer;
+      transition: background .16s ease, border-color .16s ease, transform .16s ease, box-shadow .16s ease;
+    }
+    .milestone:hover {
+      background: rgba(7, 13, 10, .48);
+      border-color: color-mix(in srgb, var(--row-accent) 60%, transparent);
+      transform: translateY(-1px);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, .18);
+    }
+    .milestone:focus-visible {
+      outline: 2px solid var(--row-accent);
+      outline-offset: 2px;
+    }
+    .milestone-top {
+      min-height: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+    }
+    .milestone time {
+      color: color-mix(in srgb, var(--row-accent) 65%, white);
+      font-size: .7rem;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: .04em;
+    }
+    .markers { display: inline-flex; gap: 3px; font-size: .58rem; }
+    .marker-major { color: var(--gold); }
+    .marker-free { color: var(--green); }
+    .milestone-title {
+      display: block;
+      margin-top: 3px;
+      color: #f1f6f3;
+      font-size: .89rem;
+      line-height: 1.28;
+      font-weight: 560;
+      overflow-wrap: anywhere;
+    }
+
+    dialog {
+      width: min(860px, calc(100vw - 32px));
+      max-width: none;
+      max-height: min(88dvh, 900px);
+      padding: 0;
+      color: var(--text);
+      background: transparent;
+      border: 0;
+      overflow: visible;
+    }
+    dialog::backdrop {
+      background: rgba(0, 5, 3, .8);
+      backdrop-filter: blur(7px);
+    }
+
+    .dialog-panel {
+      max-height: min(88dvh, 900px);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background:
+        linear-gradient(145deg, rgba(31, 48, 39, .62), transparent 34%),
+        #111815;
+      border: 1px solid rgba(82, 228, 145, .34);
+      border-radius: 16px;
+      box-shadow: 0 30px 100px rgba(0, 0, 0, .62), 0 0 45px rgba(61, 221, 132, .08);
+    }
+
+    .dialog-header {
+      position: relative;
+      padding: 24px 64px 19px 24px;
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      border-bottom: 1px solid var(--line);
+    }
+    .logo-wrap {
+      width: 46px;
+      height: 46px;
+      flex: 0 0 46px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: rgba(255, 255, 255, .94);
+      overflow: hidden;
+      color: #173322;
+      font-weight: 850;
+    }
+    .logo-wrap img { width: 32px; height: 32px; object-fit: contain; }
+    .dialog-heading { min-width: 0; }
+    .eyebrow {
+      margin: 0 0 5px;
+      color: var(--green);
+      font-size: .72rem;
+      font-weight: 750;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .dialog-heading h2 {
+      margin: 0;
+      font-size: clamp(1.45rem, 3vw, 2.1rem);
+      line-height: 1.13;
+      overflow-wrap: anywhere;
+    }
+    .source-title {
+      margin: 7px 0 0;
+      max-width: 680px;
+      color: var(--muted);
+      font-size: .9rem;
+      line-height: 1.45;
+    }
+    .close-button {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      color: var(--muted);
+      background: rgba(255, 255, 255, .035);
+      cursor: pointer;
+    }
+    .close-button:hover { color: white; border-color: var(--line-strong); }
+    .close-button:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+
+    .dialog-scroll {
+      padding: 20px 24px 28px;
+      overflow-y: auto;
+      scrollbar-color: #3e6150 transparent;
+    }
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 20px;
+    }
+    .badge {
+      padding: 5px 9px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: #c6d4cc;
+      background: rgba(255, 255, 255, .028);
+      font-size: .74rem;
+    }
+    .badge-accent { color: var(--green); border-color: rgba(78, 230, 140, .32); background: rgba(78, 230, 140, .06); }
+    .badge-gold { color: var(--gold); border-color: rgba(232, 199, 119, .3); background: rgba(232, 199, 119, .055); }
+
+    .section-title {
+      margin: 0 0 10px;
+      color: #f0f6f2;
+      font-size: .8rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .description {
+      color: #cbd6d0;
+      font-size: .96rem;
+      line-height: 1.78;
+    }
+    .description p { margin: 0 0 12px; }
+    .description p:last-child { margin-bottom: 0; }
+    .description ul { margin: 0 0 12px; padding-left: 1.2rem; }
+    .description li + li { margin-top: 4px; }
+    .description strong { color: #eff8f2; font-weight: 720; }
+
+    .nodes-heading {
+      margin-top: 27px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .nodes-heading .section-title { margin: 0; }
+    .node-count { color: var(--muted); font-size: .76rem; }
+    .node-list { margin-top: 11px; display: grid; gap: 8px; }
+    .node {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: rgba(255, 255, 255, .018);
+      overflow: clip;
+    }
+    .node[open] { border-color: rgba(78, 230, 140, .25); background: rgba(78, 230, 140, .025); }
+    .node summary {
+      min-height: 48px;
+      padding: 12px 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      list-style: none;
+      font-size: .9rem;
+      font-weight: 650;
+    }
+    .node summary::-webkit-details-marker { display: none; }
+    .node summary::after {
+      content: "+";
+      margin-left: auto;
+      color: var(--green);
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+    .node[open] summary::after { content: "−"; }
+    .node summary:focus-visible { outline: 2px solid var(--green); outline-offset: -2px; }
+    .node-index {
+      width: 24px;
+      height: 24px;
+      flex: 0 0 24px;
+      display: grid;
+      place-items: center;
+      color: var(--green);
+      background: var(--green-dark);
+      border: 1px solid rgba(78, 230, 140, .24);
+      border-radius: 7px;
+      font-size: .68rem;
+      font-variant-numeric: tabular-nums;
+    }
+    .node-body {
+      padding: 0 14px 15px 48px;
+      color: #b8c8bf;
+      font-size: .9rem;
+      line-height: 1.7;
+    }
+
+    .dialog-footer {
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      border-top: 1px solid var(--line);
+      background: rgba(8, 13, 11, .94);
+    }
+    .footer-note { color: var(--muted); font-size: .76rem; line-height: 1.4; }
+    .source-link {
+      flex: 0 0 auto;
+      padding: 10px 15px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #07130b;
+      background: var(--green);
+      border-radius: 9px;
+      text-decoration: none;
+      font-size: .86rem;
+      font-weight: 780;
+      box-shadow: 0 8px 24px rgba(78, 230, 140, .14);
+    }
+    .source-link:hover { background: #72f2a7; }
+    .source-link:focus-visible { outline: 2px solid white; outline-offset: 3px; }
+
+    @media (max-width: 760px) {
+      .topbar { min-height: 64px; padding: 10px 12px; gap: 10px; }
+      .brand-mark { width: 38px; height: 38px; flex-basis: 38px; }
+      .brand-name { font-size: 1rem; }
+      .brand-note { display: none; }
+      .stats .stat:nth-child(2), .stats .stat:nth-child(3) { display: none; }
+      .contextbar { padding: 7px 12px; }
+      .contextbar > span:last-child { display: none; }
+      dialog { width: calc(100vw - 16px); max-height: 94dvh; }
+      .dialog-panel { max-height: 94dvh; border-radius: 13px; }
+      .dialog-header { padding: 18px 54px 16px 16px; gap: 11px; }
+      .logo-wrap { width: 40px; height: 40px; flex-basis: 40px; }
+      .logo-wrap img { width: 27px; height: 27px; }
+      .dialog-scroll { padding: 17px 16px 24px; }
+      .dialog-footer { padding: 12px 16px; align-items: stretch; flex-direction: column; gap: 10px; }
+      .source-link { justify-content: center; }
+      .node-body { padding-left: 14px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+    }
+
+    @media print {
+      body { overflow: visible; background: white; color: black; }
+      .app { height: auto; }
+      .topbar, .contextbar { position: static; color: black; background: white; }
+      .table-shell { overflow: visible; }
+      table { width: 100%; font-size: 8px; }
+      thead th, tbody td { width: auto; min-width: 0; }
+      .year, .year-head, thead th { position: static !important; }
+      dialog { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <main class="table-shell" tabindex="0" aria-label="">
+      <table aria-label="LLM 经典论文与技术里程碑">
+    <thead><tr><th class="year-head" scope="col">年份</th><th scope="col">LLM</th><th scope="col">大模型训练</th><th scope="col">微调</th><th scope="col">对齐</th><th scope="col">量化</th><th scope="col">大模型技术</th><th scope="col">开发框架</th><th scope="col">Agent</th><th scope="col">LVM 大视觉模型</th><th scope="col">MMLM 多模态大模型</th><th scope="col">语音模型</th><th scope="col">文生图</th><th scope="col">模型哲学</th><th scope="col">显卡</th></tr></thead>
+    <tbody><tr style="--row-bg:rgba(31, 66, 51, .82);--row-accent:#4ddc91">
+      <th class="year" scope="row"><strong>2017</strong><span>5 篇</span></th>
+      <td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="165" aria-label="查看 Transformer 详情">
+          <span class="milestone-top"><time datetime="2017-06-12">06.12</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span><span class="marker marker-free" title="免费内容" aria-label="免费内容">●</span></span></span>
+          <span class="milestone-title">Transformer</span>
+        </button></div></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="166" aria-label="查看 RLHF 详情">
+          <span class="milestone-top"><time datetime="2017-07-02">07.02</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">RLHF</span>
+        </button><button class="milestone" type="button" data-milestone-id="167" aria-label="查看 PPO 详情">
+          <span class="milestone-top"><time datetime="2017-07-20">07.20</time><span class="markers"></span></span>
+          <span class="milestone-title">PPO</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="168" aria-label="查看 QAT 详情">
+          <span class="milestone-top"><time datetime="2017-12-15">12.15</time><span class="markers"></span></span>
+          <span class="milestone-title">QAT</span>
+        </button></div></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="164" aria-label="查看 V100 详情">
+          <span class="milestone-top"><time datetime="2017-05-11">05.11</time><span class="markers"></span></span>
+          <span class="milestone-title">V100</span>
+        </button></div></td>
+    </tr><tr style="--row-bg:rgba(67, 47, 55, .78);--row-accent:#ef7c9e">
+      <th class="year" scope="row"><strong>2018</strong><span>6 篇</span></th>
+      <td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="170" aria-label="查看 GPT-1 详情">
+          <span class="milestone-top"><time datetime="2018-06-11">06.11</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span><span class="marker marker-free" title="免费内容" aria-label="免费内容">●</span></span></span>
+          <span class="milestone-title">GPT-1</span>
+        </button><button class="milestone" type="button" data-milestone-id="172" aria-label="查看 BERT 详情">
+          <span class="milestone-top"><time datetime="2018-10-11">10.11</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span><span class="marker marker-free" title="免费内容" aria-label="免费内容">●</span></span></span>
+          <span class="milestone-title">BERT</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="173" aria-label="查看 GPipe 详情">
+          <span class="milestone-top"><time datetime="2018-11-16">11.16</time><span class="markers"></span></span>
+          <span class="milestone-title">GPipe</span>
+        </button></div></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="169" aria-label="查看 Top-k 详情">
+          <span class="milestone-top"><time datetime="2018-05-13">05.13</time><span class="markers"></span></span>
+          <span class="milestone-title">Top-k</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="174" aria-label="查看 Hugging Face 详情">
+          <span class="milestone-top"><time datetime="2018-11-26">11.26</time><span class="markers"></span></span>
+          <span class="milestone-title">Hugging Face</span>
+        </button></div></td><td></td><td></td><td></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="171" aria-label="查看 Tesla T4 详情">
+          <span class="milestone-top"><time datetime="2018-09-13">09.13</time><span class="markers"></span></span>
+          <span class="milestone-title">Tesla T4</span>
+        </button></div></td>
+    </tr><tr style="--row-bg:rgba(43, 54, 67, .86);--row-accent:#78a9e6">
+      <th class="year" scope="row"><strong>2019</strong><span>6 篇</span></th>
+      <td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="175" aria-label="查看 GPT-2 详情">
+          <span class="milestone-top"><time datetime="2019-02-14">02.14</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">GPT-2</span>
+        </button><button class="milestone" type="button" data-milestone-id="179" aria-label="查看 T5 详情">
+          <span class="milestone-top"><time datetime="2019-10-23">10.23</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">T5</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="177" aria-label="查看 Tensor Parallel 详情">
+          <span class="milestone-top"><time datetime="2019-09-17">09.17</time><span class="markers"></span></span>
+          <span class="milestone-title">Tensor Parallel</span>
+        </button><button class="milestone" type="button" data-milestone-id="178" aria-label="查看 Data Parallel 详情">
+          <span class="milestone-top"><time datetime="2019-10-07">10.07</time><span class="markers"></span></span>
+          <span class="milestone-title">Data Parallel</span>
+        </button></div></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="176" aria-label="查看 Top-p 详情">
+          <span class="milestone-top"><time datetime="2019-04-22">04.22</time><span class="markers"></span></span>
+          <span class="milestone-title">Top-p</span>
+        </button><button class="milestone" type="button" data-milestone-id="180" aria-label="查看 MQA 详情">
+          <span class="milestone-top"><time datetime="2019-11-06">11.06</time><span class="markers"></span></span>
+          <span class="milestone-title">MQA</span>
+        </button></div></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr><tr style="--row-bg:rgba(62, 56, 40, .82);--row-accent:#e7bd63">
+      <th class="year" scope="row"><strong>2020</strong><span>5 篇</span></th>
+      <td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="183" aria-label="查看 GPT-3 详情">
+          <span class="milestone-top"><time datetime="2020-05-28">05.28</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">GPT-3</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="184" aria-label="查看 GShard 详情">
+          <span class="milestone-top"><time datetime="2020-06-30">06.30</time><span class="markers"></span></span>
+          <span class="milestone-title">GShard</span>
+        </button></div></td><td></td><td></td><td></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="216" aria-label="查看 ViT 详情">
+          <span class="milestone-top"><time datetime="2020-10-22">10.22</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">ViT</span>
+        </button></div></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="181" aria-label="查看 Scaling Law 详情">
+          <span class="milestone-top"><time datetime="2020-01-23">01.23</time><span class="markers"></span></span>
+          <span class="milestone-title">Scaling Law</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="182" aria-label="查看 A100 详情">
+          <span class="milestone-top"><time datetime="2020-05-04">05.04</time><span class="markers"></span></span>
+          <span class="milestone-title">A100</span>
+        </button></div></td>
+    </tr><tr style="--row-bg:rgba(53, 48, 65, .84);--row-accent:#a98bdc">
+      <th class="year" scope="row"><strong>2021</strong><span>11 篇</span></th>
+      <td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="202" aria-label="查看 CodeX 详情">
+          <span class="milestone-top"><time datetime="2021-07-07">07.07</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">CodeX</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="197" aria-label="查看 Switch Transformer 详情">
+          <span class="milestone-top"><time datetime="2021-01-11">01.11</time><span class="markers"></span></span>
+          <span class="milestone-title">Switch Transformer</span>
+        </button><button class="milestone" type="button" data-milestone-id="198" aria-label="查看 ZeRO-Offload 详情">
+          <span class="milestone-top"><time datetime="2021-01-18">01.18</time><span class="markers"></span></span>
+          <span class="milestone-title">ZeRO-Offload</span>
+        </button><button class="milestone" type="button" data-milestone-id="199" aria-label="查看 Megatron-LM：3D 并行 详情">
+          <span class="milestone-top"><time datetime="2021-04-09">04.09</time><span class="markers"></span></span>
+          <span class="milestone-title">Megatron-LM：3D 并行</span>
+        </button><button class="milestone" type="button" data-milestone-id="200" aria-label="查看 ZeRO-Infinity 详情">
+          <span class="milestone-top"><time datetime="2021-04-16">04.16</time><span class="markers"></span></span>
+          <span class="milestone-title">ZeRO-Infinity</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="201" aria-label="查看 LoRA 详情">
+          <span class="milestone-top"><time datetime="2021-06-17">06.17</time><span class="markers"></span></span>
+          <span class="milestone-title">LoRA</span>
+        </button></div></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="203" aria-label="查看 GLaM 详情">
+          <span class="milestone-top"><time datetime="2021-12-13">12.13</time><span class="markers"></span></span>
+          <span class="milestone-title">GLaM</span>
+        </button></div></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="217" aria-label="查看 ViLT 详情">
+          <span class="milestone-top"><time datetime="2021-02-05">02.05</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">ViLT</span>
+        </button><button class="milestone" type="button" data-milestone-id="222" aria-label="查看 CLIP 详情">
+          <span class="milestone-top"><time datetime="2021-02-26">02.26</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">CLIP</span>
+        </button></div></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="221" aria-label="查看 DALL·E 1 详情">
+          <span class="milestone-top"><time datetime="2021-02-24">02.24</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">DALL·E 1</span>
+        </button><button class="milestone" type="button" data-milestone-id="223" aria-label="查看 Stable Diffusion 详情">
+          <span class="milestone-top"><time datetime="2021-12-20">12.20</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">Stable Diffusion</span>
+        </button></div></td><td></td><td></td>
+    </tr><tr style="--row-bg:rgba(38, 61, 62, .82);--row-accent:#5dc9cf">
+      <th class="year" scope="row"><strong>2022</strong><span>10 篇</span></th>
+      <td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="204" aria-label="查看 AlphaCode 详情">
+          <span class="milestone-top"><time datetime="2022-02-08">02.08</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">AlphaCode</span>
+        </button><button class="milestone" type="button" data-milestone-id="205" aria-label="查看 instructGPT 详情">
+          <span class="milestone-top"><time datetime="2022-03-04">03.04</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">instructGPT</span>
+        </button></div></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="208" aria-label="查看 LLM.int8() 详情">
+          <span class="milestone-top"><time datetime="2022-08-15">08.15</time><span class="markers"></span></span>
+          <span class="milestone-title">LLM.int8()</span>
+        </button><button class="milestone" type="button" data-milestone-id="229" aria-label="查看 GPTQ 详情">
+          <span class="milestone-top"><time datetime="2022-10-31">10.31</time><span class="markers"></span></span>
+          <span class="milestone-title">GPTQ</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="210" aria-label="查看 FlashAttention 详情">
+          <span class="milestone-top"><time datetime="2022-05-27">05.27</time><span class="markers"></span></span>
+          <span class="milestone-title">FlashAttention</span>
+        </button></div></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="209" aria-label="查看 COT 详情">
+          <span class="milestone-top"><time datetime="2022-02-28">02.28</time><span class="markers"></span></span>
+          <span class="milestone-title">COT</span>
+        </button></div></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="228" aria-label="查看 Whisper 详情">
+          <span class="milestone-top"><time datetime="2022-12-06">12.06</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">Whisper</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="224" aria-label="查看 DALL·E 2 详情">
+          <span class="milestone-top"><time datetime="2022-04-13">04.13</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">DALL·E 2</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="207" aria-label="查看 Chinchilla 详情">
+          <span class="milestone-top"><time datetime="2022-03-29">03.29</time><span class="markers"></span></span>
+          <span class="milestone-title">Chinchilla</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="206" aria-label="查看 H100 详情">
+          <span class="milestone-top"><time datetime="2022-03-22">03.22</time><span class="markers"></span></span>
+          <span class="milestone-title">H100</span>
+        </button></div></td>
+    </tr><tr style="--row-bg:rgba(55, 46, 63, .84);--row-accent:#c58bda">
+      <th class="year" scope="row"><strong>2023</strong><span>12 篇</span></th>
+      <td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="211" aria-label="查看 LLaMA-1 详情">
+          <span class="milestone-top"><time datetime="2023-02-27">02.27</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">LLaMA-1</span>
+        </button><button class="milestone" type="button" data-milestone-id="213" aria-label="查看 LLaMA-2 详情">
+          <span class="milestone-top"><time datetime="2023-07-18">07.18</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">LLaMA-2</span>
+        </button><button class="milestone" type="button" data-milestone-id="214" aria-label="查看 Qwen-1 详情">
+          <span class="milestone-top"><time datetime="2023-09-28">09.28</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">Qwen-1</span>
+        </button><button class="milestone" type="button" data-milestone-id="215" aria-label="查看 Mistral 7B 详情">
+          <span class="milestone-top"><time datetime="2023-10-10">10.10</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">Mistral 7B</span>
+        </button></div></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="231" aria-label="查看 QLoRA 详情">
+          <span class="milestone-top"><time datetime="2023-05-23">05.23</time><span class="markers"></span></span>
+          <span class="milestone-title">QLoRA</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="230" aria-label="查看 DPO 详情">
+          <span class="milestone-top"><time datetime="2023-05-19">05.19</time><span class="markers"></span></span>
+          <span class="milestone-title">DPO</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="232" aria-label="查看 AWQ 详情">
+          <span class="milestone-top"><time datetime="2023-06-01">06.01</time><span class="markers"></span></span>
+          <span class="milestone-title">AWQ</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="212" aria-label="查看 FlashAttention-2 详情">
+          <span class="milestone-top"><time datetime="2023-07-17">07.17</time><span class="markers"></span></span>
+          <span class="milestone-title">FlashAttention-2</span>
+        </button></div></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="227" aria-label="查看 LVM 详情">
+          <span class="milestone-top"><time datetime="2023-12-01">12.01</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">LVM</span>
+        </button></div></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="225" aria-label="查看 LLaVA 详情">
+          <span class="milestone-top"><time datetime="2023-04-17">04.17</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">LLaVA</span>
+        </button><button class="milestone" type="button" data-milestone-id="226" aria-label="查看 Qwen-VL 详情">
+          <span class="milestone-top"><time datetime="2023-08-24">08.24</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">Qwen-VL</span>
+        </button></div></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="245" aria-label="查看 H200 详情">
+          <span class="milestone-top"><time datetime="2023-11-13">11.13</time><span class="markers"></span></span>
+          <span class="milestone-title">H200</span>
+        </button></div></td>
+    </tr><tr style="--row-bg:rgba(61, 46, 50, .84);--row-accent:#e38291">
+      <th class="year" scope="row"><strong>2024</strong><span>11 篇</span></th>
+      <td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="236" aria-label="查看 Mixtral 8x7B 详情">
+          <span class="milestone-top"><time datetime="2024-02-08">02.08</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">Mixtral 8x7B</span>
+        </button><button class="milestone" type="button" data-milestone-id="237" aria-label="查看 Gemma 1 详情">
+          <span class="milestone-top"><time datetime="2024-03-13">03.13</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">Gemma 1</span>
+        </button><button class="milestone" type="button" data-milestone-id="238" aria-label="查看 ChatGLM 详情">
+          <span class="milestone-top"><time datetime="2024-06-18">06.18</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">ChatGLM</span>
+        </button><button class="milestone" type="button" data-milestone-id="239" aria-label="查看 Llama 3 详情">
+          <span class="milestone-top"><time datetime="2024-07-23">07.23</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">Llama 3</span>
+        </button><button class="milestone" type="button" data-milestone-id="240" aria-label="查看 Gemma 2 详情">
+          <span class="milestone-top"><time datetime="2024-07-31">07.31</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">Gemma 2</span>
+        </button><button class="milestone" type="button" data-milestone-id="242" aria-label="查看 DeepSeek-V2 详情">
+          <span class="milestone-top"><time datetime="2024-05-07">05.07</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">DeepSeek-V2</span>
+        </button><button class="milestone" type="button" data-milestone-id="243" aria-label="查看 DeepSeek-V3 详情">
+          <span class="milestone-top"><time datetime="2024-12-27">12.27</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">DeepSeek-V3</span>
+        </button></div></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="233" aria-label="查看 KTO 详情">
+          <span class="milestone-top"><time datetime="2024-02-02">02.02</time><span class="markers"></span></span>
+          <span class="milestone-title">KTO</span>
+        </button><button class="milestone" type="button" data-milestone-id="234" aria-label="查看 ORPO 详情">
+          <span class="milestone-top"><time datetime="2024-03-12">03.12</time><span class="markers"></span></span>
+          <span class="milestone-title">ORPO</span>
+        </button><button class="milestone" type="button" data-milestone-id="235" aria-label="查看 SimPO 详情">
+          <span class="milestone-top"><time datetime="2024-05-23">05.23</time><span class="markers"></span></span>
+          <span class="milestone-title">SimPO</span>
+        </button></div></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="249" aria-label="查看 B200 详情">
+          <span class="milestone-top"><time datetime="2024-06-07">06.07</time><span class="markers"></span></span>
+          <span class="milestone-title">B200</span>
+        </button></div></td>
+    </tr><tr style="--row-bg:rgba(39, 55, 66, .86);--row-accent:#78b6da">
+      <th class="year" scope="row"><strong>2025</strong><span>3 篇</span></th>
+      <td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="241" aria-label="查看 Gemma 3 详情">
+          <span class="milestone-top"><time datetime="2025-03-25">03.25</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">Gemma 3</span>
+        </button><button class="milestone" type="button" data-milestone-id="244" aria-label="查看 DeepSeek-R1 详情">
+          <span class="milestone-top"><time datetime="2025-01-22">01.22</time><span class="markers"><span class="marker marker-major" title="关键里程碑" aria-label="关键里程碑">◆</span></span></span>
+          <span class="milestone-title">DeepSeek-R1</span>
+        </button></div></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="250" aria-label="查看 B300 详情">
+          <span class="milestone-top"><time datetime="2025-03-18">03.18</time><span class="markers"></span></span>
+          <span class="milestone-title">B300</span>
+        </button></div></td>
+    </tr><tr style="--row-bg:rgba(38, 64, 51, .84);--row-accent:#64d398">
+      <th class="year" scope="row"><strong>2026</strong><span>1 篇</span></th>
+      <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td><div class="cell-stack"><button class="milestone" type="button" data-milestone-id="251" aria-label="查看 Rubin GPU 详情">
+          <span class="milestone-top"><time datetime="2026-01-07">01.07</time><span class="markers"></span></span>
+          <span class="milestone-title">Rubin GPU</span>
+        </button></div></td>
+    </tr></tbody>
+  </table>
+    </main>
+  </div>
+
+  <dialog id="detail-dialog" aria-labelledby="dialog-title">
+    <article class="dialog-panel">
+      <header class="dialog-header">
+        <div class="logo-wrap" id="logo-wrap" aria-hidden="true"><span id="logo-fallback">LL</span></div>
+        <div class="dialog-heading">
+          <p class="eyebrow" id="dialog-date"></p>
+          <h2 id="dialog-title"></h2>
+          <p class="source-title" id="dialog-source"></p>
+        </div>
+        <button class="close-button" id="close-dialog" type="button" aria-label="关闭详情">✕</button>
+      </header>
+
+      <div class="dialog-scroll">
+        <div class="badges" id="dialog-badges"></div>
+        <section aria-labelledby="description-title">
+          <h3 class="section-title" id="description-title">内容介绍</h3>
+          <div class="description" id="dialog-description"></div>
+        </section>
+        <section aria-labelledby="nodes-title">
+          <div class="nodes-heading">
+            <h3 class="section-title" id="nodes-title">学习节点</h3>
+            <span class="node-count" id="node-count"></span>
+          </div>
+          <div class="node-list" id="node-list"></div>
+        </section>
+      </div>
+
+      <footer class="dialog-footer">
+        <a class="source-link" id="source-link" href="#" target="_blank" rel="noopener noreferrer">阅读原文 <span aria-hidden="true">↗</span></a>
+      </footer>
+    </article>
+  </dialog>
+
+  <script id="learning-data" type="application/json">{"snapshotDate":"2026-09-08","types":[{"id":1,"slug":"llm","title":"LLM","order":1},{"id":6,"slug":"llm-training","title":"大模型训练","order":2},{"id":13,"slug":"fine-tuning","title":"微调","order":3},{"id":3,"slug":"alignment","title":"对齐","order":4},{"id":4,"slug":"quantization","title":"量化","order":5},{"id":5,"slug":"llm-tech","title":"大模型技术","order":6},{"id":7,"slug":"framework","title":"开发框架","order":7},{"id":14,"slug":"agent","title":"Agent","order":8},{"id":9,"slug":"lvm","title":"LVM 大视觉模型","order":9},{"id":10,"slug":"mmlm","title":"MMLM 多模态大模型","order":10},{"id":11,"slug":"speech-model","title":"语音模型","order":11},{"id":12,"slug":"text-to-image","title":"文生图","order":12},{"id":8,"slug":"model-philosophy","title":"模型哲学","order":13},{"id":2,"slug":"gpu","title":"显卡","order":14}],"milestones":[{"id":164,"slug":"tesla-v100","title":"V100","description":"NVIDIA Tesla V100 GPU","sourceName":"NVIDIA Tesla V100 GPU Architecture","sourceUrl":"https://images.nvidia.com/content/volta-architecture/pdf/volta-architecture-whitepaper.pdf","publishedDate":"2017-05-11","isFree":false,"isMajor":false,"logoUrl":"","types":["gpu"],"nodes":[{"id":397,"slug":"tesla-v100-basics","title":"V100","description":"英伟达 V100 通过其革命性的 Volta 架构，特别是首次引入的 Tensor Core，为 AI 和科学计算领域树立了新的性能标杆。它不仅是一款产品，更标志着计算范式向加速计算转变的关键节点，为后续更先进的 GPU（如 A100、H100）奠定了坚实的技术基础。","order":1,"sourceName":"","sourceUrl":""}]},{"id":165,"slug":"transformer","title":"Transformer","description":"在 Transformer 出现之前，处理序列数据（如语言）的主流模型是循环神经网络（RNN）及其变体（如 LSTM、GRU）。然而，RNN 存在一个根本性缺陷：顺序处理。它必须逐个处理序列中的词元，导致计算无法并行化，训练速度非常慢。更关键的是，RNN 在处理长序列时难以记住远距离的依赖关系（即句子开头的信息可能难以影响到句子末尾的生成），这被称为长程依赖问题。虽然一些研究尝试使用卷积神经网络或结合注意力机制来改进，但效果有限，且注意力机制通常只是作为 RNN 的辅助工具。\r\nTransformer 模型是自然语言处理领域的一个革命性工作，它彻底改变了序列处理模型的设计思路，为当今众多大语言模型奠定了核心架构基础。","sourceName":"Attention Is All You Need","sourceUrl":"https://arxiv.org/abs/1706.03762","publishedDate":"2017-06-12","isFree":true,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/google.svg","types":["llm"],"nodes":[{"id":398,"slug":"transformer-data","title":"数据","description":"论文中的主要实验是在两个公认的高质量机器翻译数据集上进行的：WMT 2014 英语-德语翻译数据集和 WMT 2014 英语-法语翻译数据集。","order":1,"sourceName":"","sourceUrl":""},{"id":399,"slug":"transformer-model","title":"模型","description":"Transformer 架构的核心思想是完全摒弃传统的循环神经网络和卷积神经网络，仅依赖自注意力机制来捕捉输入序列中的全局依赖关系，从而实现极高的并行化处理能力。","order":2,"sourceName":"","sourceUrl":""},{"id":400,"slug":"transformer-training","title":"训练细节","description":"Transformer 的训练成功得益于几个关键设计，除了高效的并行化架构，摆脱了 RNN 的序列依赖性，大大缩短了训练时间；还有精心调校的优化策略，特别是带有预热的 Adam 优化器，确保了稳定快速的收敛；也包括了有效的正则化组合，残差 Dropout 和标签平滑共同作用，防止了在深层网络和大模型上的过拟合。","order":3,"sourceName":"","sourceUrl":""},{"id":401,"slug":"transformer-evaluation","title":"评估","description":"Transformer通过纯注意力机制取代循环/卷积结构，在翻译质量、训练速度与泛化能力上均取得突破，为后续序列建模研究奠定了新范式","order":4,"sourceName":"","sourceUrl":""}]},{"id":166,"slug":"rlhf","title":"RLHF","description":"传统强化学习需要设计精确的奖励函数，但这在复杂任务中可能不切实际。RLHF 转而利用人类对智能体行为轨迹的偏好进行比较（例如，展示两段轨迹片段，让人选择哪个更优），从而间接定义学习目标。","sourceName":"Deep reinforcement learning from human preferences","sourceUrl":"https://arxiv.org/abs/1706.03741","publishedDate":"2017-07-02","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/openai.svg","types":["alignment"],"nodes":[{"id":402,"slug":"rlhf-basics","title":"RLHF","description":"传统强化学习需要设计精确的奖励函数，但这在复杂任务中可能不切实际。RLHF 转而利用人类对智能体行为轨迹的偏好进行比较（例如，展示两段轨迹片段，让人选择哪个更优），从而间接定义学习目标。","order":1,"sourceName":"","sourceUrl":""}]},{"id":167,"slug":"ppo","title":"PPO","description":"与传统的策略梯度方法（每采样一个数据样本就进行一次梯度更新）不同，PPO 提出了一个新的目标函数，使得可以进行多个轮次的小批量更新，大大提高了数据利用效率。PPO算法旨在获得信任域策略优化（TRPO） 算法的主要优点（即稳定、单调提升的性能），但同时具有显著优势：PPO 的实现比 TRPO 简单得多，无需复杂的二阶优化计算；易于与各种模型架构（如循环神经网络）结合；经验证据表明，PPO 在单位时间内能取得更好的性能。","sourceName":"Proximal Policy Optimization Algorithms","sourceUrl":"https://arxiv.org/abs/1707.06347","publishedDate":"2017-07-20","isFree":false,"isMajor":false,"logoUrl":"https://learnllm.ai/logo/openai.svg","types":["alignment"],"nodes":[{"id":403,"slug":"ppo-basics","title":"PPO","description":"与传统的策略梯度方法（每采样一个数据样本就进行一次梯度更新）不同，PPO 提出了一个新的目标函数，使得可以进行多个轮次的小批量更新，大大提高了数据利用效率。PPO 算法旨在获得信任域策略优化（TRPO） 算法的主要优点（即稳定、单调提升的性能），但同时具有显著优势：PPO 的实现比 TRPO 简单得多，无需复杂的二阶优化计算；易于与各种模型架构（如循环神经网络）结合；经验证据表明，PPO 在单位时间内能取得更好的性能。","order":1,"sourceName":"Proximal Policy Optimization Algorithms","sourceUrl":"https://arxiv.org/abs/1707.06347"}]},{"id":168,"slug":"qat","title":"QAT","description":"深度学习模型通常使用32位浮点数（FP32）进行计算，计算成本和内存占用高，难以在只有低精度整数运算单元的低功耗硬件上高效运行。\n\n论文提出了一套完整的量化感知训练（Quantization-Aware Training, QAT） 方案，其核心目标是实现仅使用整数运算就能高效完成神经网络推理，从而显著提升模型在移动设备、嵌入式系统等资源受限环境下的部署效率。\n\n它设计了一种量化方法，使得前向推理过程中的所有权重和激活值都可以用8位整数（INT8）表示和计算，从而利用整数运算的高效性，同时尽可能保持模型原有的精度。","sourceName":"Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference","sourceUrl":"https://arxiv.org/abs/1712.05877","publishedDate":"2017-12-15","isFree":false,"isMajor":false,"logoUrl":"","types":["quantization"],"nodes":[{"id":404,"slug":"qat-overview","title":"QAT","description":"深度学习模型通常使用32位浮点数（FP32）进行计算，计算成本和内存占用高，难以在只有低精度整数运算单元的低功耗硬件上高效运行。\n\n论文提出了一套完整的量化感知训练（Quantization-Aware Training, QAT） 方案，其核心目标是实现仅使用整数运算就能高效完成神经网络推理，从而显著提升模型在移动设备、嵌入式系统等资源受限环境下的部署效率。\n\n它设计了一种量化方法，使得前向推理过程中的所有权重和激活值都可以用8位整数（INT8）表示和计算，从而利用整数运算的高效性，同时尽可能保持模型原有的精度。","order":1,"sourceName":"Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference","sourceUrl":"https://arxiv.org/abs/1712.05877"}]},{"id":169,"slug":"top-k","title":"Top-k","description":"2018 年，Top-k 采样这一方法在《Hierarchical Neural Story Generation》这篇论文中被正式提出并推广。该论文由 Angela Fan、Mike Lewis 和 Yann Dauphin 共同撰写，并在 ICLR 2018 会议上发表。虽然同期还有其他研究（如 Holtzman 等人 2018 年的工作）也探索了类似的采样思想，但 Fan 等人的这篇论文是系统阐述并将 Top-k 采样应用于故事生成这一开放域文本生成任务的标志性工作之一。","sourceName":"Hierarchical Neural Story Generation","sourceUrl":"https://arxiv.org/abs/1805.04833","publishedDate":"2018-05-13","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-tech"],"nodes":[{"id":405,"slug":"top-k-basics","title":"Top-k","description":"2018 年，Top-k 采样这一方法在《Hierarchical Neural Story Generation》这篇论文中被正式提出并推广。该论文由 Angela Fan、Mike Lewis 和 Yann Dauphin 共同撰写，并在 ICLR 2018 会议上发表。虽然同期还有其他研究（如 Holtzman 等人 2018 年的工作）也探索了类似的采样思想，但 Fan 等人的这篇论文是系统阐述并将 Top-k 采样应用于故事生成这一开放域文本生成任务的标志性工作之一。","order":1,"sourceName":"Hierarchical Neural Story Generation","sourceUrl":"https://arxiv.org/abs/1805.04833"}]},{"id":170,"slug":"gpt1","title":"GPT-1","description":"在 GPT-1 出现之前，主流自然语言处理方法严重依赖针对特定任务的大规模高质量标注数据进行有监督训练。这带来了两个主要问题：一是高质量标注数据的获取成本高昂，极大地限制了模型性能的上限；二是为不同任务（如文本分类、问答、语义相似度判断）训练专有模型，导致模型泛化能力差，难以适应新任务。同时，虽然 Word2Vec 等词向量技术缓解了对标注数据的部分依赖，但它们主要提供词级别的静态表示，难以捕捉更深层次的上下文语义信息。2017 年，Transformer 架构的提出为捕捉长距离依赖关系提供了更强大的模型基础。GPT-1（Generative Pre-trained Transformer 1）是 OpenAI 在 2018 年发布的生成式预训练语言模型，它首次将“无监督预训练 + 有监督微调”的两阶段范式成功应用于自然语言处理领域，为后续大语言模型的发展奠定了重要基础。","sourceName":"Improving Language Understanding by Generative Pre-Training","sourceUrl":"https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf","publishedDate":"2018-06-11","isFree":true,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/openai.svg","types":["llm"],"nodes":[{"id":406,"slug":"gpt1-pretraining-data","title":"预训练数据","description":"GPT-1 的成功很大程度上得益于在 BooksCorpus 这一高质量、长文本数据集上的生成式预训练，这为模型后续在各种下游任务上的出色泛化能力奠定了坚实基础。","order":1,"sourceName":"","sourceUrl":""},{"id":407,"slug":"gpt1-pretraining-model","title":"预训练模型","description":"GPT-1的核心创新在于一个简单而有效的两阶段框架：\n\n无监督生成式预训练：在一个大规模、多样化的文本语料库上，使用标准的语言建模目标（即根据前文预测下一个词）来训练一个通用模型。这使得模型能够学习到丰富的语言知识、世界知识和长距离依赖关系。\n\n有监督判别式微调：将预训练好的模型直接应用于下游任务（如文本分类、问答等），使用有标签的数据对模型进行微调。微调时，只需对模型输入进行最小化的调整，并增加一个简单的线性输出层。","order":2,"sourceName":"","sourceUrl":""},{"id":408,"slug":"gpt1-pretraining-details","title":"预训练细节","description":"预训练的目标是训练一个通用的语言模型，使其能够通过预测下一个词来理解和生成自然语言。这被认为是一种无监督学习，因为不需要人工标注的标签。","order":3,"sourceName":"","sourceUrl":""},{"id":409,"slug":"gpt1-downstream-data","title":"下游任务数据","description":"GPT-1的关键下游任务分为四类：\n- 文本分类（Text Classification）\n- 自然语言推理（Natural Language Inference）\n- 语义相似性（Semantic Similarity）\n- 问答与常识推理（Question Answering & Commonsense Reasoning）。","order":4,"sourceName":"","sourceUrl":""},{"id":410,"slug":"gpt1-finetuning-model","title":"微调模型","description":"GPT-1 采用两阶段训练：首先在大型无标注文本语料库（如 BooksCorpus）上进行生成式语言模型预训练，然后针对具体任务进行监督式微调。微调时，模型通过任务特定的输入变换，将结构化输入（如句子对、问答三元组）转换为单一令牌序列，从而最小化架构改动。","order":5,"sourceName":"","sourceUrl":""},{"id":411,"slug":"gpt1-finetuning-details","title":"微调细节","description":"GPT-1 的下游微调策略精髓在于 “最大程度复用，最小程度修改”：模型架构统一，几乎所有参数都来自预训练模型，微调阶段只引入极少量新参数（输出层 Wy和分隔符的嵌入）；输入格式统一，通过序列化转换，使不同任务都能被同一模型处理，无需为每个任务设计复杂定制架构；目标函数增强，通过加入语言模型辅助损失，有效平衡了特定任务学习和通用知识保留。","order":6,"sourceName":"","sourceUrl":""},{"id":412,"slug":"gpt1-evaluation","title":"评估","description":"GPT-1 在 12 个任务中的 9 个实现了state-of-the-art，包括GLUE基准（得分72.8，优于前最佳68.9）。其成功源于预训练捕获的长期依赖和世界知识，以及微调的灵活性。","order":7,"sourceName":"","sourceUrl":""}]},{"id":171,"slug":"gpu-tesla-t4","title":"Tesla T4","description":"NVIDIA Tesla T4 是基于 Turing 架构的 GPU，专为高能效 AI 推理和高密度服务器部署而设计。","sourceName":"NVIDIA","sourceUrl":"https://www.nvidia.com/en-us/data-center/tesla-t4/","publishedDate":"2018-09-13","isFree":false,"isMajor":false,"logoUrl":"","types":["gpu"],"nodes":[{"id":413,"slug":"gpu-tesla-t4-basics","title":"Tesla T4","description":"本节点介绍 NVIDIA Tesla T4 GPU 的核心技术，包括 Turing 架构、Tensor Core、RT Core 等。","order":1,"sourceName":"NVIDIA","sourceUrl":"https://www.nvidia.com/en-us/data-center/tesla-t4/"}]},{"id":172,"slug":"bert","title":"BERT","description":"在发布之初，BERT 在 11 项自然语言理解任务上取得了碾压性的突破，其“深层双向编码器”架构在需要深度语义理解的任务（如文本分类、情感分析、问答系统）上表现出了巨大优势。它证明了一个通用的、深度预训练的模型，仅需添加一个简单的输出层，就可以在多种任务上取得优异表现，极大地推动了“预训练 + 微调”范式的普及。\r\n\r\n尽管 GPT-1 在初始的各项理解任务评测中表现不如 BERT 耀眼，但它坚定地走在生成式预训练的道路上。其后的 GPT-2、GPT-3 等模型通过不断扩大模型规模和数据量，最终展现出强大的上下文学习（In-Context Learning）和提示驱动（Prompt-driven）能力，实现了无需微调即可完成多种任务的突破，最终引领了生成式 AI 的浪潮。","sourceName":"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding","sourceUrl":"https://arxiv.org/abs/1810.04805","publishedDate":"2018-10-11","isFree":true,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/google.svg","types":["llm"],"nodes":[{"id":414,"slug":"bert-pretraining-data","title":"预训练数据","description":"BERT 的预训练数据规模巨大、质量高、格式统一（文档级文本），并通过 MLM 和 NSP 这两个巧妙的预训练任务，使模型学会了丰富的语言知识和推理能力，为其在各种下游任务上的卓越表现奠定了坚实基础。数据来源是 BooksCorpus (书籍语料库) 和 英文维基百科 (English Wikipedia)。","order":1,"sourceName":"","sourceUrl":""},{"id":415,"slug":"bert-pretraining-model","title":"预训练模型","description":"BERT 沿用了 GPT-1 的“预训练-微调”范式，使用大规模无标注数据学习通用语言表示，并能通过微调适配多种下游任务","order":2,"sourceName":"","sourceUrl":""},{"id":416,"slug":"bert-pretraining-details","title":"预训练细节","description":"BERT的威力源于其两个精心设计的预训练任务，它们让模型学会了理解和推理语言：\n- 掩码语言模型（Masked Language Model, MLM）的目标是使模型能够进行深度双向的上下文理解。它随机遮蔽输入序列中15%的词汇，然后让模型根据上下文预测这些被遮蔽的原始词汇。这个过程类似于“完形填空”；\n- 下一句预测（Next Sentence Prediction, NSP）的目标是让模型理解句子间的关系，这对问答、自然语言推理等任务至关重要。","order":3,"sourceName":"","sourceUrl":""},{"id":417,"slug":"bert-downstream-data","title":"下游任务数据","description":"BERT 通过相对统一的架构和微调方法，适应了多种不同类型的下游自然语言处理任务，包括：句子对分类、单句分类、问答和序列标注。","order":4,"sourceName":"","sourceUrl":""},{"id":418,"slug":"bert-finetune-model","title":"微调模型","description":"BERT 沿用了 GPT-1 的“预训练（Pre-training）+ 微调（Fine-tuning）”的两阶段模式。预训练阶段（如通过 MLM 和 NSP 任务）让模型从海量文本中学习通用的语言规律和知识。微调阶段则利用下游任务（如文本分类、问答等）的标注数据，以较小的学习率对这些预训练参数进行端到端的更新，并训练一个新增的、相对简单的任务特定输出层（Task-Specific Head）。这种方式相比为每个任务从头训练模型，能大幅降低对标注数据量的需求，显著减少计算成本和时间，并凭借预训练获得的高质量初始参数，往往能实现更好的泛化性能，尤其在数据量较小的任务上表现更为突出。","order":5,"sourceName":"","sourceUrl":""},{"id":419,"slug":"bert-finetune-details","title":"微调细节","description":"BERT 微调的精髓在于，它并非让模型从头学起，而是引导一个已经具备通用语言知识的“通才”模型，快速适应特定的“专业”任务。这其中，针对性的微调策略和恰当的损失函数是成功的关键。","order":6,"sourceName":"","sourceUrl":""},{"id":420,"slug":"bert-evaluation","title":"评估","description":"评估 BERT 在下游任务上的表现是一个多维度的工作。它既需要选择与任务特性相匹配的评估指标，也需要在权威的基准测试上进行衡量，同时还要结合实际业务需求和在线实验进行综合判断。","order":7,"sourceName":"","sourceUrl":""}]},{"id":173,"slug":"gpipe","title":"GPipe","description":"为了解决单个加速器（如 GPU 或 TPU）内存无法容纳的超大型模型训练问题，GPipe 将一个复杂的神经网络模型按层划分为多个子序列，并将每个子序列放置在不同的加速器上。通过引入管道并行技术，它实现了在多个设备上对巨型模型进行并行训练。想象一个洗车流程，分为喷泡沫、刷洗、冲洗、擦干四个步骤。如果只有一个人，必须等一个车完成所有步骤才能洗下一辆。但如果有四个人每人负责一个步骤，当第一辆车进入刷洗阶段时，第二辆车就可以开始喷泡沫，这样整体效率大大提升。GPipe 的管道并行就是类似的原理。","sourceName":"GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism","sourceUrl":"https://arxiv.org/abs/1811.06965","publishedDate":"2018-11-16","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-training"],"nodes":[{"id":421,"slug":"gpipe-basics","title":"GPipe","description":"为了解决单个加速器（如 GPU 或 TPU）内存无法容纳的超大型模型训练问题，GPipe 将一个复杂的神经网络模型按层划分为多个子序列，并将每个子序列放置在不同的加速器上。通过引入管道并行技术，它实现了在多个设备上对巨型模型进行并行训练。想象一个洗车流程，分为喷泡沫、刷洗、冲洗、擦干四个步骤。如果只有一个人，必须等一个车完成所有步骤才能洗下一辆。但如果有四个人每人负责一个步骤，当第一辆车进入刷洗阶段时，第二辆车就可以开始喷泡沫，这样整体效率大大提升。GPipe 的管道并行就是类似的原理。","order":1,"sourceName":"GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism","sourceUrl":"https://arxiv.org/abs/1811.06965"}]},{"id":174,"slug":"huggingface","title":"Hugging Face","description":"公司最初的聊天机器人应用虽然有一定创意和用户群体，但由于技术局限和清晰的盈利模式，发展缓慢，难以实现大规模增长。2018年，面对发展瓶颈，创始团队做出了一个关键决定：将他们在开发聊天机器人时使用和积累的底层技术——尤其是围绕 Transformer 架构的模型和工具库——在 GitHub 上开源。这个名为 `Transformers` 的开源库，因其统一的接口、出色的易用性以及对BERT、GPT等先进模型的强大支持，在开发者社区中迅速走红。","sourceName":"Hugging Face Documentation","sourceUrl":"https://huggingface.co/docs","publishedDate":"2018-11-26","isFree":false,"isMajor":false,"logoUrl":"","types":["framework"],"nodes":[{"id":422,"slug":"huggingface-intro","title":"Hugging Face","description":"公司最初的聊天机器人应用虽然有一定创意和用户群体，但由于技术局限和清晰的盈利模式，发展缓慢，难以实现大规模增长。2018年，面对发展瓶颈，创始团队做出了一个关键决定：将他们在开发聊天机器人时使用和积累的底层技术——尤其是围绕 Transformer 架构的模型和工具库——在 GitHub 上开源。这个名为 `Transformers` 的开源库，因其统一的接口、出色的易用性以及对BERT、GPT等先进模型的强大支持，在开发者社区中迅速走红。","order":1,"sourceName":"Hugging Face","sourceUrl":"https://huggingface.co"}]},{"id":175,"slug":"gpt2","title":"GPT-2","description":"2018 年，当 GPT-1 发布后不久，谷歌推出的 BERT 模型凭借其双向 Transformer 编码器架构和掩码语言模型（MLM）任务，在多项自然语言理解任务上取得了显著优于 GPT-1 的成绩，迅速成为领域主流。面对这一局面，OpenAI 内部需要进行战略抉择。是追随 BERT 的成功路径，转向双向架构？还是坚持自己基于 Transformer 解码器的自回归语言模型（即根据上文预测下一个词）路线？OpenAI 选择了后者，并决定将其推向极致。这一选择的背后，是他们对通用人工智能（AGI）发展路径的不同判断：他们认为，生成能力是智能更本质的体现，而扩大模型和数据规模是解锁这种能力的关键。","sourceName":"Language Models are Unsupervised Multitask Learners","sourceUrl":"https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf","publishedDate":"2019-02-14","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/openai.svg","types":["llm"],"nodes":[{"id":423,"slug":"gpt2-training-data","title":"训练数据","description":"在 GPT-2 之前，大型语言模型的训练数据通常局限于单一领域（如新闻、维基百科），或者像 Common Crawl 这样的通用网页爬取数据虽然规模巨大但噪声很多、质量不高。OpenAI 的假设是：要让模型具备泛化到多种任务的能力，就必须使用一个既庞大又高质量，且覆盖领域极其广泛的数据集进行预训练。","order":1,"sourceName":"","sourceUrl":""},{"id":424,"slug":"gpt2-language-model","title":"语言模型","description":"GPT-2 采用 Transformer 解码器架构，延续了 GPT（Generative Pre-trained Transformer）的设计，但引入了如下改进：将层归一化（Layer Normalization）移动到每个子模块的输入位置，类似于预激活残差网络（Pre-activation Residual Network），并在最终自注意力块后添加了额外的层归一化；使用修改的初始化方法，考虑残差路径上的累积效应，权重初始化时按残差层数 $N$ 的平方根倒数 $1/\\sqrt{N}$ 进行缩放。","order":2,"sourceName":"","sourceUrl":""},{"id":425,"slug":"gpt2-training-details","title":"训练细节","description":"模型的优化目标是语言建模，即最大化序列的联合概率，训练时无任务特定监督，但模型通过预测文本序列隐式学习多任务（如翻译、问答），实现零样本转移。","order":3,"sourceName":"","sourceUrl":""},{"id":426,"slug":"gpt2-zero-shot","title":"Zero-shot","description":"GPT-2 的 Zero-shot 能力是其最核心的创新之一，它指的是模型在未经任何特定任务的数据训练或参数微调的情况下，直接执行下游任务（如问答、翻译、摘要等）的能力。","order":4,"sourceName":"","sourceUrl":""},{"id":427,"slug":"gpt2-evaluation","title":"评估","description":"GPT-2 的评估主要基于其在零样本（zero-shot）设置下的多任务性能，无需任何任务特定训练或微调。评估涵盖了多个自然语言处理任务，包括语言建模、阅读理解、摘要、翻译等，旨在验证模型的无监督多任务学习能力。","order":5,"sourceName":"","sourceUrl":""}]},{"id":176,"slug":"top-p","title":"Top-p","description":"尽管像 GPT-2 这样的神经语言模型在训练时以“最大似然”为目标，取得了巨大成功，但直接使用“最大概率”的策略来生成文本（即贪婪搜索或束搜索）会产生以下问题如重复性、平淡无趣、不符合人类习惯。在 Top-p 之前，常用的方法是 Top-k 采样。Top-k 的缺陷是k 值固定不灵活：对于不同的上下文，词的概率分布形状差异很大。有时，可能只有 2-3 个词是合理的（例如，句子 “The capital of France is ___”），此时 k=10 就会引入大量不合适的候选词。有时，可能有几十个词都很好（例如，故事的开头），此时 k=10 又会过度限制多样性。","sourceName":"The Curious Case of Neural Text Degeneration","sourceUrl":"https://arxiv.org/abs/1904.09751","publishedDate":"2019-04-22","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-tech"],"nodes":[{"id":428,"slug":"top-p-overview","title":"Top-p","description":"尽管像 GPT-2 这样的神经语言模型在训练时以“最大似然”为目标，取得了巨大成功，但直接使用“最大概率”的策略来生成文本（即贪婪搜索或束搜索）会产生以下问题如重复性、平淡无趣、不符合人类习惯。在 Top-p 之前，常用的方法是 Top-k 采样。Top-k 的缺陷是k 值固定不灵活：对于不同的上下文，词的概率分布形状差异很大。有时，可能只有 2-3 个词是合理的（例如，句子 “The capital of France is ___”），此时 k=10 就会引入大量不合适的候选词。有时，可能有几十个词都很好（例如，故事的开头），此时 k=10 又会过度限制多样性。","order":1,"sourceName":"The Curious Case of Neural Text Degeneration","sourceUrl":"https://arxiv.org/abs/1904.09751"}]},{"id":177,"slug":"tensor-parallel","title":"Tensor Parallel","description":"NVIDIA 在 2019 年发布的论文 《Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism》 提出了一种专门针对 Transformer 架构的模型并行方法，使得在当时硬件条件下训练数十亿参数规模的大语言模型成为可能。这篇论文的核心在于其提出的 张量并行（Tensor Parallelism） 方案，这是一种层内模型并行技术。它巧妙地将 Transformer 层中的矩阵运算分布到多个 GPU 上，从而突破了单 GPU 的内存限制。\n\n1. MLP 块并行：对 GEMM 采用 列并行 + 行并行 的切分策略，减少同步点。\n2. 自注意力块并行：基于多头注意力机制，将不同的注意力头分布到不同 GPU 上计算。\n3. 嵌入层并行：沿词汇表维度切分嵌入层权重，显著减少通信量。","sourceName":"Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism","sourceUrl":"https://arxiv.org/abs/1909.08053","publishedDate":"2019-09-17","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-training"],"nodes":[{"id":429,"slug":"tensor-parallel-basics","title":"Tensor Parallel","description":"TP 的核心思想是将一个完整的模型层（例如 Transformer 中的一个全连接层或注意力头）拆分到多个计算设备（如 GPU）上。传统的数据并行是把整个模型复制到每个 GPU 上，然后给每个 GPU 分配不同的数据批次。当模型大到单个 GPU 放不下时，数据并行就失效了。而张量并行是更细粒度的拆分：它不再复制整个模型，而是把模型本身“切”开。","order":1,"sourceName":"Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism","sourceUrl":"https://arxiv.org/abs/1909.08053"}]},{"id":178,"slug":"zero","title":"Data Parallel","description":"在 ZeRO 提出之前，训练越来越大的模型主要面临两大障碍：\n\n1. **模型规模的爆炸式增长**：随着 Transformer 等架构的出现，模型的参数量从亿级迅速向十亿、百亿甚至千亿迈进。例如，GPT-2 已有 15 亿参数，而更大的模型还在规划中。\n2. **传统数据并行的显存瓶颈**：为了利用多 GPU 加速训练，最常用的方法是数据并行。但在传统数据并行中，每个 GPU 上都保存着完整的模型副本。这不仅仅包括模型参数本身，还包括：梯度和优化器状态。\n\n这意味着，传统的数据并行方法虽然加快了训练速度，但并没有解决\"单卡放不下整个模型\"的根本问题。虽然模型并行（张量并行）和流水线并行可以将模型本身切分到多个 GPU 上，但它们通常需要复杂的模型代码重构，并不如数据并行那样通用和易用。\n\nZeRO 论文的目的非常明确：在保持数据并行易用性和计算效率的同时，从根本上消除其显存冗余，从而突破显存限制，让训练万亿参数模型成为可能。它的核心思想是与其在每个 GPU 上重复存储完整的模型状态，不如将这些状态（尤其是最占空间的优化器状态、梯度、以及最终的模型参数）进行分片，然后分布到所有参与数据并行的 GPU 上。每个 GPU 只负责更新和存储自己那一份分片。在前向或反向传播需要整个张量时，通过高效的集合通信临时收集所需部分，用完后立即释放。这本质上是一种\"以通信换显存\"的权衡。","sourceName":"ZeRO: Memory Optimizations Toward Training Trillion Parameter Models","sourceUrl":"https://arxiv.org/abs/1910.02054","publishedDate":"2019-10-07","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-training"],"nodes":[{"id":430,"slug":"zero-basics","title":"ZeRO","description":"在传统的数据并行训练中，每个 GPU 上都保存有完整的模型副本（参数、梯度、优化器状态）。这对于大模型来说极其浪费内存。ZeRO（**Ze**ro **R**edundancy **O**ptimizer） 的核心理念是通过分区来消除数据并行中固有的内存冗余。它不像传统数据并行那样在每个 GPU 上复制所有数据，而是将模型的状态（参数、梯度、优化器状态）分区到所有 GPU 上。每个 GPU 只负责更新和保存其中的一部分。","order":1,"sourceName":"ZeRO: Memory Optimizations Toward Training Trillion Parameter Models","sourceUrl":"https://arxiv.org/abs/1910.02054"}]},{"id":179,"slug":"t5","title":"T5","description":"在 T5 问世之前，NLP 领域虽然已经因 BERT 和 GPT 的出现进入了预训练-微调的时代，但也面临着“幸福的烦恼”。当时存在多种有竞争力的技术路线。在模型架构上，有像 BERT 这样的纯编码器模型（擅长理解任务），有像 GPT 这样的纯解码器模型（擅长文本生成），还有原始的编码器-解码器模型（擅长序列到序列任务）。在预训练目标上，有 BERT 的掩码语言模型（MLM）、GPT 的自回归语言模型以及去噪自编码等。不同的模型针对不同的任务，有不同的输入输出格式和训练目标。这导致 NLP 领域的技术栈非常碎片化，研究人员和工程师需要为不同任务维护不同的模型和代码，难以直接比较不同方法的优劣，也阻碍了知识的迁移。T5 项目正是为了系统性地回答一个问题：“在给定的计算预算下，哪种迁移学习方法最有效？” Google 的研究团队进行了一场规模空前的“大消融”研究，对各种架构、预训练目标、数据集等进行了对照实验。T5 模型就是这个庞大研究项目的产物，它提出的统一框架旨在为 NLP 提供一个简洁而强大的通用解决方案。","sourceName":"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer","sourceUrl":"https://arxiv.org/abs/1910.10683","publishedDate":"2019-10-23","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/google.svg","types":["llm"],"nodes":[{"id":431,"slug":"t5-pretraining-data","title":"预训练数据","description":"T5 模型的预训练数据 C4 是一个从 Common Crawl 网页数据中经过严格清洗得到的、规模巨大的高质量英文文本语料库。它的成功证明了数据质量与数据规模同等重要，并且其构建方法对后续的大语言模型研究产生了深远影响。","order":1,"sourceName":"","sourceUrl":""},{"id":432,"slug":"t5-pretraining-model","title":"预训练模型","description":"T5 最核心、最具革命性的思想是提出了一个统一的文本到文本框架，T5 将所有 NLP 任务都建模为“文本输入”到“文本输出”的形式。这意味着，无论是文本分类、问答、摘要还是翻译，模型都接受文本字符串作为输入，并生成文本字符串作为输出。","order":2,"sourceName":"","sourceUrl":""},{"id":433,"slug":"t5-pretraining-details","title":"预训练细节","description":"T5 将所有的 NLP 任务都重构为文本到文本的任务。这意味着无论是翻译、分类还是问答，模型的输入和输出都是文本字符串。T5 没有采用 BERT（仅 Encoder）或 GPT（仅 Decoder）的架构，而是使用了原始的、完整的 Transformer 架构，包含编码器和解码器。论文通过实验证明，在这种文本到文本的框架下，标准的 Encoder-Decoder 模型表现优于“语言模型”风格（仅 Decoder）或“掩码语言模型”风格（仅 Encoder）的变体。模型尺寸从小到大有多个版本（T5-Small, T5-Base, T5-Large, T5-3B, T5-11B），其参数规模与 BERT 的对应版本相似。","order":3,"sourceName":"","sourceUrl":""},{"id":434,"slug":"t5-downstream-data","title":"下游任务数据","description":"T5 的下游任务几乎涵盖了当时 NLP 领域所有主流的理解与生成任务。 其贡献不在于发明新的下游任务，而在于用一个极其简单统一的模型框架，成功地解决了所有这些任务，并通过系统性的实验证明了该框架的有效性和强大潜力，为后续大语言模型（如 GPT-3 等）的“指令微调”范式奠定了基础。","order":4,"sourceName":"","sourceUrl":""},{"id":435,"slug":"t5-finetuning-model","title":"微调模型","description":"T5 将所有自然语言处理任务，无论是翻译、摘要、分类还是问答，都重塑为文本生成任务。模型接收一段带有任务指令的文本输入，然后直接生成另一段文本作为输出。实现这一点的关键是在输入前添加任务前缀，例如 \"translate English to German: \" 或 \"summarize: \"。这个前缀就像一个自然语言指令，告诉模型现在需要执行什么任务。因此，切换任务时，你只需要改变输入文本中的前缀指令，而完全无需触动模型本身的结构或参数。当下游任务的数据准备好后，你只需要将其构造成“任务前缀 + 输入文本”作为模型输入，以及“目标文本”作为期望的输出。然后，你可以使用标准的序列到序列训练方式，在特定任务的数据上对整个预训练的 T5 模型进行微调，而无需添加任何新的层。","order":5,"sourceName":"","sourceUrl":""},{"id":436,"slug":"t5-finetuning-details","title":"微调细节","description":"T5 的核心思想是“万物皆文本到文本”。这意味着无论是翻译、分类还是问答，所有任务都被统一格式化为：接收一个文本输入，生成一个文本输出。这个统一的框架极大地简化了微调过程。","order":6,"sourceName":"","sourceUrl":""},{"id":437,"slug":"t5-evaluation","title":"评估","description":"评估的核心思想是使用完全相同的模型架构、训练方法和评估流程，在所有任务上进行公平比较。这种统一格式使得可以使用相同的损失函数（交叉熵损失）和相同的评估指标（基于文本匹配的指标，如准确率、BLEU、ROUGE等）来衡量所有任务。","order":7,"sourceName":"","sourceUrl":""}]},{"id":180,"slug":"mqa","title":"MQA","description":"Multi-Query Attention（MQA）是一种优化 Transformer 推理效率的注意力机制，通过共享 Key 和 Value 矩阵来大幅减少 KV Cache 的内存占用。","sourceName":"Fast Transformer Decoding: One Write-Head is All You Need","sourceUrl":"https://arxiv.org/abs/1911.02150","publishedDate":"2019-11-06","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-tech"],"nodes":[{"id":438,"slug":"mqa-basics","title":"MQA","description":"MQA 是一项非常实用的工程优化技术。它通过一个简单的改变——让多头注意力共享 Key 和 Value——大幅减少了自回归解码时的内存带宽瓶颈，从而实现了解码速度的显著提升，虽然会带来轻微的性能损失，但在绝大多数实际应用场景中，这种速度带来的收益远远大于微小的质量损失。","order":1,"sourceName":"Fast Transformer Decoding: One Write-Head is All You Need","sourceUrl":"https://arxiv.org/abs/1911.02150"}]},{"id":181,"slug":"scaling-law","title":"Scaling Law","description":"在 2020 年之前，AI 社区虽然普遍认同\"模型越大越好\"，但这更多是一种经验性的直觉。这篇论文的贡献在于，它通过大规模、系统性的控制变量实验，将这种直觉量化为可预测的数学规律。研究人员训练了从数百万到数十亿参数不等的系列模型，严格控制其他变量，分别观察模型参数量、数据集大小和训练计算量对最终模型损失的影响。结果发现，在三者不同时受限的情况下，模型性能与每个因素都呈现平滑的幂律关系，这种趋势跨越了多个数量级。这意味着，我们可以根据小规模实验的结果，相对准确地预测出更大规模的模型性能。","sourceName":"Scaling Laws for Neural Language Models","sourceUrl":"https://arxiv.org/abs/2001.08361","publishedDate":"2020-01-23","isFree":false,"isMajor":false,"logoUrl":"","types":["model-philosophy"],"nodes":[{"id":439,"slug":"scaling-law-basics","title":"Scaling Law","description":"语言模型的性能（通常用测试集上的交叉熵损失来衡量）可以以一种可预测的、平滑的幂律方式，随着三个关键因素的增加而提升。这三个关键因素是：模型规模（N）、数据集规模（D）、计算量（C）。","order":1,"sourceName":"Scaling Laws for Neural Language Models","sourceUrl":"https://arxiv.org/abs/2001.08361"}]},{"id":182,"slug":"nvidia-a100","title":"A100","description":"NVIDIA 的 Ampere 架构是其于 2020 年发布的 GPU 架构，代表了当时在 AI 计算、图形渲染和高性能计算领域的一次重大飞跃。Ampere 架构（例如在数据中心 GPU A100 和消费级 GPU GeForce RTX 30 系列中实现）在技术上取得了显著进步，包括采用更先进的制程工艺（如 TSMC 7nm 或定制版 4N 工艺），集成更多晶体管（例如 A100 集成超过 540 亿个晶体管），并引入了第三代 Tensor Core 和第二代 RT Core，大幅提升了 AI 训练推理性能及光追效能。其多实例 GPU（MIG）技术允许将单个 GPU 划分为多个安全、独立的实例，供不同用户和工作负载使用，显著提升了大型数据中心的 GPU 利用率和投资回报率。","sourceName":"NVIDIA A100 Tensor Core GPU Architecture","sourceUrl":"https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/nvidia-ampere-architecture-whitepaper.pdf","publishedDate":"2020-05-04","isFree":false,"isMajor":false,"logoUrl":"","types":["gpu"],"nodes":[{"id":440,"slug":"nvidia-a100-architecture","title":"A100","description":"英伟达 A100 是基于 **Ampere 架构** 的数据中心 GPU，其 Tensor Core 支持混合精度计算，包括新增的 **TF32** 格式。TF32 可自动兼容 FP32 代码，在无需修改代码的情况下将 AI 训练速度提升 20 倍，同时通过 FP64 精度支持科学计算任务。","order":1,"sourceName":"","sourceUrl":""}]},{"id":183,"slug":"gpt3","title":"GPT-3","description":"在 GPT-3 问世之前，自然语言处理领域的主流范式是“预训练 + 微调”。以 BERT 为代表的模型虽然通过预训练获得了强大的语言理解能力，但在应用到具体任务时，仍然需要大量高质量的标注数据进行微调。这带来了几个明显的痛点：首先，获取大量特定领域的标注数据成本高昂；其次，在小规模标注数据上微调容易导致模型过拟合，即在训练数据上表现很好，但遇到新情况时泛化能力差。OpenAI 在 GPT-2 上已经尝试了在不微调的情况下直接完成多任务（Zero-shot），但效果并不理想。然而，他们坚信“规模效应”的潜力。GPT-3 的核心假设是：当一个语言模型的容量足够大、见过的数据足够多时，它就能将解决各种任务的能力内化在参数中，只需通过几个任务示例（Few-shot）或简单的任务指令（Zero-shot），就能直接推广到新任务上，而无需更新权重。GPT-3 的发布产生了爆炸性影响。它有力地证明了扩大模型规模确实是提升性能的有效路径，直接引发了全球范围内的大模型“军备竞赛”。其“上下文学习”能力为后来的指令微调和提示工程等关键技术奠定了基础，是通向 ChatGPT 和 GPT-4 等模型的关键一步。此外，它展示了通用人工智能的潜力，极大地拓展了人们对 AI 应用场景的想象。","sourceName":"Language Models are Few-Shot Learners","sourceUrl":"https://arxiv.org/abs/2005.14165","publishedDate":"2020-05-28","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/openai.svg","types":["llm"],"nodes":[{"id":441,"slug":"gpt3-training-data","title":"训练数据","description":"GPT-3 的训练数据是一个经过精心筛选和配比的海量、多源、高质量的英文文本混合体。其庞大的规模（数百 GB 的文本，对应近万亿个单词）和多样性是 GPT-3 实现强大“少样本学习”能力的基石，但同时也带来了诸如偏见、虚假信息等重要的社会和伦理问题。","order":1,"sourceName":"","sourceUrl":""},{"id":442,"slug":"gpt3-language-model","title":"语言模型","description":"GPT-3 采用了与它的前身 GPT-2 相似的自回归（Autoregressive）Transformer 解码器架构，这是一个基于注意力机制的模型，在生成文本时，每次只预测下一个词，并且只能关注到该词之前的内容（即单向模型），虽然架构相似，但 GPT-3 的模型规模被极大地扩展了。为了适应巨大的模型尺寸，论文中在一些层使用了局部稀疏注意力的变体，以提高计算效率。","order":2,"sourceName":"","sourceUrl":""},{"id":443,"slug":"gpt3-training-details","title":"训练细节","description":"在 GPT-3 之前，主流 NLP 范式是“预训练+微调”。虽然这种方法很有效，但它存在一个瓶颈：每个新任务都需要准备一个包含成千上万条标注数据的数据集来进行模型微调。这与人类的学习方式截然不同——人类通常只需要几个例子或一段简单的说明就能学会一个新任务。GPT-3 的目标就是挑战这一范式，探索模型是否能够像人类一样，通过“阅读”几个任务示例就直接理解和执行新任务。","order":3,"sourceName":"","sourceUrl":""},{"id":444,"slug":"gpt3-few-shot","title":"Few-shot","description":"当语言模型的规模被极大地扩展后，它能够在无需任何梯度更新或任务特定微调的情况下，仅通过少量的示例或纯文本指令，就能在众多 NLP 任务上达到极具竞争力的性能。这种能力被称为“任务无关的少样本学习”。","order":4,"sourceName":"","sourceUrl":""},{"id":445,"slug":"gpt3-evaluation","title":"评估","description":"GPT-3 的评估结果表明：通过将模型参数规模扩大到 1750 亿，GPT-3 证明了极大规模的语言模型可以实现强大的、任务无关的少样本学习能力；它验证了“提示（Prompting）”而非“微调（Fine-tuning）”作为与模型交互的主要方式的可行性；GPT-3 在众多截然不同的任务上都能表现出不错的竞争力，展示了其作为通用任务求解器的潜力；评估结果也清晰地划定了其能力边界，表明它在抽象推理、消除偏见等方面仍有很大提升空间，并引发了对其安全性和社会影响的广泛讨论。","order":5,"sourceName":"","sourceUrl":""}]},{"id":184,"slug":"gshard","title":"GShard","description":"GShard 提出了一套革命性的自动并行化方法，它基于 Transformer 的编码器-解码器结构，但使用稀疏激活的混合专家层替换了部分标准前馈网络层。MoE 层的核心思想是使用大量（例如数千个）的\"专家\"网络，但针对每个输入，只激活其中极少的一部分。","sourceName":"GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding","sourceUrl":"https://arxiv.org/abs/2006.16668","publishedDate":"2020-06-30","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-training"],"nodes":[{"id":446,"slug":"gshard-moe","title":"GShard","description":"GShard 是为了解决大规模神经网络模型（尤其是包含数千亿甚至万亿参数）训练时所面临的巨大挑战，即如何高效地将模型的计算和参数分布到数千个加速器（如 TPU/GPU）上。传统的数据并行（每个设备存一份完整的模型副本）在模型参数超过单个设备内存时就不再适用。GShard 提供了一种自动分片 的解决方案，让研究人员能够用很少的代码修改，轻松实现复杂的并行计算模式。","order":1,"sourceName":"GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding","sourceUrl":"https://arxiv.org/abs/2006.16668"}]},{"id":197,"slug":"switch-transformer","title":"Switch Transformer","description":"Switch Transformer 是深度学习模型缩放史上的一个里程碑式的工作，它将 MoE 这一经典思想与 Transformer 架构巧妙结合，并使其变得简单高效，为今天万亿美元参数级别的大语言模型时代奠定了坚实的基础。最著名的就是 MoE 架构在 GPT-4 中的应用。根据 OpenAI 和微软的论文，GPT-4 很可能是一个采用了类似 MoE 技术的模型。此外，开源社区如 Mistral AI 发布的 Mixtral 8x7B 模型，也直接采用了 MoE（8 个专家）架构。","sourceName":"Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity","sourceUrl":"https://arxiv.org/abs/2101.03961","publishedDate":"2021-01-11","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-training"],"nodes":[{"id":470,"slug":"switch-transformer-basics","title":"Switch Transformer","description":"Switch Transformer 的核心目标是**用更少的计算成本来训练和运行参数量极其巨大的模型**。它被认为是通向“万亿参数”甚至更大规模模型的关键技术之一。你可以将 Switch Transformer 理解为一种**智能的“分治”策略**。它通过一个巧妙的“开关”机制，将庞大的模型参数划分给众多专家，让每个输入都能高效地获得“专家级”的服务，而无需为整个“专家团队”付费。","order":1,"sourceName":"Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity","sourceUrl":"https://arxiv.org/abs/2101.03961"}]},{"id":198,"slug":"zero-offload","title":"ZeRO-Offload","description":"在 ZeRO-Offload 出现之前，训练像 GPT-3 这样拥有千亿参数的模型，需要数百个昂贵的高端 GPU 和复杂的分布式训练技术。这对于大多数研究者和机构来说是遥不可及的。ZeRO-Offload 通过巧妙地将 GPU 内存和计算压力卸载（Offload）到相对廉价的 CPU 和系统内存上，实现了\"平民化\"的大模型训练。","sourceName":"ZeRO-Offload: Democratizing Billion-Scale Model Training","sourceUrl":"https://arxiv.org/abs/2101.06840","publishedDate":"2021-01-18","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-training"],"nodes":[{"id":471,"slug":"zero-offload-basics","title":"ZeRO-Offload","description":"在单个 NVIDIA V100 GPU 上，使用标准方法（如 PyTorch）最多只能训练约 14 亿参数的模型。而 ZeRO-Offload 可以在同一块 GPU 上训练超过 130 亿参数的模型，将模型规模提升了近 10 倍。","order":1,"sourceName":"ZeRO-Offload: Democratizing Billion-Scale Model Training","sourceUrl":"https://arxiv.org/abs/2101.06840"}]},{"id":199,"slug":"megatron-lm-3d","title":"Megatron-LM：3D 并行","description":"随着模型规模（参数数量）的爆炸式增长（如从亿级到万亿级），传统的单机多卡甚至简单的数据并行方法遇到了两个根本性瓶颈：\n\n- **内存墙（Memory Wall）**：单个 GPU 的内存容量有限，无法容纳整个大模型（包括参数、梯度、优化器状态等）。例如，一个 1750 亿参数的模型，仅参数以 FP16 格式存储就需要约 350GB 显存，远超当时任何单张 GPU 的容量。\n- **计算墙（Computation Wall）**：训练这些模型需要巨大的计算量（如万亿次浮点运算），如果训练速度太慢，则研究迭代和实际应用都无从谈起。\n\nMegatron-LM 的关键创新在于将三种不同维度的并行策略精巧地结合起来，以在数千个 GPU 上高效地训练万亿参数模型。","sourceName":"Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM","sourceUrl":"https://arxiv.org/abs/2104.04473","publishedDate":"2021-04-09","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-training"],"nodes":[{"id":472,"slug":"megatron-lm-3d-parallelism","title":"3D 并行","description":"Megatron-LM 的核心创新在于将三种不同维度的并行策略精巧地结合起来，以在数千个 GPU 上高效地训练万亿参数模型。","order":1,"sourceName":"Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM","sourceUrl":"https://arxiv.org/abs/2104.04473"}]},{"id":200,"slug":"zero-infinity","title":"ZeRO-Infinity","description":"ZeRO-Offload 和 ZeRO-Infinity 是 DeepSpeed 团队提出的两个紧密相关但又有关键区别的技术：\n\n- **ZeRO-Offload** 可以看作是第一代的异构内存训练技术。它的核心思想是将优化器状态和梯度卸载到 CPU 上，利用 CPU 的内存和计算资源。\n- **ZeRO-Infinity** 是第二代技术，它不仅继承了 Offload 的思想，还引入了更激进、更全面的优化，最主要的突破是支持将数据卸载到 NVMe 硬盘，并提供了更高效的内存管理策略。","sourceName":"ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning","sourceUrl":"https://arxiv.org/abs/2104.07857","publishedDate":"2021-04-16","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-training"],"nodes":[{"id":473,"slug":"zero-infinity-basics","title":"ZeRO-Infinity","description":"ZeRO-Infinity 像是一个智能的分层存储数据中心。它把超高速但容量小的缓存（GPU）、速度一般但容量大的内存（CPU）、以及速度慢但容量巨大的仓库（NVMe）统一管理起来。它的目标是从系统层面高效地管理海量数据，而不仅仅是\"救急\"。","order":1,"sourceName":"ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning","sourceUrl":"https://arxiv.org/abs/2104.07857"}]},{"id":201,"slug":"lora","title":"LoRA","description":"这篇于 2021 年由微软研究人员提出的论文《LoRA: Low-Rank Adaptation of Large Language Models》，为解决大语言模型（LLM）在下游任务上微调的成本问题，提出了一种简单却非常有效的方法，极大地推动了高效微调技术的发展。","sourceName":"LoRA: Low-Rank Adaptation of Large Language Models","sourceUrl":"https://arxiv.org/abs/2106.09685","publishedDate":"2021-06-17","isFree":false,"isMajor":false,"logoUrl":"","types":["fine-tuning"],"nodes":[{"id":474,"slug":"lora-basics","title":"LoRA","description":"LoRA（低秩自适应） 的核心思想是在微调预训练大模型时，不更新整个模型的原始权重，而是只优化注入到模型层中的、参数量极小的“低秩矩阵”。由于其出色的效率和无延迟的特性，LoRA 已经成为当今微调大模型最主流和基础的技术之一，并被集成到众多流行的AI框架中。","order":1,"sourceName":"LoRA: Low-Rank Adaptation of Large Language Models","sourceUrl":"https://arxiv.org/abs/2106.09685"}]},{"id":202,"slug":"codex","title":"CodeX","description":"OpenAI 在 2021 年发布的论文《Evaluating Large Language Models Trained on Code》引入了 Codex 模型，该模型是 GitHub Copilot 等 AI 编程助手的核心技术基础，它的核心价值在于系统地论证了通过在大规模代码数据上微调通用大语言模型（如 GPT-3），可以显著提升其代码生成能力。它为此后整个 AI 编程助手领域的发展奠定了重要的方法论和评估基准。","sourceName":"Evaluating Large Language Models Trained on Code","sourceUrl":"https://arxiv.org/abs/2107.03374","publishedDate":"2021-07-07","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/openai.svg","types":["llm"],"nodes":[{"id":475,"slug":"codex-pretraining-model","title":"预训练模型","description":"Codex 是在 GPT-3 的模型架构和权重基础上进行继续训练的。可以把它理解为 GPT-3 的一个“专门化”或“领域化”版本。","order":1,"sourceName":"","sourceUrl":""},{"id":476,"slug":"codex-finetuning-data","title":"微调数据","description":"Codex 的本质是一个在代码上进行微调的大型语言模型。其微调数据主要来自 GitHub 上公开的代码仓库，原始数据并非直接使用，而是经过了严格的清洗和筛选，以确保数据质量。","order":2,"sourceName":"","sourceUrl":""},{"id":477,"slug":"codex-finetuning-model","title":"微调模型","description":"Codex 模型是 AI 编程领域的里程碑。它证明了通过在海量代码上微调大型语言模型，可以获得强大的代码生成能力。它不仅催生了 GitHub Copilot 这样的革命性产品，也为后续的代码大模型的研究和发展奠定了坚实的基础。","order":3,"sourceName":"","sourceUrl":""},{"id":478,"slug":"codex-evaluation","title":"评估","description":"Codex 是一个基于 GPT-3 架构的大型语言模型，专门在来自 GitHub 的公开代码库上进行微调。其核心任务是根据自然语言描述（即函数文档字符串，docstring）生成相应的 Python 代码。其评估框架的核心是 HumanEval 数据集，评估核心指标是 pass@k.","order":4,"sourceName":"","sourceUrl":""}]},{"id":203,"slug":"glam","title":"GLaM","description":"这篇论文的核心思想是：在追求模型规模以提升性能的同时，必须高度重视训练和推理的效率。GLaM 是对当时流行的\"越大越好\"的密集模型（如 GPT-3）的一种高效替代方案。","sourceName":"GLaM: Efficient Scaling of Language Models with Mixture-of-Experts","sourceUrl":"https://arxiv.org/abs/2112.06905","publishedDate":"2021-12-13","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-tech"],"nodes":[{"id":479,"slug":"glam-basics","title":"GLaM","description":"GLaM 是由 Google 团队提出的一种稀疏激活的混合专家模型。它的核心目标是解决传统大语言模型在规模扩大时面临的计算成本过高的问题。论文的主要贡献是证明了通过更高效的模型架构 MoE，可以在显著减少训练和推理所需计算资源的同时，达到甚至超越同等计算预算下密集模型的性能。","order":1,"sourceName":"GLaM: Efficient Scaling of Language Models with Mixture-of-Experts","sourceUrl":"https://arxiv.org/abs/2112.06905"}]},{"id":204,"slug":"alphacode","title":"AlphaCode","description":"AlphaCode 在著名的竞争性编程平台 Codeforces 的比赛中进行了评估，其表现估计相当于人类参赛者的前 54%。这意味着它首次在真正的编程竞赛中展现了与人类竞争者相媲美的能力。虽然都是代码生成模型，但 Codex 主要解决的是相对简单的、描述清晰的函数级问题（如 HumanEval），而 AlphaCode 挑战的是需要复杂推理、算法创新和多种步骤整合的完整编程问题。","sourceName":"Competition-Level Code Generation with AlphaCode","sourceUrl":"https://arxiv.org/abs/2203.07814","publishedDate":"2022-02-08","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/google.svg","types":["llm"],"nodes":[{"id":480,"slug":"alphacode-pretrain-data","title":"预训练数据","description":"预训练阶段的目标是让模型学习广泛的编程语法、语义、逻辑以及自然语言与代码的对应关系。这为模型打下了坚实的代码基础。","order":1,"sourceName":"","sourceUrl":""},{"id":481,"slug":"alphacode-pretrain-model","title":"预训练模型","description":"AlphaCode 的预训练模型是一个以 T5 的 Encoder-Decoder 架构为蓝图，但在模型规模、训练数据和后续微调/推理策略上都进行了极致优化和创新的、专门为解决复杂代码生成任务而设计的系统。\n\nT5 的核心思想是将所有的 NLP 任务都统一为“文本到文本”的格式。这意味着无论是翻译、摘要还是问答，模型的输入和输出都是文本字符串。这对于代码生成任务来说是天然契合的，因为代码生成本质上就是“将问题描述文本（自然语言）转换为解决方案代码（编程语言）”的文本到文本任务。","order":2,"sourceName":"","sourceUrl":""},{"id":482,"slug":"alphacode-finetune-data","title":"微调数据","description":"尽管预训练模型已经很强，但要解决复杂的竞争性编程问题，还需要在特定领域的数据上进行微调。这是 AlphaCode 能够达到“竞赛水平”的关键。微调数据专门来自多个竞争性编程平台，创建了一个名为 CodeContests 的数据集。","order":3,"sourceName":"","sourceUrl":""},{"id":483,"slug":"alphacode-finetune-model","title":"微调模型","description":"预训练模型就像一个“通才”，它懂语法，能写各种代码，但它不一定理解竞争编程中特有的问题描述方式、复杂的算法要求（如动态规划、图论）和严格的输入输出格式。微调的目的就是让模型专门化，使其更擅长解决竞争编程这类特定、复杂的问题。","order":4,"sourceName":"","sourceUrl":""},{"id":484,"slug":"alphacode-evaluation","title":"评估","description":"AlphaCode 的核心目标是解决竞争级别的编程问题，这类问题远比简单的代码补全或根据注释生成代码要复杂。它们通常涉及：复杂的自然语言理解、算法推理能力、创造性问题解决。为了准确评估 AlphaCode 在这方面的能力，论文在Codeforces 上进行评估，评估过程模拟了一个人类参赛者参加 Codeforces 比赛的真实场景：将问题的自然语言描述（包括示例）输入给 AlphaCode；AlphaCode 不是只生成一个答案，而是利用其大规模模型，为每个问题生成大量的候选代码方案（数量级在成千上万）；生成的方案大部分是错误的，系统会通过运行示例测试用例等方式，过滤掉大部分明显错误的方案，最终为每个问题只保留一个极小数量（例如10个左右）的、最有可能正确的方案进行提交。这模仿了人类选手在提交前进行测试、并拥有有限提交次数的行为。","order":5,"sourceName":"","sourceUrl":""}]},{"id":205,"slug":"instructgpt","title":"instructGPT","description":"InstructGPT 是 OpenAI 在 GPT-3 之后提出的一种关键模型，它标志着人工智能对齐领域的一个重要里程碑。其核心思想是：与其一味地追求模型变大，不如通过人类反馈来教导模型更好地理解和遵循人类的意图。","sourceName":"Training language models to follow instructions with human feedback","sourceUrl":"https://arxiv.org/abs/2203.02155","publishedDate":"2022-03-04","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/openai.svg","types":["llm"],"nodes":[{"id":485,"slug":"instructgpt-pretrain","title":"预训练模型（使用 GPT-3）","description":"InstructGPT 并不是一个从零开始训练的模型，而是以预训练好的 GPT-3 系列模型作为“基石”或“起点”，通过人类反馈强化学习 RLHF，对其进行“改造”和“优化”后得到的产物。","order":1,"sourceName":"","sourceUrl":""},{"id":486,"slug":"instructgpt-sft","title":"有监督微调（SFT）","description":"在 InstructGPT 的三大阶段训练流程中，有监督微调（SFT）是至关重要的第一步，它为后续的奖励模型训练和强化学习优化奠定了基础。其核心目标是让预训练好的 GPT-3 模型初步获得“听懂指令并按要求生成回答”的能力。简单来说，SFT 阶段就像是给一位知识渊博但缺乏特定技能的学生（GPT-3）请了一位启蒙老师。","order":2,"sourceName":"","sourceUrl":""},{"id":487,"slug":"instructgpt-rm","title":"奖励模型训练（RM）","description":"在 SFT（有监督微调）阶段，模型学会了“模仿”人类提供的标准答案。但现实世界的问题往往没有唯一解，不同答案在“有用性”、“真实性”、“无害性”等方面可能存在细微差别。RM 的目标就是将这些抽象、主观的“偏好”量化成一个具体的分数。其核心思想是：不再追求一个“标准答案”，而是学习一个“比较标准”。即，对于同一个问题，如果回答 A 比回答 B 更受人类喜欢，那么 RM 就应该给 A 打出比 B 更高的分数。这是一种相对评价，而非绝对评价，这更符合人类判断的思维方式。","order":3,"sourceName":"","sourceUrl":""},{"id":488,"slug":"instructgpt-rl","title":"对齐-强化学习优化（RL）","description":"在 InstructGPT 的三大阶段训练流程中，强化学习优化（RL）是最终也是最关键的一步。它的核心目标是，利用第二步训练好的奖励模型（RM）作为“裁判”，通过近端策略优化（PPO）算法，引导初始的有监督微调（SFT）模型生成更符合人类偏好的回答。","order":4,"sourceName":"","sourceUrl":""},{"id":489,"slug":"instructgpt-evaluation","title":"评估","description":"经过 RLHF 训练的模型，是否真的更符合人类的意图和价值观？综合所有评估维度，InstructGPT 模型在最重要的指标（人类偏好）上表现卓越，在安全性和真实性上也有大幅提升，同时仅以最小的代价牺牲了部分传统 NLP 任务的性能。这充分证明了 RLHF 是对齐大型语言模型的一条有效路径。","order":5,"sourceName":"","sourceUrl":""}]},{"id":206,"slug":"h100","title":"H100","description":"Hopper 架构是 NVIDIA 为数据中心和极致 AI 计算需求打造的第九代 GPU 架构，其首款产品 H100 展现了多项突破性技术创新：革命性的 Transformer 引擎是 H100 的核心亮点，它能够动态处理 FP8 和 16 位精度数据，专门为训练和运行当今主流的大型语言模型（LLMs）等 Transformer 模型优化，官方数据显示可带来数倍至数十倍的性能提升；通过第四代 NVLink 和新的 NVLink Switch 系统，可以将多达 256 个 H100 GPU 连接在一起，构建高效的 AI 超级计算机，以应对万亿参数级别的巨型模型；H100 拥有 800 亿个晶体管，采用台积电 4N 工艺，是首款支持 HBM3 内存和 PCIe 5.0 的 GPU，内存带宽高达 3TB/s。它还支持机密计算，能更好地保护 AI 模型和客户数据隐私。","sourceName":"NVIDIA H100 Tensor Core GPU Architecture","sourceUrl":"https://resources.nvidia.com/en-us-hopper-architecture/nvidia-h100-tensor-c","publishedDate":"2022-03-22","isFree":false,"isMajor":false,"logoUrl":"","types":["gpu"],"nodes":[{"id":490,"slug":"h100-architecture","title":"H100","description":"英伟达 H100 是一款基于 Hopper 架构的数据中心 GPU，其最亮眼的技术创新是引入了第四代张量核心和专用的 Transformer 引擎。","order":1,"sourceName":"","sourceUrl":""}]},{"id":207,"slug":"chinchilla","title":"Chinchilla","description":"这篇发表于 2022 年 NeurIPS 会议、由 DeepMind 团队完成的论文《Training Compute-Optimal Large Language Models》（通常以其模型名 Chinchilla 指代），对当时大型语言模型的训练范式产生了深远影响。它通过严谨的实验挑战了\"模型越大越好\"的普遍观念，指出在给定计算预算下，扩大模型参数和增加训练数据量同等重要。","sourceName":"Training Compute-Optimal Large Language Models","sourceUrl":"https://arxiv.org/abs/2203.15556","publishedDate":"2022-03-29","isFree":false,"isMajor":false,"logoUrl":"","types":["model-philosophy"],"nodes":[{"id":491,"slug":"chinchilla-scaling-law","title":"Chinchilla","description":"Chinchilla（又称 Chinchilla 70B）是 DeepMind 为了验证“计算最优”训练定律而训练的一个大型语言模型。它的核心结论是：与其一味地增加模型参数，同等规模地增加训练数据量才是更高效利用计算预算的关键。","order":1,"sourceName":"Training Compute-Optimal Large Language Models","sourceUrl":"https://arxiv.org/abs/2203.15556"}]},{"id":208,"slug":"llm-int8","title":"LLM.int8()","description":"这篇论文的核心是解决大语言模型推理时显存占用过高的问题，提出了一种 8 位整数量化方法，使得在不损失模型性能的前提下，将模型显存占用降低约一半。","sourceName":"LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale","sourceUrl":"https://arxiv.org/abs/2208.07339","publishedDate":"2022-08-15","isFree":false,"isMajor":false,"logoUrl":"","types":["quantization"],"nodes":[{"id":492,"slug":"llm-int8-method","title":"LLM.int8()","description":"像 GPT-3（175B 参数）这样的巨型模型，如果用标准的 16 位或 32 位浮点数加载，需要数百 GB 的 GPU 内存，这远远超出了普通消费级显卡的能力，使得大模型推理成本高昂且难以普及。\n\n简单的 8 位量化虽然能减少内存占用，但当应用于超过 60 亿参数的大模型时，会导致模型性能（如推理准确度）急剧下降，无法实用。\n\nLLM.int8() 是一种创新的量化技术，它的核心目标是：在不损失模型性能的前提下，将大型语言模型（LLM）的推理内存占用减半。首先，你需要理解大模型性能下降的根源在于 “异常值特征” 的出现，然后再了解LLM.int8() 的解决方案是一个“混合精度”的两阶段过程：向量化绝对值量化和混合精度分解。","order":1,"sourceName":"LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale","sourceUrl":"https://arxiv.org/abs/2208.07339"}]},{"id":209,"slug":"cot","title":"COT","description":"这篇 Paper 是思维链（CoT）领域的开创性工作，它提出了一种简单而有效的方法——链式思维提示（Chain-of-Thought Prompting）。该方法的核心是让大语言模型在解答复杂问题时，不是直接输出答案，而是先生成一系列连续的、类似人类思考的中间推理步骤（即\"思维链\"），最后再得出最终答案。","sourceName":"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models","sourceUrl":"https://arxiv.org/abs/2201.11903","publishedDate":"2022-02-28","isFree":false,"isMajor":false,"logoUrl":"","types":["agent"],"nodes":[{"id":493,"slug":"cot-basics","title":"COT","description":"这篇 Paper 是思维链（CoT）领域的开创性工作，它提出了一种简单而有效的方法——链式思维提示（Chain-of-Thought Prompting）。该方法的核心是让大语言模型在解答复杂问题时，不是直接输出答案，而是先生成一系列连续的、类似人类思考的中间推理步骤（即\"思维链\"），最后再得出最终答案。","order":1,"sourceName":"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models","sourceUrl":"https://arxiv.org/abs/2201.11903"}]},{"id":210,"slug":"flashattention","title":"FlashAttention","description":"传统自注意力机制的时间和内存复杂度与序列长度呈二次方关系，导致序列变长时，模型训练和推理变得非常缓慢且消耗大量内存。虽然一些近似注意力方法试图通过降低模型质量来减少计算量，但往往无法实现实际运行速度的提升。论文指出，以往的这些方法忽略了一个关键原则：让注意力算法具备 IO 感知能力。即，需要充分考虑数据在 GPU 不同层级内存（如高速显存 HBM 和片上缓存 SRAM）之间的读写开销。FlashAttention 的核心创新正是通过分块和重计算技术，显著减少在 HBM 和 SRAM 之间读写中间结果的次数，通过优化内存读写效率，在不牺牲计算精度的前提下，大幅提升了注意力机制的速度并降低了内存消耗，使得处理长序列数据变得更为可行。","sourceName":"FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness","sourceUrl":"https://arxiv.org/abs/2205.14135","publishedDate":"2022-05-27","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-tech"],"nodes":[{"id":494,"slug":"flashattention-basics","title":"FlashAttention","description":"传统自注意力机制的时间和内存复杂度与序列长度呈二次方关系，导致序列变长时，模型训练和推理变得非常缓慢且消耗大量内存。虽然一些近似注意力方法试图通过降低模型质量来减少计算量，但往往无法实现实际运行速度的提升。论文指出，以往的这些方法忽略了一个关键原则：让注意力算法具备 IO 感知能力。即，需要充分考虑数据在 GPU 不同层级内存（如高速显存 HBM 和片上缓存 SRAM）之间的读写开销。FlashAttention 的核心创新正是通过分块和重计算技术，显著减少在 HBM 和 SRAM 之间读写中间结果的次数，通过优化内存读写效率，在不牺牲计算精度的前提下，大幅提升了注意力机制的速度并降低了内存消耗，使得处理长序列数据变得更为可行。","order":1,"sourceName":"FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness","sourceUrl":"https://arxiv.org/abs/2205.14135"}]},{"id":211,"slug":"llama1","title":"LLaMA-1","description":"LLaMA 1 的核心在于其独特的研究目标：它并非追求最大的参数量，而是旨在给定的推理预算下实现最高的性能，从而挑战了“模型越大越好”的观念，更加注重实际应用效率。为实现这一目标，它采用了“更多数据训练较小模型”的关键策略，例如其 7B 参数模型使用了 1 万亿 token 进行训练，这验证了 Chinchilla 缩放定律，即在计算受限时，增加数据量比单纯放大模型更有效。\r\n\r\n在技术实现上，它并未发明新架构，而是集成了当时多项经过验证的改进，如预归一化、SwiGLU 激活函数和旋转位置编码，形成了一个稳定高效的现代 Transformer 基础。尤为重要的是，它完全基于公开可用的数据集进行训练，证明了无需依赖私有数据也能构建顶尖能力，极大地推动了研究的民主化。最终，其性能表现卓越：LLaMA-13B 在多数基准测试上超越了庞大的 GPT-3，而 LLaMA-65B 则能与当时最先进的 Chinchilla-70B 和 PaLM-540B 等巨型模型相媲美，全面印证了其核心路径的成功。","sourceName":"LLaMA: Open and Efficient Foundation Language Models","sourceUrl":"https://arxiv.org/pdf/2302.13971","publishedDate":"2023-02-27","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/meta.png","types":["llm"],"nodes":[{"id":495,"slug":"llama1-data","title":"数据","description":"LLaMA-1 的核心特点是完全使用公开可用的数据集，证明了无需专有数据也能训练出顶尖模型。","order":1,"sourceName":"","sourceUrl":""},{"id":496,"slug":"llama1-model","title":"模型","description":"LLaMA 本身没有发明新架构，而是精心集成并验证了当时最有效的 Transformer 改进，如预归一化（RMSNorm）、SwiGLU 激活函数和旋转位置编码（RoPE），形成了一个非常稳定和高效的模型基础。","order":2,"sourceName":"","sourceUrl":""},{"id":497,"slug":"llama1-training-details","title":"训练细节","description":"LLaMA-1 的训练细节体现了其“在给定推理预算下实现最佳性能”的核心设计哲学。在高效实现上，它采用了 xformers 库中的因果多头注意力，避免计算被掩码的权重以节省内存和计算；同时广泛使用激活检查点，通过牺牲计算换显存的方式，仅保存线性层等关键激活，支持了更大模型或批次的训练。其并行策略结合了模型并行（主要是张量并行，将模型参数横切到多个 GPU）和序列并行（将输入序列纵切以分摊中间激活的显存），从而将巨大的 65B 模型成功载入并高效训练，而未采用可能引入更多等待时间的流水线并行。这一切都运行在强大的训练基础设施之上，其使用 2048 张 A100-80GB GPU，并采用模型与序列并行、计算-通信重叠等技术来优化吞吐量，同时关注碳足迹等工程实践，最终在万亿级 token 的公开数据上训练出了性能卓越的基础模型。","order":3,"sourceName":"","sourceUrl":""},{"id":498,"slug":"llama1-base-model-evaluation","title":"基础模型评估","description":"LLaMA-1 对其基础模型（即未经指令微调的预训练模型）进行了全面而严格的评估，主要采用零样本和少样本评估，这与 GPT-3 等模型的评估方式一致，旨在检验模型的固有能力和泛化性，而非针对特定任务的拟合能力。主要涵盖常识推理、闭卷问答、阅读理解、数学推理、代码生成、大规模多任务语言理解等超过 20 个公认的基准测试。","order":4,"sourceName":"","sourceUrl":""},{"id":499,"slug":"llama1-instruction-tuning","title":"指令微调","description":"指令微调并不是原始 LLaMA-1 基础模型论文的核心贡献。该论文主要聚焦于如何高效地预训练一个强大的基础模型。然而，论文在最后一部分简要地展示了指令微调的巨大潜力，这为后续如 Alpaca、Vicuna 等模型的发展指明了方向。","order":5,"sourceName":"","sourceUrl":""}]},{"id":212,"slug":"flashattention-2","title":"FlashAttention-2","description":"FlashAttention-2 是经典 IO 优化算法 FlashAttention 的升级版本。它在完整保留 v1 内存高效优势的同时，专注于攻克其遗留的“计算墙”问题。该问题是指 v1 虽已解决“显存墙”，但其计算效率仅达到 GPU 理论峰值的 25% 至 40%。FlashAttention-2 通过更充分地利用 GPU 的并行计算能力，旨在使精确注意力机制的效率逼近高度优化的矩阵乘法（GEMM）操作的水平。","sourceName":"FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning","sourceUrl":"https://arxiv.org/abs/2307.08691","publishedDate":"2023-07-17","isFree":false,"isMajor":false,"logoUrl":"","types":["llm-tech"],"nodes":[{"id":500,"slug":"flashattention-2-basics","title":"FlashAttention-2","description":"FlashAttention-2 是经典 IO 优化算法 FlashAttention 的升级版本。它在完整保留 v1 内存高效优势的同时，专注于攻克其遗留的“计算墙”问题。该问题是指 v1 虽已解决“显存墙”，但其计算效率仅达到 GPU 理论峰值的 25% 至 40%。FlashAttention-2 通过更充分地利用 GPU 的并行计算能力，旨在使精确注意力机制的效率逼近高度优化的矩阵乘法（GEMM）操作的水平。","order":1,"sourceName":"FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning","sourceUrl":"https://arxiv.org/abs/2307.08691"}]},{"id":213,"slug":"llama2","title":"LLaMA-2","description":"LLaMA-2 是 Meta 发布的一系列开源大语言模型，涵盖从 70 亿到 700 亿参数的规模，其核心贡献在于推出了专为对话优化的 Llama 2-Chat 模型。该模型在预训练阶段将上下文长度扩展至 4K token 并使用了 2 万亿 token 的高质量数据；其关键创新在于采用了多轮、细粒度的人类反馈强化学习（RLHF）对齐技术，通过训练分别针对帮助性和安全性的独立奖励模型，并运用拒绝采样和近端策略优化进行多轮迭代微调，显著提升了对话质量。同时，论文特别强调安全性，引入了红队测试和安全上下文蒸馏等方法来降低有害输出。评估表明，Llama 2-Chat 在多数公开基准测试上超越了同规模开源模型，并在人类评估中接近部分闭源模型性能，加之其允许商业使用的开源策略，为业界构建安全、实用的对话 AI 提供了重要基础。","sourceName":"Llama 2: Open Foundation and Fine-Tuned Chat Models","sourceUrl":"https://arxiv.org/abs/2307.09288","publishedDate":"2023-07-18","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/meta.png","types":["llm"],"nodes":[{"id":501,"slug":"llama2-pretraining-data","title":"预训练数据","description":"Llama 2 的预训练数据是一个全新的、混合了多种公开来源的大规模语料库，其总量超过了 2 万亿个 token，相比前代 Llama 1 的 1.4 万亿 token 规模提升了约 40%。论文强调，其工作的核心焦点并非披露具体的数据源混合配方，而是致力于大幅提升数据的质量与安全性。为此，研究团队实施了严格的数据清洗流程，包括应用先进的数据去重技术，并特别加强了针对隐私信息（PII）和有害内容的安全过滤，旨在从预训练的源头就为模型构建起更安全、更可靠的知识基础。","order":1,"sourceName":"","sourceUrl":""},{"id":502,"slug":"llama2-pretraining-model","title":"预训练模型","description":"Llama 2 是一系列开源的大语言预训练模型，其规模涵盖从 70 亿到 700 亿参数。该系列模型作为基础模型，为后续专为对话优化的 Llama 2-Chat 模型提供了强大的能力基石。其架构基于经典的 Transformer Decoder 并进行了关键优化：将上下文长度扩展至 4096 个 token，并在更大的模型（如 70B 版本）中引入了分组查询注意力（GQA）机制，从而在保持模型性能的同时显著提升了推理速度。","order":2,"sourceName":"","sourceUrl":""},{"id":503,"slug":"llama2-pretraining-details","title":"预训练细节","description":"Llama 2 的预训练在上下文长度和训练策略上进行了关键性优化。其核心突破之一是将上下文长度从 Llama 1 的 2048 个 token 显著扩展至 4096 个 token，这主要通过结合创新的旋转位置编码（RoPE）和高效的训练方法实现。在训练策略上，研究团队采用了经过精心调优的 AdamW 优化器并结合余弦学习率调度器，同时运用梯度裁剪和权重衰减等技术来确保训练过程的稳定性。为应对长序列和大模型带来的显存挑战，训练中还集成了激活检查点（以计算换显存）和模型并行技术，从而在庞大的 2 万亿 token 数据集上高效地完成了模型训练，为后续的对话微调奠定了强大且可靠的基础。","order":3,"sourceName":"","sourceUrl":""},{"id":504,"slug":"llama2-base-model-evaluation","title":"基础模型评估","description":"和 LLaMA-1 一样，LLaMA-2 对其基础模型（即未经指令微调的预训练模型）进行了全面而严格的评估，主要采用零样本和少样本评估，这个评估方式最早可以追溯到 GPT-3，旨在检验模型的固有能力和泛化性，而非针对特定任务的拟合能力。主要涵盖常识推理、闭卷问答、阅读理解、数学推理、代码生成、大规模多任务语言理解等超过 20 个公认的基准测试。","order":4,"sourceName":"","sourceUrl":""},{"id":505,"slug":"llama2-sft","title":"SFT","description":"Llama 2 的 SFT 阶段是将其预训练基础模型优化为对话模型（Llama 2-Chat）的初始关键步骤，该阶段通过使用数万条高质量的人工编写的指令-应答配对数据进行有监督的微调，核心目标是让模型学会基本的指令遵循能力与对话格式，从而快速获得一个初始的、具备基本对话能力的模型版本，为后续更精细的 RLHF 优化奠定必要的基础。\n\n我们在 instructGPT 那边已经学过了 SFT，往后它将成为 Chat 模型的标配。","order":5,"sourceName":"","sourceUrl":""},{"id":506,"slug":"llama2-rlhf","title":"RLHF","description":"Llama 2 的 RLHF 阶段是在 SFT 获得初步对话模型后，通过三步骤流程进一步优化模型帮助性与安全性的核心过程：首先，基于人类对多个回答的偏好数据，分别训练专注于评估回答质量的帮助性奖励模型和判断内容风险的安全性奖励模型；然后，利用这两个奖励模型作为“裁判”，通过近端策略优化（PPO）和拒绝采样等强化学习算法对模型进行多轮迭代微调，其中 PPO 持续优化策略以追求更高奖励，而拒绝采样则从多个候选回答中择优；同时，该阶段还集成了红队测试生成对抗性指令来提升模型稳健性，并采用安全上下文蒸馏将安全准则内化到模型中。最终，这一精细化的 RLHF 流程使得 Llama 2-Chat 在人类评估中既能提供极具帮助的回答，又能显著降低有害输出，从而成为接近闭源模型水平的开源对话 AI。\n\n我们在 instructGPT 见过 RLHF，往后它将成为 Chat 模型的标配。","order":6,"sourceName":"","sourceUrl":""},{"id":507,"slug":"llama2-chat-model-evaluation","title":"对话模型评估","description":"微调后的 Llama 2-Chat 模型通过一套包含自动基准测试和大规模人类评估的严谨体系进行评估，其核心结论是：Llama 2-Chat 在大多数测试基准上的表现优于其他开源对话模型，并且基于人类对帮助性和安全性的评估，它被认为是闭源模型（如 ChatGPT）的一个可行替代品；该评估特别强调了模型的安全性，通过红队测试和迭代优化，其生成有害内容的比率显著降低，从而验证了从监督微调（SFT）到多轮人类反馈强化学习（RLHF）这一完整微调流程的有效性，为开源社区提供了一个强大且负责任的对话模型新标杆。","order":7,"sourceName":"","sourceUrl":""}]},{"id":214,"slug":"qwen-1","title":"Qwen-1","description":"Qwen-1 是通义千问大语言模型系列的首个版本，它是一个综合性的模型系列，包含了参数量不同的多种模型。该系列主要涵盖基础预训练模型（Qwen）和经过人类对齐技术微调的对话模型（Qwen-Chat）。其中，基础模型在众多下游任务中展现出卓越性能，而对话模型，特别是通过人类反馈强化学习（RLHF）训练的版本，具备高度竞争力，拥有先进的工具使用和规划能力，甚至能在代码解释器等复杂任务中与更大规模的模型媲美。此外，基于基础模型，团队还开发了专注于代码生成的 Code-Qwen 和专注于数学解题的 Math-Qwen 等专业模型，这些模型在各自领域相比开源模型性能显著提升，与闭源商业模型的差距也微乎其微。","sourceName":"Qwen Technical Report","sourceUrl":"https://arxiv.org/abs/2309.16609","publishedDate":"2023-09-28","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/qwen.jpeg","types":["llm"],"nodes":[{"id":508,"slug":"qwen-1-pretraining-data","title":"预训练数据","description":"Qwen 的技术报告并未详细介绍 Qwen-1 预训练数据的具体构成，但基于社区推断 Qwen-1 的预训练数据是一个经过精心构建的大规模、高质量语料库，其数据来源主要包括 Common Crawl 和 RefinedWeb 等通用网页爬虫数据、百科与书籍数据、学术论文以及来自 GitHub 等平台的代码数据，总规模约为 3 万亿个 token；这些数据经过了严格的去重、过滤和清洗流程，并以中文和英文为核心（中英文 token 比例接近 1:1），同时包含其他语言，其显著特点是通用知识与代码数据并重，为模型强大的通用能力、代码及数学专项能力奠定了坚实基础。","order":1,"sourceName":"","sourceUrl":""},{"id":509,"slug":"qwen-1-pretraining-model","title":"预训练模型","description":"Qwen-1 的预训练模型是该系列的基础语言模型（Qwen, the base pretrained language models）。这些基础模型在众多下游任务上持续表现出卓越的性能，是构建聊天模型（Qwen-Chat）和专业模型（如 Code-Qwen, Math-Qwen）的基石。它的预训练模型架构基本上和 LLaMA-2 类似。","order":2,"sourceName":"","sourceUrl":""},{"id":510,"slug":"qwen-1-pretraining-details","title":"预训练细节","description":"Qwen-1 架构上融合了 RoPE 位置嵌入、SwiGLU 激活函数和 Pre-Norm 设计，并在注意力层添加偏置以增强外推能力。预训练采用自回归语言建模，上下文长度 2048，使用 Flash Attention 加速计算，优化器为 AdamW（β1 = 0.9, β2 = 0.95），并应用余弦学习率调度。通过 NTK-aware 插值和窗口注意力等技术，模型在推理时可扩展上下文长度至 8192 以上。","order":3,"sourceName":"","sourceUrl":""},{"id":511,"slug":"qwen-1-base-model-evaluation","title":"基础模型评估","description":"该评估体系旨在全面衡量基础语言模型（未经对齐微调）的通用能力，共覆盖了 7 个主流基准测试，具体包括：\n\n- MMLU（5-shot）和 C-Eval（5-shot）用于评估综合知识与推理能力\n- GSM8K（8-shot）和 MATH（4-shot）用于测试数学解题能力\n- HumanEval（0-shot）和 MBPP（0-shot）用于衡量代码生成能力\n- BBH（3-shot）用于考察复杂推理能力\n\n实验结果表明，Qwen-1 系列模型（1.8B、7B、14B）在所有下游任务中均表现出色，其中 Qwen-14B 在 3 项任务上超越了参数规模更大的 LLaMA2-70B，而 Qwen-7B 也显著优于 LLaMA2-13B，甚至参数最少的 Qwen-1.8B 在特定任务中也能与更大模型竞争，凸显了其卓越的参数效率；此外，通过结合 NTK-aware 插值、LogN-Scaling 和分层窗口分配等技术，模型在超过 8192 token 的长上下文环境下仍能有效维持性能。整体评估充分验证了 Qwen 基础模型在不同参数规模下均具备均衡而强大的核心能力。","order":4,"sourceName":"","sourceUrl":""},{"id":512,"slug":"qwen-1-sft","title":"SFT","description":"Qwen-1 的 SFT 阶段是将其预训练基础模型优化为对话模型（Qwen-Chat）的初始关键步骤，该阶段通过使用数万条高质量的人工编写的指令-应答配对数据进行有监督的微调，核心目标是让模型学会基本的指令遵循能力与对话格式，从而快速获得一个初始的、具备基本对话能力的模型版本，为后续更精细的 RLHF 优化奠定必要的基础。\n我们在 instructGPT 和 LLaMA-2 那边已经学过了 SFT，往后它将成为 Chat 模型的标配。","order":5,"sourceName":"","sourceUrl":""},{"id":513,"slug":"qwen-1-rlhf","title":"RLHF","description":"Qwen-1 的 RLHF 阶段是一个系统性的对齐流程，旨在通过三步骤——首先利用监督微调（SFT）获得高质量的初始对话模型，继而训练奖励模型（RM）以量化人类偏好，最终采用强化学习（如 PPO）基于奖励信号优化模型策略——将模型行为与复杂的人类价值观深度对齐，从而显著提升其对话质量、安全性和实用性，最终打造出在工具使用、代码解释等复杂任务上极具竞争力的 Qwen-Chat 模型。\n我们在 instructGPT 和 LLaMA-2 那边已经学过了 RLHF，往后它将成为 Chat 模型的标配。","order":6,"sourceName":"","sourceUrl":""},{"id":514,"slug":"qwen-1-chat-model-evaluation","title":"对话模型评估","description":"Qwen-Chat 模型是经过人类对齐技术微调的聊天模型，这些模型极具竞争力。评估重点强调了其先进的工具使用和规划能力，使其能够用于创建智能体应用。即使在像使用代码解释器这样的复杂任务上，与规模更大的模型相比，其性能也令人印象深刻。此外，基于基础模型开发的代码专用模型（Code-Qwen-Chat）和数学专用模型（Math-Qwen-Chat）的性能相较于开源模型有显著提升，与闭源的专有模型相比差距微小。","order":7,"sourceName":"","sourceUrl":""}]},{"id":215,"slug":"mistral-7b","title":"Mistral 7B","description":"Mistral 7B 模型旨在实现卓越的性能与高效的推理效率，其在所有评估基准测试中均超越了参数量更大的 Llama 2 13B 模型，甚至在推理、数学和代码生成能力上超过了 Llama 1 34B 模型。为实现高效能，模型采用了分组查询注意力（GQA）以加速推理，并结合滑动窗口注意力（SWA）来以更低的成本有效处理任意长序列。论文还介绍了经过指令微调 SFT 的 Mistral 7B - Instruct 模型，该模型在人类评估和自动化基准测试中都优于 Llama 2 13B - Chat 模型。最终，所有模型均以宽松的 Apache 2.0 开源许可证发布，允许广泛的商业和研究使用。","sourceName":"Mistral 7B","sourceUrl":"https://arxiv.org/abs/2310.06825","publishedDate":"2023-10-10","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/mistral.png","types":["llm"],"nodes":[{"id":515,"slug":"mistral-7b-pretraining-data","title":"预训练数据","description":"Mistral AI 官方并未在原始论文中像其他一些模型（如 LLaMA）那样公开发布其预训练数据的完整细节。不过，根据行业惯例、模型表现出的能力以及官方的一些零星信息，我们可以对其预训练数据的特点进行一些推断和介绍：\n\n- **大规模与多样性**：作为一个拥有 70 亿参数的高性能模型，其预训练数据必定是海量且多样化的。这通常包括来自互联网的庞大文本集合，如网页、书籍、学术论文、新闻文章、代码库等，以确保模型获得广泛的语言知识和世界知识。\n- **多语言能力**：尽管 Mistral 7B 主要针对英语进行了优化，但其在预训练数据中很可能包含了相当比例的其他语言数据（特别是欧洲语言），这使得模型具备了一定的多语言理解和生成能力。\n- **代码数据**：论文明确指出 Mistral 7B 在代码生成方面表现优异，甚至超过了更大的模型。这强烈暗示其预训练数据中包含了大量高质量的代码数据（例如来自 GitHub 等平台的公开代码库），这是其强大编程能力的关键来源。\n- **数据质量与过滤**：为了达到更高的性能标准，Mistral AI 团队很可能对原始数据进行了严格的清洗、去重和质量过滤，以去除低质量、重复或有害的内容，确保数据集的精炼和高效。\n\n备注：无模块数据","order":1,"sourceName":"Mistral 7B","sourceUrl":"https://arxiv.org/abs/2310.06825"},{"id":516,"slug":"mistral-7b-pretraining-model","title":"预训练模型","description":"Mistral 7B 的预训练模型架构是一个经过优化的 Decoder-Only Transformer 模型。其核心竞争力在于成功地将 GQA 和 SWA 这两种高效的注意力机制集成到架构中，使得这个 70 亿参数的模型在保持高性能的同时，实现了更快的推理速度和更优的长序列处理能力，这正是在各项评测中能够超越更大规模模型的关键技术基础。","order":2,"sourceName":"Mistral 7B","sourceUrl":"https://arxiv.org/abs/2310.06825"},{"id":517,"slug":"mistral-7b-pretraining-details","title":"预训练细节","description":"Mistral AI 在其官方发布的技术报告或论文中，通常不会像其他机构（如 Meta 的 LLaMA）那样披露非常详尽的预训练超参数和数据构成。\n\n备注：无模块数据","order":3,"sourceName":"Mistral 7B","sourceUrl":"https://arxiv.org/abs/2310.06825"},{"id":518,"slug":"mistral-7b-base-model-evaluation","title":"基础模型评估","description":"为了确保对比的公平性，论文作者重新使用自己的评估流程运行了所有模型的基准测试，评估涵盖了一系列广泛认可的标准测试，包括常识推理（0-shot）、世界知识（5-shot）、阅读理解（0-shot）、数学能力（使用多数投票策略）、代码生成以及 MMLU 等综合能力聚合指标。详细的评估数据表明，Mistral 7B 在所有评估指标上均超越了参数更多的 Llama 2 13B 模型，例如在综合基准 MMLU 上达到 60.1%；尤其在代码、数学和推理领域表现卓越，其性能甚至超过了参数量达 340B 的 Llama 1 34B 模型，在 HumanEval 上接近专为代码微调的 Code-Llama 7B。进一步的效率分析还提出了“等效模型尺寸”概念，指出 Mistral 7B 在推理和理解任务上的性能相当于规模是其 3 倍以上的 Llama 2 模型，充分证明了其架构的高效性。\n\n备注：无模块数据","order":4,"sourceName":"Mistral 7B","sourceUrl":"https://arxiv.org/abs/2310.06825"},{"id":519,"slug":"mistral-7b-sft","title":"SFT","description":"Mistral 7B 的 SFT 阶段旨在评估其基础模型的泛化能力，整个过程强调简洁与透明。研究人员仅在 Hugging Face 仓库的公开指令数据集上对其进行有监督微调，未使用任何专有数据或复杂训练技巧，旨在证明其高质量的基础模型可通过简单流程获得优异性能。评估结果显示，所得的 Mistral 7B - Instruct 模型在 MT-Bench 自动化基准上优于所有同规模的 7B 模型，并与 13B 规模的聊天模型性能相当；更重要的是，在一个独立的匿名人类偏好评估平台（LLM Boxing）上，截至 2023 年 10 月 6 日，Mistral 7B 生成的回答获得了 25281 次偏好，显著高于 Llama 2 13B Chat 的 21257 次，这强有力地证明了其经过 SFT 后生成的回答在人类评判中具有更高质量。","order":5,"sourceName":"Mistral 7B","sourceUrl":"https://arxiv.org/abs/2310.06825"}]},{"id":216,"slug":"vit","title":"ViT","description":"本文提出了 Vision Transformer (ViT) 模型，挑战了卷积神经网络在计算机视觉领域的长期主导地位。论文主张，对 CNN 的依赖并非必要，并证明了一个纯粹的 Transformer 架构，在直接应用于图像块序列时，能够在图像分类任务上取得卓越性能。具体而言，ViT 将图像分割成固定大小的块（如 $16 \\times 16$ 像素），将这些块视为序列中的“词”，在嵌入后输入标准 Transformer 编码器进行处理。论文的关键发现是，当在大规模数据集（如 JFT-300M）上进行预训练后，再迁移到多个中型或小型图像识别基准（如 ImageNet、CIFAR-100、VTAB）上进行微调，ViT 不仅能达到或超越当时最先进的卷积网络的性能，而且在训练过程中所需的计算资源显著减少。因此，这项工作标志着视觉领域的一个范式转变，为 Transformer 成为统一的视觉建模骨干网络奠定了基础。","sourceName":"An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale","sourceUrl":"https://arxiv.org/abs/2010.11929","publishedDate":"2020-10-22","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/google.svg","types":["lvm"],"nodes":[{"id":520,"slug":"vit-pretraining-data","title":"预训练数据","description":"ViT 论文所使用的预训练数据核心特征在于其超大规模。具体而言，模型主要在两个关键数据集上进行预训练：一是包含 3 亿张图像且标注有约 1.8 万个类别的私有数据集 JFT-300M，二是公开的 ImageNet-21k 数据集（包含约 1400 万张图像、2.1 万个类别）。这些数据的共同特点是数据量巨大、覆盖的视觉类别极其广泛，其形态为标准的带类别标签的图像。论文的核心论点正是，当在这种超大规模数据集上进行有监督的预训练后，ViT 所习得的通用视觉表征能力，能够使其在迁移到 ImageNet、CIFAR-100、VTAB 等多个中小型图像识别基准时，取得卓越的性能。\n\n论文的实验设计将 JFT-300M 作为超大规模数据的代表，将 ImageNet-21k 作为相对小规模的公开数据代表。\n\n核心论点是数据规模至关重要。实验结果表明，在超大规模的 JFT-300M 上预训练的 ViT 模型取得了最先进的性能，显著超越了当时的顶尖卷积网络。","order":1,"sourceName":"","sourceUrl":""},{"id":521,"slug":"vit-supervised-pretraining-model","title":"有监督预训练模型","description":"ViT 的有监督预训练模型核心流程可概括为：通过将图像分割为固定大小的块序列并输入纯 Transformer 编码器，在超大规模带标签数据集（如 JFT-300M 或 ImageNet-21k）上以图像分类任务进行训练，使模型学习通用视觉特征表示；预训练完成后获得的模型权重具备强大的特征提取能力。","order":2,"sourceName":"","sourceUrl":""},{"id":522,"slug":"vit-finetuning-tasks","title":"微调任务","description":"ViT 的微调任务是将大规模预训练后的模型迁移至中型或小型图像识别基准（如 ImageNet、CIFAR-100、VTAB 等）的过程：微调阶段使用目标领域数据（如 ImageNet-1K 的 130 万张图像）替换原分类头并进行端到端训练，最终在测试集上以分类准确率作为核心指标进行评估，并通过与卷积网络的性能对比验证其迁移效果与计算效率优势。","order":3,"sourceName":"","sourceUrl":""}]},{"id":217,"slug":"vilt","title":"ViLT","description":"视觉-语言预训练（VLP）模型旨在解决需要联合理解视觉和语言信息的任务，例如视觉问答、图像描述、跨模态检索和视觉推理。这些模型通过预训练（如图像文本匹配和掩码语言建模）学习跨模态表示，从而改善下游任务的性能。传统 VLP 模型常依赖计算密集的视觉特征提取（如目标检测或卷积网络），导致效率低下和表达力受限，而 ViLT 等新方法尝试优化这些问题。\r\n\r\nViLT（Vision-and-Language Transformer）提出了一种极简的视觉-语言预训练架构，其核心创新在于完全摒弃了传统 VLP 模型依赖的计算密集型视觉嵌入器（如基于目标检测的区域特征或深度卷积网络），转而采用与处理文本相同的轻量级方式——即简单的线性投影层来嵌入图像块（Patch）。这种设计使得模型首次将视觉特征提取与多模态交互统一到一个单一的 Transformer 模块中，从而在保持竞争性下游任务（如视觉问答、视觉推理和跨模态检索）性能的同时，实现了数十倍的训练和推理速度提升。\r\n\r\nViLT 证明了无需复杂的卷积或区域监督，仅通过统一的 Transformer 结构也能有效学习视觉与语言的联合表示，为高效多模态模型的研究开辟了新方向。","sourceName":"ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision","sourceUrl":"https://arxiv.org/abs/2102.03334","publishedDate":"2021-02-05","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/naverlabs.png","types":["mmlm"],"nodes":[{"id":523,"slug":"vilt-pretraining-data","title":"预训练数据","description":"ViLT 的预训练数据整合了四个主流公开数据集——MSCOCO、Visual Genome (VG)、Google Conceptual Captions (GCC) 和 SBU Captions，总计约 400 万图像-文本对。这些数据兼具质量与规模：MSCOCO 和 VG 提供精确的人工标注（后者包含密集的区域描述），而 GCC 和 SBU 则提供大规模的网络爬取描述，虽带噪声但覆盖更广的真实场景。\n\nViLT 的训练数据输入 $x$ 是一个多模态序列：图像被分割成 $32 \\times 32$ 像素的 patch，通过线性投影嵌入为向量序列，文本通过 BERT tokenizer 分词并嵌入为 token 序列，两者与 `[CLS]`、`[SEP]` 等特殊 token 拼接，加上位置和模态类型编码，形成联合输入；\n目标 $y$ 根据预训练任务而异——对于图像文本匹配 (ITM)，$y$ 是二分类标签（`0` 或 `1`）表示图文是否匹配，对于掩码语言建模 (MLM)，$y$ 是被遮盖 token 的原始 ID，模型需预测这些标签。","order":1,"sourceName":"","sourceUrl":""},{"id":524,"slug":"vilt-pretraining-model","title":"预训练模型","description":"ViLT 的预训练模型采用极简主义设计，其核心创新在于完全摒弃了传统视觉-语言模型中依赖的计算密集型视觉嵌入器（如卷积神经网络或目标检测器），转而采用与文本嵌入对称的轻量级处理方式——将图像分割为图块并通过线性投影嵌入为向量序列，随后与文本标记拼接后输入统一的单流 Transformer（基于 ViT 初始化）进行深层跨模态交互；模型通过图像文本匹配和掩码语言建模（采用全词掩码以增强多模态学习）目标进行预训练，并结合图像增强技术，最终在实现数十倍效率提升的同时，于多种下游任务上保持了竞争性的性能，证明了无需复杂视觉编码器也能有效学习跨模态表示。","order":2,"sourceName":"","sourceUrl":""},{"id":525,"slug":"vilt-finetuning-tasks","title":"微调任务","description":"ViLT 的微调任务遵循经典的预训练-微调范式，在预训练完成后针对不同下游任务进行端到端的适配：对于分类任务（如视觉问答 VQA 和自然语言视觉推理 NLVR²），模型在 Transformer 输出之上添加轻量的多层感知机作为分类头，并采用特定输入策略（如 NLVR² 的 \"配对方法\"）进行处理；对于检索任务（如图文检索），则直接复用预训练的图像文本匹配头，采用对比学习方式拉近正样本对距离并推远负样本对；整个微调过程使用较小学习率并对所有参数（包括图像投影层）进行更新，同时创新性地引入图像增强技术来提升泛化能力，最终以极简的适配方式在多种任务上实现高效迁移。","order":3,"sourceName":"","sourceUrl":""}]},{"id":221,"slug":"dalle-1","title":"DALL·E 1","description":"这篇由 OpenAI 于 2021 年发布的开创性论文《Zero-Shot Text-to-Image Generation》（DALL·E 1）提出了一种基于两阶段训练流程的简单而强大的方法。\r\n首先，它训练一个离散变分自编码器（dVAE）将图像压缩成离散的视觉 token，从而将高分辨率图像转换为一个紧凑的、由 8192 个词汇组成的视觉码本；其次，它使用一个拥有 120 亿参数的稀疏自回归 Transformer 模型，将最多 256 个文本 token（BPE 编码）与 1024 个图像 token 拼接成一个序列，并学习其联合分布。\r\n通过在从互联网收集的 2.5 亿个文本-图像对上进行大规模训练，该方法在零样本（zero-shot）设置下取得了卓越性能：在 MS-COCO 数据集上，人类评估者认为其生成图像在 93% 的情况下更匹配文本描述，在 90% 的情况下比之前在该数据集上专门训练的模型更真实。\r\n此外，模型还展现出令人惊喜的涌现能力，如概念组合、文本渲染和初步的零样本图像到图像翻译。\r\n该工作的核心贡献在于证明，当模型和数据的规模足够大时，一个简单的、基于 Transformer 的自回归架构可以克服传统方法的复杂性，成为实现高质量、可控图像生成的有效路径，并强调了“规模”作为推动泛化能力和新兴能力的关键驱动力。","sourceName":"Zero-Shot Text-to-Image Generation","sourceUrl":"https://arxiv.org/abs/2102.12092","publishedDate":"2021-02-24","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/openai.svg","types":["text-to-image"],"nodes":[{"id":538,"slug":"dalle-1-training-data","title":"训练数据","description":"DALL·E 1 的训练数据是一个专门为该项目从互联网上收集的、包含 2.5 亿个文本-图像对的超大数据集，其规模与 JFT-300M 等知名大型数据集相当。","order":1,"sourceName":"Zero-Shot Text-to-Image Generation","sourceUrl":"https://arxiv.org/abs/2102.12092"},{"id":539,"slug":"dalle-1-dvae-stage","title":"dVAE 阶段","description":"DALL·E 1 论文中两阶段训练的第一阶段，其核心任务是训练一个离散变分自编码器（dVAE），目的是为图像创建一个高效的离散视觉码本。具体而言，此阶段旨在将一张 $256 \\times 256$ 的高分辨率 RGB 图像压缩成一个 $32 \\times 32$ 的离散 token 网格，其中每个 token 可取自一个包含 8192 个视觉词汇的码本，从而将序列长度减少 192 倍，极大缓解了后续 Transformer 的建模压力；实现上，一个编码器将图像转换为网格中每个位置的 logits，然后通过 Gumbel-Softmax 松弛技巧解决离散 token 选择的不可微问题，使模型可训练，而解码器则根据这 1024 个视觉 token 重建图像；训练目标为优化包含重建损失和 KL 散度的证据下界（ELB），其中重建项采用更匹配像素值有界特性的 Logit-Laplace 分布，并通过增大 KL 权重至 6.6 来提升码本使用率；最终，这一阶段产出一个强大的视觉编码器-解码器对，能够将图像转换为保留其主要结构和内容的离散 token 序列。","order":2,"sourceName":"Zero-Shot Text-to-Image Generation","sourceUrl":"https://arxiv.org/abs/2102.12092"},{"id":540,"slug":"dalle-1-prior-learning","title":"学习先验阶段","description":"训练流程的第二阶段被称为“学习先验”，其核心目标是训练一个巨大的自回归 Transformer 模型来学习文本描述与图像内容之间的联合概率分布。\n在此阶段，第一阶段训练好的 dVAE 的编码器和解码器参数被固定，文本描述被 BPE 编码为最多 256 个 token，图像则通过冻结的 dVAE 编码器被转换为 $32 \\times 32 = 1024$ 个离散的图像 token；随后，文本 token 和图像 token 被拼接成一个单一序列，输入到具有稀疏注意力机制的 Transformer 中，模型以自回归的方式（即根据之前的全部 token 预测下一个 token）进行训练，其损失函数是文本和图像 token 的交叉熵损失，并对图像部分赋予更高权重以强调视觉保真度；\n最终，这个训练好的 Transformer 作为一个强大的“先验”模型，掌握了在给定文本条件下生成合理图像 token 序列的规律，从而能够在推理时仅根据文本输入自回归地生成完整的图像 token 序列，再通过固定的 dVAE 解码器将这些 token 转换为像素图像，实现了高质量的零样本文本到图像生成。","order":3,"sourceName":"Zero-Shot Text-to-Image Generation","sourceUrl":"https://arxiv.org/abs/2102.12092"},{"id":541,"slug":"dalle-1-engineering-optimizations","title":"工程优化","description":"DALL·E 1 论文中关键的工程优化包括混合精度训练与分布式优化，二者协同解决了训练超大规模模型（120 亿参数）时面临的巨大挑战：混合精度训练通过让模型大部分计算（如前向/反向传播）使用 FP16 精度以提升速度并节省显存，同时维护 FP32 精度的主参数副本来保证数值稳定性，并结合损失缩放技术防止梯度下溢；而分布式优化则在此基础上，采用参数分片技术将模型拆分到同一机器内的多个 GPU 上以克服单卡内存限制，并通过类似 PowerSGD 的梯度压缩算法大幅减少机器间通信量，克服网络带宽瓶颈。","order":4,"sourceName":"Zero-Shot Text-to-Image Generation","sourceUrl":"https://arxiv.org/abs/2102.12092"},{"id":542,"slug":"dalle-1-sample-generation","title":"样本生成","description":"这个过程是一个两阶段的生成-筛选流程。首先，输入文本经 BPE 编码为 token 序列后，输入至训练好的第二阶段 Transformer 先验模型，模型以自回归方式、在给定温度参数（通常设为 1）控制下，通过随机采样逐步生成一个包含 1024 个图像 token 的序列，此过程可重复进行以得到多个候选序列；随后，每个候选 token 序列被输入至冻结的第一阶段 dVAE 解码器，重建为 $256 \\times 256$ 像素的候选图像；由于自回归采样的随机性，为确保输出质量，系统引入了一个关键的对比性重排序步骤，即使用一个预训练的对比模型（如 CLIP）为所有候选图像计算其与原始文本的匹配分数，并选择得分最高的图像作为最终输出，从而将生成模型的创造性与判别模型的精准性相结合，有效提升了零样本文本到图像生成的可靠性与质量。","order":5,"sourceName":"Zero-Shot Text-to-Image Generation","sourceUrl":"https://arxiv.org/abs/2102.12092"},{"id":543,"slug":"dalle-1-experiments","title":"实验","description":"通过系统的定量与定性分析，论文全面验证了其大规模训练范式在零样本设置下的卓越性能。在定量评估中，模型在 MS-COCO 等基准数据集上并未使用任何训练标签，但其生成质量（以 FID/IS 指标衡量）却与在该数据集上专门训练的领域特定模型相当甚至更优，尤其关键的是人工评估显示约 90% 的情况下人类更偏好 DALL·E 的结果；论文还通过高斯模糊等分析验证了评估的公平性，并深入探讨了模型涌现出的概念组合、属性绑定等高级能力。这些实验严谨地证实了论文的核心论点：当模型与数据规模足够大时，简单的两阶段架构无需特定领域微调即可实现强大的泛化与创造能力。","order":6,"sourceName":"Zero-Shot Text-to-Image Generation","sourceUrl":"https://arxiv.org/abs/2102.12092"}]},{"id":222,"slug":"clip","title":"CLIP","description":"CLIP（Contrastive Language-Image Pre-training）是 OpenAI 于 2021 年提出的里程碑工作，核心创新在于通过自然语言监督学习可迁移的视觉模型，取代传统依赖固定类别标签（如 ImageNet）的范式。该模型从互联网收集的 4 亿个图像-文本对中，通过对比学习任务训练图像编码器和文本编码器，将两者映射到同一语义空间，实现零样本迁移：预训练后，可直接使用自然语言描述（如 “a photo of a dog”）对未知视觉概念进行分类，无需额外训练。在超过 30 个数据集（包括 OCR、动作识别、地理定位等）上的评估表明，零样本 CLIP 竞争甚至超越许多全监督基线，例如在 ImageNet 上匹配 ResNet-50 准确率（76.2%），且展现出更强的分布外鲁棒性和多任务灵活性。这项工作证明了自然语言作为通用监督信号的潜力，为多模态基础模型（如后续的 DALL·E、GPT-4）奠定了基础，推动了通用视觉-语言理解的发展。","sourceName":"Learning Transferable Visual Models From Natural Language Supervision","sourceUrl":"https://arxiv.org/abs/2103.00020","publishedDate":"2021-02-26","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/openai.svg","types":["mmlm"],"nodes":[{"id":544,"slug":"clip-training-data","title":"训练数据","description":"CLIP 论文中使用的训练数据是一个大规模自建数据集，称为 WIT（WebImageText），包含从互联网公开来源收集的 4 亿个图像-文本对。该数据集通过 500,000 个查询词（基于 Wikipedia 高频词、双字母组合、高搜索量文章和 WordNet 同义词集）搜索构建，每个查询最多保留 20,000 对以保持类别平衡，文本内容为自然语言描述（如标题或说明），旨在覆盖广泛的视觉概念，为自然语言监督学习提供丰富而多样的监督信号。","order":1,"sourceName":"","sourceUrl":""},{"id":545,"slug":"clip-model","title":"模型","description":"模型架构由两个核心组件组成：一个图像编码器和一个文本编码器，它们共同学习将图像和文本映射到共享的多模态嵌入空间。图像编码器可以采用 ResNet 或 Vision Transformer (ViT) 架构，负责提取图像特征，例如 ResNet 变体从输入图像中生成特征图，而 ViT 将图像分割为补丁序列并通过 Transformer 层处理；文本编码器则基于 Transformer 模型，将文本描述（如自然语言句子）编码为向量表示。训练过程中，模型通过对比学习目标（如 InfoNCE 损失）优化，使匹配的图像-文本对在嵌入空间中相似度最大化，而非匹配对相似度最小化，从而无需特定任务标注即可实现零样本迁移。这种设计允许 CLIP 直接根据文本提示进行图像分类或检索，增强了泛化能力。","order":2,"sourceName":"","sourceUrl":""},{"id":546,"slug":"clip-zero-shot-inference","title":"零样本推理","description":"CLIP 论文中的零样本推理是指模型无需在特定任务上微调，仅通过自然语言提示就能直接进行图像分类的能力。CLIP 通过对比学习预训练一个图像编码器和一个文本编码器，将图像和文本映射到同一多模态嵌入空间。在推理时，对于给定图像，模型使用一组文本描述生成对应嵌入，计算图像嵌入与每个文本嵌入的余弦相似度，并选择相似度最高的文本作为预测类别。这种方法使 CLIP 能够灵活泛化到未见过的类别，仅依靠预训练知识实现跨任务迁移，避免了传统模型对大量标注数据的依赖。","order":3,"sourceName":"","sourceUrl":""}]},{"id":223,"slug":"stable-diffusion","title":"Stable Diffusion","description":"这篇由 Robin Rombach 等人于 2021 年 12 月 20 日发布在 arXiv 上、并入选 CVPR 2022 的论文《High-Resolution Image Synthesis with Latent Diffusion Models》提出了一种名为潜在扩散模型（LDM）的创新方法。该研究旨在解决传统扩散模型（DM）因直接在像素空间操作而导致训练和推理计算成本高昂的问题。其核心思想是将扩散模型应用于预训练好的自编码器的潜在空间中，而非像素空间，从而在显著降低计算需求（仅需少量 GPU 天数）的同时，在复杂度降低与细节保留之间达到一个近乎最优的平衡，极大地提升了生成图像的视觉保真度。\r\n\r\n此外，通过在设计中加入交叉注意力（cross-attention）层，该模型能够灵活接受多种条件输入（如文本或边界框），成为一个强大且通用的生成器，并以卷积方式实现高分辨率图像合成。LDM 在图像修复任务上达到了新的最优水平，并在无条件图像生成、语义场景合成和超分辨率等多个任务上表现出极具竞争力的性能。","sourceName":"High-Resolution Image Synthesis with Latent Diffusion Models","sourceUrl":"https://arxiv.org/abs/2112.10752","publishedDate":"2021-12-20","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/stabilityai.png","types":["text-to-image"],"nodes":[{"id":547,"slug":"stable-diffusion-diffusion-model","title":"Diffusion Model","description":"扩散模型是一种深度生成模型，其核心思想是通过模拟一个“破坏与重建”的过程来学习数据分布。它包含一个固定的前向过程，通过逐步添加高斯噪声将一张原始训练图片彻底破坏成纯噪声；同时，它学习一个反向过程，训练一个神经网络（通常是U-Net）来预测每一步所添加的噪声。在训练时，模型通过不断尝试从各种噪声程度的数据中还原原始信号，从而掌握数据的内在结构。一旦训练完成，生成新样本就变为一个迭代式的采样过程：从纯粹的随机噪声开始，利用训练好的模型一步步地去除噪声，最终“重建”出一个符合训练数据分布的全新、高质量样本。这种方法因其生成样本的优异质量和训练过程的稳定性，已成为生成式人工智能领域的基石技术之一。","order":1,"sourceName":"","sourceUrl":""},{"id":548,"slug":"stable-diffusion-latent-diffusion-model","title":"Latent Diffusion Model","description":"潜在扩散模型（LDM）这篇论文的核心贡献在于通过一种新颖的两阶段框架，成功解决了传统扩散模型（DM）直接在像素空间操作时面临的计算成本极高的关键问题。具体解决方法是：首先，训练一个强大的自编码器，将高维图像压缩到一个低维的、感知等效的潜在空间，从而将计算密集型的前向/反向扩散过程从像素空间转移到低维潜在空间；然后，在这个潜在空间中训练扩散模型去学习数据的分布。这种做法不仅大幅降低了训练和推理的计算需求（例如，训练时间从数百 GPU 天显著减少），而且由于潜在空间过滤掉了高频细节，使扩散模型能更专注于学习数据的语义信息，从而在保证甚至提升生成质量（在多项任务上达到 SOTA）的同时，实现了高效的高分辨率图像合成。此外，通过引入交叉注意力机制，LDM 巧妙地实现了多模态（如文本、布局）条件控制，使其成为一个强大且通用的生成模型框架。","order":2,"sourceName":"","sourceUrl":""}]},{"id":224,"slug":"dalle-2","title":"DALL·E 2","description":"论文提出了一个名为 unCLIP 的模型。其核心思想非常巧妙：与其让模型“从零开始”根据文本生成图像，不如将其分解为两步：先“理解”文本，将其转化为一个抽象的“图像概念”，再根据这个“概念”绘制出具体图像。\r\n\r\n这个“图像概念”正是由 CLIP 模型生成的图像嵌入。CLIP 模型能够将任何图像和文本映射到同一个语义空间，使得语义相似的图像和文本在空间中的位置也接近。unCLIP 的工作就是“反转” CLIP 的过程：从文本生成一个 CLIP 图像嵌入，再从这个嵌入解码出图像。","sourceName":"Hierarchical Text-Conditional Image Generation with CLIP Latents","sourceUrl":"https://arxiv.org/abs/2204.06125","publishedDate":"2022-04-13","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/openai.svg","types":["text-to-image"],"nodes":[{"id":549,"slug":"dalle-2-decoder","title":"Decoder","description":"Decoder 是一个基于扩散模型的生成器，其核心任务是将 CLIP 图像嵌入（CLIP image embedding）转换回对应的像素图像。\n\n具体而言，该 Decoder 的架构是在先前发布的 GLIDE 模型基础上进行修改而成的：\n- 将 CLIP 图像嵌入（Prior 阶段学习到的）投影并添加到模型的时间步嵌入（timestep embedding）中\n- 将 CLIP 图像嵌入投影为四个额外的上下文标记，拼接到 GLIDE 文本编码器的输出序列之后\n\n尽管论文保留了文本描述作为可选条件输入，但实验发现其帮助有限，CLIP 图像嵌入本身已能提供强大的语义引导。\n\n为了提升生成质量，该模型在训练时采用了分类器无关引导（Classifier-Free Guidance）技术，即随机地将 CLIP 嵌入置零（10% 概率）或丢弃文本描述（50% 概率），从而使模型在推理时能通过调节引导尺度来平衡生成图像的逼真度与多样性。\n\n此外，为了高效生成高分辨率图像（如 1024x1024），系统还训练了两个级联的扩散上采样器：第一个将 64x64 的基础图像上采样至 256x256，第二个进一步上采样至 1024x1024。这些上采样器在训练时对条件图像施加了模糊或多样化退化以增强鲁棒性，并且仅使用卷积层而无注意力机制，使其在推理时能泛化到更高分辨率。","order":1,"sourceName":"","sourceUrl":""},{"id":550,"slug":"dalle-2-prior","title":"Prior","description":"Prior（先验模型）的核心作用是根据文本描述生成对应的 CLIP 图像嵌入，为后续的 Decoder 阶段提供语义基础。具体而言，Prior 将文本标题 $y$ 映射到 CLIP 图像嵌入 $z_i$，其生成过程遵循概率分布 $P(z_i \\mid y)$。\n\n论文探索并比较了两种先验模型：自回归（AR）先验将 CLIP 图像嵌入通过 PCA 降维和离散化后，使用 Transformer 以自回归方式预测编码序列；而扩散先验则直接基于扩散模型在连续向量空间生成 $z_i$，采用仅含解码器的 Transformer 结构，通过预测未加噪的嵌入并利用均方误差损失进行优化。\n\n实验表明，扩散先验在计算效率和质量上均优于自回归先验，训练中通过随机丢弃文本条件（10% 概率）支持分类器无关引导，采样时还采用生成多个候选并选取与文本嵌入相似度最高的策略以提升对齐质量。该设计使 Prior 能够有效桥接文本与图像语义空间，成为生成多样且高质量图像的关键组件。","order":2,"sourceName":"","sourceUrl":""},{"id":551,"slug":"dalle-2-image-manipulations","title":"图像处理","description":"Image Manipulations（图像操控）是一项核心创新功能，它充分利用了模型的两阶段生成架构（先生成 CLIP 图像嵌入，再解码为图像）来实现强大而灵活的图像编辑。\n\n该功能主要包含三种操作：\n- 图像变体（Variations）：能够基于单张输入图像生成在保持核心语义（如物体、构图）和风格（如画风）不变的前提下，变化非本质细节（如纹理、朝向）的多样化样本，这是通过固定 CLIP 图像嵌入（负责语义/风格）并扰动 DDIM 反转得到的潜码（负责细节）来实现的。\n- 图像插值（Interpolations）：允许在两张图像之间进行平滑过渡，通过在 CLIP 嵌入空间对它们的表征进行球面插值，从而自然融合其内容与风格。\n- 文本引导变换（Text Diffs）：利用 CLIP 将图像和文本映射到同一潜在空间的特性，通过计算目标文本与参考文本的嵌入差值向量，并将原图的 CLIP 图像嵌入朝向该方向移动，从而实现无需重新训练模型的零样本、语言驱动的语义修改（例如将“白天”的场景变为“夜晚”）。\n\n这些操控能力的根本优势在于模型将图像的高层次语义信息（由 CLIP 嵌入捕获）与具体细节信息（由扩散模型潜码捕获）进行了有效分离，使得用户能够对图像进行高度可控的、创造性的编辑，远超传统的像素级操作。","order":3,"sourceName":"","sourceUrl":""}]},{"id":225,"slug":"llava","title":"LLaVA","description":"LLaVA（Large Language and Vision Assistant）是首个将大语言模型（LLM）成功的指令微调范式系统性地引入视觉-语言多模态领域的工作。其核心贡献在于巧妙地利用纯文本的 GPT-4 作为“教师模型”，通过输入图像的文本描述（如标题、边界框）让其模拟人类对话，自动生成了包含对话、详细描述和复杂推理在内的 15.8 万条高质量视觉-语言指令数据。基于此数据，LLaVA 采用简洁的架构，仅用一个可训练的线性投影层将强大的冻结视觉编码器（CLIP-ViT）与冻结语言模型（Vicuna）连接，并通过两阶段训练（特征对齐预训练 + 端到端指令微调），成功激发出了模型的通用多模态对话能力。实验表明，LLaVA 在多项评测中展现出了接近 GPT-4 的惊艳表现，尤其在 ScienceQA 基准上，其与 GPT-4 集成后达到了 92.53% 的新 State-of-the-Art 准确率。该研究证明了用生成式数据指导视觉-语言指令调优的路径高度可行，其全面开源的数据、模型和代码为后续多模态研究奠定了重要基石，堪称开源多模态领域的“GPT-3 时刻”。","sourceName":"Visual Instruction Tuning","sourceUrl":"https://arxiv.org/abs/2304.08485","publishedDate":"2023-04-17","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/wisc.png","types":["mmlm"],"nodes":[{"id":552,"slug":"llava-visual-instruction-tuning","title":"Visual Instruction Tuning","description":"LLaVA 模型核心是将纯语言模型上成功的“指令调优”范式首次系统性地引入视觉-语言多模态领域。该方法巧妙地解决了多模态指令数据稀缺的关键难题：利用强大的纯文本 GPT-4 作为“教师”，通过输入图像的文本描述（如标题、边界框）来“脑补”图像内容，从而自动生成了包含对话、详细描述和复杂推理在内的 15.8 万条高质量视觉-语言指令数据。基于此数据，LLaVA 采用简洁的“视觉编码器（CLIP-ViT）+ 线性投影层 + 语言模型（Vicuna）”架构，并通过两阶段训练（特征对齐预训练 + 端到端指令微调）成功激发出模型的通用多模态对话能力。","order":1,"sourceName":"","sourceUrl":""},{"id":553,"slug":"llava-experiments","title":"实验效果","description":"在 LLaVA 论文的 Experiments 部分，作者通过两个核心实验全面评估了模型的性能：多模态聊天机器人对话能力和 ScienceQA 科学问答任务。在多模态聊天机器人评估中，基于构建的 LLaVA-Bench 基准（包括 COCO 和 In-the-Wild 子集），LLaVA 在指令跟随任务中表现出色，其相对分数分别达到 85.1% 和 67.3%，显著优于 BLIP-2 和 OpenFlamingo 等基线模型，展现了强大的视觉-语言对齐能力。在 ScienceQA 多模态推理基准上，LLaVA 单独训练达到了 90.92% 的准确率，接近当时 SOTA 水平，而当与 GPT-4 集成（采用 GPT-4 作为裁判决策）时，准确率进一步提升至 92.53%，创造了新的 SOTA 记录。消融实验验证了关键设计选择（如使用 CLIP 视觉编码器的倒数第二层特征、思维链生成顺序以及端到端指令调优的必要性），充分证明了视觉指令调优策略的有效性。","order":2,"sourceName":"","sourceUrl":""}]},{"id":226,"slug":"qwen-vl","title":"Qwen-VL","description":"Qwen-VL 基于 Qwen-7B 语言模型增强视觉能力，支持图像理解、定位、文本阅读及多语言对话。\r\n\r\n模型采用三组件架构：\r\n- 视觉编码器（ViT-bigG）\r\n- 位置感知 VL 适配器（压缩特征至 256 长度）\r\n- 语言模型\r\n\r\n总参数量约 9.6B。训练流程包含三阶段：\r\n- 首先使用 14 亿清洗后的图像-文本对进行预训练（分辨率 224×224）\r\n- 接着引入多任务数据（如 VQA、定位、OCR）提升分辨率至 448×448\r\n- 最后通过 35 万条指令微调数据优化交互能力，生成对话模型 Qwen-VL-Chat\r\n\r\n该模型在多项基准测试中表现领先，如零样本图像描述（Flickr30K CIDEr 得分 85.8）、视觉问答（VQAv2 准确率 79.5%）、指代表达理解（RefCOCO 准确率 89.36%）及真实对话评测（TouchStone 得分 645.2），支持多图输入、细粒度定位和中英文指令，代码和模型已公开于 GitHub。","sourceName":"Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond","sourceUrl":"https://arxiv.org/abs/2308.12966","publishedDate":"2023-08-24","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/qwen.jpeg","types":["mmlm"],"nodes":[{"id":554,"slug":"qwen-vl-methodology","title":"方法论","description":"Qwen-VL 的方法论章节聚焦于模型架构设计与输入输出接口定义：模型采用三组件架构，包括基于 Qwen-7B 的大语言模型底座、从 OpenCLIP 初始化的 ViT-bigG 视觉编码器，以及核心创新点——位置感知视觉-语言适配器。\n\n该适配器通过单层交叉注意力机制，将图像特征序列压缩为固定长度 256，并引入 2D 绝对位置编码以保留空间信息，使总参数量达 9.6B（视觉编码器 1.9B + 适配器 0.08B + LLM 7.7B）。\n\n输入输出层面，图像特征通过特殊标记和标识起止，边界框坐标归一化至 $[0, 1000)$ 范围并格式化为 `(x1,y1),(x2,y2)` 字符串，结合 `\u003cref>` 与 `\u003cbox>` 标记实现文本与区域的细粒度关联。这一简洁架构通过视觉与语言的精准对齐，为多模态任务奠定了高效基础。","order":1,"sourceName":"","sourceUrl":""},{"id":555,"slug":"qwen-vl-three-stage-training","title":"三段式训练","description":"Qwen-VL 的训练流程采用三阶段渐进式策略，以系统化构建模型的多模态能力。\n\n第一阶段预训练聚焦于基础视觉-语言对齐，使用 14 亿清洗后的网络图像-文本对（含中英文），冻结语言模型仅优化视觉编码器与适配器，在 224×224 分辨率下训练 5 万步，使模型获得初步视觉理解能力。\n\n第二阶段多任务预训练引入细粒度标注数据，将分辨率提升至 448×448 以减少信息损失，同时解锁整个模型进行端到端训练，并行学习 7 项任务（如图像描述、视觉问答、定位、OCR 等），通过交错图文数据和定位标注增强模型对文本、图表、指向性理解等复杂场景的适应力。\n\n第三阶段监督微调使用 35 万指令数据优化对话能力，构建包含定位和多图像理解的对话样本，冻结视觉编码器而微调语言模型与适配器，最终得到交互式模型 Qwen-VL-Chat。","order":2,"sourceName":"","sourceUrl":""},{"id":556,"slug":"qwen-vl-evaluation","title":"评估","description":"作者通过系统性实验验证了模型在多模态任务上的综合性能。\n\n评估涵盖五大方向：在图像描述任务中，Qwen-VL 在 Flickr30K 上达到 85.8 CIDEr 分数，显著超越 Flamingo-80B 等大规模模型；在通用视觉问答（VQA）任务上，其在 VQAv2、OKVQA 和 GQA 基准分别取得 79.5%、58.6% 和 59.3% 的准确率，展现强大推理能力；在文本导向 VQA（如 TextVQA、DocVQA）任务中，模型在文字识别和图表理解上表现优异（如 TextVQA 准确率 63.8%）；在指代表达理解任务（如 RefCOCO 系列）中，定位准确率超 89%，证明其细粒度视觉定位能力；此外，模型在少样本学习场景下性能接近参数量大 10 倍的模型，凸显其高效迁移性。\n\n最终，指令调优后的 Qwen-VL-Chat 在真实对话评测（如 TouchStone、MME）中全面领先，尤其在中文多轮对话、多图像理解任务上优势明显，证实其在实际应用中的强大泛化能力。","order":3,"sourceName":"Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond","sourceUrl":"https://arxiv.org/abs/2308.12966"}]},{"id":227,"slug":"lvm","title":"LVM","description":"LVM 旨在不依赖任何语言数据来构建大规模视觉模型。其核心创新是提出了“视觉句子”的概念，将图像、视频、深度图、分割标注等多样化的视觉数据统一表示为图像序列。通过使用 VQGAN 将每个图像编码为离散标记，模型（一个基于 LLaMA 架构的自回归 Transformer）可以像处理文本一样，以“下一个标记预测”为目标进行训练。研究表明，这种简单的序列建模方法展现出强大的缩放效应，即随着模型参数和数据量（使用超 16 亿图像/帧）的增加，性能持续提升。更重要的是，训练好的单一模型无需微调，仅通过设计不同的“视觉提示”就能灵活解决分割、深度估计、视频预测等多种视觉任务，证明了纯视觉数据同样能够支撑通用视觉基础模型的学习，为探索不依赖语言的视觉智能开辟了新范式。","sourceName":"Sequential Modeling Enables Scalable Learning for Large Vision Models","sourceUrl":"https://arxiv.org/abs/2312.00785","publishedDate":"2023-12-01","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/bair.png","types":["lvm"],"nodes":[{"id":557,"slug":"lvm-data","title":"数据","description":"LVM 介绍了一个为训练纯视觉大模型而构建的大规模数据集 UVDv1，其关键创新在于提出了“视觉句子”这一统一格式，用以解决视觉数据来源多样、结构异构的难题；具体而言，该数据集整合了总计 16.4 亿张图像/帧的五大类数据（包括未标注图像、带标注图像、视频、带标注视频及 3D 合成对象），并通过“视觉句子”——即一个或多个图像后接结束标记的序列——将所有这些数据（如单张图、视频帧、图像-标注对）转化为统一的序列格式，使得模型能够像处理文本序列一样，以自回归方式进行下一个标记预测，从而无需任何语言标签即可在庞大而多样的纯视觉数据上训练出能够通过提示执行多种任务的大型视觉模型。","order":1,"sourceName":"","sourceUrl":""},{"id":558,"slug":"lvm-core-methodology","title":"核心方法论","description":"这种纯视觉的大模型框架，核心是通过序列建模学习视觉表示，而无需任何语言数据。该方法首先利用 VQGAN 标记器将每个图像独立编码为 256 个离散标记，将图像转化为序列化的符号表示；然后，将所有图像的标记连接成统一的视觉句子序列，采用基于 LLaMA 架构的自回归 Transformer 进行训练，通过最小化下一个标记预测的交叉熵损失，使模型能够从图像序列的上下文中推断任务关系；最后，在推理阶段，通过设计视觉提示（如输入部分图像序列）来引导模型生成后续内容，实现多种视觉任务的零样本求解，如图像补全、分割和预测等。整个流程实现了视觉数据的统一表示和灵活的任务泛化。","order":2,"sourceName":"","sourceUrl":""},{"id":559,"slug":"lvm-experimental-results","title":"实验结果","description":"作者通过系统实验验证了 LVM 的可扩展性和多任务处理能力。实验表明，随着模型规模从 300M 参数增加到 3B 参数，训练损失（困惑度）持续下降，且下游任务（如语义分割、深度估计、表面法线估计和边缘检测）的性能显著提升，证明模型和数据规模的扩大能有效提升泛化能力。通过序列提示（Sequential Prompting），LVM 能够根据前序帧预测视频后续帧，或进行 3D 旋转预测，且更长上下文（如 11 帧以上）能改善预测准确性。类比提示（Analogy Prompting）使模型能泛化到未训练任务，如关键点检测和图像分割，其在 Pascal 3D+ 数据集上达到 81.2% 的 PCK 分数，优于部分专用模型。此外，模型能处理组合任务（如旋转与关键点跟踪）和非常规提示（如物体复制或视觉推理任务），展现出初步的推理能力，但存在提示歧义、生成质量不足等局限性，凸显了进一步扩展的需求。","order":3,"sourceName":"","sourceUrl":""}]},{"id":228,"slug":"whisper","title":"Whisper","description":"Whisper 是 OpenAI 在 2022 年提出的基于大规模弱监督训练的鲁棒语音识别模型，其核心创新在于通过收集互联网上 680,000 小时的音频-转录对进行训练，其中包含 117,000 小时的多语言数据和 125,000 小时的语音翻译数据。\r\n\r\n该研究采用编码器-解码器 Transformer 架构，通过精心设计的数据过滤机制去除低质量转录，并统一了语音识别、翻译、语言检测和语音活动检测等多任务格式。\r\n\r\n实验表明，Whisper 在零样本设置下无需针对特定数据集进行微调，就能在多个标准基准测试中达到与全监督方法竞争的性能，展现出卓越的跨领域泛化能力和接近人类水平的鲁棒性。\r\n\r\n这项工作的主要贡献在于验证了简单的大规模弱监督预训练对语音识别的有效性，并开源了模型和代码，为后续鲁棒语音处理研究提供了重要基础。","sourceName":"Robust Speech Recognition via Large-Scale Weak Supervision","sourceUrl":"https://arxiv.org/abs/2212.04356","publishedDate":"2022-12-06","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/openai.svg","types":["speech-model"],"nodes":[{"id":560,"slug":"whisper-method","title":"方案","description":"Whisper 的核心方法论包含三块：数据预处理、模型架构和多任务格式数据。\n\n预处理采用极简方法从互联网收集音频-转录对，构建了 680,000 小时的多样化数据集，并通过检测移除机器生成转录、音频语言匹配、模糊去重等自动过滤机制确保数据质量，音频被分割为 30 秒片段并包含无语音片段用于语音活动检测训练。\n\n模型架构采用标准的编码器-解码器 Transformer 设计，音频经重采样至 16 kHz 后转换为 80 通道 log-magnitude 梅尔频谱图，编码器包含卷积 stem 和 Transformer 块，解码器使用学习的位置编码和绑定表示，文本分词采用 GPT-2 的字节级 BPE。\n\n多任务格式通过特殊标记序列（如 `\u003c|startoftranscript|>`、语言标记、任务标记等）统一语音识别、翻译、语音活动检测、语言识别等多种功能，使单一模型能够执行完整语音处理流水线，并利用历史转录文本作为上下文解决音频歧义。","order":1,"sourceName":"","sourceUrl":""},{"id":561,"slug":"whisper-experiments-ablation","title":"实验分析与消融","description":"Whisper 论文的 Experiments 章节系统评估了模型在零样本（zero-shot）设置下的性能，核心发现是：通过在大规模（680,000 小时）、多样化、弱监督数据上进行多任务预训练，单一模型无需任何任务或数据集特定的微调，即可在多种语音任务上实现强大的泛化能力和接近人类的鲁棒性。\n\n在英语语音识别上，模型在 LibriSpeech 等标准基准上达到与全监督方法竞争的性能（词错率 WER 低至约 3.4%），且在分布外（out-of-distribution）数据集上展现出远优于传统监督模型的鲁棒性，将分布外平均错误率降低了 55.2%。\n\n在多语言语音识别中，性能与每种语言的训练数据量强相关（数据量每增 16 倍，WER 约减半），但非印欧语系语言因字节级 BPE 分词器不匹配而表现低于预期。\n\n在语音翻译（$X \\rightarrow en$）任务上，模型在低资源语言上表现出色，体现了零样本迁移优势。语言识别准确率在其训练覆盖的语言上可达 80.3%。鲁棒性测试证实模型对加性噪声和环境噪声的抵抗力更强。长文本转录评估显示其能有效处理 30 秒片段并整合上下文。\n\n分析与消融研究进一步揭示，除英语识别因接近人类水平而收益递减外，模型性能在多语言识别、翻译等任务上随模型规模增大持续提升，且增大训练数据规模对所有任务均有积极影响；对于足够大的模型，联合多任务、多语言训练没有弊端甚至有益。","order":2,"sourceName":"","sourceUrl":""}]},{"id":229,"slug":"gptq","title":"GPTQ","description":"GPTQ（Generative Pre-trained Transformer Quantization）是一种针对大规模生成式预训练 Transformer 模型的高效后训练量化方法。该方法基于近似二阶信息，通过三个关键技术突破——任意顺序量化、懒惰批量更新和 Cholesky 重构——将算法复杂度从立方级降低到可处理千亿参数模型的水平。GPTQ 能够在约 4 个 GPU 小时内将 1750 亿参数的模型（如 OPT-175B 和 BLOOM-176B）量化到 3-4 位权重，且困惑度损失极小（如 OPT-175B 在 4 位量化下仅损失 0.03）。相比之前只能达到 8 位量化的后训练方法，GPTQ 将压缩率提高了一倍以上，首次实现了在单个 NVIDIA A100 GPU 上运行 175B 参数模型进行生成推理，并带来了显著的端到端推理加速（A100 上约 3.25 倍，A6000 上约 4.5 倍）。该方法在极端量化（2 位甚至三元）下仍能保持合理精度，为超大语言模型在资源受限环境中的部署提供了实用解决方案。","sourceName":"GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers","sourceUrl":"https://arxiv.org/abs/2210.17323","publishedDate":"2022-10-31","isFree":false,"isMajor":false,"logoUrl":"","types":["quantization"],"nodes":[{"id":562,"slug":"gptq-overview","title":"GPTQ","description":"GPTQ（Generative Pre-trained Transformer Quantization）是一种针对大规模生成式预训练 Transformer 模型的高效后训练量化方法。该方法基于近似二阶信息，通过三个关键技术突破——任意顺序量化、懒惰批量更新和 Cholesky 重构——将算法复杂度从立方级降低到可处理千亿参数模型的水平。GPTQ 能够在约 4 个 GPU 小时内将 1750 亿参数的模型（如 OPT-175B 和 BLOOM-176B）量化到 3-4 位权重，且困惑度损失极小（如 OPT-175B 在 4 位量化下仅损失 0.03）。相比之前只能达到 8 位量化的后训练方法，GPTQ 将压缩率提高了一倍以上，首次实现了在单个 NVIDIA A100 GPU 上运行 175B 参数模型进行生成推理，并带来了显著的端到端推理加速（A100 上约 3.25 倍，A6000 上约 4.5 倍）。该方法在极端量化（2 位甚至三元）下仍能保持合理精度，为超大语言模型在资源受限环境中的部署提供了实用解决方案。","order":1,"sourceName":"GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers","sourceUrl":"https://arxiv.org/abs/2210.17323"}]},{"id":230,"slug":"dpo","title":"DPO","description":"直接偏好优化（DPO）旨在解决传统人类反馈强化学习（RLHF）流程复杂且不稳定的问题。DPO 的核心洞察是通过巧妙的数学变换，将奖励函数重新参数化为策略的函数，从而避免显式的奖励建模和不稳定的强化学习训练循环。DPO 利用 Bradley-Terry 偏好模型，通过变量变换将奖励最大化问题转化为一个简单的分类损失函数，直接优化语言模型策略以符合人类偏好。这种方法不仅理论上有良好的保证，而且在实验中表现出与或优于现有方法（如基于 PPO 的 RLHF）的性能，同时在情感控制、摘要和对话等任务上更加稳定、计算高效且易于实现。DPO 的提出为大规模语言模型的对齐提供了一种更简洁、可靠的替代方案，显著降低了训练复杂性和部署门槛。","sourceName":"Direct Preference Optimization: Your Language Model is Secretly a Reward Model","sourceUrl":"https://arxiv.org/abs/2305.18290","publishedDate":"2023-05-19","isFree":false,"isMajor":false,"logoUrl":"","types":["alignment"],"nodes":[{"id":563,"slug":"dpo-basics","title":"DPO","description":"直接偏好优化（DPO）旨在解决传统人类反馈强化学习（RLHF）流程复杂且不稳定的问题。DPO 的核心洞察是通过巧妙的数学变换，将奖励函数重新参数化为策略的函数，从而避免显式的奖励建模和不稳定的强化学习训练循环。DPO 利用 Bradley-Terry 偏好模型，通过变量变换将奖励最大化问题转化为一个简单的分类损失函数，直接优化语言模型策略以符合人类偏好。这种方法不仅理论上有良好的保证，而且在实验中表现出与或优于现有方法（如基于 PPO 的 RLHF）的性能，同时在情感控制、摘要和对话等任务上更加稳定、计算高效且易于实现。DPO 的提出为大规模语言模型的对齐提供了一种更简洁、可靠的替代方案，显著降低了训练复杂性和部署门槛。","order":1,"sourceName":"Direct Preference Optimization: Your Language Model is Secretly a Reward Model","sourceUrl":"https://arxiv.org/abs/2305.18290"}]},{"id":231,"slug":"qlora","title":"QLoRA","description":"QLoRA（Quantized Low-Rank Adaptation）是一种高效的大语言模型微调方法，它通过将预训练模型量化为 4 位精度并冻结，然后仅训练添加的低秩适配器（LoRA）来实现。该方法首次实现了对 4 位量化模型的无损微调，其三大关键技术包括：针对正态分布权重信息论最优的 4 位 NormalFloat 量化、对量化常数进行二次量化以进一步节省内存的双重量化，以及利用分页优化器防止训练中内存峰值。基于 QLoRA 训练的 Guanaco 模型家族在 Vicuna 基准测试中表现出色，例如 Guanaco 65B 在单块 48GB GPU 上微调 24 小时后，达到了 ChatGPT 99.3% 的性能水平，显著降低了大型模型微调的内存门槛。论文的重要结论还包括：数据质量远优于数据量，以及 QLoRA 能够完全恢复 16 位全参数微调的性能。","sourceName":"QLoRA: Efficient Finetuning of Quantized LLMs","sourceUrl":"https://arxiv.org/abs/2305.14314","publishedDate":"2023-05-23","isFree":false,"isMajor":false,"logoUrl":"","types":["fine-tuning"],"nodes":[{"id":564,"slug":"qlora-overview","title":"QLoRA","description":"QLoRA（Quantized Low-Rank Adaptation）是一种高效的大语言模型微调方法，它通过将预训练模型量化为 4 位精度并冻结，然后仅训练添加的低秩适配器（LoRA）来实现。该方法首次实现了对 4 位量化模型的无损微调，其三大关键技术包括：针对正态分布权重信息论最优的 4 位 NormalFloat 量化、对量化常数进行二次量化以进一步节省内存的双重量化，以及利用分页优化器防止训练中内存峰值。基于 QLoRA 训练的 Guanaco 模型家族在 Vicuna 基准测试中表现出色，例如 Guanaco 65B 在单块 48GB GPU 上微调 24 小时后，达到了 ChatGPT 99.3% 的性能水平，显著降低了大型模型微调的内存门槛。论文的重要结论还包括：数据质量远优于数据量，以及 QLoRA 能够完全恢复 16 位全参数微调的性能。","order":1,"sourceName":"QLoRA: Efficient Finetuning of Quantized LLMs","sourceUrl":"https://arxiv.org/abs/2305.14314"}]},{"id":232,"slug":"awq","title":"AWQ","description":"AWQ（Activation-aware Weight Quantization）旨在解决模型在边缘设备部署时面临的内存和带宽挑战。该方法基于一个关键观察：并非所有权重都同等重要，仅保护 1% 的关键权重就能显著降低量化误差。与传统方法不同，AWQ 通过分析激活分布而非权重本身来识别重要通道，并采用每通道缩放技术来保护这些权重免受量化误差影响，同时避免了硬件低效的混合精度量化。AWQ 首次成功实现了多模态大语言模型的量化，在指令调优模型上表现出色，并保持了硬件友好的数据布局。","sourceName":"AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration","sourceUrl":"https://arxiv.org/abs/2306.00978","publishedDate":"2023-06-01","isFree":false,"isMajor":false,"logoUrl":"","types":["quantization"],"nodes":[{"id":565,"slug":"awq-overview","title":"AWQ","description":"AWQ（Activation-aware Weight Quantization）旨在解决模型在边缘设备部署时面临的内存和带宽挑战。该方法基于一个关键观察：并非所有权重都同等重要，仅保护 1% 的关键权重就能显著降低量化误差。与传统方法不同，AWQ 通过分析激活分布而非权重本身来识别重要通道，并采用每通道缩放技术来保护这些权重免受量化误差影响，同时避免了硬件低效的混合精度量化。AWQ 首次成功实现了多模态大语言模型的量化，在指令调优模型上表现出色，并保持了硬件友好的数据布局。","order":1,"sourceName":"AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration","sourceUrl":"https://arxiv.org/abs/2306.00978"}]},{"id":233,"slug":"kto","title":"KTO","description":"传统方法如 DPO 需要成本高昂的成对偏好数据，而 KTO（Kahneman-Tversky Optimization）仅需一个二元信号（输出是否\"可取\"）即可优化模型。论文首先提出了\"人类感知损失\"（HALOs）的概念，指出 DPO 等成功方法之所以有效，是因为其损失函数隐式地编码了人类决策中的认知偏差（如损失厌恶）。KTO 则更进一步，直接依据卡尼曼-特沃斯基的人类效用模型，设计了一个最大化人类感知效用的损失函数。实验表明，在 1B 到 30B 参数规模上，KTO 仅使用二元反馈就能匹配甚至超越 DPO 的性能，并能处理极端的数据不平衡，对于足够好的预训练模型甚至可以跳过监督微调步骤。论文的最终结论是，不存在 universally superior 的对齐损失函数，最佳选择取决于具体任务和数据环境所适用的归纳偏差，而 KTO 为获取成本更低、形式更简单的反馈数据提供了一种高效且强大的对齐方案。","sourceName":"KTO: Model Alignment as Prospect Theoretic Optimization","sourceUrl":"https://arxiv.org/abs/2402.01306","publishedDate":"2024-02-02","isFree":false,"isMajor":false,"logoUrl":"","types":["alignment"],"nodes":[{"id":566,"slug":"kto-basics","title":"KTO","description":"传统方法如 DPO 需要成本高昂的成对偏好数据，而 KTO（Kahneman-Tversky Optimization）仅需一个二元信号（输出是否\"可取\"）即可优化模型。论文首先提出了\"人类感知损失\"（HALOs）的概念，指出 DPO 等成功方法之所以有效，是因为其损失函数隐式地编码了人类决策中的认知偏差（如损失厌恶）。KTO 则更进一步，直接依据卡尼曼-特沃斯基的人类效用模型，设计了一个最大化人类感知效用的损失函数。实验表明，在 1B 到 30B 参数规模上，KTO 仅使用二元反馈就能匹配甚至超越 DPO 的性能，并能处理极端的数据不平衡，对于足够好的预训练模型甚至可以跳过监督微调步骤。论文的最终结论是，不存在 universally superior 的对齐损失函数，最佳选择取决于具体任务和数据环境所适用的归纳偏差，而 KTO 为获取成本更低、形式更简单的反馈数据提供了一种高效且强大的对齐方案。","order":1,"sourceName":"KTO: Model Alignment as Prospect Theoretic Optimization","sourceUrl":"https://arxiv.org/abs/2402.01306"}]},{"id":234,"slug":"orpo","title":"ORPO","description":"ORPO（Odds Ratio Preference Optimization）是一种创新的单阶段偏好对齐方法，它通过将几率比损失项直接整合到监督微调（SFT）的负对数似然损失中，实现了无需参考模型的偏好优化。传统 SFT 会同时提高偏好响应和拒绝响应的生成概率，而 ORPO 通过引入几率比损失 $L_{OR} = -\\log \\sigma(\\log(\\text{odds}(y_w|x) / \\text{odds}(y_l|x)))$ 来动态惩罚拒绝响应，从而在单阶段训练中同时完成领域适应和偏好对齐。实验证明，ORPO 在多个基准测试中表现出色：仅使用 UltraFeedback 数据集单轮训练，Mistral-ORPO-β（7B）在 AlpacaEval2.0 上达到 12.20%，在 IFEval 指令级宽松准确率上达到 66.19%，在 MT-Bench 上获得 7.32 分，超越了包括 Zephyr-β 和 Llama-2-Chat（13B）在内的更大规模模型。ORPO 不仅简化了训练流程（无需 SFT 预热阶段和参考模型），还显著降低了计算资源需求（相比 DPO 减少约 50% 训练时间），为资源受限环境下的高效模型对齐提供了新范式。","sourceName":"ORPO: Monolithic Preference Optimization without Reference Model","sourceUrl":"https://arxiv.org/abs/2403.07691","publishedDate":"2024-03-12","isFree":false,"isMajor":false,"logoUrl":"","types":["alignment"],"nodes":[{"id":567,"slug":"orpo-basics","title":"ORPO","description":"ORPO（Odds Ratio Preference Optimization）是一种创新的单阶段偏好对齐方法，它通过将几率比损失项直接整合到监督微调（SFT）的负对数似然损失中，实现了无需参考模型的偏好优化。传统 SFT 会同时提高偏好响应和拒绝响应的生成概率，而 ORPO 通过引入几率比损失 $L_{OR} = -\\log \\sigma(\\log(\\text{odds}(y_w|x) / \\text{odds}(y_l|x)))$ 来动态惩罚拒绝响应，从而在单阶段训练中同时完成领域适应和偏好对齐。实验证明，ORPO 在多个基准测试中表现出色：仅使用 UltraFeedback 数据集单轮训练，Mistral-ORPO-β（7B）在 AlpacaEval2.0 上达到 12.20%，在 IFEval 指令级宽松准确率上达到 66.19%，在 MT-Bench 上获得 7.32 分，超越了包括 Zephyr-β 和 Llama-2-Chat（13B）在内的更大规模模型。ORPO 不仅简化了训练流程（无需 SFT 预热阶段和参考模型），还显著降低了计算资源需求（相比 DPO 减少约 50% 训练时间），为资源受限环境下的高效模型对齐提供了新范式。","order":1,"sourceName":"ORPO: Monolithic Preference Optimization without Reference Model","sourceUrl":"https://arxiv.org/abs/2403.07691"}]},{"id":235,"slug":"simpo","title":"SimPO","description":"SimPO（Simple Preference Optimization）是一种简单而有效的离线偏好优化方法，旨在解决传统直接偏好优化（DPO）中存在的训练与推理不一致问题以及计算效率低下的缺陷。其核心创新在于采用长度归一化的奖励函数，即使用策略模型生成响应的平均对数概率作为隐式奖励，从而与生成时使用的指标直接对齐，同时引入了目标奖励边际来确保获胜响应与失败响应之间有足够的区分度。这种方法不仅消除了对参考模型的依赖，显著降低了内存和计算成本，还在多个基准测试中表现出显著优势：在 AlpacaEval 2 上比 DPO 提升高达 6.4 个百分点，在 Arena-Hard 上提升高达 7.5 个百分点，其中基于 Gemma-2-9B-it 训练的 SimPO 模型在 AlpacaEval 2 上取得了 72.4% 的长度控制胜率，在 Chatbot Arena 的 \u003c10B 参数模型中排名第一，证明了其在保持响应长度稳定的同时，能够更有效地利用偏好数据，提升模型的对齐性能。","sourceName":"SimPO: Simple Preference Optimization with a Reference-Free Reward","sourceUrl":"https://arxiv.org/abs/2405.14734","publishedDate":"2024-05-23","isFree":false,"isMajor":false,"logoUrl":"","types":["alignment"],"nodes":[{"id":568,"slug":"simpo-basics","title":"SimPO","description":"SimPO（Simple Preference Optimization）是一种简单而有效的离线偏好优化方法，旨在解决传统直接偏好优化（DPO）中存在的训练与推理不一致问题以及计算效率低下的缺陷。其核心创新在于采用长度归一化的奖励函数，即使用策略模型生成响应的平均对数概率作为隐式奖励，从而与生成时使用的指标直接对齐，同时引入了目标奖励边际来确保获胜响应与失败响应之间有足够的区分度。这种方法不仅消除了对参考模型的依赖，显著降低了内存和计算成本，还在多个基准测试中表现出显著优势：在 AlpacaEval 2 上比 DPO 提升高达 6.4 个百分点，在 Arena-Hard 上提升高达 7.5 个百分点，其中基于 Gemma-2-9B-it 训练的 SimPO 模型在 AlpacaEval 2 上取得了 72.4% 的长度控制胜率，在 Chatbot Arena 的 \u003c10B 参数模型中排名第一，证明了其在保持响应长度稳定的同时，能够更有效地利用偏好数据，提升模型的对齐性能。","order":1,"sourceName":"SimPO: Simple Preference Optimization with a Reference-Free Reward","sourceUrl":"https://arxiv.org/abs/2405.14734"}]},{"id":236,"slug":"mixtral-8x7b","title":"Mixtral 8x7B","description":"Mixtral of Experts 是 Mistral AI 于 2024 年 1 月发布的技术报告，详细介绍了其开源的稀疏混合专家语言模型 Mixtral 8x7B。该模型基于 Mistral 7B 的 Transformer 架构，但用混合专家层替代了传统前馈网络，每层包含 8 个专家，每个输入 token 仅动态选择 2 个专家进行处理，使得模型虽然拥有 47B 参数总量，但推理时仅激活 13B 参数，实现了高效计算与高性能的平衡。Mixtral 8x7B 支持 32k tokens 的上下文长度，在多语言数据上进行了强化预训练，在数学、代码生成和多语言理解任务中表现优异，整体性能超越或匹配 Llama 2 70B 和 GPT-3.5。其指令微调版本 Mixtral 8x7B - Instruct 通过监督微调和直接偏好优化，在人类评估中超越了多个主流对话模型。该模型以 Apache 2.0 许可开源，为研究社区提供了重要的稀疏混合专家架构参考实现，展示了如何在保持大模型容量的同时实现实际部署的高效推理。","sourceName":"Mixtral of Experts","sourceUrl":"https://arxiv.org/abs/2401.04088","publishedDate":"2024-02-08","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/mistral.png","types":["llm"],"nodes":[{"id":569,"slug":"mixtral-8x7b-pretraining-model","title":"预训练模型","description":"该模型使用包含多种欧洲语言的大型网络数据语料库进行训练，显著提高了多语言数据的采样比例，使其在多语言基准测试中表现出色。模型基于 Transformer 架构，采用稀疏混合专家设计，总参数量达 46.7B，但每个 token 仅激活 12.9B 参数，通过每层 8 个专家和 Top-2 路由机制实现高效计算。训练中采用了滑动窗口注意力和分组查询注意力等技术，路由器分析显示专家选择更符合语法而非领域特征，连续 token 倾向于分配给相同专家。这种稀疏激活机制使模型在保持大容量参数的同时，训练和推理效率远高于同等规模密集模型，最终在多项任务中达到或超越了 Llama 2 70B 和 GPT-3.5 的性能水平。","order":1,"sourceName":"","sourceUrl":""},{"id":570,"slug":"mixtral-8x7b-instruction-tuning","title":"指令微调","description":"Mixtral-8x7B-Instruct 模型是通过监督微调（Supervised Fine-Tuning, SFT）和直接偏好优化（Direct Preference Optimization, DPO）对基础模型进行指令微调得到的。这一过程旨在使模型更好地理解和遵循人类指令，提升其对话和任务执行能力。论文指出，经过指令微调的 Mixtral-8x7B-Instruct 在人类评估基准测试中表现优异，超越了 GPT-3.5 Turbo、Claude-2.1、Gemini Pro 以及 Llama 2 70B 聊天模型等竞争对手。研究还表明，混合专家（MoE）架构的模型相比密集模型，可能从指令微调中获得更大的性能提升。","order":2,"sourceName":"","sourceUrl":""}]},{"id":237,"slug":"gemma1","title":"Gemma 1","description":"Google DeepMind 于 2024 年 3 月发布论文正式介绍了 Gemma 系列开源轻量级语言模型。该模型基于与旗舰模型 Gemini 相同的研究和技术构建，旨在提供高性能且可商用的轻量化解决方案。论文详细阐述了 Gemma 提供 2B 和 7B 两种参数规模的模型，每种都包含预训练和指令微调版本，并采用 Transformer 解码器架构、旋转位置编码（RoPE）、GeGLU 激活函数等关键技术。\r\n\r\n在 18 个文本基准测试中，Gemma 在 11 个任务上超越了同等规模的开放模型，同时在语言理解、推理和安全性方面表现优异。论文还强调了负责任 AI 发布的重要性，提供了全面的安全评估和模型开发细节，标志着 Google 通过开源推动 AI 社区发展的战略转变。","sourceName":"Gemma: Open Models Based on Gemini Research and Technology","sourceUrl":"https://arxiv.org/abs/2403.08295","publishedDate":"2024-03-13","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/google.svg","types":["llm"],"nodes":[{"id":571,"slug":"gemma1-pretraining-data","title":"预训练数据","description":"Gemma 2B 模型在约 2 万亿（2T）个 token 上进行预训练，而 Gemma 7B 模型则在约 6 万亿（6T）个 token 上训练，这些数据全部来自纯英文内容，主要来源于网络文档（包括网页内容、文章、博客等）、数学内容（数学公式、证明、解题过程）和代码（各种编程语言的代码片段和文档），Gemma 不是多语言模型，也不针对多语言任务进行优化。\n\n在数据过滤方面，Gemma 实施了严格的多阶段过滤机制：首先使用启发式方法和基于模型的分类器移除有害或低质量内容，过滤掉个人信息和其他敏感数据；其次从预训练数据混合中过滤所有评估集，运行针对性的污染分析以检查评估集泄漏；最后通过在 2B 和 7B 模型上进行一系列消融实验确定最终数据混合，采用分阶段训练方法，在整个训练过程中动态调整语料库混合，使高质量数据的权重在训练后期逐渐增加，确保了数据质量与安全性的双重提升，这也是 Gemma 在关键基准测试中能超越更大规模模型的重要原因。","order":1,"sourceName":"","sourceUrl":""},{"id":572,"slug":"gemma1-pretraining-model","title":"预训练模型","description":"Gemma-1 模型架构基于 Transformer 解码器，但采用了多项改进：7B 模型使用多头注意力，而 2B 模型使用多查询注意力（`num_kv_heads = 1`）；采用旋转位置嵌入（RoPE）替代绝对位置嵌入，且在输入和输出间共享嵌入；用 GeGLU 激活函数的近似版本替代标准 ReLU；在每个 Transformer 子层使用 RMSNorm 进行归一化以稳定训练。\n\n分词器方面，Gemma 使用了 Gemini 的 SentencePiece 分词器的子集，词汇表大小为 256k tokens，具有分割数字、不移除额外空格、对未知 token 使用字节级编码的特性，继承了 Gemini 的大型词汇表（256k 条目），旨在处理多种语言，因此与仅限于一两种语言的模型相比，其嵌入参数计数更大。","order":2,"sourceName":"","sourceUrl":""},{"id":573,"slug":"gemma1-pretraining-details","title":"预训练细节","description":"Gemma 模型的训练基础设施是一个为高效训练大型语言模型而高度优化的大规模并行系统，其核心基于 Google 的专用硬件与软件栈。模型完全在 TPUv5e 张量处理单元上进行训练，其中 Gemma 2B 和 7B 版本分别动用了 512 个和 4096 个芯片，这些芯片以 16×16 的二维环面网络结构组成 Pod。软件层面，训练采用 JAX 和 ML Pathways 框架，利用其“单一控制器”编程范式，通过单个 Python 进程即可协调整个分布式训练流程，极大简化了开发。\n\n为了驾驭如此庞大的计算资源，训练采用了结合数据并行、模型分片（如 7B 模型在 Pod 内进行 16 路分片）以及类似 ZeRO-3 的优化器状态分片等精细策略，并由 GSPMD 分区器和 MegaScale XLA 编译器对计算图进行极致优化。此外，Google 特别估算了此次训练产生的碳足迹（约 131 吨二氧化碳当量），并通过提升能效、购买可再生能源和碳抵消等方式，确保了其数据中心运营及本次训练实现碳中和，体现了在追求前沿 AI 性能的同时对环境责任的考量。","order":3,"sourceName":"","sourceUrl":""},{"id":574,"slug":"gemma1-base-model-evaluation","title":"基础模型评估","description":"Gemma-1 论文对基础模型（pre-trained model）进行了全面评估，主要包括记忆评估、个人信息处理评估和学术基准测试。在记忆评估中，Gemma 预训练模型采用与 Anil 等人（2023）相同的方法进行测试，从语料库中抽取 10,000 个文档，使用前 50 个 token 作为提示，评估精确记忆（模型生成的后续 50 个 token 与真实延续完全匹配）和近似记忆（10% 编辑距离阈值）。评估结果显示，Gemma 的记忆率与 PaLM 相当，但没有发现记忆的敏感数据，仅有少量被分类为“可能个人”的数据被记忆。\n\n在个人信息评估中，Gemma 使用 Google Cloud Sensitive Data Protection 工具进行分析，将最高严重性分类为“敏感”，其余为“个人”，结果表明无敏感数据被记忆。在学术基准测试中，Gemma 基础模型在多个领域（物理推理、社会推理、问答、编码、数学、常识推理、语言建模和阅读理解）与类似规模的开源模型进行比较，Gemma 7B 在 MMLU（64.3%）和 MBPP（44.4%）等关键基准测试中表现优异，证明了其在基础语言理解和推理能力上的竞争力，这些评估与 Gemini 模型家族的评估方法一致，为 Gemma 作为负责任的开源模型提供了坚实基础。","order":4,"sourceName":"","sourceUrl":""},{"id":575,"slug":"gemma1-sft","title":"SFT","description":"Gemma-1 的 SFT（监督微调）阶段是连接其强大预训练基础模型与最终可用指令模型的关键桥梁，其核心是通过高质量的指令数据对模型进行校准。该阶段采用了一种创新的、基于模型自动评估的数据构建方法：首先，将人工生成的指令数据与由大模型合成的数据混合；其次，通过“LM 侧边评估”流程进行筛选，即让不同的候选模型对同一提示生成响应，再由一个更强的“裁判”模型评判优劣，从而自动化地构建出侧重于指令遵循、事实性、创造性和安全性的高质量训练对。\n\n在训练时，所有对话数据都经过特定的格式化处理，使用特殊令牌来明确标注对话角色和轮次边界。这一精心设计的 SFT 过程，不仅显著提升了模型遵循复杂指令的能力，也为后续基于人类反馈的强化学习（RLHF）阶段的偏好对齐奠定了坚实基础。","order":5,"sourceName":"","sourceUrl":""},{"id":576,"slug":"gemma1-rlhf","title":"RLHF","description":"其 RLHF 阶段并未使用业界常见的 PPO + RM 组合，而是采用了一种带有 Kullback–Leibler（KL）散度正则化项的 REINFORCE 算法变体。\n\n具体而言，其流程为：首先，在 Bradley-Terry 模型框架下，利用人类标注的偏好对数据训练一个奖励模型（RM）。随后，使用一个改进的 REINFORCE 算法（而非 PPO）来优化策略模型（即 Gemma 模型），目标是在最大化奖励模型给出的奖励的同时，通过 KL 散度惩罚项约束策略模型，使其输出分布不会过度偏离初始的监督微调（SFT）模型。这一设计旨在有效对齐人类偏好的同时，维持模型的稳定性并缓解奖励黑客问题。","order":6,"sourceName":"","sourceUrl":""},{"id":577,"slug":"gemma1-chat-model-evaluation","title":"对话模型评估","description":"Gemma-1 论文中对对话模型（即指令微调模型）的评估主要包含人工偏好评估和自动化基准测试两个核心部分。在人工评估中，研究团队构建了两个保留提示集：一个约 1000 条提示的集合，涵盖创意写作、编程和指令跟随等多样化任务，用于评估模型在通用指令遵循能力上的表现；另一个约 400 条提示的集合，专门设计用于测试模型对基本安全协议的遵守情况。评估采用成对比较（side-by-side comparison）的方式，将 Gemma-7B IT 和 Gemma-2B IT 的响应与强劲的竞争对手 Mistral v0.2 7B Instruct 的响应进行对比，由人类评估员选择更优的响应。\n\n此外，论文还报告了模型在包括 MMLU（大规模多任务语言理解）、GSM8K（数学）、HumanEval（代码）等广泛的自动化学术基准上的性能，这些结果进一步验证了对话模型在知识、推理和代码生成等多方面的综合能力。","order":7,"sourceName":"","sourceUrl":""}]},{"id":238,"slug":"chatglm","title":"ChatGLM","description":"ChatGLM 系列是由清华和智谱 AI 团队研发的大语言模型家族，其发展历程从千亿参数的 GLM-130B 基础模型开始，逐步演进到 ChatGLM-6B 开源对话模型，最终形成最新的 GLM-4 系列（包括 GLM-4、GLM-4-Air 和 GLM-4-9B）。\r\n\r\n该系列基于 GLM 架构，采用自回归空白填充目标，后面转向 Decoder-only 架构，在约 10 万亿 token 的多语言语料上进行预训练，并通过监督微调和人类反馈强化学习实现高质量对齐。评估显示 GLM-4 在 MMLU、GSM8K 等通用基准上接近或超越 GPT-4，在中文对齐和长上下文处理方面表现突出，特别优化的 GLM-4 All Tools 模型能自主调用网络浏览器、Python 解释器等工具完成复杂任务。","sourceName":"ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools","sourceUrl":"https://arxiv.org/abs/2406.12793","publishedDate":"2024-06-18","isFree":false,"isMajor":true,"logoUrl":"https://z-cdn.chatglm.cn/z-blog/z-icon.svg","types":["llm"],"nodes":[{"id":578,"slug":"chatglm-prefix-decoder-only-architecture","title":"Prefix Decoder-only 架构（已停用）","description":"ChatGLM 最初采用的 Prefix Decoder-only 架构是在标准 Causal Decoder-only 架构（如 GPT 系列）基础上发展而来的创新设计。其核心特点在于将注意力机制分为两部分：在处理输入内容时采用双向注意力（Prefix Attention），使模型能够同时关注前后文信息以获得更全面的理解；而在生成输出时则切换为单向注意力（Causal Attention），确保自回归生成的连贯性。\n\n这种混合注意力设计使 ChatGLM 在保持生成能力的同时，增强了上下文理解能力，特别适合对话任务。具体实现中，模型通过特殊的 attention mask 区分输入部分（Part A）和生成部分（Part B），输入部分使用双向 mask 允许关注所有位置，生成部分使用因果 mask 仅关注左侧历史信息。不过后续的 ChatGLM2 和 ChatGLM3 版本已完全转向标准的 Decoder-only 架构，统一使用 Causal Attention。","order":1,"sourceName":"","sourceUrl":""},{"id":579,"slug":"chatglm-glm4-pretraining-architecture","title":"GLM-4 预训练模型架构","description":"ChatGLM4（GLM-4 系列）的预训练模型架构基于 Transformer，并针对性能、效率和长上下文处理进行了多项关键优化：它采用分组查询注意力（GQA）来减少推理时的 KV 缓存，提升效率；使用旋转位置嵌入（RoPE）增强位置建模；以 RMSNorm 和 SwiGLU 激活函数改善性能；并采用 \"No Bias Except QKV\" 设计来提升训练速度与长度外推能力。\n\n模型规模显著扩大，例如 GLM-4-9B 的层数增至 40 层，词表扩至 151,552，支持 128K 标准长上下文及 1M 超长上下文专项版本。预训练数据约 10 万亿 token，涵盖多语言。自 ChatGLM2 起，该系列已从早期的 Prefix Decoder-only 架构（混合注意力）完全转向标准 Decoder-only 架构（全程单向注意力），以提升训练效率、降低工程复杂度并更好地兼容主流生态。","order":2,"sourceName":"","sourceUrl":""},{"id":580,"slug":"chatglm-glm4-alignment","title":"GLM-4 对齐","description":"ChatGLM 的对齐（Alignment）过程主要通过多阶段、组合式的对齐技术实现。首先，监督微调使用高质量的真实人类指令-输出配对数据，唤醒模型的指令遵循能力，为其后续优化奠定基础。随后，基于人类反馈的强化学习（RLHF，具体通过 ChatGLM-RLHF 流程实现）对模型进行精细化校准：通过收集人类对多个回答的偏好数据、训练奖励模型、并利用 PPO/DPO 等算法优化策略模型，使模型的输出在安全性、事实性、相关性、帮助性等维度上更贴合人类的主观偏好，有效缓解了响应不当拒绝、双语混合生成不流畅、多轮对话不连贯等问题。\n\n为了降低对昂贵人类反馈数据的依赖，智谱 AI 还研发了 Self-Contrast 技术，这是一种无反馈对齐策略，它利用目标大模型自身自动生成大量负样本，用于构建对比数据以高效训练奖励模型。","order":3,"sourceName":"","sourceUrl":""}]},{"id":239,"slug":"llama3-1","title":"Llama 3","description":"Llama 3 系列是一个原生支持多语言、编码、推理和工具使用的密集 Transformer 语言模型家族，其旗舰版本拥有 4050 亿参数和 128K token 的上下文窗口；开发过程围绕数据、规模和管理复杂性三大杠杆展开，通过在约 15T 多语言 tokens 上预训练（数据量为 Llama 2 的 8 倍以上）、投入 $3.8 \\times 10^{25}$ FLOPs 的算力（约为 Llama 2 最大版本的 50 倍），并坚持使用标准密集架构与相对简洁的监督微调（SFT）、拒绝采样（RS）和直接偏好优化（DPO）后训练流程来实现稳定扩展与对齐；论文详细说明了模型训练分为在 15.6T tokens 和 8K 上下文窗口上的标准预训练、将上下文扩展至 128K 的持续预训练，以及通过多轮 SFT 和 DPO 注入指令遵循、工具使用和安全对齐的后训练阶段；在广泛评估中，旗舰 405B 模型在 MMLU、HumanEval 等基准上取得了与 GPT-4（包括 GPT-4o）相当的性能，而 8B 和 70B 模型在同参数量级中表现最佳。","sourceName":"The Llama 3 Herd of Models","sourceUrl":"https://arxiv.org/abs/2407.21783","publishedDate":"2024-07-23","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/meta.png","types":["llm"],"nodes":[{"id":581,"slug":"llama3-1-pretraining-data","title":"预训练数据","description":"Llama 3 的预训练数据在数量和质量上都进行了重大升级，构成了模型性能提升的基石。具体来说，团队构建了一个包含约 15T 多语言 tokens 的庞大语料库，其中旗舰 405B 模型使用了 15.6T tokens 进行训练，这一数据规模是前代 Llama 2 所用 1.8T tokens 的 8 倍以上。除了规模的飞跃，团队还开发了更精细的预处理和数据整理流程，对预训练数据进行严格筛选以提升质量，并确保了数据的多语言特性，为模型最终原生支持多语言能力奠定了基础。","order":1,"sourceName":"","sourceUrl":""},{"id":582,"slug":"llama3-1-pretraining-model","title":"预训练模型","description":"Llama 3 的预训练模型架构以标准密集 Transformer 为基础，其性能飞跃主要归功于数据质量、多样性和训练规模的提升，而非架构的剧烈变革。\n\n团队在坚持这一稳定架构的前提下，引入了四项关键改进：采用分组查询注意力（GQA）以提升推理效率并减少键值缓存，使用能防止跨文档注意力的掩码以支持超长序列的持续预训练，将词汇表大幅扩展至 128K tokens（结合 tiktoken 的 100K 和新增的 28K 多语言 token）以提升压缩率和多语言能力，并将 RoPE 基频提高至 500,000 以更好地支持长上下文。\n\n在此基础上，通过系统的规模定律（Scaling Laws）实验，确定了旗舰 405B 模型的超参数（如 126 层、16,384 维度、128 个注意力头），确保其在给定算力预算下接近计算最优。","order":2,"sourceName":"","sourceUrl":""},{"id":583,"slug":"llama3-1-large-scale-engineering","title":"大规模工程","description":"支撑 Llama 3 405B 旗舰模型训练的大规模工程创新，核心是：\n\n- 通过构建一个由 16,000 块 H100 GPU、240 PB 容量的 Tectonic 存储和基于 RoCE 的 400 Gbps 三层 Clos 网络组成的生产级基础设施；\n- 并针对超大规模训练设计了按 `[TP, CP, PP, DP]` 顺序优化的 4D 并行策略，其中通过灵活的微批次调度和负载均衡改进了流水线并行（PP）；\n- 并采用基于全收集（all-gather）的上下文并行（CP）以高效支持长达 128K tokens 的序列训练，同时开发定制的 NCCLX 通信库以提升多跳网络性能，并采用 FP32 梯度累积确保数值稳定性；\n- 此外，团队还通过工具链（如 NCCL 飞行记录器）和自动化运维，在 54 天预训练周期内面对 466 次任务中断（78% 由硬件故障导致）的情况下，仍实现了超过 90% 的有效训练时间，并观察到温度变化引起每日 1-2% 吞吐量波动、大规模 GPU 同步导致数十兆瓦电力冲击等超大规模训练特有的工程挑战。","order":3,"sourceName":"","sourceUrl":""},{"id":584,"slug":"llama3-1-pretraining-details","title":"预训练细节","description":"Llama 3 405B 的预训练配方（Training Recipe）是一个由初始预训练、长上下文预训练和退火构成的三阶段流程，并通过动态调整数据混合来精细调控模型能力：\n\n- 在初始预训练阶段，使用 AdamW 优化器和余弦学习率调度（峰值 $8 \\times 10^{-5}$，经 8,000 步预热后衰减），并通过将批量大小从 400 万 tokens 逐步翻倍至 1600 万 tokens 来平衡稳定性与效率，同时动态增加非英语、数学和最新网页数据的比例以提升多语言、推理能力并更新知识截止期；\n- 随后进入长上下文预训练阶段，为避免早期高计算成本，分六个阶段逐步将上下文窗口从 8K 扩展到 128K tokens，并确保模型在短任务上性能恢复且完美通过“大海捞针”测试后才推进；\n- 最后在退火阶段，将学习率在 4000 万 tokens 上线性衰减至 0，并上采样高质量代码和数学数据（但不含任何基准测试集）以进一步提升关键性能，最终对检查点进行 Polyak 平均得到最终模型。","order":4,"sourceName":"","sourceUrl":""},{"id":585,"slug":"llama3-1-post-training-data","title":"后训练数据","description":"后训练数据是决定 Llama 3 模型有用性和行为的关键，其构建围绕偏好数据与监督微调数据展开：偏好数据通过在每个后训练轮次后部署多个不同模型，为同一用户提示采样两个响应以增加多样性，并由标注者进行四级偏好强度评级，同时引入编辑步骤让标注者进一步改进被选中的响应，从而形成部分包含“编辑后的 > 被选的 > 被拒的”三个明确排序响应的数据，且与 Llama 2 相比，提示和响应的平均长度均有所增加，表明训练任务更复杂；监督微调数据则混合了利用奖励模型从人类标注提示中采样并经筛选的拒绝采样数据、合成数据及其他数据源，并经过严格的质量控制与清洗，以覆盖知识性问答、精确指令跟随、推理、编码、多语言、工具使用等多个方面。","order":5,"sourceName":"","sourceUrl":""},{"id":586,"slug":"llama3-1-post-training-model","title":"后训练模型","description":"该流程以奖励模型（RM）、监督微调（SFT）和直接偏好优化（DPO）为三大支柱，并迭代进行六轮以逐步提升模型能力；\n\n- 首先，为支持工具调用等复杂功能，设计了使用特殊头部和终止 token 的多消息聊天协议；\n- 在每一轮中，先在人类标注的偏好数据上训练覆盖不同能力的奖励模型，该模型用于后续的拒绝采样；\n- 随后，利用奖励模型对提示进行拒绝采样，并结合合成数据等来源构成 SFT 数据，对预训练模型进行监督微调（学习率 $10^{-5}$，仅对目标响应计算损失）；\n- 在此基础上，使用最先进批次的偏好数据进行直接偏好优化（DPO），并引入关键改进，即掩码格式化 token 以避免学习目标冲突，以及添加 NLL 损失正则化以稳定训练；\n- 最后，在各阶段对来自不同实验的模型进行平均以增强稳健性。","order":6,"sourceName":"","sourceUrl":""}]},{"id":240,"slug":"gemma2","title":"Gemma 2","description":"Gemma 2 是 Google Gemma 团队于 2024 年 7 月 31 日发布的轻量级开源语言模型系列，参数规模覆盖 20 亿到 270 亿。该论文介绍了模型在架构上的关键改进，包括采用交错局部 - 全局注意力机制和分组查询注意力，并对 20 亿和 90 亿参数模型创新性地使用了知识蒸馏训练方法，而非传统的下一个词预测。\r\n\r\n这些改进使得 Gemma 2 在各自规模下提供了最佳性能，甚至能与参数规模大 2-3 倍的模型竞争，其中 270 亿参数版本专门优化，可在单个 TPU 主机或最新 NVIDIA GPU 上高效运行，所有模型均以商业友好型许可向社区开源。","sourceName":"Gemma 2: Improving Open Language Models at a Practical Size","sourceUrl":"https://arxiv.org/abs/2408.00118","publishedDate":"2024-07-31","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/google.svg","types":["llm"],"nodes":[{"id":587,"slug":"gemma2-pretraining-data","title":"预训练数据","description":"Gemma 2 的预训练数据精心设计，包含 27B 模型在 13 万亿 token 的英语数据上训练，9B 模型在 8 万亿 token 上训练，2B 模型在 2 万亿 token 上训练，数据主要来自网络文档、代码和科学文章，以英语为主但使用了 Gemini 设计的 256k 词表（支持多语言）。\n\n数据经过严格过滤，包括减少不安全输出风险、过滤个人信息、去污染评估集以及最小化敏感输出传播，确保模型安全可靠。","order":1,"sourceName":"","sourceUrl":""},{"id":588,"slug":"gemma2-pretraining-model","title":"预训练模型","description":"Gemma 2 是一个基于 Transformer 解码器架构的开放语言模型系列，提供 27B、9B 和 2.6B 三种参数规模，其上下文长度为 8192 个 token，并采用了旋转位置编码（RoPE）与近似 GeGLU 激活函数。\n\n该系列模型在架构上进行了多项关键改进以提升性能与效率：\n\n- 引入了交替注意力机制，通过在网络中间隔使用局部滑动窗口注意力（窗口为 4096 token）与全局注意力（跨度为 8192 token）来平衡计算成本与长程依赖建模能力。\n- 实施了 Logit 软上限技术，即在每个注意力层及最终输出层通过以下公式将 logit 值限制在特定范围内：\n\n  $$\n  logits \\leftarrow soft\\_cap \\cdot \\tanh(logits / soft\\_cap)\n  $$\n\n- 广泛使用 RMSNorm 对各子层的输入输出进行归一化，以增强训练稳定性。\n- 在 9B 和 27B 参数模型中采用了分组查询注意力（GQA，组数为 2），这能在基本保持下游任务性能的同时显著提升推理速度。","order":2,"sourceName":"","sourceUrl":""},{"id":589,"slug":"gemma2-pretraining-details","title":"预训练细节","description":"Gemma 2 在预训练的数据规模、处理流程和训练方法上进行了全面优化，并创新性地将知识蒸馏应用于大规模预训练中。预训练核心细节如下：\n\n- 模型在不同参数规模上使用了差异化的数据量，27B 参数模型在 13 万亿个 token 上训练，9B 模型在 8 万亿个 token 上训练，2.6B 模型则在 2 万亿个 token 上训练。\n- 这些 token 主要来自英语网页文档、代码和科学文章，最终的数据混合比例是通过类似于 Gemini 1.0 的消融实验确定的。\n- 模型沿用了与 Gemma 1 和 Gemini 相同的 SentencePiece 分词器，其词汇表大小为 256k，具备拆分数字、保留空白和字节级编码的特性。\n- 在数据安全方面，使用了与 Gemma 1 相同的过滤技术，以降低不适当或敏感内容的风险。\n- 训练基于 Google 的 TPU 集群，例如 27B 模型在 6144 个 TPUv5p 芯片上训练，采用了 768 路数据复制和 8 路模型分片。","order":3,"sourceName":"","sourceUrl":""},{"id":590,"slug":"gemma2-base-model-evaluation","title":"基础模型评估","description":"Gemma 2 基础模型的评估体系主要分为学术能力基准测试和伦理与安全评估两部分。\n\n在学术基准上，模型在 MMLU（多任务语言理解）、GSM8K（数学推理）、HumanEval（代码生成）等一系列广泛认可的任务上进行了系统测试，结果显示其性能与模型规模呈显著正相关：27B 模型在 MMLU 上达到 75.2 分，在 GSM8K 上达到 74.0 分，确立了同尺寸模型的新标杆；9B 模型表现卓越，在 MMLU 上取得 71.3 分，超越了同级别许多开源模型；即便是 2B 轻量级模型也具备实用的基础能力。评估同时指出，模型在语言理解、知识问答、数学和代码生成是其强项领域。\n\n在伦理与安全方面，模型通过了内部严格的红队测试，在防止生成有害内容、减少偏见以及记忆风险控制等方面均符合安全政策阈值，并在 BBQ、TruthfulQA 等外部安全基准上提供了测试结果。总体而言，该评估证实了 Gemma 2 基础模型在参数量与性能之间取得了出色平衡，为开发者提供了强大且高效的基础模型选择。","order":4,"sourceName":"","sourceUrl":""},{"id":591,"slug":"gemma2-post-training","title":"Post-Training","description":"Gemma 2 的后训练阶段旨在将通用预训练基础模型转化为安全、有用且能遵循指令的对话模型，其核心流程包括监督微调（SFT）和基于人类反馈的强化学习（RLHF）。\n\n在 SFT 阶段，模型使用一个由人工生成与更强大“教师模型”合成内容混合而成的纯英文指令 - 响应对数据集进行训练，并采用数据驱动的“侧向选择”方法自动筛选能针对模型弱点强化的高质量数据，同时经过严格过滤以移除不安全内容。随后，在 RLHF 阶段，模型首先在一个规模更大的独立奖励模型（侧重于评估对话能力）指导下进行优化，该奖励模型基于人类偏好数据训练；然后通过带有 KL 散度约束的策略优化算法（如 PPO 变体）微调模型行为，使其输出更符合人类在有用性和无害性方面的偏好，同时防止过度偏离 SFT 基础。最终，采用模型融合技术（如 WARP）对多个策略模型进行加权平均，以提升鲁棒性和稳定性。","order":5,"sourceName":"","sourceUrl":""},{"id":592,"slug":"gemma2-chat-model-evaluation","title":"对话模型评估","description":"评估主要包含基于人类评估的多轮对话场景测试和在公开竞技场上的盲测排名两个核心部分。\n\n在人类评估中，研究团队使用了一个包含 500 个多样化场景的保留测试集，每个场景描述了对模型的一系列多轮请求（如头脑风暴、制定计划或学习新知识），用户与模型的平均交互轮次为 8.4 次。评估结果显示，与 Gemma 1.1 7B 相比，人类评估员对 Gemma 2 9B 和 27B 模型的对话满意度和对话目标实现率的评价均显著更高。此外，Gemma 2 模型在从对话开始到后续轮次中，能更好地保持高质量的回应。这一评估结果与后训练阶段的改进直接相关：Gemma 2 在 RLHF 阶段使用了一个规模更大、且专门针对对话能力（特别是多轮交互）进行优化的奖励模型，以更好地对齐人类偏好。\n\n在自动评估与公开排名方面，Gemma 2 的指令微调模型在权威的盲测平台 LMSYS Chatbot Arena 上取得了优异成绩。其中，270 亿参数（27B）的 Gemma 2 指令模型击败了参数规模大得多的 Llama 3 70B 等模型，在所有开源权重的模型中位列第一；而 90 亿参数（9B）的模型则是当时 15B 以下参数规模中成绩最好的。后续发布的 20 亿参数（2B）模型同样表现突出，其得分超越了 GPT-3.5 以及参数规模数十倍于它的 Mixtral 8x7B 和 Llama 2 70B 等模型。","order":6,"sourceName":"","sourceUrl":""}]},{"id":241,"slug":"gemma3","title":"Gemma 3","description":"Gemma 3 是由 Google DeepMind 开发的 Gemma 系列最新多模态开源语言模型，作为 Gemma 家族的轻量级扩展版本，其规模从 1B 到 27B 参数不等。该模型首次引入了图像理解能力，采用定制版 SigLIP 视觉编码器处理图像，将图像转换为 256 个固定大小的向量嵌入，并通过 \"Pan & Scan\" 方法处理不同纵横比的图像。\r\n\r\nGemma 3 支持长达 128K tokens 的上下文（1B 模型支持 32K），通过 5:1 局部 / 全局注意力层交错设计显著降低 KV 缓存内存使用。在性能上，Gemma 3-4B-IT 可与 Gemma 2-27B-IT 竞争，而 Gemma 3-27B-IT 在 LMSYS Chatbot Arena 上获得 1338 Elo 评分，跻身前 10 名，性能接近 Gemini-1.5-Pro。模型专为消费级硬件设计，提供多种量化版本，同时通过严格的安全过滤和评估，确保了较低的文本记忆率和有害内容生成风险。","sourceName":"Gemma 3 Technical Report","sourceUrl":"https://arxiv.org/abs/2503.19786","publishedDate":"2025-03-25","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/google.svg","types":["llm"],"nodes":[{"id":593,"slug":"gemma3-pretraining-data","title":"预训练数据","description":"Gemma 3 的预训练数据在规模、组成和处理上均有显著改进：\n\n- 数据规模方面，27B 模型使用 14 万亿 tokens，12B 模型为 12 万亿 tokens，4B 模型为 4 万亿 tokens，1B 模型为 2 万亿 tokens。\n- 数据组成包含图文混合内容，涵盖网页文档、代码、数学文本和图像，并大幅增加多语言数据比例，支持超过 140 种语言，采用类似 Chung 等人的策略平衡语言分布。\n- 数据处理采用多重过滤机制，包括严格的 CSAM（儿童性虐待材料）过滤、敏感个人信息去除以及质量重新加权步骤以减少低质量内容。\n- 训练数据的知识截止日期为 2024 年 8 月。","order":1,"sourceName":"","sourceUrl":""},{"id":594,"slug":"gemma3-pretraining-model","title":"预训练模型","description":"Gemma 3 的预训练模型架构采用了多项创新设计，实现了多模态能力与长上下文处理的高效结合。\n\n- 其核心创新在于 5:1 的局部 / 全局注意力层交错设计，每 5 个局部层后跟 1 个全局层，局部层跨度仅 1024 tokens，而全局层的 RoPE 基频率从 10k 提升至 1M。\n- 模型能有效处理长达 128K tokens 的上下文（1B 模型支持 32K），同时将 KV 缓存内存开销从 \"global only\" 配置的 60% 大幅降低至 15% 以下。\n- 在多模态方面，Gemma 3 使用 400M 参数的 SigLIP 视觉编码器（Vision Transformer）处理图像，将输入图像标准化为 896×896 像素并转换为 256 个固定大小的向量。\n- 为解决非方形图像处理问题，Gemma 3 引入了 Pan & Scan（P&S）方法，在推理时将图像分割为非重叠的等大小裁剪块并调整为 896×896 像素。\n- 所有 4B、12B 和 27B 模型共享同一个视觉编码器，且在预训练前对图像进行预计算嵌入，不增加语言模型训练成本。","order":2,"sourceName":"","sourceUrl":""},{"id":595,"slug":"gemma3-pretraining-details","title":"预训练细节","description":"Gemma 3 的预训练核心在于高效的知识蒸馏（Knowledge Distillation）与量化感知训练（Quantization-Aware Training, QAT）的结合。\n\n在知识蒸馏中，模型采用了一种高效的采样策略：对于训练数据中的每个 token，仅从教师模型输出的完整 logits 中采样 256 个最有可能的候选，并根据教师模型的概率进行加权，学生模型通过交叉熵损失学习这个分布，未被采样的 logits 目标概率设为零。研究还发现，在短训练周期（\u003c100B tokens）使用与学生规模相近的 \"小老师\" 模型效果更佳，而在长训练周期（>100B tokens）使用更大的教师模型能带来更显著的性能提升。预训练数据规模根据模型参数不同而调整，例如 27B 模型使用了 14 万亿 tokens。\n\n在预训练完成后，为了优化部署效率，模型进行了约 5,000 步的量化感知训练微调，使用原始非量化检查点的概率作为目标，使模型提前适应低精度运算。经过 QAT 优化后，量化至 Q4_0 格式时的困惑度下降减少了 54%，并大幅降低了内存占用，例如 27B 模型的权重所需显存从 BF16 精度的 54GB 降至 INT4 的 14.1GB，使其能在消费级 GPU 上运行。","order":3,"sourceName":"","sourceUrl":""},{"id":596,"slug":"gemma3-base-model-evaluation","title":"基础模型评估","description":"在预训练阶段，团队通过科学推理、代码、事实性、多语言、视觉和推理六项能力探测确保模型全面发展，其中多语言能力因更丰富的语料和平衡训练而提升最为显著。在标准基准测试中，Gemma 3 27B 参数版本表现卓越：在 MATH 测试中达到 89.0%，接近 Gemini 1.5 Pro；在 MMLU-Pro、LiveCodeBench、Bird-SQL、GPQA Diamond、FACTS Grounding 及 MMMU 等任务上均取得领先或媲美更大闭源模型的成绩。\n\n它支持至少 128K tokens 的上下文，在 RULER 128K 基准上准确率达 66.0%，展现了强大的长文档处理能力。集成 SigLIP 视觉编码器后，其在文档理解任务（如 DocVQA、InfoVQA、TextVQA）上的性能甚至优于更大的 PaliGemma 2 模型，且通过 Pan & Scan 图像处理方法提升了处理不同宽高比图像的鲁棒性。效率方面，27B 模型在单张 H100 GPU 上即可高效推理，算力需求仅为同类模型的约 1/10，并采用 5:1 交错的局部 / 全局注意力层架构优化了长上下文下的内存占用。安全性上，其记忆化率显著低于前代，在 CBRN 知识评估中显示有害知识水平极低，且经扫描未发现个人信息泄露。","order":4,"sourceName":"","sourceUrl":""},{"id":597,"slug":"gemma3-instruction-tuning","title":"Instruction Tuning","description":"指令微调模型的过程，旨在显著提升模型的实用性、交互性与安全性。该过程采用了一套先进的两阶段技术组合：\n\n- 首先，通过改进版的知识蒸馏，从一个大规模的指令微调教师模型中提取知识，使学生模型（Gemma 3）能够学习教师的策略分布。\n- 其次，进入强化学习微调阶段，采用了多种前沿的奖励优化算法，包括 BOND、WARM 和 WARP。\n- 这些方法共同作用，通过多样化的奖励函数来同步提升模型在多个维度的能力，包括对话的有用性、数学推理、代码生成、复杂推理、指令遵循以及多语言理解，同时致力于最小化模型的有害输出。\n- 奖励信号来源于多个渠道：基于人类反馈数据训练的加权平均奖励模型、代码执行反馈的真实结果，以及数学问题求解的准确性评估。","order":5,"sourceName":"","sourceUrl":""},{"id":598,"slug":"gemma3-chat-model-evaluation","title":"对话模型评估","description":"对话模型涵盖了人类主观评估和自动化客观基准测试。在最具代表性的人类评估平台 LMSYS Chatbot Arena（采用盲测对比）上，Gemma 3 27B 指令微调模型获得了 1338 的 ELO 评分，位列所有模型第 9 名，超越了包括 LLaMA 3 405B、Qwen2.5-70B 在内的多个参数量更大的开源模型，证明了其卓越的对话交互能力。在自动化基准测试中，该模型在衡量多学科理解的 MMLU-Pro 上得分 67.5，在数学推理基准 MATH 上得分 69.0，在代码生成基准 LiveCodeBench 上得分 29.7，在 SQL 查询基准 Bird-SQL 上得分 54.4，在科学推理基准 GPQA Diamond 上得分 42.4，在事实准确性基准 FACTS Grounding 上得分 74.9，并在多模态理解基准 MMMU 上得分 64.9，全面展示了其在知识、推理、代码及多模态方面的强大综合性能。此外，其在全球多语言理解测试中达到 75.1 分，体现了优秀的跨语言能力。在安全与责任评估方面，其记忆率（memorization rate）低至 0.001%，且在隐私检测中未发现个人敏感信息，符合负责任 AI 的开发要求。","order":6,"sourceName":"","sourceUrl":""}]},{"id":242,"slug":"deepseek-v2","title":"DeepSeek-V2","description":"DeepSeek-V2 是一款强大、经济且高效的混合专家（MoE）语言模型，总参数量达 236B，每个 token 仅激活 21B 参数，支持 128K 上下文长度。\r\n\r\n该模型通过两大创新架构实现显著性能提升：\r\n- 多头潜在注意力（MLA）采用低秩键值联合压缩技术，将 KV 缓存减少 93.3%，极大提升推理效率；\r\n- DeepSeekMoE 架构通过细粒度专家分割和共享专家隔离，在保持强大性能的同时降低训练成本 42.5%。\r\n\r\n模型在 8.1T tokens 的高质量多源语料上预训练，并在多个基准测试中表现优异，在 MMLU、AlpacaEval 2.0、MT-Bench 和 AlignBench 等评估中均达到开源模型顶级水平，最大生成吞吐量相比 DeepSeek 67B 提升至 5.76 倍，成为当时最强的开源 MoE 语言模型。","sourceName":"DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model","sourceUrl":"https://arxiv.org/abs/2405.04434","publishedDate":"2024-05-07","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/deepseek.svg","types":["llm"],"nodes":[{"id":599,"slug":"deepseek-v2-mla","title":"MLA","description":"MLA 旨在解决传统多头注意力（MHA）中 KV 缓存过大导致的推理效率瓶颈问题。\n\nMLA 通过低秩键值联合压缩技术，将高维的键值向量压缩为低维潜在向量，具体通过下投影矩阵将输入压缩为潜在向量，再通过上投影矩阵重建键值，在推理时上投影矩阵可吸收到查询和输出投影矩阵中，从而只需缓存压缩向量而非完整键值对，显著减少 93.3% 的 KV 缓存。\n\n为解决旋转位置编码（RoPE）与低秩压缩的兼容性问题，MLA 采用解耦 RoPE 策略，使用额外的多头查询和共享键来承载位置信息。\n\n相比传统 MHA，MLA 不仅将 KV 缓存减少，支持 128K 长上下文，还将最大生成吞吐量提升至 5.76 倍，同时在 MMLU 等基准测试中表现优于 MHA，实现了性能与效率的双重提升。","order":1,"sourceName":"","sourceUrl":""},{"id":600,"slug":"deepseek-v2-deepseekmoe","title":"DeepSeekMoE","description":"DeepSeekMoE 的核心思想是对传统的 FFN（前馈网络）层进行改造，将其转换为由大量小型专家（Expert）组成的稀疏激活网络。每个专家本质上是一个独立的小型 FFN。对于每个输入令牌（Token），路由器（Router）会根据其内容选择激活最相关的少数几个专家（例如 Top-2），并将它们的输出加权组合。这样，虽然模型总参数量巨大（DeepSeek-V2 总参数量为 236B），但每个令牌实际激活的参数量仅为 21B，极大地减少了计算和内存开销。","order":2,"sourceName":"","sourceUrl":""}]},{"id":243,"slug":"deepseek-v3","title":"DeepSeek-V3","description":"DeepSeek-V3 是一个拥有 6710 亿总参数、每个令牌激活 370 亿参数的混合专家模型，它采用了多头潜在注意力架构实现高效推理，并基于 DeepSeekMoE 架构实现经济训练，同时创新性地引入了无辅助损失负载均衡策略和多令牌预测训练目标以进一步提升性能。\r\n\r\n该模型在 14.8 万亿高质量令牌上进行了预训练，通过 FP8 混合精度训练、DualPipe 算法和计算 - 通信重叠等优化技术，仅用 278.8 万 H800 GPU 小时就完成了完整训练，总成本约 557.6 万美元。\r\n\r\n在性能方面，DeepSeek-V3 在 MMLU、MMLU-Pro、GPQA 等知识基准测试中超越所有开源模型，在数学推理任务上甚至超越了 o1-preview，在代码竞赛基准 LiveCodeBench 上表现最佳，整体性能接近 GPT-4o 和 Claude-3.5-Sonnet 等领先闭源模型，展现了开源模型在保持高效训练成本的同时达到顶尖性能的能力。","sourceName":"DeepSeek-V3 Technical Report","sourceUrl":"https://arxiv.org/abs/2412.19437","publishedDate":"2024-12-27","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/deepseek.svg","types":["llm"],"nodes":[{"id":601,"slug":"deepseek-v3-architecture-innovations","title":"模型架构创新","description":"V3 架构在继承 V2 框架的基础上，集成了多项核心创新以实现高效推理与经济训练：\n\n- 模型采用了多头潜在注意力（MLA），通过对注意力键值对进行低秩联合压缩，在推理时仅需缓存压缩后的潜在向量，从而大幅减少 KV 缓存的内存占用；\n- 在 FFN 部分，模型使用 DeepSeekMoE 架构，包含共享专家和路由专家，以实现参数的高效利用。其最显著的创新之一是引入了无辅助损失负载均衡策略，该策略通过为每个专家引入可动态调整的偏置项来引导路由决策，从而在保证各专家负载均衡的同时，彻底避免了传统辅助损失函数对模型主任务性能的负面影响；\n- 此外，架构还设置了多令牌预测训练目标，通过顺序预测多个未来令牌来增强模型的表示学习能力，此目标在训练后可用于推测解码以加速推理。\n\n这些技术创新，MLA 保障了推理效率，DeepSeekMoE 与创新的负载均衡策略实现了高效且高性能的训练，多令牌预测则进一步提升了模型能力，协同工作，共同使 DeepSeek-V3 能够在拥有 6710 亿总参数的规模下，实现每个令牌仅激活 370 亿参数，在性能与效率之间取得了卓越的平衡。","order":1,"sourceName":"","sourceUrl":""},{"id":602,"slug":"deepseek-v3-infrastructure-optimizations","title":"基础设施优化","description":"在计算集群方面，模型在配备 2048 个 NVIDIA H800 GPU 的集群上进行训练，采用分层互联架构，节点内通过 NVLink / NVSwitch 高速互联，节点间使用 InfiniBand 互连。\n\n训练框架基于 HAI-LLM 框架，采用 16 路流水线并行、64 路专家并行和 ZeRO-1 数据并行的混合并行策略。\n\n为解决跨节点专家并行引入的沉重通信开销，团队设计了创新的 DualPipe 双向流水线并行算法，该算法通过将每个计算块细分为注意力机制、全对全分发、MLP 处理和全对全整合四个组件，并重新排列这些组件以精确调整 GPU 流处理器资源分配比例，实现了全对全通信和 PP 通信在执行过程中的完全隐藏。\n\n为确保 DualPipe 的计算性能，团队定制了高效的跨节点全对全通信内核，充分利用 NVLink（约 160GB/s）和 InfiniBand（约 50GB/s）的带宽差异，通过分层转发机制和节点限制路由（每令牌最多分配到 4 个节点）减少 IB 通信流量。\n\n内存优化方面，通过重计算技术、CPU 异步更新和参数共享等技术，使得 DeepSeek-V3 能够在不需要昂贵张量并行的情况下进行训练。\n\nFP8 混合精度训练框架首次在超大规模模型上验证了可行性，采用细粒度混合精度策略，大多数计算密集型操作在 FP8 精度下执行（理论上计算速度比 BF16 提高一倍），而对数值敏感的关键组件保持原始精度。通过细粒度量化（激活采用 1 × 128 的 tile-wise 分组，权重采用 128 × 128 的 block-wise 分组）、高精度累加和统一 E4M3 格式等技术，FP8 训练的相对损失误差始终保持在 BF16 基线的 0.25% 以内。\n\n推理部署分为预填充阶段（最小部署单元 4 节点 32 GPU）和解码阶段（最小部署单元 40 节点 320 GPU），采用冗余专家策略和计算 - 通信重叠优化。\n\n硬件设计建议包括为通信任务设计专用协处理器、提供跨 IB 和 NVLink 的统一通信原语、改进 Tensor Core 支持 FP32 累加精度和在线量化加速等。","order":2,"sourceName":"","sourceUrl":""},{"id":603,"slug":"deepseek-v3-pretraining","title":"预训练","description":"DeepSeek-V3 的预训练阶段在 14.8 万亿个高质量、多样化的 token 上进行，采用 129,280 词汇表和 128K 最大上下文长度，数据预处理包含文档打包和 Fill-in-Middle 策略以增强模型上下文理解能力。\n\n模型架构采用 61 层 Transformer，隐藏维度 7168，配备多头潜在注意力（MLA）和 DeepSeekMoE 混合专家系统，其中包含 1 个共享专家和 256 个路由专家，每个 token 激活 8 个专家。\n\n训练采用 AdamW 优化器，学习率经过精心调度，从初始线性增长到 $2.2 \\times 10^{-4}$，随后按余弦衰减至 $2.2 \\times 10^{-5}$，最终阶段降至 $7.3 \\times 10^{-6}$，批量大小从 3072 逐步增加到 15360。\n\n预训练完成后，通过两阶段 YaRN 方法将上下文窗口从 4K 扩展到 32K 再扩展到 128K，每个扩展阶段包含 1000 步训练。\n\n整个预训练过程表现出卓越的稳定性，未出现任何不可恢复的损失尖峰或需要回滚的情况，仅消耗 2.664M H800 GPU 小时（相当于每万亿 token 180K GPU 小时），最终产出 DeepSeek-V3-Base 基础模型，该模型在多项基准测试中展现出顶尖性能，特别是在代码和数学任务上表现突出。","order":3,"sourceName":"","sourceUrl":""},{"id":604,"slug":"deepseek-v3-post-training","title":"后训练","description":"后训练阶段包括监督微调和强化学习两个关键环节，总成本仅 5K H800 GPU 小时。\n\n- 监督微调使用高质量人类标注对话数据对基础模型进行对齐，使其更好地遵循人类指令和偏好；\n- 强化学习采用创新的组相对策略优化方法，通过响应分组比较和相对排名而非绝对分数来优化模型策略，这种方法更稳定且能更好捕捉人类偏好的细微差别；\n- 评估结果显示 DeepSeek-V3-Chat 在标准基准测试中与 GPT-4o 和 Claude-3.5-Sonnet 等领先闭源模型性能相当，在开放式评估中于帮助性、安全性、事实准确性和创造性等方面获得高度评价。","order":4,"sourceName":"","sourceUrl":""}]},{"id":244,"slug":"deepseek-r1","title":"DeepSeek-R1","description":"DeepSeek-R1 是深度求索（DeepSeek-AI）在 2025 年 1 月发布并于同年 9 月登上《Nature》封面的重要论文，其核心贡献在于首次系统性地验证了通过纯强化学习（RL）激发大语言模型推理能力的全新范式。\r\n\r\n论文提出了完全无需监督微调（SFT）冷启动的 DeepSeek-R1-Zero 模型，证明了 LLM 仅通过奖励信号就能自主发展出反思、验证等复杂推理行为；在此基础上，通过创新的四阶段训练流程（冷启动、推理导向 RL、拒绝采样与 SFT、全场景 RL）和 GRPO 算法，最终优化出 DeepSeek-R1 模型，在 AIME 2024、MATH-500 等推理基准上达到与 OpenAI o1 系列相当的性能。\r\n\r\n此外，论文还展示了高效的蒸馏技术，能够将大模型的推理能力有效迁移至小模型，显著降低了部署成本。这项工作的意义不仅在于技术突破，更在于其完全开源的精神，为整个 AI 研究社区提供了宝贵的模型、代码和方法论，推动了推理模型的发展并挑战了闭源模型的领先地位。","sourceName":"DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning","sourceUrl":"https://arxiv.org/abs/2501.12948","publishedDate":"2025-01-22","isFree":false,"isMajor":true,"logoUrl":"https://learnllm.ai/logo/deepseek.svg","types":["llm"],"nodes":[{"id":605,"slug":"deepseek-r1-r1-zero-experiment","title":"一个实验（第 0 次 Post-Training）DeepSeek-R1-Zero","description":"R1-Zero 首次证明了大语言模型可以完全通过强化学习（RL）自主发展出强大的推理能力，无需任何监督微调（SFT）数据作为冷启动。\n\n该研究基于 DeepSeek-V3-Base（671B 参数）基座模型，采用创新的 GRPO 算法和基于规则的奖励系统进行纯 RL 训练，模型在训练过程中展现出“顿悟时刻”，自主学会了反思、验证和生成长思维链等复杂推理行为。\n\n在 AIME 2024 数学竞赛中，其准确率从基座模型的 15.6% 大幅提升至 71.0%（多数投票后达 86.7%），性能与 OpenAI o1-0912 相当。\n\n这一成果挑战了传统依赖大量标注数据的训练范式，证明了推理能力可能是模型的内在属性，只需适当的奖励信号就能被激发出来，为降低数据依赖、实现更自主的 AI 能力发展提供了全新路径。\n\n尽管存在可读性差、语言混合等局限性，但 R1-Zero 的成功直接催生了后续通过多阶段训练优化的 DeepSeek-R1 完整版本。","order":1,"sourceName":"","sourceUrl":""},{"id":606,"slug":"deepseek-r1-first-post-training","title":"第一次 Post-Training","description":"DeepSeek-R1 的训练流程，第一次 Post-Training 包含 SFT 和 RL 两个阶段：\n\n阶段 1 的冷启动监督微调（Cold Start SFT）旨在解决纯强化学习训练中出现的输出可读性差和语言混合问题，通过使用数千条高质量的长思维链数据对基础模型进行微调，为模型注入规范化推理模式和语言一致性，建立稳定的初始策略。\n\n在此基础上，阶段 2 的面向推理强化学习（Reasoning-Oriented RL）采用 GRPO 算法，结合基于规则的准确性奖励和语言一致性奖励，在数学、编程和科学推理等任务上进行大规模训练，显著提升模型的推理能力，同时保持输出的可读性。\n\n这两个阶段协同作用，既通过 SFT 引入人类先验知识以规范行为，又通过 RL 允许模型自主探索更优的推理策略，最终实现了强大的推理性能与良好可读性的平衡。\n\n- 阶段 1：冷启动监督微调（Cold Start SFT）\n- 阶段 2：面向推理的强化学习（Reasoning-Oriented RL）\n- 阶段 3：拒绝采样与监督微调（Rejection Sampling & SFT）\n- 阶段 4：全场景强化学习（RL for All Scenarios）","order":2,"sourceName":"","sourceUrl":""},{"id":607,"slug":"deepseek-r1-second-post-training","title":"第二次 Post-Training","description":"第二次 Post-Training 是为了将专项推理能力泛化到通用场景并实现全面对齐。\n\n阶段 3 的核心是通过拒绝采样技术从阶段 2 的 RL 检查点中筛选高质量样本，构建大规模训练数据集，其中推理数据（约 60 万个样本）通过基于规则的奖励或 DeepSeek-V3 作为生成式奖励模型（LLM as Judge）进行评估，非推理数据（约 20 万个样本）则复用 DeepSeek-V3 的 SFT 数据集并增强多样性，混合后对 DeepSeek-V3-Base 进行两轮监督微调，从而将模型在数学、编程等专项任务上涌现的推理能力迁移到更广泛的通用任务中，显著提升输出可读性和通用表现。\n\n阶段 4 则在阶段 3 的 SFT 模型基础上进行最终对齐优化，采用组合奖励策略：对于推理任务（如数学、编程）沿用基于规则的准确性奖励，对于开放域通用任务（如创意写作、多轮对话）则引入基于人类偏好的奖励模型来评估输出的帮助性和无害性，通过这种混合奖励机制和覆盖所有场景的多样化提示词训练，模型在保持甚至增强专项推理能力的同时，实现了与人类价值观的全面对齐，最终产出既强大又实用的 DeepSeek-R1 最终版本。","order":3,"sourceName":"","sourceUrl":""}]},{"id":245,"slug":"h200","title":"H200","description":"H200 是 NVIDIA 推出的 \"Hopper Refresh\" 数据中心 GPU，于 2023 年 11 月 13 日在 Supercomputing 2023（SC23）大会上正式发布。H200 在架构上沿用 H100 的 Hopper 核心（同样为 800 亿晶体管、TSMC 4N 工艺），并非一款全新架构产品，而是对 H100 的\"显存子系统升级 + 容量升级\"。\r\n\r\nH200 最关键的升级在于显存：首次将 **HBM3e** 引入数据中心 GPU，单卡容量从 H100 的 80 GB 跃升至 **141 GB**（提升约 76%），带宽从 3.35 TB/s 提升到 **4.8 TB/s**（提升约 43%）。更大的显存和更高的带宽直接缓解了大模型推理的\"内存墙\"瓶颈——70B 级别模型可单卡容纳、175B 级别模型仅需 2 张卡即可装下权重，KV Cache 也能保留更长上下文。\r\n\r\nH200 的算力、NVLink 4.0（900 GB/s）、TDP（700W SXM5）等关键参数与 H100 保持一致，硬件形态（SXM5 / PCIe）和软件栈（CUDA、cuDNN、Transformer Engine）完全兼容，已部署 H100 的数据中心可以\"drop-in\"替换。这意味着 H200 不是为重训而生，而是 H100 退役后接棒 LLM 推理时代的产品。\r\n\r\n与 H100 配合使用的 NVLink Network、DGX H200 / HGX H200 等整机柜方案让单节点即可拥有 1.1 TB 级别的 HBM3e 显存，构成了 2024 年大模型推理与长上下文应用的核心算力底座。","sourceName":"NVIDIA H200 Tensor Core GPU Datasheet","sourceUrl":"https://www.nvidia.com/en-us/data-center/h200/","publishedDate":"2023-11-13","isFree":false,"isMajor":false,"logoUrl":"","types":["gpu"],"nodes":[{"id":608,"slug":"h200-architecture","title":"H200","description":"NVIDIA H200 是 H100 的 \"Hopper Refresh\" 版本，沿用 Hopper 架构与 NVLink 4.0，主要升级是 HBM3e 显存：141GB 容量与 4.8TB/s 带宽。","order":1,"sourceName":"","sourceUrl":""}]},{"id":249,"slug":"b200","title":"B200","description":"$14","sourceName":"NVIDIA Blackwell Tuning Guide","sourceUrl":"https://docs.nvidia.com/cuda/archive/12.8.0/pdf/Blackwell_Tuning_Guide.pdf","publishedDate":"2024-06-07","isFree":false,"isMajor":false,"logoUrl":"","types":["gpu"],"nodes":[{"id":612,"slug":"b200-architecture","title":"B200","description":"英伟达 B200 是基于 Blackwell 架构、面向 AI 工厂时代的旗舰数据中心 GPU，搭载双 die 封装、第二代 Transformer 引擎、第五代 NVLink 与 192 GB HBM3e，将单卡算力、显存容量与多机互联规模推到了新的量级。","order":1,"sourceName":"","sourceUrl":""}]},{"id":250,"slug":"b300","title":"B300","description":"Blackwell Ultra（产品代号 B300，平台代号 GB300 NVL72）是 NVIDIA 在 2025 年 3 月 GTC 大会上公布的 Blackwell 同代 refresh 升级版，2025 年末到 2026 年上半年开始大规模量产。Ultra 不引入新架构，而是把同一颗 Blackwell die 在 HBM、Transformer Engine、互联拓扑三个维度上做到\"推理极致\"，是 NVIDIA 在 LLM 进入\"agentic AI / reasoning\"时代后押注的硬件主力。\r\n\r\n与 B200 相比，Blackwell Ultra 最显著的三项升级全部围绕\"推理\"展开：HBM3e 显存从 192 GB 提升到 288 GB（+50%），单卡就能放下 Llama-3.1-405B 这样的稠密千亿模型；Transformer Engine 升级为第二代 Ultra，attention-layer 路径实现 2× 加速；NVFP4（4-bit）原生支持从 weight 延伸到 attention 的 softmax / QK^T 路径，使得长上下文推理在精度几乎不掉的情况下把 token 成本砍掉一半。整机柜层面，GB300 NVL72 沿用 72 颗 Blackwell Ultra + Grace CPU 的 NVL72 形态。NVIDIA 公开数据：相比 NVIDIA Hopper 平台，GB300 NVL72 整机柜 AI 工厂产出提升最高达 50×。\r\n\r\n软件侧的关键配套是 NVIDIA Dynamo——取代 Triton Inference Server 的下一代推理服务栈，原生支持跨 GPU / 跨节点的 KV cache 卸载与调度，配合 TensorRT-LLM 在 GB300 上实现相比 Hopper 平台最高 35× 更低的推理成本（NVIDIA 官方：\"35× lower cost for agentic AI\"）。GB300 NVL72 已被 Microsoft Azure、CoreWeave、Oracle Cloud Infrastructure 等超大规模云厂商部署用于低延迟、长上下文的 agentic 编码与编程助手等场景。","sourceName":"NVIDIA GTC 2025 Keynote & Blackwell Ultra Architecture Brief","sourceUrl":"https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/","publishedDate":"2025-03-18","isFree":false,"isMajor":false,"logoUrl":"","types":["gpu"],"nodes":[{"id":613,"slug":"b300-architecture","title":"B300","description":"英伟达 B300（Blackwell Ultra）是 NVIDIA 在 2025 年 3 月 GTC 大会上公布的 Blackwell 同代 refresh 升级版，搭载 288 GB HBM3e、第二代 Transformer Engine Ultra 与 NVFP4 at attention 路径，是 2026 年之后 LLM 推理与 agentic AI 部署的主力硬件。","order":1,"sourceName":"","sourceUrl":""}]},{"id":251,"slug":"rubin-gpu","title":"Rubin GPU","description":"$15","sourceName":"NVIDIA Vera Rubin NVL72 Product Page","sourceUrl":"https://www.nvidia.com/en-us/data-center/vera-rubin/","publishedDate":"2026-01-07","isFree":false,"isMajor":false,"logoUrl":"","types":["gpu"],"nodes":[{"id":614,"slug":"rubin-gpu-architecture","title":"Rubin GPU","description":"NVIDIA Vera Rubin 是面向 AI 工厂时代的下一代数据中心 GPU 架构，旗舰产品 Rubin GPU 与 Vera Rubin NVL72 整机柜以 HBM4 首代引入、NVLink 6.0 翻倍带宽、260 TB/s 域内聚合带宽为核心创新，将单卡算力、显存带宽与整机柜互联规模推到了新的量级。","order":1,"sourceName":"","sourceUrl":""}]}]}</script>
+  <script>
+    (() => {
+      "use strict";
+
+      const data = JSON.parse(document.getElementById("learning-data").textContent);
+      const byId = new Map(data.milestones.map((item) => [String(item.id), item]));
+      const typeNames = new Map(data.types.map((type) => [type.slug, type.title]));
+      const dialog = document.getElementById("detail-dialog");
+      const dialogTitle = document.getElementById("dialog-title");
+      const dialogDate = document.getElementById("dialog-date");
+      const dialogSource = document.getElementById("dialog-source");
+      const dialogBadges = document.getElementById("dialog-badges");
+      const dialogDescription = document.getElementById("dialog-description");
+      const nodeCount = document.getElementById("node-count");
+      const nodeList = document.getElementById("node-list");
+      const logoWrap = document.getElementById("logo-wrap");
+      const sourceLink = document.getElementById("source-link");
+      let previousFocus = null;
+
+      function appendInlineMarkup(parent, text) {
+        const parts = String(text).split(/(\*\*[^*]+\*\*)/g);
+        for (const part of parts) {
+          if (part.startsWith("**") && part.endsWith("**")) {
+            const strong = document.createElement("strong");
+            strong.textContent = part.slice(2, -2);
+            parent.append(strong);
+          } else {
+            parent.append(document.createTextNode(part));
+          }
+        }
+      }
+
+      function renderText(target, value) {
+        target.replaceChildren();
+        const text = String(value || "").trim();
+        if (!text) {
+          const empty = document.createElement("p");
+          empty.textContent = "暂无补充说明。";
+          target.append(empty);
+          return;
+        }
+
+        const blocks = text.split(/\n\s*\n/);
+        for (const block of blocks) {
+          const lines = block.split("\n");
+          const isList = lines.every((line) => /^\s*-\s+/.test(line));
+          if (isList) {
+            const list = document.createElement("ul");
+            for (const line of lines) {
+              const item = document.createElement("li");
+              appendInlineMarkup(item, line.replace(/^\s*-\s+/, ""));
+              list.append(item);
+            }
+            target.append(list);
+          } else {
+            const paragraph = document.createElement("p");
+            lines.forEach((line, index) => {
+              if (index) paragraph.append(document.createElement("br"));
+              appendInlineMarkup(paragraph, line);
+            });
+            target.append(paragraph);
+          }
+        }
+      }
+
+      function createBadge(label, className = "") {
+        const badge = document.createElement("span");
+        badge.className = ("badge " + className).trim();
+        badge.textContent = label;
+        return badge;
+      }
+
+      function renderLogo(item) {
+        logoWrap.replaceChildren();
+        const fallback = document.createElement("span");
+        fallback.textContent = item.title.slice(0, 2).toUpperCase();
+        logoWrap.append(fallback);
+        if (!item.logoUrl) return;
+
+        const image = document.createElement("img");
+        image.alt = "";
+        image.src = item.logoUrl;
+        image.addEventListener("load", () => logoWrap.replaceChildren(image), { once: true });
+        image.addEventListener("error", () => image.remove(), { once: true });
+      }
+
+      function renderNodes(item) {
+        nodeList.replaceChildren();
+        nodeCount.textContent = item.nodes.length + " 个节点";
+        for (const node of item.nodes) {
+          const details = document.createElement("details");
+          details.className = "node";
+
+          const summary = document.createElement("summary");
+          const index = document.createElement("span");
+          index.className = "node-index";
+          index.textContent = String(node.order).padStart(2, "0");
+          const title = document.createElement("span");
+          title.textContent = node.title;
+          summary.append(index, title);
+
+          const body = document.createElement("div");
+          body.className = "node-body description";
+          renderText(body, node.description);
+          details.append(summary, body);
+          nodeList.append(details);
+        }
+      }
+
+      function openDetails(item, trigger) {
+        previousFocus = trigger;
+        dialogDate.textContent = item.publishedDate.replaceAll("-", " / ");
+        dialogTitle.textContent = item.title;
+        dialogSource.textContent = item.sourceName;
+        dialogBadges.replaceChildren();
+        for (const type of item.types) dialogBadges.append(createBadge(typeNames.get(type) || type, "badge-accent"));
+        if (item.isMajor) dialogBadges.append(createBadge("关键里程碑", "badge-gold"));
+        if (item.isFree) dialogBadges.append(createBadge("原站免费内容", "badge-accent"));
+        renderText(dialogDescription, item.description);
+        renderNodes(item);
+        renderLogo(item);
+        sourceLink.href = item.sourceUrl;
+        sourceLink.setAttribute("aria-label", "打开 " + item.title + " 的论文原文或官方技术文档");
+        dialog.showModal();
+        document.getElementById("close-dialog").focus();
+      }
+
+      document.querySelector("tbody").addEventListener("click", (event) => {
+        const trigger = event.target.closest("[data-milestone-id]");
+        if (!trigger) return;
+        const item = byId.get(trigger.dataset.milestoneId);
+        if (item) openDetails(item, trigger);
+      });
+
+      document.getElementById("close-dialog").addEventListener("click", () => dialog.close());
+      dialog.addEventListener("click", (event) => {
+        if (event.target === dialog) dialog.close();
+      });
+      dialog.addEventListener("close", () => {
+        if (previousFocus?.isConnected) previousFocus.focus();
+      });
+
+      const nodeTotal = data.milestones.reduce((sum, item) => sum + item.nodes.length, 0);
+      const invalidSources = data.milestones.filter((item) => !item.sourceUrl.startsWith("https://") || /learnllm\.ai\/learning/i.test(item.sourceUrl));
+      if (data.types.length !== 14 || data.milestones.length !== 70 || nodeTotal !== 180 || invalidSources.length) {
+        console.error("LearnLLM snapshot integrity check failed", {
+          types: data.types.length,
+          milestones: data.milestones.length,
+          nodes: nodeTotal,
+          invalidSources,
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
